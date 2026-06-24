@@ -1,0 +1,2535 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2026-04-19T11:59:33.486616+00:00",
+  "custom_fields": {
+    "code:codeRepository": "https://github.com/justinlietz93/Prometheus_VDM",
+    "code:developmentStatus": {
+      "id": "active",
+      "title": {
+        "en": "Active"
+      }
+    },
+    "code:programmingLanguage": [
+      {
+        "id": "python",
+        "title": {
+          "en": "Python"
+        }
+      }
+    ]
+  },
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 48,
+    "default_preview": "phase_calculus_demonstration_paper_v5_4_cfn_standard_release.pdf",
+    "enabled": true,
+    "entries": {
+      "O-U_Phase-Calc_FULL_PACKAGE.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:90a0eaadcea84a172760607ba5bcbb00",
+        "ext": "zip",
+        "id": "b6271cbe-b2a8-4568-aced-cf2a06118e52",
+        "key": "O-U_Phase-Calc_FULL_PACKAGE.zip",
+        "links": {
+          "container": "https://zenodo.org/api/records/19651366/files/O-U_Phase-Calc_FULL_PACKAGE.zip/container",
+          "content": "https://zenodo.org/api/records/19651366/files/O-U_Phase-Calc_FULL_PACKAGE.zip/content",
+          "self": "https://zenodo.org/api/records/19651366/files/O-U_Phase-Calc_FULL_PACKAGE.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 9534465,
+        "storage_class": "L"
+      },
+      "README.md": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:cd63d078be1f174fc1bb434e8b7316de",
+        "ext": "md",
+        "id": "45991f3e-5d7a-4dbd-9b04-178f7ae1bb1d",
+        "key": "README.md",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/README.md/content",
+          "self": "https://zenodo.org/api/records/19651366/files/README.md"
+        },
+        "metadata": {},
+        "mimetype": "application/octet-stream",
+        "size": 4633,
+        "storage_class": "L"
+      },
+      "cfn_bio_C1_quarter_triplet_appearances.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:96835b8dd154ba03934ab157f4fba264",
+        "ext": "png",
+        "id": "f4a9ea29-4809-4e46-84de-83323c5c1d18",
+        "key": "cfn_bio_C1_quarter_triplet_appearances.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_bio_C1_quarter_triplet_appearances.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_C1_quarter_triplet_appearances.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_C1_quarter_triplet_appearances.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_bio_C1_quarter_triplet_appearances.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_C1_quarter_triplet_appearances.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_bio_C1_quarter_triplet_appearances.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 50675,
+        "storage_class": "L"
+      },
+      "cfn_bio_C2_residual_weighted_counts.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:929686a5bbf1abb2793274b52f3df5e9",
+        "ext": "png",
+        "id": "5faa9f9d-c95d-4c8f-9cc9-66143d5b3a48",
+        "key": "cfn_bio_C2_residual_weighted_counts.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_bio_C2_residual_weighted_counts.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_C2_residual_weighted_counts.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_C2_residual_weighted_counts.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_bio_C2_residual_weighted_counts.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_C2_residual_weighted_counts.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_bio_C2_residual_weighted_counts.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 46546,
+        "storage_class": "L"
+      },
+      "cfn_bio_C3_host_partitions.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:5a1a627b49c4fb5de51fe6be834362eb",
+        "ext": "png",
+        "id": "e6fe14c4-4dcf-41af-96ba-a444a9a8a939",
+        "key": "cfn_bio_C3_host_partitions.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_bio_C3_host_partitions.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_C3_host_partitions.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_C3_host_partitions.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_bio_C3_host_partitions.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_C3_host_partitions.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_bio_C3_host_partitions.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 49482,
+        "storage_class": "L"
+      },
+      "cfn_bio_C4_sympy_agreement.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:eecee175dc7d4c7247197cf9d257b0f7",
+        "ext": "png",
+        "id": "c59c44c9-c231-444f-95e3-a915df70c3d1",
+        "key": "cfn_bio_C4_sympy_agreement.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_bio_C4_sympy_agreement.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_C4_sympy_agreement.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_C4_sympy_agreement.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_bio_C4_sympy_agreement.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_C4_sympy_agreement.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_bio_C4_sympy_agreement.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 48830,
+        "storage_class": "L"
+      },
+      "cfn_bio_G1_claim_synthesis.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:791b5f2094570a55f1e1547e9eea787a",
+        "ext": "png",
+        "id": "c0e1d350-7b4b-4387-9c37-4913909de68a",
+        "key": "cfn_bio_G1_claim_synthesis.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_bio_G1_claim_synthesis.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_G1_claim_synthesis.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_G1_claim_synthesis.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_bio_G1_claim_synthesis.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_G1_claim_synthesis.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_bio_G1_claim_synthesis.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 39612,
+        "storage_class": "L"
+      },
+      "cfn_bio_G2_wrong_form_controls.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:bdce04dcbd0f9e92c272135406ccf57c",
+        "ext": "png",
+        "id": "5864b00c-1d82-4ed3-b482-aff265a70c8c",
+        "key": "cfn_bio_G2_wrong_form_controls.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_bio_G2_wrong_form_controls.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_G2_wrong_form_controls.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_G2_wrong_form_controls.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_bio_G2_wrong_form_controls.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_bio_G2_wrong_form_controls.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_bio_G2_wrong_form_controls.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 133063,
+        "storage_class": "L"
+      },
+      "cfn_ext_C1_yellow_projector_uniqueness.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:6d4438c39fe9c2e2c1c17b70f3ff1790",
+        "ext": "png",
+        "id": "ea5a2244-b9df-4b48-8284-7de00b91a0ba",
+        "key": "cfn_ext_C1_yellow_projector_uniqueness.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_C1_yellow_projector_uniqueness.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C1_yellow_projector_uniqueness.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C1_yellow_projector_uniqueness.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_ext_C1_yellow_projector_uniqueness.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C1_yellow_projector_uniqueness.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_C1_yellow_projector_uniqueness.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 52508,
+        "storage_class": "L"
+      },
+      "cfn_ext_C2_cyclic_naming_uniqueness.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:03ca3d8a8dee67ceaf4a6799c364b5cd",
+        "ext": "png",
+        "id": "ace8d46b-c06a-4e1f-ba1d-52c0d5460957",
+        "key": "cfn_ext_C2_cyclic_naming_uniqueness.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_C2_cyclic_naming_uniqueness.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C2_cyclic_naming_uniqueness.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C2_cyclic_naming_uniqueness.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_ext_C2_cyclic_naming_uniqueness.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C2_cyclic_naming_uniqueness.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_C2_cyclic_naming_uniqueness.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 44803,
+        "storage_class": "L"
+      },
+      "cfn_ext_C3_centered_scaffold_counts.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:8429a93f6afe26e9794ad2f5c69eeeb2",
+        "ext": "png",
+        "id": "7b7fa86e-05aa-493f-ae9d-a43ddbbbfd06",
+        "key": "cfn_ext_C3_centered_scaffold_counts.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_C3_centered_scaffold_counts.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C3_centered_scaffold_counts.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C3_centered_scaffold_counts.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_ext_C3_centered_scaffold_counts.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C3_centered_scaffold_counts.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_C3_centered_scaffold_counts.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 43597,
+        "storage_class": "L"
+      },
+      "cfn_ext_C4_scaffold_entropy_production.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:de8b6a8fa9804227b3e2ee21725c02fe",
+        "ext": "png",
+        "id": "153a72c9-fdd3-40ba-8d75-37ed81efe797",
+        "key": "cfn_ext_C4_scaffold_entropy_production.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_C4_scaffold_entropy_production.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C4_scaffold_entropy_production.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C4_scaffold_entropy_production.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_ext_C4_scaffold_entropy_production.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C4_scaffold_entropy_production.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_C4_scaffold_entropy_production.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 154042,
+        "storage_class": "L"
+      },
+      "cfn_ext_C5_e8_inner_product_multiplicities.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:b651fbb1942d5c869c2dc26ed4ee90aa",
+        "ext": "png",
+        "id": "f275f015-c05a-4eab-abf0-842afa244327",
+        "key": "cfn_ext_C5_e8_inner_product_multiplicities.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_C5_e8_inner_product_multiplicities.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C5_e8_inner_product_multiplicities.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C5_e8_inner_product_multiplicities.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_ext_C5_e8_inner_product_multiplicities.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C5_e8_inner_product_multiplicities.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_C5_e8_inner_product_multiplicities.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 51389,
+        "storage_class": "L"
+      },
+      "cfn_ext_C6_green_quotient_residual.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:2fb6c474b4fe65dff62b32baf617f199",
+        "ext": "png",
+        "id": "68a26df7-bac3-439d-9b43-f8481eb9f328",
+        "key": "cfn_ext_C6_green_quotient_residual.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_C6_green_quotient_residual.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C6_green_quotient_residual.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C6_green_quotient_residual.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_ext_C6_green_quotient_residual.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C6_green_quotient_residual.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_C6_green_quotient_residual.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 61477,
+        "storage_class": "L"
+      },
+      "cfn_ext_C7_red_contour_cocycle.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:4ff3a313a1f4b60d083edbeafcb3d1c3",
+        "ext": "png",
+        "id": "c2b5732c-3401-436e-8a46-55fef0d77241",
+        "key": "cfn_ext_C7_red_contour_cocycle.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_C7_red_contour_cocycle.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C7_red_contour_cocycle.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C7_red_contour_cocycle.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_ext_C7_red_contour_cocycle.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C7_red_contour_cocycle.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_C7_red_contour_cocycle.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 41871,
+        "storage_class": "L"
+      },
+      "cfn_ext_G1_positive_claim_synthesis.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:b110713f347beb733ac607ecb46d64ab",
+        "ext": "png",
+        "id": "9c94f349-94fc-4a46-b65a-b2e990e989a5",
+        "key": "cfn_ext_G1_positive_claim_synthesis.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_G1_positive_claim_synthesis.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_G1_positive_claim_synthesis.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_G1_positive_claim_synthesis.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_ext_G1_positive_claim_synthesis.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_G1_positive_claim_synthesis.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_G1_positive_claim_synthesis.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 39453,
+        "storage_class": "L"
+      },
+      "cfn_ext_G2_wrong_form_controls.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:f364ef8d93fbd8ef82dadbeed3ff08c4",
+        "ext": "png",
+        "id": "2d2543ee-7f9e-4592-9deb-bb394da2f37c",
+        "key": "cfn_ext_G2_wrong_form_controls.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_G2_wrong_form_controls.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_G2_wrong_form_controls.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_G2_wrong_form_controls.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_ext_G2_wrong_form_controls.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_G2_wrong_form_controls.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_G2_wrong_form_controls.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 201176,
+        "storage_class": "L"
+      },
+      "cfn_ext_G3_sympy_agreement.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:0538770818a54b3302d5a4030c75e571",
+        "ext": "png",
+        "id": "e3bbc72e-1463-4d01-86c7-b0f53f816a7a",
+        "key": "cfn_ext_G3_sympy_agreement.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_G3_sympy_agreement.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_G3_sympy_agreement.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_G3_sympy_agreement.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_ext_G3_sympy_agreement.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_G3_sympy_agreement.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_G3_sympy_agreement.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 47411,
+        "storage_class": "L"
+      },
+      "cfn_pi_C1_native_prefix_throughput.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:79b41fb741e4482053a6c35b3f7649ef",
+        "ext": "png",
+        "id": "a0631d3a-329d-4fbf-b054-61133bb0cae6",
+        "key": "cfn_pi_C1_native_prefix_throughput.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_C1_native_prefix_throughput.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C1_native_prefix_throughput.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C1_native_prefix_throughput.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_pi_C1_native_prefix_throughput.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C1_native_prefix_throughput.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_C1_native_prefix_throughput.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 72277,
+        "storage_class": "L"
+      },
+      "cfn_pi_C2_included_baseline_speedups.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:d3d39aeeb6dc85c33e2087202fbe297c",
+        "ext": "png",
+        "id": "a0128f5b-8d0f-4562-af67-59995b46656d",
+        "key": "cfn_pi_C2_included_baseline_speedups.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_C2_included_baseline_speedups.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C2_included_baseline_speedups.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C2_included_baseline_speedups.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_pi_C2_included_baseline_speedups.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C2_included_baseline_speedups.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_C2_included_baseline_speedups.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 78335,
+        "storage_class": "L"
+      },
+      "cfn_pi_C3_bank_indexed_random_access.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:cd7d4287d857ffc4cfea38e16540fea3",
+        "ext": "png",
+        "id": "fa8021c9-f52d-4f04-bb54-6b27c6dd3f61",
+        "key": "cfn_pi_C3_bank_indexed_random_access.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_C3_bank_indexed_random_access.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C3_bank_indexed_random_access.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C3_bank_indexed_random_access.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_pi_C3_bank_indexed_random_access.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C3_bank_indexed_random_access.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_C3_bank_indexed_random_access.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 80600,
+        "storage_class": "L"
+      },
+      "cfn_pi_C4_no_bank_local_decoder.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:dba35c40ea88e53364c7c7ef2d513b37",
+        "ext": "png",
+        "id": "f4a9ab5e-e23f-47df-9dcd-d9f14c766b20",
+        "key": "cfn_pi_C4_no_bank_local_decoder.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_C4_no_bank_local_decoder.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C4_no_bank_local_decoder.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C4_no_bank_local_decoder.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_pi_C4_no_bank_local_decoder.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C4_no_bank_local_decoder.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_C4_no_bank_local_decoder.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 85852,
+        "storage_class": "L"
+      },
+      "cfn_pi_C5_scalar_collapse_obstruction.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:662d3aefa9dea27e4e1cd06f3849f010",
+        "ext": "png",
+        "id": "25ed46d4-041f-4ecb-b48d-57258a1745db",
+        "key": "cfn_pi_C5_scalar_collapse_obstruction.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_C5_scalar_collapse_obstruction.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C5_scalar_collapse_obstruction.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C5_scalar_collapse_obstruction.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_pi_C5_scalar_collapse_obstruction.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C5_scalar_collapse_obstruction.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_C5_scalar_collapse_obstruction.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 96096,
+        "storage_class": "L"
+      },
+      "cfn_pi_C6_operational_mode_separation.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:cc8bf5de2e41207452f572b0b6c240cf",
+        "ext": "png",
+        "id": "4ec9144e-e1b4-4fcd-8487-7c425ec883cf",
+        "key": "cfn_pi_C6_operational_mode_separation.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_C6_operational_mode_separation.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C6_operational_mode_separation.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C6_operational_mode_separation.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_pi_C6_operational_mode_separation.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_C6_operational_mode_separation.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_C6_operational_mode_separation.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 166379,
+        "storage_class": "L"
+      },
+      "cfn_pi_G1_claim_synthesis.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:4f932cbe6e5b4ed4dccfcb019785d6c5",
+        "ext": "png",
+        "id": "6042a4d0-bf0e-4807-8274-867c19d97fa0",
+        "key": "cfn_pi_G1_claim_synthesis.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_G1_claim_synthesis.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_G1_claim_synthesis.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_G1_claim_synthesis.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_pi_G1_claim_synthesis.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_G1_claim_synthesis.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_G1_claim_synthesis.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 40121,
+        "storage_class": "L"
+      },
+      "cfn_pi_G2_sympy_agreement.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:960a1f7ab84aaeb22123442aa576a0b7",
+        "ext": "png",
+        "id": "21a56d53-e661-4e6b-bad4-75c1a169621a",
+        "key": "cfn_pi_G2_sympy_agreement.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_G2_sympy_agreement.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_G2_sympy_agreement.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_G2_sympy_agreement.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/cfn_pi_G2_sympy_agreement.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:cfn_pi_G2_sympy_agreement.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_G2_sympy_agreement.png"
+        },
+        "metadata": {
+          "height": 880,
+          "width": 1760
+        },
+        "mimetype": "image/png",
+        "size": 49267,
+        "storage_class": "L"
+      },
+      "correlation_heatmap.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:9e2a8efddb635a4e11036cb54c732349",
+        "ext": "png",
+        "id": "9b359ef1-e901-4d0f-8abe-c7dba8b82e4f",
+        "key": "correlation_heatmap.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/correlation_heatmap.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:correlation_heatmap.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:correlation_heatmap.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/correlation_heatmap.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:correlation_heatmap.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/correlation_heatmap.png"
+        },
+        "metadata": {
+          "height": 900,
+          "width": 1260
+        },
+        "mimetype": "image/png",
+        "size": 91396,
+        "storage_class": "L"
+      },
+      "extension_closure_contour_exact_control.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:34ea9ea3c19d4f61f4e876a7428142b7",
+        "ext": "png",
+        "id": "71b9595a-97c6-4df6-8e35-91a103ee2c68",
+        "key": "extension_closure_contour_exact_control.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/extension_closure_contour_exact_control.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:extension_closure_contour_exact_control.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:extension_closure_contour_exact_control.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/extension_closure_contour_exact_control.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:extension_closure_contour_exact_control.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/extension_closure_contour_exact_control.png"
+        },
+        "metadata": {
+          "height": 640,
+          "width": 1120
+        },
+        "mimetype": "image/png",
+        "size": 51536,
+        "storage_class": "L"
+      },
+      "extension_closure_e8_inner_products.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:49f8662c5f03093f0ee80a8c72c802a5",
+        "ext": "png",
+        "id": "9e51402a-c165-41a9-a2d1-aab82a179eb7",
+        "key": "extension_closure_e8_inner_products.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/extension_closure_e8_inner_products.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:extension_closure_e8_inner_products.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:extension_closure_e8_inner_products.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/extension_closure_e8_inner_products.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:extension_closure_e8_inner_products.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/extension_closure_e8_inner_products.png"
+        },
+        "metadata": {
+          "height": 640,
+          "width": 1120
+        },
+        "mimetype": "image/png",
+        "size": 28927,
+        "storage_class": "L"
+      },
+      "extension_closure_scaffold_degree_hist.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:c977e25f91490d2729fe76541617e727",
+        "ext": "png",
+        "id": "dbfd9620-5cf6-4b97-b556-39d2357ea855",
+        "key": "extension_closure_scaffold_degree_hist.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/extension_closure_scaffold_degree_hist.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:extension_closure_scaffold_degree_hist.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:extension_closure_scaffold_degree_hist.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/extension_closure_scaffold_degree_hist.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:extension_closure_scaffold_degree_hist.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/extension_closure_scaffold_degree_hist.png"
+        },
+        "metadata": {
+          "height": 640,
+          "width": 1120
+        },
+        "mimetype": "image/png",
+        "size": 29347,
+        "storage_class": "L"
+      },
+      "extension_closure_scalar_collapse_precision.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:35e0074b1505616cab6020f179082bdd",
+        "ext": "png",
+        "id": "5d8df4f3-2e9d-47d6-8129-fc535c4ce956",
+        "key": "extension_closure_scalar_collapse_precision.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/extension_closure_scalar_collapse_precision.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:extension_closure_scalar_collapse_precision.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:extension_closure_scalar_collapse_precision.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/extension_closure_scalar_collapse_precision.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:extension_closure_scalar_collapse_precision.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/extension_closure_scalar_collapse_precision.png"
+        },
+        "metadata": {
+          "height": 640,
+          "width": 1120
+        },
+        "mimetype": "image/png",
+        "size": 55309,
+        "storage_class": "L"
+      },
+      "four_filter_gate_errors.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:a048d74fbd74e0f54ce900a25249be1e",
+        "ext": "png",
+        "id": "ae7803f2-9b88-45c4-83b4-eee8333b889d",
+        "key": "four_filter_gate_errors.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/four_filter_gate_errors.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:four_filter_gate_errors.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:four_filter_gate_errors.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/four_filter_gate_errors.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:four_filter_gate_errors.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/four_filter_gate_errors.png"
+        },
+        "metadata": {
+          "height": 810,
+          "width": 1620
+        },
+        "mimetype": "image/png",
+        "size": 57893,
+        "storage_class": "L"
+      },
+      "four_filter_schematic.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:55dd43eeb93165108a58581fdbb75c95",
+        "ext": "png",
+        "id": "bd7d0ee7-47df-4113-9f21-c63ef0adbf9d",
+        "key": "four_filter_schematic.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/four_filter_schematic.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:four_filter_schematic.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:four_filter_schematic.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/four_filter_schematic.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:four_filter_schematic.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/four_filter_schematic.png"
+        },
+        "metadata": {
+          "height": 2358,
+          "width": 2571
+        },
+        "mimetype": "image/png",
+        "size": 183906,
+        "storage_class": "L"
+      },
+      "native_biology_derivation.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:485e0674971b16963dbea0ba8e4a5248",
+        "ext": "png",
+        "id": "1058fad7-1331-444e-821e-9188868aabf8",
+        "key": "native_biology_derivation.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/native_biology_derivation.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:native_biology_derivation.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:native_biology_derivation.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/native_biology_derivation.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:native_biology_derivation.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/native_biology_derivation.png"
+        },
+        "metadata": {
+          "height": 1933,
+          "width": 3643
+        },
+        "mimetype": "image/png",
+        "size": 371219,
+        "storage_class": "L"
+      },
+      "one_spine_diagram.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:dab3bb37d627ede9e5abfc4599d91286",
+        "ext": "png",
+        "id": "edccb4f6-881f-4542-9b16-9906e84191ec",
+        "key": "one_spine_diagram.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/one_spine_diagram.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:one_spine_diagram.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:one_spine_diagram.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/one_spine_diagram.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:one_spine_diagram.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/one_spine_diagram.png"
+        },
+        "metadata": {
+          "height": 1617,
+          "width": 3240
+        },
+        "mimetype": "image/png",
+        "size": 256805,
+        "storage_class": "L"
+      },
+      "ou_v5_4_PROVENANCE_manifest_20260419114811.json": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:2fd402aaa66c3a84159dcb35f44aa090",
+        "ext": "json",
+        "id": "ec5ec5bc-a3e8-464c-a0fc-91b80fcd9a16",
+        "key": "ou_v5_4_PROVENANCE_manifest_20260419114811.json",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/ou_v5_4_PROVENANCE_manifest_20260419114811.json/content",
+          "self": "https://zenodo.org/api/records/19651366/files/ou_v5_4_PROVENANCE_manifest_20260419114811.json"
+        },
+        "metadata": {},
+        "mimetype": "application/json",
+        "size": 22387,
+        "storage_class": "L"
+      },
+      "phase_calculus_demonstration_paper_v5_4_cfn_standard_release.pdf": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:915e18a838d4c4e350639b897cc782c3",
+        "ext": "pdf",
+        "id": "0b59d438-02d1-4897-8b47-261a4eb726bb",
+        "key": "phase_calculus_demonstration_paper_v5_4_cfn_standard_release.pdf",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/phase_calculus_demonstration_paper_v5_4_cfn_standard_release.pdf/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:phase_calculus_demonstration_paper_v5_4_cfn_standard_release.pdf/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:phase_calculus_demonstration_paper_v5_4_cfn_standard_release.pdf",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/phase_calculus_demonstration_paper_v5_4_cfn_standard_release.pdf",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:phase_calculus_demonstration_paper_v5_4_cfn_standard_release.pdf/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/phase_calculus_demonstration_paper_v5_4_cfn_standard_release.pdf"
+        },
+        "metadata": {
+          "height": 792,
+          "width": 612
+        },
+        "mimetype": "application/pdf",
+        "size": 1043063,
+        "storage_class": "L"
+      },
+      "pi_spigot_scalar_warmup_obstruction.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:56f1cfcd244c28e49fd78e5fb735b4a0",
+        "ext": "png",
+        "id": "68854ae0-3273-43b7-9109-7266a7374aa3",
+        "key": "pi_spigot_scalar_warmup_obstruction.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/pi_spigot_scalar_warmup_obstruction.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:pi_spigot_scalar_warmup_obstruction.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:pi_spigot_scalar_warmup_obstruction.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/pi_spigot_scalar_warmup_obstruction.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:pi_spigot_scalar_warmup_obstruction.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/pi_spigot_scalar_warmup_obstruction.png"
+        },
+        "metadata": {
+          "height": 924,
+          "width": 1496
+        },
+        "mimetype": "image/png",
+        "size": 114086,
+        "storage_class": "L"
+      },
+      "pi_spigot_scalar_warmup_obstruction_notebook.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:f635e27665903a3d79b7b7fc5bc803c5",
+        "ext": "png",
+        "id": "db922b0e-c5cc-4f63-b96b-69c2178e7d34",
+        "key": "pi_spigot_scalar_warmup_obstruction_notebook.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/pi_spigot_scalar_warmup_obstruction_notebook.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:pi_spigot_scalar_warmup_obstruction_notebook.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:pi_spigot_scalar_warmup_obstruction_notebook.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/pi_spigot_scalar_warmup_obstruction_notebook.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:pi_spigot_scalar_warmup_obstruction_notebook.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/pi_spigot_scalar_warmup_obstruction_notebook.png"
+        },
+        "metadata": {
+          "height": 924,
+          "width": 1540
+        },
+        "mimetype": "image/png",
+        "size": 110471,
+        "storage_class": "L"
+      },
+      "pi_spigot_streaming_throughput.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:7446d4dc66c69c9478d49852b61a3272",
+        "ext": "png",
+        "id": "0fb8c740-2a9f-4212-9063-aad75de321bf",
+        "key": "pi_spigot_streaming_throughput.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/pi_spigot_streaming_throughput.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:pi_spigot_streaming_throughput.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:pi_spigot_streaming_throughput.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/pi_spigot_streaming_throughput.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:pi_spigot_streaming_throughput.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/pi_spigot_streaming_throughput.png"
+        },
+        "metadata": {
+          "height": 924,
+          "width": 1496
+        },
+        "mimetype": "image/png",
+        "size": 77162,
+        "storage_class": "L"
+      },
+      "pi_spigot_streaming_throughput_notebook.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:6c35fd4495adde66770c2b7bcbee0ced",
+        "ext": "png",
+        "id": "18c845a4-880f-4be1-b450-3882bff2cb12",
+        "key": "pi_spigot_streaming_throughput_notebook.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/pi_spigot_streaming_throughput_notebook.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:pi_spigot_streaming_throughput_notebook.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:pi_spigot_streaming_throughput_notebook.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/pi_spigot_streaming_throughput_notebook.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:pi_spigot_streaming_throughput_notebook.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/pi_spigot_streaming_throughput_notebook.png"
+        },
+        "metadata": {
+          "height": 924,
+          "width": 1540
+        },
+        "mimetype": "image/png",
+        "size": 75295,
+        "storage_class": "L"
+      },
+      "review_notes.txt": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:863e38f393ad62429eec902cd1711185",
+        "ext": "txt",
+        "id": "136582ad-b417-408e-803c-31cc0fd6865b",
+        "key": "review_notes.txt",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/review_notes.txt/content",
+          "self": "https://zenodo.org/api/records/19651366/files/review_notes.txt"
+        },
+        "metadata": {},
+        "mimetype": "text/plain",
+        "size": 747,
+        "storage_class": "L"
+      },
+      "table_of_contents.txt": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:eb77b5f5764cf3a32bca44d5776aa84e",
+        "ext": "txt",
+        "id": "17ef14e0-750c-47c1-bf0f-f811099656c1",
+        "key": "table_of_contents.txt",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/table_of_contents.txt/content",
+          "self": "https://zenodo.org/api/records/19651366/files/table_of_contents.txt"
+        },
+        "metadata": {},
+        "mimetype": "text/plain",
+        "size": 7488,
+        "storage_class": "L"
+      },
+      "technical_info.txt": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:b33575e34b1ad1e3aa5fe096c06e722e",
+        "ext": "txt",
+        "id": "5a7ac9d7-1f88-4a6d-8b90-39964264247a",
+        "key": "technical_info.txt",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/technical_info.txt/content",
+          "self": "https://zenodo.org/api/records/19651366/files/technical_info.txt"
+        },
+        "metadata": {},
+        "mimetype": "text/plain",
+        "size": 389,
+        "storage_class": "L"
+      },
+      "v4_centered_scaffold_counts.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:05f46b917c36dc1a1b341fdf851c3c41",
+        "ext": "png",
+        "id": "714bfe8e-7a44-4fe5-a338-c97fcdd88733",
+        "key": "v4_centered_scaffold_counts.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/v4_centered_scaffold_counts.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:v4_centered_scaffold_counts.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:v4_centered_scaffold_counts.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/v4_centered_scaffold_counts.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:v4_centered_scaffold_counts.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/v4_centered_scaffold_counts.png"
+        },
+        "metadata": {
+          "height": 720,
+          "width": 1260
+        },
+        "mimetype": "image/png",
+        "size": 32390,
+        "storage_class": "L"
+      },
+      "v4_e8_inner_product_multiplicities.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:2b4f7ed8057da277fced6279828f58fa",
+        "ext": "png",
+        "id": "5f6e9e1a-6ec7-4c5d-9e9f-1a11e7397628",
+        "key": "v4_e8_inner_product_multiplicities.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/v4_e8_inner_product_multiplicities.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:v4_e8_inner_product_multiplicities.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:v4_e8_inner_product_multiplicities.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/v4_e8_inner_product_multiplicities.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:v4_e8_inner_product_multiplicities.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/v4_e8_inner_product_multiplicities.png"
+        },
+        "metadata": {
+          "height": 720,
+          "width": 1260
+        },
+        "mimetype": "image/png",
+        "size": 38914,
+        "storage_class": "L"
+      },
+      "v4_scaffold_entropy_production.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:87fa258f14cd2d7b4f3403bc966f4b3d",
+        "ext": "png",
+        "id": "870abaea-0a07-401c-af1f-86674643639a",
+        "key": "v4_scaffold_entropy_production.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/v4_scaffold_entropy_production.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:v4_scaffold_entropy_production.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:v4_scaffold_entropy_production.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/v4_scaffold_entropy_production.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:v4_scaffold_entropy_production.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/v4_scaffold_entropy_production.png"
+        },
+        "metadata": {
+          "height": 720,
+          "width": 1260
+        },
+        "mimetype": "image/png",
+        "size": 32892,
+        "storage_class": "L"
+      },
+      "yellow_qgt_corridor.png": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:aa6038d215b46f5ce0ca146d8660a1eb",
+        "ext": "png",
+        "id": "9331a9bc-af81-4e2f-b744-811f8a2572c4",
+        "key": "yellow_qgt_corridor.png",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/yellow_qgt_corridor.png/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19651366:yellow_qgt_corridor.png/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19651366:yellow_qgt_corridor.png",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19651366/canvas/yellow_qgt_corridor.png",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19651366:yellow_qgt_corridor.png/info.json",
+          "self": "https://zenodo.org/api/records/19651366/files/yellow_qgt_corridor.png"
+        },
+        "metadata": {
+          "height": 810,
+          "width": 1440
+        },
+        "mimetype": "image/png",
+        "size": 69373,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 14064955
+  },
+  "id": "19651366",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://zenodo.org/api/records/19651366/access",
+    "access_grants": "https://zenodo.org/api/records/19651366/access/grants",
+    "access_links": "https://zenodo.org/api/records/19651366/access/links",
+    "access_request": "https://zenodo.org/api/records/19651366/access/request",
+    "access_users": "https://zenodo.org/api/records/19651366/access/users",
+    "archive": "https://zenodo.org/api/records/19651366/files-archive",
+    "archive_media": "https://zenodo.org/api/records/19651366/media-files-archive",
+    "communities": "https://zenodo.org/api/records/19651366/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/19651366/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.19651366",
+    "draft": "https://zenodo.org/api/records/19651366/draft",
+    "file_modification": "https://zenodo.org/api/records/19651366/file-modification",
+    "files": "https://zenodo.org/api/records/19651366/files",
+    "latest": "https://zenodo.org/api/records/19651366/versions/latest",
+    "latest_html": "https://zenodo.org/records/19651366/latest",
+    "media_files": "https://zenodo.org/api/records/19651366/media-files",
+    "parent": "https://zenodo.org/api/records/19521029",
+    "parent_doi": "https://doi.org/10.5281/zenodo.19521029",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19521029",
+    "parent_html": "https://zenodo.org/records/19521029",
+    "preview_html": "https://zenodo.org/records/19651366?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/19651366/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/19651366/request-deletion",
+    "requests": "https://zenodo.org/api/records/19651366/requests",
+    "reserve_doi": "https://zenodo.org/api/records/19651366/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/19651366",
+    "self_doi": "https://doi.org/10.5281/zenodo.19651366",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19651366",
+    "self_html": "https://zenodo.org/records/19651366",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19651366/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19651366/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C2_cyclic_naming_uniqueness.png/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C2_cyclic_naming_uniqueness.png/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C2_cyclic_naming_uniqueness.png/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C2_cyclic_naming_uniqueness.png/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C2_cyclic_naming_uniqueness.png/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:19651366:cfn_ext_C2_cyclic_naming_uniqueness.png/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/19651366/versions"
+  },
+  "media_files": {
+    "count": 42,
+    "enabled": true,
+    "entries": {
+      "cfn_bio_C1_quarter_triplet_appearances.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "bf8e1950-fc0c-4d05-bdbb-9cd19d0554eb",
+        "key": "cfn_bio_C1_quarter_triplet_appearances.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_bio_C1_quarter_triplet_appearances.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_bio_C1_quarter_triplet_appearances.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "f4a9ea29-4809-4e46-84de-83323c5c1d18",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_bio_C2_residual_weighted_counts.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "88200937-dd10-4abf-b5c6-4b7b6ec3023c",
+        "key": "cfn_bio_C2_residual_weighted_counts.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_bio_C2_residual_weighted_counts.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_bio_C2_residual_weighted_counts.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "5faa9f9d-c95d-4c8f-9cc9-66143d5b3a48",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_bio_C3_host_partitions.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "7d68837d-5c9a-471c-ba5e-5380c4c0c41d",
+        "key": "cfn_bio_C3_host_partitions.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_bio_C3_host_partitions.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_bio_C3_host_partitions.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "e6fe14c4-4dcf-41af-96ba-a444a9a8a939",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_bio_C4_sympy_agreement.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "672b1b21-9fe7-4bd0-824b-21df346b8a08",
+        "key": "cfn_bio_C4_sympy_agreement.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_bio_C4_sympy_agreement.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_bio_C4_sympy_agreement.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "c59c44c9-c231-444f-95e3-a915df70c3d1",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_bio_G1_claim_synthesis.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "44b7b38b-7ce5-4f68-91cb-9ca11df071bd",
+        "key": "cfn_bio_G1_claim_synthesis.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_bio_G1_claim_synthesis.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_bio_G1_claim_synthesis.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "c0e1d350-7b4b-4387-9c37-4913909de68a",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_bio_G2_wrong_form_controls.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "d719f714-7d41-4ba4-9f8d-f1f158ea2a5b",
+        "key": "cfn_bio_G2_wrong_form_controls.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_bio_G2_wrong_form_controls.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_bio_G2_wrong_form_controls.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "5864b00c-1d82-4ed3-b482-aff265a70c8c",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_ext_C1_yellow_projector_uniqueness.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "8393f60d-cbdb-461d-bba3-f9660787fc20",
+        "key": "cfn_ext_C1_yellow_projector_uniqueness.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_C1_yellow_projector_uniqueness.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_C1_yellow_projector_uniqueness.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "ea5a2244-b9df-4b48-8284-7de00b91a0ba",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_ext_C2_cyclic_naming_uniqueness.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "03eb9246-8c54-46fe-850e-1c053f5b3cd7",
+        "key": "cfn_ext_C2_cyclic_naming_uniqueness.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_C2_cyclic_naming_uniqueness.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_C2_cyclic_naming_uniqueness.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "ace8d46b-c06a-4e1f-ba1d-52c0d5460957",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_ext_C3_centered_scaffold_counts.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "97b6ac32-aeb5-4931-b727-762b14bc8d22",
+        "key": "cfn_ext_C3_centered_scaffold_counts.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_C3_centered_scaffold_counts.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_C3_centered_scaffold_counts.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "7b7fa86e-05aa-493f-ae9d-a43ddbbbfd06",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_ext_C4_scaffold_entropy_production.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "2b4c2d28-c8bb-4b68-9549-6a65b753a76c",
+        "key": "cfn_ext_C4_scaffold_entropy_production.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_C4_scaffold_entropy_production.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_C4_scaffold_entropy_production.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "153a72c9-fdd3-40ba-8d75-37ed81efe797",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_ext_C5_e8_inner_product_multiplicities.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "c6294d54-90a1-485a-a922-20bf7d23a471",
+        "key": "cfn_ext_C5_e8_inner_product_multiplicities.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_C5_e8_inner_product_multiplicities.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_C5_e8_inner_product_multiplicities.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "f275f015-c05a-4eab-abf0-842afa244327",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_ext_C6_green_quotient_residual.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "49e44ea6-f5c2-44fd-b987-bf61fd9af076",
+        "key": "cfn_ext_C6_green_quotient_residual.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_C6_green_quotient_residual.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_C6_green_quotient_residual.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "68a26df7-bac3-439d-9b43-f8481eb9f328",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_ext_C7_red_contour_cocycle.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "d37c8e71-8114-4c56-8ebe-b32976263583",
+        "key": "cfn_ext_C7_red_contour_cocycle.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_C7_red_contour_cocycle.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_C7_red_contour_cocycle.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "c2b5732c-3401-436e-8a46-55fef0d77241",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_ext_G1_positive_claim_synthesis.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "70289509-6861-4c3a-b34b-3d29cf3de869",
+        "key": "cfn_ext_G1_positive_claim_synthesis.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_G1_positive_claim_synthesis.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_G1_positive_claim_synthesis.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "9c94f349-94fc-4a46-b65a-b2e990e989a5",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_ext_G2_wrong_form_controls.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "a5a39ca7-7047-4b8a-b90e-09917cf7ceed",
+        "key": "cfn_ext_G2_wrong_form_controls.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_G2_wrong_form_controls.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_G2_wrong_form_controls.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "2d2543ee-7f9e-4592-9deb-bb394da2f37c",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_ext_G3_sympy_agreement.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "c5c59f58-19f8-44ca-8949-fe979ca26e1d",
+        "key": "cfn_ext_G3_sympy_agreement.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_ext_G3_sympy_agreement.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_ext_G3_sympy_agreement.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "e3bbc72e-1463-4d01-86c7-b0f53f816a7a",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_pi_C1_native_prefix_throughput.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "d7f7fa0a-127a-465c-bd3e-005b74aa785f",
+        "key": "cfn_pi_C1_native_prefix_throughput.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_C1_native_prefix_throughput.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_C1_native_prefix_throughput.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "a0631d3a-329d-4fbf-b054-61133bb0cae6",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_pi_C2_included_baseline_speedups.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "118a2307-0093-46d7-9a2d-d0d177d76b32",
+        "key": "cfn_pi_C2_included_baseline_speedups.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_C2_included_baseline_speedups.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_C2_included_baseline_speedups.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "a0128f5b-8d0f-4562-af67-59995b46656d",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_pi_C3_bank_indexed_random_access.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "c1d5ba2e-ac01-4c05-9bd2-922c1c20298f",
+        "key": "cfn_pi_C3_bank_indexed_random_access.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_C3_bank_indexed_random_access.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_C3_bank_indexed_random_access.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "fa8021c9-f52d-4f04-bb54-6b27c6dd3f61",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_pi_C4_no_bank_local_decoder.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "a2f9ebe1-dff9-417c-ac58-f1aa1464ab16",
+        "key": "cfn_pi_C4_no_bank_local_decoder.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_C4_no_bank_local_decoder.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_C4_no_bank_local_decoder.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "f4a9ab5e-e23f-47df-9dcd-d9f14c766b20",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_pi_C5_scalar_collapse_obstruction.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "7a21c63d-b62e-4ae4-99fd-a30cf4c65129",
+        "key": "cfn_pi_C5_scalar_collapse_obstruction.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_C5_scalar_collapse_obstruction.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_C5_scalar_collapse_obstruction.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "25ed46d4-041f-4ecb-b48d-57258a1745db",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_pi_C6_operational_mode_separation.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "c1f38881-3398-4b16-9a72-9e0a62dc8acf",
+        "key": "cfn_pi_C6_operational_mode_separation.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_C6_operational_mode_separation.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_C6_operational_mode_separation.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "4ec9144e-e1b4-4fcd-8487-7c425ec883cf",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_pi_G1_claim_synthesis.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "89d46a9a-6e67-42cd-b039-906338d9276d",
+        "key": "cfn_pi_G1_claim_synthesis.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_G1_claim_synthesis.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_G1_claim_synthesis.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "6042a4d0-bf0e-4807-8274-867c19d97fa0",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "cfn_pi_G2_sympy_agreement.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "862b9422-ffcc-4752-8d40-9a76a41ac9a3",
+        "key": "cfn_pi_G2_sympy_agreement.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/cfn_pi_G2_sympy_agreement.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/cfn_pi_G2_sympy_agreement.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "21a56d53-e661-4e6b-bad4-75c1a169621a",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "correlation_heatmap.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "50b1dc58-80cd-4eeb-80d5-3f98e7c7bfff",
+        "key": "correlation_heatmap.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/correlation_heatmap.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/correlation_heatmap.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "9b359ef1-e901-4d0f-8abe-c7dba8b82e4f",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "extension_closure_contour_exact_control.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "2245913a-307f-4583-896e-9c3f5d2c16d9",
+        "key": "extension_closure_contour_exact_control.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/extension_closure_contour_exact_control.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/extension_closure_contour_exact_control.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "71b9595a-97c6-4df6-8e35-91a103ee2c68",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "extension_closure_e8_inner_products.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "62ef3b81-6082-4633-b0a5-fb9ef119aa79",
+        "key": "extension_closure_e8_inner_products.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/extension_closure_e8_inner_products.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/extension_closure_e8_inner_products.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "9e51402a-c165-41a9-a2d1-aab82a179eb7",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "extension_closure_scaffold_degree_hist.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "10f08192-65c6-416a-ab06-414903141bb7",
+        "key": "extension_closure_scaffold_degree_hist.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/extension_closure_scaffold_degree_hist.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/extension_closure_scaffold_degree_hist.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "dbfd9620-5cf6-4b97-b556-39d2357ea855",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "extension_closure_scalar_collapse_precision.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "a52aed4f-7dd0-4fab-8228-854650a6774f",
+        "key": "extension_closure_scalar_collapse_precision.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/extension_closure_scalar_collapse_precision.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/extension_closure_scalar_collapse_precision.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "5d8df4f3-2e9d-47d6-8129-fc535c4ce956",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "four_filter_gate_errors.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "40d89f47-bb1c-4557-b95f-acb951ee9d61",
+        "key": "four_filter_gate_errors.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/four_filter_gate_errors.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/four_filter_gate_errors.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "ae7803f2-9b88-45c4-83b4-eee8333b889d",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "four_filter_schematic.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "6d942486-dfbb-4310-8bb8-b73e80f5eb84",
+        "key": "four_filter_schematic.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/four_filter_schematic.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/four_filter_schematic.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "bd7d0ee7-47df-4113-9f21-c63ef0adbf9d",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "native_biology_derivation.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "740e8bad-974d-4c38-b277-89781feeee38",
+        "key": "native_biology_derivation.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/native_biology_derivation.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/native_biology_derivation.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "1058fad7-1331-444e-821e-9188868aabf8",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "one_spine_diagram.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "eacdb071-eab7-4894-8140-e83dcdb50116",
+        "key": "one_spine_diagram.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/one_spine_diagram.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/one_spine_diagram.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "edccb4f6-881f-4542-9b16-9906e84191ec",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "phase_calculus_demonstration_paper_v5_4_cfn_standard_release.pdf.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "b1dda4d1-0578-4730-965a-df4ecac68e63",
+        "key": "phase_calculus_demonstration_paper_v5_4_cfn_standard_release.pdf.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/phase_calculus_demonstration_paper_v5_4_cfn_standard_release.pdf.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/phase_calculus_demonstration_paper_v5_4_cfn_standard_release.pdf.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "0b59d438-02d1-4897-8b47-261a4eb726bb",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "pi_spigot_scalar_warmup_obstruction.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "cc9f018a-99ba-440a-beda-464f1fa93f88",
+        "key": "pi_spigot_scalar_warmup_obstruction.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/pi_spigot_scalar_warmup_obstruction.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/pi_spigot_scalar_warmup_obstruction.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "68854ae0-3273-43b7-9109-7266a7374aa3",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "pi_spigot_scalar_warmup_obstruction_notebook.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "d5e8d397-155f-4db5-a7b9-18565212a072",
+        "key": "pi_spigot_scalar_warmup_obstruction_notebook.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/pi_spigot_scalar_warmup_obstruction_notebook.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/pi_spigot_scalar_warmup_obstruction_notebook.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "db922b0e-c5cc-4f63-b96b-69c2178e7d34",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "pi_spigot_streaming_throughput.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "8846d990-35d2-47a6-a58c-c520052c4423",
+        "key": "pi_spigot_streaming_throughput.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/pi_spigot_streaming_throughput.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/pi_spigot_streaming_throughput.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "0fb8c740-2a9f-4212-9063-aad75de321bf",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "pi_spigot_streaming_throughput_notebook.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "753128f5-c122-4a87-92cd-f61fc84903d5",
+        "key": "pi_spigot_streaming_throughput_notebook.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/pi_spigot_streaming_throughput_notebook.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/pi_spigot_streaming_throughput_notebook.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "18c845a4-880f-4be1-b450-3882bff2cb12",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "v4_centered_scaffold_counts.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "49d4217d-3f20-47d3-8b99-3c203dc1af99",
+        "key": "v4_centered_scaffold_counts.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/v4_centered_scaffold_counts.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/v4_centered_scaffold_counts.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "714bfe8e-7a44-4fe5-a338-c97fcdd88733",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "v4_e8_inner_product_multiplicities.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "cb778090-9ac5-437e-9e3e-fe1498dba521",
+        "key": "v4_e8_inner_product_multiplicities.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/v4_e8_inner_product_multiplicities.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/v4_e8_inner_product_multiplicities.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "5f6e9e1a-6ec7-4c5d-9e9f-1a11e7397628",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "v4_scaffold_entropy_production.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "f125bc0f-72a0-4520-98b1-292905b74149",
+        "key": "v4_scaffold_entropy_production.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/v4_scaffold_entropy_production.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/v4_scaffold_entropy_production.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "870abaea-0a07-401c-af1f-86674643639a",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "yellow_qgt_corridor.png.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "5efc773c-1e25-41d6-a6c4-d028f41bcafc",
+        "key": "yellow_qgt_corridor.png.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19651366/files/yellow_qgt_corridor.png.ptif/content",
+          "self": "https://zenodo.org/api/records/19651366/files/yellow_qgt_corridor.png.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "9331a9bc-af81-4e2f-b744-811f8a2572c4",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "additional_descriptions": [
+      {
+        "description": "<p>Operational_Utility_and_Multiscale_Invariance_of_Phase_Calculus (4)/ &nbsp;(10.5 MB)<br>\u251c\u2500\u2500 figures/ &nbsp;(3.3 MB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_bio_C1_quarter_triplet_appearances.png &nbsp;(49.5 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_bio_C2_residual_weighted_counts.png &nbsp;(45.5 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_bio_C3_host_partitions.png &nbsp;(48.3 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_bio_C4_sympy_agreement.png &nbsp;(47.7 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_bio_G1_claim_synthesis.png &nbsp;(38.7 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_bio_G2_wrong_form_controls.png &nbsp;(129.9 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_ext_C1_yellow_projector_uniqueness.png &nbsp;(51.3 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_ext_C2_cyclic_naming_uniqueness.png &nbsp;(43.8 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_ext_C3_centered_scaffold_counts.png &nbsp;(42.6 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_ext_C4_scaffold_entropy_production.png &nbsp;(150.4 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_ext_C5_e8_inner_product_multiplicities.png &nbsp;(50.2 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_ext_C6_green_quotient_residual.png &nbsp;(60.0 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_ext_C7_red_contour_cocycle.png &nbsp;(40.9 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_ext_G1_positive_claim_synthesis.png &nbsp;(38.5 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_ext_G2_wrong_form_controls.png &nbsp;(196.5 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_ext_G3_sympy_agreement.png &nbsp;(46.3 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_pi_C1_native_prefix_throughput.png &nbsp;(70.6 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_pi_C2_included_baseline_speedups.png &nbsp;(76.5 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_pi_C3_bank_indexed_random_access.png &nbsp;(78.7 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_pi_C4_no_bank_local_decoder.png &nbsp;(83.8 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_pi_C5_scalar_collapse_obstruction.png &nbsp;(93.8 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_pi_C6_operational_mode_separation.png &nbsp;(162.5 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_pi_G1_claim_synthesis.png &nbsp;(39.2 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 cfn_pi_G2_sympy_agreement.png &nbsp;(48.1 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 correlation_heatmap.png &nbsp;(89.3 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 extension_closure_contour_exact_control.png &nbsp;(50.3 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 extension_closure_e8_inner_products.png &nbsp;(28.2 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 extension_closure_scaffold_degree_hist.png &nbsp;(28.7 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 extension_closure_scalar_collapse_precision.png &nbsp;(54.0 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 four_filter_gate_errors.png &nbsp;(56.5 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 four_filter_schematic.png &nbsp;(179.6 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 native_biology_derivation.png &nbsp;(362.5 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 one_spine_diagram.png &nbsp;(250.8 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_scalar_warmup_obstruction.png &nbsp;(111.4 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_scalar_warmup_obstruction_notebook.png &nbsp;(107.9 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_streaming_throughput.png &nbsp;(75.4 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_streaming_throughput_notebook.png &nbsp;(73.5 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 v4_centered_scaffold_counts.png &nbsp;(31.6 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 v4_e8_inner_product_multiplicities.png &nbsp;(38.0 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 v4_scaffold_entropy_production.png &nbsp;(32.1 KB)<br>\u2502 &nbsp; \u2514\u2500\u2500 yellow_qgt_corridor.png &nbsp;(67.7 KB)<br>\u251c\u2500\u2500 lean4/ &nbsp;(19.8 KB)<br>\u2502 &nbsp; \u2514\u2500\u2500 review-ready-lean-template.zip &nbsp;(19.8 KB)<br>\u251c\u2500\u2500 notebooks/ &nbsp;(1.3 MB)<br>\u2502 &nbsp; \u251c\u2500\u2500 extension_closure_validation_proof_forward.ipynb &nbsp;(504.6 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 extension_closure_validation_proof_forward_unexecuted.ipynb &nbsp;(50.6 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_lock_audit.ipynb &nbsp;(457.6 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_lock_audit_unexecuted.ipynb &nbsp;(41.6 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 verification_notebook.ipynb &nbsp;(251.7 KB)<br>\u2502 &nbsp; \u2514\u2500\u2500 verification_notebook_unexecuted.ipynb &nbsp;(30.8 KB)<br>\u251c\u2500\u2500 packages/ &nbsp;(4.9 MB)<br>\u2502 &nbsp; \u251c\u2500\u2500 iterations/ &nbsp;(316.1 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 phase_native_streaming_spigot_bundle_v1.zip &nbsp;(16.3 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 phase_native_streaming_spigot_bundle_v2.zip &nbsp;(21.9 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 phase_native_streaming_spigot_bundle_v3.zip &nbsp;(19.2 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 phase_native_streaming_spigot_bundle_v5.zip &nbsp;(51.7 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 phase_native_streaming_spigot_bundle_v6.zip &nbsp;(56.3 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 phase_native_streaming_spigot_bundle_v7.zip &nbsp;(150.6 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 phase_block_solution_bundle_v1.zip &nbsp;(13.3 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 phase_calculus_demonstration_paper_v2.zip &nbsp;(2.1 MB)<br>\u2502 &nbsp; \u251c\u2500\u2500 phase_decoder_attack_bundle_v1.zip &nbsp;(20.0 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 phase_four_filter_package_v1.zip &nbsp;(547.3 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 phase_native_live_decoder_bundle_v10.zip &nbsp;(34.6 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 phase_native_streaming_spigot_v11.zip &nbsp;(23.5 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 phase_native_streaming_spigot_v8.zip &nbsp;(545.6 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 phase_native_streaming_spigot_v9.zip &nbsp;(29.5 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 phase_radix_block_bundle_v1.zip &nbsp;(22.1 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 phase_three_filter_package_v1.zip &nbsp;(607.3 KB)<br>\u2502 &nbsp; \u2514\u2500\u2500 phase_two_filter_package_v1.zip &nbsp;(743.5 KB)<br>\u251c\u2500\u2500 results/ &nbsp;(64.4 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 OU_BIO_CFN_ledger.csv &nbsp;(2.6 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 OU_BIO_CFN_summary.json &nbsp;(324 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 OU_EXT_CFN_ledger.csv &nbsp;(4.9 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 OU_EXT_CFN_summary.json &nbsp;(314 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 OU_PI_CFN_ledger.csv &nbsp;(4.2 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 OU_PI_CFN_summary.json &nbsp;(315 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 extension_closure_notebook_ledger.csv &nbsp;(5.7 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 extension_closure_notebook_summary.json &nbsp;(10.4 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 extension_closure_summary.json &nbsp;(773 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 extension_closure_sympy_output.txt &nbsp;(1.1 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 native_biology_centered_counts.csv &nbsp;(36 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 native_biology_partition_counts.csv &nbsp;(114 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 native_biology_sympy_output.txt &nbsp;(742 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 native_biology_weight_budget.csv &nbsp;(99 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_lock_ledger.csv &nbsp;(2.1 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_lock_summary.json &nbsp;(8.0 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_lock_sympy_output.txt &nbsp;(190 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_v10_obstruction_barrier.json &nbsp;(595 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_v10_scaling_sweep.json &nbsp;(3.8 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_v10_summary.txt &nbsp;(1.0 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_v11_theorem_summary.json &nbsp;(600 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_v8_benchmark_results.json &nbsp;(5.5 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_v8_random_access_benchmark.json &nbsp;(4.0 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_v9_local_decoder_benchmarks.json &nbsp;(2.9 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_v9_local_decoder_summary.json &nbsp;(643 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 summary.json &nbsp;(825 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 v4_extension_closure_ledger.csv &nbsp;(2.3 KB)<br>\u2502 &nbsp; \u2514\u2500\u2500 v4_extension_closure_summary.json &nbsp;(296 B)<br>\u251c\u2500\u2500 supplemental/ &nbsp;(20.0 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 lean/ &nbsp;(7.0 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 Main.lean &nbsp;(470 B)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 PhaseCalculusBiology.lean &nbsp;(2.5 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 PhaseCalculusExtensionClosure.lean &nbsp;(2.3 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 PhaseCalculusPiSpigot.lean &nbsp;(1.6 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 lakefile.toml &nbsp;(192 B)<br>\u2502 &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 lean-toolchain &nbsp;(24 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 python/ &nbsp;(3.4 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 native_biology_derivation.py &nbsp;(3.4 KB)<br>\u2502 &nbsp; \u2514\u2500\u2500 sympy/ &nbsp;(9.5 KB)<br>\u2502 &nbsp; &nbsp; &nbsp; \u251c\u2500\u2500 extension_closure_sympy.py &nbsp;(6.2 KB)<br>\u2502 &nbsp; &nbsp; &nbsp; \u251c\u2500\u2500 native_biology_sympy.py &nbsp;(1.4 KB)<br>\u2502 &nbsp; &nbsp; &nbsp; \u2514\u2500\u2500 pi_spigot_lock_sympy.py &nbsp;(1.9 KB)<br>\u251c\u2500\u2500 LICENSE.md &nbsp;(14.9 KB)<br>\u251c\u2500\u2500 README.md &nbsp;(4.5 KB)<br>\u251c\u2500\u2500 abstract.txt &nbsp;(497 B)<br>\u251c\u2500\u2500 arxiv.sty &nbsp;(7.5 KB)<br>\u251c\u2500\u2500 extension_closure.tex &nbsp;(10.9 KB)<br>\u251c\u2500\u2500 main.tex &nbsp;(40.2 KB)<br>\u251c\u2500\u2500 orcid.pdf &nbsp;(12.1 KB)<br>\u251c\u2500\u2500 phase_calculus_demonstration_paper_v5_4_cfn_standard_release.pdf &nbsp;(747.4 KB)<br>\u251c\u2500\u2500 phase_calculus_demonstration_paper_v5_4_cfn_standard_release.tex &nbsp;(40.2 KB)<br>\u251c\u2500\u2500 pi_spigot_lock_section.tex &nbsp;(6.4 KB)<br>\u251c\u2500\u2500 pi_spigot_lock_section_full.tex &nbsp;(5.6 KB)<br>\u251c\u2500\u2500 references.bib &nbsp;(4.8 KB)<br>\u251c\u2500\u2500 requirements.txt &nbsp;(6 B)<br>\u251c\u2500\u2500 summary.json &nbsp;(1.1 KB)<br>\u2514\u2500\u2500 unification_theorem.tex &nbsp;(4.0 KB)</p>\n<p>Total: 118 files, 10.5 MB</p>",
+        "lang": {
+          "id": "eng",
+          "title": {
+            "en": "English"
+          }
+        },
+        "type": {
+          "id": "table-of-contents",
+          "title": {
+            "de": "Inhaltsverzeichnis",
+            "en": "Table of contents"
+          }
+        }
+      },
+      {
+        "description": "<blockquote>\n<p>The ou_v5_4_FULL_PACKAGE.zip package contains everything discussed.</p>\n<p>You do not need to download every single file as it's all in the package.&nbsp;<br>The front matter is presented with redundant front-facing figures, all collected data,&nbsp;<br>lean4, sympy scripts, several jupyter notebooks, the paper, and<br>PROVENANCE_manifest.json as a Zenodo reviewing convenience.</p>\n<p>&nbsp;</p>\n</blockquote>",
+        "type": {
+          "id": "technical-info",
+          "title": {
+            "de": "Technische Informationen",
+            "en": "Technical info"
+          }
+        }
+      },
+      {
+        "description": "<p>Along with the figures and tables referenced in the paper, the ZIP package<br>includes data tables, additional figures, several jupyter notebooks, sympy scripts,&nbsp;<br>documentation, lean4 package, README.md, and a<br>PROVENANCE_manifest.json have been included to give a reviewer full<br>observability and control over their own review process.</p>\n<p>Attempts to disprove the work of Neuroca, Inc. and our affiliated researchers<br>are highly encouraged. If your critique successfully falsifies any of our<br>findings and we are able to verify your results, we will publish a formal<br>follow-up paper confirming your criticisms, officially conceding the original<br>claims, and giving you full credit for the correction.</p>\n<p>Contact: justin@neuroca.ai</p>",
+        "type": {
+          "id": "notes",
+          "title": {
+            "de": "Anmerkungen",
+            "en": "Notes"
+          }
+        }
+      }
+    ],
+    "contributors": [
+      {
+        "affiliations": [
+          {
+            "name": "Neuroca, Inc"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Lietz",
+          "given_name": "Justin",
+          "identifiers": [
+            {
+              "identifier": "0009-0008-9028-1366",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Lietz, Justin",
+          "type": "personal"
+        },
+        "role": {
+          "id": "researcher",
+          "title": {
+            "de": "WissenschaftlerIn",
+            "en": "Researcher"
+          }
+        }
+      }
+    ],
+    "copyright": "Copyright (C) 2026 Justin K. Lietz",
+    "creators": [
+      {
+        "affiliations": [
+          {
+            "name": "Neuroca, Inc"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Lietz",
+          "given_name": "Justin",
+          "identifiers": [
+            {
+              "identifier": "0009-0008-9028-1366",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Lietz, Justin",
+          "type": "personal"
+        },
+        "role": {
+          "id": "projectmanager",
+          "title": {
+            "de": "ProjektmanagerIn",
+            "en": "Project manager"
+          }
+        }
+      }
+    ],
+    "dates": [
+      {
+        "date": "2026-04-19",
+        "description": "Submitted as first non-draft version.",
+        "type": {
+          "id": "updated",
+          "title": {
+            "de": "Aktualisiert",
+            "en": "Updated"
+          }
+        }
+      },
+      {
+        "date": "2026-04-21",
+        "description": "Corrected minor front-matter issues in the main PDF with figure presentation.",
+        "type": {
+          "id": "updated",
+          "title": {
+            "de": "Aktualisiert",
+            "en": "Updated"
+          }
+        }
+      }
+    ],
+    "description": "<p>Phase Calculus is presented in its current stack as a single lifted-object formalism rather than as a loose collection of phase pictures, arithmetic tricks, or downstream branch-specific rules. The native state is the carried lifted object</p>\n<p><code>Xi = (b, A, q, theta, kappa, c), q = (u, v), c = &lt;theta - pi<em>u</em>v, theta + pi<em>u</em>v&gt;</code></p>\n<p>evolved by one parent grammar and then read through branch-specific projectors. This demonstration paper does not re-prove the long merged formalisation. Its purpose is narrower: to show, in one readable document, how the same lifted object supports the operator core of Phase Calculus, the selector-closed executable macro-calculus, the completion/shadow branch, the quotient-descent interface to the physics stack, and the four-filter hierarchy including the biological readout. The paper has three central results.</p>\n<ul>\n<li>First, it restates the single spine of the formalism: primitive roll, lifted state, operator alphabet <code>{Q, B, L}</code>, selector-closed macro-calculus<code> {R, S, T}</code>, exact quotient criterion, and arithmetic-completion bridge to the canonical anchor (55, 89) with carried coefficients 1/24 per edge and 1/12 two-sided.</li>\n<li>Second, it records the computational evidence from the four-filter package: green, blue, red, and yellow are faithful covariant readouts of the same lifted state under the same operator grammar, with exact-zero primary gate errors, machine-precision recovery errors, and sharp negative controls when the state is stripped to product-only or loses its sheet index.&nbsp;</li>\n<li>Third, it shows how the yellow filter closes two descents at once: the CF01 quantum-geometric-tensor bridge and a native biological scaffold. In this v2 paper the biological count structure is not imported. From the quarter alphabet generated by Q, the three-slot selector block, and the normalized edge residual 24*E_edge = 1, the paper derives internally the weight budget (1, 2, 1, 1), the total scaffold size 240, the base-centered counts (56, 72, 56, 56), and the host-indexed bifurcations 240 = (128, 112) -&gt; ((72, 56),(56, 56)). The unification claim is therefore precise and limited. One singular lifted object is taken as the native source of the current Phase Calculus hierarchy and of the physics branches that descend from it by quotient projection, while also admitting a biological projection whose scaffold counts are now derived internally and only then compared with the external codon:anticodon / E8 report.</li>\n</ul>\n<p>The closing section states explicitly what is closed, what remains imported, and what is still not unique.</p>",
+    "languages": [
+      {
+        "id": "eng",
+        "title": {
+          "en": "English"
+        }
+      }
+    ],
+    "publication_date": "2026-04-18",
+    "publisher": "Zenodo",
+    "references": [
+      {
+        "reference": "Lietz, J. (2026). Phase Calculus - Lifted-State Operator Calculus of the Primitive Roll with Connection Closure and Shadow/Completion Branch (v11.1). Zenodo. https://doi.org/10.5281/zenodo.19491529"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF19: The Full Lifted Object of the Primitive Roll and Exact Return to Lifted Origin (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19267927"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF000: Primitive Distinguishability and Orthogonal Articulation (v0.2). Zenodo. https://doi.org/10.5281/zenodo.19380587"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF00: Induced Geometry and Emergent Dynamics (v0.2). Zenodo. https://doi.org/10.5281/zenodo.19380518"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF01: Quantum Geometric Tensor Decomposition to Metriplectic Brackets. Zenodo. https://doi.org/10.5281/zenodo.19380435"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF04: Telegraph-Fisher Causality (Finite-Speed Transport). Zenodo. https://doi.org/10.5281/zenodo.19380039"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF06: Information Geometry Foundations \u2014 Fisher and Ruppeiner Metrics for the M-Limb. Zenodo. https://doi.org/10.5281/zenodo.19164028"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF07: Measurement Theory Foundations - Decoherence and Born Rule Emergence. Zenodo. https://doi.org/10.5281/zenodo.19163944"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF08: Spinor Emergence via Domain-Wall Fermions (Nielsen-Ninomiya Defense). Zenodo. https://doi.org/10.5281/zenodo.19163918"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF09: Gauge Field Emergence via Berry Connection (Weinberg-Witten Defense) (v0.3). Zenodo. https://doi.org/10.5281/zenodo.19163873"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF12: Derived Gravity, Black Holes, and Saturation Geometry. Zenodo. https://doi.org/10.5281/zenodo.19163352"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF14: Principle of Stationary Action as Temporal Effective Invariant. Zenodo. https://doi.org/10.5281/zenodo.19163200"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF15: Noether's Theorem as Invariant Articulation Cost. Zenodo. https://doi.org/10.5281/zenodo.19163157"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF16: Electroweak Fiber Splitting, Chiral Weak Coupling, Neutral Gauge Mixing, and Broken Gauge-Scalar Structure. Zenodo. https://doi.org/10.5281/zenodo.19163139"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF17: Non-Abelian Saturation, Flux-Tube Formation, Quantitative Confinement, String Breaking, and Deconfinement. Zenodo. https://doi.org/10.5281/zenodo.19163117"
+      },
+      {
+        "reference": "Lietz, J. (2026). CF18: Scale Re-Articulation, Effective Action, Hidden-Return Corrections, Running Couplings, Renormalization, and Corrected Symmetry Structure. Zenodo. https://doi.org/10.5281/zenodo.19163003"
+      },
+      {
+        "reference": "David Halitsky, Richard Klitzing, and Greg Moxness. The H-bond Acceptor Scaffold for Watson\u2013Crick Codon:Anticodon Pairing and the 421 Polytope Scaffold for E8. Preprint supplied with the current package, 2026."
+      },
+      {
+        "reference": "Justin K. Lietz. Phase Native Streaming Spigot v8, Local Decoder v9, Live Decoder v10, and Structural Closure v11. Executed artifact bundles, 2026."
+      },
+      {
+        "reference": "Justin K. Lietz. phase_four_filter_package_v1. Executed validation package with note, notebook, summary, and gate outputs, 2026."
+      },
+      {
+        "reference": "Justin K. Lietz. Shadow Calculus: Supplement to Phase Calculus \u2014 Completion, Residual, and Launched-Family Branch Structure. 2026."
+      },
+      {
+        "reference": "Lietz, J. (2026). Farey Remainder Recursion and Orthogonal Re-Articulation: An Exact Infinity-Resolution Theorem (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19210954"
+      }
+    ],
+    "resource_type": {
+      "id": "publication-preprint",
+      "title": {
+        "de": "Preprint",
+        "en": "Preprint"
+      }
+    },
+    "rights": [
+      {
+        "link": "https://github.com/justinlietz93/Prometheus_VDM/blob/main/LICENSE.md",
+        "title": {
+          "en": "Proprietary Dual Research and Commercial License"
+        }
+      }
+    ],
+    "subjects": [
+      {
+        "subject": "Phase Calculus"
+      },
+      {
+        "subject": "lifted object"
+      },
+      {
+        "subject": "four-filter covariance"
+      },
+      {
+        "subject": "QGT"
+      },
+      {
+        "subject": "codon:anticodon pairing"
+      },
+      {
+        "subject": "E_8"
+      },
+      {
+        "subject": "E8 Lattice"
+      },
+      {
+        "subject": "Unification"
+      },
+      {
+        "subject": "Mathematical Grammar"
+      },
+      {
+        "subject": "Principia Matematica"
+      }
+    ],
+    "title": "Operational Utility and Multiscale Invariance of Phase Calculus: A Discrete Foundational Grammar for Dynamics",
+    "version": "v0.2"
+  },
+  "parent": {
+    "access": {
+      "owned_by": {
+        "user": "1421018"
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {
+      "default": "d41d07b2-3ca3-4dfa-87ce-7d960c7eba47",
+      "entries": [
+        {
+          "access": {
+            "member_policy": "closed",
+            "members_visibility": "public",
+            "record_submission_policy": "open",
+            "review_policy": "closed",
+            "visibility": "public"
+          },
+          "children": {
+            "allow": false
+          },
+          "created": "2026-04-19T08:23:22.356085+00:00",
+          "custom_fields": {
+            "subjects": [
+              {
+                "id": "euroscivoc:51"
+              },
+              {
+                "id": "euroscivoc:1063"
+              },
+              {
+                "id": "mesh:D017711"
+              },
+              {
+                "id": "mesh:D011385"
+              },
+              {
+                "id": "mesh:D012008"
+              },
+              {
+                "id": "mesh:D061827"
+              },
+              {
+                "id": "euroscivoc:1635"
+              }
+            ]
+          },
+          "deletion_status": {
+            "is_deleted": false,
+            "status": "P"
+          },
+          "id": "35396844-f546-40c2-848e-2ed45468bfc9",
+          "links": {},
+          "metadata": {
+            "curation_policy": "<p dir=\"auto\">This community enforces a strict, curiosity driven, falsification-first curation standard. The goal is not to accumulate records. The goal is to ensure that every record in this archive is auditable, reproducible, and built to be attacked.</p>\n<p dir=\"auto\"><strong>Scope.</strong>&nbsp;Records accepted into this community must fall within one or more of the following categories: (1) theorem-bearing manuscripts within the VDM derivation tree, (2) adversarial validation artifacts attacking published VDM claims, (3) empirical analyses of the VDM cognitive runtime, (4) instrumentation or calibration records supporting VDM research, (5) code repository releases with provenance documentation, (6) formal critique reports or independent reproduction attempts.</p>\n<p dir=\"auto\"><strong>Minimum requirements for all records.</strong></p>\n<p dir=\"auto\">Every record must include a plain-English abstract stating what is claimed. Every primary claim must be explicitly stated, uniquely identified, and paired with a decisive metric, a falsifier, its assumption dependence, and a scope classification. No claim may hide behind \"standard argument,\" \"it is well known,\" \"follows similarly,\" or \"checked numerically\" without stating exactly what is being delegated and why. Every assumption must be explicit, scoped, and typed. Every record must state what it does not prove.</p>\n<p dir=\"auto\"><strong>Publication bundle standard (Complete Formalisms and theorem-bearing manuscripts).</strong></p>\n<p dir=\"auto\">A Complete Formalism publication is not complete when it merely states claims. It is complete only when its full formal burden is attacked across all required artifact layers: paper, Lean 4, SymPy, Jupyter, and manifest.</p>\n<p dir=\"auto\">The paper must carry the full load-bearing formal burden: definitions, theorems, derivation chains, operator relations, assumption boundaries, falsifiers, and scope limits.</p>\n<p dir=\"auto\">Lean 4 must prove every exact formalizable statement. Any omission must be classified with an explicit reason (non-formalizable, numerical, symbolic, or deferred).</p>\n<p dir=\"auto\">SymPy must attack every symbolic identity and operator law and terminate with an explicit FINAL_RESULT: PASS or FINAL_RESULT: FAIL.</p>\n<p dir=\"auto\">Jupyter must attack every numerical, geometric, statistical, and gate-facing consequence in reviewer-readable form, including negative controls, explicit residuals, labeled thresholds, and a final coverage ledger.</p>\n<p dir=\"auto\">A README must map every burden to its artifact location with exact run instructions and expected outputs. SHA-256 hashes must cover all bundled artifacts.</p>\n<p dir=\"auto\"><strong>Review standard.</strong>&nbsp;This community uses the CRAFT/BASS framework (Credibility, Rigor, Assumption, Falsifiability, Terminology / Bayesian Audit of Scientific Substance) for internal review. Records targeting a BASS score below 70 will not be accepted unless explicitly labeled as draft, partial, or in-progress.</p>\n<p dir=\"auto\"><strong>What will be rejected.</strong>&nbsp;Records that contain marketing language, vague claims without falsification criteria, omitted negative results, non-runnable validation artifacts, or claims asserted as validated without adversarial attack will be rejected or returned for revision.</p>\n<p dir=\"auto\"><strong>Labeling.</strong>&nbsp;Every record must carry one of the following statuses: validated (full bundle passes all gates), draft (incomplete validation, explicitly labeled), partial (some burdens unresolved, explicitly enumerated), or falsified (a published claim has been disproven, with the correction documented).</p>\n<p dir=\"auto\">No record may be described as \"validated\" unless its full bundle satisfies the publication validation requirements.</p>\n<p dir=\"auto\"><strong>External contributions.</strong>&nbsp;Independent researchers who wish to submit reproduction attempts, critique reports, or adversarial analyses targeting records in this community are welcome. Contact&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a> before submission.</p>",
+            "description": "This is a branch community off of the larger collective of the Void Dynamics Model community created specifically to organize the research related only to the mathematical framework of Phase Calculus and its operational utility.",
+            "organizations": [
+              {
+                "name": "Neuroca, Inc."
+              }
+            ],
+            "page": "<p dir=\"auto\">The Void Dynamics Model (VDM) is an independent research program operated by Neuroca, Inc. (Neenah, WI) under principal investigator Justin K. Lietz.</p>\n<p dir=\"auto\">VDM has two tracks.</p>\n<p dir=\"auto\"><strong>Track 1 &mdash; Physics.</strong>&nbsp;A unified framework deriving quantum geometry, thermodynamics, gauge structure, gravity, and cosmology from a single primitive bifurcation invariant via metriplectic geometry, bifurcation theory, and domain wall dynamics. The formal spine is a derivation tree of Complete Formalisms (CF000&ndash;CF19), each carrying its own theorem surface, falsification gates, and explicit scope boundaries.</p>\n<p dir=\"auto\"><strong>Track 2 &mdash; Cognitive Runtime.</strong>&nbsp;A zero-training, physics-gated cognitive architecture exploring how conservation-vs.-dissipation dynamics produce stable, adaptive behavior in sparse, event-driven neural graphs &mdash; no backpropagation, no training data, no gradient descent.</p>\n<p dir=\"auto\">This community regards the Phase Calculus framework which works interchangeably between those tracks.</p>\n<p dir=\"auto\"><strong>Governing principle.</strong>&nbsp;Every record in this community is built to be proven wrong. Predictions are preregistered and time-stamped before results are collected. Claims carry explicit pass/fail gates. Negative controls and failure reports ship by default. If a result breaks, we publish the break.</p>\n<p dir=\"auto\"><strong>What this community contains:</strong></p>\n<ul>\n<li>Theorem-bearing manuscripts (Complete Formalisms, Phase Calculus, universality papers, standalone theorems, cogitants)</li>\n<li>Adversarial validation bundles (Lean 4 packages, SymPy scripts, skeptical-reviewer Jupyter notebooks, SHA-256 manifests)</li>\n<li>Cognitive runtime publications (empirical analyses, complexity metric instruments, runtime architectures)</li>\n<li>Instrumentation and calibration records</li>\n<li>Code repository releases with cryptographic provenance</li>\n</ul>\n<p dir=\"auto\"><strong>Open challenge.</strong>&nbsp;Attempts to falsify any record in this community are encouraged. If your critique successfully disproves a published claim and we can verify your results, we will publish a formal follow-up conceding the original claim and giving you full credit for the correction. Contact:&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a></p>\n<p dir=\"auto\"><strong>Resources:</strong></p>\n<ul>\n<li>Website:&nbsp;<a href=\"https://www.neuroca.ai/\">https://www.neuroca.ai</a></li>\n<li>ORCID:&nbsp;<a href=\"https://orcid.org/0009-0008-9028-1366\">https://orcid.org/0009-0008-9028-1366</a></li>\n<li>Academia.edu:&nbsp;<a href=\"https://independent.academia.edu/justinlietz\">https://independent.academia.edu/justinlietz</a></li>\n<li>GitHub (Primitive Bifurcation Law):&nbsp;<a href=\"https://github.com/justinlietz93/primitive_bifurcation_law_VDM\">https://github.com/justinlietz93/primitive_bifurcation_law_VDM</a></li>\n<li>GitHub (Prometheus VDM):&nbsp;<a href=\"https://github.com/justinlietz93/Prometheus_VDM\">https://github.com/justinlietz93/Prometheus_VDM</a></li>\n</ul>",
+            "title": "Void Dynamics Model: Phase Calculus",
+            "type": {
+              "id": "project"
+            },
+            "website": "https://www.neuroca.ai"
+          },
+          "revision_id": 7,
+          "slug": "vdm-phase-calculus",
+          "updated": "2026-04-19T08:53:35.538977+00:00"
+        },
+        {
+          "access": {
+            "member_policy": "open",
+            "members_visibility": "public",
+            "record_submission_policy": "open",
+            "review_policy": "closed",
+            "visibility": "public"
+          },
+          "children": {
+            "allow": false
+          },
+          "created": "2025-09-29T00:16:08.675831+00:00",
+          "custom_fields": {
+            "subjects": [
+              {
+                "id": "euroscivoc:1007"
+              },
+              {
+                "id": "euroscivoc:261"
+              },
+              {
+                "id": "euroscivoc:1063"
+              },
+              {
+                "id": "mesh:D008433Q000295"
+              },
+              {
+                "id": "euroscivoc:1647"
+              },
+              {
+                "id": "euroscivoc:1005"
+              },
+              {
+                "id": "euroscivoc:1629"
+              },
+              {
+                "id": "mesh:D010825Q000295"
+              },
+              {
+                "id": "mesh:D012984Q000592"
+              },
+              {
+                "id": "euroscivoc:973"
+              },
+              {
+                "id": "euroscivoc:1607"
+              }
+            ]
+          },
+          "deletion_status": {
+            "is_deleted": false,
+            "status": "P"
+          },
+          "id": "d41d07b2-3ca3-4dfa-87ce-7d960c7eba47",
+          "links": {},
+          "metadata": {
+            "curation_policy": "<p dir=\"auto\">This community enforces a strict, falsification-first curation standard. The goal is not to accumulate records. The goal is to ensure that every record in this archive is auditable, reproducible, and built to be attacked.</p>\n<p dir=\"auto\"><strong>Scope.</strong>&nbsp;Records accepted into this community must fall within one or more of the following categories: (1) theorem-bearing manuscripts within the VDM derivation tree, (2) adversarial validation artifacts attacking published VDM claims, (3) empirical analyses of the VDM cognitive runtime, (4) instrumentation or calibration records supporting VDM research, (5) code repository releases with provenance documentation, (6) formal critique reports or independent reproduction attempts.</p>\n<p dir=\"auto\"><strong>Minimum requirements for all records.</strong></p>\n<p dir=\"auto\">Every record must include a plain-English abstract stating what is claimed. Every primary claim must be explicitly stated, uniquely identified, and paired with a decisive metric, a falsifier, its assumption dependence, and a scope classification. No claim may hide behind \"standard argument,\" \"it is well known,\" \"follows similarly,\" or \"checked numerically\" without stating exactly what is being delegated and why. Every assumption must be explicit, scoped, and typed. Every record must state what it does not prove.</p>\n<p dir=\"auto\"><strong>Publication bundle standard (Complete Formalisms and theorem-bearing manuscripts).</strong></p>\n<p dir=\"auto\">A Complete Formalism publication is not complete when it merely states claims. It is complete only when its full formal burden is attacked across all required artifact layers: paper, Lean 4, SymPy, Jupyter, and manifest.</p>\n<p dir=\"auto\">The paper must carry the full load-bearing formal burden: definitions, theorems, derivation chains, operator relations, assumption boundaries, falsifiers, and scope limits.</p>\n<p dir=\"auto\">Lean 4 must prove every exact formalizable statement. Any omission must be classified with an explicit reason (non-formalizable, numerical, symbolic, or deferred).</p>\n<p dir=\"auto\">SymPy must attack every symbolic identity and operator law and terminate with an explicit FINAL_RESULT: PASS or FINAL_RESULT: FAIL.</p>\n<p dir=\"auto\">Jupyter must attack every numerical, geometric, statistical, and gate-facing consequence in reviewer-readable form, including negative controls, explicit residuals, labeled thresholds, and a final coverage ledger.</p>\n<p dir=\"auto\">A README must map every burden to its artifact location with exact run instructions and expected outputs. SHA-256 hashes must cover all bundled artifacts.</p>\n<p dir=\"auto\"><strong>Review standard.</strong>&nbsp;This community uses the CRAFT/BASS framework (Credibility, Rigor, Assumption, Falsifiability, Terminology / Bayesian Audit of Scientific Substance) for internal review. Records targeting a BASS score below 70 will not be accepted unless explicitly labeled as draft, partial, or in-progress.</p>\n<p dir=\"auto\"><strong>What will be rejected.</strong>&nbsp;Records that contain marketing language, vague claims without falsification criteria, omitted negative results, non-runnable validation artifacts, or claims asserted as validated without adversarial attack will be rejected or returned for revision.</p>\n<p dir=\"auto\"><strong>Labeling.</strong>&nbsp;Every record must carry one of the following statuses: validated (full bundle passes all gates), draft (incomplete validation, explicitly labeled), partial (some burdens unresolved, explicitly enumerated), or falsified (a published claim has been disproven, with the correction documented).</p>\n<p dir=\"auto\">No record may be described as \"validated\" unless its full bundle satisfies the publication validation requirements.</p>\n<p dir=\"auto\"><strong>External contributions.</strong>&nbsp;Independent researchers who wish to submit reproduction attempts, critique reports, or adversarial analyses targeting records in this community are welcome. Contact&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a> before submission.</p>",
+            "description": "One bifurcation invariant.\nBackground-independent metriplectic field theory + zero-training cognitive runtime across 20 Complete Formalisms.\nAdversarial Lean 4/SymPy/Jupyter bundles and pass/fail gates with every record. \nBuilt to be attacked.",
+            "organizations": [
+              {
+                "name": "Neuroca, Inc"
+              }
+            ],
+            "page": "<p dir=\"auto\">The Void Dynamics Model (VDM) is an independent research program operated by Neuroca, Inc. (Neenah, WI) under principal investigator Justin K. Lietz.</p>\n<p dir=\"auto\">VDM has two tracks.</p>\n<p dir=\"auto\"><strong>Track 1 &mdash; Physics.</strong>&nbsp;A unified framework deriving quantum geometry, thermodynamics, gauge structure, gravity, and cosmology from a single primitive bifurcation invariant via metriplectic geometry, bifurcation theory, and domain wall dynamics. The formal spine is a derivation tree of Complete Formalisms (CF000&ndash;CF19), each carrying its own theorem surface, falsification gates, and explicit scope boundaries.</p>\n<p dir=\"auto\"><strong>Track 2 &mdash; Cognitive Runtime.</strong>&nbsp;A zero-training, physics-gated cognitive architecture exploring how conservation-vs.-dissipation dynamics produce stable, adaptive behavior in sparse, event-driven neural graphs &mdash; no backpropagation, no training data, no gradient descent.</p>\n<p dir=\"auto\"><strong>Governing principle.</strong>&nbsp;Every record in this community is built to be proven wrong. Predictions are preregistered and time-stamped before results are collected. Claims carry explicit pass/fail gates. Negative controls and failure reports ship by default. If a result breaks, we publish the break.</p>\n<p dir=\"auto\"><strong>What this community contains:</strong></p>\n<ul>\n<li>Theorem-bearing manuscripts (Complete Formalisms, Phase Calculus, universality papers, standalone theorems, cogitants)</li>\n<li>Adversarial validation bundles (Lean 4 packages, SymPy scripts, skeptical-reviewer Jupyter notebooks, SHA-256 manifests)</li>\n<li>Cognitive runtime publications (empirical analyses, complexity metric instruments, runtime architectures)</li>\n<li>Instrumentation and calibration records</li>\n<li>Code repository releases with cryptographic provenance</li>\n</ul>\n<p dir=\"auto\"><strong>Open challenge.</strong>&nbsp;Attempts to falsify any record in this community are encouraged. If your critique successfully disproves a published claim and we can verify your results, we will publish a formal follow-up conceding the original claim and giving you full credit for the correction. Contact:&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a></p>\n<p dir=\"auto\"><strong>Resources:</strong></p>\n<ul>\n<li>Website:&nbsp;<a href=\"https://www.neuroca.ai/\">https://www.neuroca.ai</a></li>\n<li>ORCID:&nbsp;<a href=\"https://orcid.org/0009-0008-9028-1366\">https://orcid.org/0009-0008-9028-1366</a></li>\n<li>Academia.edu:&nbsp;<a href=\"https://independent.academia.edu/justinlietz\">https://independent.academia.edu/justinlietz</a></li>\n<li>GitHub (Primitive Bifurcation Law):&nbsp;<a href=\"https://github.com/justinlietz93/primitive_bifurcation_law_VDM\">https://github.com/justinlietz93/primitive_bifurcation_law_VDM</a></li>\n<li>GitHub (Prometheus VDM):&nbsp;<a href=\"https://github.com/justinlietz93/Prometheus_VDM\">https://github.com/justinlietz93/Prometheus_VDM</a></li>\n</ul>",
+            "title": "Void Dynamics Model",
+            "type": {
+              "id": "project"
+            },
+            "website": "https://www.neuroca.ai"
+          },
+          "revision_id": 9,
+          "slug": "void-dynamics-model",
+          "updated": "2026-04-14T13:36:23.959992+00:00"
+        }
+      ],
+      "ids": [
+        "35396844-f546-40c2-848e-2ed45468bfc9",
+        "d41d07b2-3ca3-4dfa-87ce-7d960c7eba47"
+      ]
+    },
+    "id": "19521029",
+    "pids": {
+      "doi": {
+        "client": "datacite",
+        "identifier": "10.5281/zenodo.19521029",
+        "provider": "datacite"
+      }
+    }
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.5281/zenodo.19651366",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:19651366",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 6,
+  "stats": {
+    "all_versions": {
+      "data_volume": 98500311.0,
+      "downloads": 113,
+      "unique_downloads": 105,
+      "unique_views": 91,
+      "views": 97
+    },
+    "this_version": {
+      "data_volume": 41704278.0,
+      "downloads": 66,
+      "unique_downloads": 63,
+      "unique_views": 31,
+      "views": 32
+    }
+  },
+  "status": "published",
+  "swh": {},
+  "updated": "2026-04-21T05:35:30.234921+00:00",
+  "versions": {
+    "index": 3,
+    "is_latest": true
+  }
+}

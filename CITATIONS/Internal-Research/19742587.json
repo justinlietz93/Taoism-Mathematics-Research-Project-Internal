@@ -1,0 +1,648 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2026-04-24T19:11:10.717200+00:00",
+  "custom_fields": {
+    "code:codeRepository": "https://github.com/justinlietz93/Prometheus_VDM",
+    "code:developmentStatus": {
+      "id": "active",
+      "title": {
+        "en": "Active"
+      }
+    },
+    "code:programmingLanguage": [
+      {
+        "id": "python",
+        "title": {
+          "en": "Python"
+        }
+      }
+    ]
+  },
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 18,
+    "default_preview": "results_summary.csv",
+    "enabled": true,
+    "entries": {
+      "REPORT_rolling_short_window_results.md": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:13446ce433eeae9cfdb4c143739c77d2",
+        "ext": "md",
+        "id": "0a5e2b57-483e-4dc9-937e-3226ccf30753",
+        "key": "REPORT_rolling_short_window_results.md",
+        "links": {
+          "content": "https://zenodo.org/api/records/19742587/files/REPORT_rolling_short_window_results.md/content",
+          "self": "https://zenodo.org/api/records/19742587/files/REPORT_rolling_short_window_results.md"
+        },
+        "metadata": {},
+        "mimetype": "application/octet-stream",
+        "size": 4228,
+        "storage_class": "L"
+      },
+      "all_results.json": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:20a2303b27673fd9ca1a301976e99b99",
+        "ext": "json",
+        "id": "01733beb-4b01-4241-8b16-0d73a306acbe",
+        "key": "all_results.json",
+        "links": {
+          "content": "https://zenodo.org/api/records/19742587/files/all_results.json/content",
+          "self": "https://zenodo.org/api/records/19742587/files/all_results.json"
+        },
+        "metadata": {},
+        "mimetype": "application/json",
+        "size": 32829,
+        "storage_class": "L"
+      },
+      "hourly_loads_area_mapping_numeric_metadata.csv": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:a6c3b7f0e02b7063ee9bb69e120dd305",
+        "ext": "csv",
+        "id": "01e87469-445c-4393-9ed5-a68ada53f83e",
+        "key": "hourly_loads_area_mapping_numeric_metadata.csv",
+        "links": {
+          "content": "https://zenodo.org/api/records/19742587/files/hourly_loads_area_mapping_numeric_metadata.csv/content",
+          "self": "https://zenodo.org/api/records/19742587/files/hourly_loads_area_mapping_numeric_metadata.csv"
+        },
+        "metadata": {},
+        "mimetype": "text/csv",
+        "size": 579,
+        "storage_class": "L"
+      },
+      "hourly_loads_area_mapping_numeric_metadata_result.json": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:e5de1123668837cd93bf29fc8766ce19",
+        "ext": "json",
+        "id": "abe2a846-eb72-4df4-9884-c6cb015cb955",
+        "key": "hourly_loads_area_mapping_numeric_metadata_result.json",
+        "links": {
+          "content": "https://zenodo.org/api/records/19742587/files/hourly_loads_area_mapping_numeric_metadata_result.json/content",
+          "self": "https://zenodo.org/api/records/19742587/files/hourly_loads_area_mapping_numeric_metadata_result.json"
+        },
+        "metadata": {},
+        "mimetype": "application/json",
+        "size": 3851,
+        "storage_class": "L"
+      },
+      "load_forecast_latest_by_area_hour.csv": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:b370809c26c9b65e82c944bc1149a97d",
+        "ext": "csv",
+        "id": "a4b71027-b87f-4b0b-b827-6d2f25d23e59",
+        "key": "load_forecast_latest_by_area_hour.csv",
+        "links": {
+          "content": "https://zenodo.org/api/records/19742587/files/load_forecast_latest_by_area_hour.csv/content",
+          "self": "https://zenodo.org/api/records/19742587/files/load_forecast_latest_by_area_hour.csv"
+        },
+        "metadata": {},
+        "mimetype": "text/csv",
+        "size": 657401,
+        "storage_class": "L"
+      },
+      "load_forecast_latest_by_area_hour_result.json": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:3042b0409a0e685117d3d4fceb3fafa3",
+        "ext": "json",
+        "id": "30000f7e-e74f-448c-a37a-0556045389b6",
+        "key": "load_forecast_latest_by_area_hour_result.json",
+        "links": {
+          "content": "https://zenodo.org/api/records/19742587/files/load_forecast_latest_by_area_hour_result.json/content",
+          "self": "https://zenodo.org/api/records/19742587/files/load_forecast_latest_by_area_hour_result.json"
+        },
+        "metadata": {},
+        "mimetype": "application/json",
+        "size": 6227,
+        "storage_class": "L"
+      },
+      "menasha_weather_daily_features.csv": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:c45148887e6cf1cb44a31629eca480c0",
+        "ext": "csv",
+        "id": "8703d6c3-0beb-4ff0-8740-21f4671d1cd4",
+        "key": "menasha_weather_daily_features.csv",
+        "links": {
+          "content": "https://zenodo.org/api/records/19742587/files/menasha_weather_daily_features.csv/content",
+          "self": "https://zenodo.org/api/records/19742587/files/menasha_weather_daily_features.csv"
+        },
+        "metadata": {},
+        "mimetype": "text/csv",
+        "size": 33807,
+        "storage_class": "L"
+      },
+      "menasha_weather_daily_features_result.json": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:cd9402762843a1879d5c655bb44982f6",
+        "ext": "json",
+        "id": "11e1cacb-bd9b-4eeb-b773-5b015dbd56b0",
+        "key": "menasha_weather_daily_features_result.json",
+        "links": {
+          "content": "https://zenodo.org/api/records/19742587/files/menasha_weather_daily_features_result.json/content",
+          "self": "https://zenodo.org/api/records/19742587/files/menasha_weather_daily_features_result.json"
+        },
+        "metadata": {},
+        "mimetype": "application/json",
+        "size": 6399,
+        "storage_class": "L"
+      },
+      "planning_traffic_forecast_aggregate_curve.csv": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:df85986259bcea007fa6a4c6f25027ab",
+        "ext": "csv",
+        "id": "165ed6f1-47de-4b0c-9e80-757f5725263b",
+        "key": "planning_traffic_forecast_aggregate_curve.csv",
+        "links": {
+          "content": "https://zenodo.org/api/records/19742587/files/planning_traffic_forecast_aggregate_curve.csv/content",
+          "self": "https://zenodo.org/api/records/19742587/files/planning_traffic_forecast_aggregate_curve.csv"
+        },
+        "metadata": {},
+        "mimetype": "text/csv",
+        "size": 1817,
+        "storage_class": "L"
+      },
+      "planning_traffic_forecast_aggregate_curve_result.json": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:d594328d20f86cc36466a77ffe72671e",
+        "ext": "json",
+        "id": "98243b64-bfba-48f1-9a17-3e5d804a25bd",
+        "key": "planning_traffic_forecast_aggregate_curve_result.json",
+        "links": {
+          "content": "https://zenodo.org/api/records/19742587/files/planning_traffic_forecast_aggregate_curve_result.json/content",
+          "self": "https://zenodo.org/api/records/19742587/files/planning_traffic_forecast_aggregate_curve_result.json"
+        },
+        "metadata": {},
+        "mimetype": "application/json",
+        "size": 5982,
+        "storage_class": "L"
+      },
+      "raw_xi_engine_rust_asm.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:080fd7258274a4088feea8ad18b47a15",
+        "ext": "zip",
+        "id": "788a969f-445c-4448-bd01-a0255cfe3f1d",
+        "key": "raw_xi_engine_rust_asm.zip",
+        "links": {
+          "container": "https://zenodo.org/api/records/19742587/files/raw_xi_engine_rust_asm.zip/container",
+          "content": "https://zenodo.org/api/records/19742587/files/raw_xi_engine_rust_asm.zip/content",
+          "self": "https://zenodo.org/api/records/19742587/files/raw_xi_engine_rust_asm.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 566010,
+        "storage_class": "L"
+      },
+      "results.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:2210af17b774f241b478d3c4124ef8e6",
+        "ext": "zip",
+        "id": "c39d39db-fdd7-4fbd-92e5-a9260053ee24",
+        "key": "results.zip",
+        "links": {
+          "container": "https://zenodo.org/api/records/19742587/files/results.zip/container",
+          "content": "https://zenodo.org/api/records/19742587/files/results.zip/content",
+          "self": "https://zenodo.org/api/records/19742587/files/results.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 654313,
+        "storage_class": "L"
+      },
+      "results_summary.csv": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:319cd902d6004590e3f64e7d3ff301bf",
+        "ext": "csv",
+        "id": "32578611-fb10-4712-8f2f-02bc3a24c6de",
+        "key": "results_summary.csv",
+        "links": {
+          "content": "https://zenodo.org/api/records/19742587/files/results_summary.csv/content",
+          "self": "https://zenodo.org/api/records/19742587/files/results_summary.csv"
+        },
+        "metadata": {},
+        "mimetype": "text/csv",
+        "size": 4695,
+        "storage_class": "L"
+      },
+      "rolling_short_window_results.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:a125464cf4e064e4985b53c69df2e224",
+        "ext": "zip",
+        "id": "7c1dc828-ed8a-4f70-9cb1-72d7b69ea197",
+        "key": "rolling_short_window_results.zip",
+        "links": {
+          "container": "https://zenodo.org/api/records/19742587/files/rolling_short_window_results.zip/container",
+          "content": "https://zenodo.org/api/records/19742587/files/rolling_short_window_results.zip/content",
+          "self": "https://zenodo.org/api/records/19742587/files/rolling_short_window_results.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 1712642,
+        "storage_class": "L"
+      },
+      "run_uploaded_solver.py": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:30a17a74739f81e45dd16d578139e4b6",
+        "ext": "py",
+        "id": "3269068b-ca49-4a1b-9715-b5ab6d45e2e2",
+        "key": "run_uploaded_solver.py",
+        "links": {
+          "content": "https://zenodo.org/api/records/19742587/files/run_uploaded_solver.py/content",
+          "self": "https://zenodo.org/api/records/19742587/files/run_uploaded_solver.py"
+        },
+        "metadata": {},
+        "mimetype": "text/x-python",
+        "size": 8700,
+        "storage_class": "L"
+      },
+      "stock_daily_ohlcv.csv": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:33dcb5819198238fa504788d96ff0689",
+        "ext": "csv",
+        "id": "cd4d0671-e2a5-4310-b78f-6b5378971c79",
+        "key": "stock_daily_ohlcv.csv",
+        "links": {
+          "content": "https://zenodo.org/api/records/19742587/files/stock_daily_ohlcv.csv/content",
+          "self": "https://zenodo.org/api/records/19742587/files/stock_daily_ohlcv.csv"
+        },
+        "metadata": {},
+        "mimetype": "text/csv",
+        "size": 48580,
+        "storage_class": "L"
+      },
+      "stock_daily_ohlcv_result.json": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:85a46f8a8722efdb00972684a3c89685",
+        "ext": "json",
+        "id": "53f7d3c2-6448-44f8-859d-4557be40b519",
+        "key": "stock_daily_ohlcv_result.json",
+        "links": {
+          "content": "https://zenodo.org/api/records/19742587/files/stock_daily_ohlcv_result.json/content",
+          "self": "https://zenodo.org/api/records/19742587/files/stock_daily_ohlcv_result.json"
+        },
+        "metadata": {},
+        "mimetype": "application/json",
+        "size": 5856,
+        "storage_class": "L"
+      },
+      "uploaded_solver_results.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:d7000e6b05fa4f5dc55f68b945cbde40",
+        "ext": "zip",
+        "id": "50098515-b30c-40b0-b690-a2397bacb66e",
+        "key": "uploaded_solver_results.zip",
+        "links": {
+          "container": "https://zenodo.org/api/records/19742587/files/uploaded_solver_results.zip/container",
+          "content": "https://zenodo.org/api/records/19742587/files/uploaded_solver_results.zip/content",
+          "self": "https://zenodo.org/api/records/19742587/files/uploaded_solver_results.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 308921,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 4062837
+  },
+  "id": "19742587",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://zenodo.org/api/records/19742587/access",
+    "access_grants": "https://zenodo.org/api/records/19742587/access/grants",
+    "access_links": "https://zenodo.org/api/records/19742587/access/links",
+    "access_request": "https://zenodo.org/api/records/19742587/access/request",
+    "access_users": "https://zenodo.org/api/records/19742587/access/users",
+    "archive": "https://zenodo.org/api/records/19742587/files-archive",
+    "archive_media": "https://zenodo.org/api/records/19742587/media-files-archive",
+    "communities": "https://zenodo.org/api/records/19742587/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/19742587/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.19742587",
+    "draft": "https://zenodo.org/api/records/19742587/draft",
+    "file_modification": "https://zenodo.org/api/records/19742587/file-modification",
+    "files": "https://zenodo.org/api/records/19742587/files",
+    "latest": "https://zenodo.org/api/records/19742587/versions/latest",
+    "latest_html": "https://zenodo.org/records/19742587/latest",
+    "media_files": "https://zenodo.org/api/records/19742587/media-files",
+    "parent": "https://zenodo.org/api/records/19742586",
+    "parent_doi": "https://doi.org/10.5281/zenodo.19742586",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19742586",
+    "parent_html": "https://zenodo.org/records/19742586",
+    "preview_html": "https://zenodo.org/records/19742587?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/19742587/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/19742587/request-deletion",
+    "requests": "https://zenodo.org/api/records/19742587/requests",
+    "reserve_doi": "https://zenodo.org/api/records/19742587/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/19742587",
+    "self_doi": "https://doi.org/10.5281/zenodo.19742587",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19742587",
+    "self_html": "https://zenodo.org/records/19742587",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19742587/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19742587/sequence/default",
+    "versions": "https://zenodo.org/api/records/19742587/versions"
+  },
+  "media_files": {
+    "count": 0,
+    "enabled": false,
+    "entries": {},
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "copyright": "Copyright (C) 2026 Justin K. Lietz",
+    "creators": [
+      {
+        "affiliations": [
+          {
+            "name": "Neuroca, Inc"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Lietz",
+          "given_name": "Justin",
+          "identifiers": [
+            {
+              "identifier": "0009-0008-9028-1366",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Lietz, Justin",
+          "type": "personal"
+        },
+        "role": {
+          "id": "researcher",
+          "title": {
+            "de": "WissenschaftlerIn",
+            "en": "Researcher"
+          }
+        }
+      }
+    ],
+    "description": "<div>\n<div>Full-dynamics VDM symbolic regression package. &nbsp;\n<div>\n<div>The solver is built from Phase Calculus discrete grammar lifted object and dynamically auto-solves using the proprietary Void Dynamics Model v9 runtime, initializes `vdm_runtime.Connectome`, feeds time-series samples through `stimulate()`, advances the runtime through `step()`, and extracts the final law from the stabilized runtime state plus selector-closed Phase Calculus macro trace.</div>\n</div>\n</div>\n</div>",
+    "publication_date": "2026-04-24",
+    "publisher": "Zenodo",
+    "resource_type": {
+      "id": "software",
+      "title": {
+        "de": "Software",
+        "en": "Software"
+      }
+    },
+    "rights": [
+      {
+        "link": "https://github.com/justinlietz93/Prometheus_VDM/blob/main/LICENSE.md",
+        "title": {
+          "en": "Proprietary Dual Research and Commercial License"
+        }
+      }
+    ],
+    "title": "PCVDMFullDynamicsRegressor",
+    "version": "v0.1"
+  },
+  "parent": {
+    "access": {
+      "owned_by": {
+        "user": "1421018"
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {
+      "default": "d41d07b2-3ca3-4dfa-87ce-7d960c7eba47",
+      "entries": [
+        {
+          "access": {
+            "member_policy": "closed",
+            "members_visibility": "public",
+            "record_submission_policy": "open",
+            "review_policy": "closed",
+            "visibility": "public"
+          },
+          "children": {
+            "allow": false
+          },
+          "created": "2026-04-19T08:23:22.356085+00:00",
+          "custom_fields": {
+            "subjects": [
+              {
+                "id": "euroscivoc:51"
+              },
+              {
+                "id": "euroscivoc:1063"
+              },
+              {
+                "id": "mesh:D017711"
+              },
+              {
+                "id": "mesh:D011385"
+              },
+              {
+                "id": "mesh:D012008"
+              },
+              {
+                "id": "mesh:D061827"
+              },
+              {
+                "id": "euroscivoc:1635"
+              }
+            ]
+          },
+          "deletion_status": {
+            "is_deleted": false,
+            "status": "P"
+          },
+          "id": "35396844-f546-40c2-848e-2ed45468bfc9",
+          "links": {},
+          "metadata": {
+            "curation_policy": "<p dir=\"auto\">This community enforces a strict, curiosity driven, falsification-first curation standard. The goal is not to accumulate records. The goal is to ensure that every record in this archive is auditable, reproducible, and built to be attacked.</p>\n<p dir=\"auto\"><strong>Scope.</strong>&nbsp;Records accepted into this community must fall within one or more of the following categories: (1) theorem-bearing manuscripts within the VDM derivation tree, (2) adversarial validation artifacts attacking published VDM claims, (3) empirical analyses of the VDM cognitive runtime, (4) instrumentation or calibration records supporting VDM research, (5) code repository releases with provenance documentation, (6) formal critique reports or independent reproduction attempts.</p>\n<p dir=\"auto\"><strong>Minimum requirements for all records.</strong></p>\n<p dir=\"auto\">Every record must include a plain-English abstract stating what is claimed. Every primary claim must be explicitly stated, uniquely identified, and paired with a decisive metric, a falsifier, its assumption dependence, and a scope classification. No claim may hide behind \"standard argument,\" \"it is well known,\" \"follows similarly,\" or \"checked numerically\" without stating exactly what is being delegated and why. Every assumption must be explicit, scoped, and typed. Every record must state what it does not prove.</p>\n<p dir=\"auto\"><strong>Publication bundle standard (Complete Formalisms and theorem-bearing manuscripts).</strong></p>\n<p dir=\"auto\">A Complete Formalism publication is not complete when it merely states claims. It is complete only when its full formal burden is attacked across all required artifact layers: paper, Lean 4, SymPy, Jupyter, and manifest.</p>\n<p dir=\"auto\">The paper must carry the full load-bearing formal burden: definitions, theorems, derivation chains, operator relations, assumption boundaries, falsifiers, and scope limits.</p>\n<p dir=\"auto\">Lean 4 must prove every exact formalizable statement. Any omission must be classified with an explicit reason (non-formalizable, numerical, symbolic, or deferred).</p>\n<p dir=\"auto\">SymPy must attack every symbolic identity and operator law and terminate with an explicit FINAL_RESULT: PASS or FINAL_RESULT: FAIL.</p>\n<p dir=\"auto\">Jupyter must attack every numerical, geometric, statistical, and gate-facing consequence in reviewer-readable form, including negative controls, explicit residuals, labeled thresholds, and a final coverage ledger.</p>\n<p dir=\"auto\">A README must map every burden to its artifact location with exact run instructions and expected outputs. SHA-256 hashes must cover all bundled artifacts.</p>\n<p dir=\"auto\"><strong>Review standard.</strong>&nbsp;This community uses the CRAFT/BASS framework (Credibility, Rigor, Assumption, Falsifiability, Terminology / Bayesian Audit of Scientific Substance) for internal review. Records targeting a BASS score below 70 will not be accepted unless explicitly labeled as draft, partial, or in-progress.</p>\n<p dir=\"auto\"><strong>What will be rejected.</strong>&nbsp;Records that contain marketing language, vague claims without falsification criteria, omitted negative results, non-runnable validation artifacts, or claims asserted as validated without adversarial attack will be rejected or returned for revision.</p>\n<p dir=\"auto\"><strong>Labeling.</strong>&nbsp;Every record must carry one of the following statuses: validated (full bundle passes all gates), draft (incomplete validation, explicitly labeled), partial (some burdens unresolved, explicitly enumerated), or falsified (a published claim has been disproven, with the correction documented).</p>\n<p dir=\"auto\">No record may be described as \"validated\" unless its full bundle satisfies the publication validation requirements.</p>\n<p dir=\"auto\"><strong>External contributions.</strong>&nbsp;Independent researchers who wish to submit reproduction attempts, critique reports, or adversarial analyses targeting records in this community are welcome. Contact&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a> before submission.</p>",
+            "description": "This is a branch community off of the larger collective of the Void Dynamics Model community created specifically to organize the research related only to the mathematical framework of Phase Calculus and its operational utility.",
+            "organizations": [
+              {
+                "name": "Neuroca, Inc."
+              }
+            ],
+            "page": "<p dir=\"auto\">The Void Dynamics Model (VDM) is an independent research program operated by Neuroca, Inc. (Neenah, WI) under principal investigator Justin K. Lietz.</p>\n<p dir=\"auto\">VDM has two tracks.</p>\n<p dir=\"auto\"><strong>Track 1 &mdash; Physics.</strong>&nbsp;A unified framework deriving quantum geometry, thermodynamics, gauge structure, gravity, and cosmology from a single primitive bifurcation invariant via metriplectic geometry, bifurcation theory, and domain wall dynamics. The formal spine is a derivation tree of Complete Formalisms (CF000&ndash;CF19), each carrying its own theorem surface, falsification gates, and explicit scope boundaries.</p>\n<p dir=\"auto\"><strong>Track 2 &mdash; Cognitive Runtime.</strong>&nbsp;A zero-training, physics-gated cognitive architecture exploring how conservation-vs.-dissipation dynamics produce stable, adaptive behavior in sparse, event-driven neural graphs &mdash; no backpropagation, no training data, no gradient descent.</p>\n<p dir=\"auto\">This community regards the Phase Calculus framework which works interchangeably between those tracks.</p>\n<p dir=\"auto\"><strong>Governing principle.</strong>&nbsp;Every record in this community is built to be proven wrong. Predictions are preregistered and time-stamped before results are collected. Claims carry explicit pass/fail gates. Negative controls and failure reports ship by default. If a result breaks, we publish the break.</p>\n<p dir=\"auto\"><strong>What this community contains:</strong></p>\n<ul>\n<li>Theorem-bearing manuscripts (Complete Formalisms, Phase Calculus, universality papers, standalone theorems, cogitants)</li>\n<li>Adversarial validation bundles (Lean 4 packages, SymPy scripts, skeptical-reviewer Jupyter notebooks, SHA-256 manifests)</li>\n<li>Cognitive runtime publications (empirical analyses, complexity metric instruments, runtime architectures)</li>\n<li>Instrumentation and calibration records</li>\n<li>Code repository releases with cryptographic provenance</li>\n</ul>\n<p dir=\"auto\"><strong>Open challenge.</strong>&nbsp;Attempts to falsify any record in this community are encouraged. If your critique successfully disproves a published claim and we can verify your results, we will publish a formal follow-up conceding the original claim and giving you full credit for the correction. Contact:&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a></p>\n<p dir=\"auto\"><strong>Resources:</strong></p>\n<ul>\n<li>Website:&nbsp;<a href=\"https://www.neuroca.ai/\">https://www.neuroca.ai</a></li>\n<li>ORCID:&nbsp;<a href=\"https://orcid.org/0009-0008-9028-1366\">https://orcid.org/0009-0008-9028-1366</a></li>\n<li>Academia.edu:&nbsp;<a href=\"https://independent.academia.edu/justinlietz\">https://independent.academia.edu/justinlietz</a></li>\n<li>GitHub (Primitive Bifurcation Law):&nbsp;<a href=\"https://github.com/justinlietz93/primitive_bifurcation_law_VDM\">https://github.com/justinlietz93/primitive_bifurcation_law_VDM</a></li>\n<li>GitHub (Prometheus VDM):&nbsp;<a href=\"https://github.com/justinlietz93/Prometheus_VDM\">https://github.com/justinlietz93/Prometheus_VDM</a></li>\n</ul>",
+            "title": "Void Dynamics Model: Phase Calculus",
+            "type": {
+              "id": "project"
+            },
+            "website": "https://www.neuroca.ai"
+          },
+          "revision_id": 7,
+          "slug": "vdm-phase-calculus",
+          "updated": "2026-04-19T08:53:35.538977+00:00"
+        },
+        {
+          "access": {
+            "member_policy": "open",
+            "members_visibility": "public",
+            "record_submission_policy": "open",
+            "review_policy": "closed",
+            "visibility": "public"
+          },
+          "children": {
+            "allow": false
+          },
+          "created": "2025-09-29T00:16:08.675831+00:00",
+          "custom_fields": {
+            "subjects": [
+              {
+                "id": "euroscivoc:1007"
+              },
+              {
+                "id": "euroscivoc:261"
+              },
+              {
+                "id": "euroscivoc:1063"
+              },
+              {
+                "id": "mesh:D008433Q000295"
+              },
+              {
+                "id": "euroscivoc:1647"
+              },
+              {
+                "id": "euroscivoc:1005"
+              },
+              {
+                "id": "euroscivoc:1629"
+              },
+              {
+                "id": "mesh:D010825Q000295"
+              },
+              {
+                "id": "mesh:D012984Q000592"
+              },
+              {
+                "id": "euroscivoc:973"
+              },
+              {
+                "id": "euroscivoc:1607"
+              }
+            ]
+          },
+          "deletion_status": {
+            "is_deleted": false,
+            "status": "P"
+          },
+          "id": "d41d07b2-3ca3-4dfa-87ce-7d960c7eba47",
+          "links": {},
+          "metadata": {
+            "curation_policy": "<p dir=\"auto\">This community enforces a strict, falsification-first curation standard. The goal is not to accumulate records. The goal is to ensure that every record in this archive is auditable, reproducible, and built to be attacked.</p>\n<p dir=\"auto\"><strong>Scope.</strong>&nbsp;Records accepted into this community must fall within one or more of the following categories: (1) theorem-bearing manuscripts within the VDM derivation tree, (2) adversarial validation artifacts attacking published VDM claims, (3) empirical analyses of the VDM cognitive runtime, (4) instrumentation or calibration records supporting VDM research, (5) code repository releases with provenance documentation, (6) formal critique reports or independent reproduction attempts.</p>\n<p dir=\"auto\"><strong>Minimum requirements for all records.</strong></p>\n<p dir=\"auto\">Every record must include a plain-English abstract stating what is claimed. Every primary claim must be explicitly stated, uniquely identified, and paired with a decisive metric, a falsifier, its assumption dependence, and a scope classification. No claim may hide behind \"standard argument,\" \"it is well known,\" \"follows similarly,\" or \"checked numerically\" without stating exactly what is being delegated and why. Every assumption must be explicit, scoped, and typed. Every record must state what it does not prove.</p>\n<p dir=\"auto\"><strong>Publication bundle standard (Complete Formalisms and theorem-bearing manuscripts).</strong></p>\n<p dir=\"auto\">A Complete Formalism publication is not complete when it merely states claims. It is complete only when its full formal burden is attacked across all required artifact layers: paper, Lean 4, SymPy, Jupyter, and manifest.</p>\n<p dir=\"auto\">The paper must carry the full load-bearing formal burden: definitions, theorems, derivation chains, operator relations, assumption boundaries, falsifiers, and scope limits.</p>\n<p dir=\"auto\">Lean 4 must prove every exact formalizable statement. Any omission must be classified with an explicit reason (non-formalizable, numerical, symbolic, or deferred).</p>\n<p dir=\"auto\">SymPy must attack every symbolic identity and operator law and terminate with an explicit FINAL_RESULT: PASS or FINAL_RESULT: FAIL.</p>\n<p dir=\"auto\">Jupyter must attack every numerical, geometric, statistical, and gate-facing consequence in reviewer-readable form, including negative controls, explicit residuals, labeled thresholds, and a final coverage ledger.</p>\n<p dir=\"auto\">A README must map every burden to its artifact location with exact run instructions and expected outputs. SHA-256 hashes must cover all bundled artifacts.</p>\n<p dir=\"auto\"><strong>Review standard.</strong>&nbsp;This community uses the CRAFT/BASS framework (Credibility, Rigor, Assumption, Falsifiability, Terminology / Bayesian Audit of Scientific Substance) for internal review. Records targeting a BASS score below 70 will not be accepted unless explicitly labeled as draft, partial, or in-progress.</p>\n<p dir=\"auto\"><strong>What will be rejected.</strong>&nbsp;Records that contain marketing language, vague claims without falsification criteria, omitted negative results, non-runnable validation artifacts, or claims asserted as validated without adversarial attack will be rejected or returned for revision.</p>\n<p dir=\"auto\"><strong>Labeling.</strong>&nbsp;Every record must carry one of the following statuses: validated (full bundle passes all gates), draft (incomplete validation, explicitly labeled), partial (some burdens unresolved, explicitly enumerated), or falsified (a published claim has been disproven, with the correction documented).</p>\n<p dir=\"auto\">No record may be described as \"validated\" unless its full bundle satisfies the publication validation requirements.</p>\n<p dir=\"auto\"><strong>External contributions.</strong>&nbsp;Independent researchers who wish to submit reproduction attempts, critique reports, or adversarial analyses targeting records in this community are welcome. Contact&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a> before submission.</p>",
+            "description": "One bifurcation invariant.\nBackground-independent metriplectic field theory + zero-training cognitive runtime across 20 Complete Formalisms.\nAdversarial Lean 4/SymPy/Jupyter bundles and pass/fail gates with every record. \nBuilt to be attacked.",
+            "organizations": [
+              {
+                "name": "Neuroca, Inc"
+              }
+            ],
+            "page": "<p dir=\"auto\">The Void Dynamics Model (VDM) is an independent research program operated by Neuroca, Inc. (Neenah, WI) under principal investigator Justin K. Lietz.</p>\n<p dir=\"auto\">VDM has two tracks.</p>\n<p dir=\"auto\"><strong>Track 1 &mdash; Physics.</strong>&nbsp;A unified framework deriving quantum geometry, thermodynamics, gauge structure, gravity, and cosmology from a single primitive bifurcation invariant via metriplectic geometry, bifurcation theory, and domain wall dynamics. The formal spine is a derivation tree of Complete Formalisms (CF000&ndash;CF19), each carrying its own theorem surface, falsification gates, and explicit scope boundaries.</p>\n<p dir=\"auto\"><strong>Track 2 &mdash; Cognitive Runtime.</strong>&nbsp;A zero-training, physics-gated cognitive architecture exploring how conservation-vs.-dissipation dynamics produce stable, adaptive behavior in sparse, event-driven neural graphs &mdash; no backpropagation, no training data, no gradient descent.</p>\n<p dir=\"auto\"><strong>Governing principle.</strong>&nbsp;Every record in this community is built to be proven wrong. Predictions are preregistered and time-stamped before results are collected. Claims carry explicit pass/fail gates. Negative controls and failure reports ship by default. If a result breaks, we publish the break.</p>\n<p dir=\"auto\"><strong>What this community contains:</strong></p>\n<ul>\n<li>Theorem-bearing manuscripts (Complete Formalisms, Phase Calculus, universality papers, standalone theorems, cogitants)</li>\n<li>Adversarial validation bundles (Lean 4 packages, SymPy scripts, skeptical-reviewer Jupyter notebooks, SHA-256 manifests)</li>\n<li>Cognitive runtime publications (empirical analyses, complexity metric instruments, runtime architectures)</li>\n<li>Instrumentation and calibration records</li>\n<li>Code repository releases with cryptographic provenance</li>\n</ul>\n<p dir=\"auto\"><strong>Open challenge.</strong>&nbsp;Attempts to falsify any record in this community are encouraged. If your critique successfully disproves a published claim and we can verify your results, we will publish a formal follow-up conceding the original claim and giving you full credit for the correction. Contact:&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a></p>\n<p dir=\"auto\"><strong>Resources:</strong></p>\n<ul>\n<li>Website:&nbsp;<a href=\"https://www.neuroca.ai/\">https://www.neuroca.ai</a></li>\n<li>ORCID:&nbsp;<a href=\"https://orcid.org/0009-0008-9028-1366\">https://orcid.org/0009-0008-9028-1366</a></li>\n<li>Academia.edu:&nbsp;<a href=\"https://independent.academia.edu/justinlietz\">https://independent.academia.edu/justinlietz</a></li>\n<li>GitHub (Primitive Bifurcation Law):&nbsp;<a href=\"https://github.com/justinlietz93/primitive_bifurcation_law_VDM\">https://github.com/justinlietz93/primitive_bifurcation_law_VDM</a></li>\n<li>GitHub (Prometheus VDM):&nbsp;<a href=\"https://github.com/justinlietz93/Prometheus_VDM\">https://github.com/justinlietz93/Prometheus_VDM</a></li>\n</ul>",
+            "title": "Void Dynamics Model",
+            "type": {
+              "id": "project"
+            },
+            "website": "https://www.neuroca.ai"
+          },
+          "revision_id": 9,
+          "slug": "void-dynamics-model",
+          "updated": "2026-04-14T13:36:23.959992+00:00"
+        }
+      ],
+      "ids": [
+        "35396844-f546-40c2-848e-2ed45468bfc9",
+        "d41d07b2-3ca3-4dfa-87ce-7d960c7eba47"
+      ]
+    },
+    "id": "19742586",
+    "pids": {
+      "doi": {
+        "client": "datacite",
+        "identifier": "10.5281/zenodo.19742586",
+        "provider": "datacite"
+      }
+    }
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.5281/zenodo.19742587",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:19742587",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 6,
+  "stats": {
+    "all_versions": {
+      "data_volume": 6444252.0,
+      "downloads": 47,
+      "unique_downloads": 39,
+      "unique_views": 25,
+      "views": 29
+    },
+    "this_version": {
+      "data_volume": 6444252.0,
+      "downloads": 47,
+      "unique_downloads": 39,
+      "unique_views": 25,
+      "views": 29
+    }
+  },
+  "status": "published",
+  "swh": {},
+  "updated": "2026-05-06T19:39:37.166805+00:00",
+  "versions": {
+    "index": 1,
+    "is_latest": true
+  }
+}

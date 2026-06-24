@@ -1,0 +1,1002 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2026-04-24T06:38:59.003588+00:00",
+  "custom_fields": {
+    "code:codeRepository": "https://github.com/justinlietz93/Prometheus_VDM",
+    "code:developmentStatus": {
+      "id": "active",
+      "title": {
+        "en": "Active"
+      }
+    },
+    "code:programmingLanguage": [
+      {
+        "id": "python",
+        "title": {
+          "en": "Python"
+        }
+      },
+      {
+        "id": "assembly",
+        "title": {
+          "en": "Assembly"
+        }
+      },
+      {
+        "id": "c",
+        "title": {
+          "en": "C"
+        }
+      }
+    ]
+  },
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 10,
+    "default_preview": "Quotient_Descent.pdf",
+    "enabled": true,
+    "entries": {
+      "Operation_Descent_in_Phase_Calculus.pdf": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:db63734bff1b3d340b5971317b853a8e",
+        "ext": "pdf",
+        "id": "fdf9bbad-25e3-41d3-8004-2edcffbaf782",
+        "key": "Operation_Descent_in_Phase_Calculus.pdf",
+        "links": {
+          "content": "https://zenodo.org/api/records/19724444/files/Operation_Descent_in_Phase_Calculus.pdf/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19724444:Operation_Descent_in_Phase_Calculus.pdf/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19724444:Operation_Descent_in_Phase_Calculus.pdf",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19724444/canvas/Operation_Descent_in_Phase_Calculus.pdf",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19724444:Operation_Descent_in_Phase_Calculus.pdf/info.json",
+          "self": "https://zenodo.org/api/records/19724444/files/Operation_Descent_in_Phase_Calculus.pdf"
+        },
+        "metadata": {
+          "height": 792,
+          "width": 612
+        },
+        "mimetype": "application/pdf",
+        "size": 324908,
+        "storage_class": "L"
+      },
+      "PC_EML_PROVENANCE_manifest_20260424062914.json": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:b18e7fa6fd26b17ce5615865e8c2343d",
+        "ext": "json",
+        "id": "73f910b8-71cb-41a7-8756-c3836ed27257",
+        "key": "PC_EML_PROVENANCE_manifest_20260424062914.json",
+        "links": {
+          "content": "https://zenodo.org/api/records/19724444/files/PC_EML_PROVENANCE_manifest_20260424062914.json/content",
+          "self": "https://zenodo.org/api/records/19724444/files/PC_EML_PROVENANCE_manifest_20260424062914.json"
+        },
+        "metadata": {},
+        "mimetype": "application/json",
+        "size": 13411,
+        "storage_class": "L"
+      },
+      "PROVENANCE_manifest_20260424132901.json": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:0cc62fbe3de5a1c93655f2d2da3713d5",
+        "ext": "json",
+        "id": "e4c24e59-24c9-42b5-a17c-bfc551b11781",
+        "key": "PROVENANCE_manifest_20260424132901.json",
+        "links": {
+          "content": "https://zenodo.org/api/records/19724444/files/PROVENANCE_manifest_20260424132901.json/content",
+          "self": "https://zenodo.org/api/records/19724444/files/PROVENANCE_manifest_20260424132901.json"
+        },
+        "metadata": {},
+        "mimetype": "application/json",
+        "size": 15388,
+        "storage_class": "L"
+      },
+      "Primitive_Origin_and_Dependency_Chain.pdf": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:19e3d3d6146dd68480fc38a48079dd23",
+        "ext": "pdf",
+        "id": "c7bc9de4-ceb8-4461-b6ea-7280d150f5a3",
+        "key": "Primitive_Origin_and_Dependency_Chain.pdf",
+        "links": {
+          "content": "https://zenodo.org/api/records/19724444/files/Primitive_Origin_and_Dependency_Chain.pdf/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19724444:Primitive_Origin_and_Dependency_Chain.pdf/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19724444:Primitive_Origin_and_Dependency_Chain.pdf",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19724444/canvas/Primitive_Origin_and_Dependency_Chain.pdf",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19724444:Primitive_Origin_and_Dependency_Chain.pdf/info.json",
+          "self": "https://zenodo.org/api/records/19724444/files/Primitive_Origin_and_Dependency_Chain.pdf"
+        },
+        "metadata": {
+          "height": 792,
+          "width": 612
+        },
+        "mimetype": "application/pdf",
+        "size": 200082,
+        "storage_class": "L"
+      },
+      "Quotient_Descent.pdf": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:930d4c02e7258d5cd1c24243ea6f993d",
+        "ext": "pdf",
+        "id": "2b6b0acb-daad-4544-b82d-9c786997f113",
+        "key": "Quotient_Descent.pdf",
+        "links": {
+          "content": "https://zenodo.org/api/records/19724444/files/Quotient_Descent.pdf/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19724444:Quotient_Descent.pdf/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19724444:Quotient_Descent.pdf",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19724444/canvas/Quotient_Descent.pdf",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19724444:Quotient_Descent.pdf/info.json",
+          "self": "https://zenodo.org/api/records/19724444/files/Quotient_Descent.pdf"
+        },
+        "metadata": {
+          "height": 792,
+          "width": 612
+        },
+        "mimetype": "application/pdf",
+        "size": 459171,
+        "storage_class": "L"
+      },
+      "Quotient_Descent_FULL_PACKAGE.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:f39e68e53be0a8a3321214a912d92ed6",
+        "ext": "zip",
+        "id": "d04f359c-82bf-401e-9bb8-4976a1376f40",
+        "key": "Quotient_Descent_FULL_PACKAGE.zip",
+        "links": {
+          "container": "https://zenodo.org/api/records/19724444/files/Quotient_Descent_FULL_PACKAGE.zip/container",
+          "content": "https://zenodo.org/api/records/19724444/files/Quotient_Descent_FULL_PACKAGE.zip/content",
+          "self": "https://zenodo.org/api/records/19724444/files/Quotient_Descent_FULL_PACKAGE.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 6330211,
+        "storage_class": "L"
+      },
+      "claim_registry.csv": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:7b39f8a5c688e9af37f0d3a3917c1b26",
+        "ext": "csv",
+        "id": "93734f59-af85-4b46-b8a0-4f9bd757330f",
+        "key": "claim_registry.csv",
+        "links": {
+          "content": "https://zenodo.org/api/records/19724444/files/claim_registry.csv/content",
+          "self": "https://zenodo.org/api/records/19724444/files/claim_registry.csv"
+        },
+        "metadata": {},
+        "mimetype": "text/csv",
+        "size": 1582,
+        "storage_class": "L"
+      },
+      "pc_vdm_lifted_descent_solver.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:c78e3cd56956c3c16294a92f62ee54fb",
+        "ext": "zip",
+        "id": "fdc25c33-52a3-4e2d-9529-905b34935bb6",
+        "key": "pc_vdm_lifted_descent_solver.zip",
+        "links": {
+          "container": "https://zenodo.org/api/records/19724444/files/pc_vdm_lifted_descent_solver.zip/container",
+          "content": "https://zenodo.org/api/records/19724444/files/pc_vdm_lifted_descent_solver.zip/content",
+          "self": "https://zenodo.org/api/records/19724444/files/pc_vdm_lifted_descent_solver.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 109050,
+        "storage_class": "L"
+      },
+      "sin_result.json": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:b27e70a7dbd4e7db5ef92086c4a904d2",
+        "ext": "json",
+        "id": "2d751b2b-66b4-497c-93f6-cbe15013bb15",
+        "key": "sin_result.json",
+        "links": {
+          "content": "https://zenodo.org/api/records/19724444/files/sin_result.json/content",
+          "self": "https://zenodo.org/api/records/19724444/files/sin_result.json"
+        },
+        "metadata": {},
+        "mimetype": "application/json",
+        "size": 14138,
+        "storage_class": "L"
+      },
+      "x2_result.json": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:6893ae2728db4a9c13903b44241e1ba4",
+        "ext": "json",
+        "id": "d1ac07d6-ac1e-4b83-9694-1135d0fa9e40",
+        "key": "x2_result.json",
+        "links": {
+          "content": "https://zenodo.org/api/records/19724444/files/x2_result.json/content",
+          "self": "https://zenodo.org/api/records/19724444/files/x2_result.json"
+        },
+        "metadata": {},
+        "mimetype": "application/json",
+        "size": 14014,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 7481955
+  },
+  "id": "19724444",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://zenodo.org/api/records/19724444/access",
+    "access_grants": "https://zenodo.org/api/records/19724444/access/grants",
+    "access_links": "https://zenodo.org/api/records/19724444/access/links",
+    "access_request": "https://zenodo.org/api/records/19724444/access/request",
+    "access_users": "https://zenodo.org/api/records/19724444/access/users",
+    "archive": "https://zenodo.org/api/records/19724444/files-archive",
+    "archive_media": "https://zenodo.org/api/records/19724444/media-files-archive",
+    "communities": "https://zenodo.org/api/records/19724444/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/19724444/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.19724444",
+    "draft": "https://zenodo.org/api/records/19724444/draft",
+    "file_modification": "https://zenodo.org/api/records/19724444/file-modification",
+    "files": "https://zenodo.org/api/records/19724444/files",
+    "latest": "https://zenodo.org/api/records/19724444/versions/latest",
+    "latest_html": "https://zenodo.org/records/19724444/latest",
+    "media_files": "https://zenodo.org/api/records/19724444/media-files",
+    "parent": "https://zenodo.org/api/records/19687961",
+    "parent_doi": "https://doi.org/10.5281/zenodo.19687961",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19687961",
+    "parent_html": "https://zenodo.org/records/19687961",
+    "preview_html": "https://zenodo.org/records/19724444?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/19724444/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/19724444/request-deletion",
+    "requests": "https://zenodo.org/api/records/19724444/requests",
+    "reserve_doi": "https://zenodo.org/api/records/19724444/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/19724444",
+    "self_doi": "https://doi.org/10.5281/zenodo.19724444",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19724444",
+    "self_html": "https://zenodo.org/records/19724444",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19724444/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19724444/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:19724444:Primitive_Origin_and_Dependency_Chain.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:19724444:Primitive_Origin_and_Dependency_Chain.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:19724444:Primitive_Origin_and_Dependency_Chain.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:19724444:Primitive_Origin_and_Dependency_Chain.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:19724444:Primitive_Origin_and_Dependency_Chain.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:19724444:Primitive_Origin_and_Dependency_Chain.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/19724444/versions"
+  },
+  "media_files": {
+    "count": 3,
+    "enabled": true,
+    "entries": {
+      "Operation_Descent_in_Phase_Calculus.pdf.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "bd13da95-6912-4ba0-b526-b842e89a1158",
+        "key": "Operation_Descent_in_Phase_Calculus.pdf.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19724444/files/Operation_Descent_in_Phase_Calculus.pdf.ptif/content",
+          "self": "https://zenodo.org/api/records/19724444/files/Operation_Descent_in_Phase_Calculus.pdf.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "fdf9bbad-25e3-41d3-8004-2edcffbaf782",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "Primitive_Origin_and_Dependency_Chain.pdf.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "8392ce4e-fc48-4bc2-839d-7f6a2ffbeb9c",
+        "key": "Primitive_Origin_and_Dependency_Chain.pdf.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19724444/files/Primitive_Origin_and_Dependency_Chain.pdf.ptif/content",
+          "self": "https://zenodo.org/api/records/19724444/files/Primitive_Origin_and_Dependency_Chain.pdf.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "c7bc9de4-ceb8-4461-b6ea-7280d150f5a3",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      },
+      "Quotient_Descent.pdf.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "a328f99e-2e47-417d-adf0-62522ae1f55c",
+        "key": "Quotient_Descent.pdf.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19724444/files/Quotient_Descent.pdf.ptif/content",
+          "self": "https://zenodo.org/api/records/19724444/files/Quotient_Descent.pdf.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "2b6b0acb-daad-4544-b82d-9c786997f113",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "additional_descriptions": [
+      {
+        "description": "<p>Priority note added April 21, 2026:</p>\n<p>The core dependency-ordered framework of Phase Calculus &mdash; including the exact lifted object \\(\\widehat{\\Xi}\\), the operator core \\(\\{Q,B,L\\}\\), the selector-closed macro-calculus, the exact quotient criterion, and the continuous-shadow branch &mdash; was established in:</p>\n<ul>\n<li>`Farey Remainder Recursion and Orthogonal Re-Articulation` &mdash; March 24, 2026, DOI: `10.5281/zenodo.19210954`</li>\n<li>`CF19: The Full Lifted Object` &mdash; March 27, 2026, DOI: `10.5281/zenodo.19267927`</li>\n<li>`Phase Calculus v2` &mdash; April 6, 2026, DOI: `10.5281/zenodo.19447474`</li>\n</ul>\n<p>These establish the lifted-state machinery independently of the EML paper. The present bundle shows that EML is naturally interpreted as a continuous-shadow quotient composite inside that earlier Phase Calculus machinery.</p>",
+        "lang": {
+          "id": "eng",
+          "title": {
+            "en": "English"
+          }
+        },
+        "type": {
+          "id": "notes",
+          "title": {
+            "de": "Anmerkungen",
+            "en": "Notes"
+          }
+        }
+      },
+      {
+        "description": "<p>Quotient_Descent_FULL_PACKAGE/ &nbsp;(7.2 MB)<br>\u251c\u2500\u2500 Quotient_Descent/ &nbsp;(7.1 MB)<br>\u2502 &nbsp; \u251c\u2500\u2500 PCEML/ &nbsp;(5.2 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 QuotientDescent.lean &nbsp;(5.2 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 supporting_evidence/ &nbsp;(86.5 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 pi_results/ &nbsp;(20.8 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_lock_ledger.csv &nbsp;(2.1 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_lock_summary.json &nbsp;(8.0 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_v11_theorem_summary.json &nbsp;(600 B)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_v8_benchmark_results.json &nbsp;(5.5 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 pi_spigot_v8_random_access_benchmark.json &nbsp;(4.0 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 pi_spigot_v9_local_decoder_summary.json &nbsp;(643 B)<br>\u2502 &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 quintic_results/ &nbsp;(65.7 KB)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u251c\u2500\u2500 all_root_depths_and_residuals.csv &nbsp;(289 B)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u251c\u2500\u2500 bring_all_roots_certificates.json &nbsp;(23.0 KB)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u251c\u2500\u2500 bring_root_0_certificate.json &nbsp;(3.7 KB)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2514\u2500\u2500 unified_quintic_validation_summary.json &nbsp;(38.7 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 validation/ &nbsp;(6.0 MB)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 logs/ &nbsp;(2.5 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 paper_warning_scan.txt &nbsp;(47 B)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 paper_warning_scan_restored.txt &nbsp;(97 B)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 sympy_validation_output.txt &nbsp;(2.3 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 render_main/ &nbsp;(4.2 MB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-01.png &nbsp;(365.9 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-02.png &nbsp;(390.4 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-03.png &nbsp;(370.4 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-04.png &nbsp;(319.3 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-05.png &nbsp;(340.1 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-06.png &nbsp;(275.8 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-07.png &nbsp;(379.5 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-08.png &nbsp;(404.8 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-09.png &nbsp;(458.0 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-10.png &nbsp;(366.5 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-11.png &nbsp;(310.6 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-12.png &nbsp;(213.1 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 page-12_thumb.jpg &nbsp;(96.8 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 render_origin/ &nbsp;(303.4 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-1.png &nbsp;(256.3 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 page-2.png &nbsp;(47.1 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 render_primitive/ &nbsp;(1.2 MB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-1.png &nbsp;(249.5 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-2.png &nbsp;(295.7 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-3.png &nbsp;(281.0 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 page-4.png &nbsp;(316.8 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 page-5.png &nbsp;(52.7 KB)<br>\u2502 &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 results/ &nbsp;(311.2 KB)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u251c\u2500\u2500 figures/ &nbsp;(306.4 KB)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 analyticity_obstruction_abs.png &nbsp;(68.9 KB)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 numeric_witness_errors.png &nbsp;(29.0 KB)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 primitive_roll_components.png &nbsp;(94.5 KB)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 state_complete_lower_bound_pairs.png &nbsp;(40.3 KB)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 tree_embedding_value_comparison.png &nbsp;(73.7 KB)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u251c\u2500\u2500 logs/ &nbsp;(198 B)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 warning_scan.txt &nbsp;(101 B)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 warning_scan_restored.txt &nbsp;(97 B)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u251c\u2500\u2500 tables/ &nbsp;(3.6 KB)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 anchor_registry.csv &nbsp;(170 B)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 key_witnesses_registry.csv &nbsp;(625 B)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 native_operator_execution_witnesses.csv &nbsp;(340 B)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 native_quintic_surface_summary.csv &nbsp;(215 B)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 numeric_identity_summary.csv &nbsp;(300 B)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 primitive_operation_descent_chain.csv &nbsp;(221 B)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 projector_preserved_invariant_classes.csv &nbsp;(384 B)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 state_complete_lower_bound_pairs.csv &nbsp;(517 B)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u251c\u2500\u2500 symbolic_identity_results.csv &nbsp;(459 B)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2502 &nbsp; \u2514\u2500\u2500 tree_embedding_samples.csv &nbsp;(482 B)<br>\u2502 &nbsp; \u2502 &nbsp; &nbsp; &nbsp; \u2514\u2500\u2500 validation_summary.json &nbsp;(984 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 Main.lean &nbsp;(90 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 Operation_Descent_in_Phase_Calculus.pdf &nbsp;(317.3 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 Origin_and_Dependency_Chain_v1_5.tex &nbsp;(3.0 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 PCEML.lean &nbsp;(29 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 PC_EML_v1_5_validation.ipynb &nbsp;(1.6 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 PC_EML_v1_5_validation_executed.ipynb &nbsp;(4.0 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 Primitive_Operation_Descent_v1_5.tex &nbsp;(10.1 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 Primitive_Origin_and_Dependency_Chain.pdf &nbsp;(195.4 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 Quotient_Descent.pdf &nbsp;(448.4 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 Quotient_Descent_and_EML_Operator_v1_5.tex &nbsp;(34.2 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 README.md &nbsp;(2.4 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 THEOREM_INVENTORY.csv &nbsp;(753 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 arxiv.sty &nbsp;(7.5 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 claim_registry.csv &nbsp;(1.5 KB)<br>\u2502 &nbsp; \u251c\u2500\u2500 lakefile.toml &nbsp;(131 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 lean-toolchain &nbsp;(24 B)<br>\u2502 &nbsp; \u251c\u2500\u2500 requirements.txt &nbsp;(48 B)<br>\u2502 &nbsp; \u2514\u2500\u2500 sympy_pc_eml_v1_5_validation.py &nbsp;(18.2 KB)<br>\u2514\u2500\u2500 pc_vdm_lifted_descent_solver.zip &nbsp;(106.5 KB)</p>\n<p>Total: 71 files, 7.2 MB</p>",
+        "lang": {
+          "id": "eng",
+          "title": {
+            "en": "English"
+          }
+        },
+        "type": {
+          "id": "table-of-contents",
+          "title": {
+            "de": "Inhaltsverzeichnis",
+            "en": "Table of contents"
+          }
+        }
+      },
+      {
+        "description": "<h3>HOW TO CONTRIBUTE<br>=================</h3>\n<p>You are encouraged to find flaws, try to break the proofs or claims contained in this work, or look for overlooked consequences. The strongest contribution is an exact local attack: identify the equation, proof step, artifact, benchmark, Lean surface, SymPy identity, notebook gate, or execution witness that fails.</p>\n<p>This record is broad because Phase Calculus is being tested through multiple quotient surfaces, not because the claims are unrelated. The breadth is not the claim. The shared mechanism is the claim: compute in the retained lifted state, preserve hidden state, and project only through declared quotient maps.</p>\n<p>You can also contribute by emailing me at <a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a> with research ideas, improvement suggestions, reproduction attempts, failed runs, related papers, or external results I should compare against.</p>\n<p>Another powerful way to contribute, without doing research of your own, is to tell people about the work. When doing so, please explain that none of the Void Dynamics Model / Phase Calculus research is meant to be ethereal. It should always be concrete, falsifiable, runnable, and grounded in reality. If it cannot be computed, observed, measured, attacked, or destroyed, then it should not have been published.</p>\n<p><strong>For this package specifically, useful first attacks include:</strong></p>\n<ul>\n<li>check whether the EML quotient placement fails under the declared Red-filter assumptions;</li>\n<li>test whether the state-complete lower bound can be reduced below three retained carriers;</li>\n<li>rerun the SymPy validation and inspect every symbolic identity;</li>\n<li>inspect the Lean theorem surface and identify any theorem-shape burden that should be strengthened;</li>\n<li>rerun the head-to-head EML benchmark with deeper EML trees or an independent EML optimizer;</li>\n<li>rerun the Phase Calculus VDM lifted descent solver and inspect whether terminal projection occurs exactly once;</li>\n<li>inspect the pi-spigot and Bring-quintic certificates for hidden scalar-collapse assumptions.</li>\n</ul>\n<h3>LINKS<br>-----</h3>\n<p>X &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- <a href=\"https://x.com/quantumjunk\">https://x.com/quantumjunk</a><br>YouTube &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- <a href=\"https://www.youtube.com/@NeurocaAI\">https://www.youtube.com/@NeurocaAI</a><br>Podcast &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- <a href=\"https://rss.com/podcasts/void-dynamics-model/\">https://rss.com/podcasts/void-dynamics-model/</a><br>Zenodo Community &nbsp; - <a href=\"https://zenodo.org/communities/void-dynamics-model/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest\">https://zenodo.org/communities/void-dynamics-model/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest</a><br>Academia.edu &nbsp; &nbsp; &nbsp; - <a href=\"https://independent.academia.edu/justinlietz\">https://independent.academia.edu/justinlietz</a><br>License &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- <a href=\"https://github.com/justinlietz93/Prometheus_VDM/blob/main/LICENSE.md\">https://github.com/justinlietz93/Prometheus_VDM/blob/main/LICENSE.md</a><br>GitHub &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <a href=\"https://github.com/justinlietz93\">https://github.com/justinlietz93</a><br>ORCID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- <a href=\"https://orcid.org/0009-0008-9028-1366\">https://orcid.org/0009-0008-9028-1366</a><br>Medium &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <a href=\"https://medium.com/@jlietz93\">https://medium.com/@jlietz93</a><br>Neuroca.ai &nbsp; &nbsp; &nbsp; &nbsp; - <a href=\"https://www.neuroca.ai/\">https://www.neuroca.ai/</a><br>LinkedIn &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <a href=\"https://www.linkedin.com/in/justinlietz1993/\">https://www.linkedin.com/in/justinlietz1993/</a><br>Instagram &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- <a href=\"https://www.instagram.com/justin_k_lietz/\">https://www.instagram.com/justin_k_lietz/</a><br>Hugging Face &nbsp; &nbsp; &nbsp; - <a href=\"https://huggingface.co/jlietz93\">https://huggingface.co/jlietz93</a><br>Reddit &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <a href=\"https://www.reddit.com/r/VoidDynamicsModel/\">https://www.reddit.com/r/VoidDynamicsModel/</a></p>\n<h3>CODE REPOSITORIES<br>-----------------</h3>\n<p>Active VDM Repo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- <a href=\"https://github.com/justinlietz93/Prometheus_VDM.git\">https://github.com/justinlietz93/Prometheus_VDM.git</a><br>Cogito Research (de-prio) &nbsp; &nbsp;- <a href=\"https://github.com/Neuroca-Inc/Cogito-Research\">https://github.com/Neuroca-Inc/Cogito-Research</a><br>Neuroca Software (de-prio) &nbsp; - <a href=\"https://github.com/Neuroca-Inc/_Neuroca\">https://github.com/Neuroca-Inc/_Neuroca</a></p>",
+        "lang": {
+          "id": "eng",
+          "title": {
+            "en": "English"
+          }
+        },
+        "type": {
+          "id": "other",
+          "title": {
+            "de": "Sonstige",
+            "en": "Other"
+          }
+        }
+      },
+      {
+        "description": "<p>Lean 4 certifier surface verified at commit <a href=\"https://github.com/justinlietz93/VDM_Lean4_Environment/releases/tag/v1.5_10.5281/zenodo.19724444\">a0bf71041b237e1d06d1a0263f8d59cbe6dacadb</a> (see <a href=\"https://github.com/justinlietz93/VDM_Lean4_Environment/blob/main/VERIFICATION_INDEX.md\">VERIFICATION_INDEX.md</a> for live green badges).</p>",
+        "lang": {
+          "id": "eng",
+          "title": {
+            "en": "English"
+          }
+        },
+        "type": {
+          "id": "technical-info",
+          "title": {
+            "de": "Technische Informationen",
+            "en": "Technical info"
+          }
+        }
+      }
+    ],
+    "contributors": [
+      {
+        "affiliations": [
+          {
+            "name": "Neuroca, Inc"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Lietz",
+          "given_name": "Justin",
+          "identifiers": [
+            {
+              "identifier": "0009-0008-9028-1366",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Lietz, Justin",
+          "type": "personal"
+        },
+        "role": {
+          "id": "researcher",
+          "title": {
+            "de": "WissenschaftlerIn",
+            "en": "Researcher"
+          }
+        }
+      }
+    ],
+    "copyright": "Copyright (C) 2026 Justin K. Lietz",
+    "creators": [
+      {
+        "affiliations": [
+          {
+            "name": "Neuroca, Inc"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Lietz",
+          "given_name": "Justin",
+          "identifiers": [
+            {
+              "identifier": "0009-0008-9028-1366",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Lietz, Justin",
+          "type": "personal"
+        },
+        "role": {
+          "id": "projectmanager",
+          "title": {
+            "de": "ProjektmanagerIn",
+            "en": "Project manager"
+          }
+        }
+      }
+    ],
+    "dates": [
+      {
+        "date": "2026-04-21",
+        "description": "Added to Zenodo for provenance",
+        "type": {
+          "id": "available",
+          "title": {
+            "de": "Verf\u00fcgbar",
+            "en": "Available"
+          }
+        }
+      },
+      {
+        "date": "2026-04-21",
+        "description": "Added origin context for Phase Calculus",
+        "type": {
+          "id": "updated",
+          "title": {
+            "de": "Aktualisiert",
+            "en": "Updated"
+          }
+        }
+      },
+      {
+        "date": "2026-04-21",
+        "description": "Added Phase Calculus native Pi spigot derivation to demonstrate hierarchy",
+        "type": {
+          "id": "updated",
+          "title": {
+            "de": "Aktualisiert",
+            "en": "Updated"
+          }
+        }
+      },
+      {
+        "date": "2026-04-22",
+        "description": "Added more context to proofs",
+        "type": {
+          "id": "updated",
+          "title": {
+            "de": "Aktualisiert",
+            "en": "Updated"
+          }
+        }
+      },
+      {
+        "date": "2026-04-24",
+        "description": "Added Phase Calculus native primitive operator B(u, v) = sort(v, u + v)",
+        "type": {
+          "id": "updated",
+          "title": {
+            "de": "Aktualisiert",
+            "en": "Updated"
+          }
+        }
+      },
+      {
+        "date": "2026-04-24",
+        "description": "Added related works",
+        "type": {
+          "id": "updated",
+          "title": {
+            "de": "Aktualisiert",
+            "en": "Updated"
+          }
+        }
+      },
+      {
+        "date": "2026-04-24",
+        "description": "Updated description mentioning the lifted descent symbolic regression solver",
+        "type": {
+          "id": "updated",
+          "title": {
+            "de": "Aktualisiert",
+            "en": "Updated"
+          }
+        }
+      },
+      {
+        "date": "2026-04-24",
+        "description": "Added table of contents and \"Start Here\" note",
+        "type": {
+          "id": "updated",
+          "title": {
+            "de": "Aktualisiert",
+            "en": "Updated"
+          }
+        }
+      }
+    ],
+    "description": "<h3><strong>START HERE</strong></h3>\n<blockquote>\n<p>For reviewers and technical readers:</p>\n</blockquote>\n<p>Download `Quotient_Descent_FULL_PACKAGE.zip`.</p>\n<blockquote>\n<p>For quick inspection:</p>\n</blockquote>\n<p>Open `Quotient_Descent.pdf`.</p>\n<blockquote>\n<p>For the runnable solver:</p>\n</blockquote>\n<p>Download `pc_vdm_lifted_descent_solver.zip`.</p>\n<blockquote>\n<p>For the immediate evidence:</p>\n</blockquote>\n<p>Open `x2_result.json`, `sin_result.json`, and the benchmark CSV/JSON outputs inside the full package.</p>\n<p>&nbsp;</p>\n<p>This bundle places the EML operator inside the Phase Calculus lifted-state framework and includes a sidecar head-to-head benchmark against a shallow EML symbolic-regression comparator.</p>\n<p>Odrzywo\u0142ek&rsquo;s EML result is an important independent discovery: the standard scientific-calculator repertoire admits a striking single-gate compression,</p>\n<p>$$<br>\\operatorname{eml}(x,y)=\\exp(x)-\\ln(y),<br>$$</p>\n<p>together with the constant \\(1\\). This bundle does not present EML as an adversarial target. It treats EML as independent evidence for the same deeper structural pressure motivating Phase Calculus: ordinary elementary mathematics has a smaller generative substrate than its visible calculator grammar suggests.</p>\n<p>The layer distinction is the key result. EML is primitive relative to the ordinary calculator basis. Phase Calculus is primitive relative to the retained lifted-state layer.</p>\n<p>In Phase Calculus, the EML node is a Red-filter continuous-shadow composite:</p>\n<p>$$<br>\\operatorname{eml}_{PC}(x,y)<br>:=<br>\\operatorname{Sub}_{PC}(\\operatorname{Exp}_{PC}(x),\\operatorname{Log}_{PC}(y))<br>=<br>e^x-\\ln y.<br>$$</p>\n<p>It is therefore not primitive at the lifted-state layer. It is a quotient descendant of the native primitive evolution</p>\n<p>$$<br>\\operatorname{PCop}(\\widehat{\\Xi})<br>:=<br>\\Sigma_{W,\\Delta}(\\widehat{\\Xi})(\\widehat{\\Xi}),<br>$$</p>\n<p>on the full lifted object</p>\n<p>$$<br>\\widehat{\\Xi}=(A,q,\\theta,\\kappa,c),<br>$$</p>\n<p>evolved by the operator core</p>\n<p>$$<br>\\{Q,B,L\\},<br>$$</p>\n<p>under the exact quotient law</p>\n<p>$$<br>\\Pi\\circ E = G\\circ \\Pi.<br>$$</p>\n<p>EML trees embed recursively into Phase Calculus continuous-shadow syntax. The Red image preserves real-analyticity on natural domains and Liouvillian exp-log closure, so functions such as \\(|x|\\) near \\(0\\) and generic irreducible quintic roots remain outside finite Red scalar discharge. A state-complete Red simulation of one non-trivial lifted step requires three independent retained carriers, so a single scalar EML node is not state-complete relative to the Phase Calculus lifted object.</p>\n<p>The primitive Phase Calculus operator is already operational. The bundle includes execution witnesses for:</p>\n<ul>\n<li>native \\(\\pi\\) prefix streaming: \\(1{,}000{,}000\\) certified decimal digits emitted in \\(1.65086778\\) s, with safe certificate \\(D_{\\mathrm{safe}}=1{,}366{,}163\\);</li>\n<li>certified bank-indexed \\(\\pi\\)-digit access: 1024-digit block queries at \\(5.3941900\\times 10^{-7}\\) s/query, equivalent to \\(1.8983388\\times 10^9\\) certified digits/s inside the native bank;</li>\n<li>Bring-quintic certification: the strongest non-toy witness in the bundle. All five roots of \\(x^5-x+1\\) returned at depth \\(21\\), with half-width below \\(6.2\\times 10^{-9}\\) and projected residuals below \\(4\\times 10^{-15}\\) by retained lifted-state branch transport, carrying sheet identity and branch history internally until terminal projection. This demonstrates that Phase Calculus is not merely a scalar identity-compression trick; it operates in a state-complete arena where scalar radical discharge is structurally insufficient.</li>\n<li>Phase Calculus VDM lifted descent solver: a metriplectic, self-terminating dynamical solver derived from the same VDM runtime lineage that produced the cognitive-runtime evidence stack. The solver keeps symbolic recovery inside the extended lifted object, carries VDM field coordinates \\((\\phi,\\psi)\\), debt, \\(kT\\), walker/bond state, and Phase Calculus coordinates together, alternates primitive lifted transport with metriplectic relaxation, and opens scalar projection only once at terminal readout.</li>\n<li>sidecar comparison against a depth-limited EML symbolic-regression comparator.</li>\n</ul>\n<p>The \\(\\pi\\) figures deliberately separate streaming generation from certified bank-indexed access: the latter is not a scalar-collapse nth-digit oracle, but a retained-state query over a certified native bank.</p>\n<p>The head-to-head sidecar is included for provenance and layer separation, not as a takedown. In the shared local benchmark, the EML comparator recovers its native shallow \\(\\exp(x)\\) and \\(\\log(x)\\) forms, while the Phase Calculus VDM lifted descent solver recovers \\(\\exp(x)\\), \\(\\log(x)\\), \\(x^2\\), and \\(\\sin(x)\\) under terminal projection. This demonstrates that retained lifted-state descent and scalar EML tree search occupy different computational layers.</p>\n<p>The three included papers give the closed proof surface:</p>\n<ul>\n<li>`Quotient_Descent_and_EML_Operator_v1_5.tex` &mdash; main theorem paper with claims C0&ndash;C6, state-complete lower bound, projector-preserved invariants, worked \\(\\sin(x)\\) descent, and execution artifacts.</li>\n<li>`Primitive_Operation_Descent_v1_5.tex` &mdash; step-by-step descent spine from survivor mark to EML.</li>\n<li>`Origin_and_Dependency_Chain_v1_5.tex` &mdash; compact dependency and priority map.</li>\n</ul>\n<p>The release also includes Lean formalization, SymPy validation, reviewer notebooks, \\(\\pi\\)-spigot ledger, Bring certificates, benchmark CSV/JSON outputs, closure certificate, and SHA256 hashes.</p>",
+    "languages": [
+      {
+        "id": "eng",
+        "title": {
+          "en": "English"
+        }
+      }
+    ],
+    "publication_date": "2026-04-21",
+    "publisher": "Zenodo",
+    "references": [
+      {
+        "reference": "Andrzej Odrzywolek. All elementary functions from a single binary operator. arXiv:2603.21852, 2026"
+      },
+      {
+        "reference": "Justin K. Lietz. CF000: Complete Formalism - Primitive Distinguishability and Orthogonal Articulation. Neuroca, Inc.; DOI: 10.5281/zenodo.19098778, 2026."
+      },
+      {
+        "reference": "Justin K. Lietz. CF00: Complete Formalism - Induced Geometry and Emergent Dynamics in VDM. Neuroca, Inc.; DOI: 10.5281/zenodo.19099916, 2026."
+      },
+      {
+        "reference": "Justin K. Lietz. Phase Calculus: Complete Formalisation of the Primitive Roll, the Exact Lifted Object, the Lifted-State Operator Core, the Selector-Closed Executable Macro-Calculus, the Universal Lifted-State Calculus, and Shadow Calculus. Neuroca, Inc., 2026."
+      },
+      {
+        "reference": "Justin K. Lietz. CF19: The Full Lifted Object of the Primitive Roll and Exact Return to Lifted Origin. Neuroca, Inc.; DOI: 10.5281/zenodo.19267927, 2026."
+      },
+      {
+        "reference": "Justin K. Lietz. Farey Remainder Recursion and Orthogonal Re-Articulation: An Exact InfinityResolution Theorem. Neuroca, Inc.; DOI: 10.5281/zenodo.19210954, 2026."
+      },
+      {
+        "reference": "Justin K. Lietz. Operational Utility and Multiscale Invariance of Phase Calculus: A Discrete Foundational Grammar for Dynamics. Neuroca, Inc., 2026."
+      }
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.19491529",
+        "relation_type": {
+          "id": "requires",
+          "title": {
+            "de": "Setzt voraus",
+            "en": "Requires"
+          }
+        },
+        "resource_type": {
+          "id": "publication-other",
+          "title": {
+            "de": "Sonstige",
+            "en": "Other"
+          }
+        },
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.19521030",
+        "relation_type": {
+          "id": "issupplementedby",
+          "title": {
+            "de": "Wird erg\u00e4nzt durch",
+            "en": "Is supplemented by"
+          }
+        },
+        "resource_type": {
+          "id": "publication-preprint",
+          "title": {
+            "de": "Preprint",
+            "en": "Preprint"
+          }
+        },
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.19725430",
+        "relation_type": {
+          "id": "issupplementedby",
+          "title": {
+            "de": "Wird erg\u00e4nzt durch",
+            "en": "Is supplemented by"
+          }
+        },
+        "resource_type": {
+          "id": "publication-preprint",
+          "title": {
+            "de": "Preprint",
+            "en": "Preprint"
+          }
+        },
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.19380587",
+        "relation_type": {
+          "id": "issupplementedby",
+          "title": {
+            "de": "Wird erg\u00e4nzt durch",
+            "en": "Is supplemented by"
+          }
+        },
+        "resource_type": {
+          "id": "publication-preprint",
+          "title": {
+            "de": "Preprint",
+            "en": "Preprint"
+          }
+        },
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.19267927",
+        "relation_type": {
+          "id": "issupplementedby",
+          "title": {
+            "de": "Wird erg\u00e4nzt durch",
+            "en": "Is supplemented by"
+          }
+        },
+        "resource_type": {
+          "id": "publication-preprint",
+          "title": {
+            "de": "Preprint",
+            "en": "Preprint"
+          }
+        },
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.19211725",
+        "relation_type": {
+          "id": "issupplementedby",
+          "title": {
+            "de": "Wird erg\u00e4nzt durch",
+            "en": "Is supplemented by"
+          }
+        },
+        "resource_type": {
+          "id": "publication-preprint",
+          "title": {
+            "de": "Preprint",
+            "en": "Preprint"
+          }
+        },
+        "scheme": "doi"
+      }
+    ],
+    "resource_type": {
+      "id": "publication-preprint",
+      "title": {
+        "de": "Preprint",
+        "en": "Preprint"
+      }
+    },
+    "rights": [
+      {
+        "link": "https://github.com/justinlietz93/Prometheus_VDM/blob/main/LICENSE.md",
+        "title": {
+          "en": "Proprietary Dual Research and Commercial License"
+        }
+      }
+    ],
+    "subjects": [
+      {
+        "subject": "Phase Calculus, EML operator, Quotient Descent, Lifted State, Continuous Shadow, Shadow Calculus, Primitive Roll, Operator Core, Selector Calculus, Discrete Determinism, State Completeness, Exact Quotient Criterion, Exponential Minus Logarithm, Odrzywolek, Void Dynamics Model, VDM, CF19, Farey Remainder Recursion, Dependency Ordering, Continuous Composite"
+      },
+      {
+        "subject": "Phase Calculus"
+      },
+      {
+        "subject": "EML operator"
+      },
+      {
+        "subject": "Quotient Descent"
+      },
+      {
+        "subject": "Lifted State"
+      },
+      {
+        "subject": "Continuous Shadow"
+      },
+      {
+        "subject": "Shadow Calculus"
+      },
+      {
+        "subject": "Primitive Roll"
+      },
+      {
+        "subject": "Operator Core"
+      },
+      {
+        "subject": "Selector Calculus"
+      },
+      {
+        "subject": "Discrete Determinism"
+      },
+      {
+        "subject": "Exact Quotient Criterion"
+      },
+      {
+        "subject": "Exponential Minus Logarithm"
+      },
+      {
+        "subject": "Odrzywolek"
+      },
+      {
+        "subject": "Void Dynamics Model"
+      },
+      {
+        "subject": "VDM"
+      },
+      {
+        "subject": "CF19"
+      },
+      {
+        "subject": "Farey Remainder Recursion"
+      },
+      {
+        "subject": "Dependency Ordering"
+      },
+      {
+        "subject": "Continuous Composite"
+      }
+    ],
+    "title": "Quotient Descent and the EML Operator: Why Continuous Composites Are Not Primitives",
+    "version": "v1.5"
+  },
+  "parent": {
+    "access": {
+      "owned_by": {
+        "user": "1421018"
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {
+      "default": "35396844-f546-40c2-848e-2ed45468bfc9",
+      "entries": [
+        {
+          "access": {
+            "member_policy": "closed",
+            "members_visibility": "public",
+            "record_submission_policy": "open",
+            "review_policy": "closed",
+            "visibility": "public"
+          },
+          "children": {
+            "allow": false
+          },
+          "created": "2026-04-19T08:23:22.356085+00:00",
+          "custom_fields": {
+            "subjects": [
+              {
+                "id": "euroscivoc:51"
+              },
+              {
+                "id": "euroscivoc:1063"
+              },
+              {
+                "id": "mesh:D017711"
+              },
+              {
+                "id": "mesh:D011385"
+              },
+              {
+                "id": "mesh:D012008"
+              },
+              {
+                "id": "mesh:D061827"
+              },
+              {
+                "id": "euroscivoc:1635"
+              }
+            ]
+          },
+          "deletion_status": {
+            "is_deleted": false,
+            "status": "P"
+          },
+          "id": "35396844-f546-40c2-848e-2ed45468bfc9",
+          "links": {},
+          "metadata": {
+            "curation_policy": "<p dir=\"auto\">This community enforces a strict, curiosity driven, falsification-first curation standard. The goal is not to accumulate records. The goal is to ensure that every record in this archive is auditable, reproducible, and built to be attacked.</p>\n<p dir=\"auto\"><strong>Scope.</strong>&nbsp;Records accepted into this community must fall within one or more of the following categories: (1) theorem-bearing manuscripts within the VDM derivation tree, (2) adversarial validation artifacts attacking published VDM claims, (3) empirical analyses of the VDM cognitive runtime, (4) instrumentation or calibration records supporting VDM research, (5) code repository releases with provenance documentation, (6) formal critique reports or independent reproduction attempts.</p>\n<p dir=\"auto\"><strong>Minimum requirements for all records.</strong></p>\n<p dir=\"auto\">Every record must include a plain-English abstract stating what is claimed. Every primary claim must be explicitly stated, uniquely identified, and paired with a decisive metric, a falsifier, its assumption dependence, and a scope classification. No claim may hide behind \"standard argument,\" \"it is well known,\" \"follows similarly,\" or \"checked numerically\" without stating exactly what is being delegated and why. Every assumption must be explicit, scoped, and typed. Every record must state what it does not prove.</p>\n<p dir=\"auto\"><strong>Publication bundle standard (Complete Formalisms and theorem-bearing manuscripts).</strong></p>\n<p dir=\"auto\">A Complete Formalism publication is not complete when it merely states claims. It is complete only when its full formal burden is attacked across all required artifact layers: paper, Lean 4, SymPy, Jupyter, and manifest.</p>\n<p dir=\"auto\">The paper must carry the full load-bearing formal burden: definitions, theorems, derivation chains, operator relations, assumption boundaries, falsifiers, and scope limits.</p>\n<p dir=\"auto\">Lean 4 must prove every exact formalizable statement. Any omission must be classified with an explicit reason (non-formalizable, numerical, symbolic, or deferred).</p>\n<p dir=\"auto\">SymPy must attack every symbolic identity and operator law and terminate with an explicit FINAL_RESULT: PASS or FINAL_RESULT: FAIL.</p>\n<p dir=\"auto\">Jupyter must attack every numerical, geometric, statistical, and gate-facing consequence in reviewer-readable form, including negative controls, explicit residuals, labeled thresholds, and a final coverage ledger.</p>\n<p dir=\"auto\">A README must map every burden to its artifact location with exact run instructions and expected outputs. SHA-256 hashes must cover all bundled artifacts.</p>\n<p dir=\"auto\"><strong>Review standard.</strong>&nbsp;This community uses the CRAFT/BASS framework (Credibility, Rigor, Assumption, Falsifiability, Terminology / Bayesian Audit of Scientific Substance) for internal review. Records targeting a BASS score below 70 will not be accepted unless explicitly labeled as draft, partial, or in-progress.</p>\n<p dir=\"auto\"><strong>What will be rejected.</strong>&nbsp;Records that contain marketing language, vague claims without falsification criteria, omitted negative results, non-runnable validation artifacts, or claims asserted as validated without adversarial attack will be rejected or returned for revision.</p>\n<p dir=\"auto\"><strong>Labeling.</strong>&nbsp;Every record must carry one of the following statuses: validated (full bundle passes all gates), draft (incomplete validation, explicitly labeled), partial (some burdens unresolved, explicitly enumerated), or falsified (a published claim has been disproven, with the correction documented).</p>\n<p dir=\"auto\">No record may be described as \"validated\" unless its full bundle satisfies the publication validation requirements.</p>\n<p dir=\"auto\"><strong>External contributions.</strong>&nbsp;Independent researchers who wish to submit reproduction attempts, critique reports, or adversarial analyses targeting records in this community are welcome. Contact&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a> before submission.</p>",
+            "description": "This is a branch community off of the larger collective of the Void Dynamics Model community created specifically to organize the research related only to the mathematical framework of Phase Calculus and its operational utility.",
+            "organizations": [
+              {
+                "name": "Neuroca, Inc."
+              }
+            ],
+            "page": "<p dir=\"auto\">The Void Dynamics Model (VDM) is an independent research program operated by Neuroca, Inc. (Neenah, WI) under principal investigator Justin K. Lietz.</p>\n<p dir=\"auto\">VDM has two tracks.</p>\n<p dir=\"auto\"><strong>Track 1 &mdash; Physics.</strong>&nbsp;A unified framework deriving quantum geometry, thermodynamics, gauge structure, gravity, and cosmology from a single primitive bifurcation invariant via metriplectic geometry, bifurcation theory, and domain wall dynamics. The formal spine is a derivation tree of Complete Formalisms (CF000&ndash;CF19), each carrying its own theorem surface, falsification gates, and explicit scope boundaries.</p>\n<p dir=\"auto\"><strong>Track 2 &mdash; Cognitive Runtime.</strong>&nbsp;A zero-training, physics-gated cognitive architecture exploring how conservation-vs.-dissipation dynamics produce stable, adaptive behavior in sparse, event-driven neural graphs &mdash; no backpropagation, no training data, no gradient descent.</p>\n<p dir=\"auto\">This community regards the Phase Calculus framework which works interchangeably between those tracks.</p>\n<p dir=\"auto\"><strong>Governing principle.</strong>&nbsp;Every record in this community is built to be proven wrong. Predictions are preregistered and time-stamped before results are collected. Claims carry explicit pass/fail gates. Negative controls and failure reports ship by default. If a result breaks, we publish the break.</p>\n<p dir=\"auto\"><strong>What this community contains:</strong></p>\n<ul>\n<li>Theorem-bearing manuscripts (Complete Formalisms, Phase Calculus, universality papers, standalone theorems, cogitants)</li>\n<li>Adversarial validation bundles (Lean 4 packages, SymPy scripts, skeptical-reviewer Jupyter notebooks, SHA-256 manifests)</li>\n<li>Cognitive runtime publications (empirical analyses, complexity metric instruments, runtime architectures)</li>\n<li>Instrumentation and calibration records</li>\n<li>Code repository releases with cryptographic provenance</li>\n</ul>\n<p dir=\"auto\"><strong>Open challenge.</strong>&nbsp;Attempts to falsify any record in this community are encouraged. If your critique successfully disproves a published claim and we can verify your results, we will publish a formal follow-up conceding the original claim and giving you full credit for the correction. Contact:&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a></p>\n<p dir=\"auto\"><strong>Resources:</strong></p>\n<ul>\n<li>Website:&nbsp;<a href=\"https://www.neuroca.ai/\">https://www.neuroca.ai</a></li>\n<li>ORCID:&nbsp;<a href=\"https://orcid.org/0009-0008-9028-1366\">https://orcid.org/0009-0008-9028-1366</a></li>\n<li>Academia.edu:&nbsp;<a href=\"https://independent.academia.edu/justinlietz\">https://independent.academia.edu/justinlietz</a></li>\n<li>GitHub (Primitive Bifurcation Law):&nbsp;<a href=\"https://github.com/justinlietz93/primitive_bifurcation_law_VDM\">https://github.com/justinlietz93/primitive_bifurcation_law_VDM</a></li>\n<li>GitHub (Prometheus VDM):&nbsp;<a href=\"https://github.com/justinlietz93/Prometheus_VDM\">https://github.com/justinlietz93/Prometheus_VDM</a></li>\n</ul>",
+            "title": "Void Dynamics Model: Phase Calculus",
+            "type": {
+              "id": "project"
+            },
+            "website": "https://www.neuroca.ai"
+          },
+          "revision_id": 7,
+          "slug": "vdm-phase-calculus",
+          "updated": "2026-04-19T08:53:35.538977+00:00"
+        },
+        {
+          "access": {
+            "member_policy": "open",
+            "members_visibility": "public",
+            "record_submission_policy": "open",
+            "review_policy": "closed",
+            "visibility": "public"
+          },
+          "children": {
+            "allow": false
+          },
+          "created": "2025-09-29T00:16:08.675831+00:00",
+          "custom_fields": {
+            "subjects": [
+              {
+                "id": "euroscivoc:1007"
+              },
+              {
+                "id": "euroscivoc:261"
+              },
+              {
+                "id": "euroscivoc:1063"
+              },
+              {
+                "id": "mesh:D008433Q000295"
+              },
+              {
+                "id": "euroscivoc:1647"
+              },
+              {
+                "id": "euroscivoc:1005"
+              },
+              {
+                "id": "euroscivoc:1629"
+              },
+              {
+                "id": "mesh:D010825Q000295"
+              },
+              {
+                "id": "mesh:D012984Q000592"
+              },
+              {
+                "id": "euroscivoc:973"
+              },
+              {
+                "id": "euroscivoc:1607"
+              }
+            ]
+          },
+          "deletion_status": {
+            "is_deleted": false,
+            "status": "P"
+          },
+          "id": "d41d07b2-3ca3-4dfa-87ce-7d960c7eba47",
+          "links": {},
+          "metadata": {
+            "curation_policy": "<p dir=\"auto\">This community enforces a strict, falsification-first curation standard. The goal is not to accumulate records. The goal is to ensure that every record in this archive is auditable, reproducible, and built to be attacked.</p>\n<p dir=\"auto\"><strong>Scope.</strong>&nbsp;Records accepted into this community must fall within one or more of the following categories: (1) theorem-bearing manuscripts within the VDM derivation tree, (2) adversarial validation artifacts attacking published VDM claims, (3) empirical analyses of the VDM cognitive runtime, (4) instrumentation or calibration records supporting VDM research, (5) code repository releases with provenance documentation, (6) formal critique reports or independent reproduction attempts.</p>\n<p dir=\"auto\"><strong>Minimum requirements for all records.</strong></p>\n<p dir=\"auto\">Every record must include a plain-English abstract stating what is claimed. Every primary claim must be explicitly stated, uniquely identified, and paired with a decisive metric, a falsifier, its assumption dependence, and a scope classification. No claim may hide behind \"standard argument,\" \"it is well known,\" \"follows similarly,\" or \"checked numerically\" without stating exactly what is being delegated and why. Every assumption must be explicit, scoped, and typed. Every record must state what it does not prove.</p>\n<p dir=\"auto\"><strong>Publication bundle standard (Complete Formalisms and theorem-bearing manuscripts).</strong></p>\n<p dir=\"auto\">A Complete Formalism publication is not complete when it merely states claims. It is complete only when its full formal burden is attacked across all required artifact layers: paper, Lean 4, SymPy, Jupyter, and manifest.</p>\n<p dir=\"auto\">The paper must carry the full load-bearing formal burden: definitions, theorems, derivation chains, operator relations, assumption boundaries, falsifiers, and scope limits.</p>\n<p dir=\"auto\">Lean 4 must prove every exact formalizable statement. Any omission must be classified with an explicit reason (non-formalizable, numerical, symbolic, or deferred).</p>\n<p dir=\"auto\">SymPy must attack every symbolic identity and operator law and terminate with an explicit FINAL_RESULT: PASS or FINAL_RESULT: FAIL.</p>\n<p dir=\"auto\">Jupyter must attack every numerical, geometric, statistical, and gate-facing consequence in reviewer-readable form, including negative controls, explicit residuals, labeled thresholds, and a final coverage ledger.</p>\n<p dir=\"auto\">A README must map every burden to its artifact location with exact run instructions and expected outputs. SHA-256 hashes must cover all bundled artifacts.</p>\n<p dir=\"auto\"><strong>Review standard.</strong>&nbsp;This community uses the CRAFT/BASS framework (Credibility, Rigor, Assumption, Falsifiability, Terminology / Bayesian Audit of Scientific Substance) for internal review. Records targeting a BASS score below 70 will not be accepted unless explicitly labeled as draft, partial, or in-progress.</p>\n<p dir=\"auto\"><strong>What will be rejected.</strong>&nbsp;Records that contain marketing language, vague claims without falsification criteria, omitted negative results, non-runnable validation artifacts, or claims asserted as validated without adversarial attack will be rejected or returned for revision.</p>\n<p dir=\"auto\"><strong>Labeling.</strong>&nbsp;Every record must carry one of the following statuses: validated (full bundle passes all gates), draft (incomplete validation, explicitly labeled), partial (some burdens unresolved, explicitly enumerated), or falsified (a published claim has been disproven, with the correction documented).</p>\n<p dir=\"auto\">No record may be described as \"validated\" unless its full bundle satisfies the publication validation requirements.</p>\n<p dir=\"auto\"><strong>External contributions.</strong>&nbsp;Independent researchers who wish to submit reproduction attempts, critique reports, or adversarial analyses targeting records in this community are welcome. Contact&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a> before submission.</p>",
+            "description": "One bifurcation invariant.\nBackground-independent metriplectic field theory + zero-training cognitive runtime across 20 Complete Formalisms.\nAdversarial Lean 4/SymPy/Jupyter bundles and pass/fail gates with every record. \nBuilt to be attacked.",
+            "organizations": [
+              {
+                "name": "Neuroca, Inc"
+              }
+            ],
+            "page": "<p dir=\"auto\">The Void Dynamics Model (VDM) is an independent research program operated by Neuroca, Inc. (Neenah, WI) under principal investigator Justin K. Lietz.</p>\n<p dir=\"auto\">VDM has two tracks.</p>\n<p dir=\"auto\"><strong>Track 1 &mdash; Physics.</strong>&nbsp;A unified framework deriving quantum geometry, thermodynamics, gauge structure, gravity, and cosmology from a single primitive bifurcation invariant via metriplectic geometry, bifurcation theory, and domain wall dynamics. The formal spine is a derivation tree of Complete Formalisms (CF000&ndash;CF19), each carrying its own theorem surface, falsification gates, and explicit scope boundaries.</p>\n<p dir=\"auto\"><strong>Track 2 &mdash; Cognitive Runtime.</strong>&nbsp;A zero-training, physics-gated cognitive architecture exploring how conservation-vs.-dissipation dynamics produce stable, adaptive behavior in sparse, event-driven neural graphs &mdash; no backpropagation, no training data, no gradient descent.</p>\n<p dir=\"auto\"><strong>Governing principle.</strong>&nbsp;Every record in this community is built to be proven wrong. Predictions are preregistered and time-stamped before results are collected. Claims carry explicit pass/fail gates. Negative controls and failure reports ship by default. If a result breaks, we publish the break.</p>\n<p dir=\"auto\"><strong>What this community contains:</strong></p>\n<ul>\n<li>Theorem-bearing manuscripts (Complete Formalisms, Phase Calculus, universality papers, standalone theorems, cogitants)</li>\n<li>Adversarial validation bundles (Lean 4 packages, SymPy scripts, skeptical-reviewer Jupyter notebooks, SHA-256 manifests)</li>\n<li>Cognitive runtime publications (empirical analyses, complexity metric instruments, runtime architectures)</li>\n<li>Instrumentation and calibration records</li>\n<li>Code repository releases with cryptographic provenance</li>\n</ul>\n<p dir=\"auto\"><strong>Open challenge.</strong>&nbsp;Attempts to falsify any record in this community are encouraged. If your critique successfully disproves a published claim and we can verify your results, we will publish a formal follow-up conceding the original claim and giving you full credit for the correction. Contact:&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a></p>\n<p dir=\"auto\"><strong>Resources:</strong></p>\n<ul>\n<li>Website:&nbsp;<a href=\"https://www.neuroca.ai/\">https://www.neuroca.ai</a></li>\n<li>ORCID:&nbsp;<a href=\"https://orcid.org/0009-0008-9028-1366\">https://orcid.org/0009-0008-9028-1366</a></li>\n<li>Academia.edu:&nbsp;<a href=\"https://independent.academia.edu/justinlietz\">https://independent.academia.edu/justinlietz</a></li>\n<li>GitHub (Primitive Bifurcation Law):&nbsp;<a href=\"https://github.com/justinlietz93/primitive_bifurcation_law_VDM\">https://github.com/justinlietz93/primitive_bifurcation_law_VDM</a></li>\n<li>GitHub (Prometheus VDM):&nbsp;<a href=\"https://github.com/justinlietz93/Prometheus_VDM\">https://github.com/justinlietz93/Prometheus_VDM</a></li>\n</ul>",
+            "title": "Void Dynamics Model",
+            "type": {
+              "id": "project"
+            },
+            "website": "https://www.neuroca.ai"
+          },
+          "revision_id": 9,
+          "slug": "void-dynamics-model",
+          "updated": "2026-04-14T13:36:23.959992+00:00"
+        }
+      ],
+      "ids": [
+        "35396844-f546-40c2-848e-2ed45468bfc9",
+        "d41d07b2-3ca3-4dfa-87ce-7d960c7eba47"
+      ]
+    },
+    "id": "19687961",
+    "pids": {
+      "doi": {
+        "client": "datacite",
+        "identifier": "10.5281/zenodo.19687961",
+        "provider": "datacite"
+      }
+    }
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.5281/zenodo.19724444",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:19724444",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 17,
+  "stats": {
+    "all_versions": {
+      "data_volume": 84649194.0,
+      "downloads": 155,
+      "unique_downloads": 120,
+      "unique_views": 149,
+      "views": 176
+    },
+    "this_version": {
+      "data_volume": 62295031.0,
+      "downloads": 96,
+      "unique_downloads": 72,
+      "unique_views": 72,
+      "views": 91
+    }
+  },
+  "status": "published",
+  "swh": {},
+  "updated": "2026-04-24T16:53:57.287051+00:00",
+  "versions": {
+    "index": 5,
+    "is_latest": true
+  }
+}

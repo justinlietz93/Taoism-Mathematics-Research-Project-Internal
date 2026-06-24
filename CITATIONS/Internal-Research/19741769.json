@@ -1,0 +1,466 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2026-04-24T18:29:49.615504+00:00",
+  "custom_fields": {
+    "code:codeRepository": "https://github.com/justinlietz93/Prometheus_VDM",
+    "code:developmentStatus": {
+      "id": "active",
+      "title": {
+        "en": "Active"
+      }
+    },
+    "code:programmingLanguage": [
+      {
+        "id": "python",
+        "title": {
+          "en": "Python"
+        }
+      }
+    ]
+  },
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 2,
+    "default_preview": "Monodromy_as_Memory.pdf",
+    "enabled": true,
+    "entries": {
+      "Monodromy_as_Memory.pdf": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:9d95a42726e04849c8667b4f8bdcf013",
+        "ext": "pdf",
+        "id": "dceb1d31-14b8-41d7-8eb7-34cadccb2758",
+        "key": "Monodromy_as_Memory.pdf",
+        "links": {
+          "content": "https://zenodo.org/api/records/19741769/files/Monodromy_as_Memory.pdf/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:19741769:Monodromy_as_Memory.pdf/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:19741769:Monodromy_as_Memory.pdf",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:19741769/canvas/Monodromy_as_Memory.pdf",
+          "iiif_info": "https://zenodo.org/api/iiif/record:19741769:Monodromy_as_Memory.pdf/info.json",
+          "self": "https://zenodo.org/api/records/19741769/files/Monodromy_as_Memory.pdf"
+        },
+        "metadata": {
+          "height": 792,
+          "width": 612
+        },
+        "mimetype": "application/pdf",
+        "size": 264785,
+        "storage_class": "L"
+      },
+      "Monodromy_as_Memory.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:bf6afeb554ddf9f675d71ca9c82f755c",
+        "ext": "zip",
+        "id": "d1129ed2-0bb5-4e45-8d31-49e8b962e2d0",
+        "key": "Monodromy_as_Memory.zip",
+        "links": {
+          "container": "https://zenodo.org/api/records/19741769/files/Monodromy_as_Memory.zip/container",
+          "content": "https://zenodo.org/api/records/19741769/files/Monodromy_as_Memory.zip/content",
+          "self": "https://zenodo.org/api/records/19741769/files/Monodromy_as_Memory.zip"
+        },
+        "metadata": {},
+        "mimetype": "application/zip",
+        "size": 1013664,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 1278449
+  },
+  "id": "19741769",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://zenodo.org/api/records/19741769/access",
+    "access_grants": "https://zenodo.org/api/records/19741769/access/grants",
+    "access_links": "https://zenodo.org/api/records/19741769/access/links",
+    "access_request": "https://zenodo.org/api/records/19741769/access/request",
+    "access_users": "https://zenodo.org/api/records/19741769/access/users",
+    "archive": "https://zenodo.org/api/records/19741769/files-archive",
+    "archive_media": "https://zenodo.org/api/records/19741769/media-files-archive",
+    "communities": "https://zenodo.org/api/records/19741769/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/19741769/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.19741769",
+    "draft": "https://zenodo.org/api/records/19741769/draft",
+    "file_modification": "https://zenodo.org/api/records/19741769/file-modification",
+    "files": "https://zenodo.org/api/records/19741769/files",
+    "latest": "https://zenodo.org/api/records/19741769/versions/latest",
+    "latest_html": "https://zenodo.org/records/19741769/latest",
+    "media_files": "https://zenodo.org/api/records/19741769/media-files",
+    "parent": "https://zenodo.org/api/records/19741768",
+    "parent_doi": "https://doi.org/10.5281/zenodo.19741768",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19741768",
+    "parent_html": "https://zenodo.org/records/19741768",
+    "preview_html": "https://zenodo.org/records/19741769?preview=1",
+    "quota_increase": "https://zenodo.org/api/records/19741769/quota-increase",
+    "request_deletion": "https://zenodo.org/api/records/19741769/request-deletion",
+    "requests": "https://zenodo.org/api/records/19741769/requests",
+    "reserve_doi": "https://zenodo.org/api/records/19741769/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/19741769",
+    "self_doi": "https://doi.org/10.5281/zenodo.19741769",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19741769",
+    "self_html": "https://zenodo.org/records/19741769",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19741769/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19741769/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:19741769:Monodromy_as_Memory.pdf/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:19741769:Monodromy_as_Memory.pdf/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:19741769:Monodromy_as_Memory.pdf/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:19741769:Monodromy_as_Memory.pdf/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:19741769:Monodromy_as_Memory.pdf/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:19741769:Monodromy_as_Memory.pdf/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/19741769/versions"
+  },
+  "media_files": {
+    "count": 1,
+    "enabled": true,
+    "entries": {
+      "Monodromy_as_Memory.pdf.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "31ca87f2-a73f-4815-9e31-dccbfd8282db",
+        "key": "Monodromy_as_Memory.pdf.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/19741769/files/Monodromy_as_Memory.pdf.ptif/content",
+          "self": "https://zenodo.org/api/records/19741769/files/Monodromy_as_Memory.pdf.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "dceb1d31-14b8-41d7-8eb7-34cadccb2758",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "contributors": [
+      {
+        "affiliations": [
+          {
+            "name": "Neuroca, Inc"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Lietz",
+          "given_name": "Justin",
+          "identifiers": [
+            {
+              "identifier": "0009-0008-9028-1366",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Lietz, Justin",
+          "type": "personal"
+        },
+        "role": {
+          "id": "researcher",
+          "title": {
+            "de": "WissenschaftlerIn",
+            "en": "Researcher"
+          }
+        }
+      }
+    ],
+    "copyright": "Copyright (C) 2026 Justin K. Lietz",
+    "creators": [
+      {
+        "affiliations": [
+          {
+            "name": "Neuroca, Inc"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Lietz",
+          "given_name": "Justin",
+          "identifiers": [
+            {
+              "identifier": "0009-0008-9028-1366",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Lietz, Justin",
+          "type": "personal"
+        },
+        "role": {
+          "id": "projectmanager",
+          "title": {
+            "de": "ProjektmanagerIn",
+            "en": "Project manager"
+          }
+        }
+      }
+    ],
+    "description": "<p>The branch-history register is useful only if it preserves what scalar projection erases. The finite result proves&nbsp;this for finite generator tables. The global upgrade must preserve the same doctrine at the homotopy-class&nbsp;layer: equality in the retained loop group is the equality detected by the full register, while stripped visible&nbsp;projection remains a quotient and therefore loses information.</p>",
+    "languages": [
+      {
+        "id": "eng",
+        "title": {
+          "en": "English"
+        }
+      }
+    ],
+    "publication_date": "2026-04-24",
+    "publisher": "Zenodo",
+    "resource_type": {
+      "id": "publication-preprint",
+      "title": {
+        "de": "Preprint",
+        "en": "Preprint"
+      }
+    },
+    "rights": [
+      {
+        "link": "https://github.com/justinlietz93/Prometheus_VDM/blob/main/LICENSE.md",
+        "title": {
+          "en": "Proprietary Dual Research and Commercial License"
+        }
+      }
+    ],
+    "subjects": [
+      {
+        "subject": "Phase Calculus"
+      },
+      {
+        "subject": "monodromy"
+      },
+      {
+        "subject": "finite presentations"
+      },
+      {
+        "subject": "bracnhed covers"
+      },
+      {
+        "subject": "quotient theorem"
+      },
+      {
+        "subject": "projection loss"
+      }
+    ],
+    "title": "Monodromy as Memory: Quotient Commutation Is Not Quotient Injectivity",
+    "version": "v0.1"
+  },
+  "parent": {
+    "access": {
+      "owned_by": {
+        "user": "1421018"
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {
+      "default": "d41d07b2-3ca3-4dfa-87ce-7d960c7eba47",
+      "entries": [
+        {
+          "access": {
+            "member_policy": "closed",
+            "members_visibility": "public",
+            "record_submission_policy": "open",
+            "review_policy": "closed",
+            "visibility": "public"
+          },
+          "children": {
+            "allow": false
+          },
+          "created": "2026-04-19T08:23:22.356085+00:00",
+          "custom_fields": {
+            "subjects": [
+              {
+                "id": "euroscivoc:51"
+              },
+              {
+                "id": "euroscivoc:1063"
+              },
+              {
+                "id": "mesh:D017711"
+              },
+              {
+                "id": "mesh:D011385"
+              },
+              {
+                "id": "mesh:D012008"
+              },
+              {
+                "id": "mesh:D061827"
+              },
+              {
+                "id": "euroscivoc:1635"
+              }
+            ]
+          },
+          "deletion_status": {
+            "is_deleted": false,
+            "status": "P"
+          },
+          "id": "35396844-f546-40c2-848e-2ed45468bfc9",
+          "links": {},
+          "metadata": {
+            "curation_policy": "<p dir=\"auto\">This community enforces a strict, curiosity driven, falsification-first curation standard. The goal is not to accumulate records. The goal is to ensure that every record in this archive is auditable, reproducible, and built to be attacked.</p>\n<p dir=\"auto\"><strong>Scope.</strong>&nbsp;Records accepted into this community must fall within one or more of the following categories: (1) theorem-bearing manuscripts within the VDM derivation tree, (2) adversarial validation artifacts attacking published VDM claims, (3) empirical analyses of the VDM cognitive runtime, (4) instrumentation or calibration records supporting VDM research, (5) code repository releases with provenance documentation, (6) formal critique reports or independent reproduction attempts.</p>\n<p dir=\"auto\"><strong>Minimum requirements for all records.</strong></p>\n<p dir=\"auto\">Every record must include a plain-English abstract stating what is claimed. Every primary claim must be explicitly stated, uniquely identified, and paired with a decisive metric, a falsifier, its assumption dependence, and a scope classification. No claim may hide behind \"standard argument,\" \"it is well known,\" \"follows similarly,\" or \"checked numerically\" without stating exactly what is being delegated and why. Every assumption must be explicit, scoped, and typed. Every record must state what it does not prove.</p>\n<p dir=\"auto\"><strong>Publication bundle standard (Complete Formalisms and theorem-bearing manuscripts).</strong></p>\n<p dir=\"auto\">A Complete Formalism publication is not complete when it merely states claims. It is complete only when its full formal burden is attacked across all required artifact layers: paper, Lean 4, SymPy, Jupyter, and manifest.</p>\n<p dir=\"auto\">The paper must carry the full load-bearing formal burden: definitions, theorems, derivation chains, operator relations, assumption boundaries, falsifiers, and scope limits.</p>\n<p dir=\"auto\">Lean 4 must prove every exact formalizable statement. Any omission must be classified with an explicit reason (non-formalizable, numerical, symbolic, or deferred).</p>\n<p dir=\"auto\">SymPy must attack every symbolic identity and operator law and terminate with an explicit FINAL_RESULT: PASS or FINAL_RESULT: FAIL.</p>\n<p dir=\"auto\">Jupyter must attack every numerical, geometric, statistical, and gate-facing consequence in reviewer-readable form, including negative controls, explicit residuals, labeled thresholds, and a final coverage ledger.</p>\n<p dir=\"auto\">A README must map every burden to its artifact location with exact run instructions and expected outputs. SHA-256 hashes must cover all bundled artifacts.</p>\n<p dir=\"auto\"><strong>Review standard.</strong>&nbsp;This community uses the CRAFT/BASS framework (Credibility, Rigor, Assumption, Falsifiability, Terminology / Bayesian Audit of Scientific Substance) for internal review. Records targeting a BASS score below 70 will not be accepted unless explicitly labeled as draft, partial, or in-progress.</p>\n<p dir=\"auto\"><strong>What will be rejected.</strong>&nbsp;Records that contain marketing language, vague claims without falsification criteria, omitted negative results, non-runnable validation artifacts, or claims asserted as validated without adversarial attack will be rejected or returned for revision.</p>\n<p dir=\"auto\"><strong>Labeling.</strong>&nbsp;Every record must carry one of the following statuses: validated (full bundle passes all gates), draft (incomplete validation, explicitly labeled), partial (some burdens unresolved, explicitly enumerated), or falsified (a published claim has been disproven, with the correction documented).</p>\n<p dir=\"auto\">No record may be described as \"validated\" unless its full bundle satisfies the publication validation requirements.</p>\n<p dir=\"auto\"><strong>External contributions.</strong>&nbsp;Independent researchers who wish to submit reproduction attempts, critique reports, or adversarial analyses targeting records in this community are welcome. Contact&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a> before submission.</p>",
+            "description": "This is a branch community off of the larger collective of the Void Dynamics Model community created specifically to organize the research related only to the mathematical framework of Phase Calculus and its operational utility.",
+            "organizations": [
+              {
+                "name": "Neuroca, Inc."
+              }
+            ],
+            "page": "<p dir=\"auto\">The Void Dynamics Model (VDM) is an independent research program operated by Neuroca, Inc. (Neenah, WI) under principal investigator Justin K. Lietz.</p>\n<p dir=\"auto\">VDM has two tracks.</p>\n<p dir=\"auto\"><strong>Track 1 &mdash; Physics.</strong>&nbsp;A unified framework deriving quantum geometry, thermodynamics, gauge structure, gravity, and cosmology from a single primitive bifurcation invariant via metriplectic geometry, bifurcation theory, and domain wall dynamics. The formal spine is a derivation tree of Complete Formalisms (CF000&ndash;CF19), each carrying its own theorem surface, falsification gates, and explicit scope boundaries.</p>\n<p dir=\"auto\"><strong>Track 2 &mdash; Cognitive Runtime.</strong>&nbsp;A zero-training, physics-gated cognitive architecture exploring how conservation-vs.-dissipation dynamics produce stable, adaptive behavior in sparse, event-driven neural graphs &mdash; no backpropagation, no training data, no gradient descent.</p>\n<p dir=\"auto\">This community regards the Phase Calculus framework which works interchangeably between those tracks.</p>\n<p dir=\"auto\"><strong>Governing principle.</strong>&nbsp;Every record in this community is built to be proven wrong. Predictions are preregistered and time-stamped before results are collected. Claims carry explicit pass/fail gates. Negative controls and failure reports ship by default. If a result breaks, we publish the break.</p>\n<p dir=\"auto\"><strong>What this community contains:</strong></p>\n<ul>\n<li>Theorem-bearing manuscripts (Complete Formalisms, Phase Calculus, universality papers, standalone theorems, cogitants)</li>\n<li>Adversarial validation bundles (Lean 4 packages, SymPy scripts, skeptical-reviewer Jupyter notebooks, SHA-256 manifests)</li>\n<li>Cognitive runtime publications (empirical analyses, complexity metric instruments, runtime architectures)</li>\n<li>Instrumentation and calibration records</li>\n<li>Code repository releases with cryptographic provenance</li>\n</ul>\n<p dir=\"auto\"><strong>Open challenge.</strong>&nbsp;Attempts to falsify any record in this community are encouraged. If your critique successfully disproves a published claim and we can verify your results, we will publish a formal follow-up conceding the original claim and giving you full credit for the correction. Contact:&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a></p>\n<p dir=\"auto\"><strong>Resources:</strong></p>\n<ul>\n<li>Website:&nbsp;<a href=\"https://www.neuroca.ai/\">https://www.neuroca.ai</a></li>\n<li>ORCID:&nbsp;<a href=\"https://orcid.org/0009-0008-9028-1366\">https://orcid.org/0009-0008-9028-1366</a></li>\n<li>Academia.edu:&nbsp;<a href=\"https://independent.academia.edu/justinlietz\">https://independent.academia.edu/justinlietz</a></li>\n<li>GitHub (Primitive Bifurcation Law):&nbsp;<a href=\"https://github.com/justinlietz93/primitive_bifurcation_law_VDM\">https://github.com/justinlietz93/primitive_bifurcation_law_VDM</a></li>\n<li>GitHub (Prometheus VDM):&nbsp;<a href=\"https://github.com/justinlietz93/Prometheus_VDM\">https://github.com/justinlietz93/Prometheus_VDM</a></li>\n</ul>",
+            "title": "Void Dynamics Model: Phase Calculus",
+            "type": {
+              "id": "project"
+            },
+            "website": "https://www.neuroca.ai"
+          },
+          "revision_id": 7,
+          "slug": "vdm-phase-calculus",
+          "updated": "2026-04-19T08:53:35.538977+00:00"
+        },
+        {
+          "access": {
+            "member_policy": "open",
+            "members_visibility": "public",
+            "record_submission_policy": "open",
+            "review_policy": "closed",
+            "visibility": "public"
+          },
+          "children": {
+            "allow": false
+          },
+          "created": "2025-09-29T00:16:08.675831+00:00",
+          "custom_fields": {
+            "subjects": [
+              {
+                "id": "euroscivoc:1007"
+              },
+              {
+                "id": "euroscivoc:261"
+              },
+              {
+                "id": "euroscivoc:1063"
+              },
+              {
+                "id": "mesh:D008433Q000295"
+              },
+              {
+                "id": "euroscivoc:1647"
+              },
+              {
+                "id": "euroscivoc:1005"
+              },
+              {
+                "id": "euroscivoc:1629"
+              },
+              {
+                "id": "mesh:D010825Q000295"
+              },
+              {
+                "id": "mesh:D012984Q000592"
+              },
+              {
+                "id": "euroscivoc:973"
+              },
+              {
+                "id": "euroscivoc:1607"
+              }
+            ]
+          },
+          "deletion_status": {
+            "is_deleted": false,
+            "status": "P"
+          },
+          "id": "d41d07b2-3ca3-4dfa-87ce-7d960c7eba47",
+          "links": {},
+          "metadata": {
+            "curation_policy": "<p dir=\"auto\">This community enforces a strict, falsification-first curation standard. The goal is not to accumulate records. The goal is to ensure that every record in this archive is auditable, reproducible, and built to be attacked.</p>\n<p dir=\"auto\"><strong>Scope.</strong>&nbsp;Records accepted into this community must fall within one or more of the following categories: (1) theorem-bearing manuscripts within the VDM derivation tree, (2) adversarial validation artifacts attacking published VDM claims, (3) empirical analyses of the VDM cognitive runtime, (4) instrumentation or calibration records supporting VDM research, (5) code repository releases with provenance documentation, (6) formal critique reports or independent reproduction attempts.</p>\n<p dir=\"auto\"><strong>Minimum requirements for all records.</strong></p>\n<p dir=\"auto\">Every record must include a plain-English abstract stating what is claimed. Every primary claim must be explicitly stated, uniquely identified, and paired with a decisive metric, a falsifier, its assumption dependence, and a scope classification. No claim may hide behind \"standard argument,\" \"it is well known,\" \"follows similarly,\" or \"checked numerically\" without stating exactly what is being delegated and why. Every assumption must be explicit, scoped, and typed. Every record must state what it does not prove.</p>\n<p dir=\"auto\"><strong>Publication bundle standard (Complete Formalisms and theorem-bearing manuscripts).</strong></p>\n<p dir=\"auto\">A Complete Formalism publication is not complete when it merely states claims. It is complete only when its full formal burden is attacked across all required artifact layers: paper, Lean 4, SymPy, Jupyter, and manifest.</p>\n<p dir=\"auto\">The paper must carry the full load-bearing formal burden: definitions, theorems, derivation chains, operator relations, assumption boundaries, falsifiers, and scope limits.</p>\n<p dir=\"auto\">Lean 4 must prove every exact formalizable statement. Any omission must be classified with an explicit reason (non-formalizable, numerical, symbolic, or deferred).</p>\n<p dir=\"auto\">SymPy must attack every symbolic identity and operator law and terminate with an explicit FINAL_RESULT: PASS or FINAL_RESULT: FAIL.</p>\n<p dir=\"auto\">Jupyter must attack every numerical, geometric, statistical, and gate-facing consequence in reviewer-readable form, including negative controls, explicit residuals, labeled thresholds, and a final coverage ledger.</p>\n<p dir=\"auto\">A README must map every burden to its artifact location with exact run instructions and expected outputs. SHA-256 hashes must cover all bundled artifacts.</p>\n<p dir=\"auto\"><strong>Review standard.</strong>&nbsp;This community uses the CRAFT/BASS framework (Credibility, Rigor, Assumption, Falsifiability, Terminology / Bayesian Audit of Scientific Substance) for internal review. Records targeting a BASS score below 70 will not be accepted unless explicitly labeled as draft, partial, or in-progress.</p>\n<p dir=\"auto\"><strong>What will be rejected.</strong>&nbsp;Records that contain marketing language, vague claims without falsification criteria, omitted negative results, non-runnable validation artifacts, or claims asserted as validated without adversarial attack will be rejected or returned for revision.</p>\n<p dir=\"auto\"><strong>Labeling.</strong>&nbsp;Every record must carry one of the following statuses: validated (full bundle passes all gates), draft (incomplete validation, explicitly labeled), partial (some burdens unresolved, explicitly enumerated), or falsified (a published claim has been disproven, with the correction documented).</p>\n<p dir=\"auto\">No record may be described as \"validated\" unless its full bundle satisfies the publication validation requirements.</p>\n<p dir=\"auto\"><strong>External contributions.</strong>&nbsp;Independent researchers who wish to submit reproduction attempts, critique reports, or adversarial analyses targeting records in this community are welcome. Contact&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a> before submission.</p>",
+            "description": "One bifurcation invariant.\nBackground-independent metriplectic field theory + zero-training cognitive runtime across 20 Complete Formalisms.\nAdversarial Lean 4/SymPy/Jupyter bundles and pass/fail gates with every record. \nBuilt to be attacked.",
+            "organizations": [
+              {
+                "name": "Neuroca, Inc"
+              }
+            ],
+            "page": "<p dir=\"auto\">The Void Dynamics Model (VDM) is an independent research program operated by Neuroca, Inc. (Neenah, WI) under principal investigator Justin K. Lietz.</p>\n<p dir=\"auto\">VDM has two tracks.</p>\n<p dir=\"auto\"><strong>Track 1 &mdash; Physics.</strong>&nbsp;A unified framework deriving quantum geometry, thermodynamics, gauge structure, gravity, and cosmology from a single primitive bifurcation invariant via metriplectic geometry, bifurcation theory, and domain wall dynamics. The formal spine is a derivation tree of Complete Formalisms (CF000&ndash;CF19), each carrying its own theorem surface, falsification gates, and explicit scope boundaries.</p>\n<p dir=\"auto\"><strong>Track 2 &mdash; Cognitive Runtime.</strong>&nbsp;A zero-training, physics-gated cognitive architecture exploring how conservation-vs.-dissipation dynamics produce stable, adaptive behavior in sparse, event-driven neural graphs &mdash; no backpropagation, no training data, no gradient descent.</p>\n<p dir=\"auto\"><strong>Governing principle.</strong>&nbsp;Every record in this community is built to be proven wrong. Predictions are preregistered and time-stamped before results are collected. Claims carry explicit pass/fail gates. Negative controls and failure reports ship by default. If a result breaks, we publish the break.</p>\n<p dir=\"auto\"><strong>What this community contains:</strong></p>\n<ul>\n<li>Theorem-bearing manuscripts (Complete Formalisms, Phase Calculus, universality papers, standalone theorems, cogitants)</li>\n<li>Adversarial validation bundles (Lean 4 packages, SymPy scripts, skeptical-reviewer Jupyter notebooks, SHA-256 manifests)</li>\n<li>Cognitive runtime publications (empirical analyses, complexity metric instruments, runtime architectures)</li>\n<li>Instrumentation and calibration records</li>\n<li>Code repository releases with cryptographic provenance</li>\n</ul>\n<p dir=\"auto\"><strong>Open challenge.</strong>&nbsp;Attempts to falsify any record in this community are encouraged. If your critique successfully disproves a published claim and we can verify your results, we will publish a formal follow-up conceding the original claim and giving you full credit for the correction. Contact:&nbsp;<a href=\"mailto:justin@neuroca.ai\">justin@neuroca.ai</a></p>\n<p dir=\"auto\"><strong>Resources:</strong></p>\n<ul>\n<li>Website:&nbsp;<a href=\"https://www.neuroca.ai/\">https://www.neuroca.ai</a></li>\n<li>ORCID:&nbsp;<a href=\"https://orcid.org/0009-0008-9028-1366\">https://orcid.org/0009-0008-9028-1366</a></li>\n<li>Academia.edu:&nbsp;<a href=\"https://independent.academia.edu/justinlietz\">https://independent.academia.edu/justinlietz</a></li>\n<li>GitHub (Primitive Bifurcation Law):&nbsp;<a href=\"https://github.com/justinlietz93/primitive_bifurcation_law_VDM\">https://github.com/justinlietz93/primitive_bifurcation_law_VDM</a></li>\n<li>GitHub (Prometheus VDM):&nbsp;<a href=\"https://github.com/justinlietz93/Prometheus_VDM\">https://github.com/justinlietz93/Prometheus_VDM</a></li>\n</ul>",
+            "title": "Void Dynamics Model",
+            "type": {
+              "id": "project"
+            },
+            "website": "https://www.neuroca.ai"
+          },
+          "revision_id": 9,
+          "slug": "void-dynamics-model",
+          "updated": "2026-04-14T13:36:23.959992+00:00"
+        }
+      ],
+      "ids": [
+        "35396844-f546-40c2-848e-2ed45468bfc9",
+        "d41d07b2-3ca3-4dfa-87ce-7d960c7eba47"
+      ]
+    },
+    "id": "19741768",
+    "pids": {
+      "doi": {
+        "client": "datacite",
+        "identifier": "10.5281/zenodo.19741768",
+        "provider": "datacite"
+      }
+    }
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.5281/zenodo.19741769",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:19741769",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 4,
+  "stats": {
+    "all_versions": {
+      "data_volume": 6484157.0,
+      "downloads": 16,
+      "unique_downloads": 14,
+      "unique_views": 16,
+      "views": 18
+    },
+    "this_version": {
+      "data_volume": 6484157.0,
+      "downloads": 16,
+      "unique_downloads": 14,
+      "unique_views": 16,
+      "views": 18
+    }
+  },
+  "status": "published",
+  "swh": {},
+  "updated": "2026-04-24T20:57:15.615592+00:00",
+  "versions": {
+    "index": 1,
+    "is_latest": true
+  }
+}
