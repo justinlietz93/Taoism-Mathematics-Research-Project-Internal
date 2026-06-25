@@ -1,0 +1,7 @@
+target,status,kill_method
+admissible nondegenerate class unreachable by bounded native families,not found in swept pairs,enumerate admissible classes c=kL/g and require native witness
+nonrepresentative c accepted,rejected,representative invariance gate
+degenerate c accepted,rejected,radical kernel gate
+prefix-only false coupling,blocked by extractor rule,no shared L-boundary means c_native=0
+hand-supplied c used as evidence,not used,witness required before property comparison
+full arbitrary-history theorem,open,prove canonical history class for all reachable c without bounded enumeration
