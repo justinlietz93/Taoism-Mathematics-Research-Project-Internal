@@ -1,0 +1,70 @@
+{
+  "phase": "5_v7f",
+  "status": "SEALED_NATIVE_COUPLING_REGISTRY_BEFORE_PRODUCT_MODULE_COMPARISON",
+  "created_utc": "2026-06-25T14:03:58.811380+00:00",
+  "extractor": "c_native = sum sign_b*(q_i(b)+1)*(q_j(b)+1) mod lcm(D_i,D_j)",
+  "D_pairs": [
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      8,
+      16
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      10,
+      14
+    ],
+    [
+      10,
+      26
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      14,
+      22
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      18,
+      30
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      24,
+      40
+    ]
+  ],
+  "sealed_entries_count": 45,
+  "sha256_of_entries": "de2bd1aecf8a2c8ba579421946edf1a8549afa6299a3c0fbd7afa8b3606bdc7c"
+}

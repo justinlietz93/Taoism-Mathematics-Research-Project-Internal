@@ -1,0 +1,16 @@
+{
+  "phase": "Phase 5 v7e",
+  "title": "Native Inter-Axis Coupling Derivation",
+  "status": "NATIVE_SHARED_BOUNDARY_COUPLING_GENERATED_FOR_TESTED_PRODUCT_MODULES_FRONTIER_REFINED",
+  "global_pass": true,
+  "phase5_closed": false,
+  "sealed_before_comparison": true,
+  "positive_cases": 6,
+  "positive_cases_passed": 6,
+  "negative_controls": 5,
+  "negative_controls_passed": 5,
+  "max_positive_residual": 3.17539875105184e-13,
+  "native_extractor": "shared L-boundary incidence weighted by retained Q-depths before latch",
+  "core_result": "Shared-boundary QBL histories generated nonzero admissible c_ij in tested cases; independent/prefix-only histories did not.",
+  "frontier": "Derive the full inter-axis coupling registry for arbitrary QBL branching histories and realistic mock-theta finite quadratic modules."
+}

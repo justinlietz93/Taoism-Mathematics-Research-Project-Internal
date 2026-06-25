@@ -1,0 +1,7 @@
+target,falsifier,status
+native_extraction_before_comparison,any c_ij chosen after inspecting product-module closure target,not_observed
+independent_axes_zero,independent_axes or shared_prefix_only generates nonzero valid c_native,not_observed
+representative_invariance_gate,nonrepresentative c accepted into product-module gates,not_observed
+degeneracy_gate,degenerate c accepted as closure-valid,not_observed
+registry_completeness,claiming arbitrary-history theorem from bounded latch sweep,frontier_open
+multi_axis_origin,cross-axis coupling only appears when hand-supplied and not in sealed native extractor,not_observed_for_tested_shared_latches

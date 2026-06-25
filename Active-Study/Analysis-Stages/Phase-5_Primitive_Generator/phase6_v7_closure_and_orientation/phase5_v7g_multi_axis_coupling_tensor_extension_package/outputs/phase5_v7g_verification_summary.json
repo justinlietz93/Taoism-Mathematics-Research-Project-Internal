@@ -1,0 +1,21 @@
+{
+  "phase": "5_v7g",
+  "title": "Multi-Axis Coupling Tensor Extension",
+  "status": "PAIRWISE_COUPLING_TENSOR_EXTENSION_SUPPORTED_TRIPLE_TERMS_REJECTED_AS_NONQUADRATIC_FRONTIER_REFINED",
+  "global_pass": true,
+  "phase5_closed": false,
+  "positive_cases": 11,
+  "positive_cases_passed": 11,
+  "negative_controls": 9,
+  "negative_controls_passed": 9,
+  "registry_rows": 62,
+  "registry_valid_rows": 34,
+  "registry_cross_valid_rows": 27,
+  "registry_degenerate_rows": 28,
+  "registry_nonrepresentative_rows": 0,
+  "max_positive_residual": 4.5013917250540656e-13,
+  "sealed_before_comparison": true,
+  "hand_supplied_cij_used_as_generation_evidence": false,
+  "main_verdict": "Multi-axis product modules close under the native pairwise coupling tensor registry. Triple or higher latch incidence is native history data but not an independent Weil-compatible higher-order tensor in tested cases; it must project to pairwise bilinear coupling or be rejected by the quadraticity gate.",
+  "frontier": "Complete arbitrary-history registry and proof that all admissible nondegenerate pairwise coupling tensors are reachable from QBL latch/branch histories."
+}

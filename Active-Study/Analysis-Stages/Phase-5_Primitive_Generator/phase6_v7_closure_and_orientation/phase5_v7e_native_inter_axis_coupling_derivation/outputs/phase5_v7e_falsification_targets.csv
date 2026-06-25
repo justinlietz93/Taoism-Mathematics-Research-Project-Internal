@@ -1,0 +1,6 @@
+target,falsifier
+native c extraction,shared-boundary histories extract only zero c_native under the sealed extractor
+closure from native c,nonzero sealed c_native fails representative invariance/unitarity/reversal/polarization gates
+independent-axis control,independent axes generate nonzero c_native
+prefix-only control,shared prefix without shared L-boundary generates closing c_native
+no hand-setting,post-comparison c adjustment is required to pass

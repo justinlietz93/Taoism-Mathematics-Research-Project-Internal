@@ -1,0 +1,21 @@
+{
+  "phase": "5_v7f",
+  "title": "Coupling Registry Sweep",
+  "status": "COUPLING_REGISTRY_SWEEP_SUPPORTED_FOR_BOUNDED_SHARED_LATCH_HISTORIES_FRONTIER_REFINED",
+  "global_pass": true,
+  "phase5_closed": false,
+  "D_pair_count": 15,
+  "registry_rows": 918,
+  "unique_generated_c_total": 918,
+  "property_gate_cases": 29,
+  "property_gate_cases_passed": 29,
+  "negative_controls": 23,
+  "negative_controls_passed": 23,
+  "max_positive_residual": 1.0226784664791497e-12,
+  "full_valid_coverage_pairs": 15,
+  "mean_valid_closure_coverage_fraction": 1.0,
+  "mean_admissible_coverage_fraction": 1.0,
+  "sealed_before_comparison": true,
+  "hand_supplied_cij_used_as_generation_evidence": false,
+  "frontier": "bounded shared-latch histories generate many admissible nonzero couplings; complete arbitrary-history registry remains open"
+}

@@ -1,0 +1,12 @@
+case,Ds,pair_coupling_matrix,triple_tensor_projection,classification
+direct_4x4x4,4x4x4,"[[0, 0, 0], [0, 0, 0], [0, 0, 0]]",{},direct_sum_valid
+direct_4x4x4x4,4x4x4x4,"[[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]",{},direct_sum_valid
+chain_4x4x4,4x4x4,"[[0, 1, 0], [1, 0, 1], [0, 1, 0]]",{},cross_valid_nonzero
+chain_6x6x6,6x6x6,"[[0, 1, 0], [1, 0, 1], [0, 1, 0]]",{},cross_valid_nonzero
+chain_8x8x8,8x8x8,"[[0, 1, 0], [1, 0, 1], [0, 1, 0]]",{},cross_valid_nonzero
+chain_10x10x10,10x10x10,"[[0, 1, 0], [1, 0, 1], [0, 1, 0]]",{},cross_valid_nonzero
+mixed_chain_4x6x8,4x6x8,"[[0, 6, 0], [6, 0, 12], [0, 12, 0]]",{},cross_valid_nonzero
+mixed_triangle_4x6x8,4x6x8,"[[0, 6, 2], [6, 0, 12], [2, 12, 0]]",{},cross_valid_nonzero
+four_axis_chain_4x4x4x4,4x4x4x4,"[[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]]",{},cross_valid_nonzero
+four_axis_square_4x4x4x4,4x4x4x4,"[[0, 1, 1, 0], [1, 0, 0, 1], [1, 0, 0, 1], [0, 1, 1, 0]]",{},cross_valid_nonzero
+triple_projected_corrected_4x6x8,4x6x8,"[[0, 6, 4], [6, 0, 12], [4, 12, 0]]","{""0,1,2"": 12}",cross_valid_nonzero

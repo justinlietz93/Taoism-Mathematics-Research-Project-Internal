@@ -1,0 +1,10 @@
+control,Ds,classification,pass,reason
+bad_nonrep_8x12x4_c1,8x12x4,non_representative,True,not representative invariant
+bad_degenerate_full_triangle_4x4x4,4x4x4,degenerate,True,full triangle degenerates
+bad_degenerate_complete_graph_4x4x4x4,4x4x4x4,degenerate,True,complete graph degenerates
+prefix_only_no_latch_8x8x8,8x8x8,direct_sum_valid,True,"no shared boundary latch, direct-sum only"
+triple_tensor_4x4x4_0-1-2,4x4x4,rejected_nonquadratic,True,independent cubic/triple term fails quadraticity/bilinearity gate
+triple_tensor_4x6x8_0-1-2,4x6x8,rejected_nonquadratic,True,independent cubic/triple term fails quadraticity/bilinearity gate
+triple_tensor_6x6x6_0-1-2,6x6x6,rejected_nonquadratic,True,independent cubic/triple term fails quadraticity/bilinearity gate
+triple_tensor_4x4x4x4_0-1-2,4x4x4x4,rejected_nonquadratic,True,independent cubic/triple term fails quadraticity/bilinearity gate
+triple_tensor_4x4x4x4_0-1-3,4x4x4x4,rejected_nonquadratic,True,independent cubic/triple term fails quadraticity/bilinearity gate

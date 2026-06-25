@@ -1,0 +1,9 @@
+{
+  "phase": "5_v7g",
+  "sealed_before_product_module_comparison": true,
+  "sealed_at_utc": "2026-06-25T14:33:16.361726Z",
+  "native_registry_rows": 62,
+  "case_count": 15,
+  "triple_tensor_controls": 5,
+  "extractor": "pairwise C_ij=sum sign*(q_i+1)*(q_j+1) mod lcm(D_i,D_j); triple incidence recorded and tested for quadraticity."
+}

@@ -1,0 +1,12 @@
+case_id,D1,D2,history_kind,axis_i_word,axis_j_word,shared_latches
+independent_8x8_direct_sum,8,8,independent_axes,BQ BQ BQ L,BQ BQ BQ L,[]
+shared_8x8_native_c2,8,8,shared_boundary,Q L[b0] BQ,QQ L[b0] B,"[{""boundary_id"": ""b0"", ""q_i_before_latch"": 0, ""q_j_before_latch"": 1, ""sign"": 1}]"
+shared_8x12_native_c6,8,12,shared_boundary,QQ L[b1] BQ,QQQ L[b1] B,"[{""boundary_id"": ""b1"", ""q_i_before_latch"": 1, ""q_j_before_latch"": 2, ""sign"": 1}]"
+shared_12x12_native_c6,12,12,shared_boundary,QQ L[b2] BQ,QQQ L[b2] B,"[{""boundary_id"": ""b2"", ""q_i_before_latch"": 1, ""q_j_before_latch"": 2, ""sign"": 1}]"
+shared_10x10_native_c2,10,10,shared_boundary,Q L[b3] B,QQ L[b3] B,"[{""boundary_id"": ""b3"", ""q_i_before_latch"": 0, ""q_j_before_latch"": 1, ""sign"": 1}]"
+shared_16x24_native_c12,16,24,shared_boundary,QQQ L[b4] BQ,QQQQ L[b4] BQ,"[{""boundary_id"": ""b4"", ""q_i_before_latch"": 2, ""q_j_before_latch"": 3, ""sign"": 1}]"
+prefix_only_8x12_no_shared_latch,8,12,shared_prefix_only,BQ BQ branch_i L,BQ BQ branch_j L,[]
+bad_shared_8x12_native_c3_not_well_defined,8,12,shared_boundary_bad_depth,Q L[b_bad1],QQQ L[b_bad1],"[{""boundary_id"": ""b_bad1"", ""q_i_before_latch"": 0, ""q_j_before_latch"": 2, ""sign"": 1}]"
+bad_shared_12x12_native_c5_degenerate,12,12,shared_boundary_degenerate,QQQQ L[b_bad2],Q L[b_bad2],"[{""boundary_id"": ""b_bad2"", ""q_i_before_latch"": 4, ""q_j_before_latch"": 0, ""sign"": 1}]"
+bad_shared_10x26_native_c65_degenerate,10,26,shared_boundary_degenerate_mixed,QQQQ L[b_bad3],Q^12 L[b_bad3],"[{""boundary_id"": ""b_bad3"", ""q_i_before_latch"": 4, ""q_j_before_latch"": 12, ""sign"": 1}]"
+forbidden_hand_supplied_c6,8,12,hand_supplied_only,independent,independent,[]

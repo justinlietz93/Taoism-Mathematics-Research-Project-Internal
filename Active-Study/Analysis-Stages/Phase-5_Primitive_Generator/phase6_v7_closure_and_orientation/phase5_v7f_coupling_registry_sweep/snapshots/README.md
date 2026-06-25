@@ -1,0 +1,1 @@
+Prior v7d/v7e packages remain upstream snapshots; v7f does not overwrite them. This package maps the bounded coupling registry after v7e.

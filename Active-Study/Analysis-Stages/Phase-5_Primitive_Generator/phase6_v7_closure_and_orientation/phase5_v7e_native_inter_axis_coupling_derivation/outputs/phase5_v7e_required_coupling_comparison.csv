@@ -1,0 +1,7 @@
+case_id,D1,D2,history_kind,native_c_mod_lcm,well_defined,expected_behavior,unitarity_residual,reversal_residual,k4_residual,polarization_residual,representative_invariance_residual,pass,interpretation
+independent_8x8_direct_sum,8,8,independent_axes,0,True,direct_sum_zero_cross_term,1.070742898624873e-15,2.04757242619384e-15,4.0951448523876804e-15,1.2004014554190414e-14,9.799650315725178e-15,True,direct_sum_generated
+shared_8x8_native_c2,8,8,shared_boundary,2,True,generated_cross_term,2.4570338424181392e-15,6.542112513837112e-15,1.3084225027674223e-14,3.234390464888577e-14,1.1759085194360944e-14,True,native_cross_term_generated
+shared_8x12_native_c6,8,12,shared_boundary,6,True,generated_cross_term,9.866431229634571e-15,1.1226736090270782e-14,2.2453472180541576e-14,8.523615710128819e-14,4.116051206408283e-14,True,native_cross_term_generated
+shared_12x12_native_c6,12,12,shared_boundary,6,True,generated_cross_term,1.3375097754519523e-14,2.535383424672864e-14,5.0707668493457294e-14,2.0771842582276985e-13,6.467868245280473e-14,True,native_cross_term_generated
+shared_10x10_native_c2,10,10,shared_boundary,2,True,generated_cross_term,9.702283772831889e-15,1.009392089255039e-14,1.897538430072622e-14,1.18585124327194e-13,3.283291382988083e-14,True,native_cross_term_generated
+shared_16x24_native_c12,16,24,shared_boundary,12,True,generated_cross_term,1.5357022566237495e-14,3.4706578070371235e-14,6.940414844788774e-14,3.17539875105184e-13,1.1761561116907298e-13,True,native_cross_term_generated
