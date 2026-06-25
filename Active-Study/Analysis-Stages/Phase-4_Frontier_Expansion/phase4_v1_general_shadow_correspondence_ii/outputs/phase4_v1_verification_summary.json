@@ -1,0 +1,20 @@
+{
+  "phase": "Phase 4 v1",
+  "target": "General Shadow Correspondence II",
+  "status": "EXTENDED_CLASS_CLAIM_SUPPORTED_BY_SWEEP",
+  "global_pass": true,
+  "cases_tested": 8,
+  "primitive_character_cases": 4,
+  "nonprimitive_lifted_cases": 1,
+  "vector_orbit_mixing_cases": 2,
+  "generated_even_carrier_cases": 1,
+  "negative_controls": 4,
+  "negative_controls_passed": 4,
+  "scalar_quotient_cases": 1,
+  "full_vector_required_cases": 7,
+  "max_S_unitarity": 3.1267017697858008e-15,
+  "max_S_square_reversal": 6.845419629515089e-15,
+  "max_theta_transform": 7.579101960080344e-15,
+  "max_derivative_transform": 1.3695984938059045e-14,
+  "next_target": "Phase 4 v2: Modular-B Classification Theorem"
+}

@@ -1,0 +1,39 @@
+{
+  "boundary_instances": [
+    "Wilhelm six-line ladder",
+    "Shadow finite residue/orientation carrier"
+  ],
+  "claim": "A retained system is a full Modular-B instance exactly when it satisfies retained carrier, deterministic local refinement, progress, completion, lift/re-chart, projection-loss, and terminal-projection separation gates.",
+  "classification_counts": {
+    "CARRIER_TRANSITION_BOUNDARY_NOT_FULL_B": 1,
+    "FULL_MODULAR_B_INSTANCE": 2,
+    "REJECTED_QUOTIENT_ONLY_PROJECTION": 3,
+    "RETAINED_RESIDUE_TRANSFORM_CHANNEL_NOT_B_WITHOUT_REFINEMENT": 1
+  },
+  "full_instances": [
+    "Phase/Farey B",
+    "Ancient Yi octal-place carry"
+  ],
+  "global_pass": true,
+  "hard_numbers": {
+    "phase_B_depth_to_Delta4096": 9,
+    "phase_anchor": "(55,89)",
+    "phase_anchor_uv": 4895,
+    "projection_loss_witnesses": 6,
+    "shadow_cases_checked": 3,
+    "wilhelm_directed_events": 384,
+    "wilhelm_hamming_gate": true,
+    "wilhelm_involution_gate": true,
+    "yi_depths_checked": 6
+  },
+  "next_target": "Phase 4 v3: Projection-Loss Formalization",
+  "phase": "Phase 4",
+  "rejected_quotients": [
+    "Product-only Phase quotient",
+    "Ancient Yi scalar-value quotient",
+    "Wilhelm carrier-only quotient"
+  ],
+  "status": "CLASSIFICATION_THEOREM_SUPPORTED_AND_BOUNDARIES_SEPARATED",
+  "target": "Modular-B Classification Theorem",
+  "version": "v2"
+}

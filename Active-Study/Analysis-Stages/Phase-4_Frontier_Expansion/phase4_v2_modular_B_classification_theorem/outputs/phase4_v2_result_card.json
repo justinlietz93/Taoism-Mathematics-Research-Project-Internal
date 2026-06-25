@@ -1,0 +1,12 @@
+{
+  "global_pass": true,
+  "headline": "Full Modular-B classification is now separated from retained transition boundaries and transform-only residue carriers.",
+  "next": "Phase 4 v3: Projection-Loss Formalization",
+  "proved_here": [
+    "Phase/Farey and Ancient Yi satisfy all full Modular-B gates.",
+    "Wilhelm is classified as retained transition boundary under current materials.",
+    "Shadow residue carriers are transform channels unless a refinement/lift operator is supplied.",
+    "Projection-only quotients are rejected by concrete collisions."
+  ],
+  "status": "CLASSIFICATION_THEOREM_SUPPORTED_AND_BOUNDARIES_SEPARATED"
+}

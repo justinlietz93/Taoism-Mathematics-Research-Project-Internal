@@ -1,0 +1,4 @@
+file,obligation,status
+Phase4/ProjectionLoss.lean,prove collision_implies_not_custody_admissible,formal proof included
+Phase4/ProjectionLoss.lean,define quotient_admissible separately from custody_admissible,formal definitions included
+Phase4/ProjectionLoss.lean,instantiate finite witness records,"data-audit backed, theorem surface included"

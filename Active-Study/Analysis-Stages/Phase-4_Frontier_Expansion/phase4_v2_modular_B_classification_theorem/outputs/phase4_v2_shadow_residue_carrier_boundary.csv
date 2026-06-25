@@ -1,0 +1,4 @@
+case,m,N,even_orientation,bilateral_n_weight_cancels,S_unitarity_error,S_square_reversal_error,T_formula,S_formula,classification_gate
+chi12,6,12,True,True,1.866258215684302e-15,4.2042631560044255e-15,exp(pi*i*r^2/(2m)),(2m)^(-1/2) exp(-pi*i*r*s/m),RETAINED_RESIDUE_TRANSFORM_CHANNEL
+chi8,4,8,True,True,7.062098392711005e-16,1.2207918492582808e-15,exp(pi*i*r^2/(2m)),(2m)^(-1/2) exp(-pi*i*r*s/m),RETAINED_RESIDUE_TRANSFORM_CHANNEL
+legendre5,5,10,True,True,1.0006002811345785e-15,1.2407764733510301e-15,exp(pi*i*r^2/(2m)),(2m)^(-1/2) exp(-pi*i*r*s/m),RETAINED_RESIDUE_TRANSFORM_CHANNEL

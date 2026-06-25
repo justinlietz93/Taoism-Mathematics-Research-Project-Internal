@@ -1,0 +1,7 @@
+display_line_index_top_to_bottom,line_position,bit_place,binary_weight,octal_group,octal_digit_internal_bit,source_mapping_claim,display_slot
+1,top,0,1,low_octal_digit_d0,0,top line is 2^0,first_display_bit
+2,second_from_top,1,2,low_octal_digit_d0,1,second_from_top line is 2^1,second_display_bit
+3,third_from_top,2,4,low_octal_digit_d0,2,third_from_top line is 2^2,third_display_bit
+4,fourth_from_top,3,8,high_octal_digit_d1,0,fourth_from_top line is 2^3,fourth_display_bit
+5,fifth_from_top,4,16,high_octal_digit_d1,1,fifth_from_top line is 2^4,fifth_display_bit
+6,bottom,5,32,high_octal_digit_d1,2,bottom line is 2^5,sixth_display_bit

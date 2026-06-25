@@ -1,0 +1,9 @@
+domain,projection,projection_collision,next_retained_diverges,next_projection_diverges,custody_admissible,quotient_admissible,classification
+Phase visible/Q4 memory,visible_phase_mod_4,True,True,False,False,True,CUSTODY_FAIL_QUOTIENT_PASS
+Phase Farey/B refinement,product_uv,True,True,True,False,False,CUSTODY_FAIL_QUOTIENT_FAIL
+Ancient Yi low digit,low_digit,True,True,False,False,True,CUSTODY_FAIL_QUOTIENT_PASS
+Ancient Yi scalar zero,scalar_value,True,True,False,False,True,CUSTODY_FAIL_QUOTIENT_PASS
+Wilhelm six-line selected event,carrier_bits,True,True,True,False,False,CUSTODY_FAIL_QUOTIENT_FAIL
+Monodromy double-cover memory,visible_sheet,True,True,False,False,True,CUSTODY_FAIL_QUOTIENT_PASS
+Shadow orientation channel,scalar_bilateral_projection,True,True,True,False,False,CUSTODY_FAIL_QUOTIENT_FAIL
+Pencil/Yin-Yang chart transfer,component_tuple,True,True,True,False,False,CUSTODY_FAIL_QUOTIENT_FAIL

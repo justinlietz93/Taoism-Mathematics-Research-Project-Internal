@@ -1,0 +1,7 @@
+--- phase4_status_before.md
++++ phase4_status_after.md
+@@
+-Phase 4 v3: Projection-Loss Formalization — pending
++Phase 4 v3: Projection-Loss Formalization — FORMAL_THEOREM_PACKAGE_SUPPORTED_BY_FINITE_CORPUS_INSTANTIATIONS
++
++Added custody-admissibility, quotient-admissibility, projection-loss witness theorem, corpus instantiations, and Lake-ready Lean workspace.

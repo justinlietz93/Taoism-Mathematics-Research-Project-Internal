@@ -1,0 +1,19 @@
+# Phase 4 v3 -> Phase 4 v4 status patch
+
+Replace Ancient Yi symbol status:
+
+```text
+ANCIENT_YI_SYMBOL_MAPPING_PENDING
+```
+
+with:
+
+```text
+ANCIENT_YI_SYMBOL_TO_RETAINED_CARRIER_MAPPING_CLOSED
+```
+
+Add:
+
+```text
+Ancient Yi symbol rows are terminal cross-reference readouts over the retained LSD-first carrier. The transition-complete object is the six-line carrier with top-line-as-2^0 convention and active octal place-domain width.
+```

@@ -1,0 +1,10 @@
+gate_id,gate,metric,expected,status
+G1,full_64_rows_present,64,64,PASS
+G2,unique_unicode_hexagrams,64,64,PASS
+G3,unique_king_wen_numbers,64,64,PASS
+G4,unicode_codepoint_matches_king_wen,0,0 failures,PASS
+G5,binary_lsd_line_order_verified,0,0 failures,PASS
+G6,octal_lsd_mapping_verified,0,0 failures,PASS
+G7,successor_and_77_carry_verified,0,0 failures,PASS
+G8,first_page_line_order_proof_rows_verified,4,4,PASS
+G9,projection_loss_witnesses_present,4,>=3,PASS

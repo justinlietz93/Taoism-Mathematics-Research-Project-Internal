@@ -1,0 +1,7 @@
+symbol,name,definition,gate
+S,retained state set,finite or structured state space carrying transition custody,"domain supplies states x,y"
+E,retained transition,E:S->S gives next admissible retained state,state-local deterministic map
+Π,projection/readout,Π:S->P forgets some retained coordinates,terminal or comparison readout
+"CustodyAdmissible(Π,E)",custody factorization,exists G:P->S such that E = G ∘ Π,same projection always implies same next retained state
+"QuotientAdmissible(Π,E)",projected quotient factorization,exists H:P->P such that Π ∘ E = H ∘ Π,same projection always implies same next projection
+ProjectionLossWitness,retained collision,Π(x)=Π(y) and E(x)≠E(y),falsifies custody-admissibility

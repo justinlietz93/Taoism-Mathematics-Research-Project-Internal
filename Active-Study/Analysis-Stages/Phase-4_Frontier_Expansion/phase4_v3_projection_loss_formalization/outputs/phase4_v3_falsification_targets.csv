@@ -1,0 +1,8 @@
+id,target,falsifier
+F1,General theorem,"Find x,y with Π(x)=Π(y), E(x)≠E(y), and still construct G:P->S with E=G∘Π. This would contradict the factorization theorem."
+F2,Claimed projection-loss domain,Show all states sharing the stripped projection also share the same next retained state.
+F3,Quotient/custody distinction,Prove Π∘E=H∘Π implies E=G∘Π without injectivity or a canonical section.
+F4,Phase/Farey,"Show product uv determines B(u,v) for all admissible pairs."
+F5,Ancient Yi,Show scalar value determines active place-domain width and next retained carrier.
+F6,Wilhelm,Show carrier/ordinal/name/text determines selected-line transition across all 384 events.
+F7,Shadow correspondence,Find a same scalar-projection orientation pair whose retained orientation readout does not diverge.

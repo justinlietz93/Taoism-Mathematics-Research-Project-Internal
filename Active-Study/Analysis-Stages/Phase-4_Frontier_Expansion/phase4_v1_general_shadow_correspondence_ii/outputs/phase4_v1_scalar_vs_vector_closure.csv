@@ -1,0 +1,9 @@
+case,m,N,scalar_S_eigen,scalar_T_eigen,scalar_S_error,scalar_T_error,retained_orbit_rank,interpretation
+chi12_level12_closed_instance,6,12,True,True,2.625067111716866e-15,2.531698018113677e-15,1,scalar_quotient_closes
+chi8_level8_second_case,4,8,True,False,1.4432899320127035e-15,2.0,3,full_retained_vector_carrier_required
+legendre5_level10,5,10,False,False,0.7071067811865481,1.902113032590307,6,full_retained_vector_carrier_required
+legendre13_level26,13,26,False,False,0.7071067811865506,1.9854177481961082,14,full_retained_vector_carrier_required
+nonprimitive_chi8_lift_level16,8,16,False,False,1.4142135623730951,1.9999999999999998,6,full_retained_vector_carrier_required
+multi_orbit_m10,10,20,False,False,6.556989906122963,2.3511410091698925,11,full_retained_vector_carrier_required
+dense_even_m11,11,22,False,False,2.508627657472267,3.959285767523731,12,full_retained_vector_carrier_required
+three_orbit_m15,15,30,False,False,1.8257418583505536,3.5267115137548397,11,full_retained_vector_carrier_required

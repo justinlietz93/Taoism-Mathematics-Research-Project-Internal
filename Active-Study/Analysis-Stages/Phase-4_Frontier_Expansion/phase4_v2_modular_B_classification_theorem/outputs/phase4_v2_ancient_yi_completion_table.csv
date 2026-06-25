@@ -1,0 +1,7 @@
+k,complete_state_lsd,complete_value,next_lsd,next_value,lifted_length,expected_value_after_completion,value_gate,length_gate
+1,7,7,01,8,2,8,True,True
+2,77,63,001,64,3,64,True,True
+3,777,511,0001,512,4,512,True,True
+4,7777,4095,00001,4096,5,4096,True,True
+5,77777,32767,000001,32768,6,32768,True,True
+6,777777,262143,0000001,262144,7,262144,True,True

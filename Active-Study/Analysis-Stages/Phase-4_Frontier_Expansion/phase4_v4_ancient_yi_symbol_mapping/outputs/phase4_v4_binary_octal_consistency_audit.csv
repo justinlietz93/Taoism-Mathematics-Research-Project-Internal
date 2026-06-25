@@ -1,0 +1,6 @@
+gate,failures,status
+binary_lsd_first_matches_decimal,0,PASS
+octal_lsd_first_matches_decimal,0,PASS
+successor_matches_plus_one_and_carry,0,PASS
+unicode_codepoint_matches_king_wen_number,0,PASS
+line_columns_match_bit_places,0,PASS

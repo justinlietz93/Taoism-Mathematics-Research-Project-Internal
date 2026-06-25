@@ -1,0 +1,15 @@
+diff --git a/PHASE_4_STATUS.md b/PHASE_4_STATUS.md
+new file mode 100644
+--- /dev/null
++++ b/PHASE_4_STATUS.md
+@@
++## Phase 4 v2
++
++Status: CLASSIFICATION_THEOREM_SUPPORTED_AND_BOUNDARIES_SEPARATED
++
++Full Modular-B instances require retained carrier, deterministic local refinement,
++progress, completion, lift/re-chart, projection-loss witness, and terminal-projection separation.
++
++Phase/Farey and Ancient Yi are full instances.
++Wilhelm is a retained transition boundary.
++Shadow residue/orientation carriers are retained transform channels until a refinement/lift law is supplied.

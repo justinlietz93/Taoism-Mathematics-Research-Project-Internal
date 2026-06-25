@@ -1,0 +1,9 @@
+item,status,detail
+finite carrier A_m = Z/(2m)Z,general_for_tested_class,sets retained residue/orientation seating
+T_r = exp(pi i r^2/(2m)),general_for_tested_class,forced by Q square seating on residue r
+S_rs = (2m)^(-1/2) exp(-pi i r s/m),general_for_tested_class,forced by B/L dual residue pairing and unitary normalization
+a(-r)=a(r),class_condition,exact condition for n-weighted bilateral scalar cancellation
+R_a positive orientation readout,general_for_tested_class,nonzero false-theta / Eichler channel
+coefficient-stripped G_a shadow,general_for_tested_class,weight lower by one and same carrier support
+one-dimensional scalar quotient,special_case,"requires simultaneous S/T eigenclosure; chi12 has it, most cases do not"
+full vector-valued carrier,general_mechanism,required when scalar quotient fails

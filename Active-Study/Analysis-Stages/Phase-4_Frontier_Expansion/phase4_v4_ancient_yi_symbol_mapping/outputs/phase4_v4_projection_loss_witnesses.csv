@@ -1,0 +1,5 @@
+witness_id,state_x,state_y,projection,shared_projection,next_or_value_x,next_or_value_y,result
+YI_DISPLAY_STRING_DIRECTION_10,display 10 interpreted LSD-first,display 10 interpreted MSD-first,raw_display_string,10,1,8,display string is not self-interpreting without retained order convention
+YI_LOW_DIGIT_7_vs_77,7,77,low_digit_only,7,01,001,low digit is not active-domain complete
+YI_SCALAR_ZERO_0_vs_00,0,00,scalar_value,0,1,10,scalar value is not active-domain complete
+YI_KING_WEN_NAME_ORDER_vs_YI_ORDER,䷁ Kun KingWen 2 at Yi decimal 0,䷀ Qian KingWen 1 at Yi decimal 63,traditional_symbol_order_only,hexagram symbol/name as terminal readout,Yi successor 10,Yi carry 001,King Wen symbol order is not Yi carry-transition custody

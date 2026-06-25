@@ -1,0 +1,7 @@
+gate,definition,phase,yi,wilhelm,shadow,classification_role
+MB1 retained carrier,state object C_D holds coordinates not present in terminal projection,"q=(u,v)",digit tuple + width,carrier + selected line,residue/orientation vector,required
+MB2 local deterministic refinement,B_D:C_D->C_D computed from retained state only,"sort(v,u+v)",base-8 successor/carry,line flip,"S/T transform exists, no B_D refinement supplied",required for full B
+MB3 progress measure,same-domain movement has monotone/resolution progress,uv increases,value increments until capacity,no scalar refinement progress intrinsic to Q6 graph,"transform action, no refinement measure",required for full B
+MB4 completion/capacity,finite current domain reaches a no-next-same-domain boundary,uv>=Delta plus lap saturation,all digits are 7,"line 6 pressure is semantic, no intrinsic lift law in current layer",no completion law supplied,required for full B
+MB5 lift/re-chart,boundary opens a higher/new carrier while preserving declared payload,L carries q/theta; rank+1,append high place: 77->001,boundary target; not closed here as full B,boundary target if level-refinement is supplied,required for full B
+MB6 projection-loss witness,terminal projection has collision with different retained next state,uv product collision,low digit/scalar collision,carrier-only/line-only collisions,scalar bilateral zero vs oriented channels,custody evidence

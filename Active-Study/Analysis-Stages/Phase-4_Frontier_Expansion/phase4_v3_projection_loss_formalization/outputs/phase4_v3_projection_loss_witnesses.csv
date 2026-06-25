@@ -1,0 +1,9 @@
+domain,projection_name,state_x,state_y,proj_x,proj_y,next_x,next_y,next_proj_x,next_proj_y,custody_factorization,quotient_factorization,result,theorem_role
+Phase visible/Q4 memory,visible_phase_mod_4,"theta=0,kappa=0","theta=0,kappa=1",theta=0,theta=0,"theta=1,kappa=0","theta=1,kappa=1",theta=1,theta=1,False,True,CUSTODY_FAIL_QUOTIENT_PASS,"visible phase quotient lawful, retained turn memory lost"
+Phase Farey/B refinement,product_uv,"(u,v)=(1,6)","(u,v)=(2,3)",uv=6,uv=6,"B=(6,7)","B=(3,5)",uv=42,uv=15,False,False,CUSTODY_FAIL_QUOTIENT_FAIL,product projection cannot carry B transition
+Ancient Yi low digit,low_digit,7,77,7,7,01,001,0,0,False,True,CUSTODY_FAIL_QUOTIENT_PASS,"low digit quotient lawful for carry residue, active width lost"
+Ancient Yi scalar zero,scalar_value,0,00,0,0,1,10,1,1,False,True,CUSTODY_FAIL_QUOTIENT_PASS,"scalar value quotient lawful, active place-domain width lost"
+Wilhelm six-line selected event,carrier_bits,111111:line1,111111:line6,111111,111111,111110,011111,111110,011111,False,False,CUSTODY_FAIL_QUOTIENT_FAIL,carrier-only readout loses selected-line transition
+Monodromy double-cover memory,visible_sheet,"sheet=0,kappa=0,h=ε","sheet=0,kappa=2,h=gg",sheet=0,sheet=0,"sheet=1,kappa=1,h=g","sheet=1,kappa=3,h=ggg",sheet=1,sheet=1,False,True,CUSTODY_FAIL_QUOTIENT_PASS,"sheet quotient lawful, kappa/history custody lost"
+Shadow orientation channel,scalar_bilateral_projection,"orientation=+,R=R_plus","orientation=-,R=-R_plus",0,0,positive_readout=R_plus,negative_readout=-R_plus,nonzero,nonzero_opposite,False,False,CUSTODY_FAIL_QUOTIENT_FAIL,symmetric scalar projection annihilates orientation channel
+Pencil/Yin-Yang chart transfer,component_tuple,"tuple=(yin,yang),chart=A","tuple=(yin,yang),chart=B","(yin,yang)","(yin,yang)",transfer=A_to_B,transfer=B_to_A,B,A,False,False,CUSTODY_FAIL_QUOTIENT_FAIL,basis/chart registry is retained transition state

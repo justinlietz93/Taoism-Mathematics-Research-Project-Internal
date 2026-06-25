@@ -1,0 +1,7 @@
+domain,projection,state_a,state_b,projection_a,projection_b,next_a,next_b,projection_equal,next_differs,gate
+Phase/Farey,uv product only,"(1,6)","(2,3)",6,6,"(6,7)","(3,5)",True,True,PASS
+Ancient Yi,low digit only,7,77,7,7,01,001,True,True,PASS
+Ancient Yi,scalar zero only,0,00,0,0,1,10,True,True,PASS
+Wilhelm,carrier bits only,111111:line1,111111:line6,111111,111111,111110,011111,True,True,PASS
+Wilhelm,selected line only,000000:line3,111111:line3,3,3,000100,111011,True,True,PASS
+Shadow residue carrier,scalar bilateral projection,positive orientation channel,negative orientation channel,0,0,nonzero false-theta readout,opposite orientation readout,True,True,PASS

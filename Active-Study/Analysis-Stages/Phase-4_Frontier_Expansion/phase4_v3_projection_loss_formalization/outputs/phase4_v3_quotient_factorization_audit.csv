@@ -1,0 +1,9 @@
+domain,projection,same_projection,same_next_projection,quotient_factorization_possible_on_witness,reason
+Phase visible/Q4 memory,visible_phase_mod_4,True,True,True,projected dynamics well-defined on this witness
+Phase Farey/B refinement,product_uv,True,False,False,projected dynamics diverges on this witness
+Ancient Yi low digit,low_digit,True,True,True,projected dynamics well-defined on this witness
+Ancient Yi scalar zero,scalar_value,True,True,True,projected dynamics well-defined on this witness
+Wilhelm six-line selected event,carrier_bits,True,False,False,projected dynamics diverges on this witness
+Monodromy double-cover memory,visible_sheet,True,True,True,projected dynamics well-defined on this witness
+Shadow orientation channel,scalar_bilateral_projection,True,False,False,projected dynamics diverges on this witness
+Pencil/Yin-Yang chart transfer,component_tuple,True,False,False,projected dynamics diverges on this witness

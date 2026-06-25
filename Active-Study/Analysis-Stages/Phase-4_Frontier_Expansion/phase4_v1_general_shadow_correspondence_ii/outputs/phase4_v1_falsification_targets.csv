@@ -1,0 +1,7 @@
+id,target,falsifier
+F1,even-orientation correspondence,finite-module case with a(-r)=a(r) but bilateral n-weighted scalar projection does not cancel
+F2,T phase from Q square seating,known unary carrier whose T phase is not exp(pi i r^2/(2m)) after normalization
+F3,S kernel from B/L dual pairing,known unary carrier whose S matrix is not the normalized finite Fourier/Gauss kernel for its finite quadratic module
+F4,shadow as coefficient-stripped projection,known false-theta/mock-shadow pair in this finite-carrier class whose shadow is not the n^0 coefficient-stripped retained carrier
+F5,vector carrier necessity,prove scalar quotient closure for all tested vector-mixing cases despite non-eigen S/T orbit rank > 1
+F6,class boundary,mock object with no finite residue/orientation carrier but still claimed under this theorem; it must be moved to a different carrier theorem

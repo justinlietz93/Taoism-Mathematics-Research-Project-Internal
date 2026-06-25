@@ -1,0 +1,7 @@
+id,target,test,pass_condition_for_falsifier
+F1,Line-order falsifier,Find a source row where observed binary cannot equal decimal written top-to-bottom as LSD-first bits.,one verified contradiction row
+F2,Unicode/King-Wen symbol mapping falsifier,Find a row where Unicode hexagram index and King Wen number mismatch after normalization.,one verified mismatch not caused by transcription error
+F3,Octal mapping falsifier,Find a row where Yi octal display is not decimal in LSD-first base-8.,one verified row with correct source formula but failed normalized value
+F4,Carry/lift falsifier,Find a row where 77 does not transition to 001 or all-7 completion fails at another depth.,one verified completion row contradicting all-7 -> new high place
+F5,Terminal-symbol custody falsifier,Show King Wen number/name/unicode alone determines Yi successor/carry state.,construct a total map from terminal symbol projection to retained next carrier that handles active domain width
+F6,Trigram grouping falsifier,Show the top three displayed lines do not form the low octal digit d0 under the source table formula.,one verified row where d0 != top three LSD bits

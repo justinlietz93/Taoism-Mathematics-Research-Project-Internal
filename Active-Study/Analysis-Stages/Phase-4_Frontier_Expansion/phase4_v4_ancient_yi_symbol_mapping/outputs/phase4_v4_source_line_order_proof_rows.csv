@@ -1,0 +1,5 @@
+decimal,observed_name,observed_binary,expected_binary_lsd_top_to_bottom,binary_pass,observed_yi_octal,expected_yi_octal_lsd,octal_pass,inference,proof_status
+0,坤,000000,000000,True,00,00,True,leftmost/top line is displayed first but carries 2^0 place value,direct_source_page_18_visual_numeric_crosscheck
+1,剥/剝,100000,100000,True,10,10,True,leftmost/top line is displayed first but carries 2^0 place value,direct_source_page_18_visual_numeric_crosscheck
+2,比,010000,010000,True,20,20,True,leftmost/top line is displayed first but carries 2^0 place value,direct_source_page_18_visual_numeric_crosscheck
+3,观/觀,110000,110000,True,30,30,True,leftmost/top line is displayed first but carries 2^0 place value,direct_source_page_18_visual_numeric_crosscheck

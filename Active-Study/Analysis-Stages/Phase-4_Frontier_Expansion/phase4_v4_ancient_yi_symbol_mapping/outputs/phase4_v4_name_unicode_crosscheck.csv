@@ -1,0 +1,5 @@
+decimal,source_page_locator,hexagram_unicode,king_wen_number,traditional_name,visible_name_crosscheck_first_page,binary_source_order,yi_octal_lsd_first,line_order_status
+0,page-018 row 1,䷁,2,坤,坤,000000,00,confirms_top_line_is_2^0
+1,page-018 row 2,䷖,23,剝,剥/剝,100000,10,confirms_top_line_is_2^0
+2,page-018 row 3,䷇,8,比,比,010000,20,confirms_top_line_is_2^0
+3,page-018 row 4,䷓,20,觀,观/觀,110000,30,confirms_top_line_is_2^0

@@ -1,0 +1,18 @@
+{
+  "phase": "Phase 4 v4",
+  "target": "Ancient Yi Symbol Mapping",
+  "status": "SYMBOL_TO_RETAINED_CARRIER_MAPPING_CLOSED",
+  "global_pass": true,
+  "rows_reconstructed": 64,
+  "unique_unicode_hexagrams": 64,
+  "unique_king_wen_numbers": 64,
+  "binary_failures": 0,
+  "octal_failures": 0,
+  "successor_failures": 0,
+  "unicode_kingwen_failures": 0,
+  "line_column_failures": 0,
+  "source_line_order_proof_rows": 4,
+  "projection_loss_witnesses": 4,
+  "closed_claim": "Ancient Yi symbol rows map to the normalized LSD-first retained six-line/octal carrier; unicode/name/King-Wen symbols are terminal cross-reference readouts, not transition custody.",
+  "next_target": "Phase 4 v5: Wilhelm Lift/Re-Chart Law"
+}
