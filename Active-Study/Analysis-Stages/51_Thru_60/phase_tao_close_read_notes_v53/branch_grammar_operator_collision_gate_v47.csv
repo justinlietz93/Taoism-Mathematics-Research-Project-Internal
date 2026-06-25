@@ -1,0 +1,6 @@
+surface,generator,operator_word,operator_word_len,action_signature,winding,collision_class,collision_members
+quintic_s5,s1,L Q,2,"finite:1,0,2,3,4",0,OPERATOR_WORD_COLLISION_DIFFERENT_ACTIONS,"s1:finite:1,0,2,3,4; s2:finite:0,2,1,3,4; s3:finite:0,1,3,2,4; s4:finite:0,1,2,4,3"
+quintic_s5,s2,L Q,2,"finite:0,2,1,3,4",0,OPERATOR_WORD_COLLISION_DIFFERENT_ACTIONS,"s1:finite:1,0,2,3,4; s2:finite:0,2,1,3,4; s3:finite:0,1,3,2,4; s4:finite:0,1,2,4,3"
+quintic_s5,s3,L Q,2,"finite:0,1,3,2,4",0,OPERATOR_WORD_COLLISION_DIFFERENT_ACTIONS,"s1:finite:1,0,2,3,4; s2:finite:0,2,1,3,4; s3:finite:0,1,3,2,4; s4:finite:0,1,2,4,3"
+quintic_s5,s4,L Q,2,"finite:0,1,2,4,3",0,OPERATOR_WORD_COLLISION_DIFFERENT_ACTIONS,"s1:finite:1,0,2,3,4; s2:finite:0,2,1,3,4; s3:finite:0,1,3,2,4; s4:finite:0,1,2,4,3"
+log_countable,ell,Q Q Q Q,4,shift:1,1,operator_word_unique_or_action_equivalent,ell:shift:1

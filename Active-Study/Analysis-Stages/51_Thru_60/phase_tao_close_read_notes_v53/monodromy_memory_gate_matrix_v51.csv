@@ -1,0 +1,9 @@
+gate,expected,observed,status
+pytest rerun,all tests pass,".......                                                                  [100%]
+7 passed in 0.13s",PASS
+quintic CLI certificate,FINAL_RESULT: PASS,FINAL_RESULT: PASS,PASS
+double-cover CLI certificate,FINAL_RESULT: PASS,FINAL_RESULT: PASS,PASS
+SymPy global audit,FINAL_RESULT: PASS,FINAL_RESULT: PASS,PASS
+visible-iff-full negative control,falsified by double-cover counterexample,"same_visible_projection=true, same_full_register_transition=false",PASS
+quotient hygiene,projection commutation does not imply injectivity,M5 PROVEN in source ledger,PASS
+Lean local execution,lake build when Lean available,not runnable in this container; source indexed only,BLOCKED_EXTERNAL_TOOL
