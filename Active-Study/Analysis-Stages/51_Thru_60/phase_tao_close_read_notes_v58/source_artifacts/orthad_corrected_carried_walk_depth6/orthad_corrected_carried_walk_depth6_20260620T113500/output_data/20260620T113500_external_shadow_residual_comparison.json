@@ -1,0 +1,110 @@
+[
+  {
+    "shadow_term_index_n": 1,
+    "external_exponent_n2_over_24": "1/24",
+    "internal_phase_sign": 1,
+    "external_chi12": 1,
+    "sign_match": true,
+    "external_coefficient_chi12_times_n": 1,
+    "note": "External comparison only; chi12 is not used to emit internal phase_sign."
+  },
+  {
+    "shadow_term_index_n": 5,
+    "external_exponent_n2_over_24": "25/24",
+    "internal_phase_sign": 1,
+    "external_chi12": -1,
+    "sign_match": false,
+    "external_coefficient_chi12_times_n": -5,
+    "note": "External comparison only; chi12 is not used to emit internal phase_sign."
+  },
+  {
+    "shadow_term_index_n": 7,
+    "external_exponent_n2_over_24": "49/24",
+    "internal_phase_sign": -1,
+    "external_chi12": -1,
+    "sign_match": true,
+    "external_coefficient_chi12_times_n": -7,
+    "note": "External comparison only; chi12 is not used to emit internal phase_sign."
+  },
+  {
+    "shadow_term_index_n": 11,
+    "external_exponent_n2_over_24": "121/24",
+    "internal_phase_sign": -1,
+    "external_chi12": 1,
+    "sign_match": false,
+    "external_coefficient_chi12_times_n": 11,
+    "note": "External comparison only; chi12 is not used to emit internal phase_sign."
+  },
+  {
+    "shadow_term_index_n": 13,
+    "external_exponent_n2_over_24": "169/24",
+    "internal_phase_sign": 1,
+    "external_chi12": 1,
+    "sign_match": true,
+    "external_coefficient_chi12_times_n": 13,
+    "note": "External comparison only; chi12 is not used to emit internal phase_sign."
+  },
+  {
+    "shadow_term_index_n": 17,
+    "external_exponent_n2_over_24": "289/24",
+    "internal_phase_sign": 1,
+    "external_chi12": -1,
+    "sign_match": false,
+    "external_coefficient_chi12_times_n": -17,
+    "note": "External comparison only; chi12 is not used to emit internal phase_sign."
+  },
+  {
+    "shadow_term_index_n": 19,
+    "external_exponent_n2_over_24": "361/24",
+    "internal_phase_sign": -1,
+    "external_chi12": -1,
+    "sign_match": true,
+    "external_coefficient_chi12_times_n": -19,
+    "note": "External comparison only; chi12 is not used to emit internal phase_sign."
+  },
+  {
+    "shadow_term_index_n": 23,
+    "external_exponent_n2_over_24": "529/24",
+    "internal_phase_sign": -1,
+    "external_chi12": 1,
+    "sign_match": false,
+    "external_coefficient_chi12_times_n": 23,
+    "note": "External comparison only; chi12 is not used to emit internal phase_sign."
+  },
+  {
+    "shadow_term_index_n": 25,
+    "external_exponent_n2_over_24": "625/24",
+    "internal_phase_sign": 1,
+    "external_chi12": 1,
+    "sign_match": true,
+    "external_coefficient_chi12_times_n": 25,
+    "note": "External comparison only; chi12 is not used to emit internal phase_sign."
+  },
+  {
+    "shadow_term_index_n": 29,
+    "external_exponent_n2_over_24": "841/24",
+    "internal_phase_sign": 1,
+    "external_chi12": -1,
+    "sign_match": false,
+    "external_coefficient_chi12_times_n": -29,
+    "note": "External comparison only; chi12 is not used to emit internal phase_sign."
+  },
+  {
+    "shadow_term_index_n": 31,
+    "external_exponent_n2_over_24": "961/24",
+    "internal_phase_sign": -1,
+    "external_chi12": -1,
+    "sign_match": true,
+    "external_coefficient_chi12_times_n": -31,
+    "note": "External comparison only; chi12 is not used to emit internal phase_sign."
+  },
+  {
+    "shadow_term_index_n": 35,
+    "external_exponent_n2_over_24": "1225/24",
+    "internal_phase_sign": -1,
+    "external_chi12": 1,
+    "sign_match": false,
+    "external_coefficient_chi12_times_n": 35,
+    "note": "External comparison only; chi12 is not used to emit internal phase_sign."
+  }
+]

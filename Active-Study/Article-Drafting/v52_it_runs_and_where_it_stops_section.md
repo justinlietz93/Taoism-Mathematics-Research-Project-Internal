@@ -169,7 +169,7 @@ and the essay's whole claim to rigor rests on not making it either. The gap betw
 pattern and a closed structure is exactly the kind of gap this project exists to respect.
 
 *Hands off to.* With the internal claims now shown to execute, the stale parts retired in both prose
-and code, and the one deep frontier left honestly open, the essay has assembled everything it can
-establish and has marked clearly what it cannot. From here it goes to the closing assessment, which
-states what the convergence does and does not show, and to the foundational section that gives the
-whole structure its root in the admissible distinction.
+and code, and the one deep frontier left honestly open, the witnesses are complete. What remains
+before the closing is to gather them: the next section consolidates every internal and external
+result into a single gate and a typed catalogue of the ways that gate can fail, and shows why the
+bridges cohere without collapsing into the claim that these systems are the same system.

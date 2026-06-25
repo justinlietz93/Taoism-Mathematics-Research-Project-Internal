@@ -1,0 +1,16 @@
+gate,status,evidence,interpretation
+local_pytest_rerun,PASS,9 passed in 0.15s,Executable Python unit surface re-ran locally in v47.
+local_sympy_rerun,PASS,status PASS; gate_count 10,SymPy audit surface re-ran locally in v47 with PYTHONPATH=src.
+local_cli_quintic_s5_rerun,PASS,FINAL_RESULT: PASS,S5 branch presentation compiles under shipped CLI.
+local_cli_log_countable_rerun,PASS,FINAL_RESULT: PASS,Countable logarithm cover compiles under shipped CLI.
+lean_build,NOT_RUN,lean/lake unavailable in current container,Lean files are indexed as theorem surfaces; not promoted to locally rebuilt proof.
+G-FIB-ANCHOR,PASS,"{""B^9(1,1)"": [55, 89]}",Recorded from package sympy_audit_ledger.json.
+G-LOG-RESOLUTION,PASS,"{""depth"": 21, ""half_width"": 6.18979215099812e-09, ""q"": [17711, 28657]}",Recorded from package sympy_audit_ledger.json.
+G-SYMPY-FIBONACCI-ROWS,PASS,"{""checked_depths"": 24, ""formula"": ""B^n(1,1)=(F_{n+1},F_{n+2})""}",Recorded from package sympy_audit_ledger.json.
+G-PACKET-ANCHOR-1-24,PASS,"{""E(2pi/4895)"": ""0.0416666666666666666666666666666666666666666666666666666666666666735734235971303841942757268"", ""error"": ""6.90675693046371752760906014445661035904194527359533830465434789313021262574463176268379259e-66""}",Recorded from package sympy_audit_ledger.json.
+G-S5-COMPILE,PASS,"{""resolution"": {""depth"": 21, ""exact_remainder"": ""1/507544127"", ""floor_satisfied"": true, ""half_width"": 6.18979215099812e-09, ""q"": [17711, 28657], ""uv"": 507544127}, ""status"": ""PROVEN""}",Recorded from package sympy_audit_ledger.json.
+G-S5-RELATORS,PASS,"{""relator_count"": 10}",Recorded from package sympy_audit_ledger.json.
+G-S5-COMMUTATOR,PASS,"{""cycles"": [[0, 1, 2]]}",Recorded from package sympy_audit_ledger.json.
+G-S5-QUOTIENT-RESIDUAL,PASS,"{""residuals"": [0, 0, 0, 0]}",Recorded from package sympy_audit_ledger.json.
+G-COUNTABLE-LOG-COMPILE,PASS,"{""status"": ""PROVEN"", ""word_end_sheets"": [1, 2, 0, -1]}",Recorded from package sympy_audit_ledger.json.
+G-BRING-ROOTS,PASS,"{""max_residual"": 2.351134340861953e-61, ""root_count"": 5}",Recorded from package sympy_audit_ledger.json.

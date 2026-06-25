@@ -1,0 +1,389 @@
+                  Farey Remainder Recursion
+               and Orthogonal Re-Articulation:
+             An Exact Infinity-Resolution Theorem
+
+                                      Standalone theorem paper
+
+
+                                            Justin K. Lietz
+                                               Neuroca, Inc.
+                                           justin@neuroca.ai
+                                       DOI: 10.5281/zenodo.19210954
+
+
+
+                                                April 15, 2026
+
+                                                 Abstract
+        We prove an exact bridge between Ramanujan-side fractional remainder recursion on Farey-
+        mediant refinement and the VDM law of orthogonal re-articulation under a finite resolution
+        floor. The proof is operator-level rather than analogical. For neighboring reduced fractions
+        a/b < c/d with bc − ad = 1, the parent interval width is exactly 1/(bd) and the two
+        child widths are exactly 1/[b(b + d)] and 1/[d(b + d)]. We show that these updates are
+        exactly conjugate to denominator-pair re-articulation operators on (b, d), so Ramanujan-side
+        remainder refinement and child-sector re-expression are the same update law written in two
+        coordinate systems. We then identify the scale-gap-admissible branch selected by bounded
+        ratio control with the balanced operator B(u, v) = sort(v, u + v), prove that it generates the
+        Fibonacci pairs (Fn+1 , Fn+2 ), and obtain the exact unresolved-width law rn = 1/(Fn+1 Fn+2 ).
+        Hence the stopping depth below a floor δ is logarithmic, nδ = Θ(log(1/δ)). One-sided Farey
+        refinement is shown to be only polynomial and therefore lies outside the scale-gap-separated
+        A8/LIR regime. Finally, we prove that truncation is not deletion of an infinite tail but lawful
+        orthogonal transfer, and that under the phase map θ 7→ e2πiθ this transfer is realized as
+        exact child-sector replacement on the unit circle. This paper proves exact equivalence of the
+        remainder update, the denominator-pair child update, the finite-depth logarithmic stopping
+        law, and the truncation-as-orthogonal-transfer law. It does not claim full equivalence of the
+        entire Hardy–Ramanujan–Rademacher contour apparatus.
+
+Keywords Farey recursion · mediant · Stern-Brocot · Fibonacci · golden ratio · logarithmic hierarchy ·
+orthogonal re-articulation · infinity resolution
+
+1   Problem statement
+The target is narrow and exact.
+Ramanujan-side remainder calculus recursively refines an unresolved interval by mediants. VDM-side
+orthogonal re-articulation recursively re-hosts unresolved continuation into child sectors once same-sector
+continuation is no longer admissible below a resolution floor. The question is whether these are merely
+analogous, or whether they are the same update law in different coordinates.
+Throughout, A(−1), A2, A8, CG000, and CF03/CF13/CF14/CF15 refer to the named canon statements in
+the VDM formal stack.
+This paper proves three things:
+    (i) the Farey child update and denominator-pair re-articulation are exactly conjugate;
+                                                Farey Recursion and Orthogonality                    Void Dynamics Model
+
+
+
+     (ii) the scale-gap-admissible branch is the balanced branch, whose unresolved width is exactly
+          1/(Fn+1 Fn+2 );
+    (iii) truncation on the Ramanujan/Farey side is lawful orthogonal transfer followed by exact child-sector
+          re-expression on the unit-circle phase orbit.
+
+The result is an exact theorem for the infinity-resolution skeleton. It is not a claim that the full Hardy–
+Ramanujan–Rademacher circle method has already been derived from the complete VDM stack.
+
+2    Exact Farey remainder calculus
+Definition 1 (Farey-admissible interval). A Farey-admissible interval is an ordered pair of reduced rationals
+                                    a c         a   c
+                                I=      ,   ,       < ,       bc − ad = 1,
+                                      b d         b   d
+with a, b, c, d ∈ Z>0 .
+Definition 2 (Parent width and child operators). For a Farey-admissible interval I = (a/b, c/d), define the
+unresolved width
+                                                    c    a
+                                            ρ(I) := − .
+                                                    d    b
+The left and right mediant children are
+                                                                     
+                                        a a+c                   a+c c
+                              L(I) :=    ,      ,     R(I) :=        ,    .
+                                        b b+d                   b+d d
+Theorem 1 (Exact parent and child widths). For every Farey-admissible interval I = (a/b, c/d),
+                                          1                        1                        1
+                              ρ(I) =        ,       ρ(LI) =             ,     ρ(RI) =            .
+                                         bd                    b(b + d)                 d(b + d)
+
+Proof. Using bc − ad = 1,
+                                                           c  a  bc − ad   1
+                                                  ρ(I) =     − =         = .
+                                                           d  b     bd    bd
+For the left child,
+                                       a+c a   b(a + c) − a(b + d)   bc − ad        1
+                          ρ(LI) =          − =                     =          =          .
+                                       b+d  b       b(b + d)         b(b + d)   b(b + d)
+The right child is identical:
+                                       c   a+c   d(a + c) − c(b + d)   bc − ad        1
+                          ρ(RI) =        −     =                     =          =          .
+                                       d b+d          d(b + d)         d(b + d)   d(b + d)
+
+
+
+3    Exact operator conjugacy
+Definition 3 (Denominator-pair state and re-articulation operators). Let
+                                            a c 
+                                          H ,       := (b, d)
+                                              b d
+be the denominator-pair map. On positive integer pairs define
+                                        1
+                          β(b, d) :=      ,        L∗ (b, d) := (b, b + d),    R∗ (b, d) := (b + d, d).
+                                       bd
+Theorem 2 (Exact conjugacy of remainder refinement and re-articulation). For every Farey-admissible
+interval I,
+                  H(LI) = L∗ H(I),     H(RI) = R∗ H(I),       ρ(I) = β(H(I)).
+Thus the Farey child update and denominator-pair re-articulation are exactly conjugate.
+
+
+                                                                  2
+                                      Farey Recursion and Orthogonality                      Void Dynamics Model
+
+
+
+Proof. If I = (a/b, c/d) then
+                                                  
+                                           a a+c
+                          H(LI) = H         ,          = (b, b + d) = L∗ (b, d) = L∗ H(I).
+                                           b b+d
+The right child is identical. The identity ρ(I) = β(H(I)) is exactly Theorem 1.
+Remark 1. Theorem 2 is the operator-level result the earlier bridge note lacked. There is no analogy here.
+The Ramanujan/Farey remainder operator and the child-sector denominator operator are the same map after
+the exact change of variables H.
+
+4    A8-admissibility versus one-sided drift
+Definition 4 (Scale-gap-admissible branch). An ordered denominator branch (un , vn ) with un ≤ vn is
+scale-gap-admissible if there exists a finite constant κ ≥ 1 such that
+                                                 vn
+                                            1≤      ≤κ      for all n.
+                                                 un
+This is the denominator-pair form of bounded scale-gap separation.
+Proposition 1 (One-sided refinement is polynomial and violates scale-gap separation). Starting from (1, 1)
+and iterating only one child operator gives
+                                                                        1
+                               Ln∗ (1, 1) = (1, n + 1), β Ln∗ (1, 1) =
+                                                                    
+                                                                           .
+                                                                       n+1
+Hence one-sided refinement has only polynomial width decay and
+                                                   n+1
+                                                       → ∞,
+                                                    1
+so it is not scale-gap-admissible.
+
+Proof. Immediate induction gives (1, 1) 7→ (1, 2) 7→ (1, 3) 7→ · · · 7→ (1, n + 1). The burden formula is
+1/(1 · (n + 1)), and the ratio diverges.
+Remark 2. This is the exact reason the broad claim “all Farey branches give logarithmic depth” is false. They
+do not. The logarithmic regime is selected by bounded-ratio child re-articulation, not by arbitrary repeated
+mediant insertion.
+Theorem 3 (Minimal orthogonal re-articulation). Let
+                                            Qk = [kπ/2, (k + 1)π/2)
+be the current quadrant and let
+                                                z = eiθ ∈ Qk
+be a unit phase state. Define admissible transfer targets w ∈ S 1 by
+                                     |w| = |z|,        w∈
+                                                        / Qk ,          ℜ(z̄w) = 0.
+Then the unique nearest admissible target is
+                                                        w = iz
+up to orientation sign, with geodesic distance
+                                                                  π
+                                                  dS 1 (z, w) =     .
+                                                                  2
+
+Proof. Write w = eiϕ . The orthogonality condition
+                                                    ℜ(z̄w) = 0
+becomes
+                                                  cos(ϕ − θ) = 0,
+so
+                                                       π
+                                           ϕ−θ =         + kπ,          k ∈ Z.
+                                                       2
+
+                                                           3
+                                       Farey Recursion and Orthogonality                   Void Dynamics Model
+
+
+
+Hence all admissible orthogonal targets are
+                                                       w = ±iz.
+Their geodesic distances from z are
+                                               π                                 3π
+                                      dS 1 (z, iz) =
+                                                  ,            dS 1 (z, −iz) =      .
+                                               2                                  2
+Therefore the unique minimal positive transfer is
+                                                        w = iz.
+
+
+
+5    Balanced orthogonal re-articulation and the golden branch
+Definition 5 (Balanced child operator). On ordered pairs u ≤ v, define
+                                              B(u, v) := sort(v, u + v),
+where sort(x, y) returns the ordered pair with smaller entry first.
+Proposition 2 (Fibonacci denominator pairs). Let (qn , qn+1 ) be defined by
+                                (q0 , q1 ) = (1, 1),     (qn+1 , qn+2 ) = B(qn , qn+1 ).
+Then
+                                   qn+2 = qn+1 + qn ,   qn = Fn+1 ,
+where F1 = F2 = 1 are the Fibonacci numbers. Consequently,
+                                              B n (1, 1) = (Fn+1 , Fn+2 ).
+
+Proof. If qn ≤ qn+1 then qn+1 ≤ qn + qn+1 , so sorting gives
+                                         B(qn , qn+1 ) = (qn+1 , qn + qn+1 ).
+This is exactly the Fibonacci recursion. The closed form qn = Fn+1 follows by induction from (q0 , q1 ) =
+(1, 1).
+Corollary 1 (Exact unresolved-width law on the balanced branch). For the balanced branch,
+                                                           1
+                                   rn := β B n (1, 1) =
+                                                     
+                                                                  .
+                                                        Fn+1 Fn+2
+Using Binet’s formula,
+                                                       φn − (−φ−1 )n
+                                                Fn =        √        ,
+                                                              5
+there exist positive constants c1 , c2 such that
+                                    c1 φ−2n ≤ rn ≤ c2 φ−2n           for all n ≥ 0.
+In particular,
+                                                       rn ≍ φ−2n .
+
+Proof. The exact formula is immediate from Proposition 2. Since |(−φ−1 )n | < 1, Binet gives two-sided
+constants multiplying φn , hence two-sided constants multiplying φ−2n for rn .
+Theorem 4 (Exact logarithmic stopping depth). Fix a resolution floor δ > 0 and define the stopping time
+                                             τδ := min{n ≥ 0 : rn ≤ δ}.
+Then on the balanced branch,                                   
+                                               τδ = Θ log(1/δ) .
+More precisely, for the constants from Corollary 1,
+                                                                    
+                                        ln(c1 /δ)            ln(c2 /δ)
+                                                    ≤ τδ ≤               .
+                                          2 ln φ               2 ln φ
+
+                                                           4
+                                     Farey Recursion and Orthogonality                 Void Dynamics Model
+
+
+
+Proof. From Corollary 1,
+                                           c1 φ−2n ≤ rn ≤ c2 φ−2n .
+Solving the inequalities c1 φ−2n ≤ δ and c2 φ−2n ≤ δ gives the claimed bounds.
+Theorem 5 (Truncation is lawful orthogonal transfer). Let
+                                           Qk = [kπ/2, (k + 1)π/2)
+be the current quadrant, let
+                                                 z = eiθ ∈ Qk
+be the current phase state, and let r > 0 denote the unresolved burden carried by that state. If the finite
+resolution floor δ > 0 is reached so that
+                                                  r ≤ δ,
+then truncation is not deletion of burden. Instead, the only lawful continuation is the unique minimum-
+saturation orthogonal transfer
+                                               T (z) := iz,
+so that the continuation law is
+                                               (z, r) 7→ (iz, r),
+followed by child-sector refinement in the new quadrant. Equivalently, truncation is the shortest admissible
+non-discharge transfer from a saturated sector into an orthogonal sector.
+
+Proof. Once r ≤ δ, same-sector hosting has failed by hypothesis. By A(−1), unresolved burden cannot
+lawfully disappear or discharge; it must remain borne. Therefore truncation cannot be deletion. By A2,
+the admissible continuation is the least-cost lawful transfer out of the saturated sector. By Theorem 3, the
+admissible orthogonal targets are exactly ±iz, and the unique nearest admissible target is iz. Hence the
+lawful truncation map is
+                                                  T (z) = iz.
+This preserves modulus and preserves the carried burden while re-expressing that burden in the next orthogonal
+sector. After transfer, continuation proceeds by child-sector refinement in the new quadrant. By Theorem 4,
+repeated finite-floor refinement terminates after finite logarithmic depth. Therefore truncation is lawful
+orthogonal transfer, not deletion.
+Remark 3 (Canonical anchor). Theorem 5 is the standalone operator-level realization of the VDM canon:
+
+      (i) A(−1): primitive unresolved opposition cannot discharge, so burden must remain borne;
+     (ii) A2: the lawful continuation is the minimum-saturation path, here the nearest admissible orthogonal
+          transfer;
+    (iii) A8: once same-sector hosting fails, continuation proceeds by iterative child re-articulation with
+          logarithmic active depth under a finite floor.
+
+In the named canon, this theorem is the compressed bridge form of CG000 (branch-relative origin resolution),
+CF13 (quarter-turn / orthogonal orbit law), CF14 (minimum saturation requirement), CF15 (invariant
+articulation), and CF03 (hierarchical infinity resolution).
+
+6    Finite-floor re-articulation as an exact machine
+Definition 6 (Truncated re-articulation operator). For a fixed floor δ > 0, define
+                                                (
+                                                 (u, v),  β(u, v) ≤ δ,
+                                   Tδ (u, v) :=
+                                                 B(u, v), β(u, v) > δ.
+Corollary 2 (Finite-depth infinity resolution). Starting from (1, 1), iteration of Tδ terminates after exactly
+τδ balanced re-articulation steps. Therefore unresolved continuation is not erased; it is re-hosted into a
+finite-depth hierarchy whose active depth is logarithmic in the inverse floor scale.
+
+Proof. If the burden is already below the floor, the state is fixed. Otherwise one balanced child step is taken.
+By Theorem 4, the first index at which the burden crosses the floor is finite and logarithmic in 1/δ.
+
+
+                                                       5
+                                      Farey Recursion and Orthogonality                   Void Dynamics Model
+
+
+
+7    Ramanujan arcs as phase sectors
+Definition 7 (Phase-sector map). For a Farey-admissible interval I = (a/b, c/d), define its unit-circle sector
+by                                           n           h a c io
+                                     S(I) := e2πiθ : θ ∈    ,      .
+                                                           b d
+Its angular width is
+                                                           2π
+                                        α(I) := 2πρ(I) =      .
+                                                           bd
+Theorem 6 (Truncation is exact phase-sector replacement). Let I be Farey-admissible. Then the child
+sectors satisfy
+                                                                    2π                       2π
+              S(LI) ⊂ S(I),        S(RI) ⊂ S(I),       α(LI) =            ,     α(RI) =            .
+                                                                 b(b + d)                 d(b + d)
+Thus mediant truncation is not deletion of an infinite tail; under the phase lift it is lawful orthogonal transfer
+together with exact replacement of a parent phase sector by a child phase sector on the orbit e2πiθ .
+
+Proof. The inclusion is immediate because each child interval is a subinterval of the parent interval. The
+angular-width formulas are just 2π times Theorem 1.
+
+8    What is proved, and what is not
+What is proved
+
+This paper proves:
+
+     1. exact conjugacy between Farey child refinement and denominator-pair re-articulation;
+     2. exact width identities for parent and child sectors;
+     3. exact Fibonacci/Farey recursion on the balanced scale-gap-admissible branch;
+     4. exact logarithmic stopping depth under a finite floor;
+     5. exact realization of truncation as lawful orthogonal transfer and consequent phase-sector replacement
+        on the unit circle.
+
+What is not proved
+
+This paper does not prove:
+
+     1. full equivalence of the complete Hardy–Ramanujan–Rademacher contour apparatus with the full
+        VDM stack;
+     2. a derivation of every modular-weight, Kloosterman-weight, or contour-weight factor from the orthog-
+        onal re-articulation law;
+     3. a complete derivation of the whole Ramanujan program from the primitive i-origin paper.
+
+9    Conclusion
+This paper proves an exact operator-level bridge for the remainder update, balanced branch, finite-floor
+stopping law, and truncation-as-orthogonal-transfer law.
+Ramanujan-side mediant remainder refinement and VDM-side orthogonal re-articulation are the same update
+law after the exact denominator-pair change of variables. Under the balanced scale-gap-separated branch,
+the unresolved width is exactly
+                                                      1
+                                           rn =            ,
+                                                 Fn+1 Fn+2
+so the stopping depth below a finite floor is logarithmic. Under the phase map θ 7→ e2πiθ , truncation is lawful
+orthogonal transfer and exact child-sector replacement on the unit circle. That is the proved operator-level
+infinity-resolution bridge.
+
+
+                                                        6
+                                   Farey Recursion and Orthogonality                Void Dynamics Model
+
+
+
+References
+ [1] G. H. Hardy and S. Ramanujan, Asymptotic Formulae in Combinatory Analysis, Proceedings of the
+     London Mathematical Society 17 (1918), 75–115.
+ [2] L. R. Ford, Fractions, American Mathematical Monthly 45 (1938), 586–601.
+ [3] H. Rademacher, On the Partition Function p(n), Proceedings of the London Mathematical Society 43
+     (1937), 241–254.
+ [4] Lietz, J. (2026). Universal Orthogonality Invariant: The Generative Nature of i.
+     Zenodo. https://doi.org/10.5281/zenodo.19210923
+ [5] Lietz, J. (2026). The Lietz Infinity Resolution Conjecture: Logarithmic Hierarchical Interfaces as the
+     Tachyonic Pulled-Front Re-Expression of the Primitive Invariant (v1.1).
+     Zenodo. https://doi.org/10.5281/zenodo.19155667
+ [6] Lietz, J. (2026). Branch Relative Origin Resolution (v0.1).
+     Zenodo. https://doi.org/10.5281/zenodo.19010844
+ [7] Lietz, J. (2026). CF03: Complete Formalism — A8 Scaling Theorem (Hierarchical Tachyonic Interfaces).
+     Zenodo. https://doi.org/10.5281/zenodo.18675407
+ [8] Lietz, J. (2026). CF13: Pi, Transcendence, Chirality, and the Nielsen-Ninomiya Theorem.
+     Zenodo. https://doi.org/10.5281/zenodo.19163245
+ [9] Lietz, J. (2026). CF14: Principle of Stationary Action as Temporal Effective Invariant.
+     Zenodo. https://doi.org/10.5281/zenodo.19163200
+[10] Lietz, J. (2026). CF15: Noether’s Theorem as Invariant Articulation.
+     Zenodo. https://doi.org/10.5281/zenodo.19163157
+[11] Lietz, J. (2026). CF18: Scale Re-Articulation, Effective Action, Hidden-Return Corrections, Running
+     Couplings, Renormalization, and Corrected Symmetry Structure.
+     Zenodo. https://doi.org/10.5281/zenodo.19163003
+
+
+
+
+                                                    7
+

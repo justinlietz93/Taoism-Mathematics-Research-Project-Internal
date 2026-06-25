@@ -59,7 +59,7 @@ real, physical, retained state that the buckle's face does not show. This is not
 double cover here is the same two-to-one structure that makes the belt trick work and that
 distinguishes a 360-degree turn from rest in the physics of spin.
 
-Note one detail worth keeping for the foundational section: the state being lifted in these witnesses
+Note one detail that ties back to the opening section's spine: the state being lifted in these witnesses
 carries the canonical anchor, `q = (55, 89)`, `c = (..., 4895)`. The monodromy register is stacked on
 top of the same Farey anchor the rest of the essay tracks, so this is not a separate gadget. It is the
 same carried object gaining a winding coordinate.

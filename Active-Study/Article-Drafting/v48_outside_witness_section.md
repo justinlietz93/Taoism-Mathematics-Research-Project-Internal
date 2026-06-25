@@ -11,7 +11,9 @@ row at a time. Merge it early, ahead of the internal and reflexive sections.
 
 ## The rule the whole essay runs on
 
-State it once, here, so the rest of the piece can refer back rather than repeat:
+The opening section ended by posing the gate as a question, the one a retained-state framework lets you
+ask of any other system. State it now as the working rule, in the form the rest of the piece refers
+back to:
 
 > A readout is a terminal projection. It is the real carried state only if it retains enough to
 > determine the next admissible transition. Otherwise it is a lossy shadow, and continuing from the
@@ -156,6 +158,7 @@ unrelated code hit the same wall on its own. State exactly that and the claim ho
 you hand a critic the easy dismissal.
 
 *Hands off to.* With the rule stated, the table laid out, and the most accessible witness in hand,
-the essay can move to the internal sections that sharpen the rule toward its extreme form, beginning
-with the non-commutative core where the same polarity stops being a simple self-inverse and starts
-keeping a hidden score.
+the essay turns to its second external witness and the one closest to the heart of the inquiry, the
+ancient Chinese corpus that started it. Having proved the rule real on an unrelated modern code, the
+essay can now show it instantiated in the I Ching without the reader having to take it on faith,
+before turning inward to the framework's own core.

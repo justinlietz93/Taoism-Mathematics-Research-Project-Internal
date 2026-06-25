@@ -7,8 +7,8 @@ core. A fair reader will ask the obvious question at this point: is this rule on
 outward, a one-way instrument the project uses to judge other systems while sparing itself? v50 is
 the answer. Here the gate is turned on Phase Calculus's own foundational text, and it cuts. This
 section also assembles the internal spine that earlier sections leaned on without deriving, so it
-doubles as the backbone the rest of the piece rests against. It should be merged after the corpus
-sections and adjacent to the foundational synthesis.
+doubles as the backbone the rest of the piece rests against. It sits after the internal-sharpening
+sections on hidden order and winding, and before the executable-replay section.
 
 This section assumes the shared rule and the running cross-corpus table introduced earlier. It does
 not restate them in full. It adds the internal, reflexive row and the provenance of the gate itself.
@@ -127,8 +127,8 @@ that floor rather than discarding anything, and the true returning state lives i
 lifted object rather than in the visible readout. Every corpus section in the essay is a sighting of
 some stretch of this spine in foreign material. This section is where the spine itself is named.
 
-The placement of `CF000` at the head also closes a loop with the foundational reading elsewhere in
-the piece. The same paper that derives polarity as the forced content of an admissible origin is the
+The placement of `CF000` at the head also closes a loop with the opening section. The same paper that
+derives polarity as the forced content of an admissible origin is the
 paper that supplies the first link of this mechanism chain. Origin and mechanism are the same
 document read at two depths.
 
