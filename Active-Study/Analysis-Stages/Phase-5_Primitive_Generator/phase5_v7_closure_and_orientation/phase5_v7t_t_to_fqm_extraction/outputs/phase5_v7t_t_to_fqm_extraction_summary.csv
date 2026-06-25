@@ -1,0 +1,11 @@
+case,axis_count,axes_json,D_tuple_json,C_matrix_json,contact_Z,brown_mod8_proxy,jordan_symbol_policy_key,canonical_gauge_key_sha256,symmetric_pass,radical_dim,nondegenerate_pass,status
+axis_BQ_latch,2,"[0, 1]","[8, 8]","[[0, 6], [6, 0]]",12,6,"A(2^3,1) ⊕ A(2^3,1) ⊕ V(2^3)[0,1;c=6]",b3429a5d94654182f40a,True,2,False,PASS_WITH_RADICAL_FLAG
+axis_QB_latch,2,"[0, 1]","[8, 8]","[[0, 6], [6, 0]]",12,6,"A(2^3,1) ⊕ A(2^3,1) ⊕ V(2^3)[0,1;c=6]",b3429a5d94654182f40a,True,2,False,PASS_WITH_RADICAL_FLAG
+birth_then_cross_overlap_A,2,"[0, 1]","[8, 8]","[[0, 3], [3, 0]]",1,3,"A(2^3,1) ⊕ A(2^3,1) ⊕ U(2^3)[0,1;c=3]",41eb8373c790593c9583,True,0,True,PASS
+birth_then_cross_overlap_B,2,"[0, 1]","[8, 8]","[[0, 3], [3, 0]]",1,3,"A(2^3,1) ⊕ A(2^3,1) ⊕ U(2^3)[0,1;c=3]",41eb8373c790593c9583,True,0,True,PASS
+contact_two_latches,3,"[0, 1, 2]","[8, 8, 8]","[[0, 6, 0], [6, 0, 2], [0, 2, 0]]",60,4,"A(2^3,1) ⊕ A(2^3,1) ⊕ A(2^3,1) ⊕ V(2^3)[0,1;c=6] ⊕ V(2^3)[1,2;c=2]",488766341e82a6eead5a,True,5,False,PASS_WITH_RADICAL_FLAG
+edge_birth_causality,2,"[0, 1]","[8, 8]","[[0, 1], [1, 0]]",4,1,"A(2^3,1) ⊕ A(2^3,1) ⊕ U(2^3)[0,1;c=1]",d0be0df521c404582989,True,0,True,PASS
+overlap_after_phase_shift,2,"[0, 1]","[8, 8]","[[0, 3], [3, 0]]",1,3,"A(2^3,1) ⊕ A(2^3,1) ⊕ U(2^3)[0,1;c=3]",41eb8373c790593c9583,True,0,True,PASS
+readout_terminal,2,"[0, 1]","[8, 8]","[[0, 6], [6, 0]]",16,6,"A(2^3,1) ⊕ A(2^3,1) ⊕ V(2^3)[0,1;c=6]",b3429a5d94654182f40a,True,2,False,PASS_WITH_RADICAL_FLAG
+three_axis_alt_chain,3,"[0, 1, 2]","[8, 8, 8]","[[0, 0, 3], [0, 0, 5], [3, 5, 0]]",60,4,"A(2^3,1) ⊕ A(2^3,1) ⊕ A(2^3,1) ⊕ U(2^3)[0,2;c=3] ⊕ U(2^3)[1,2;c=5]",210bda5d6a847b95a34a,True,3,False,PASS_WITH_RADICAL_FLAG
+three_axis_chain,3,"[0, 1, 2]","[8, 8, 8]","[[0, 0, 3], [0, 0, 5], [3, 5, 0]]",60,4,"A(2^3,1) ⊕ A(2^3,1) ⊕ A(2^3,1) ⊕ U(2^3)[0,2;c=3] ⊕ U(2^3)[1,2;c=5]",210bda5d6a847b95a34a,True,3,False,PASS_WITH_RADICAL_FLAG

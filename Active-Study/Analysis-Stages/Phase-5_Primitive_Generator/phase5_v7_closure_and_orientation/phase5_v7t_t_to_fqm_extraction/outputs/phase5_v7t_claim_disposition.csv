@@ -1,0 +1,6 @@
+claim_id,claim,status
+C1,Native T records can be extracted into finite module presentations,SUPPORTED_ON_TESTED_CASES
+C2,Extractor applies 2-primary Jordan-symbol policy before invariant comparison,SUPPORTED
+C3,Raw C is only coordinate presentation after T-to-FQM extraction,SUPPORTED
+C4,Gauge/basis permutations preserve canonical class keys,SUPPORTED_ON_TESTED_PERMUTATIONS
+C5,This closes full arbitrary QBL history classification,NOT_CLAIMED

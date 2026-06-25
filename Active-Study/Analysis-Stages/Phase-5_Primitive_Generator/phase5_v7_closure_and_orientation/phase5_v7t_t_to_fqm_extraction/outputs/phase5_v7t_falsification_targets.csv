@@ -1,0 +1,6 @@
+target_id,falsification_target
+FT1,Find two gauge-equivalent T-derived presentations with different canonical keys.
+FT2,Find a legal support-derived rewrite that changes the extracted FQM class.
+FT3,Find a radical-bearing form accepted as nondegenerate.
+FT4,Find an even 2-primary form accepted without Jordan-symbol policy.
+FT5,Bind full Orthad compiler records and find mismatch against bounded fixture extractor.

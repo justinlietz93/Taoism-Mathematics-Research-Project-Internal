@@ -1,0 +1,16 @@
+{
+  "status": "T_TO_FQM_EXTRACTION_SUPPORTED_ON_NATIVE_TRANSITION_RECORD_FIXTURE",
+  "global_pass": true,
+  "phase5_closed": false,
+  "main_correction": "T-derived data is now extracted into FQM presentations before gauge/isometry comparison.",
+  "hard_counts": {
+    "transition_cases": 10,
+    "transition_records_processed": 24,
+    "module_presentations": 10,
+    "property_gates": "40 / 40",
+    "gauge_checks": "10 / 10",
+    "negative_controls": "7 / 7",
+    "unique_fqm_keys": 5,
+    "nondegenerate_cases": 4
+  }
+}

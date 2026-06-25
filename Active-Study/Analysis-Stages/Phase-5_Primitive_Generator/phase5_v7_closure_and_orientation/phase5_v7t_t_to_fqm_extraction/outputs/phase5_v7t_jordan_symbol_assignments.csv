@@ -1,0 +1,11 @@
+case,D_tuple_json,symbol,brown_mod8_proxy,two_primary_policy,key_sha256_prefix
+axis_BQ_latch,"[8, 8]","A(2^3,1) ⊕ A(2^3,1) ⊕ V(2^3)[0,1;c=6]",6,"A/U/V block tags, sorted direct-sum symbol, radical rejection before invariant claim",b3429a5d94654182f40a
+axis_QB_latch,"[8, 8]","A(2^3,1) ⊕ A(2^3,1) ⊕ V(2^3)[0,1;c=6]",6,"A/U/V block tags, sorted direct-sum symbol, radical rejection before invariant claim",b3429a5d94654182f40a
+birth_then_cross_overlap_A,"[8, 8]","A(2^3,1) ⊕ A(2^3,1) ⊕ U(2^3)[0,1;c=3]",3,"A/U/V block tags, sorted direct-sum symbol, radical rejection before invariant claim",41eb8373c790593c9583
+birth_then_cross_overlap_B,"[8, 8]","A(2^3,1) ⊕ A(2^3,1) ⊕ U(2^3)[0,1;c=3]",3,"A/U/V block tags, sorted direct-sum symbol, radical rejection before invariant claim",41eb8373c790593c9583
+contact_two_latches,"[8, 8, 8]","A(2^3,1) ⊕ A(2^3,1) ⊕ A(2^3,1) ⊕ V(2^3)[0,1;c=6] ⊕ V(2^3)[1,2;c=2]",4,"A/U/V block tags, sorted direct-sum symbol, radical rejection before invariant claim",488766341e82a6eead5a
+edge_birth_causality,"[8, 8]","A(2^3,1) ⊕ A(2^3,1) ⊕ U(2^3)[0,1;c=1]",1,"A/U/V block tags, sorted direct-sum symbol, radical rejection before invariant claim",d0be0df521c404582989
+overlap_after_phase_shift,"[8, 8]","A(2^3,1) ⊕ A(2^3,1) ⊕ U(2^3)[0,1;c=3]",3,"A/U/V block tags, sorted direct-sum symbol, radical rejection before invariant claim",41eb8373c790593c9583
+readout_terminal,"[8, 8]","A(2^3,1) ⊕ A(2^3,1) ⊕ V(2^3)[0,1;c=6]",6,"A/U/V block tags, sorted direct-sum symbol, radical rejection before invariant claim",b3429a5d94654182f40a
+three_axis_alt_chain,"[8, 8, 8]","A(2^3,1) ⊕ A(2^3,1) ⊕ A(2^3,1) ⊕ U(2^3)[0,2;c=3] ⊕ U(2^3)[1,2;c=5]",4,"A/U/V block tags, sorted direct-sum symbol, radical rejection before invariant claim",210bda5d6a847b95a34a
+three_axis_chain,"[8, 8, 8]","A(2^3,1) ⊕ A(2^3,1) ⊕ A(2^3,1) ⊕ U(2^3)[0,2;c=3] ⊕ U(2^3)[1,2;c=5]",4,"A/U/V block tags, sorted direct-sum symbol, radical rejection before invariant claim",210bda5d6a847b95a34a

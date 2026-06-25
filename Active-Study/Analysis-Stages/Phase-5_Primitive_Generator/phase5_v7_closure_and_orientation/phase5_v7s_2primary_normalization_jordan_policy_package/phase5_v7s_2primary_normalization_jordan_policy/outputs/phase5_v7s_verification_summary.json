@@ -1,0 +1,51 @@
+{
+  "phase": "Phase 5 v7s",
+  "title": "2-Primary Normalization and Jordan Symbol Policy",
+  "status": "TWO_PRIMARY_NORMALIZATION_AND_JORDAN_SYMBOL_POLICY_SUPPORTED_ON_CYCLIC_PLUS_UV_BLOCK_SWEEP",
+  "global_pass": true,
+  "phase5_closed": false,
+  "threshold": 1e-09,
+  "block_rows": 138,
+  "cyclic_odd_block_rows": 126,
+  "even_rank2_block_rows": 12,
+  "generator_orbit_checks": 126,
+  "generator_orbit_passed": 126,
+  "direct_sum_symbol_rows": 1076,
+  "negative_controls": 21,
+  "negative_controls_passed": 21,
+  "unique_normal_keys": 34,
+  "unique_direct_sum_symbols": 1076,
+  "checks": [
+    {
+      "name": "block_nondegeneracy_small",
+      "passed": 138,
+      "total": 138,
+      "pass": true
+    },
+    {
+      "name": "A_generator_orbit_preservation",
+      "passed": 126,
+      "total": 126,
+      "pass": true
+    },
+    {
+      "name": "negative_controls",
+      "passed": 21,
+      "total": 21,
+      "pass": true
+    },
+    {
+      "name": "U_V_separation",
+      "passed": 6,
+      "total": 6,
+      "pass": true
+    },
+    {
+      "name": "raw_coefficient_demoted",
+      "passed": 3,
+      "total": 3,
+      "pass": true
+    }
+  ],
+  "main_verdict": "The 2-primary sector requires explicit Jordan-symbol normalization. Raw tensors/matrices remain coordinate presentations; comparison must proceed through 2-primary block symbols, Brown invariant, radical gate, and gauge-stable direct-sum keys before Orthad FQM comparison."
+}

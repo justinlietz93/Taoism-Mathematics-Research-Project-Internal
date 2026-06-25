@@ -1,0 +1,14 @@
+{
+  "phase": "Phase 5 v7s",
+  "status": "TWO_PRIMARY_NORMALIZATION_AND_JORDAN_SYMBOL_POLICY_SUPPORTED_ON_CYCLIC_PLUS_UV_BLOCK_SWEEP",
+  "global_pass": true,
+  "phase5_closed": false,
+  "headline": "2-primary normalization policy is now explicit and test-backed on cyclic plus U/V block sweep.",
+  "counts": {
+    "block_rows": 138,
+    "generator_orbit_checks": 126,
+    "direct_sum_symbol_rows": 1076,
+    "negative_controls": 21,
+    "unique_normal_keys": 34
+  }
+}
