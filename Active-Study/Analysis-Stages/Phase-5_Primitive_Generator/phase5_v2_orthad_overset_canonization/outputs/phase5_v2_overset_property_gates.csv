@@ -1,0 +1,9 @@
+N,gate,residual,pass
+8,K_minus_unitarity,6.95137269211454e-16,True
+8,K_minus_square_reversal,1.2051859172402203e-15,True
+8,K_minus_fourth_identity,2.4103718344804414e-15,True
+8,G_quadratic_refinement_polarizes_to_reverse_pairing_phase,0.0,True
+12,K_minus_unitarity,2.193788125145467e-15,True
+12,K_minus_square_reversal,4.5777520714700915e-15,True
+12,K_minus_fourth_identity,5.316846024379882e-15,True
+12,G_quadratic_refinement_polarizes_to_reverse_pairing_phase,1.4177095929570765e-14,True

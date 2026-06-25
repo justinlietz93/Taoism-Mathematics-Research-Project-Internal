@@ -1,0 +1,21 @@
+{
+  "phase": "Phase 5 v1",
+  "branch": "Orthad Overset Dual-Lens Transfer Test",
+  "status": "PARTIAL_GENERATION_FOURIER_TRANSFER_GENERATED_GAUSS_NOT_GENERATED",
+  "phase5_v1_closed": false,
+  "result": "Native overset dual-lens chart transfer generates the finite Fourier/Weil_F generator for N=8 and N=12 exactly after sealing; it preserves same-chart diagonal trace; it does not generate the Weil_G quadratic diagonal.",
+  "native_transfer_law": "Let sigma_N be the orientation successor induced by W_r -> W_{r+1}. The plus chart is point orientation basis e_r. The minus chart is the normalized eigen-cochain basis chi_s of sigma_N. Transfer coefficient K_N(r,s)=chi_s(e_r).",
+  "K_formula_native": "K_N(r,s)=N^(-1/2)*exp(-2*pi*i*r*s/N)",
+  "generated": [
+    "Weil_F for N=8",
+    "Weil_F for N=12"
+  ],
+  "not_generated_by_this_branch": [
+    "Weil_G quadratic Gauss diagonal"
+  ],
+  "collapse_consistency": "PASS",
+  "sealed_before_comparison": true,
+  "hand_admitted_dense_block": false,
+  "falsifier_status": "NOT_TRIGGERED_FOR_FOURIER_TRANSFER; STILL_OPEN_FOR_GAUSS_DIAGONAL",
+  "phase6_fork": "continue inside Phase 5 v1 until Gauss diagonal is derived or boundary is located"
+}

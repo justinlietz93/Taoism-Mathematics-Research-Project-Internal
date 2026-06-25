@@ -1,0 +1,20 @@
+{
+  "sealed_at_utc": "2026-06-25T09:49:24.488790+00:00",
+  "discipline": "Native QBL cross-read tables written and hashed before Weil targets are constructed.",
+  "weill_targets_constructed_before_seal": false,
+  "hand_admitted_dense_block": false,
+  "candidate_rules": [
+    "commutator_defect: Q/B coordinate commutator defect over prefix histories",
+    "shared_prefix_count: min(r,s) BQ-block overlap",
+    "shared_prefix_symbol_count: symbol-level LCP length between W_r=(BQ)^r and W_s=(BQ)^s",
+    "separation_defect: |r-s|",
+    "latch_overlap_count: shared completed six-orientation L-boundary count",
+    "dual_prefix_count: min(r,-s mod N) unary-dual overlap"
+  ],
+  "hashes": {
+    "N8_native_table_sha256": "310b42c95e007b1e99427ea4d5fa56fc711d920013f38cd625fb8f613e2f5e82",
+    "N8_width_prefix_sha256": "caf8f6f3f3493f72e501e5cec8539569ec79f29c00d42047f63de6443b75dc6a",
+    "N12_native_table_sha256": "a88fb45c42d290e684f819c4dd09b395e32428fe69bb15db587f34f015a19a45",
+    "N12_width_prefix_sha256": "adf25298e0b07b2a58932e78e20f304f22fb6e858d9775b1de194460747ffa80"
+  }
+}

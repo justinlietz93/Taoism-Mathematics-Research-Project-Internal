@@ -1,0 +1,13 @@
+N,candidate,phase_residual_to_Weil_F_max,phase_residual_to_Weil_F_rms,diag_residual_to_Weil_G_max,diag_residual_to_Weil_G_rms,bilinear_failures,bilinear_total_checks,bilinear_pass,generated_Weil_F,generated_Weil_G
+8,commutator_defect,2.0,1.3228756555322954,1.961570560806461,1.224744871391589,0,1024,True,False,False
+8,shared_prefix_count,2.0,1.2890351633495813,1.8477590650225744,1.2247448713915892,474,1024,False,False,False
+8,shared_prefix_symbol_count,2.0,1.2396014086599296,2.0,1.1604820194909575,434,1024,False,False,False
+8,separation_defect,2.0,1.24822204024701,1.961570560806461,1.224744871391589,828,1024,False,False,False
+8,latch_overlap_count,2.0,1.299038105676658,1.961570560806461,1.176987266301785,124,1024,False,False,False
+8,dual_prefix_count,2.0,1.1568873530505546,1.8477590650225735,1.118033988749895,474,1024,False,False,False
+12,commutator_defect,2.0,1.35400640077266,2.0,1.2616464280994646,0,3456,True,False,False
+12,shared_prefix_count,2.0,1.3361215554360555,2.0,1.2909944487358054,1900,3456,False,False,False
+12,shared_prefix_symbol_count,2.0,1.3112962605826204,1.982889722747621,1.2247448713915894,1804,3456,False,False,False
+12,separation_defect,2.0,1.2777754990571242,2.0,1.2616464280994646,2990,3456,False,False,False
+12,latch_overlap_count,2.0,1.3390402668586168,1.9828897227476208,1.2410466654466492,972,3456,False,False,False
+12,dual_prefix_count,2.0,1.2442316996574507,2.0,1.173878840456652,1900,3456,False,False,False

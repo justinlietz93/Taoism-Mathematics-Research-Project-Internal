@@ -1,0 +1,6 @@
+banned_experiment,status
+bare primitive vs finished Weil generator,FORBIDDEN_CONTROL_ONLY
+hand-admitted dense orientation block,FORBIDDEN
+macro S/T symbol collision,FORBIDDEN
+comparison before sealed native read table,FORBIDDEN
+pending-status board as a result,FORBIDDEN

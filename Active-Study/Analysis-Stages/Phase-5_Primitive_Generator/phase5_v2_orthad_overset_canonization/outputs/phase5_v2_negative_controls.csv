@@ -1,0 +1,7 @@
+N,control,expected_failure,residual_vs_Weil_F,pass_as_negative_control,residual_vs_Weil_G
+8,single_lens_no_cross_chart,no off diagonal transfer,0.3535533905932738,True,
+8,remove_self_twist,no Gauss diagonal,,True,1.961570560806461
+8,wrong_transfer_sign,inverse transfer except self-symmetric entries,0.7071067811865475,True,
+12,single_lens_no_cross_chart,no off diagonal transfer,0.288675134594813,True,
+12,remove_self_twist,no Gauss diagonal,,True,2.0
+12,wrong_transfer_sign,inverse transfer except self-symmetric entries,0.5773502691896258,True,

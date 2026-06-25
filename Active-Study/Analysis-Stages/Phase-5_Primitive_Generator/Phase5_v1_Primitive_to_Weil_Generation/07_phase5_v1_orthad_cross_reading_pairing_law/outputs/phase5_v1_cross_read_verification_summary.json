@@ -1,0 +1,25 @@
+{
+  "phase": "Phase 5 v1",
+  "branch": "Orthad Cross-Reading Pairing Law Attempt",
+  "status": "BOUNDARY_NATIVE_CROSS_READ_FOUND_NOT_WEIL",
+  "phase5_v1_closed": false,
+  "old_failures_preserved": true,
+  "canon_repairs_preserved": true,
+  "sealed_before_comparison": true,
+  "hand_admitted_dense_block": false,
+  "collapse_consistency": "PASS_EXTENSION_PRESERVES_EXISTING_DIAGONAL_TRACE",
+  "native_cross_read_discovered": "shared_prefix_count and related overlap laws produce off-diagonal nonzero tables from QBL history",
+  "generated_weil_F": false,
+  "generated_weil_G": false,
+  "exact_boundary": "current native QBL history pairings produce overlap/separation/commutator laws, not the bilinear rs law required by the Fourier kernel and not the quadratic r^2 diagonal required by the Gauss generator",
+  "best_native_pairing": "shared_prefix_count = min(r,s)",
+  "best_native_pairing_status": "NATIVE_ORTHAD_CROSS_READ_DISCOVERY_NOT_MODULAR_GENERATOR",
+  "missing_object": "a native rule that multiplies independent orientation histories, producing r*s, rather than only comparing common ancestry or separation",
+  "sealed_hashes": {
+    "N8_native_table_sha256": "310b42c95e007b1e99427ea4d5fa56fc711d920013f38cd625fb8f613e2f5e82",
+    "N8_width_prefix_sha256": "caf8f6f3f3493f72e501e5cec8539569ec79f29c00d42047f63de6443b75dc6a",
+    "N12_native_table_sha256": "a88fb45c42d290e684f819c4dd09b395e32428fe69bb15db587f34f015a19a45",
+    "N12_width_prefix_sha256": "adf25298e0b07b2a58932e78e20f304f22fb6e858d9775b1de194460747ffa80",
+    "seal_meta_sha256": "8baf29553a2b805c962f4d1330d71b4a06aceefba6fdc9e3f131c3f96647a4a7"
+  }
+}

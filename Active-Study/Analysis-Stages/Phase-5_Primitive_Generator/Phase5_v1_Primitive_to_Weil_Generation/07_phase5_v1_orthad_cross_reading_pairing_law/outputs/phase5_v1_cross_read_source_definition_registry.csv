@@ -1,0 +1,5 @@
+id,definition,status
+QBL_PRIMITIVES,"Q advances phase by pi/2; B maps (u,v)->sort(v,u+v) and recomputes germ width; L host-lifts, carries q, advances phase by pi/2.",USED_FIXED
+ORTHAD_LENS,Lens compiled deterministically from accrued QBL word; faithful working form diagonal; exact algebra canon-pending.,EXTENDED_BY_CROSS_READ_ATTEMPT_WITH_DIAGONAL_PRESERVED
+MACRO_COLLISION,"R=Q∘B, S=Q, T=L is suspended as degenerate macro grammar in Phase 5 v1 track.",SUSPENDED
+SHADOW_SPLIT,Scalar mock coefficient external; retained orientation-residue vector and coupling carriable if derived.,LOCKED

@@ -1,0 +1,7 @@
+orthad_property,native_identity,mock_shadow_dictionary_entry,research_note
+Orthad cross-chart unitarity,K_N K_N^* = I,shadow multiplier is unitary on finite carrier,local finite piece stable
+Orthad reversal,K_N^2 = reversal,S^2 acts as orientation reversal / duality,finite carrier has dual-pair symmetry
+Orthad fourth power,K_N^4 = I,repeated chart transfer closes,no drift under repeated dual transfer
+Quadratic self-twist,G_N(r)=exp(pi i r^2/N),Gauss phase/multiplier diagonal,shadow theta component retains quadratic refinement
+Polarization,G(r+s)/(G(r)G(s))=exp(2pi i rs/N),diagonal twist and cross-transfer are one object,Fourier pairing is polarization of self-twist
+Odd N boundary,q(r+N)!=q(r),requires even residue-orientation carrier,mock-shadow target must specify discriminant module parity

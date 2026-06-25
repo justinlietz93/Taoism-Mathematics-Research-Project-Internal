@@ -1,0 +1,74 @@
+[
+  {
+    "candidate": "commutator_defect",
+    "native_definition": "Read the Q/B coordinate commutator over prefix histories W_r,W_s.",
+    "exact_pairing_law": "0",
+    "N8_F_max": 2.0,
+    "N12_F_max": 2.0,
+    "N8_G_max": 1.961570560806461,
+    "N12_G_max": 2.0,
+    "N8_bilinear_pass": true,
+    "N12_bilinear_pass": true,
+    "verdict": "DIAGONAL_ONLY_COMMUTATOR_TRIVIAL"
+  },
+  {
+    "candidate": "shared_prefix_count",
+    "native_definition": "Number of shared BQ blocks in W_r=(BQ)^r and W_s=(BQ)^s.",
+    "exact_pairing_law": "min(r,s)",
+    "N8_F_max": 2.0,
+    "N12_F_max": 2.0,
+    "N8_G_max": 1.8477590650225744,
+    "N12_G_max": 2.0,
+    "N8_bilinear_pass": false,
+    "N12_bilinear_pass": false,
+    "verdict": "BOUNDARY_DIFFERENT_PAIRING"
+  },
+  {
+    "candidate": "shared_prefix_symbol_count",
+    "native_definition": "Symbol-level common-prefix length of the two QBL words.",
+    "exact_pairing_law": "2 min(r,s)",
+    "N8_F_max": 2.0,
+    "N12_F_max": 2.0,
+    "N8_G_max": 2.0,
+    "N12_G_max": 1.982889722747621,
+    "N8_bilinear_pass": false,
+    "N12_bilinear_pass": false,
+    "verdict": "BOUNDARY_DIFFERENT_PAIRING"
+  },
+  {
+    "candidate": "separation_defect",
+    "native_definition": "Absolute separation between orientation indices.",
+    "exact_pairing_law": "|r-s|",
+    "N8_F_max": 2.0,
+    "N12_F_max": 2.0,
+    "N8_G_max": 1.961570560806461,
+    "N12_G_max": 2.0,
+    "N8_bilinear_pass": false,
+    "N12_bilinear_pass": false,
+    "verdict": "BOUNDARY_DIFFERENT_PAIRING"
+  },
+  {
+    "candidate": "latch_overlap_count",
+    "native_definition": "Shared number of completed six-orientation L-boundaries.",
+    "exact_pairing_law": "min(floor(r/6), floor(s/6))",
+    "N8_F_max": 2.0,
+    "N12_F_max": 2.0,
+    "N8_G_max": 1.961570560806461,
+    "N12_G_max": 1.9828897227476208,
+    "N8_bilinear_pass": false,
+    "N12_bilinear_pass": false,
+    "verdict": "BOUNDARY_DIFFERENT_PAIRING"
+  },
+  {
+    "candidate": "dual_prefix_count",
+    "native_definition": "Unary-dual overlap min(r,-s mod N).",
+    "exact_pairing_law": "min(r, -s mod N)",
+    "N8_F_max": 2.0,
+    "N12_F_max": 2.0,
+    "N8_G_max": 1.8477590650225735,
+    "N12_G_max": 2.0,
+    "N8_bilinear_pass": false,
+    "N12_bilinear_pass": false,
+    "verdict": "BOUNDARY_DIFFERENT_PAIRING"
+  }
+]

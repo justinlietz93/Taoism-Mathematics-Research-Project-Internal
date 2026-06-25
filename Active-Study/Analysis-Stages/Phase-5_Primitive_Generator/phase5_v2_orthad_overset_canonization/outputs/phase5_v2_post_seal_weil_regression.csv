@@ -1,0 +1,5 @@
+N,target,native_object,max_residual,pass
+8,Weil_F_N finite Fourier transfer,OrthadCrossTransferMinus,0.0,True
+8,Weil_G_N quadratic Gauss diagonal,OrthadQuadraticSelfTwist,0.0,True
+12,Weil_F_N finite Fourier transfer,OrthadCrossTransferMinus,0.0,True
+12,Weil_G_N quadratic Gauss diagonal,OrthadQuadraticSelfTwist,0.0,True

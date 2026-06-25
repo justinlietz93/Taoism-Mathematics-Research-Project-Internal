@@ -1,0 +1,13 @@
+{
+  "sealed_at_utc": "2026-06-25T09:56:24.750774+00:00",
+  "discipline": "native_transfer_tables_written_before_external_weil_target_comparison",
+  "native_derivation": "dual_chart_transfer_is_eigen-cochain_change_of_basis_for_cyclic_orientation_successor_sigma_N_derived_from_QBL_word_index_progression_W_r_to_W_{r+1}",
+  "forbidden": [
+    "hand_admitted_dense_block",
+    "direct_fourier_import_as_rule",
+    "macro_S_T_symbol_collision",
+    "target_visible_before_freeze"
+  ],
+  "N8_sealed_transfer_sha256": "5d4f0f9b8b3f5e532f5291a1cdade60ec499ddebe7a6042ab250b4d4cc5ba836",
+  "N12_sealed_transfer_sha256": "9c36a7cf1c50eab737bcee95905e9b2e43306e22c846ed06814f9340c5b60121"
+}

@@ -1,0 +1,10 @@
+{
+  "STATUS": "ORTHAD_OVERSET_CANONIZED_FOR_FINITE_CYCLIC_RESIDUE_CARRIERS",
+  "GLOBAL_PASS": true,
+  "CANONICAL_BEHAVIOR": "Orthad overset dual-lens readout: same-chart self-read preserves diagonal trace; cross-chart transfer generates finite Fourier transfer; reverse-transfer quadratic self-twist generates Gauss diagonal.",
+  "TESTED_N": [
+    8,
+    12
+  ],
+  "NEXT": "Phase 5 v3: General N Stability Test"
+}

@@ -1,0 +1,7 @@
+{
+  "STATUS": "EVEN_CYCLIC_CARRIER_STABILITY_SUPPORTED",
+  "PHASE5_CLOSED": false,
+  "CORE_CLAIM": "For even finite cyclic residue carriers A_m=Z/(2m)Z, the overset Orthad cross-chart transfer and quadratic self-twist satisfy the finite Weil generator gates for all swept N.",
+  "BOUNDARY": "Odd N fails the q(r)=r^2/(2N) well-definedness/polarization gate and is classified as an odd-carrier boundary for this self-twist law.",
+  "MAX_RESIDUAL": 9.614661196166605e-14
+}

@@ -1,0 +1,4 @@
+gate,expected,canonical_value,residual,pass
+L1_same_chart_trace,i/4895,i/4895,0,true
+L2_same_chart_trace,-i/62423800998,-i/62423800998,0,true
+corrected_product,62423800998,62423800998,0,true

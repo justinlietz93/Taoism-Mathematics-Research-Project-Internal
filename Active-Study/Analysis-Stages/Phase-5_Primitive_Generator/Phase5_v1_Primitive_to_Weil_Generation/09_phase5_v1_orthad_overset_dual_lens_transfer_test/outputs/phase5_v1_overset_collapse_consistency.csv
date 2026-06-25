@@ -1,0 +1,5 @@
+gate,expected,derived,abs_error,status
+L1_same_chart_self_read,i/4895,i/4895,0,PASS
+L2_same_chart_self_read,-i/62423800998,-i/62423800998,0,PASS
+source_decimal_correction,196418*317811=62423800998,62423800998,0,PASS
+offdiag_not_in_same_chart,same-chart remains diagonal,offdiag lives only in transfer Omega_plus_to_Omega_minus,0,PASS

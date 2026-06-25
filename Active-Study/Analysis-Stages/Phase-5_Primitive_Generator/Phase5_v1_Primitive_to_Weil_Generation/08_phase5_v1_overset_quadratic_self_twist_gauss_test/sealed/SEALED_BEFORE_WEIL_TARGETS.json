@@ -1,0 +1,39 @@
+{
+  "phase": "Phase 5 v1",
+  "branch": "Orthad Overset Quadratic Self-Twist Gauss Test",
+  "created_utc": "2026-06-25T10:02:04.554502+00:00",
+  "sealed_before_weil_targets": true,
+  "sealed_native_objects": [
+    {
+      "N": 8,
+      "sealed_file": "sealed_native_quadratic_self_twist_N8.csv",
+      "sha256": "d8cad1f8c7ff15e8f227335f1b2891ce2c47b978fc3328d69269352ef5c5d141",
+      "created_before_targets": true
+    },
+    {
+      "N": 8,
+      "sealed_file": "sealed_native_reverse_pairing_and_polarization_N8.csv",
+      "sha256": "d22011b5f8c19f51f2038227d19c2cf4cdc7440c468931b86b3dc0f2e2f4548a",
+      "created_before_targets": true
+    },
+    {
+      "N": 12,
+      "sealed_file": "sealed_native_quadratic_self_twist_N12.csv",
+      "sha256": "e9ed1f8f2cc19a3f87e7fa811d42ae8e9c5256432ee9d58fa4b27eaf5c7d5f80",
+      "created_before_targets": true
+    },
+    {
+      "N": 12,
+      "sealed_file": "sealed_native_reverse_pairing_and_polarization_N12.csv",
+      "sha256": "bd56f4ed6e124dbfcdb44b8bf00acb9f64e668e195fc7e5d0bfcaaffaf3f52f5",
+      "created_before_targets": true
+    }
+  ],
+  "native_derivation": {
+    "overset_transfer_from_previous_branch": "Fourier transfer generated as chart transfer, with both transfer directions native.",
+    "reverse_bilinear_pairing": "B_plus(r,s)=r*s/N from reverse dual-lens transfer direction.",
+    "quadratic_self_twist": "q(r)=1/2*B_plus(r,r)=r^2/(2N).",
+    "self_channel": "G_native(r)=exp(2*pi*i*q(r)).",
+    "no_weil_target_visible": true
+  }
+}

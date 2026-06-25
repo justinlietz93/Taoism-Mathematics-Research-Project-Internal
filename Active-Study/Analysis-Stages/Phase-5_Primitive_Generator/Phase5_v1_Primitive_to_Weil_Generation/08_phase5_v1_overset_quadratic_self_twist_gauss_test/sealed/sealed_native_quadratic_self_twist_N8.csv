@@ -1,0 +1,9 @@
+N,r,reverse_transfer_self_pair_numerator_mod_N,quadratic_refinement_numerator_mod_2N,quadratic_refinement_value_over_2N,native_self_twist,derivation
+8,0,0,0,0/16,1+0i,"q_native(r)=one_half_B_reverse(r,r); G_native(r)=exp(2*pi*i*q_native(r))"
+8,1,1,1,1/16,0.92387953251128674+0.38268343236508978i,"q_native(r)=one_half_B_reverse(r,r); G_native(r)=exp(2*pi*i*q_native(r))"
+8,2,4,4,4/16,6.123233995736766e-17+1i,"q_native(r)=one_half_B_reverse(r,r); G_native(r)=exp(2*pi*i*q_native(r))"
+8,3,1,9,9/16,-0.92387953251128685-0.38268343236508967i,"q_native(r)=one_half_B_reverse(r,r); G_native(r)=exp(2*pi*i*q_native(r))"
+8,4,0,0,0/16,1-2.4492935982947064e-16i,"q_native(r)=one_half_B_reverse(r,r); G_native(r)=exp(2*pi*i*q_native(r))"
+8,5,1,9,9/16,-0.92387953251128674-0.38268343236508984i,"q_native(r)=one_half_B_reverse(r,r); G_native(r)=exp(2*pi*i*q_native(r))"
+8,6,4,4,4/16,5.5109105961630896e-16+1i,"q_native(r)=one_half_B_reverse(r,r); G_native(r)=exp(2*pi*i*q_native(r))"
+8,7,1,1,1/16,0.92387953251128752+0.38268343236508784i,"q_native(r)=one_half_B_reverse(r,r); G_native(r)=exp(2*pi*i*q_native(r))"

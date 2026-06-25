@@ -1,0 +1,8 @@
+{
+  "status": "GENERATED_GAUSS_DIAGONAL_FROM_OVERSET_SELF_TWIST",
+  "phase5_v1_closed": true,
+  "one_line": "The Gauss diagonal is generated as the quadratic refinement of the reverse Orthad overset transfer pairing; combined with prior Fourier transfer, Phase 5 v1 closes generated.",
+  "N8_G_residual": 0.0,
+  "N12_G_residual": 0.0,
+  "collapse_consistency": "PASS"
+}

@@ -1,0 +1,4 @@
+gate,expected,derived,pass,note
+self_read_L1,i/4895,i/4895,True,cross-reading extension leaves same-axis diagonal lens unchanged
+self_read_L2,-i/(196418*317811),-i/62423800998,True,product corrected; cross-reading extension leaves same-axis diagonal lens unchanged
+offdiag_not_hand_admitted,computed from native history,candidate rows frozen in sealed/native tables,True,no dense matrix slot admitted

@@ -1,0 +1,53 @@
+{
+  "phase": "Phase 5 v1",
+  "branch": "Orthad Overset Quadratic Self-Twist Gauss Test",
+  "status": "GENERATED_GAUSS_DIAGONAL_FROM_OVERSET_SELF_TWIST",
+  "phase5_v1_closed": true,
+  "closure_status": "GENERATED_WEIL_REPRESENTATION_GENERATORS_WITH_ORTHAD_OVERSET_LENS",
+  "created_utc": "2026-06-25T10:02:04.554502+00:00",
+  "sealed_before_comparison": true,
+  "hand_admitted_dense_block": false,
+  "native_derivation": [
+    "Use generated dual-lens transfer from prior branch as native overset chart transfer.",
+    "Use reverse transfer direction to define positive bilinear pairing B_plus(r,s)=rs/N.",
+    "Define same-chart self-twist as quadratic refinement q(r)=1/2 B_plus(r,r)=r^2/(2N).",
+    "Set G_native(r)=exp(2*pi*i*q(r)).",
+    "Polarization G(r+s)/(G(r)G(s)) recovers reverse transfer phase exp(2*pi*i*rs/N)."
+  ],
+  "result_by_N": {
+    "8": {
+      "Weil_G_quadratic_Gauss_diagonal": {
+        "residual": 0.0,
+        "generated": true
+      },
+      "Weil_F_finite_Fourier_forward_transfer": {
+        "residual": 0.0,
+        "generated": true
+      },
+      "conjugate_Fourier_reverse_transfer": {
+        "residual": 0.0,
+        "generated": true
+      }
+    },
+    "12": {
+      "Weil_G_quadratic_Gauss_diagonal": {
+        "residual": 0.0,
+        "generated": true
+      },
+      "Weil_F_finite_Fourier_forward_transfer": {
+        "residual": 0.0,
+        "generated": true
+      },
+      "conjugate_Fourier_reverse_transfer": {
+        "residual": 0.0,
+        "generated": true
+      }
+    }
+  },
+  "collapse_consistency": {
+    "pass": true,
+    "product_196418_317811": 62423800998
+  },
+  "falsifier": "not_triggered",
+  "next_phase": "Phase 6 convergence: show the identical overset Orthad QBL structure drives Ancient Yi carry, Wilhelm re-chart, Modular-B refinement, and projection-loss gates without retuning."
+}

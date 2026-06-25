@@ -1,0 +1,9 @@
+N,property,max_error,status
+8,unitarity_K_Kstar_equals_I,6.951372692114540372e-16,PASS
+8,dual_return_K2_equals_orientation_reversal,1.205185917240220325e-15,PASS
+8,fourfold_return_K4_equals_I,2.410371834480441439e-15,PASS
+8,dense_offdiagonal_native_transfer,0.000000000000000000e+00,PASS
+12,unitarity_K_Kstar_equals_I,2.193788125145467173e-15,PASS
+12,dual_return_K2_equals_orientation_reversal,4.577752071470091510e-15,PASS
+12,fourfold_return_K4_equals_I,5.316846024379882291e-15,PASS
+12,dense_offdiagonal_native_transfer,0.000000000000000000e+00,PASS

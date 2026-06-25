@@ -1,0 +1,10 @@
+{
+  "phase": "Phase 5 v1",
+  "branch": "Orthad Overset Dual-Lens Transfer Test",
+  "status": "PARTIAL_GENERATION_FOURIER_TRANSFER_GENERATED_GAUSS_NOT_GENERATED",
+  "phase5_v1_closed": false,
+  "collapse_consistency": "PASS",
+  "sealed_before_comparison": true,
+  "hand_admitted_dense_block": false,
+  "falsifier_status": "NOT_TRIGGERED_FOR_FOURIER_TRANSFER; STILL_OPEN_FOR_GAUSS_DIAGONAL"
+}

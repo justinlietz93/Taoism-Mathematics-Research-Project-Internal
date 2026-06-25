@@ -1,0 +1,7 @@
+candidate,native_definition,exact_pairing_law,N8_F_max,N12_F_max,N8_G_max,N12_G_max,N8_bilinear_pass,N12_bilinear_pass,verdict
+commutator_defect,"Read the Q/B coordinate commutator over prefix histories W_r,W_s.",0,2.0,2.0,1.961570560806461,2.0,True,True,DIAGONAL_ONLY_COMMUTATOR_TRIVIAL
+shared_prefix_count,Number of shared BQ blocks in W_r=(BQ)^r and W_s=(BQ)^s.,"min(r,s)",2.0,2.0,1.8477590650225744,2.0,False,False,BOUNDARY_DIFFERENT_PAIRING
+shared_prefix_symbol_count,Symbol-level common-prefix length of the two QBL words.,"2 min(r,s)",2.0,2.0,2.0,1.982889722747621,False,False,BOUNDARY_DIFFERENT_PAIRING
+separation_defect,Absolute separation between orientation indices.,|r-s|,2.0,2.0,1.961570560806461,2.0,False,False,BOUNDARY_DIFFERENT_PAIRING
+latch_overlap_count,Shared number of completed six-orientation L-boundaries.,"min(floor(r/6), floor(s/6))",2.0,2.0,1.961570560806461,1.9828897227476208,False,False,BOUNDARY_DIFFERENT_PAIRING
+dual_prefix_count,"Unary-dual overlap min(r,-s mod N).","min(r, -s mod N)",2.0,2.0,1.8477590650225735,2.0,False,False,BOUNDARY_DIFFERENT_PAIRING

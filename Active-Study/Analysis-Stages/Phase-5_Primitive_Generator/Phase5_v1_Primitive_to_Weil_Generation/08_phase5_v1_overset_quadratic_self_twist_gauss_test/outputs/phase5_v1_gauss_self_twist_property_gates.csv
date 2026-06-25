@@ -1,0 +1,11 @@
+N,gate,max_error,pass
+8,native_G_unitary,0.0,True
+8,quadratic_polarization_equals_reverse_transfer_phase,7.772354148366362e-15,True
+8,post_seal_Weil_G_residual,0.0,True
+8,previous_forward_transfer_Weil_F_residual,0.0,True
+8,reverse_transfer_conjugate_kernel_residual,0.0,True
+12,native_G_unitary,2.220446049250313e-16,True
+12,quadratic_polarization_equals_reverse_transfer_phase,8.255499265823963e-15,True
+12,post_seal_Weil_G_residual,0.0,True
+12,previous_forward_transfer_Weil_F_residual,0.0,True
+12,reverse_transfer_conjugate_kernel_residual,0.0,True
