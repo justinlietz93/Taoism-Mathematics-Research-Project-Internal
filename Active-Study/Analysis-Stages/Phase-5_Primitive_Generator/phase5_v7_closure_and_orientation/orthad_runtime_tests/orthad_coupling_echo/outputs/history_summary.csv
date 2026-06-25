@@ -1,0 +1,5 @@
+history,normal_form,C_signature,pair_values,visible_projection,holonomy,cocycle_residual,admitted,gauge_signature
+H1_legal_base,"{QA+,QB+,QC+} | {LAB+} | {BA+,LBC+} | {LAC-} | {PABC+}","0,4,4;4,0,4;4,4,0","{""AB"": 4, ""AC"": 4, ""BC"": 4}",5,0,0,True,admitted:AB=4;AC=4;BC=4
+H2_legal_swap,"{QA+,QB+,QC+} | {LAB+} | {BA+,LBC+} | {LAC-} | {PABC+}","0,4,4;4,0,4;4,4,0","{""AB"": 4, ""AC"": 4, ""BC"": 4}",5,0,0,True,admitted:AB=4;AC=4;BC=4
+H3_same_projection_diff_history,"{QA+,QB+,QC+} | {LAB+} | {BA+} | {LAC+} | {LBC+} | {LBC-} | {PABC+}","0,4,8;4,0,0;8,0,0","{""AB"": 4, ""AC"": 8, ""BC"": 0}",5,0,0,True,admitted:AB=4;AC=8;BC=0
+H4_illegal_cocycle,"{QA+,QB+,QC+} | {LAB+} | {PABC+}","0,4,0;4,0,0;0,0,0","{""AB"": 4, ""AC"": 0, ""BC"": 0}",7,4,4,False,rejected:cocycle_residual=4

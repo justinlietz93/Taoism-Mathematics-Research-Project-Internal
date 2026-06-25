@@ -1,0 +1,4 @@
+history,baseline_error,assisted_error,ceg,samples
+H1_legal_base,448,0,1.0,48
+H2_legal_swap,448,0,1.0,48
+H3_same_projection_diff_history,384,0,1.0,48

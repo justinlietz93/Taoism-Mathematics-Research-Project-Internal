@@ -1,0 +1,30 @@
+$ PYTHONPATH=src python3 -m orthad_voidwalker_overset.run_smoke
+{
+  "package": "orthad_voidwalker_overset",
+  "claim_class": "bounded smoke/adversarial harness, not theorem",
+  "base_gates": {
+    "legal_rewrite_invariance": true,
+    "same_projection_different_retained_separation": true,
+    "illegal_cocycle_rejected_by_walkers": true
+  },
+  "random_stress": {
+    "legal_cases": 40,
+    "illegal_cases": 20,
+    "legal_pass_rate": 1.0,
+    "illegal_pass_rate": 1.0,
+    "min_legal_coupling_echo_gain": 1.0,
+    "median_legal_coupling_echo_gain": 1.0,
+    "max_good_topology_spikes": 0,
+    "min_bad_topology_spikes": 485
+  },
+  "global_pass": true
+}
+
+$ PYTHONPATH=src python3 -m pytest -q
+..                                                                       [100%]
+2 passed in 0.81s
+
+$ python3 formal/cocycle_sympy_check.py
+legal_triangle_residual = 0
+corrupted_triangle_residual = d
+PASS

@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orthad-coupling-echo"
+version = "0.1.0"
+description = "VDM-guided Orthad overset coupling echo smoke harness"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+orthad-coupling-echo = "orthad_coupling_echo.cli:main"

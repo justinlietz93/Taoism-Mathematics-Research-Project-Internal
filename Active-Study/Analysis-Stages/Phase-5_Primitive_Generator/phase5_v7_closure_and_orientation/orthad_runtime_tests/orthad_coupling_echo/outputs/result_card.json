@@ -1,0 +1,15 @@
+{
+  "gates": {
+    "illegal_cocycle_rejected": true,
+    "legal_rewrite_invariance": true,
+    "positive_coupling_echo_gain": true,
+    "same_projection_different_retained_history": true,
+    "telemetry_flags_bad_history": true
+  },
+  "global_pass": true,
+  "interpretation": "VDM-style telemetry plus coupling echo is worth pursuing as a compiler/test layer; it does not replace the external theorem path.",
+  "max_cocycle_residual_admitted": 0,
+  "median_admitted_ceg": 1.0,
+  "negative_control_cocycle_residual": 4,
+  "status": "SMOKE_SUPPORTED_WORTH_PURSUING_NOT_A_THEOREM"
+}
