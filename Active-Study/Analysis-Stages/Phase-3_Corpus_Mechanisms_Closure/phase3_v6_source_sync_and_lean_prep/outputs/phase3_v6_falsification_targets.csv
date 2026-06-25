@@ -1,0 +1,7 @@
+id,target,action_if_hit
+F1_LATEST_SOURCE_CONTRADICTION,Find a latest Phase source theorem proving Shadow must remain external despite retained orientation.,Open contradiction report against Phase 3 v1/v3.
+F2_L_RESET_CONTRADICTION,Find a latest source theorem proving L resets q/theta against the corrected carry law.,Patch Phase/Orthad sync or mark older Phase 3 carrier assumptions invalid.
+F3_B_AFTER_L_CONTRADICTION,Find latest source theorem proving B stops after L for the active regime.,Reopen Modular-B classification and Orthad carrier law.
+F4_LEAN_AXIOM_CHANGES_RESULT,A Lean proof surface requires an axiom that changes a Phase 3 claim rather than merely naming a pending proof obligation.,Demote affected claim to OPEN_TARGET with exact axiom boundary.
+F5_LOCAL_LAKE_BUILD_FAILS_CORE,lake build fails in Phase3.Core.lean.,Repair core definitions before any Phase 4 formalization.
+F6_SOURCE_SCAN_MISCLASSIFICATION,A stale-language hit is actually a negative-control law and not a verdict.,Move row to context-required table; do not patch unless verdict-bearing.

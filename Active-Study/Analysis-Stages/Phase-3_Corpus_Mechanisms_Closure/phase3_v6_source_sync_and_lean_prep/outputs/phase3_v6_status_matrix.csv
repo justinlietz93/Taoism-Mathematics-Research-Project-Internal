@@ -1,0 +1,7 @@
+gate,status,evidence
+G1_source_sync_scan_completed,PASS,Scanned current Phase/Orthad/Phase-Tao sources plus selected zip notes for stale and aligned language.
+G2_phase3_claim_registry_emitted,PASS,phase3_v6_phase3_claim_registry.csv
+G3_stale_language_patch_targets_emitted,PASS,phase3_v6_stale_language_audit.csv
+G4_lake_workspace_created,PASS,"lean/lakefile.lean, lean/Phase3.lean, lean/Phase3/*.lean"
+G5_local_lean_execution,PENDING_LOCAL_LEAN_BINARY,No Lean binary available in this sandbox; package is Lake-ready and includes execution instructions.
+G6_phase4_frontier_registry_emitted,PASS,phase3_v6_phase4_frontier_registry.csv

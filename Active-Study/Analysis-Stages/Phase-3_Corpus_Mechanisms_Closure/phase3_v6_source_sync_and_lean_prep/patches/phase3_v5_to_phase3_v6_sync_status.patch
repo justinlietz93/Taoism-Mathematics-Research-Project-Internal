@@ -1,0 +1,12 @@
+# Phase 3 v6 patch instructions
+
+Replace stale verdict language using these exact mappings:
+
+- `Shadow remains external` -> `Shadow closes as RETAINED_ORIENTATION_CHANNEL / QUANTUM_MODULAR`.
+- `not loaded into the lift` -> `carried by retained orientation/residue channel`.
+- `scalar projection failure` -> `scalar zero projection / state-completeness gate`.
+- `B is Fibonacci/Farey only` -> `B is a retained-carrier refinement schema; Farey is one domain instance`.
+- `Ancient Yi analogy` -> `Ancient Yi finite LSD-first carry/lift closure`.
+- `Wilhelm semantic ladder` -> `Wilhelm six-line transition-custody ladder`.
+
+Open targets become Phase 4 items, not caution paragraphs.

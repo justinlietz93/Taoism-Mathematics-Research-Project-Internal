@@ -1,0 +1,15 @@
+{
+  "phase": "Phase 3 v6",
+  "title": "Latest Phase Source Synchronization and Lean/Lake Execution Prep",
+  "status": "CANON_LOCKED_LAKE_READY_LOCAL_EXECUTION_PENDING",
+  "generated_utc": "2026-06-25T06:52:52Z",
+  "global_pass": true,
+  "source_count_scanned": 356,
+  "stale_or_context_hits": 171,
+  "aligned_hits": 437,
+  "phase3_claims_registered": 5,
+  "phase4_frontiers_registered": 6,
+  "lean_sources_inventoried": 7,
+  "lake_workspace_created": true,
+  "local_lean_execution": "PENDING_LOCAL_LEAN_BINARY"
+}
