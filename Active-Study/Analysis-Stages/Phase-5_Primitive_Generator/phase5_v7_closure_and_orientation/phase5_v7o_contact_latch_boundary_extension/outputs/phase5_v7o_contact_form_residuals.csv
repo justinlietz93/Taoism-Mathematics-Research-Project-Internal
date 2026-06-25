@@ -1,0 +1,34 @@
+history,event_index,event_label,pair,impulse,pair_clock,delta_c,delta_z,contact_alpha_residual
+same_C_path_A,1,latch01_a1,0-1,1,1,1,1,0
+same_C_path_A,2,latch01_a5,0-1,5,2,5,10,0
+same_C_path_B,1,latch01_a5,0-1,5,1,5,5,0
+same_C_path_B,2,latch01_a1,0-1,1,2,1,2,0
+same_C_path_C,1,latch12_a2,1-2,2,1,2,2,0
+same_C_path_C,2,latch12_a4,1-2,4,2,4,8,0
+same_C_path_D,1,latch12_a4,1-2,4,1,4,4,0
+same_C_path_D,2,latch12_a2,1-2,2,2,2,4,0
+legal_original,1,latch01_a2,0-1,2,1,2,2,0
+legal_original,2,latch23_a7,2-3,7,1,7,7,0
+legal_original,3,latch01_a3,0-1,3,2,3,6,0
+legal_swapped_disjoint,1,latch23_a7,2-3,7,1,7,7,0
+legal_swapped_disjoint,2,latch01_a2,0-1,2,1,2,2,0
+legal_swapped_disjoint,3,latch01_a3,0-1,3,2,3,6,0
+triangle_admissible,1,"L(0, 1)_2",0-1,2,1,2,2,0
+triangle_admissible,2,"L(1, 2)_3",1-2,3,1,3,3,0
+triangle_admissible,3,"L(0, 2)_5",0-2,5,1,5,5,0
+chain_admissible,1,"L(0, 1)_2",0-1,2,1,2,2,0
+chain_admissible,2,"L(1, 2)_3",1-2,3,1,3,3,0
+chain_admissible,3,"L(2, 3)_4",2-3,4,1,4,4,0
+chain_admissible,4,"L(1, 2)_1",1-2,1,2,1,2,0
+opposed_latch_cancel_C_keep_Z,1,"L(0, 3)_5",0-3,5,1,5,5,0
+opposed_latch_cancel_C_keep_Z,2,"L(0, 3)_-5",0-3,-5,2,-5,-10,0
+opposed_latch_cancel_reverse,1,"L(0, 3)_-5",0-3,-5,1,-5,-5,0
+opposed_latch_cancel_reverse,2,"L(0, 3)_5",0-3,5,2,5,10,0
+multi_pair_same_C_ordered,1,"L(0, 1)_1",0-1,1,1,1,1,0
+multi_pair_same_C_ordered,2,"L(0, 1)_2",0-1,2,2,2,4,0
+multi_pair_same_C_ordered,3,"L(2, 3)_4",2-3,4,1,4,4,0
+multi_pair_same_C_ordered,4,"L(2, 3)_1",2-3,1,2,1,2,0
+multi_pair_same_C_reordered,1,"L(0, 1)_2",0-1,2,1,2,2,0
+multi_pair_same_C_reordered,2,"L(0, 1)_1",0-1,1,2,1,2,0
+multi_pair_same_C_reordered,3,"L(2, 3)_1",2-3,1,1,1,1,0
+multi_pair_same_C_reordered,4,"L(2, 3)_4",2-3,4,2,4,8,0

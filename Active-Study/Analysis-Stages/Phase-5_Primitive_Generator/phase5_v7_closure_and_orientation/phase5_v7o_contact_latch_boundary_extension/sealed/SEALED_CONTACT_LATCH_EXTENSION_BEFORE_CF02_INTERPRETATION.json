@@ -1,0 +1,14 @@
+{
+  "sealed_before": "full arbitrary QBL contact theorem",
+  "admitted": {
+    "finite_contact_coordinate": "Z_ij = sum_k k * delta_c_ij,k",
+    "contact_form": "alpha = dz - p dc",
+    "projection": "C is a J/M bilinear projection; Z is boundary latch memory"
+  },
+  "forbidden": [
+    "Treating raw C as full retained boundary state",
+    "Treating dependent same-pair latch reorder as legal trace equivalence",
+    "Claiming continuum CF02 contact geometry proven from finite tests"
+  ],
+  "summary_hash_source": "phase5_v7o_verification_summary.json"
+}

@@ -1,0 +1,19 @@
+{
+  "phase": "Phase 5 v7o",
+  "title": "Contact/Latch Boundary Extension",
+  "status": "CONTACT_LATCH_EXTENSION_SUPPORTED_AS_NECESSARY_BOUNDARY_MEMORY_ON_TESTED_ADMISSIBLE_HISTORIES",
+  "global_pass": true,
+  "phase5_closed": false,
+  "case_count": 13,
+  "contact_cases_passed": 13,
+  "collision_witnesses": 4,
+  "trace_rewrite_checks_passed": 3,
+  "trace_rewrite_checks_total": 3,
+  "negative_controls_passed": 5,
+  "negative_controls_total": 5,
+  "max_contact_alpha_residual": 0,
+  "max_J_skew_residual": 0.0,
+  "max_M_sym_residual": 0.0,
+  "min_M_eigenvalue": -1.1587952819525071e-15,
+  "interpretation": "The finite J/M object is an improvement over raw C, and the contact coordinate is necessary when boundary latch order/path is retained. Same C can hide distinct boundary paths."
+}

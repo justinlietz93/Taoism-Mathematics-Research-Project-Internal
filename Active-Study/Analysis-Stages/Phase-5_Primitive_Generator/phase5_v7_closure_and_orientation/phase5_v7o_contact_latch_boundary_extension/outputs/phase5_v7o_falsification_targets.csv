@@ -1,0 +1,6 @@
+id,falsification_target
+F1,Find legal disjoint trace rewrite that changes contact signature.
+F2,Find same retained latch history where alpha residual cannot be zeroed without external parameter.
+F3,Show all same-C/different-Z collisions are illegal artifacts forbidden by exact QBL support law.
+F4,Construct full native transition assignment T whose boundary latch data is already recoverable from J/M alone.
+F5,Show contact coordinate fails gauge invariance under legitimate basis/frame changes.

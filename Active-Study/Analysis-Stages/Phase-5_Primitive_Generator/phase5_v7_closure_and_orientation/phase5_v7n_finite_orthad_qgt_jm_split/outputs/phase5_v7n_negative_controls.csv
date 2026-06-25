@@ -1,0 +1,6 @@
+control,residual,expected,pass_control
+symmetrized_J_rejected,0.7071067811865476,skew residual nonzero,True
+nonsymmetric_M_rejected,0.28284271247461906,M symmetry residual nonzero,True
+negative_metric_rejected,-0.5,negative minimum eigenvalue,True
+basis_fixed_raw_tensor_uniqueness_rejected,1.0,entries change under gauge/permutation,True
+direct_sum_no_false_cross_curvature,0.0,zero cross curvature,True

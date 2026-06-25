@@ -1,0 +1,5 @@
+case,D_list,C,cycle_holonomy,cocycle_required,pass
+triangle_cocycle_zero,"[4, 4, 4]","{""0,1"": 1, ""1,2"": 1, ""0,2"": 2}",0,zero,True
+triangle_holonomy_nonzero,"[4, 4, 4]","{""0,1"": 1, ""1,2"": 1, ""0,2"": 1}",1/4,nonzero_allowed_hole,True
+triangle_cocycle_zero_6,"[6, 6, 6]","{""0,1"": 2, ""1,2"": 2, ""0,2"": 4}",0,zero,True
+mixed_triangle_nonzero,"[8, 12, 24]","{""0,1"": 6, ""1,2"": 12, ""0,2"": 12}",1/4,nonzero_allowed_hole,True

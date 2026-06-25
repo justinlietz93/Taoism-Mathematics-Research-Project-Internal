@@ -1,0 +1,39 @@
+{
+  "N": 500,
+  "added_files_only": true,
+  "b1_legal_vs_illegal_cocycle_absdiff_mean": 13.635658214945579,
+  "b1_legal_vs_illegal_flip_absdiff_mean": 17.961287264042767,
+  "b1_legal_vs_rewrite_absdiff_mean": 23.52960501644702,
+  "b1_rewrite_closer_than_illegal_cocycle": false,
+  "b1_rewrite_closer_than_illegal_flip": false,
+  "global_pass": false,
+  "legal_vs_illegal_cocycle_distance_mean": 0.007331384620057946,
+  "legal_vs_illegal_flip_distance_mean": 0.008447316633314666,
+  "legal_vs_rewrite_distance_mean": 0.017083128379735215,
+  "listen_probe_pass": true,
+  "mandate": "The harness never scans, never reduces the graph, never asks the engine a question. It only receives walker announcements and passes them through.",
+  "max_tick_s_overall": 0.0877604639999845,
+  "mean_tick_s_overall": 0.0580490949968663,
+  "modes": [
+    "sparse_baseline",
+    "legal",
+    "legal_rewrite",
+    "illegal_flip",
+    "illegal_cocycle"
+  ],
+  "native_b1_signal_candidate": false,
+  "native_speed_gate_mean_tick_lt_250ms": true,
+  "original_engine_files_modified": 0,
+  "orthad_admissibility_solved": false,
+  "recommended_decision": "do_not_replace_deep_research; keep listen-only VDM as an instrument if theorem path continues",
+  "rewrite_closer_than_illegal_cocycle": false,
+  "rewrite_closer_than_illegal_flip": false,
+  "scan_firewall_all_ok": true,
+  "seeds": [
+    0,
+    1
+  ],
+  "ticks_per_scenario": 32,
+  "walker_ratio": 1.2,
+  "walkers": 600
+}

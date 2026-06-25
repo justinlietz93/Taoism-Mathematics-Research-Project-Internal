@@ -1,0 +1,6 @@
+control,expected,measured,pass
+tamper_contact_z_plus_one,reject,alpha residual = 1,True
+drop_contact_coordinate,reject_same_C_path_collision,4 same-C/different-Z collision pairs found,True
+treat_illegal_same_pair_swap_as_legal,reject,same C but different contact signature,True
+basis_fixed_C_as_canonical,reject,C is only projection; contact data can differ,True
+non_psd_metric_tamper,reject,tampered off-diagonal positive weights give negative Laplacian direction,True

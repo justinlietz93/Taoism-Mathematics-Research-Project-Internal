@@ -1,0 +1,6 @@
+frontier,work
+full_event_alphabet,Define Q/B/L/latch/cusp event symbols with native support.
+support_derived_dependence,"Legal commutation must be computed from retained overlap support, not hand labels."
+transition_assignment_T,Map native QBL overlap records to c impulses and contact latch increments.
+contact_gauge_classifier,Classify contact gauge equivalence beyond pair-local clocks.
+CF02_bridge,Determine whether finite contact coordinate descends to CF02 contact geometry.

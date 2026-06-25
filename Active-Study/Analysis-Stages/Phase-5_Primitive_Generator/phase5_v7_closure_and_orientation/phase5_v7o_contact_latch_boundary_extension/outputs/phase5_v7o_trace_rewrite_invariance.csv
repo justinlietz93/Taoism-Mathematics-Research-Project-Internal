@@ -1,0 +1,4 @@
+rewrite,history_a,history_b,legal,same_C,same_Z,same_contact_signature,pass
+legal_disjoint_swap,legal_original,legal_swapped_disjoint,True,True,True,True,True
+illegal_same_pair_order_swap,same_C_path_A,same_C_path_B,False,True,False,False,True
+illegal_cancel_order_swap,opposed_latch_cancel_C_keep_Z,opposed_latch_cancel_reverse,False,True,False,False,True

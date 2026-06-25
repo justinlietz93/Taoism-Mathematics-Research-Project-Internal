@@ -1,0 +1,8 @@
+claim,disposition,evidence
+finite_overlap_tensor_exists,SUPPORTED_ON_TESTED_ADMISSIBLE_HISTORIES,H=M+iJ constructed from sealed c_native and gluing Laplacian; Hermitian residual below threshold
+J_limb_is_antisymmetric_holonomy_curvature,SUPPORTED_ON_TESTED_HISTORIES,J^T=-J; cross curvature zero for direct sums and nonzero for shared latches
+M_limb_is_symmetric_positive_gluing_metric,SUPPORTED_ON_TESTED_HISTORIES,"M^T=M, M>=0, M·1=0; mismatch cost positive for shared overlap differences"
+prior_Cij_is_projection,SUPPORTED_ON_TESTED_HISTORIES,Pi_C(J)=c_native for all tested cases
+legal_rewrites_preserve_JM_gauge_class,SUPPORTED_ON_TESTED_TRACE_CASES,independent swap has same Foata normal form and identical J/M
+raw_tensor_uniqueness,REJECTED,matrix entries are coordinate presentation; gauge/permutation invariants are the target
+full_arbitrary_QBL_history_theorem,OPEN,"requires exact event alphabet, independence relation, transition assignment, and 2-primary normalization"

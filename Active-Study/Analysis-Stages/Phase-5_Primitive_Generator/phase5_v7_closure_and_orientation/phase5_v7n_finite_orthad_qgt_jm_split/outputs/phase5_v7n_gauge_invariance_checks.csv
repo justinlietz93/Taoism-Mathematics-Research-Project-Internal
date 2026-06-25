@@ -1,0 +1,3 @@
+check,D,perm,M_eigen_residual,J_singular_residual,pass_check
+permutation_gauge_spectrum,4x4x4,"[2, 0, 1]",0.0,0.0,True
+local_phase_gauge_no_raw_tensor_dependence,4x4x4,diag(exp(i phi_i)),0.0,0.0,True

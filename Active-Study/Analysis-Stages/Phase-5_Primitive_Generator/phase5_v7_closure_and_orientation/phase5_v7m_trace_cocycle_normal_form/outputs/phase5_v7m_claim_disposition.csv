@@ -1,0 +1,7 @@
+claim,disposition,result
+raw_tensor_canonicality,REJECTED_AS_TARGET,"matrix C is coordinate presentation, not primitive invariant"
+admissible_history_trace_normal_form,SUPPORTED_BY_PROTOCOL_AND_TESTS,Foata normal form stable under legal independent swaps
+history_to_overlap_cocycle,SUPPORTED_AS_PROTOCOL_LAYER,transition cochains and cocycle/holonomy gates defined
+gauge_class_as_target,SUPPORTED,cycle holonomy invariant under local potential gauge changes
+finite_quadratic_module_target,LOCKED_AS_TARGET_OBJECT,"basis matrix C downstream of (D,q/B) gauge/isometry class"
+all_arbitrary_histories_classified,OPEN,"requires admissibility, confluence, and full extraction theorem"

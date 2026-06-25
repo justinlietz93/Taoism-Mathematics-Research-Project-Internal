@@ -1,0 +1,79 @@
+{
+  "sealed_before_comparison": true,
+  "construction": "c_native extracted from retained shared-latch histories; J upper triangle from c_native/L; M graph-Laplacian gluing metric from shared overlap incidence; H=M+iJ.",
+  "cases": [
+    {
+      "case": "legal_swap_8x8_A",
+      "D": "8x8",
+      "foata": "[[\"a0\", \"b1\"], [\"L01\"]]",
+      "c_native": "{\"0-1\": 2}"
+    },
+    {
+      "case": "legal_swap_8x8_B",
+      "D": "8x8",
+      "foata": "[[\"a0\", \"b1\"], [\"L01\"]]",
+      "c_native": "{\"0-1\": 2}"
+    },
+    {
+      "case": "direct_8x8",
+      "D": "8x8",
+      "foata": "[[\"a0\", \"b1\"]]",
+      "c_native": "{\"0-1\": 0}"
+    },
+    {
+      "case": "shared_8x8_c2",
+      "D": "8x8",
+      "foata": "[[\"L01c2\"]]",
+      "c_native": "{\"0-1\": 2}"
+    },
+    {
+      "case": "shared_8x12_c6",
+      "D": "8x12",
+      "foata": "[[\"L01c6\"]]",
+      "c_native": "{\"0-1\": 6}"
+    },
+    {
+      "case": "shared_12x12_c6",
+      "D": "12x12",
+      "foata": "[[\"L01c6\"]]",
+      "c_native": "{\"0-1\": 6}"
+    },
+    {
+      "case": "shared_10x10_c2",
+      "D": "10x10",
+      "foata": "[[\"L01c2\"]]",
+      "c_native": "{\"0-1\": 2}"
+    },
+    {
+      "case": "shared_16x24_c12",
+      "D": "16x24",
+      "foata": "[[\"L01c12\"]]",
+      "c_native": "{\"0-1\": 12}"
+    },
+    {
+      "case": "chain_4x4x4",
+      "D": "4x4x4",
+      "foata": "[[\"L01\"], [\"L12\"]]",
+      "c_native": "{\"0-1\": 2, \"0-2\": 0, \"1-2\": 2}"
+    },
+    {
+      "case": "triangle_4x4x4",
+      "D": "4x4x4",
+      "foata": "[[\"L01\"], [\"L12\"], [\"L02\"]]",
+      "c_native": "{\"0-1\": 2, \"0-2\": 2, \"1-2\": 2}"
+    },
+    {
+      "case": "mixed_chain_4x6x8",
+      "D": "4x6x8",
+      "foata": "[[\"L01\"], [\"L12\"]]",
+      "c_native": "{\"0-1\": 6, \"0-2\": 0, \"1-2\": 8}"
+    },
+    {
+      "case": "four_axis_chain_4x4x4x4",
+      "D": "4x4x4x4",
+      "foata": "[[\"L01\"], [\"L12\"], [\"L23\"]]",
+      "c_native": "{\"0-1\": 2, \"0-2\": 0, \"0-3\": 0, \"1-2\": 2, \"1-3\": 0, \"2-3\": 2}"
+    }
+  ],
+  "sha256_note": "This file is hashed in MANIFEST_SHA256SUMS.txt after package construction."
+}

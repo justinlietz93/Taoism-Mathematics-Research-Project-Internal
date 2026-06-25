@@ -1,0 +1,14 @@
+history,J_skew,M_sym,M_psd,M_row_sum_zero,contact_alpha_zero,xTJx_zero,pass
+same_C_path_A,True,True,True,True,True,True,True
+same_C_path_B,True,True,True,True,True,True,True
+same_C_path_C,True,True,True,True,True,True,True
+same_C_path_D,True,True,True,True,True,True,True
+legal_original,True,True,True,True,True,True,True
+legal_swapped_disjoint,True,True,True,True,True,True,True
+triangle_admissible,True,True,True,True,True,True,True
+chain_admissible,True,True,True,True,True,True,True
+zero_contact_direct,True,True,True,True,True,True,True
+opposed_latch_cancel_C_keep_Z,True,True,True,True,True,True,True
+opposed_latch_cancel_reverse,True,True,True,True,True,True,True
+multi_pair_same_C_ordered,True,True,True,True,True,True,True
+multi_pair_same_C_reordered,True,True,True,True,True,True,True

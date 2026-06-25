@@ -1,0 +1,7 @@
+frontier,status,next_gate
+full_QBL_event_alphabet,OPEN,define primitive/local/shared/latch/commutator events with supports
+independence_relation_from_retained_support,OPEN,prove legal swaps are exactly disjoint-support or gauge-null swaps
+transition_assignment_T,OPEN,"derive overlap cochains from native QBL boundary records, not post hoc features"
+finite_QGT_degeneracy_full_form,PARTIAL,upgrade scalar x^T J x and M·1 gates to full GENERIC-like gradients
+2_primary_normalization,OPEN,define canonical policy for doubled carrier and finite quadratic module presentation
+VDM_runtime_experiment,READY_AS_NEXT_EXPERIMENT,apply trace-cocycle/QGT extraction to runtime graph event histories

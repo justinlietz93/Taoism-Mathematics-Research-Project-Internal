@@ -1,0 +1,63 @@
+{
+  "all_listed_engine_files_identical": true,
+  "files": [
+    {
+      "path": "core/sparse_connectome.py",
+      "original_sha256": "488c9406585b9486475015eaaaac19373f3f954ab70694afb2f3729fffcc7b36",
+      "package_sha256": "488c9406585b9486475015eaaaac19373f3f954ab70694afb2f3729fffcc7b36",
+      "identical": true
+    },
+    {
+      "path": "core/engine/core_engine.py",
+      "original_sha256": "9aa78d7b3468d1b3a3e8a0e4e88b03f78ad9847c5689b9b40fd56a8118ec9865",
+      "package_sha256": "9aa78d7b3468d1b3a3e8a0e4e88b03f78ad9847c5689b9b40fd56a8118ec9865",
+      "identical": true
+    },
+    {
+      "path": "core/cortex/scouts.py",
+      "original_sha256": "ab9e9acc214247396f4e174093a26f008ff01ad23d2e7215bc1c32432bb3040c",
+      "package_sha256": "ab9e9acc214247396f4e174093a26f008ff01ad23d2e7215bc1c32432bb3040c",
+      "identical": true
+    },
+    {
+      "path": "core/adc.py",
+      "original_sha256": "dc3170b0c7e32cbc85c3b0731aff162ba3bdb67cf01057595e1ee17d7d6c1da2",
+      "package_sha256": "dc3170b0c7e32cbc85c3b0731aff162ba3bdb67cf01057595e1ee17d7d6c1da2",
+      "identical": true
+    },
+    {
+      "path": "core/void_b1.py",
+      "original_sha256": "5cdcadd7fd70a7f7ea21a4bf05a810da0f721b99485f1ace6aee25de2fae98df",
+      "package_sha256": "5cdcadd7fd70a7f7ea21a4bf05a810da0f721b99485f1ace6aee25de2fae98df",
+      "identical": true
+    },
+    {
+      "path": "runtime/events_adapter.py",
+      "original_sha256": "e8e732c7e0da089da5d5c6613bacae12a2344c18956b17f79ac9bdcc8d81db74",
+      "package_sha256": "e8e732c7e0da089da5d5c6613bacae12a2344c18956b17f79ac9bdcc8d81db74",
+      "identical": true
+    },
+    {
+      "path": "runtime/loop/main.py",
+      "original_sha256": "4966cc6eabe649c66e616f0ebf3eb9218381805f4dcbc3b47414951985bd8bac",
+      "package_sha256": "4966cc6eabe649c66e616f0ebf3eb9218381805f4dcbc3b47414951985bd8bac",
+      "identical": true
+    },
+    {
+      "path": "runtime/stepper.py",
+      "original_sha256": "a9afcae5dd4c872294cca07a7a33da11159af2f4abb5560f4b8b6684a7a572c3",
+      "package_sha256": "a9afcae5dd4c872294cca07a7a33da11159af2f4abb5560f4b8b6684a7a572c3",
+      "identical": true
+    },
+    {
+      "path": "runtime/telemetry.py",
+      "original_sha256": "e769c3747c8d4a3eca3521fd2b3b652e5ad19036df18706eaf6e4baf41c6181b",
+      "package_sha256": "e769c3747c8d4a3eca3521fd2b3b652e5ad19036df18706eaf6e4baf41c6181b",
+      "identical": true
+    }
+  ],
+  "added_files": [
+    "io/orthad_state.py",
+    "run_orthad_listen.py"
+  ]
+}

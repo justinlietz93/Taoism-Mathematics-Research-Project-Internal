@@ -1,0 +1,8 @@
+claim,status,basis
+C_limb_projection_not_full_boundary_state,SUPPORTED,same C can hide different contact latch path
+contact_coordinate_needed_for_latch_order,SUPPORTED,projection collision witnesses separate by Z
+contact_form_alpha_closes_on_tested_latches,SUPPORTED,delta_z - p delta_c residual zero
+legal_trace_rewrites_preserve_contact_signature,SUPPORTED,disjoint legal swap preserved C/Z
+dependent_latch_reorder_is_not_legal_equivalence,SUPPORTED,same pair reorder changes Z
+full_arbitrary_QBL_contact_theorem,FRONTIER_OPEN,requires exact event alphabet/support-derived independence
+physical_CF02_contact_identification,PLAUSIBLE_NOT_PROVEN,finite contact analogue passes; continuum contact branch not claimed

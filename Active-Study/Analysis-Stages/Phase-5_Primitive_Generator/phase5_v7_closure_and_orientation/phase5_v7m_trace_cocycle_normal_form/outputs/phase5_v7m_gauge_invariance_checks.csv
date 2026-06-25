@@ -1,0 +1,5 @@
+case,before_holonomy,after_gauge_holonomy,gauge_invariant,potentials,pass
+triangle_cocycle_zero,0,0,True,"{""0"": ""1/7"", ""1"": ""2/7"", ""2"": ""3/7""}",True
+triangle_holonomy_nonzero,1/4,1/4,True,"{""0"": ""1/7"", ""1"": ""2/7"", ""2"": ""3/7""}",True
+triangle_cocycle_zero_6,0,0,True,"{""0"": ""1/7"", ""1"": ""2/7"", ""2"": ""3/7""}",True
+mixed_triangle_nonzero,1/4,1/4,True,"{""0"": ""1/7"", ""1"": ""2/7"", ""2"": ""3/7""}",True

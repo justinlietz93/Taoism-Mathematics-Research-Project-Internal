@@ -1,0 +1,8 @@
+{
+  "phase": "Phase 5 v7m",
+  "title": "Trace-Cocycle Normal Form for Admissible QBL History",
+  "status": "TRACE_COCYCLE_NORMAL_FORM_PROTOCOL_SUPPORTED_GAUGE_CLASS_TARGET_LOCKED",
+  "global_pass": true,
+  "phase5_closed": false,
+  "target_object": "gauge class of overlap-holonomy / finite-quadratic-module data; matrix C only after basis choice"
+}
