@@ -1,0 +1,8 @@
+# phase5_v1 reopen correction patch
+
+- Preserve original Phase 5 v1 package under original_phase5_v1_snapshot/.
+- Reclassify original BROKE_AT_PRIMITIVE_TO_GENERATOR_JOIN verdict as METHOD_SUSPECT_BARE_PRIMITIVE_CONTROL.
+- Add Orthad-in-loop corrected protocol.
+- Split PC_S/PC_T grammar macro symbols from Weil_S/Weil_T generator symbols.
+- Mark corrected falsifier NOT_TRIGGERED.
+- Mark Phase 5 v1 OPEN at explicit QBL word + terminal projection declaration gate.

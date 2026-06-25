@@ -1,0 +1,6 @@
+id,target,status,reason
+F1_CORRECTED_BOUNDARY,A read-and-lifted QBL word with orientation pairing retained fails to reproduce Weil_F_N or Weil_G_N at readout level without retuning.,NOT_TRIGGERED,No admissible QBL word + projection was formed.
+F2_PAIRING_EXTERNALITY,"The cross-orientation pairing can only be imported as exp(-2πirs/N), with no primitive derivation path from QBL/Orthad.",OPEN,This is the next real boundary target.
+F3_MACRO_CONTAMINATION,A future artifact uses S/T ambiguously for both PC macro symbols and Weil generators.,ACTIVE_CANON_RULE,Any such artifact is invalid.
+F4_DEGENERATE_MACRO_RELABEL,A future artifact treats S=Q or T=L as earned macro grammar.,ACTIVE_CANON_RULE,Suspended definition cannot be reused as macro grammar.
+F5_SCALAR_ORIENTATION_COLLAPSE,A future artifact bans retained orientation vector/coupling by citing no-scalar-in-lift.,ACTIVE_CANON_RULE,Corrected law separates scalar readout from retained orientation state.

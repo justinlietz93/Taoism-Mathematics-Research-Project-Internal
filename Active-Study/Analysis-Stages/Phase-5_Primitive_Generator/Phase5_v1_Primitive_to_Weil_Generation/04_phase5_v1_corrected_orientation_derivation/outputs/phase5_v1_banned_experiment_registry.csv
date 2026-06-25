@@ -1,0 +1,4 @@
+experiment,status,reason
+bare_primitive_vs_finished_Weil_generator,BANNED_METHOD_CONTROL,compares raw state move to terminal readout and removes Orthad
+hand_admitted_dense_orientation_block,FORBIDDEN,creates the target slot by permission rather than deriving off-diagonal entries from QBL accumulation
+macro_symbol_S_or_T_equals_Weil_S_or_Weil_T_by_name,FORBIDDEN,"symbol collision, no structural derivation"

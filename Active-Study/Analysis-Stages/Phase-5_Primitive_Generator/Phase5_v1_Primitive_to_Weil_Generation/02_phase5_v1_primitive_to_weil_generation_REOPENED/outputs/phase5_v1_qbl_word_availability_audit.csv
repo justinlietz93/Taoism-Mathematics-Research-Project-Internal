@@ -1,0 +1,5 @@
+target,needed,available_word,available_imported_surface,verdict
+Weil_T_N12,finite QBL word W_T_12 plus Orthad terminal projection to diagonal residue phase exp(pi*i*r^2/12),none as grammar-built word,yes: finite quadratic module T table,WORD_MISSING_IMPORT_AVAILABLE
+Weil_S_N12,finite QBL word W_S_12 plus Orthad terminal projection to dense character kernel 12^-1/2 exp(-pi*i*r*s/6),none as grammar-built word,yes: finite Fourier kernel table,WORD_MISSING_IMPORT_AVAILABLE
+Weil_T_N8,finite QBL word W_T_8 plus Orthad terminal projection to diagonal residue phase exp(pi*i*r^2/8),none as grammar-built word,yes: finite quadratic module T table,WORD_MISSING_IMPORT_AVAILABLE
+Weil_S_N8,finite QBL word W_S_8 plus Orthad terminal projection to dense character kernel 8^-1/2 exp(-pi*i*r*s/4),none as grammar-built word,yes: finite Fourier kernel table,WORD_MISSING_IMPORT_AVAILABLE

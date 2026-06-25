@@ -1,0 +1,7 @@
+{
+  "status": "REOPENED_METHOD_SUSPECT",
+  "headline": "Original Phase 5 v1 verdict is not final. It tested bare primitives with the Orthad removed and compared at the wrong layer.",
+  "corrected_verdict": "UNTESTED_AFTER_CORRECTION_BLOCKED_AT_WORD_AND_PROJECTION_DECLARATION",
+  "falsifier_status": "NOT_TRIGGERED",
+  "phase6_fork": "NOT_YET_COMMITTED; Phase 6 waits on corrected Phase 5 word/readout test."
+}

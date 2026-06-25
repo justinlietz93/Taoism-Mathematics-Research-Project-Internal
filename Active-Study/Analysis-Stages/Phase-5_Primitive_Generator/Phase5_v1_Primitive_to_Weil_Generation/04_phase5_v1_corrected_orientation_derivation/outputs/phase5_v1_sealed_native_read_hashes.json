@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-06-25T08:44:19.424649+00:00",
+  "sealed_hashes": {
+    "chi12_level12": {
+      "N": 12,
+      "sealed_file": "phase5_v1_sealed_native_orientation_read_chi12_level12.csv",
+      "sha256": "21721e2f901d412fa0117e28f8e60a9e8f3c4fc99a70d09d017472644acb4eaa",
+      "seal_order": "written_before_any_Weil_target_construction_in_script",
+      "native_rule": "K_N[r,s] = delta_{r,s} * i^r; off-diagonal entries exactly 0"
+    },
+    "chi8_level8": {
+      "N": 8,
+      "sealed_file": "phase5_v1_sealed_native_orientation_read_chi8_level8.csv",
+      "sha256": "cf58ddbc79eb3979778241c88db4ff986c40b87e85950bee5e6e4f2e826dac88",
+      "seal_order": "written_before_any_Weil_target_construction_in_script",
+      "native_rule": "K_N[r,s] = delta_{r,s} * i^r; off-diagonal entries exactly 0"
+    }
+  },
+  "seal_discipline": "Native entries are derived and serialized before any Weil_F_N or Weil_G_N arrays are constructed."
+}

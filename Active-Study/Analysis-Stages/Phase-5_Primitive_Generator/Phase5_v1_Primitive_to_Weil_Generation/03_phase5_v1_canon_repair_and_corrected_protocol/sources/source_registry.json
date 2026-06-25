@@ -1,0 +1,5 @@
+{
+  "Phase_Calculus_Complete_Formalisation.pdf": "contains primitive alphabet U={Q,B,L} and contaminated macro grammar {R,S,T}; used as source contamination site.",
+  "20260620T085207_ORTHAD_CANON_TIGHTENED_DRAFT_v1_0.md": "contains Orthad laws, exact Q/B/L definitions, diagonal lens, and broad Shadow externality law; patched by this package.",
+  "phase_tao_close_read_notes_v58.txt": "contains later corrections separating Shadow Residual, compression residual, and Orthad readout/custody division."
+}

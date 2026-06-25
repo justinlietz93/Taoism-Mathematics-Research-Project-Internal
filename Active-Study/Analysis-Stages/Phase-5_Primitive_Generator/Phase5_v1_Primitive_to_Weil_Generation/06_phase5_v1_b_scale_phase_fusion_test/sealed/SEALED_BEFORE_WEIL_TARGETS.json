@@ -1,0 +1,12 @@
+{
+  "sealed_before_weil_targets": true,
+  "derivation": "B-scale-as-phase fusion from native germ width w=1/[v(u+v)] and Q character i^r",
+  "hand_admitted_dense_block": false,
+  "weils_constructed_before_seal": false,
+  "sealed_files_sha256": {
+    "self_N12": "e941478863c21ad8c9944077e9606e1fb140e3bda196745981fbea93b32ac576",
+    "pair_N12": "24d9b694433726e225e7d3e29f63062f0471594b54b3c55d0a39acd89172611b",
+    "self_N8": "dd5b13e8bde156da31e0cb0151a6cc8f625702ab1b8de03eea39733519257c10",
+    "pair_N8": "5b0f6ec315220fcdeebdc17caf2ffdb982ee3088d714085b323844e4454a21e0"
+  }
+}

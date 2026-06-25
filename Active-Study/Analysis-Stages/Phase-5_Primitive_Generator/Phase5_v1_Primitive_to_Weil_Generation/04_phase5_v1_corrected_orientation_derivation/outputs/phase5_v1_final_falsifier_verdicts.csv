@@ -1,0 +1,5 @@
+falsifier,status,detail
+derived_sealed_collapse_consistent_read_cannot_reproduce_Weil_F,TRIGGERED_FOR_Weil_F,sealed off-diagonal entries are zero; Weil_F has nonzero off-diagonal entries magnitude 1/sqrt(N)
+derived_sealed_collapse_consistent_read_cannot_reproduce_Weil_G,TRIGGERED_FOR_Weil_G_UNDER_DIRECT_Q_READ,native diagonal phase i^r is not exp(pi i r^2/N) for chi12 or chi8
+collapse_consistency_failure,NOT_TRIGGERED,diagonal trace recovered in pair/product form; decimal typo corrected
+hand_admitted_dense_block_false_pass,BLOCKED_BY_RULE,no dense block permission remains

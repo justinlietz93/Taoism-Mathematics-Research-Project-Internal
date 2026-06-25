@@ -1,0 +1,60 @@
+{
+  "phase": "Phase 5 v1",
+  "target": "B-scale-as-phase fusion test",
+  "status": "BOUNDARY_DIFFERENT_GROWTH_REJECTED_AT_COLLAPSE_CONSISTENCY",
+  "phase5_v1_closed": false,
+  "sealed_before_comparison": true,
+  "hand_admitted_dense_block": "FORBIDDEN",
+  "growth_law": "phi_r = sum_j 1/(u_j v_j) along B orbit; reciprocal Fibonacci-product partial sums; convergent and non-quadratic",
+  "collapse_consistency": {
+    "L1": false,
+    "L2": false,
+    "source_decimal_product_corrected": 62423800998
+  },
+  "post_seal_comparison": [
+    {
+      "case": "chi12_level12",
+      "N": 12,
+      "target": "Weil_G_diagonal",
+      "native_object": "B_scale_fused_self_channel",
+      "raw_residual": 1.2283399550216223,
+      "phase_only_residual": 1.996871093773895,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "case": "chi12_level12",
+      "N": 12,
+      "target": "Weil_F_fourier",
+      "native_object": "polarized_B_scale_pair_channel",
+      "raw_residual": 1.2885617665316864,
+      "phase_only_with_forbidden_normalization_residual": 0.5772772204794908,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "case": "chi8_level8",
+      "N": 8,
+      "target": "Weil_G_diagonal",
+      "native_object": "B_scale_fused_self_channel",
+      "raw_residual": 1.277765014533224,
+      "phase_only_residual": 1.984630250584823,
+      "status": "NOT_GENERATED"
+    },
+    {
+      "case": "chi8_level8",
+      "N": 8,
+      "target": "Weil_F_fourier",
+      "native_object": "polarized_B_scale_pair_channel",
+      "raw_residual": 1.3521217312998872,
+      "phase_only_with_forbidden_normalization_residual": 0.7061377159181262,
+      "status": "NOT_GENERATED"
+    }
+  ],
+  "old_fixes_retained": [
+    "degenerate macro suspended",
+    "symbol collision killed",
+    "shadow law split",
+    "standing rule locked"
+  ],
+  "falsifier_verdict": "TRIGGERED_FOR_THIS_REPAIR_PATH",
+  "next_valid_phase5_question": "derive a native bilinear pairing rule or a B-scale observable whose first-principles growth is linear before summation; current germ width is not it"
+}

@@ -1,0 +1,5 @@
+banned_method,status,reason
+hand_admitted_dense_block,FORBIDDEN,off-diagonal entries must come from polarization of sealed B-scale phase
+capacity_as_phase_increment,CLOSED_FAILED_PREVIOUS_TEST,capacity 4^r gives exponential growth and collapses under quarter-phase periodicity
+bare_primitive_vs_weil,DEMOTED_TO_METHOD_CONTROL,Orthad/readout layer removed
+symbol_collision_S_T,CANON_REPAIRED,PC macro symbols cannot be identified with Weil targets by name

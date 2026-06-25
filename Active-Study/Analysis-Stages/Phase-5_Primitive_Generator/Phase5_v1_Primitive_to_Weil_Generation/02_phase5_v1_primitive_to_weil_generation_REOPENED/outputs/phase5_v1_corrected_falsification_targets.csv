@@ -1,0 +1,5 @@
+target,test
+F1_CORRECTED_BOUNDARY,"Given explicit W_S/W_T and native Orthad projection P_N, compare P_N(OrthadRead(W_S/W_T)) to Weil S/T; failure without retuning triggers boundary."
+F2_SYMBOL_COLLISION,Any proof that identifies PC_S with Weil_S or PC_T with Weil_T by name only fails.
+F3_EXTERNAL_IMPORT,"If finite Fourier/Gauss kernel enters as finite quadratic module before QBL word derivation, classify as import not generation."
+F4_PROJECTION_LOSS_METHOD,Any direct subtraction of raw retained primitive from terminal modular matrix is inadmissible.

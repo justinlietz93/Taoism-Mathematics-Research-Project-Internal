@@ -1,0 +1,29 @@
+{
+  "phase": "Phase 5 v1 REOPENED correction",
+  "timestamp_utc": "2026-06-25T08:19:43.582004+00:00",
+  "status": "REOPENED_METHOD_SUSPECT_CORRECTED_TEST_NOT_YET_FORMED",
+  "global_pass": true,
+  "original_phase5_v1_verdict_preserved_as": "METHOD_SUSPECT_BARE_PRIMITIVE_CONTROL",
+  "old_residuals_retained": {
+    "chi12_Q_vs_T": 1.9318516525781364,
+    "chi12_Q2_vs_T": 2.0,
+    "chi12_carry_vs_S": 1.2886751345948129,
+    "chi8_Q_vs_T": 1.6629392246050905,
+    "chi8_Q2_vs_T": 2.0,
+    "chi8_carry_vs_S": 1.3535533905932737,
+    "wilhelm_xor32_vs_S64": 1.1244648423441481
+  },
+  "corrected_claim_verdict": "UNTESTED_AFTER_CORRECTION",
+  "generated_weil_from_native_QBL_with_orthad": null,
+  "corrected_boundary_triggered": false,
+  "where_corrected_test_stops": "EXPLICIT_QBL_WORD_AND_TERMINAL_ORTHAD_PROJECTION_DECLARATION_GATE",
+  "method_faults_recorded": [
+    "F_METHOD_1_ORTHAD_REMOVED",
+    "F_METHOD_2_WRONG_LAYER_COMPARISON",
+    "F_METHOD_3_SYMBOL_IMPORT_COLLISION"
+  ],
+  "must_not_count_as_boundary": "Old residuals comparing bare primitives to completed Weil generators before Orthad read/lift.",
+  "real_falsifier": "Read-and-lifted QBL words W_S/W_T, compared at readout level after Orthad lift, still cannot reproduce Weil_S/Weil_T without retuning.",
+  "real_falsifier_status": "NOT_TRIGGERED",
+  "next_required_artifact": "Construct explicit finite QBL words W_S_N and W_T_N and native terminal projection P_N^Orthad before any new residual can count."
+}

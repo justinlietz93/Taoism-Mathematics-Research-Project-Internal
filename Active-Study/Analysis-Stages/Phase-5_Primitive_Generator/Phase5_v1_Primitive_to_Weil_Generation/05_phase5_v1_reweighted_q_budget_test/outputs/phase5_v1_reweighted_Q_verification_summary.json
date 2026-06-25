@@ -1,0 +1,42 @@
+{
+  "phase": "Phase 5 v1",
+  "target": "Reweighted-Q budget repair under sealed discipline",
+  "status": "REJECTED_AT_COLLAPSE_CONSISTENCY_AND_BOUNDARY_DIFFERENT_GROWTH",
+  "phase5_v1_closed": false,
+  "old_verdict_status": "DEMOTED_TO_BANNED_METHOD_CONTROL",
+  "hand_admitted_dense_block": "FORBIDDEN",
+  "sealed_before_weil_targets": true,
+  "budget_used": "floor_capacity(r)=4^r from accessible B/Q capacity correction note",
+  "growth_law": "f(r)=sum_{j<r}4^j=(4^r-1)/3; modulo four this is 0 for r=0 and 1 for r>=1",
+  "collapse_consistency": {
+    "L1_i_over_4895": true,
+    "L2_minus_i_over_62423800998": false,
+    "corrected_product": 62423800998
+  },
+  "post_seal_comparison": [
+    {
+      "case": "chi12_level12",
+      "N": 12,
+      "self_channel_law": "exp(i*pi/2*sum_{j<r}4^j)=exp(i*pi/2*(4^r-1)/3)",
+      "self_channel_mod4_behavior": "0 at r=0; 1 for every r>=1",
+      "pair_channel_law": "exp(i*pi/2*(f((r+s) mod N)-f(r)-f(s)))",
+      "weil_G_max_residual": 1.9318516525782612,
+      "weil_F_max_residual": 1.2886751345948129,
+      "generated_G": false,
+      "generated_F": false
+    },
+    {
+      "case": "chi8_level8",
+      "N": 8,
+      "self_channel_law": "exp(i*pi/2*sum_{j<r}4^j)=exp(i*pi/2*(4^r-1)/3)",
+      "self_channel_mod4_behavior": "0 at r=0; 1 for every r>=1",
+      "pair_channel_law": "exp(i*pi/2*(f((r+s) mod N)-f(r)-f(s)))",
+      "weil_G_max_residual": 1.6629392246051327,
+      "weil_F_max_residual": 1.3535533905932737,
+      "generated_G": false,
+      "generated_F": false
+    }
+  ],
+  "verdict": "Boundary, different growth, rejected before usable generation claim because the reweighted-Q repair does not recover the existing L2 diagonal trace.",
+  "next_valid_target": "Derive a budget law that is both collapse-consistent on the existing Orthad trace and nonlinearly rich enough to produce a quadratic self-channel without target-visible retuning."
+}

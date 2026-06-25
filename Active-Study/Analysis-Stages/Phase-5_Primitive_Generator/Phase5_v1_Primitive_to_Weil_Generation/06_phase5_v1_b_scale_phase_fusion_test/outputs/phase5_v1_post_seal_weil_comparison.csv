@@ -1,0 +1,5 @@
+case,N,target,native_object,raw_residual,phase_only_residual,status,phase_only_with_forbidden_normalization_residual
+chi12_level12,12,Weil_G_diagonal,B_scale_fused_self_channel,1.2283399550216223,1.996871093773895,NOT_GENERATED,
+chi12_level12,12,Weil_F_fourier,polarized_B_scale_pair_channel,1.2885617665316864,,NOT_GENERATED,0.5772772204794908
+chi8_level8,8,Weil_G_diagonal,B_scale_fused_self_channel,1.277765014533224,1.984630250584823,NOT_GENERATED,
+chi8_level8,8,Weil_F_fourier,polarized_B_scale_pair_channel,1.3521217312998872,,NOT_GENERATED,0.7061377159181262

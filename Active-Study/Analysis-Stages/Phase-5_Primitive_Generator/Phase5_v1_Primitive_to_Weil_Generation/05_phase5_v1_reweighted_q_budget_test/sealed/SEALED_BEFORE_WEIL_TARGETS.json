@@ -1,0 +1,11 @@
+{
+  "sealed_before_weil_targets": true,
+  "timestamp_utc": "2026-06-25T09:05:17.263597+00:00",
+  "hashes": {
+    "sealed_reweighted_Q_pair_channel_N12.csv": "09e71f481cc5a5de72344e9821aba3d1c6c7c518bb0ba82dd4dab36c779541d2",
+    "sealed_reweighted_Q_pair_channel_N8.csv": "a43ce624c5cdf2ad8f7db078cf6a4003722f0f995c5538640fd180c1ee8d0379",
+    "sealed_reweighted_Q_self_channel_N12.csv": "06cdd7ff95b517f51e936a0ce08ce19867d68b4d1be17aa5e61909e691dc3d54",
+    "sealed_reweighted_Q_self_channel_N8.csv": "0f42d3c62009d072d18850c916e83b62345d2a61a1489032b16a80c0989b425e"
+  },
+  "rule": "Weil targets are constructed only after these native entries are written and hashed."
+}

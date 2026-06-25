@@ -1,0 +1,8 @@
+case,N,generator,native_operator,weil_operator,max_abs_diff,native_nonzeros,weil_nonzeros,verdict
+chi12_level12,12,Q observable phase iI vs Weil T,"Q: theta -> theta + pi/2, visible phase multiplier i",T_r=exp(pi*i*r^2/N),1.9318516525781364,12,12,FAILS_VALUE_FOR_VALUE
+chi12_level12,12,Q^2 observable phase -I vs Weil T,"Q^2: theta -> theta + pi, visible phase multiplier -1",T_r=exp(pi*i*r^2/N),2.0,12,12,FAILS_VALUE_FOR_VALUE
+chi12_level12,12,Ancient Yi carry successor vs Weil S,C:e_r -> e_(r+1 mod N),S_rs=N^(-1/2) exp(-2*pi*i*r*s/N),1.2886751345948129,12,144,FAILS_DENSITY_AND_VALUES
+chi8_level8,8,Q observable phase iI vs Weil T,"Q: theta -> theta + pi/2, visible phase multiplier i",T_r=exp(pi*i*r^2/N),1.6629392246050905,8,8,FAILS_VALUE_FOR_VALUE
+chi8_level8,8,Q^2 observable phase -I vs Weil T,"Q^2: theta -> theta + pi, visible phase multiplier -1",T_r=exp(pi*i*r^2/N),2.0,8,8,FAILS_VALUE_FOR_VALUE
+chi8_level8,8,Ancient Yi carry successor vs Weil S,C:e_r -> e_(r+1 mod N),S_rs=N^(-1/2) exp(-2*pi*i*r*s/N),1.3535533905932737,8,64,FAILS_DENSITY_AND_VALUES
+wilhelm_line6_N64,64,Wilhelm line6 xor32 vs finite Fourier S,E6:e_r -> e_(r xor 32),S_rs=N^(-1/2) exp(-2*pi*i*r*s/N),1.1244648423441481,64,4096,FAILS_DENSITY_AND_VALUES

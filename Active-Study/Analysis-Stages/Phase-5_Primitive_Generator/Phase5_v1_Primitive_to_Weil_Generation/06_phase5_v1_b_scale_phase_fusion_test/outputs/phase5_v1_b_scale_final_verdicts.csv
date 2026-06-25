@@ -1,0 +1,7 @@
+gate,result,detail
+sealed_derivation_before_weil,PASS,sealed self and pair channels written and hashed before Weil targets constructed
+collapse_consistency_L1,FAIL,error=0.0002665683230432261
+collapse_consistency_L2,FAIL,error=1.2707727021899486e-14
+B_scale_growth_law,BOUNDARY_DIFFERENT_GROWTH,"phi_r=sum reciprocal Fibonacci-product widths; convergent/non-quadratic, not r^2/(2N)"
+Weil_G_post_seal,NOT_GENERATED,B-scale fused self-channel does not match quadratic Gauss diagonal
+Weil_F_post_seal,NOT_GENERATED,polarized B-scale pair-channel does not match Fourier kernel and supplies no earned 1/sqrt(N)

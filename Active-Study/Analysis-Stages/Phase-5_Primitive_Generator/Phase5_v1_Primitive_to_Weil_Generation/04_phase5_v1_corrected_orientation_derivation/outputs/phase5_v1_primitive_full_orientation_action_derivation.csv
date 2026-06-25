@@ -1,0 +1,5 @@
+operator,exact_source_action,full_orientation_vector_action,matrix_class,orientation_mixing,offdiag_generation
+Q,theta -> theta + pi/2; q unchanged; c -> c + pi/2,Q_N e_r = i e_{r+1 mod N},monomial_shift_with_phase,single successor only; no all-to-all coupling,no dense off-diagonal coupling
+B,"(u,v) -> sort(v,u+v); theta unchanged; germ width -> 1/(v(u+v))",B_N scales/reanchors same orientation amplitude by positive real anchor ratio; orientation index unchanged,diagonal_scalar_or_active_coordinate_reanchor,none,none
+L,host lift; q carried; theta -> theta + pi/2; c -> c + pi/2,"L freezes current axis and appends new active axis; within orientation index, no cross-index rule",inherit_and_extend_plus_same_orientation_phase,none,none
+OrthadRead,read deterministic lens compiled from QBL word; diagonal latched axes and active axis,"K_N[r,s] = delta_{r,s} lambda_r unless a bilinear orientation-pairing rule is derived",diagonal_read,none under repaired no-free-dense-block rule,all off-diagonal entries frozen to 0

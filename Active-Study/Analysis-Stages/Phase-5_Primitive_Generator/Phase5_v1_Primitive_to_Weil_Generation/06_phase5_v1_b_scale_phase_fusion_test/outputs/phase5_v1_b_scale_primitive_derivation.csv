@@ -1,0 +1,5 @@
+object,source_definition,role_in_test,derived_action
+Q,theta -> theta + pi/2; q preserved,character channel chi_Q(r)=i^r,Q e_r = i e_(r+1); no quadratic scale assigned
+B,"(u,v)->sort(v,u+v); germ width w=1/[v(u+v)]",refinement-scale phase candidate,B-scale increment at step j is w_j=1/[u_j v_j]; accumulated phi_r=sum_{j<=r} w_j
+L,host lift; q carried; theta -> theta + pi/2,collapse consistency latch,freeze active fused B-scale/Q-character entry and append new active axis
+OrthadRead_fused,lens compiled from QBL word; no candidate projector,same-orientation readout,z_r = width_r * i^r * exp(2*pi*i*phi_r); pair channel from polarization of phi only

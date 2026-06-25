@@ -1,0 +1,5 @@
+correction,kept,rule
+degenerate_macro_suspended,True,"R=Q∘B, S=Q, T=L is not an earned macro grammar for Phase 5 generation testing"
+symbol_collision_dead,True,No PC macro symbol may be equated to a Weil generator by name
+shadow_law_split,True,scalar readout coefficient external; retained orientation-residue vector carriable
+no_free_dense_orientation_block,True,orientation off-diagonal coupling must be computed from QBL accumulation or it is unavailable

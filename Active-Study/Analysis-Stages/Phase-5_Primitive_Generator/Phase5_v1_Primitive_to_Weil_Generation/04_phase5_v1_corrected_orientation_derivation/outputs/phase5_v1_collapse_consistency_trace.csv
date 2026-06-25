@@ -1,0 +1,3 @@
+trace_point,derived_lens,source_lens_shape,computed_denominator,source_decimal_denominator,status
+after_L1,"diag(i/4895, 1)","diag(i/4895, 1)",4895,4895,PASS
+after_L2,"diag(i/4895, -i/(196418*317811), 1)","diag(i/4895, -i/62403619338, 1)",62423800998,62403619338,PASS_STRUCTURAL_AND_PAIR_FORM; SOURCE_DECIMAL_PRODUCT_CORRECTED_TO_62423800998

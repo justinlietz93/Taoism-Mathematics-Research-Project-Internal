@@ -1,0 +1,5 @@
+{
+  "STATUS": "DIAGONAL_ONLY_BOUNDARY",
+  "VERDICT": "The corrected read produces no off-diagonal orientation coupling from QBL accumulation. Weil_F is not generated. Native Q diagonal read also fails Weil_G for chi12 and chi8. Collapse consistency passes in corrected product form.",
+  "NEXT": "Phase 6 boundary map: locate or derive the missing bilinear orientation-pairing rule, or classify it external."
+}

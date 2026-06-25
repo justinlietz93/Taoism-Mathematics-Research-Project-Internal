@@ -1,0 +1,5 @@
+claim,derived_value,reason
+orientation read produces off-diagonal coupling,false,Q is monomial shift; B/L do not introduce bilinear pairing; Orthad read is diagonal by deterministic lens law
+same-orientation collapse recovers diagonal lens,true,restriction r=s returns latched-axis values i/4895 and -i/(196418*317811)
+finite Fourier off-diagonal entries generated,false,sealed off-diagonal entries are exactly zero for all r != s
+quadratic Gauss diagonal generated,false,native Q phase is linear fourth-root i^r; Weil_G_N uses N-dependent quadratic phase exp(pi i r^2/N)

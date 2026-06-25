@@ -1,0 +1,12 @@
+{
+  "status": "REJECTED_AT_COLLAPSE_CONSISTENCY_AND_BOUNDARY_DIFFERENT_GROWTH",
+  "generated": false,
+  "boundary": true,
+  "diagonal_only": false,
+  "collapse_consistent": false,
+  "specific_failure": "L2 phase: expected -i/62423800998, derived +i/62423800998",
+  "weil_G_residual_N12": 1.9318516525782612,
+  "weil_F_residual_N12": 1.2886751345948129,
+  "weil_G_residual_N8": 1.6629392246051327,
+  "weil_F_residual_N8": 1.3535533905932737
+}

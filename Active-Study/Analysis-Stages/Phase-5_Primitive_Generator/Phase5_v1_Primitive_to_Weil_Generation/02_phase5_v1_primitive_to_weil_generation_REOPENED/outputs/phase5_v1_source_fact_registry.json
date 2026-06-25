@@ -1,0 +1,20 @@
+{
+  "orthad_laws": [
+    "Orthad computes from accrued lifted-state history; no candidates/search/scores.",
+    "Lens/readout structure is deterministic footprint of primitive Q/B/L word.",
+    "Lifted state carries native coordinates and accrued operator word.",
+    "Orthad reads lifted state and does not alter it.",
+    "Scalars are terminal projections read from completed lift."
+  ],
+  "primitive_defs": {
+    "Q": "Q(A,q,theta,kappa,c)=(A,q,theta+pi/2,floor((theta+pi/2)/(2pi)),c+pi/2)",
+    "B": "B(A,(u,v),theta,kappa,c)=(A,sort(v,u+v),theta,kappa,C(theta,1/(v(u+v))))",
+    "L": "L(A,q,theta,kappa,c)=(N(A),q,theta+pi/2,floor((theta+pi/2)/(2pi)),c+pi/2)"
+  },
+  "formal_macro_layer": {
+    "PC_R": "Q o B = B o Q on the declared balanced-window macro layer",
+    "PC_S": "Q on the declared balanced-window macro layer",
+    "PC_T": "L on the declared balanced-window macro layer"
+  },
+  "readout_form": "Orthad lens Omega is an ordered retained basis/diagonal lens compiled from the Q/B/L word; L latches one active axis and opens one new orthogonal slot."
+}

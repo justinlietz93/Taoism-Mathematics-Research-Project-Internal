@@ -1,0 +1,14 @@
+{
+  "phase": "Phase 5 v1 canon repair and corrected protocol",
+  "timestamp_utc": "2026-06-25T08:35:59.331207+00:00",
+  "status": "REOPENED_CANON_CONTAMINATION_REPAIRED_CORRECTED_GENERATION_TEST_OPEN",
+  "phase5_v1_closed": false,
+  "old_bare_primitive_verdict": "DEMOTED_TO_BANNED_EXPERIMENT_METHOD_CONTROL",
+  "corrected_falsifier": "NOT_TRIGGERED",
+  "readout_comparison_status": "NO_ADMISSIBLE_QBL_WORD_YET_FOR_WEIL_F_OR_WEIL_G",
+  "macro_grammar_status": "DEGENERATE_REFERENCE_MACRO_GRAMMAR_SUSPENDED",
+  "shadow_law_status": "SPLIT_SCALAR_READOUT_EXTERNAL_ORIENTATION_RESIDUE_CARRIABLE",
+  "lens_status": "AXIS_DIAGONAL_ONLY_SUSPENDED_FOR_ORIENTATION_INDEX; ORIENTATION_PAIRING_BLOCK_ALLOWED",
+  "generation_verdict": "OPEN_PENDING_EXPLICIT_QBL_WORDS_AND_ORTHAD_READOUT_MAP",
+  "global_pass": true
+}

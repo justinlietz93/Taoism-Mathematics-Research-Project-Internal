@@ -1,0 +1,11 @@
+gate,name,status,detail
+G0,preserve original package/results,PASS,Original and reopened Phase 5 v1 packages copied under snapshots/.
+G1,mark old verdict method-suspect,PASS,Bare primitive residuals reclassified as banned experiment/method control.
+G2,suspend degenerate macro grammar,PASS,"R=Q∘B, S=Q, T=L suspended as macro grammar and renamed only as deprecated selector shorthands."
+G3,split shadow law,PASS,Scalar readout external; retained orientation-residue vector and cross-orientation coupling carriable.
+G4,allow orientation pairing in Orthad lens,PASS,Lens no longer forced diagonal in orientation index; dense orientation block allowed.
+G5,write explicit QBL word for Weil_G_N,FAIL,No non-retuned finite QBL word deriving quadratic Gauss readout is present in reference material.
+G6,write explicit QBL word for Weil_F_N,FAIL,No non-retuned finite QBL word deriving finite Fourier readout is present in reference material.
+G7,construct Orthad terminal projection from word,FAIL,"Projection map from explicit word to End(C[Z/NZ]) is canon target, not yet derived."
+G8,readout-level comparison after lift,NOT_RUN,Blocked until G5-G7 pass.
+G9,corrected falsifier,NOT_TRIGGERED,No read-and-lifted QBL word failed because no admissible word/projection exists yet.

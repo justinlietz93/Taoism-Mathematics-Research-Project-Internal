@@ -1,0 +1,4 @@
+object,source_definition,full_orientation_action,derived_budget,new_primitive_added
+Q,"theta -> theta + pi/2, q preserved, c translated by pi/2",e_r -> exp(i*pi/2*b_r) e_{r+1} under proposed reweighting,b_r = floor_capacity(r) = 4^r from accessible B/Q capacity note,NO
+B,"(u,v) -> sort(v,u+v), theta preserved, germ width -> 1/(v(u+v))",updates refinement anchor; does not mix orientation indices,B is admitted while next retained product stays within current Q-gated capacity,NO
+L,"host lift, q carried, theta + pi/2, rank grows by one",latches active axis and opens next active axis; no orientation-index mixing,L fires after B and Q saturation,NO

@@ -1,0 +1,81 @@
+{
+  "phase": "Phase 5 v1",
+  "pass": "Corrected Orientation Derivation",
+  "status": "DIAGONAL_ONLY_BOUNDARY",
+  "phase5_v1_closed": true,
+  "old_verdict_status": "demoted_to_banned_method_control",
+  "corrected_verdict": "diagonal_only",
+  "falsifier_triggered_after_correction": true,
+  "collapse_consistency": "PASS_STRUCTURAL_WITH_SOURCE_DECIMAL_CORRECTION",
+  "sealed_before_comparison": true,
+  "hand_admitted_dense_block": "forbidden_not_used",
+  "generated_offdiagonal_coupling": false,
+  "generated_Weil_F": false,
+  "generated_Weil_G": false,
+  "boundary": "QBL plus current Orthad read produces same-orientation diagonal read only; missing object is a derived bilinear orientation-pairing read rule or primitive.",
+  "comparison": [
+    {
+      "case": "chi12_level12",
+      "N": 12,
+      "target": "Weil_F_N_finite_Fourier",
+      "native_matrix": "phase5_v1_sealed_native_orientation_read_chi12_level12.csv",
+      "max_abs_residual": "1.2886751345948129",
+      "max_offdiag_target_abs": "0.28867513459481298",
+      "max_offdiag_native_abs": "0",
+      "offdiag_gate": "FAIL_NATIVE_OFFDIAGONAL_ZERO_TARGET_DENSE",
+      "verdict": "NOT_GENERATED"
+    },
+    {
+      "case": "chi12_level12",
+      "N": 12,
+      "target": "Weil_G_N_quadratic_Gauss_diagonal",
+      "native_matrix": "phase5_v1_sealed_native_orientation_read_chi12_level12.csv",
+      "max_abs_residual": "1.8477590650225735",
+      "max_offdiag_target_abs": "0",
+      "max_offdiag_native_abs": "0",
+      "offdiag_gate": "PASS_BOTH_DIAGONAL",
+      "diagonal_gate": "FAIL_NATIVE_LINEAR_Q_PHASE_NOT_QUADRATIC_GAUSS; max_diag_residual=1.8477590650225735",
+      "verdict": "NOT_GENERATED"
+    },
+    {
+      "case": "chi8_level8",
+      "N": 8,
+      "target": "Weil_F_N_finite_Fourier",
+      "native_matrix": "phase5_v1_sealed_native_orientation_read_chi8_level8.csv",
+      "max_abs_residual": "1.2747548783981961",
+      "max_offdiag_target_abs": "0.35355339059327379",
+      "max_offdiag_native_abs": "0",
+      "offdiag_gate": "FAIL_NATIVE_OFFDIAGONAL_ZERO_TARGET_DENSE",
+      "verdict": "NOT_GENERATED"
+    },
+    {
+      "case": "chi8_level8",
+      "N": 8,
+      "target": "Weil_G_N_quadratic_Gauss_diagonal",
+      "native_matrix": "phase5_v1_sealed_native_orientation_read_chi8_level8.csv",
+      "max_abs_residual": "1.6629392246050905",
+      "max_offdiag_target_abs": "0",
+      "max_offdiag_native_abs": "0",
+      "offdiag_gate": "PASS_BOTH_DIAGONAL",
+      "diagonal_gate": "FAIL_NATIVE_LINEAR_Q_PHASE_NOT_QUADRATIC_GAUSS; max_diag_residual=1.6629392246050905",
+      "verdict": "NOT_GENERATED"
+    }
+  ],
+  "sealed_hashes": {
+    "chi12_level12": {
+      "N": 12,
+      "sealed_file": "phase5_v1_sealed_native_orientation_read_chi12_level12.csv",
+      "sha256": "21721e2f901d412fa0117e28f8e60a9e8f3c4fc99a70d09d017472644acb4eaa",
+      "seal_order": "written_before_any_Weil_target_construction_in_script",
+      "native_rule": "K_N[r,s] = delta_{r,s} * i^r; off-diagonal entries exactly 0"
+    },
+    "chi8_level8": {
+      "N": 8,
+      "sealed_file": "phase5_v1_sealed_native_orientation_read_chi8_level8.csv",
+      "sha256": "cf58ddbc79eb3979778241c88db4ff986c40b87e85950bee5e6e4f2e826dac88",
+      "seal_order": "written_before_any_Weil_target_construction_in_script",
+      "native_rule": "K_N[r,s] = delta_{r,s} * i^r; off-diagonal entries exactly 0"
+    }
+  },
+  "created_utc": "2026-06-25T08:44:19.424649+00:00"
+}

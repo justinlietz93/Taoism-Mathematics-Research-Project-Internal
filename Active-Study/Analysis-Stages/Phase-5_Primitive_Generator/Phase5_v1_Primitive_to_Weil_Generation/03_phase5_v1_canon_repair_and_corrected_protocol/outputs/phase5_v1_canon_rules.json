@@ -1,0 +1,14 @@
+{
+  "standing_rule": "Before testing whether A generates B, write exact independent definitions of A and B, confirm no symbol collision, confirm A is not a primitive relabel, derive from QBL/Orthad first, compare to external targets only after the derivation stands on its own.",
+  "macro_grammar": "UNDEFINED_PENDING_DERIVATION",
+  "deprecated_selector_shorthands": {
+    "PC_REF": "Q∘B=B∘Q in old executable balanced-window selector context only",
+    "PC_HOLD": "Q in old executable balanced-window selector context only",
+    "PC_LFT": "L in old executable balanced-window selector context only"
+  },
+  "weil_targets": {
+    "Weil_F_N": "N^-1/2 exp(-2π i r s/N)",
+    "Weil_G_N": "δ_rs exp(π i r^2/N)"
+  },
+  "shadow_law": "Scalar terminal readout coefficients stay external; retained orientation-residue vector and cross-orientation coupling may be carried in lift."
+}

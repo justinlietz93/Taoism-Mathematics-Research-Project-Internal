@@ -1,0 +1,5 @@
+experiment,status,reason
+hand_admitted_dense_orientation_block,FORBIDDEN,would fit Fourier kernel by slot insertion rather than QBL accumulation
+degenerate_macro_R_QB_S_Q_T_L,SUSPENDED,"bare primitive relabels are contamination, not earned macro grammar"
+bare_primitive_vs_weil_residual,DEMOTED_TO_METHOD_CONTROL,Orthad removed and raw state compared to terminal projection
+target_visible_during_native_derivation,FORBIDDEN,violates sealed-envelope generation discipline

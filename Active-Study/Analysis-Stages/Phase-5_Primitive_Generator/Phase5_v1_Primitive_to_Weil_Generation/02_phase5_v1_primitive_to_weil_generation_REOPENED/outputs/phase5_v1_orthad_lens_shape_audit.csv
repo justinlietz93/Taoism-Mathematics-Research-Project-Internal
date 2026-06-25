@@ -1,0 +1,4 @@
+candidate,orthad_lens_output_type,dimension_from_one_step,matrix_type,weil_target_N_8_shape,weil_target_N_12_shape,shape_match,dimension_from_one_macro
+PC_S=Q,diagonal_lens_state,1,1x1 diagonal active-axis readout,8x8 dense endomorphism,12x12 dense endomorphism,False,
+PC_T=L,latched_axis_plus_new_active_axis,2,2x2 diagonal lens after latch from initial state,8 diagonal phases on residue carrier,12 diagonal phases on residue carrier,False,
+PC_R=QB/BQ,single-axis phase/anchor update,,1x1 diagonal active-axis readout,8x8 dense endomorphism,12x12 dense endomorphism,False,1

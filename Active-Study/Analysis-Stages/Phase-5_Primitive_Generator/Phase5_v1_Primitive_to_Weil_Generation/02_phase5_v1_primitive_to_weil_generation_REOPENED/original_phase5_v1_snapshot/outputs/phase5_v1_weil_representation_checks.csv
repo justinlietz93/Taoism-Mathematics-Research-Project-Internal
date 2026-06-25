@@ -1,0 +1,3 @@
+case,N,S_unitarity_max_abs,S_square_reversal_max_abs,T_diagonal_nonzeros,S_dense_nonzeros,weil_representation_constructed_from_explicit_generators,constructed_from_native_QBL_without_added_dual_kernel
+chi12_level12,12,2.2482444571363454e-15,4.563890668405898e-15,12,144,TRUE,FALSE
+chi8_level8,8,6.95137269211454e-16,1.1844593031321888e-15,8,64,TRUE,FALSE

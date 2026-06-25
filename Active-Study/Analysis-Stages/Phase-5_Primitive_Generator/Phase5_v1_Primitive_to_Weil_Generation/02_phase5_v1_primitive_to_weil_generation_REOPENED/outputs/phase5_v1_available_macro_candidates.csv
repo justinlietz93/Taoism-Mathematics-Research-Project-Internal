@@ -1,0 +1,4 @@
+symbol,word_in_QBL,source_role,orthad_readout_shape,can_be_called_weil_generator,fault_if_relabelled
+PC_R,QB / BQ,balanced-window executable macro,"single active-axis update then phase update; diagonal lens state, not residue-carrier endomorphism",False,Relabelling PC_R as a modular generator without terminal projection/import ledger is symbol collision.
+PC_S,Q,balanced-window executable macro,active axis multiplied by i; dimension unchanged,False,PC_S is not Weil_S; it is the Q macro in the executable branch.
+PC_T,L,balanced-window executable macro,current active axis latched; new active axis appended; dimension +1,False,PC_T is not Weil_T; it is host lift in the executable branch.

@@ -1,0 +1,8 @@
+{
+  "status": "BROKE_AT_PRIMITIVE_TO_GENERATOR_JOIN",
+  "claim": "The discrete retained-orientation primitive generates the modular machinery.",
+  "verdict": "BROKEN_UNDER_NON_RETUNING_CONSTRAINT",
+  "exact_failure": "The native Q/B/L definitions do not value-for-value equal the Weil T/S generators. Q is constant phase translation; B/L are sparse deterministic carrier maps. Weil T is residue-quadratic; Weil S is dense finite Fourier transform.",
+  "falsifier_verdict": "FALSIFIER_TRIGGERED_AT_SEATING_JOIN",
+  "phase6": "BOUNDARY_MAP"
+}

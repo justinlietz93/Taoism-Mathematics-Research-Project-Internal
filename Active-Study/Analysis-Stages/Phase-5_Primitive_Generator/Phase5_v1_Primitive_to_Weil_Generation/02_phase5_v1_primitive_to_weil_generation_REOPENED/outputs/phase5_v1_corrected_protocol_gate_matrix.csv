@@ -1,0 +1,11 @@
+gate,required,status
+G0_original_results_preserved,Original residual package remains archived verbatim,PASS
+G1_old_verdict_reclassified,BROKE_AT_PRIMITIVE_TO_GENERATOR_JOIN demoted to METHOD_SUSPECT_BARE_PRIMITIVE_CONTROL,PASS
+G2_orthad_in_loop,"Operation under test is OrthadRead(QBL_word), not bare primitive",PASS
+G3_same_primitives,"Use Q, B, L exactly as formal stack defines them",PASS
+G4_no_symbol_collision,Separate PC_S/PC_T macro names from Weil_S/Weil_T imported generators,PASS
+G5_explicit_QBL_word_for_Weil_S,Provide a finite QBL word W_S whose Orthad readout is intended to be Weil_S,FAIL
+G6_explicit_QBL_word_for_Weil_T,Provide a finite QBL word W_T whose Orthad readout is intended to be Weil_T,FAIL
+G7_terminal_projection_declared,Declare a native terminal projection from Orthad lens to End(C[Z/NZ]),FAIL
+G8_readout_level_numeric_comparison,Compare OrthadRead(W_S/W_T) to Weil S/T only after G5-G7 pass,NOT_RUN
+G9_corrected_falsifier,"If read/lifted QBL word fails Weil S/T without retuning, boundary is triggered",NOT_TRIGGERED
