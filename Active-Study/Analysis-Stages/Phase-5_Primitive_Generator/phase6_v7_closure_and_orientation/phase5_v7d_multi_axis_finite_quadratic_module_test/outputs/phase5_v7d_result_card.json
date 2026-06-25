@@ -1,0 +1,14 @@
+{
+  "phase": "Phase 5 v7d",
+  "target": "Multi-Axis Finite Quadratic Module Test",
+  "status": "DIRECT_SUM_GENERATED_CROSS_AXIS_SUPPORTED_WITH_RETAINED_COUPLING_FRONTIER_OPEN",
+  "global_pass": true,
+  "positive_cases": 8,
+  "positive_cases_passed": 8,
+  "negative_controls": 3,
+  "negative_controls_passed": 3,
+  "max_positive_residual": 3.7826405152761767e-13,
+  "core_verdict": "The overset Orthad extends from one doubled cyclic axis to product carriers. Independent axes generate direct sums. Nonzero cross-axis terms are generated when an admissible nondegenerate inter-axis coupling matrix is carried as retained module data. The current primitive-origin boundary is deriving that coupling matrix from QBL history rather than supplying it as product-module data.",
+  "sealed_before_comparison": true,
+  "hand_admitted_dense_block": false
+}

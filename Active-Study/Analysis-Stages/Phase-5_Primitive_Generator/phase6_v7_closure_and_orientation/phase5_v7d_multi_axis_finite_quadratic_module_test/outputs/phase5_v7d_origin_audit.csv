@@ -1,0 +1,7 @@
+item,status,reason
+point chart on product carrier,GENERATED,cartesian product of retained doubled orientation point bases
+direct-sum dual chart,GENERATED,tensor product of cyclic successor eigen-cochains
+direct-sum transfer,GENERATED,cochain evaluation factorizes across axes
+cross-axis transfer with retained coupling matrix,SUPPORTED_IF_COUPLING_CARRIED,"given admissible nondegenerate inter-axis coupling, cochain evaluation generates mixed terms"
+cross-axis coupling matrix from independent QBL axes,NOT_GENERATED_BY_INDEPENDENT_AXES,independent cyclic successors give block diagonal/direct-sum pairing only
+general product module closure,CONDITIONAL,requires retained nondegenerate inter-axis coupling registry; not merely a set of independent cycles

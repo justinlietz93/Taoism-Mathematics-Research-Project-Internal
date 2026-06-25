@@ -1,0 +1,6 @@
+id,target
+F1_DIRECT_SUM,Find a direct-sum doubled product carrier where tensor-product overset transfer fails unitarity/reversal/polarization.
+F2_CROSS_COUPLING,Find an admissible nondegenerate retained inter-axis coupling matrix where cross-axis transfer fails.
+F3_PRIMITIVE_ORIGIN,"Require nonzero cross-axis terms from independent QBL axes with no retained coupling registry; if impossible, primitive-origin boundary stands."
+F4_DEGENERATE_CONTROL,Show a singular coupling matrix nevertheless yields unitary transfer; this would break the nondegeneracy gate.
+F5_REP_INVARIANCE,Find a non-well-defined cross coefficient that passes representative-invariance gates.
