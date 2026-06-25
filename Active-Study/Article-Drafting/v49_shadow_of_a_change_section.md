@@ -152,6 +152,7 @@ Second, the connection to quantum phase is exact at the level of commutator alge
 there. The section may say the same algebra appears in quantum phase. It must not reach toward "this
 is why quantum phase works," a far heavier claim these artifacts do not establish.
 
-*Hands off to.* With the rule now pushed to its sharpest internal form, the essay is ready for the
-reflexive hinge, where this same gate is turned on Phase Calculus's own foundational text and cuts
-one of its own older operators.
+*Hands off to.* The hidden charge of a single swap is only the first layer of retained state. The
+next section enlarges it, showing that the number of times a path has wound around, and the entire
+history of the loop, are carried state the projection drops as well, before the reflexive hinge turns
+the gate inward.

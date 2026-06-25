@@ -156,8 +156,9 @@ Stays open, to be tracked in the closing section of the piece:
 
 ---
 
-*Hands off to.* From here the essay can move to the foundational synthesis with the spine already
-named, or to the closing assessment of what the whole convergence does and does not establish. The
-load-bearing sentence this section gives the rest of the draft: the project's own measuring
-instrument was turned on the project's own canon, and where it found a state-losing operator hiding
-in an old chapter, it cut, by the standard written into a later chapter of the same book.
+*Hands off to.* The gate has now been built, sharpened, and turned inward, but everything so far has
+been argued and close-read. The next section asks whether the framework's own claims survive
+execution, rerunning the core kernels from real code and data before the essay reaches its closing
+assessment. The load-bearing sentence this section gives the rest of the draft: the project's own
+measuring instrument was turned on the project's own canon, and where it found a state-losing operator
+hiding in an old chapter, it cut, by the standard written into a later chapter of the same book.

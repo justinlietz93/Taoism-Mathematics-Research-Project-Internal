@@ -1,0 +1,6 @@
+test,observable,exact_identity,discriminates_against,status
+Vector switching surface,B_parallel_c(B_perp) and B_perp_c(B_parallel),shift and reciprocal residuals equal 0,scalar hysteresis without branch-selective memory,READY_AS_EXPERIMENTAL_GATE
+Field-order commutator,Delta R_order after endpoint-matched protocols,alpha*beta*(-a_y*h_y+a_z*h_z),endpoint-only memory,READY_AS_EXPERIMENTAL_GATE
+Angular tomography,R_res(phi),retained branch axis produces angular response,isotropic in-plane scalar effect,OPEN_EMPIRICAL_GATE
+Coherence collapse,"branch amplitude vs d/l_z, temperature, disorder",collapse near retained vertical coherence loss,temperature-only scalar hysteresis,OPEN_EMPIRICAL_GATE
+Dual-memory minor-loop surface,major/minor loop surface over B_parallel and B_perp,two-register surface not one scalar line,single scalar memory variable,OPEN_EMPIRICAL_GATE
