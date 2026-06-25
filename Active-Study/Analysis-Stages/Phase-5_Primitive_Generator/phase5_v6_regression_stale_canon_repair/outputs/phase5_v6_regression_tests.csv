@@ -1,0 +1,21 @@
+test_id,assumption_restored,expected,metric,residual,pass
+RT01_N8,remove Orthad and compare bare Q count to Gauss,FAIL_RETURNS,max|i^r-G_N|,1.6629392246050905,True
+RT02_N8,one-lens diagonal only,FOURIER_FAILS,max|I-K_N|,1.3535533905932737,True
+RT03_N8,"shared-prefix pairing min(r,s)",FOURIER_FAILS,max phase residual vs K_N,2.0,True
+RT04_N8,wrong normalization 1/N,UNITARITY_FAILS,max|K_wrong K_wrong*-I|,0.875,True
+RT05_N8,remove quadratic self-twist,GAUSS_FAILS,max|1-G_N|,1.961570560806461,True
+RT06_N8,correct overset transfer,FOURIER_PASS,max|K_native-K_N|,0.0,True
+RT07_N8,correct overset self-twist,GAUSS_PASS,max|G_native-G_N|,0.0,True
+RT08_N8,correct transfer unitarity,UNITARITY_PASS,max|K K*-I|,6.95137269211454e-16,True
+RT09_N8,correct transfer reversal,REVERSAL_PASS,max|K^2-R|,1.2051859172402203e-15,True
+RT01_N12,remove Orthad and compare bare Q count to Gauss,FAIL_RETURNS,max|i^r-G_N|,1.8477590650225735,True
+RT02_N12,one-lens diagonal only,FOURIER_FAILS,max|I-K_N|,1.1713276518242655,True
+RT03_N12,"shared-prefix pairing min(r,s)",FOURIER_FAILS,max phase residual vs K_N,2.0,True
+RT04_N12,wrong normalization 1/N,UNITARITY_FAILS,max|K_wrong K_wrong*-I|,0.9166666666666666,True
+RT05_N12,remove quadratic self-twist,GAUSS_FAILS,max|1-G_N|,2.0,True
+RT06_N12,correct overset transfer,FOURIER_PASS,max|K_native-K_N|,0.0,True
+RT07_N12,correct overset self-twist,GAUSS_PASS,max|G_native-G_N|,0.0,True
+RT08_N12,correct transfer unitarity,UNITARITY_PASS,max|K K*-I|,2.193788125145467e-15,True
+RT09_N12,correct transfer reversal,REVERSAL_PASS,max|K^2-R|,4.5777520714700915e-15,True
+RT10_COLLAPSE_L1,same-chart collapse preserved,TRACE_PASS,i/4895 exact form,0.0,True
+RT11_COLLAPSE_L2,same-chart collapse preserved,TRACE_PASS,-i/(196418*317811) with corrected product 62423800998,0.0,True

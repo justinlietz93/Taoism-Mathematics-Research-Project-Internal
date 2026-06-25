@@ -1,0 +1,31 @@
+{
+  "sealed_before_target_comparison": true,
+  "target_names_withheld_until_after_hash": [
+    "Weil_F_N",
+    "Weil_G_N"
+  ],
+  "construction_basis": "QBL cyclic successor sigma_N on orientation histories W_r=(BQ)^r, dual eigen-cochains of sigma_N, unitarity normalization, positive orientation sign",
+  "timestamp_utc": "2026-06-25T12:22:55.084499+00:00",
+  "audit_N": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    24,
+    26,
+    28,
+    30,
+    32,
+    36,
+    40,
+    48,
+    52,
+    60
+  ]
+}

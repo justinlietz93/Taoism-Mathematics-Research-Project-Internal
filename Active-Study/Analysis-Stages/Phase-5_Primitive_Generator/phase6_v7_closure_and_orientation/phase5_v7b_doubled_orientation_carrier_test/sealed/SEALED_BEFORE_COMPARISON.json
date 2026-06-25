@@ -1,0 +1,98 @@
+{
+  "sealed_before_comparison": true,
+  "discipline": "Doubled-carrier K/G tables were emitted before folded-carrier controls and old-target reconciliation were evaluated.",
+  "sealed_files": [
+    {
+      "file": "sealed/sealed_G_doubled_base1_D2.csv",
+      "sha256": "985a1835e55143c2e2e5f7e3cac310c8e4c470988e73639f6b2f523654c8c2c2"
+    },
+    {
+      "file": "sealed/sealed_Kminus_doubled_base1_D2.csv",
+      "sha256": "e1e6e36cd26070d7988c7903b93392afb1f10febfacf13d2a8b2c856977917d4"
+    },
+    {
+      "file": "sealed/sealed_G_doubled_base2_D4.csv",
+      "sha256": "4699c16b0884c9be15b999f0a9d3491592284c1384dff8c2ab39e70cf4f39478"
+    },
+    {
+      "file": "sealed/sealed_Kminus_doubled_base2_D4.csv",
+      "sha256": "95557a931897803708e67e0c517f977aa939b6812e7ac84fef86b780269a0c29"
+    },
+    {
+      "file": "sealed/sealed_G_doubled_base3_D6.csv",
+      "sha256": "a635bb447b01f2815f830632c5ea6966813d48221b4a1a7183f1afe1422f14ba"
+    },
+    {
+      "file": "sealed/sealed_Kminus_doubled_base3_D6.csv",
+      "sha256": "363fd114616f5113a7eaf5e3b622985199251b49a6b7c24e0ab23a2749e89e36"
+    },
+    {
+      "file": "sealed/sealed_G_doubled_base5_D10.csv",
+      "sha256": "6f22584b64961bded549c3ef46f4ed5c6eedd8bc5323ada3a6b8c520a3d343ef"
+    },
+    {
+      "file": "sealed/sealed_Kminus_doubled_base5_D10.csv",
+      "sha256": "c4dedae3092f4a16042d6a760df13fd2e1e893d13a84e6cb2f4efaf34cbf5dbb"
+    },
+    {
+      "file": "sealed/sealed_G_doubled_base6_D12.csv",
+      "sha256": "6fdf9e7e4b7d22516e41dcf7ace6d2b753204d4a286045ba78cfeff7a9904441"
+    },
+    {
+      "file": "sealed/sealed_Kminus_doubled_base6_D12.csv",
+      "sha256": "b18f098ed1cad692601b8c2036c22436c91ca5d53de90a0754a1a372dba2b179"
+    },
+    {
+      "file": "sealed/sealed_G_doubled_base7_D14.csv",
+      "sha256": "7b3162a861c0904092e0a856286357ebda233b908fac637c53865794d45a0426"
+    },
+    {
+      "file": "sealed/sealed_Kminus_doubled_base7_D14.csv",
+      "sha256": "fdf2d51380503a1498e6d6ef73206b470bd1e9f0b59e68688dc1dc4a4fcc5de2"
+    },
+    {
+      "file": "sealed/sealed_G_doubled_base8_D16.csv",
+      "sha256": "7fcee5ae148b8558f97be6e02e831e72852a3d34b067fa8ad83aacb486b67ec1"
+    },
+    {
+      "file": "sealed/sealed_Kminus_doubled_base8_D16.csv",
+      "sha256": "f5a80210fa014e374e95f1acd7d1c13692d6252ed99212425e6bdaf61cdeb770"
+    },
+    {
+      "file": "sealed/sealed_G_doubled_base12_D24.csv",
+      "sha256": "4383809f31769a2d9f57298948985aceb82127453bc3b9669a4ce10053bb1794"
+    },
+    {
+      "file": "sealed/sealed_Kminus_doubled_base12_D24.csv",
+      "sha256": "bdeeb13dc2a29fab8aafadec38af7b957ebdd61bfde8dfa9c4e3f6a5e01a3773"
+    },
+    {
+      "file": "sealed/sealed_G_doubled_base13_D26.csv",
+      "sha256": "9112d80f45fa9e045a1281a65b2b2783099f831c56035919418d9f8c40b3ac30"
+    },
+    {
+      "file": "sealed/sealed_Kminus_doubled_base13_D26.csv",
+      "sha256": "04f9a6b682ebfc38496d5195c3b08e4870cafa266a3a16199a0d9bfcd4a4802b"
+    },
+    {
+      "file": "sealed/sealed_G_doubled_base15_D30.csv",
+      "sha256": "08e45186e2a23665420d5395e31ef59bae78cb5e5f0826800a42ad5d13b8d1e3"
+    },
+    {
+      "file": "sealed/sealed_Kminus_doubled_base15_D30.csv",
+      "sha256": "5367d60ff5b0699b729547a49d898d01469253aab78be477058c13f3499b5a32"
+    },
+    {
+      "file": "sealed/sealed_G_doubled_base30_D60.csv",
+      "sha256": "38e9df14a3d2638a0f3d4c9171d47d0b9c2570c010294653a35d21f347a7d8a6"
+    },
+    {
+      "file": "sealed/sealed_Kminus_doubled_base30_D60.csv",
+      "sha256": "00120b8a38d36730910bc97b2c9b003df7fff4121a50aa0357963e72a0301cb4"
+    },
+    {
+      "file": "sealed/sealed_G_doubled_base60_D120.csv",
+      "sha256": "8e27d72aff1c78383547c031a4f2c6ff671ad62c10d288e9f815d89418ca3689"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+cell,claim,expected_output
+1,Canonical K_N and G_N definitions,PASS and inline figure
+2,Even N sweep passes unitarity/reversal/polarization,PASS table + figure
+3,Negative controls fail where expected,PASS table + figure
+4,Odd N self twist boundary,PASS table + figure
+5,SymPy exact-expression small N attack,PASS table

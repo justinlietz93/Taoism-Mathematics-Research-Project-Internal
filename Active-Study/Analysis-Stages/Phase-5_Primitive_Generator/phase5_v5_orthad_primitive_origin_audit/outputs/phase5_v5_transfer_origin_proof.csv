@@ -1,0 +1,4 @@
+object,origin_equation,meaning,status
+Kminus,Kminus @ sigma_N = diag(exp(-2pi i s/N)) @ Kminus,source-to-dual transfer diagonalizes earned successor,PASS
+Kplus,Kplus @ sigma_N = diag(exp(+2pi i s/N)) @ Kplus,reverse-orientation dual transfer,PASS
+G,G(r)=exp(2pi i * r^2/(2N)),"quadratic refinement of reverse transfer pairing B+(r,s)=rs/N",PASS_FOR_EVEN_N

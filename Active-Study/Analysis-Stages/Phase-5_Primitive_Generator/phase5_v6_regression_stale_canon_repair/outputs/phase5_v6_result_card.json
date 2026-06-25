@@ -1,0 +1,7 @@
+{
+  "STATUS": "REGRESSION_PROTECTED_CANON_REPAIR_GUIDE_EMITTED",
+  "GLOBAL_PASS": true,
+  "PHASE5_CLOSED": false,
+  "CORRECTED_ORTHAD_CANON": "overset dual-lens readout",
+  "PROTECTIVE_RESULT": "old failures now regression tests; stale doc patterns emitted as repair rules"
+}

@@ -1,0 +1,6 @@
+choice_point,status,effect
+finite cyclic carrier closure,CANON_DEPENDENCY,"Without a single N-cycle successor, the dual character chart is not uniquely the cyclic cochain basis."
+basepoint W_0,GAUGE,Translates residue labels and multiplies transfer columns/rows by phases; does not change unitarity or generated representation after gauge accounting.
+orientation sign,ORIENTATION_DECLARATION,Minus sign gives forward transfer matching positive QBL direction; plus sign gives inverse/reverse transfer used for self-twist.
+normalization N^-1/2,FORCED,Unitarity fails without it.
+even N for quadratic self-twist,STRUCTURAL_BOUNDARY,q(r)=r^2/(2N) is well-defined on Z/NZ only for even N.

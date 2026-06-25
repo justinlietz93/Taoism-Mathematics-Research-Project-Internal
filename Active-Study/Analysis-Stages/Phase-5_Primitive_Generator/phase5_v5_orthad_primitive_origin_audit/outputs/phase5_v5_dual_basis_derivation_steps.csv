@@ -1,0 +1,7 @@
+step,statement,audit
+1,sigma_N is the cyclic successor induced by advancing one retained orientation history W_r -> W_(r+1).,earned from QBL orientation orbit
+2,A cochain chi_s is dual-chart legal iff chi_s(sigma_N x)=lambda_s chi_s(x).,definition of receiving chart as successor-stable readout
+3,sigma_N^N=id forces lambda_s^N=1.,finite closure condition
+4,lambda_s=exp(-2pi i s/N) enumerates the positive-orientation eigenvalues.,orientation sign fixed by QBL successor direction
+5,chi_s(e_r)=N^(-1/2) lambda_s^r follows from orbit recursion and unitarity normalization.,no modular target used
+6,"K_N(r,s)=chi_s(e_r) is the chart-transfer table.",computed before Weil target comparison

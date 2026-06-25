@@ -1,0 +1,61 @@
+folded_carrier_size_N,parity,representative_invariance_residual,passes,diagnosis
+1,odd,2.0,False,missing hand / folded carrier artifact
+2,even,4.898587196589413e-16,True,already orientation-doubled size
+3,odd,2.0,False,missing hand / folded carrier artifact
+4,even,3.925231146709438e-15,True,already orientation-doubled size
+5,odd,2.0,False,missing hand / folded carrier artifact
+6,even,7.264329320467945e-15,True,already orientation-doubled size
+7,odd,2.0,False,missing hand / folded carrier artifact
+8,even,7.778364116495458e-15,True,already orientation-doubled size
+9,odd,2.0,False,missing hand / folded carrier artifact
+10,even,1.4816382783292104e-14,True,already orientation-doubled size
+11,odd,2.0,False,missing hand / folded carrier artifact
+12,even,1.758503553725828e-14,True,already orientation-doubled size
+13,odd,2.0,False,missing hand / folded carrier artifact
+14,even,2.6231368529891942e-14,True,already orientation-doubled size
+15,odd,2.0,False,missing hand / folded carrier artifact
+16,even,1.5556728232990915e-14,True,already orientation-doubled size
+17,odd,2.0,False,missing hand / folded carrier artifact
+18,even,1.8872893422759583e-14,True,already orientation-doubled size
+19,odd,2.0,False,missing hand / folded carrier artifact
+20,even,2.96462810817985e-14,True,already orientation-doubled size
+21,odd,2.0,False,missing hand / folded carrier artifact
+22,even,4.3385658170259935e-14,True,already orientation-doubled size
+23,odd,2.0,False,missing hand / folded carrier artifact
+24,even,3.528468335072189e-14,True,already orientation-doubled size
+25,odd,2.0,False,missing hand / folded carrier artifact
+26,even,5.85492930404902e-14,True,already orientation-doubled size
+27,odd,2.0,False,missing hand / folded carrier artifact
+28,even,5.2436769012694517e-14,True,already orientation-doubled size
+29,odd,2.0,False,missing hand / folded carrier artifact
+30,even,4.514691590538691e-14,True,already orientation-doubled size
+31,odd,2.0,False,missing hand / folded carrier artifact
+32,even,3.295088644174519e-14,True,already orientation-doubled size
+33,odd,2.0,False,missing hand / folded carrier artifact
+34,even,4.0670935470921007e-14,True,already orientation-doubled size
+35,odd,2.0,False,missing hand / folded carrier artifact
+36,even,4.7036914676210685e-14,True,already orientation-doubled size
+37,odd,2.0,False,missing hand / folded carrier artifact
+38,even,7.008963783294922e-14,True,already orientation-doubled size
+39,odd,2.0,False,missing hand / folded carrier artifact
+40,even,5.929973371430479e-14,True,already orientation-doubled size
+41,odd,2.0,False,missing hand / folded carrier artifact
+42,even,6.959187969740185e-14,True,already orientation-doubled size
+43,odd,2.0,False,missing hand / folded carrier artifact
+44,even,9.258376397440202e-14,True,already orientation-doubled size
+45,odd,2.0,False,missing hand / folded carrier artifact
+46,even,1.0192282832817984e-13,True,already orientation-doubled size
+47,odd,2.0,False,missing hand / folded carrier artifact
+48,even,9.066772571167516e-14,True,already orientation-doubled size
+49,odd,2.0,False,missing hand / folded carrier artifact
+50,even,1.3034954789714915e-13,True,already orientation-doubled size
+51,odd,2.0,False,missing hand / folded carrier artifact
+52,even,1.1708642776741889e-13,True,already orientation-doubled size
+53,odd,2.0000000000000004,False,missing hand / folded carrier artifact
+54,even,7.249010354760863e-14,True,already orientation-doubled size
+55,odd,2.0,False,missing hand / folded carrier artifact
+56,even,1.049170744356274e-13,True,already orientation-doubled size
+57,odd,2.0,False,missing hand / folded carrier artifact
+58,even,1.352572572480862e-13,True,already orientation-doubled size
+59,odd,2.0,False,missing hand / folded carrier artifact
+60,even,1.2837594634980406e-13,True,already orientation-doubled size

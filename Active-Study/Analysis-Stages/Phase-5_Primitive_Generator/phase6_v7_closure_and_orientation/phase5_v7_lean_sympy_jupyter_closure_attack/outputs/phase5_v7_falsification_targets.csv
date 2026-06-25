@@ -1,0 +1,7 @@
+id,target,falsifier
+F1,Even N unitarity,Find even N where K_N K_N* != I beyond tolerance using canonical transfer.
+F2,Even N reversal,Find even N where K_N^2 is not orientation reversal.
+F3,Gauss polarization,Find even N where G(r+s)/(G(r)G(s)) does not equal reverse pairing.
+F4,Primitive-origin audit,Show eigen-cochain chart cannot be derived from QBL cyclic successor without importing Fourier.
+F5,Regression protection,A stale one-lens or macro-collision rule passes the same gates.
+F6,Lean closure,Local lake build fails in a theorem that cannot be repaired without weakening the canon.

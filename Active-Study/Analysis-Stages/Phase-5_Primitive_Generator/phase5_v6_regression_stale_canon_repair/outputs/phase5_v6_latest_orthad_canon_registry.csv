@@ -1,0 +1,9 @@
+law_id,name,statement,regression_risk
+O0,Primitive base fixed,"The primitive alphabet remains U={Q,B,L}; Q, B, and L are not renamed Weil generators and are not retuned.",S/T symbol collision; primitive relabeling; bare primitive comparison.
+O1,Orthad overset dual-lens,The Orthad is an overset dual-lens readout with point chart OmegaPlus and dual successor-cochain chart OmegaMinus.,one-lens diagonal-only Orthad canon.
+O2,Same-chart collapse,The old diagonal lens is preserved as the same-chart self-read/collapse subcase.,discarding the old trace or replacing it with a new gadget.
+O3,Cross-chart transfer,"Off-diagonal entries belong to transfer between complementary Orthad charts, not to a hand-admitted dense block inside one lens.",hand-admitted dense block; one-lens off-diagonal insertion.
+O4,Fourier generator,"K_N(r,s)=N^(-1/2) exp(-2πi r s/N) is generated as the cross-chart transfer coefficient for finite cyclic carrier A_N.",naming B/L dual seating as Fourier without derivation.
+O5,Gauss generator,G_N(r)=exp(πi r²/N) is generated as the same-chart quadratic self-twist of the reverse transfer pairing on even carriers.,naming Q square seating as Gauss without derivation.
+O6,Shadow split,Scalar mock-theta coefficients/readouts stay external; retained residue-orientation vectors and overset transfer/self-twist structure are carriable state.,over-broad Shadow Residual externality law.
+O7,Sealed comparison discipline,Native Orthad objects must be derived and frozen before comparison against external classical targets.,target-visible fitting or false pass.

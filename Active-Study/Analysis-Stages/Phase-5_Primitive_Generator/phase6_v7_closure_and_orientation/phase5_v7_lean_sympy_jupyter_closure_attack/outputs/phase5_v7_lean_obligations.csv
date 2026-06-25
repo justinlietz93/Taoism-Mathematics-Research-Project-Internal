@@ -1,0 +1,7 @@
+id,theorem,description,status
+L1,transfer_unitary,Kminus composed with conjugate transpose is identity on finite carrier,SURFACE_INCLUDED_LOCAL_BUILD_PENDING
+L2,transfer_square_reversal,Kminus squared is orientation reversal r -> -r,SURFACE_INCLUDED_LOCAL_BUILD_PENDING
+L3,transfer_fourth_identity,Kminus^4 is identity,SURFACE_INCLUDED_LOCAL_BUILD_PENDING
+L4,quadratic_polarizes_reverse_pairing,G(r+s)/(G(r)G(s)) equals reverse transfer pairing,SURFACE_INCLUDED_LOCAL_BUILD_PENDING
+L5,odd_N_self_twist_not_well_defined,Quadratic self twist fails representative invariance for odd N,SURFACE_INCLUDED_LOCAL_BUILD_PENDING
+L6,negative_controls_fail,Removing dual chart/self twist or normalization fails required gates,SURFACE_INCLUDED_LOCAL_BUILD_PENDING

@@ -1,0 +1,7 @@
+id,target,falsifier
+F1,Overset regression,A stale-assumption regression passes when it should fail under the canon.
+F2,Corrected result,Removing dual chart still generates Fourier transfer.
+F3,Corrected result,Removing quadratic self-twist still generates Gauss diagonal.
+F4,Documentation repair,A canonical document keeps S=Q/T=L or diagonal-only Orthad as current behavior without negative-control context.
+F5,Shadow split,A current law forbids retained orientation-residue vector carriage while still claiming Shadow re-entry.
+F6,Sealed discipline,A future pass compares against a classical target before native Orthad object is frozen.

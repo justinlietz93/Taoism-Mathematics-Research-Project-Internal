@@ -1,0 +1,52 @@
+{
+  "phase": "Phase 5 v5",
+  "target": "Orthad Primitive-Origin Audit",
+  "status": "PRIMITIVE_ORIGIN_SUPPORTED_WITH_EXPLICIT_CYCLIC_SUCCESSOR_DEPENDENCY",
+  "global_pass": true,
+  "phase5_closed": false,
+  "claim": "The overset point chart, dual cochain chart, cross-chart transfer, and quadratic self-twist are earned from the finite QBL cyclic successor plus unitarity/gauge rules, not imported from modular theory.",
+  "audit_N": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    24,
+    26,
+    28,
+    30,
+    32,
+    36,
+    40,
+    48,
+    52,
+    60
+  ],
+  "max_residuals": {
+    "eigen_equation": 1.4563257226390888e-14,
+    "unitarity": 7.7717303806762e-15,
+    "reversal": 2.2219492322787732e-14,
+    "fourth_power": 3.258996217320459e-14,
+    "quadratic_polarization": 1.1724848751412704e-13,
+    "post_seal_F": 0,
+    "post_seal_G": 0
+  },
+  "negative_controls_passed": true,
+  "sealed_before_comparison": true,
+  "hand_admitted_dense_block": false,
+  "external_modular_object_used_in_derivation": false,
+  "declared_canon_dependency": "finite cyclic orientation carrier A_N=Z/NZ with successor sigma_N induced by QBL histories W_r=(BQ)^r",
+  "choice_points": [
+    "finite cyclic carrier closure",
+    "basepoint W_0",
+    "orientation sign",
+    "normalization N^-1/2",
+    "even N for quadratic self-twist"
+  ],
+  "timestamp_utc": "2026-06-25T12:22:55.084499+00:00"
+}

@@ -1,0 +1,10 @@
+N,control,expected,residual,pass
+3,odd_N_quadratic_self_twist_well_definedness,FAIL,2.0,True
+5,odd_N_quadratic_self_twist_well_definedness,FAIL,2.0,True
+7,odd_N_quadratic_self_twist_well_definedness,FAIL,2.0,True
+9,odd_N_quadratic_self_twist_well_definedness,FAIL,2.0,True
+11,odd_N_quadratic_self_twist_well_definedness,FAIL,2.0,True
+13,odd_N_quadratic_self_twist_well_definedness,FAIL,2.0,True
+15,odd_N_quadratic_self_twist_well_definedness,FAIL,2.0,True
+21,odd_N_quadratic_self_twist_well_definedness,FAIL,2.0,True
+25,odd_N_quadratic_self_twist_well_definedness,FAIL,2.0,True

@@ -1,0 +1,6 @@
+N,claim,tool,unitarity_residual,reversal_residual,pass
+2,K_N unitarity and K_N^2 reversal,SymPy exact expressions + high precision eval,0.0,0.0,True
+4,K_N unitarity and K_N^2 reversal,SymPy exact expressions + high precision eval,0.0,0.0,True
+6,K_N unitarity and K_N^2 reversal,SymPy exact expressions + high precision eval,1.4459298331484686e-191,1.4459298331484686e-191,True
+8,K_N unitarity and K_N^2 reversal,SymPy exact expressions + high precision eval,1.402757983365378e-191,1.402757983365378e-191,True
+12,K_N unitarity and K_N^2 reversal,SymPy exact expressions + high precision eval,1.4459298331484686e-191,1.4459298331484686e-191,True

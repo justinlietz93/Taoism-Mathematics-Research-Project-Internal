@@ -1,0 +1,6 @@
+old_even_carrier_D,base_modulus_n,G_residual_old_vs_doubled,K_residual_old_vs_doubled,status
+8,4,0.0,0.0,same object under base-modulus renaming
+10,5,3.563539207208429e-15,0.0,same object under base-modulus renaming
+12,6,3.583802674971042e-15,0.0,same object under base-modulus renaming
+26,13,7.151249776876829e-15,0.0,same object under base-modulus renaming
+60,30,1.4226891858287598e-14,0.0,same object under base-modulus renaming

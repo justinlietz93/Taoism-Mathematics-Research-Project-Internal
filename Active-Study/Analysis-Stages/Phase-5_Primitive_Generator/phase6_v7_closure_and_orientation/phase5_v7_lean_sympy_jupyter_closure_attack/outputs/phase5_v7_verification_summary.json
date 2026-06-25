@@ -1,0 +1,23 @@
+{
+  "phase": "Phase 5 v7",
+  "title": "Lean/SymPy/Jupyter Closure Attack",
+  "status": "NUMERIC_SYMPY_CLOSURE_ATTACK_PASSED_LEAN_LOCAL_PENDING",
+  "global_pass": true,
+  "phase5_closed": false,
+  "even_N_sweep_count": 65,
+  "even_N_min": 2,
+  "even_N_max": 360,
+  "max_property_residual": 8.74312312065413e-13,
+  "max_post_seal_residual": 0.0,
+  "negative_controls_run": 25,
+  "negative_controls_passed": 25,
+  "odd_N_boundary_controls_run": 9,
+  "odd_N_boundary_controls_passed": 9,
+  "sympy_rows": 5,
+  "sympy_passed": 5,
+  "lean_binary_found": false,
+  "lake_binary_found": false,
+  "lean_execution_status": "LOCAL_PENDING_NO_LEAN_LAKE_BINARY",
+  "sealed_before_comparison": true,
+  "hand_admitted_dense_block": false
+}

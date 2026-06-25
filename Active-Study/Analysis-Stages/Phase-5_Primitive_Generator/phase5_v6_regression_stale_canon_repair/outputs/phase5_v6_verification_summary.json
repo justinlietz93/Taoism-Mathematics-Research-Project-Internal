@@ -1,0 +1,24 @@
+{
+  "phase": "Phase 5 v6",
+  "title": "Regression Against Failed Branches and Stale Canon Repair",
+  "status": "REGRESSION_PROTECTED_CANON_REPAIR_GUIDE_EMITTED",
+  "global_pass": true,
+  "phase5_closed": false,
+  "latest_corrected_result_preserved": true,
+  "failed_branches_regressed": 10,
+  "regression_tests_run": 20,
+  "regression_tests_passed": 20,
+  "stale_patterns_defined": 12,
+  "stale_hits_found": 9,
+  "stale_hit_counts": {
+    "ST02": 3,
+    "ST06": 1,
+    "ST07": 1,
+    "ST08": 1,
+    "ST05": 1,
+    "ST04": 2
+  },
+  "max_correct_transfer_unitarity_residual": 2.193788125145467e-15,
+  "max_correct_transfer_reversal_residual": 4.5777520714700915e-15,
+  "next_target": "Phase 5 v7: Lean/SymPy/Jupyter Closure Attack"
+}

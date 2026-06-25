@@ -1,0 +1,7 @@
+component,origin,external_import,status
+point_chart_OmegaPlus,orbit of earned QBL orientation successor sigma_N on histories W_r=(BQ)^r,NO,FORCED_BY_SUCCESSOR_ORBIT
+dual_chart_OmegaMinus,eigen-cochains of the same earned successor sigma_N,NO,FORCED_BY_DIAGONALIZING_SUCCESSOR
+normalization,unitarity of chart transfer and Parseval preservation,NO,FORCED_UP_TO_GLOBAL_UNIT_PHASE
+orientation_sign,positive QBL successor direction; opposite sign gives inverse transfer chart,NO,DECLARED_ORIENTATION_CHOICE
+basepoint,chosen origin W_0; translation gives gauge phase,NO,GAUGE_CHOICE
+quadratic_self_twist,unique even-carrier quadratic refinement of reverse-transfer bilinear pairing with q(0)=0,NO,FORCED_FOR_EVEN_N

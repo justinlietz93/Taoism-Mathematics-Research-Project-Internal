@@ -1,0 +1,24 @@
+{
+  "phase": "Phase 5 v7b: Doubled Orientation Carrier Test",
+  "status": "DOUBLED_ORIENTATION_CARRIER_RESOLVES_ODD_N_ARTIFACT",
+  "global_pass": true,
+  "phase5_closed": false,
+  "base_moduli_swept_count": 65,
+  "base_moduli_min": 1,
+  "base_moduli_max": 180,
+  "doubled_carrier": "D_n = Z/(2n)Z",
+  "twist": "G_D(a)=exp(pi i a^2/(2n)) = exp(pi i a^2/D)",
+  "transfer": "K_D(a,b)=D^(-1/2) exp(-2pi i a b/D)",
+  "max_residuals": {
+    "unitarity": 4.51673279695716e-14,
+    "reversal": 1.1589991119609344e-13,
+    "fourth": 1.7280289428536552e-13,
+    "polarization": 9.641409168821612e-13,
+    "postseal_K": 0.0,
+    "postseal_G": 0.0,
+    "rep_invariance": 8.389579290879644e-13
+  },
+  "folded_odd_boundary_reclassified": "artifact of using Z/nZ when q(a)=a^2/(2n) requires the orientation double Z/(2n)Z",
+  "even_carrier_law_replaced_by": "orientation-doubled carrier law",
+  "corrected_next_target": "Phase 5 v8: Final Phase 5 Canon Package with doubled-orientation carrier correction included"
+}
