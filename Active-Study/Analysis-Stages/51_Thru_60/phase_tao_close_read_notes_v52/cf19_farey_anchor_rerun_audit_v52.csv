@@ -1,0 +1,3 @@
+lift_start,rows,steps_to_floor,anchor_u,anchor_v,anchor_uv,hit_floor,anchor_is_55_89,floor_den,first_uv_ge_floor
+"1,1",10,9,55,89,4895,1,True,4096,True
+"1,2",9,8,55,89,4895,1,True,4096,True

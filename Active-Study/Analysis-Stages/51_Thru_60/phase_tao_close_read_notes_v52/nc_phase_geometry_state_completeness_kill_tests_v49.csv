@@ -1,0 +1,6 @@
+test,projection_used,lost_state,result,kill_condition
+visible Heisenberg projection only,"(m,n)",omega order charge,FAIL_STATE_COMPLETE,two retained states share visible projection but differ in omega
+visible commutator residual only,"(0,0)",central commutator charge m*nprime-mprime*n,FAIL_STATE_COMPLETE,projected residual vanishes while lifted residual is nonzero
+primitive B origin corridor only,"canonical (1,1) Fibonacci path",non-origin/asymmetric start state,FAIL_AS_GENERAL_B_DEFINITION,B can begin from arbitrary carried pair
+operator word without action registry,word symbols only,sheet/action mapping,FAIL_STATE_COMPLETE,same word can map to distinct retained action in branch grammar
+readout after retained execution,boundary channel after completed carrier exists,none for terminal reporting; not reusable as full state unless declared,PASS_TERMINAL_READOUT,do not feed scalar readout back as carrier
