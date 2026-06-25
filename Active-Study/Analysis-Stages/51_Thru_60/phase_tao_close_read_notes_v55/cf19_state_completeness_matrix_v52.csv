@@ -1,0 +1,7 @@
+system,candidate_projection,state_complete_for_next_transition,missing_state,bridge_effect
+CF19/Farey origin witness,"anchor pair (55,89) alone",NO,"start/lift, floor_den, step count, carried recurrence path","supports anchor evidence, not full custody"
+CF19 ASM Farey runner,terminal CSV row,NO,all prior B steps and floor admission rule,terminal projection is useful witness but not object
+xi_full_engine,live_word alone,NO,"A, theta_ticks, kappa, q=(u,v), floor_den, window_ready",confirms word-only readout is not enough
+xi_full_engine,"q=(u,v) alone",NO,"articulation A, theta/kappa, lowbit/live_word, carry event state","q carried, but not whole Orthad state"
+Tdelta kernel,event tick,NO,"reset semantics, q cycle, A class, u/v path",branch-local witness; stale against corrected carried-L rule
+Ramanujan residual windows,edge coefficient scalar,NO,"corridor index, u/v, truncation M, q, vacuum sign channel",external residual readout must remain terminal

@@ -1,0 +1,8 @@
+figure_file,message,bridge_gate,v49_status,packaging_policy
+fig01_hidden_order_commutator.pdf,The commutator changes the hidden order register while the visible projection stays fixed.,projection_loss_hidden_order,AUDITED_FROM_MANIFEST_AND_VALIDATION_JSON,figure bytes excluded; source repo already carries renders
+fig02_commutator_residuals.pdf,"Full lifted commutator residuals are nonzero, but projected residuals vanish.",full_vs_projected_residual,AUDITED_FROM_MANIFEST_AND_VALIDATION_JSON,figure bytes excluded; source repo already carries renders
+fig03_gaussian_saturation.pdf,The Gaussian branch saturates the projected uncertainty bound.,projected_uncertainty_bound,AUDITED_FROM_MANIFEST_AND_VALIDATION_JSON,figure bytes excluded; source repo already carries renders
+fig04_omega_curvature_integer.pdf,Order curvature is an integer area from commutator vectors.,integer_order_curvature,AUDITED_FROM_MANIFEST_AND_VALIDATION_JSON,figure bytes excluded; source repo already carries renders
+fig05_quintic_commutator_matrix.pdf,The quintic commutator moves hidden sheets through a sparse signed matrix.,hidden_sheet_sparse_action,AUDITED_FROM_MANIFEST_AND_VALIDATION_JSON,figure bytes excluded; source repo already carries renders
+fig06_balanced_corridor_anchor.pdf,"Balanced refinement reaches the canonical anchor (55,89) at depth 9.",canonical_origin_B_anchor,AUDITED_FROM_MANIFEST_AND_VALIDATION_JSON,figure bytes excluded; source repo already carries renders
+fig02_commutator_residuals,Full lifted commutators remain nonzero after visible projection erases them.,full_vs_projected_residual_fixed_render,FIXED_MANIFEST_AUDITED,figure bytes excluded; source repo already carries renders

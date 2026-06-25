@@ -1,0 +1,64 @@
+{
+  "all_gates_pass": true,
+  "ancient_yi": {
+    "n63_lsd_digits": [
+      7,
+      7
+    ],
+    "n64_lsd_digits": [
+      0,
+      0,
+      1
+    ]
+  },
+  "gates": {
+    "ancient_yi_lsd_first_63_to_64_carry_ok": true,
+    "corrected_L_carries_q": true,
+    "old_T_witness_layer_does_not_carry_q_on_nonorigin_state": true,
+    "sympy_projection_noninjective_hidden_coordinate": true,
+    "visible_projection_collision_exists": true,
+    "visible_projection_not_state_complete_for_next_B": true
+  },
+  "states": {
+    "corrected_L": {
+      "A": 7,
+      "rank": 7,
+      "theta": 31,
+      "u": 55,
+      "v": 89,
+      "word": "((BQ)^6L)^5(BQ)^6L"
+    },
+    "input": {
+      "A": 6,
+      "rank": 6,
+      "theta": 30,
+      "u": 55,
+      "v": 89,
+      "word": "((BQ)^6L)^5(BQ)^6"
+    },
+    "old_T_witness_layer": {
+      "A": 7,
+      "rank": 7,
+      "theta": 31,
+      "u": 1,
+      "v": 7,
+      "word": "((BQ)^6L)^5(BQ)^6T"
+    },
+    "visible_collision_a": {
+      "A": 0,
+      "rank": 1,
+      "theta": 0,
+      "u": 1,
+      "v": 1,
+      "word": ""
+    },
+    "visible_collision_b": {
+      "A": 5,
+      "rank": 6,
+      "theta": 4,
+      "u": 55,
+      "v": 89,
+      "word": "W"
+    }
+  }
+}

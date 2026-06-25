@@ -1,0 +1,11 @@
+system,gate,status,metric,value,threshold_or_control,bridge_reading
+Double pendulum projection disproof,visible_projection_state_complete,FAIL_CONTROL_CONFIRMED,same_visible_state_different_next_visible_motion,"0.9620291861524558, -0.9428526522558323",must be zero for deterministic quotient,projection that drops carried momentum cannot author exact branch evolution
+Double pendulum native stepper,energy_gate_under_native_discrete_gradient,PASS,CIDG_max_abs_drift_gate,PASS in final verdict; RK4 negative FAIL,<=1e-10 drift and residual <=1e-9,native retained update can preserve energy while generic projected integrator fails gate
+Pendulum lifted trace,lifted_forecast,PASS,lifted_event_prediction_max_abs_error,7.105427357601002e-15,near 1e-14,retained lifted state forecasts event/cycle timing
+Pendulum visible-only trace,visible_angle_only_forecast,FAIL_CONTROL_CONFIRMED,visible_angle_only_mean_event_error,3.681666666666666,should be near zero to replace lifted state,visible angles alone are not custody-complete
+Pendulum reconstruction,event_stream_reconstruction,PASS,reconstruction_max_abs_error,1.4210854715202004e-14,<=1e-14 scale,event stream plus retained lift reconstructs; memory drop attacks fail
+N-body event word only,event_word_only_continuous_state_complete,FAIL_CONTROL_CONFIRMED,event_word_only_continuous_state_error,1.8923112444399534e-11,<=1e-14 required; observed fails,"word alone is branch memory, not complete continuous state"
+N-body word plus anchor,event_word_plus_anchor_state_complete,PASS,event_word_plus_anchor_continuous_state_error,0.0,<=1e-14,lifted anchor plus word is state-complete for replay
+N-body shadow fleet,branch_memory_sync,PASS,min_event_sync_fraction,1.0,>=0.95,event-word channel preserves branch memory across shadow fleet
+N-body float energy,float_integrator_energy_gate,FAIL_LOGGED_NOT_HIDDEN,max_abs_void_debt,6.685244421156256e-06,machine epsilon hard check fails,"negative result is retained as projection/integrator debt, not hidden"
+SymPy/Poisson surface,symbolic_closure,PASS,hamiltonian_residuals_and_poisson_antisymmetry,"{'nbody_hamiltonian_residual_zero': True, 'pendulum_hamiltonian_residual_zero': True, 'poisson_antisymmetry_pass': True}",all true / residual zero,symbolic gate confirms conservative closure surface
