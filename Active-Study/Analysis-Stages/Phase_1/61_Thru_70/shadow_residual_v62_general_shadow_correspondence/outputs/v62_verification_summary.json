@@ -1,0 +1,23 @@
+{
+  "status": "SECOND_CASE_WORKS_ON_FULL_RETAINED_RESIDUE_CARRIER",
+  "global_pass": true,
+  "case_1_closed_instance": "m=6, modulus 12, chi12, exponent n^2/24",
+  "case_2_new_test": "m=4, modulus 8, chi8, exponent n^2/16",
+  "result": "The projection-loss mechanism persists. The n-weighted bilateral channel cancels; the positive orientation readout is nonzero; the coefficient-stripped channel is the weight-1/2 shadow; S/T multipliers are forced by the retained finite quadratic module.",
+  "boundary": "The chi8 scalar character compression is not T-stable. The full retained residue carrier, or the 2D chi8/odd-indicator orbit, is required.",
+  "residuals": {
+    "F8_unitarity_max_abs": 7.062098392711005e-16,
+    "F8_square_reversal_max_abs": 1.2139693544093743e-15,
+    "chi8_S_eigen_max_abs": 1.5632082117998628e-15,
+    "chi8_T_to_odd_indicator_max_abs": 2.092556886098636e-15,
+    "odd_indicator_T_to_chi8_max_abs": 2.092556886098636e-15,
+    "chi8_scalar_T_eigen_failure_min_residual": 1.4142135623730951,
+    "chi8_scalar_T_eigen_best_lambda_real": 1.6653345369377348e-16,
+    "chi8_scalar_T_eigen_best_lambda_imag": -4.718447854656915e-16,
+    "chi8_scalar_T_eigen_best_residual": 1.0000000000000002,
+    "chi12_S_eigen_max_abs": 5.126297777653476e-15,
+    "chi12_T_scalar_eigen_max_abs": 3.2581783028960286e-15
+  },
+  "conjecture": "For unary false-theta/mock-shadow channels carried by a finite quadratic module A with an even orientation coefficient vector a, the shadow map is the Phase Calculus projection-loss gate in the modular setting: the retained positive-orientation readout gives the false/mock side, and the symmetric scalar projection gives the lower-weight shadow/surviving modular channel.",
+  "falsifier": "A unary false-theta/mock-shadow pair with even orientation coefficients and declared finite quadratic module whose known S/T multiplier cannot be recovered from the retained residue carrier T phase and S Gauss kernel, or whose shadow is not the coefficient-stripped symmetric projection of the same carried state."
+}

@@ -1,9 +1,0 @@
-M1 finite word closure: PASS
-M2 sheet commutation: PASS
-M3 history retention: PASS
-M4 projection loss: PASS
-M5 commutator nonidentity: PASS
-SymPy commutator nonidentity: PASS
-Double cover same stripped visible: PASS
-Double cover different full register: PASS
-FINAL_RESULT: PASS

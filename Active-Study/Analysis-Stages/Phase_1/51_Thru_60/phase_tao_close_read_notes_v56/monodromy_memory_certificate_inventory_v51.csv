@@ -1,0 +1,7 @@
+claim_id,source_status,claim,bridge_use,phase_gate
+M1,PROVEN,homotopy-class update closure,transition closure for retained branch/history state,admissible transition closure
+M2,PROVEN,exact sheet quotient law,sheet quotient/readout commutes with retained action,projection/readout compatibility
+M3,PROVEN,full-register transition equality iff retained loop class equality,full register is faithful to retained loop class,state-complete retained register
+M4,PROVEN,stripped visible projection is not faithful,visible projection is non-faithful negative control,projection-loss kill test
+M5,PROVEN,quotient commutation is not quotient injectivity,quotient/readout law does not imply injectivity,quotient hygiene / no scalar replacement
+CE1,PROVEN,double-cover counterexample to visible-iff-full statement,same visible projection can hide different full register transition,negative control against visible-iff-full drift

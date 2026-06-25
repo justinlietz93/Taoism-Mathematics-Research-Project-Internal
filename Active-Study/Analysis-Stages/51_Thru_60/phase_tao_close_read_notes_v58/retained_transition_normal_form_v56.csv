@@ -1,6 +1,0 @@
-symbol,role,requirement,examples
-S,retained state/carrier,must contain all fields needed for next admissible transition,Orthad Xi_hat/q/theta/rank; Yi line/place carrier; Wilhelm six lines + selected line; Pencil chart+basis+channel; MFE field+boundary registry
-O,operator family,"legal transitions are selected from retained state, not scalar readout alone",Q/B/L; base-8 successor/carry; line flip/selected line; Yin-Yang transform/interpolation; RHS/boundary callbacks
-W,emitted word/history,records transition path but may be insufficient without action registry or carrier fields,Orthad primitive word; monodromy loop; branch grammar primitive word collision
-P,projection/readout,terminal unless state-complete for O,decimal/octal label; semantic text; AIA image; chart components; Shadow comparison channel
-K,invariant/custody gate,state transfer across lift/re-chart must preserve required invariants or declared carried fields,q/theta carry; vector norm/basis transform; MHD divergence/boundary fields; branch registry

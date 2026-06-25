@@ -1,8 +1,0 @@
-stage,code_anchor,mechanism,orthad_bridge
-initialize,main.F -> initialize -> field_init,MPI/domain setup; retained grid; restart/full field loading,retained state before readout
-state custody,"ModField arrays d,eint,v1/v2/v3,b1/b2/b3,q,tfield",full 3D field carried in memory; q heat flux conditionally included,"Xi_hat-like carried state, not scalar projection"
-boundary custody,ModBval.F bvald/bvalei/bvalv/bvalemf*; Liu2022 get*ib/jb/kb,ghost zones and EMF boundary values filled before updates,admissible continuation requires boundary channel completion
-time step,ModIteration_sts.F rk3step: derivs + nonideal derivs_cond + update,three-stage RK evolution; floors and boundary calls after updated fields,custody word/update before terminal output
-ideal channel,ModRHS.F derivs; EMF terms v x B,field evolution via RHS and EMF edge arrays,J-like reversible/transport channel candidate
-nonideal channel,probs/Liu2022/ModNonIdealRHS.F derivs_cond,field-aligned thermal conduction with flux limiter qlim and relaxation tau_hc,M-like dissipative/constraint channel candidate
-projection/output,main.F writedata_mpi/writegrid/writerst_mpi; IDL/python readers,field outputs/restarts and visualization after evolution,projection/readout after retained state evolution

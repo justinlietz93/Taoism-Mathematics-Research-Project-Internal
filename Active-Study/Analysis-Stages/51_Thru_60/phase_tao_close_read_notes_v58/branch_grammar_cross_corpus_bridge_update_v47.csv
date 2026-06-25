@@ -1,7 +1,0 @@
-corpus,new_constraint_from_v47,bridge_status
-Corrected Orthad,"Primitive word is meaningful because Q/B/L semantics are fixed by canon; still requires retained q, theta, rank, axis/latch state.",STRENGTHENED_STATE_COMPLETENESS_GATE
-Ancient Yi,Decimal/octal/binary string is not enough unless digit-order and line-symbol carrier convention are retained.,STRENGTHENED_READOUT_DISCIPLINE
-Wilhelm / King Wen,Ordinal adjacency is not state-complete; retained six-line carrier plus operation family R/C/RC is required.,STRENGTHENED_OPERATION_CARRIER_GATE
-MFE / Liu,Diagnostic/output channels are not the state; module/callback registry and full field variables are retained transition carrier.,STRENGTHENED_CUSTODY_GATE
-TDAHE,Scalar Hall readout is not enough; retained branch register and field-order action are required.,CONFIRMED_PROJECTION_LOSS_GATE
-Universal branch grammar,"For arbitrary branch surfaces, operator_word alone can collide; generator registry is first-class retained carrier data.",NEW_INTERNAL_GATE

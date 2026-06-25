@@ -1,0 +1,6 @@
+row_id,old_status,new_status,remaining_task
+bridge_residual_blocker,reference-bridge-open; Shadow remains external,retained-orientation-channel-open,two-orientation vector-valued unary-theta completion; explicit weight-3/2 multiplier and eta shadow proof
+claim_dependency_graph,C09_shadow_external_reference / REFERENCE_OPEN,C09_shadow_retained_orientation_channel / POSITIVE_HALF_FALSE_THETA_IDENTIFIED_EXPLICIT_MULTIPLIER_PENDING,Vector-valued unary-theta multiplier proof and Eichler-integral completion for chi12 n q^(n^2/24)
+cross_corpus_kernel,EXTERNAL_REFERENCE_NOT_LOADED,RETAINED_ORIENTATION_CHANNEL / QUANTUM_MODULAR / EXPLICIT_MULTIPLIER_PENDING,Explicit multiplier/completion
+note_66_result,Shadow remains external to Phase custody,Shadow closes inside Phase custody as retained orientation channel,Explicit two-orientation vector-valued multiplier/completion with eta shadow
+follow_spec,not loaded into lift / external reference,not loaded as scalar cargo; orientation channel internal to lift,Vector-valued/oriented readout before scalar comparison

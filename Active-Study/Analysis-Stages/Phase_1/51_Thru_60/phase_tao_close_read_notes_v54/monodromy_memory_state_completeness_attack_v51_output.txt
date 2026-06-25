@@ -1,0 +1,4 @@
+double_cover_visible_collision: PASS
+double_cover_full_register_changed: PASS
+quintic_commutator_nonidentity: PASS
+FINAL_RESULT: PASS

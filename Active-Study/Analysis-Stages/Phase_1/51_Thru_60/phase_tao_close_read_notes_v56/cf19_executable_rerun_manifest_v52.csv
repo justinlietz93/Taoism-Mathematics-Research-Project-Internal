@@ -1,0 +1,7 @@
+surface,rerun,artifact,gate,canon_status
+overflow_to_55_89_code.py,PASS,cf19_overflow_to_55_89_summary_rerun_v52.csv,"canonical origin and smallest lift hit (55,89), uv=4895",INTERNAL_ORIGIN_WITNESS
+farey_balanced_anchor_runner + kernel.S,PASS,cf19_farey_anchor_rerun_audit_v52.csv,"ASM runner reproduces (1,1)/(1,2) anchor convergence",INTERNAL_EXECUTABLE_WITNESS
+xi_full_engine_runner + kernel.S,PASS,cf19_xi_engine_articulation_class_audit_v52.csv,retained state fields expose carry_event/A/theta/kappa/q/window readiness,OLDER_INTERNAL_STATE_SURFACE
+kernel_run_Tdelta_balanced,PASS,cf19_Tdelta_kernel_class_audit_v52.csv,branch-local transfer/reset behavior identified,STALE_OR_BRANCH_LOCAL_WITNESS_NOT_CORRECTED_ORTHAD
+ramanujan_residual_balanced_windows_code.py,PASS,cf19_ramanujan_residual_gate_audit_v52.csv,1/24 edge and 1/12 full-germ residual pattern reproduced,SHADOW_EXTERNAL_REFERENCE_BRIDGE_NOT_CLOSURE
+validation/cf19_extension_sympy.py,PASS,cf19_extension_sympy_output_rerun_v52.json,quarter-twisted branch differs from classical at index 2; residue rules classified,HOST_TWIST_SELECTOR_SURFACE_BRIDGE

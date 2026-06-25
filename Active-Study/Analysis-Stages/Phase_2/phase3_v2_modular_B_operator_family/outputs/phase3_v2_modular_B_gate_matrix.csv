@@ -1,0 +1,4 @@
+domain,retained_state,refinement_law,progress_gate,completion_gate,lift_gate,projection_loss_gate,status,falsifier
+Phase/Farey,"ordered denominator pair q=(u,v)","B(u,v)=sort(v,u+v)",True,True,True,True,FULL_MODULAR_B_SCHEMA_INSTANCE_NATIVE,Find u<=v where B fails strict product progress or product-only projection determines next B-image.
+Ancient Yi octal-place,least-significant-first octal digit tuple plus active place-domain length,successor/carry in base 8,True,True,True,True,FULL_MODULAR_B_SCHEMA_INSTANCE_EXTERNAL,Find a Yi source row contradicting LSD-first carry/lift or proving scalar value alone determines same-domain versus lift behavior.
+Wilhelm six-line mutation,six-line carrier plus selected line,single-line flip on Q_6 hypercube,True,False,False,True,CARRIER_TRANSITION_INSTANCE_COMPLETION_SOURCE_OPEN,Find an intrinsic Wilhelm rule in the table that forces selected-line choice and completion/lift without an external changing-line/oracle context.

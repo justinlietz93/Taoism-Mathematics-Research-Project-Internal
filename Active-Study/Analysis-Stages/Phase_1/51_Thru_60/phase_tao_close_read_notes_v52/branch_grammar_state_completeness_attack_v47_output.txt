@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/mnt/data/phase_tao_close_read/scripts/branch_grammar_state_completeness_attack_v47.py", line 8, in <module>
+    s1 = sp.Permutation(1, 0, 2, 3, 4)
+         ^^^^^^^^^^^^^^
+AttributeError: module 'sympy' has no attribute 'Permutation'
+
+EXIT=1

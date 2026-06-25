@@ -1,0 +1,5 @@
+domain,projection,state_a,state_b,projection_a,projection_b,next_a,next_b,collision_projection_equal,next_transition_differs,gate
+Phase/Farey,product uv only,"(1,6)","(2,3)",6,6,"(6,7)","(3,5)",True,True,PASS
+Ancient Yi octal-place,active low digit only,7,77,7,7,01,001,True,True,PASS
+Ancient Yi octal-place,scalar value only,0,00,0,0,1,10,True,True,PASS
+Wilhelm six-line mutation,"carrier bits only, selected line omitted",111111:line1,111111:line6,111111,111111,111110,011111,True,True,PASS

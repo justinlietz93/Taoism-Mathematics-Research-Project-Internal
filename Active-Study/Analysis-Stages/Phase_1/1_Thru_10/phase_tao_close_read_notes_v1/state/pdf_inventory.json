@@ -1,0 +1,596 @@
+[
+  {
+    "id": 1,
+    "path": "Modular-Forms/MFLecture1.pdf",
+    "pages": 63,
+    "bytes": 256001,
+    "text_chars": 36896,
+    "text_file": "text/pdf_texts/f12ba497b601__Modular-Forms_MFLecture1.pdf.txt",
+    "title_guess": "Modular forms | Herbert Gangl"
+  },
+  {
+    "id": 2,
+    "path": "Modular-Forms/Zagier123ModularForms.pdf",
+    "pages": 103,
+    "bytes": 1288023,
+    "text_chars": 330181,
+    "text_file": "text/pdf_texts/3c8adecf1e3e__Modular-Forms_Zagier123ModularForms.pdf.txt",
+    "title_guess": "Elliptic Modular Forms and Their Applications | Don Zagier"
+  },
+  {
+    "id": 3,
+    "path": "Phase-Calculus-PDFs/CF000_Primitive_Distinguishability.pdf",
+    "pages": 24,
+    "bytes": 284505,
+    "text_chars": 87040,
+    "text_file": "text/pdf_texts/1a602c39bd47__Phase-Calculus-PDFs_CF000_Primitive_Distinguishability.pdf.txt",
+    "title_guess": "CF000: P RIMITIVE D ISTINGUISHABILITY | AND O RTHOGONAL A RTICULATION"
+  },
+  {
+    "id": 4,
+    "path": "Phase-Calculus-PDFs/CF00_Induced_Geometry.pdf",
+    "pages": 33,
+    "bytes": 70614,
+    "text_chars": 77066,
+    "text_file": "text/pdf_texts/49dd60a47025__Phase-Calculus-PDFs_CF00_Induced_Geometry.pdf.txt",
+    "title_guess": "CF00: Lifted-State Induced Geometry and Emergent | Dynamics"
+  },
+  {
+    "id": 5,
+    "path": "Phase-Calculus-PDFs/CF13.pdf",
+    "pages": 7,
+    "bytes": 322082,
+    "text_chars": 23367,
+    "text_file": "text/pdf_texts/5150c383987f__Phase-Calculus-PDFs_CF13.pdf.txt",
+    "title_guess": "CF13: The Half-Turn Branch | \u03c0, Chirality, and Nielsen\u2013Ninomiya Pairing"
+  },
+  {
+    "id": 6,
+    "path": "Phase-Calculus-PDFs/CF19_The_Full_Lifted_Object.pdf",
+    "pages": 18,
+    "bytes": 588440,
+    "text_chars": 73030,
+    "text_file": "text/pdf_texts/a84f209e7430__Phase-Calculus-PDFs_CF19_The_Full_Lifted_Object.pdf.txt",
+    "title_guess": "CF19: Full Lifted Object of the Primitive Roll | Exact Return and Host-Twisted Branch Extensions"
+  },
+  {
+    "id": 7,
+    "path": "Phase-Calculus-PDFs/Domesticating_Chaos_Projection_Loss_Accounting_in_Phase_Calculus.pdf",
+    "pages": 16,
+    "bytes": 1121425,
+    "text_chars": 51273,
+    "text_file": "text/pdf_texts/b5c9b645dd46__Phase-Calculus-PDFs_Domesticating_Chaos_Projection_Loss_Accounting_in_Phase_Calculus.pdf.txt",
+    "title_guess": "D OMESTICATING C HAOS : P ROJECTION -L OSS ACCOUNTING IN | P HASE C ALCULUS"
+  },
+  {
+    "id": 8,
+    "path": "Phase-Calculus-PDFs/Farey_Remainder_Recursion_and_Orthogonality.pdf",
+    "pages": 7,
+    "bytes": 300918,
+    "text_chars": 22642,
+    "text_file": "text/pdf_texts/af78fcacb201__Phase-Calculus-PDFs_Farey_Remainder_Recursion_and_Orthogonality.pdf.txt",
+    "title_guess": "Farey Remainder Recursion | and Orthogonal Re-Articulation:"
+  },
+  {
+    "id": 9,
+    "path": "Phase-Calculus-PDFs/Monodromy_as_Memory.pdf",
+    "pages": 4,
+    "bytes": 264785,
+    "text_chars": 11492,
+    "text_file": "text/pdf_texts/f21380dd17bc__Phase-Calculus-PDFs_Monodromy_as_Memory.pdf.txt",
+    "title_guess": "Monodromy as Memory: Quotient Commutation | Is Not Quotient Injectivity"
+  },
+  {
+    "id": 10,
+    "path": "Phase-Calculus-PDFs/Operation_Descent_in_Phase_Calculus.pdf",
+    "pages": 4,
+    "bytes": 324908,
+    "text_chars": 11003,
+    "text_file": "text/pdf_texts/c80e18a031db__Phase-Calculus-PDFs_Operation_Descent_in_Phase_Calculus.pdf.txt",
+    "title_guess": "Primitive Operation Descent in Phase Calculus | From Survivor Mark to Arithmetic, \u03c0, Calculus, and EML"
+  },
+  {
+    "id": 11,
+    "path": "Phase-Calculus-PDFs/Operational_Utility_and_Multiscale_Invariance_of_Phase_Calculus.pdf",
+    "pages": 20,
+    "bytes": 1043063,
+    "text_chars": 70671,
+    "text_file": "text/pdf_texts/56de13e00164__Phase-Calculus-PDFs_Operational_Utility_and_Multiscale_Invariance_of_Phase_Calculus.pdf.txt",
+    "title_guess": "Operational Utility and Multiscale Invariance of | Phase Calculus:"
+  },
+  {
+    "id": 12,
+    "path": "Phase-Calculus-PDFs/Phase_Calculus_Complete_Formalisation.pdf",
+    "pages": 77,
+    "bytes": 604996,
+    "text_chars": 179494,
+    "text_file": "text/pdf_texts/bbde4890a01c__Phase-Calculus-PDFs_Phase_Calculus_Complete_Formalisation.pdf.txt",
+    "title_guess": "Phase Calculus | Complete Formalisation of the Primitive Roll, the Exact Lifted Object, the"
+  },
+  {
+    "id": 13,
+    "path": "Phase-Calculus-PDFs/Phase_Calculus_as_Universal_Exact_Grammar_for_Branching_Structures.pdf",
+    "pages": 11,
+    "bytes": 286310,
+    "text_chars": 30533,
+    "text_file": "text/pdf_texts/62a9b374fd46__Phase-Calculus-PDFs_Phase_Calculus_as_Universal_Exact_Grammar_for_Branching_Structures.pdf.txt",
+    "title_guess": "Phase Calculus as Universal Exact Grammar for Branching | Structures:"
+  },
+  {
+    "id": 14,
+    "path": "Phase-Calculus-PDFs/Primitive_Origin_and_Dependency_Chain.pdf",
+    "pages": 1,
+    "bytes": 200082,
+    "text_chars": 3022,
+    "text_file": "text/pdf_texts/f84dc447c7e7__Phase-Calculus-PDFs_Primitive_Origin_and_Dependency_Chain.pdf.txt",
+    "title_guess": "Origin and Dependency Chain for EML Placement | A Preprint"
+  },
+  {
+    "id": 15,
+    "path": "Phase-Calculus-PDFs/Quotient_Descent.pdf",
+    "pages": 10,
+    "bytes": 459171,
+    "text_chars": 38279,
+    "text_file": "text/pdf_texts/c6f5482939bc__Phase-Calculus-PDFs_Quotient_Descent.pdf.txt",
+    "title_guess": "Quotient Descent and the EML Operator | The Continuous Quotient of a Phase-Calculus Native Operator"
+  },
+  {
+    "id": 16,
+    "path": "Phase-Calculus-PDFs/TDAHE_Phase_Calculus_with_Experimental_Consequences.pdf",
+    "pages": 22,
+    "bytes": 581061,
+    "text_chars": 74769,
+    "text_file": "text/pdf_texts/e3ffe26f8e98__Phase-Calculus-PDFs_TDAHE_Phase_Calculus_with_Experimental_Consequences.pdf.txt",
+    "title_guess": "Retained Loop Projection and Branch-History Monodromy in | Transdimensional Anomalous Hall Transport"
+  },
+  {
+    "id": 17,
+    "path": "Phase-Calculus-PDFs/Transcendental_Wall_Inverse_Word_Certifier.pdf",
+    "pages": 8,
+    "bytes": 404639,
+    "text_chars": 17848,
+    "text_file": "text/pdf_texts/94907c27bdc7__Phase-Calculus-PDFs_Transcendental_Wall_Inverse_Word_Certifier.pdf.txt",
+    "title_guess": "The Transcendental Wall: | State-Complete Inversion and Liouvillian Closure in Phase Calculus"
+  },
+  {
+    "id": 18,
+    "path": "Phase-Calculus-PDFs/Unified_Quintic.pdf",
+    "pages": 15,
+    "bytes": 691276,
+    "text_chars": 46630,
+    "text_file": "text/pdf_texts/2c36c7d18e6b__Phase-Calculus-PDFs_Unified_Quintic.pdf.txt",
+    "title_guess": "Unified Quintic: Lifted Quintic Transport, | Red-Filter Quotient Descent,"
+  },
+  {
+    "id": 19,
+    "path": "Phase-Calculus-PDFs/non_commutative_phase_geometry.pdf",
+    "pages": 10,
+    "bytes": 344194,
+    "text_chars": 21631,
+    "text_file": "text/pdf_texts/e0e360e31bfd__Phase-Calculus-PDFs_non_commutative_phase_geometry.pdf.txt",
+    "title_guess": "Non-Commutative Phase Geometry | Lifted Commutators, Hidden Order Registers, and Deterministic Projection Uncertainty"
+  },
+  {
+    "id": 20,
+    "path": "Phase-Calculus-PDFs/phase_calculus_demonstration_paper_v2.pdf",
+    "pages": 15,
+    "bytes": 697692,
+    "text_chars": 47104,
+    "text_file": "text/pdf_texts/7407c08045e8__Phase-Calculus-PDFs_phase_calculus_demonstration_paper_v2.pdf.txt",
+    "title_guess": "Operational Utility and Multiscale Invariance of | Phase Calculus: A Discrete Foundational Grammar"
+  },
+  {
+    "id": 21,
+    "path": "Phase-Calculus-PDFs/retained_state_phase_calculus_v6.pdf",
+    "pages": 7,
+    "bytes": 42390,
+    "text_chars": 13483,
+    "text_file": "text/pdf_texts/f31606906d69__Phase-Calculus-PDFs_retained_state_phase_calculus_v6.pdf.txt",
+    "title_guess": "Retained-State Phase Calculus: | Projection Loss, Balanced Refinement, and"
+  },
+  {
+    "id": 22,
+    "path": "Phase-Calculus-Research-Pkgs/Loop_Generated_Projection_in_TDAHE/figures/fig1_loop_projection_residual.pdf",
+    "pages": 1,
+    "bytes": 34832,
+    "text_chars": 1222,
+    "text_file": "text/pdf_texts/5ef29d28b6cf__Phase-Calculus-Research-Pkgs_Loop_Generated_Projection_in_TDAHE_figures_fig1_loop_projection_residual.pdf.txt",
+    "title_guess": "thickness coordinate z          retained loop branch      c                                    d | a             My(+)"
+  },
+  {
+    "id": 23,
+    "path": "Phase-Calculus-Research-Pkgs/Loop_Generated_Projection_in_TDAHE/figures/fig2_dual_hysteresis_projection.pdf",
+    "pages": 1,
+    "bytes": 28442,
+    "text_chars": 2035,
+    "text_file": "text/pdf_texts/62fe5efbf840__Phase-Calculus-Research-Pkgs_Loop_Generated_Projection_in_TDAHE_figures_fig2_dual_hysteresis_projection.pdf.txt",
+    "title_guess": "in-plane field switches retained branch                  out-of-plane field switches smaller branch                                 coercive scale split | 0.4   a      forward sweep                              0.10 b                                                                c        ratio = 56.5"
+  },
+  {
+    "id": 24,
+    "path": "Phase-Calculus-Research-Pkgs/Loop_Generated_Projection_in_TDAHE/figures/fig3_phase_space_and_controls.pdf",
+    "pages": 1,
+    "bytes": 97276,
+    "text_chars": 4561,
+    "text_file": "text/pdf_texts/1de45c2718a0__Phase-Calculus-Research-Pkgs_Loop_Generated_Projection_in_TDAHE_figures_fig3_phase_space_and_controls.pdf.txt",
+    "title_guess": "density-displacement dome of retained branch 0.35                                        field-sweep difference follows the branch dome | 1.0 a                                                                                          b"
+  },
+  {
+    "id": 25,
+    "path": "Phase-Calculus-Research-Pkgs/Loop_Generated_Projection_in_TDAHE/figures/fig4_field_order_memory_checks.pdf",
+    "pages": 1,
+    "bytes": 44768,
+    "text_chars": 1939,
+    "text_file": "text/pdf_texts/c15912fc68a1__Phase-Calculus-Research-Pkgs_Loop_Generated_Projection_in_TDAHE_figures_fig4_field_order_memory_checks.pdf.txt",
+    "title_guess": "field order writes different retained states         1.0     order signal changes sign across branch memory | 0.1     a       UyUz                                                      bnegative"
+  },
+  {
+    "id": 26,
+    "path": "Phase-Calculus-Research-Pkgs/Non_Commutative_Phase_Geometry/fixed_fig02_commutator_residuals.pdf",
+    "pages": 1,
+    "bytes": 13979,
+    "text_chars": 1018,
+    "text_file": "text/pdf_texts/8fd46011bfdb__Phase-Calculus-Research-Pkgs_Non_Commutative_Phase_Geometry_fixed_fig02_commutator_residuals.pdf.txt",
+    "title_guess": "Full lifted commutators remain nonzero | after visible projection erases them"
+  },
+  {
+    "id": 27,
+    "path": "Phase-Calculus-Research-Pkgs/Non_Commutative_Phase_Geometry/nc_phase_geometry_package_v0_3_ALL_FIGURES/figures/fig01_hidden_order_commutator.pdf",
+    "pages": 1,
+    "bytes": 20780,
+    "text_chars": 339,
+    "text_file": "text/pdf_texts/96e20d9dd462__Pkgs_Non_Commutative_Phase_Geometry_nc_phase_geometry_package_v0_3_ALL_FIGURES_figures_fig01_hidden_order_commutator.pdf.txt",
+    "title_guess": "Lifted state X             [a,b]        Lifted state Y = [a,b]X | \u03a9=0                                             \u03a9=1"
+  },
+  {
+    "id": 28,
+    "path": "Phase-Calculus-Research-Pkgs/Non_Commutative_Phase_Geometry/nc_phase_geometry_package_v0_3_ALL_FIGURES/figures/fig02_commutator_residuals.pdf",
+    "pages": 1,
+    "bytes": 13979,
+    "text_chars": 1018,
+    "text_file": "text/pdf_texts/642ac7987617__ch-Pkgs_Non_Commutative_Phase_Geometry_nc_phase_geometry_package_v0_3_ALL_FIGURES_figures_fig02_commutator_residuals.pdf.txt",
+    "title_guess": "Full lifted commutators remain nonzero | after visible projection erases them"
+  },
+  {
+    "id": 29,
+    "path": "Phase-Calculus-Research-Pkgs/Non_Commutative_Phase_Geometry/nc_phase_geometry_package_v0_3_ALL_FIGURES/figures/fig03_gaussian_saturation.pdf",
+    "pages": 1,
+    "bytes": 12854,
+    "text_chars": 427,
+    "text_file": "text/pdf_texts/9c6dbac89b5c__rch-Pkgs_Non_Commutative_Phase_Geometry_nc_phase_geometry_package_v0_3_ALL_FIGURES_figures_fig03_gaussian_saturation.pdf.txt",
+    "title_guess": "Gaussian branch saturates the projected uncertainty bound | \u0394x \u00b7 \u0394p (\u0127=1)"
+  },
+  {
+    "id": 30,
+    "path": "Phase-Calculus-Research-Pkgs/Non_Commutative_Phase_Geometry/nc_phase_geometry_package_v0_3_ALL_FIGURES/figures/fig04_omega_curvature_integer.pdf",
+    "pages": 1,
+    "bytes": 11778,
+    "text_chars": 778,
+    "text_file": "text/pdf_texts/a434d2b6d414__Pkgs_Non_Commutative_Phase_Geometry_nc_phase_geometry_package_v0_3_ALL_FIGURES_figures_fig04_omega_curvature_integer.pdf.txt",
+    "title_guess": "Order-curvature integer from commutator area | C_\u03a9 = det(v1,v2)"
+  },
+  {
+    "id": 31,
+    "path": "Phase-Calculus-Research-Pkgs/Non_Commutative_Phase_Geometry/nc_phase_geometry_package_v0_3_ALL_FIGURES/figures/fig05_quintic_commutator_matrix.pdf",
+    "pages": 1,
+    "bytes": 14595,
+    "text_chars": 1004,
+    "text_file": "text/pdf_texts/bb5e31fa9a25__gs_Non_Commutative_Phase_Geometry_nc_phase_geometry_package_v0_3_ALL_FIGURES_figures_fig05_quintic_commutator_matrix.pdf.txt",
+    "title_guess": "Quintic sheet commutator matrix C - I | 1   0      -1        0         0   +1"
+  },
+  {
+    "id": 32,
+    "path": "Phase-Calculus-Research-Pkgs/Non_Commutative_Phase_Geometry/nc_phase_geometry_package_v0_3_ALL_FIGURES/figures/fig06_balanced_corridor_anchor.pdf",
+    "pages": 1,
+    "bytes": 13354,
+    "text_chars": 440,
+    "text_file": "text/pdf_texts/acd421846c3b__kgs_Non_Commutative_Phase_Geometry_nc_phase_geometry_package_v0_3_ALL_FIGURES_figures_fig06_balanced_corridor_anchor.pdf.txt",
+    "title_guess": "Balanced corridor reaches (55,89) at depth 9 | (55,89)"
+  },
+  {
+    "id": 33,
+    "path": "Phase-Calculus-Research-Pkgs/Operational_Utility_and_Multiscale_Invariance_of_Phase_Calculus/packages/phase_calculus_demonstration_paper_v2/main.pdf",
+    "pages": 15,
+    "bytes": 697692,
+    "text_chars": 47104,
+    "text_file": "text/pdf_texts/4b36802fa57c___Operational_Utility_and_Multiscale_Invariance_of_Phase_Calculus_packages_phase_calculus_demonstration_paper_v2_main.pdf.txt",
+    "title_guess": "Operational Utility and Multiscale Invariance of | Phase Calculus: A Discrete Foundational Grammar"
+  },
+  {
+    "id": 34,
+    "path": "Phase-Calculus-Research-Pkgs/Phase_Calculus_as_Universal_Exact_Grammar_for_Branching_Structures/main.pdf",
+    "pages": 11,
+    "bytes": 285232,
+    "text_chars": 30492,
+    "text_file": "text/pdf_texts/192604700087__Phase-Calculus-Research-Pkgs_Phase_Calculus_as_Universal_Exact_Grammar_for_Branching_Structures_main.pdf.txt",
+    "title_guess": "Phase Calculus as Universal Exact Grammar for Branching | Structures:"
+  },
+  {
+    "id": 35,
+    "path": "Prospect-Leads/Axis-Free-overset-grid.pdf",
+    "pages": 14,
+    "bytes": 755519,
+    "text_chars": 97241,
+    "text_file": "text/pdf_texts/2aaaec9b1b63__Prospect-Leads_Axis-Free-overset-grid.pdf.txt",
+    "title_guess": "A&A 514, A48 (2010)                                                                                                 Astronomy | DOI: 10.1051/0004-6361/200913435                                                                                     &"
+  },
+  {
+    "id": 36,
+    "path": "Prospect-Leads/Dataset-of-Ancient-Chinese-Math.pdf",
+    "pages": 12,
+    "bytes": 244795,
+    "text_chars": 65181,
+    "text_file": "text/pdf_texts/bab668c123bd__Prospect-Leads_Dataset-of-Ancient-Chinese-Math.pdf.txt",
+    "title_guess": "A Dataset of Ancient Chinese Math Word Problems and an Application | for Research in Historic Mathematics"
+  },
+  {
+    "id": 37,
+    "path": "Prospect-Leads/Leibniz-Binary-Shao-Yongs-YiJing.pdf",
+    "pages": 32,
+    "bytes": 1345267,
+    "text_chars": 32,
+    "text_file": "text/pdf_texts/09e44e2250a9__Prospect-Leads_Leibniz-Binary-Shao-Yongs-YiJing.pdf.txt",
+    "title_guess": ""
+  },
+  {
+    "id": 38,
+    "path": "Prospect-Leads/Liu_2022_ApJ_940_62.pdf",
+    "pages": 15,
+    "bytes": 493058,
+    "text_chars": 67720,
+    "text_file": "text/pdf_texts/151d22e8fcab__Prospect-Leads_Liu_2022_ApJ_940_62.pdf.txt",
+    "title_guess": "The Astrophysical Journal, 940:62 (15pp), 2022 November 20                                                               https://doi.org/10.3847/1538-4357/ac961a | \u00a9 2022. The Author(s). Published by the American Astronomical Society."
+  },
+  {
+    "id": 39,
+    "path": "Prospect-Leads/Physics_of_Buddhism_The_physics_and_math.pdf",
+    "pages": 53,
+    "bytes": 386608,
+    "text_chars": 131495,
+    "text_file": "text/pdf_texts/74891af82a6c__Prospect-Leads_Physics_of_Buddhism_The_physics_and_math.pdf.txt",
+    "title_guess": "Physics of Buddhism | The physics and mathematics foundation of Buddhism"
+  },
+  {
+    "id": 40,
+    "path": "Prospect-Leads/icpr2011_Logic-and-Philosophy-Today.pdf",
+    "pages": 437,
+    "bytes": 2482401,
+    "text_chars": 1012529,
+    "text_file": "text/pdf_texts/d4b6273e5348__Prospect-Leads_icpr2011_Logic-and-Philosophy-Today.pdf.txt",
+    "title_guess": "JOURNAL OF | INDIAN COUNCIL"
+  },
+  {
+    "id": 41,
+    "path": "Prospect-Leads/philosophies-10-00111.pdf",
+    "pages": 11,
+    "bytes": 235274,
+    "text_chars": 58797,
+    "text_file": "text/pdf_texts/51b874a4799d__Prospect-Leads_philosophies-10-00111.pdf.txt",
+    "title_guess": "Article | Research on the Mathematical Principles of Chinese Philosophy"
+  },
+  {
+    "id": 42,
+    "path": "Tao-Research/out/01-1-4-2024 (1).pdf",
+    "pages": 17,
+    "bytes": 215356,
+    "text_chars": 36859,
+    "text_file": "text/pdf_texts/d1a54352daea__Tao-Research_out_01-1-4-2024_1_.pdf.txt",
+    "title_guess": "Naturalis Scientias                      Issue 04                   Volume 01           December, 2024 | Original Article"
+  },
+  {
+    "id": 43,
+    "path": "Tao-Research/out/0403123v1.pdf",
+    "pages": 15,
+    "bytes": 439643,
+    "text_chars": 41731,
+    "text_file": "text/pdf_texts/fb93971f6365__Tao-Research_out_0403123v1.pdf.txt",
+    "title_guess": "The \u201cYin-Yang Grid\u201d: An Overset Grid in Spherical Geometry | Akira Kageyama\u2217 and Tetsuya Sato"
+  },
+  {
+    "id": 44,
+    "path": "Tao-Research/out/1003.1633v1.pdf",
+    "pages": 15,
+    "bytes": 1094068,
+    "text_chars": 98713,
+    "text_file": "text/pdf_texts/edee1491413b__Tao-Research_out_1003.1633v1.pdf.txt",
+    "title_guess": "Astronomy & Astrophysics manuscript no. 13435                                                                                   c ESO 2018 | September 28, 2018"
+  },
+  {
+    "id": 45,
+    "path": "Tao-Research/out/1648-16.pdf",
+    "pages": 9,
+    "bytes": 551990,
+    "text_chars": 28296,
+    "text_file": "text/pdf_texts/bd7be866f2b2__Tao-Research_out_1648-16.pdf.txt",
+    "title_guess": "\u53f5    \u6b24 | In the Spirit of the Silk Road"
+  },
+  {
+    "id": 46,
+    "path": "Tao-Research/out/1705.0203v1.pdf",
+    "pages": 63,
+    "bytes": 672778,
+    "text_chars": 177991,
+    "text_file": "text/pdf_texts/b96075da5764__Tao-Research_out_1705.0203v1.pdf.txt",
+    "title_guess": "The Relations Between Ancient China\u2019s Taoism And Modern | Mathematics & Physics"
+  },
+  {
+    "id": 47,
+    "path": "Tao-Research/out/1_ The Shape of Understanding - by Vincent John.pdf",
+    "pages": 21,
+    "bytes": 515573,
+    "text_chars": 50531,
+    "text_file": "text/pdf_texts/6bd91b371285__Tao-Research_out_1__The_Shape_of_Understanding_-_by_Vincent_John.pdf.txt",
+    "title_guess": "6/23/26, 8:28 AM                                            1: The Shape of Understanding - by Vincent John | TAOIST THEORY"
+  },
+  {
+    "id": 48,
+    "path": "Tao-Research/out/2508.08210v2.pdf",
+    "pages": 28,
+    "bytes": 920405,
+    "text_chars": 124726,
+    "text_file": "text/pdf_texts/2411a636c7e5__Tao-Research_out_2508.08210v2.pdf.txt",
+    "title_guess": "Draft version September 22, 2025 | Typeset using LATEX default style in AASTeX63"
+  },
+  {
+    "id": 49,
+    "path": "Tao-Research/out/2606.18009v1.pdf",
+    "pages": 22,
+    "bytes": 410013,
+    "text_chars": 68342,
+    "text_file": "text/pdf_texts/457743a9b3c6__Tao-Research_out_2606.18009v1.pdf.txt",
+    "title_guess": "Frank Schweitzer: | Making Sense of Symbols: Yin and Yang in Zurich"
+  },
+  {
+    "id": 50,
+    "path": "Tao-Research/out/5d56507fb71b0.pdf",
+    "pages": 9,
+    "bytes": 177577,
+    "text_chars": 28207,
+    "text_file": "text/pdf_texts/6c56cd59c8b3__Tao-Research_out_5d56507fb71b0.pdf.txt",
+    "title_guess": "US-China Foreign Language, July 2019, Vol. 17, No. 7, 345-353 | doi:10.17265/1539-8080/2019.07.006"
+  },
+  {
+    "id": 51,
+    "path": "Tao-Research/out/5e0429a28f229.pdf",
+    "pages": 11,
+    "bytes": 147983,
+    "text_chars": 35017,
+    "text_file": "text/pdf_texts/a7771a286052__Tao-Research_out_5e0429a28f229.pdf.txt",
+    "title_guess": "US-China Foreign Language, December 2019, Vol. 17, No. 12, 546-556 | doi:10.17265/1539-8080/2019.12.005"
+  },
+  {
+    "id": 52,
+    "path": "Tao-Research/out/9911050v1.pdf",
+    "pages": 4,
+    "bytes": 57961,
+    "text_chars": 13618,
+    "text_file": "text/pdf_texts/9cef7427fb6b__Tao-Research_out_9911050v1.pdf.txt",
+    "title_guess": "A Possible New Quantum Algorithm: | Arithmetic with Large Integers via the Chinese Remainder Theorem"
+  },
+  {
+    "id": 53,
+    "path": "Tao-Research/out/9911051v1.pdf",
+    "pages": 9,
+    "bytes": 99540,
+    "text_chars": 25603,
+    "text_file": "text/pdf_texts/d489a8ef4bac__Tao-Research_out_9911051v1.pdf.txt",
+    "title_guess": "Large Numbers, the Chinese Remainder Theorem, | and the Circle of Fifths"
+  },
+  {
+    "id": 54,
+    "path": "Tao-Research/out/ChinaandUniversals.pdf",
+    "pages": 22,
+    "bytes": 276495,
+    "text_chars": 52770,
+    "text_file": "text/pdf_texts/5262194329fe__Tao-Research_out_ChinaandUniversals.pdf.txt",
+    "title_guess": "China and Universals | Bernard Paul Sypniewski"
+  },
+  {
+    "id": 55,
+    "path": "Tao-Research/out/Geochem Geophys Geosyst - 2004 - Kageyama - Yin#U2010Yang grid   An overset grid in spherical geometry.pdf",
+    "pages": 15,
+    "bytes": 3339280,
+    "text_chars": 74069,
+    "text_file": "text/pdf_texts/49ca9e1d2aaf__ao-Research_out_Geochem_Geophys_Geosyst_-_2004_-_Kageyama_-_Yin_U2010Yang_grid_An_overset_grid_in_spherical_geometry.pdf.txt",
+    "title_guess": "3                                                            Article | Geochemistry"
+  },
+  {
+    "id": 56,
+    "path": "Tao-Research/out/Geochem Geophys Geosyst - 2014 - Yoshida - A Fortran visualization program for spherical data on a Yin#U2010Yang grid.pdf",
+    "pages": 6,
+    "bytes": 105611,
+    "text_chars": 35441,
+    "text_file": "text/pdf_texts/6e60b88c968c__eochem_Geophys_Geosyst_-_2014_-_Yoshida_-_A_Fortran_visualization_program_for_spherical_data_on_a_Yin_U2010Yang_grid.pdf.txt",
+    "title_guess": "PUBLICATIONS | Geochemistry, Geophysics, Geosystems"
+  },
+  {
+    "id": 57,
+    "path": "Tao-Research/out/Jin-Yuan Mathematics and Quanzhen Taoism.pdf",
+    "pages": 9,
+    "bytes": 314883,
+    "text_chars": 16837,
+    "text_file": "text/pdf_texts/1ab9212b6651__Tao-Research_out_Jin-Yuan_Mathematics_and_Quanzhen_Taoism.pdf.txt",
+    "title_guess": "Journal for History of Mathematics                           http://dx.doi.org/10.14477/jhm.2016.29.6.325 | Vol. 29 No. 6 (Dec. 2016), 325\u2013333"
+  },
+  {
+    "id": 58,
+    "path": "Tao-Research/out/Koulaouzidis_2018.pdf",
+    "pages": 26,
+    "bytes": 723273,
+    "text_chars": 34405,
+    "text_file": "text/pdf_texts/68e77c7ea75f__Tao-Research_out_Koulaouzidis_2018.pdf.txt",
+    "title_guess": "German\u2010Greek Yearbook of Political Economy, vol. 2 (2018) | A R S COM B I N A T OR I A v 2 .5"
+  },
+  {
+    "id": 59,
+    "path": "Tao-Research/out/Luo_2025_ApJS_280_48.pdf",
+    "pages": 20,
+    "bytes": 1646744,
+    "text_chars": 149262,
+    "text_file": "text/pdf_texts/a6417c27c2aa__Tao-Research_out_Luo_2025_ApJS_280_48.pdf.txt",
+    "title_guess": "The Astrophysical Journal Supplement Series, 280:48 (20pp), 2025 October                                              https://doi.org/10.3847/1538-4365/adf8d1 | \u00a9 2025. The Author(s). Published by the American Astronomical Society."
+  },
+  {
+    "id": 60,
+    "path": "Tao-Research/out/Mathematics _ Definition, History, & Importance _ Britannica.pdf",
+    "pages": 14,
+    "bytes": 619387,
+    "text_chars": 46323,
+    "text_file": "text/pdf_texts/594383232192__Tao-Research_out_Mathematics___Definition_History_Importance___Britannica.pdf.txt",
+    "title_guess": "6/23/26, 8:57 AM                                                    Mathematics | De\ufb01nition, History, & Importance | Britannica | \ue5d2\ue8b6                                                                                                     Listen with ElevenReader"
+  },
+  {
+    "id": 61,
+    "path": "Tao-Research/out/Tao Te Ching.pdf",
+    "pages": 130,
+    "bytes": 324891,
+    "text_chars": 90920,
+    "text_file": "text/pdf_texts/985f2ead829f__Tao-Research_out_Tao_Te_Ching.pdf.txt",
+    "title_guess": "Tao Te Ching | A New English Version,"
+  },
+  {
+    "id": 62,
+    "path": "Tao-Research/out/The Tao of Math.pdf",
+    "pages": 14,
+    "bytes": 103297,
+    "text_chars": 42280,
+    "text_file": "text/pdf_texts/bf906322c555__Tao-Research_out_The_Tao_of_Math.pdf.txt",
+    "title_guess": "6/23/26, 7:53 AM                                                 The Tao of Math | The Tao of Math"
+  },
+  {
+    "id": 63,
+    "path": "Tao-Research/out/Unearthing-the-Ancient-Yi_Chinese.pdf",
+    "pages": 142,
+    "bytes": 6649115,
+    "text_chars": 1313,
+    "text_file": "text/pdf_texts/f5acff427c85__Tao-Research_out_Unearthing-the-Ancient-Yi_Chinese.pdf.txt",
+    "title_guess": "Document generated by Anna\u2019s Archive around 2023-2024 as part of the DuXiu collection | (https://annas-blog.org/duxiu-exclusive.html)."
+  },
+  {
+    "id": 64,
+    "path": "Tao-Research/out/Yin-Yang_grid_and_geodynamo_simulation.pdf",
+    "pages": 5,
+    "bytes": 102232,
+    "text_chars": 19533,
+    "text_file": "text/pdf_texts/b233a4bff52b__Tao-Research_out_Yin-Yang_grid_and_geodynamo_simulation.pdf.txt",
+    "title_guess": "Yin\u2013Yang grid and geodynamo simulation | Akira Kageyama*"
+  },
+  {
+    "id": 65,
+    "path": "Tao-Research/out/mwre-mwr-d-12-00108.1.pdf",
+    "pages": 19,
+    "bytes": 4715084,
+    "text_chars": 102976,
+    "text_file": "text/pdf_texts/b13d2edd3726__Tao-Research_out_mwre-mwr-d-12-00108.1.pdf.txt",
+    "title_guess": "264                                        MONTHLY WEATHER REVIEW                                                            VOLUME 141 | Discontinuous Galerkin Transport on the Spherical Yin\u2013Yang Overset Mesh"
+  },
+  {
+    "id": 66,
+    "path": "Tao-Research/out/windwalker-iching.pdf",
+    "pages": 25,
+    "bytes": 536376,
+    "text_chars": 33650,
+    "text_file": "text/pdf_texts/1f7c8f91ffac__Tao-Research_out_windwalker-iching.pdf.txt",
+    "title_guess": "I Ching | The Book of Changes"
+  }
+]

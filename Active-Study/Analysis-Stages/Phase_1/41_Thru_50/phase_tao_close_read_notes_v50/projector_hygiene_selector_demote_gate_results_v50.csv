@@ -1,0 +1,7 @@
+gate,pass,note
+ancient_yi_lsd_first_63_to_64_carry_ok,True,Ancient Yi-style LSD-first base-8 carry reproduces 77 -> 001.
+corrected_L_carries_q,True,Corrected L preserves q on the chosen non-origin state.
+old_T_witness_layer_does_not_carry_q_on_nonorigin_state,True,"Formalisation Ch7 T resets q, so it is witness/stale relative to corrected carried L."
+sympy_projection_noninjective_hidden_coordinate,True,"SymPy projector drops hidden coordinate, giving exact projection collision."
+visible_projection_collision_exists,True,Same visible phase can hide different q/rank state.
+visible_projection_not_state_complete_for_next_B,True,Same visible phase can have different next B update.

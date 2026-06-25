@@ -1,0 +1,12 @@
+{
+  "rows": 14,
+  "max_edge_abs_error": 1.110061355225067e-06,
+  "max_full_abs_error": 2.220122710450134e-06,
+  "last_edge_error": -3.297309222674572e-07,
+  "last_full_error": -6.594618445349143e-07,
+  "edge_target": "1/24",
+  "full_germ_target": "1/12",
+  "strict_1e_6_all_edge": false,
+  "strict_1e_6_all_full": false,
+  "interpretation": "Numerical residual window supports the 1/24 edge and 1/12 full-germ coefficient pattern, but it is a bridge witness, not Shadow Residual closure."
+}

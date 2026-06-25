@@ -1,0 +1,24 @@
+{
+  "pass": "47_ORTHAD_YI_WILHELM_GROWTH_AND_MODULAR_B_PASS",
+  "new_artifacts": [
+    "orthad_lap_growth_profile.csv",
+    "orthad_yi_growth_law_comparison.csv",
+    "wilhelm_line_ladder_evidence_zscores.csv",
+    "wilhelm_line_ladder_category_maxima.csv",
+    "b_modular_refinement_operator_schema_v2.csv"
+  ],
+  "key_findings": {
+    "orthad_growth": "Corrected (BQ)^6 L advances Fibonacci/Farey q by six B steps per lap; uv growth ratio tends to phi^12; sign/channel pattern alternates by lap with period 2.",
+    "ancient_yi_growth": "Ancient Yi LSD-first octal place domains complete at 8^k-1 and open a new high place; capacity growth is exactly x8 per place.",
+    "bridge": "Both are retained-state cycle systems with multiplicative capacity growth and lift/carry after completion, but use different refinement arithmetic.",
+    "wilhelm_line_ladder": "Line-position semantics are not flat bits: line 3 peaks danger/transition; line 6 peaks threshold/excess and return/carry pressure; line 1 peaks hidden/admission and constraint.",
+    "modular_b": "B should be tested as an operator schema whose refinement arithmetic can be carrier/domain selected, not as only the canonical origin Fibonacci/Farey path."
+  },
+  "objective_open_pieces": [
+    "Latest Phase selector/floor source from HDD to test current canonical B admissibility law.",
+    "Ancient Yi full translation and line-order convention for all tables.",
+    "Dongyuan/Ceyuan formula-state graph to test non-place-value position-governed refinement.",
+    "Formal modular-B test suite over arbitrary seeds and base-N/place/refinement families.",
+    "Liu 2022 data for topology/QSL/current/reconnection time series."
+  ]
+}

@@ -1,0 +1,20 @@
+diff --git a/phase3_status.md b/phase3_status.md
+--- a/phase3_status.md
++++ b/phase3_status.md
+@@
+- P3-G2 Modular-B Operator Family: TARGET_OPEN
++ P3-G2 Modular-B Operator Family: CONDITIONAL_CLASS_CLAIM_SUPPORTED
++
++ Claim:
++ B generalizes as a retained-carrier refinement schema. The active domain supplies
++ the carrier, local refinement arithmetic, completion/capacity law, lift/re-chart
++ law, and terminal projection discipline.
++
++ Evidence:
++ Phase/Farey is the native full instance.
++ Ancient Yi base-8 place carry is an external full instance under LSD-first carry.
++ Wilhelm six-line mutation is a retained carrier-transition boundary case.
++
++ Active falsifier:
++ Find a claimed Modular-B domain where terminal projection determines every next
++ admissible transition without retained carrier data.

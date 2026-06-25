@@ -1,0 +1,7 @@
+monodromy_history_loss: PASS | same_projection=True | transition_split=True
+branch_action_registry_loss: PASS | same_projection=True | transition_split=True
+noncommutative_hidden_order_loss: PASS | same_projection=True | transition_split=True
+chart_basis_loss: PASS | same_projection=True | transition_split=True
+wilhelm_semantic_readout_loss: PASS | same_projection=True | transition_split=True
+ancient_yi_width_convention_loss: PASS | same_projection=True | transition_split=True
+SUMMARY: PASS all v54 state-completeness negative controls

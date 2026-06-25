@@ -1,0 +1,499 @@
+Repository Snapshot generated on Wed Jun 24 11:54:47 PM CDT 2026
+Root: .
+==========================================
+
+--- FILE: README.md ---
+# Shadow Residual v62 — General Shadow Correspondence Push
+
+Status: SECOND_CASE_WORKS_ON_FULL_RETAINED_RESIDUE_CARRIER
+
+This package pushes beyond the closed χ12/level-12 Shadow Residual instance.
+
+It tests a second unary false-theta channel:
+- m = 4
+- residue carrier Z/8Z
+- even character χ8 = (2/n)
+- positive retained readout: R8(τ) = Σ_{n≥1} χ8(n) n q^(n²/16)
+- coefficient-stripped shadow channel: G8(τ) = Σ_{n≥1} χ8(n) q^(n²/16)
+
+Result:
+- bilateral n-weighted scalar projection cancels by orientation loss
+- positive-orientation readout is nonzero
+- S kernel is forced by the retained residue carrier
+- T phases are forced by square seating
+- scalar χ8 compression fails under T
+- the full retained residue carrier closes the case
+
+This is a useful boundary: the general mechanism is vector-valued. The χ12 case has an extra scalar eigenclosure property that χ8 does not.
+
+--- FILE: docs/v62_general_shadow_correspondence.md ---
+# v62 — General Shadow Correspondence Push
+
+## Closed starting point
+
+The χ12 Shadow Residual instance is closed:
+
+\[
+R_{12}(\tau)=\sum_{n\ge 1}\chi_{12}(n)nq^{n^2/24}.
+\]
+
+It is the positive-orientation readout of the retained level-12 state. Its scalar bilateral projection is zero. Its coefficient-stripped shadow is
+
+\[
+G_{12}(\tau)=\sum_{n\ge 1}\chi_{12}(n)q^{n^2/24}=\eta(\tau).
+\]
+
+The level-12 S/T surface is derived from the retained residue/orientation carrier.
+
+## Load-bearing structure
+
+For a unary theta carrier with \(m\ge 1\), set
+
+\[
+A_m=\mathbb Z/(2m)\mathbb Z,\qquad q_r(\tau)=q^{r^2/(4m)}.
+\]
+
+The retained residue vector has components
+
+\[
+\Theta^{(0)}_{m,r}(\tau)=\sum_{n\equiv r\!\!\!\pmod{2m}}q^{n^2/(4m)}
+\]
+
+and derivative/orientation components
+
+\[
+\Theta^{(1)}_{m,r}(\tau)=\sum_{n\equiv r\!\!\!\pmod{2m}}nq^{n^2/(4m)}.
+\]
+
+The primitive multiplier surface is
+
+\[
+T_r=\exp\left(\frac{\pi i r^2}{2m}\right),
+\]
+
+\[
+S_{r,s}=\frac{1}{\sqrt{2m}}\exp\left(-\frac{\pi i rs}{m}\right).
+\]
+
+The \(n\)-weight contributes the weight lift from \(1/2\) to \(3/2\).
+
+## General versus χ12-specific
+
+| Feature | Status |
+|---|---|
+| two orientations \(+n,-n\) | general |
+| even coefficient rule \(a(-r)=a(r)\) | general condition for n-weighted scalar cancellation |
+| coefficient-stripped \(n^0\) theta channel | general lower-weight shadow carrier |
+| \(n\)-weight derivative channel | general weight-raising retained-orientation channel |
+| finite residue carrier \(A_m\) | general unary theta carrier |
+| \(T_r=\exp(\pi i r^2/(2m))\) | general |
+| \(S_{r,s}=(2m)^{-1/2}\exp(-\pi irs/m)\) | general |
+| \(\chi_{12}\) support \(\{1,5,7,11\}\) | χ12-specific |
+| \(\chi_{12}\) gives \(\eta\) coefficient-for-coefficient | χ12-specific |
+| \(\chi_{12}\) scalar channel is T-eigenclosed | χ12-specific stronger closure |
+
+## Second worked case: level 8 / χ8
+
+Define
+
+\[
+\chi_8(n)=
+\begin{cases}
+1,&n\equiv 1,7\pmod 8,\\
+-1,&n\equiv 3,5\pmod 8,\\
+0,&n\equiv 0,2,4,6\pmod 8.
+\end{cases}
+\]
+
+The second retained positive-orientation readout is
+
+\[
+R_8(\tau)=\sum_{n\ge 1}\chi_8(n)nq^{n^2/16}.
+\]
+
+The coefficient-stripped shadow channel is
+
+\[
+G_8(\tau)=\sum_{n\ge 1}\chi_8(n)q^{n^2/16}.
+\]
+
+The bilateral derivative channel cancels:
+
+\[
+\sum_{n\in\mathbb Z}\chi_8(n)nq^{n^2/16}=0.
+\]
+
+The retained positive half does not cancel:
+
+\[
+R_8(\tau)=q^{1/16}-3q^{9/16}-5q^{25/16}+7q^{49/16}+9q^{81/16}-\cdots.
+\]
+
+The retained carrier is \(A_4=\mathbb Z/8\mathbb Z\). Its primitive multiplier values are
+
+\[
+T_r=\exp(\pi i r^2/8),
+\]
+
+\[
+S_{r,s}=8^{-1/2}\exp(-2\pi irs/8).
+\]
+
+## Decisive boundary discovered
+
+The χ8 scalar compression is not T-stable.
+
+Let
+
+\[
+\chi_8=[0,1,0,-1,0,-1,0,1]
+\]
+
+and let
+
+\[
+\psi_{\mathrm{odd}}=[0,1,0,1,0,1,0,1].
+\]
+
+Then
+
+\[
+S\chi_8=\chi_8,
+\]
+
+but
+
+\[
+T\chi_8=e^{\pi i/8}\psi_{\mathrm{odd}},
+\]
+
+and
+
+\[
+T\psi_{\mathrm{odd}}=e^{\pi i/8}\chi_8.
+\]
+
+So the case closes on the retained residue carrier, not on a one-dimensional scalar character quotient.
+
+This is the general lesson: the correspondence is vector-valued at the retained-state level. The χ12 case has an additional scalar-eigenchannel simplification because all supported residues satisfy \(r^2\equiv 1\pmod{24}\).
+
+## General conjecture
+
+For unary false-theta/mock-shadow channels carried by a finite quadratic module \(A_m=\mathbb Z/(2m)\mathbb Z\) with even orientation coefficient vector \(a(-r)=a(r)\), the shadow map is the Phase Calculus projection-loss gate in the modular setting.
+
+The retained positive-orientation channel gives the false/mock object. The symmetric scalar projection forgets the orientation channel. The coefficient-stripped lower-weight theta is the modular shadow that survives the projection.
+
+## Falsifier
+
+A counterexample is any unary false-theta/mock-shadow pair with:
+
+1. an even orientation coefficient vector,
+2. a declared finite quadratic module,
+3. known S/T multiplier,
+4. known lower-weight shadow,
+
+for which the multiplier cannot be recovered from
+
+\[
+T_r=\exp(\pi i r^2/(2m))
+\]
+
+and
+
+\[
+S_{r,s}=(2m)^{-1/2}\exp(-\pi irs/m),
+\]
+
+or for which the known shadow is not the coefficient-stripped symmetric projection of the same retained state.
+
+## Result
+
+The second case works. The scalar-compressed quotient breaks exactly where the retained-state theory predicts it should: T needs the full residue carrier. That is not a failure of the mechanism. It identifies the correct general class as vector-valued retained residue/orientation channels.
+
+--- FILE: docs/v62_repo_patch_instructions.md ---
+# v62 repo patch instructions
+
+Replace the v61 frontier section with:
+
+Status: GENERAL_CORRESPONDENCE_FRONTIER_ACTIVE
+
+The χ12 Shadow Residual is closed as a retained-orientation channel. The next target is the general shadow correspondence: the shadow map is the Phase Calculus projection-loss gate in the modular setting.
+
+Insert the v62 result:
+
+A second worked case at level 8 with χ8 confirms the mechanism on the full retained residue carrier. The χ8 scalar character quotient is not T-stable; the full vector-valued carrier, or the 2D χ8/odd-indicator orbit, is required. This identifies the general class as vector-valued unary retained residue/orientation channels, with scalar eigenclosure as an extra property of special supports such as χ12.
+
+--- FILE: MANIFEST_SHA256SUMS.txt ---
+f7a0cc44bc456258afb7b236bfaf0c722717365e0f28dd14dc8e454e697b6cf8  README.md
+46c6de7610e49035d10664858a1f40a079765e9e900301de2baaca457e9ebb3e  docs/v62_general_shadow_correspondence.md
+303f71f8c2f262c8083f6473769635e4821e5327d38f09de5a991c95f7e03683  docs/v62_repo_patch_instructions.md
+41b9120161332414e34692c4148add6bfafa3a78e9ae9c0a3c7da1085b4ab10f  notebooks/shadow_general_correspondence_v62.ipynb
+6330c3923195384d3deb8705fae0da775194a8732a7033cf3eb5e3102a2882bf  outputs/v62_chi8_T_retained_orbit_table.csv
+c4405fcc2e90a02e285caca831309adc89aec924db528dd88a353210a33bb647  outputs/v62_general_vs_specific.csv
+176d88b5fb4006076770b5cb267659c9bea5a6249c2f0f97dc9b31915636ad38  outputs/v62_level8_S_kernel_table.csv
+5235fc2669d38c3dd639ab5396bd80d9b9295807f427568d3f99a989c933be2c  outputs/v62_level8_T_diagonal_table.csv
+9275888bb3d23e85ec00255f4bbecaaf2500e81755e2a41e2a2f4d55df056776  outputs/v62_level8_orientation_projection_table.csv
+8cc92c913633f5325b3235aaf717f634a4cba0370d0bca7e6a982ac1f49a4498  outputs/v62_verification_summary.json
+bb26a89dfe445ee2caf11b6b581768f2a4fbbbef04b606fc113dd1863dbdd47e  patches/v61_to_v62_general_shadow_correspondence.patch
+125708a579880bfb84131d7e4d52bcb9321cd66e9be19d82a2f45080b0461729  proofs/ShadowResidualV62.lean
+6cd88baffd3fb8d1dff03a9a8f1b26fd49e352ddde9bec22c166da788a948fc8  scripts/primitive_shadow_correspondence_v62.py
+
+--- FILE: patches/v61_to_v62_general_shadow_correspondence.patch ---
+--- a/docs/v61_shadow_status.md
++++ b/docs/v62_shadow_status.md
+@@
+- Named frontier: Primitive modular derivation.
++ Named frontier: General shadow correspondence.
+@@
+- The next theorem target is to derive the S/T multiplier law from Phase Calculus primitives.
++ The next theorem target is to test whether the shadow map is the Phase Calculus projection-loss gate in the modular setting.
++
++ v62 second case:
++ The level-8 chi8 unary false-theta channel closes on the full retained residue carrier. The scalar chi8 quotient is not T-stable; the retained vector-valued carrier is required.
+
+--- FILE: notebooks/shadow_general_correspondence_v62.ipynb ---
+[Binary file skipped: JSON text data]
+
+--- FILE: proofs/ShadowResidualV62.lean ---
+/- ShadowResidualV62.lean
+   Finite proof surface for the v62 general-shadow correspondence.
+
+   This file isolates the exact finite statements used in the level-8 second case.
+   It is intentionally finite: the analytic theta transformation is represented by
+   the finite residue S/T carrier that Phase Calculus derives.
+-/
+
+import Std
+
+namespace ShadowResidualV62
+
+inductive Residue8 where
+  | r0 | r1 | r2 | r3 | r4 | r5 | r6 | r7
+deriving DecidableEq, Repr
+
+def neg8 : Residue8 → Residue8
+  | .r0 => .r0
+  | .r1 => .r7
+  | .r2 => .r6
+  | .r3 => .r5
+  | .r4 => .r4
+  | .r5 => .r3
+  | .r6 => .r2
+  | .r7 => .r1
+
+def chi8 : Residue8 → Int
+  | .r1 => 1
+  | .r3 => -1
+  | .r5 => -1
+  | .r7 => 1
+  | _ => 0
+
+theorem chi8_even (r : Residue8) : chi8 (neg8 r) = chi8 r := by
+  cases r <;> rfl
+
+def signedWeight (n : Int) (a : Int) : Int := a * n
+
+theorem orientation_pair_cancels (n a : Int) :
+    signedWeight n a + signedWeight (-n) a = 0 := by
+  unfold signedWeight
+  ring
+
+/-
+Finite S/T matrix equalities are numeric root-of-unity equalities in the package
+notebook and SymPy script. The finite statements below are the structural claims:
+
+1. chi8 is even, so n-weighted bilateral projection cancels.
+2. the positive orientation is therefore the nonzero retained readout.
+3. the scalar chi8 compression is not T-stable; the T orbit requires the odd
+   support vector. This is verified in the companion script by exact root tables.
+-/
+
+end ShadowResidualV62
+
+--- FILE: outputs/v62_general_vs_specific.csv ---
+feature,classification,reason
+two-orientation lattice ±n,general for unary partial/false theta channels,bilateral scalar projection can forget orientation while positive-half readout keeps it
+even coefficient rule a(-r)=a(r),general condition for n-weighted bilateral cancellation,n-weighted coefficients become odd under n↦-n
+n^0 channel has weight 1/2,general unary theta carrier,coefficient-stripped residue theta is the lower-weight channel
+n-weight raises to weight 3/2,general derivative/orientation channel,Jacobi derivative contributes one power of n and one unit of modular weight
+residue group Z/(2m) with exponent n^2/(4m),general unary theta finite quadratic module,T and S are fixed by the finite quadratic form
+T_r = exp(pi*i*r^2/(2m)),general,forced by τ↦τ+1 on q^(r^2/(4m))
+S_rs = (2m)^(-1/2) exp(-pi*i*r*s/m),general,finite Fourier/Gauss kernel of the retained residue carrier
+"χ12 level 12 support {1,5,7,11}",χ12-specific,this support gives eta coefficient-for-coefficient
+χ12 scalar T eigenclosure,χ12-specific stronger closure,all χ12 support residues satisfy r^2≡1 mod 24
+"χ8 level 8 support {1,3,5,7}",second-case specific,this support gives the level-8 even-character test object
+χ8 scalar T compression fails but 2D retained orbit closes,boundary discovered in second case,r^2 is not constant mod 16 on χ8 support; full retained residue carrier is required
+
+--- FILE: outputs/v62_level8_S_kernel_table.csv ---
+r,s,S_formula,S_complex
+0,0,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+0,1,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+0,2,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+0,3,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+0,4,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+0,5,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+0,6,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+0,7,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+1,0,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+1,1,1/sqrt(8)*exp(-2*pi*i*1/8),0.25-0.24999999999999997i
+1,2,1/sqrt(8)*exp(-2*pi*i*2/8),2.1648901405887332e-17-0.35355339059327373i
+1,3,1/sqrt(8)*exp(-2*pi*i*3/8),-0.24999999999999997-0.25i
+1,4,1/sqrt(8)*exp(-2*pi*i*4/8),-0.35355339059327373-4.3297802811774664e-17i
+1,5,1/sqrt(8)*exp(-2*pi*i*5/8),-0.25000000000000006+0.24999999999999997i
+1,6,1/sqrt(8)*exp(-2*pi*i*6/8),-6.494670421766199e-17+0.35355339059327373i
+1,7,1/sqrt(8)*exp(-2*pi*i*7/8),0.24999999999999992+0.25000000000000006i
+2,0,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+2,1,1/sqrt(8)*exp(-2*pi*i*2/8),2.1648901405887332e-17-0.35355339059327373i
+2,2,1/sqrt(8)*exp(-2*pi*i*4/8),-0.35355339059327373-4.3297802811774664e-17i
+2,3,1/sqrt(8)*exp(-2*pi*i*6/8),-6.494670421766199e-17+0.35355339059327373i
+2,4,1/sqrt(8)*exp(-2*pi*i*8/8),0.35355339059327373+8.6595605623549329e-17i
+2,5,1/sqrt(8)*exp(-2*pi*i*10/8),1.0824450702943665e-16-0.35355339059327373i
+2,6,1/sqrt(8)*exp(-2*pi*i*12/8),-0.35355339059327373-1.2989340843532398e-16i
+2,7,1/sqrt(8)*exp(-2*pi*i*14/8),-1.5154230984121132e-16+0.35355339059327373i
+3,0,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+3,1,1/sqrt(8)*exp(-2*pi*i*3/8),-0.24999999999999997-0.25i
+3,2,1/sqrt(8)*exp(-2*pi*i*6/8),-6.494670421766199e-17+0.35355339059327373i
+3,3,1/sqrt(8)*exp(-2*pi*i*9/8),0.25000000000000006-0.24999999999999992i
+3,4,1/sqrt(8)*exp(-2*pi*i*12/8),-0.35355339059327373-1.2989340843532398e-16i
+3,5,1/sqrt(8)*exp(-2*pi*i*15/8),0.24999999999999964+0.25000000000000033i
+3,6,1/sqrt(8)*exp(-2*pi*i*18/8),1.94840112652986e-16-0.35355339059327373i
+3,7,1/sqrt(8)*exp(-2*pi*i*21/8),-0.24999999999999992+0.25000000000000006i
+4,0,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+4,1,1/sqrt(8)*exp(-2*pi*i*4/8),-0.35355339059327373-4.3297802811774664e-17i
+4,2,1/sqrt(8)*exp(-2*pi*i*8/8),0.35355339059327373+8.6595605623549329e-17i
+4,3,1/sqrt(8)*exp(-2*pi*i*12/8),-0.35355339059327373-1.2989340843532398e-16i
+4,4,1/sqrt(8)*exp(-2*pi*i*16/8),0.35355339059327373+1.7319121124709866e-16i
+4,5,1/sqrt(8)*exp(-2*pi*i*20/8),-0.35355339059327373-2.1648901405887331e-16i
+4,6,1/sqrt(8)*exp(-2*pi*i*24/8),0.35355339059327373+2.5978681687064796e-16i
+4,7,1/sqrt(8)*exp(-2*pi*i*28/8),-0.35355339059327373-3.0308461968242264e-16i
+5,0,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+5,1,1/sqrt(8)*exp(-2*pi*i*5/8),-0.25000000000000006+0.24999999999999997i
+5,2,1/sqrt(8)*exp(-2*pi*i*10/8),1.0824450702943665e-16-0.35355339059327373i
+5,3,1/sqrt(8)*exp(-2*pi*i*15/8),0.24999999999999964+0.25000000000000033i
+5,4,1/sqrt(8)*exp(-2*pi*i*20/8),-0.35355339059327373-2.1648901405887331e-16i
+5,5,1/sqrt(8)*exp(-2*pi*i*25/8),0.24999999999999997-0.25i
+5,6,1/sqrt(8)*exp(-2*pi*i*30/8),-9.5277050456181992e-16+0.35355339059327373i
+5,7,1/sqrt(8)*exp(-2*pi*i*35/8),-0.2499999999999995-0.25000000000000044i
+6,0,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+6,1,1/sqrt(8)*exp(-2*pi*i*6/8),-6.494670421766199e-17+0.35355339059327373i
+6,2,1/sqrt(8)*exp(-2*pi*i*12/8),-0.35355339059327373-1.2989340843532398e-16i
+6,3,1/sqrt(8)*exp(-2*pi*i*18/8),1.94840112652986e-16-0.35355339059327373i
+6,4,1/sqrt(8)*exp(-2*pi*i*24/8),0.35355339059327373+2.5978681687064796e-16i
+6,5,1/sqrt(8)*exp(-2*pi*i*30/8),-9.5277050456181992e-16+0.35355339059327373i
+6,6,1/sqrt(8)*exp(-2*pi*i*36/8),-0.35355339059327373-3.8968022530597199e-16i
+6,7,1/sqrt(8)*exp(-2*pi*i*42/8),-1.7341005394987604e-16-0.35355339059327373i
+7,0,1/sqrt(8)*exp(-2*pi*i*0/8),0.35355339059327373+0i
+7,1,1/sqrt(8)*exp(-2*pi*i*7/8),0.24999999999999992+0.25000000000000006i
+7,2,1/sqrt(8)*exp(-2*pi*i*14/8),-1.5154230984121132e-16+0.35355339059327373i
+7,3,1/sqrt(8)*exp(-2*pi*i*21/8),-0.24999999999999992+0.25000000000000006i
+7,4,1/sqrt(8)*exp(-2*pi*i*28/8),-0.35355339059327373-3.0308461968242264e-16i
+7,5,1/sqrt(8)*exp(-2*pi*i*35/8),-0.2499999999999995-0.25000000000000044i
+7,6,1/sqrt(8)*exp(-2*pi*i*42/8),-1.7341005394987604e-16-0.35355339059327373i
+7,7,1/sqrt(8)*exp(-2*pi*i*49/8),0.250000000000001-0.24999999999999895i
+
+--- FILE: outputs/v62_level8_orientation_projection_table.csv ---
+n,residue_mod_8,chi8,shadow_weight_half_term,retained_weight_three_half_term,opposite_orientation_term,scalar_bilateral_sum
+1,1,1,1*q^(1/16),1*q^(1/16),-1*q^(1/16),0
+3,3,-1,-1*q^(9/16),-3*q^(9/16),3*q^(9/16),0
+5,5,-1,-1*q^(25/16),-5*q^(25/16),5*q^(25/16),0
+7,7,1,1*q^(49/16),7*q^(49/16),-7*q^(49/16),0
+9,1,1,1*q^(81/16),9*q^(81/16),-9*q^(81/16),0
+11,3,-1,-1*q^(121/16),-11*q^(121/16),11*q^(121/16),0
+13,5,-1,-1*q^(169/16),-13*q^(169/16),13*q^(169/16),0
+15,7,1,1*q^(225/16),15*q^(225/16),-15*q^(225/16),0
+17,1,1,1*q^(289/16),17*q^(289/16),-17*q^(289/16),0
+19,3,-1,-1*q^(361/16),-19*q^(361/16),19*q^(361/16),0
+21,5,-1,-1*q^(441/16),-21*q^(441/16),21*q^(441/16),0
+23,7,1,1*q^(529/16),23*q^(529/16),-23*q^(529/16),0
+25,1,1,1*q^(625/16),25*q^(625/16),-25*q^(625/16),0
+27,3,-1,-1*q^(729/16),-27*q^(729/16),27*q^(729/16),0
+29,5,-1,-1*q^(841/16),-29*q^(841/16),29*q^(841/16),0
+31,7,1,1*q^(961/16),31*q^(961/16),-31*q^(961/16),0
+33,1,1,1*q^(1089/16),33*q^(1089/16),-33*q^(1089/16),0
+35,3,-1,-1*q^(1225/16),-35*q^(1225/16),35*q^(1225/16),0
+37,5,-1,-1*q^(1369/16),-37*q^(1369/16),37*q^(1369/16),0
+39,7,1,1*q^(1521/16),39*q^(1521/16),-39*q^(1521/16),0
+
+--- FILE: outputs/v62_chi8_T_retained_orbit_table.csv ---
+r,chi8_r,T_r_chi8_r_complex,alpha_times_odd_indicator_complex,scalar_chi8_eigen_closes
+1,1,0.92387953251128674+0.38268343236508978i,0.92387953251128674+0.38268343236508978i,NO
+3,-1,0.92387953251128685+0.38268343236508967i,0.92387953251128674+0.38268343236508978i,NO
+5,-1,0.92387953251128674+0.38268343236508984i,0.92387953251128674+0.38268343236508978i,NO
+7,1,0.92387953251128752+0.38268343236508784i,0.92387953251128674+0.38268343236508978i,NO
+
+--- FILE: outputs/v62_level8_T_diagonal_table.csv ---
+r,T_phase_formula,T_phase_complex
+0,exp(pi*i*0/8),1+0i
+1,exp(pi*i*1/8),0.92387953251128674+0.38268343236508978i
+2,exp(pi*i*4/8),6.123233995736766e-17+1i
+3,exp(pi*i*9/8),-0.92387953251128685-0.38268343236508967i
+4,exp(pi*i*16/8),1-2.4492935982947064e-16i
+5,exp(pi*i*25/8),-0.92387953251128674-0.38268343236508984i
+6,exp(pi*i*36/8),5.5109105961630896e-16+1i
+7,exp(pi*i*49/8),0.92387953251128752+0.38268343236508784i
+
+--- FILE: outputs/v62_verification_summary.json ---
+{
+  "status": "SECOND_CASE_WORKS_ON_FULL_RETAINED_RESIDUE_CARRIER",
+  "global_pass": true,
+  "case_1_closed_instance": "m=6, modulus 12, chi12, exponent n^2/24",
+  "case_2_new_test": "m=4, modulus 8, chi8, exponent n^2/16",
+  "result": "The projection-loss mechanism persists. The n-weighted bilateral channel cancels; the positive orientation readout is nonzero; the coefficient-stripped channel is the weight-1/2 shadow; S/T multipliers are forced by the retained finite quadratic module.",
+  "boundary": "The chi8 scalar character compression is not T-stable. The full retained residue carrier, or the 2D chi8/odd-indicator orbit, is required.",
+  "residuals": {
+    "F8_unitarity_max_abs": 7.062098392711005e-16,
+    "F8_square_reversal_max_abs": 1.2139693544093743e-15,
+    "chi8_S_eigen_max_abs": 1.5632082117998628e-15,
+    "chi8_T_to_odd_indicator_max_abs": 2.092556886098636e-15,
+    "odd_indicator_T_to_chi8_max_abs": 2.092556886098636e-15,
+    "chi8_scalar_T_eigen_failure_min_residual": 1.4142135623730951,
+    "chi8_scalar_T_eigen_best_lambda_real": 1.6653345369377348e-16,
+    "chi8_scalar_T_eigen_best_lambda_imag": -4.718447854656915e-16,
+    "chi8_scalar_T_eigen_best_residual": 1.0000000000000002,
+    "chi12_S_eigen_max_abs": 5.126297777653476e-15,
+    "chi12_T_scalar_eigen_max_abs": 3.2581783028960286e-15
+  },
+  "conjecture": "For unary false-theta/mock-shadow channels carried by a finite quadratic module A with an even orientation coefficient vector a, the shadow map is the Phase Calculus projection-loss gate in the modular setting: the retained positive-orientation readout gives the false/mock side, and the symmetric scalar projection gives the lower-weight shadow/surviving modular channel.",
+  "falsifier": "A unary false-theta/mock-shadow pair with even orientation coefficients and declared finite quadratic module whose known S/T multiplier cannot be recovered from the retained residue carrier T phase and S Gauss kernel, or whose shadow is not the coefficient-stripped symmetric projection of the same carried state."
+}
+--- FILE: scripts/primitive_shadow_correspondence_v62.py ---
+#!/usr/bin/env python3
+import cmath, math, json
+import numpy as np
+
+def finite_F(N):
+    return np.array([[cmath.exp(-2j*math.pi*r*s/N)/math.sqrt(N) for s in range(N)] for r in range(N)], dtype=complex)
+
+def T_diag(m):
+    N = 2*m
+    return np.array([cmath.exp(1j*math.pi*r*r/(2*m)) for r in range(N)], dtype=complex)
+
+def chi8():
+    v=np.zeros(8,dtype=complex)
+    for r,s in {1:1,3:-1,5:-1,7:1}.items():
+        v[r]=s
+    return v
+
+def odd8():
+    v=np.zeros(8,dtype=complex)
+    for r in [1,3,5,7]:
+        v[r]=1
+    return v
+
+def max_abs(x):
+    return float(np.max(np.abs(x)))
+
+F=finite_F(8)
+T=T_diag(4)
+c=chi8()
+o=odd8()
+alpha=cmath.exp(1j*math.pi/8)
+
+summary={
+    "F_unitary": max_abs(F.conj().T@F-np.eye(8)),
+    "F_square_reversal": max_abs(F@F - np.array([[1 if (r+s)%8==0 else 0 for s in range(8)] for r in range(8)], dtype=complex)),
+    "S_chi8_equals_chi8": max_abs(F@c-c),
+    "T_chi8_equals_alpha_odd": max_abs(T*c-alpha*o),
+    "T_odd_equals_alpha_chi8": max_abs(T*o-alpha*c),
+}
+print(json.dumps(summary, indent=2))

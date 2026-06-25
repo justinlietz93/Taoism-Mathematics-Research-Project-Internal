@@ -1,0 +1,6 @@
+blocker_id,track,required_artifact,affects_claims,blocks_100,why
+B01_latest_phase_source,Internal,latest active Phase selector/floor/canon source from HDD,C03|C04|C05|C10,yes,current corpus includes snapshots and stale layers; latest source may refine floor/selector details
+B02_lean_lake_execution,Internal,working Lean project/lakefile/dependencies or executable proof environment,C02|C10,yes,Lean companions exist as attack surfaces but are not locally executed
+B03_ancient_yi_translation,External,machine-readable Ancient Yi table plus Chinese translation and line-order proof,C05|C06|C10,yes,bridge is strong but exact philological/source order proof remains open
+B04_liu_data,External,Liu2022 QSL/current/connectivity/reconnection time series,C08|C10,yes,"custody bridge is strong, physical transition evidence remains data-pending"
+B05_shadow_transform_proof,Internal/External,Jacobi/unary-theta transformation proof for Shadow residual channel,C09|C10,yes,"Shadow relation remains external reference, not closure proof"

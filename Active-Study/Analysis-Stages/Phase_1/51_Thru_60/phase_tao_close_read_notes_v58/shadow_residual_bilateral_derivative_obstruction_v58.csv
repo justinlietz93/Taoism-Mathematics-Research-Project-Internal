@@ -1,0 +1,5 @@
+residue_r,chi12_r,negative_residue_mod_12,chi12_negative_residue,odd_derivative_requirement,match_positive_shadow_would_require,contradiction
+1,1,11,1,c(11) = -c(1),c(11) = chi12(11) = 1 and c(1) = 1,True
+5,-1,7,-1,c(7) = -c(5),c(7) = chi12(7) = -1 and c(5) = -1,True
+7,-1,5,-1,c(5) = -c(7),c(5) = chi12(5) = -1 and c(7) = -1,True
+11,1,1,1,c(1) = -c(11),c(1) = chi12(1) = 1 and c(11) = 1,True

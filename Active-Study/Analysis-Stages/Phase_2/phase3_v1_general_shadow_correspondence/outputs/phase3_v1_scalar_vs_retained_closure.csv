@@ -1,0 +1,7 @@
+case,scalar_S_closed,scalar_T_closed,S_residual,T_residual,retained_orbit_dimension,interpretation
+chi12_eta_shadow_residual_closed_phase2,True,True,2.551337711616727e-15,1.410354723664631e-15,1,scalar quotient closes
+chi8_level8_second_case,True,False,7.65182245704603e-16,1.0,3,requires retained vector carrier
+legendre5_level10,False,False,0.7071067811865477,0.9758351544158146,6,requires retained vector carrier
+legendre13_level26,False,False,0.7071067811865471,0.9881434305873539,14,requires retained vector carrier
+delta_pair_m7,False,False,0.9989967362820225,0.7818314824680299,8,requires retained vector carrier
+three_pair_m9,False,False,0.7665518250047016,0.8354698535845934,10,requires retained vector carrier

@@ -1,0 +1,191 @@
+{
+  "version": "v53",
+  "source": "iching_wilhelm_translation.js",
+  "hexagrams": 64,
+  "line_events": 384,
+  "single_line_transition_edges": 384,
+  "category_count": 14,
+  "line_category_counts": {
+    "1": {
+      "latent_waiting": 44,
+      "emergence_manifestation": 33,
+      "admissible_action": 208,
+      "danger_risk": 93,
+      "no_blame_repair": 26,
+      "favorable_success": 41,
+      "transition_choice": 7,
+      "boundary_excess": 14,
+      "return_withdrawal": 36,
+      "relation_affinity": 36,
+      "obstruction_blockage": 5,
+      "carry_lift_rechart": 24,
+      "invariant_custody": 45,
+      "readout_oracle": 6
+    },
+    "2": {
+      "latent_waiting": 33,
+      "emergence_manifestation": 24,
+      "admissible_action": 263,
+      "danger_risk": 58,
+      "no_blame_repair": 14,
+      "favorable_success": 58,
+      "transition_choice": 14,
+      "boundary_excess": 23,
+      "return_withdrawal": 27,
+      "relation_affinity": 31,
+      "obstruction_blockage": 10,
+      "carry_lift_rechart": 15,
+      "invariant_custody": 49,
+      "readout_oracle": 14
+    },
+    "3": {
+      "latent_waiting": 24,
+      "emergence_manifestation": 13,
+      "admissible_action": 195,
+      "danger_risk": 113,
+      "no_blame_repair": 13,
+      "favorable_success": 24,
+      "transition_choice": 19,
+      "boundary_excess": 24,
+      "return_withdrawal": 32,
+      "relation_affinity": 35,
+      "obstruction_blockage": 8,
+      "carry_lift_rechart": 21,
+      "invariant_custody": 34,
+      "readout_oracle": 5
+    },
+    "4": {
+      "latent_waiting": 20,
+      "emergence_manifestation": 11,
+      "admissible_action": 171,
+      "danger_risk": 70,
+      "no_blame_repair": 22,
+      "favorable_success": 51,
+      "transition_choice": 14,
+      "boundary_excess": 20,
+      "return_withdrawal": 45,
+      "relation_affinity": 38,
+      "obstruction_blockage": 7,
+      "carry_lift_rechart": 19,
+      "invariant_custody": 27,
+      "readout_oracle": 5
+    },
+    "5": {
+      "latent_waiting": 15,
+      "emergence_manifestation": 18,
+      "admissible_action": 195,
+      "danger_risk": 60,
+      "no_blame_repair": 9,
+      "favorable_success": 71,
+      "transition_choice": 15,
+      "boundary_excess": 12,
+      "return_withdrawal": 21,
+      "relation_affinity": 43,
+      "obstruction_blockage": 7,
+      "carry_lift_rechart": 20,
+      "invariant_custody": 57,
+      "readout_oracle": 7
+    },
+    "6": {
+      "latent_waiting": 23,
+      "emergence_manifestation": 12,
+      "admissible_action": 202,
+      "danger_risk": 107,
+      "no_blame_repair": 15,
+      "favorable_success": 47,
+      "transition_choice": 16,
+      "boundary_excess": 28,
+      "return_withdrawal": 42,
+      "relation_affinity": 28,
+      "obstruction_blockage": 8,
+      "carry_lift_rechart": 25,
+      "invariant_custody": 32,
+      "readout_oracle": 3
+    }
+  },
+  "category_maxima": {
+    "latent_waiting": {
+      "max_line": 1,
+      "max_hits": 44,
+      "line_sums": "1:44|2:33|3:24|4:20|5:15|6:23"
+    },
+    "emergence_manifestation": {
+      "max_line": 1,
+      "max_hits": 33,
+      "line_sums": "1:33|2:24|3:13|4:11|5:18|6:12"
+    },
+    "admissible_action": {
+      "max_line": 2,
+      "max_hits": 263,
+      "line_sums": "1:208|2:263|3:195|4:171|5:195|6:202"
+    },
+    "danger_risk": {
+      "max_line": 3,
+      "max_hits": 113,
+      "line_sums": "1:93|2:58|3:113|4:70|5:60|6:107"
+    },
+    "no_blame_repair": {
+      "max_line": 1,
+      "max_hits": 26,
+      "line_sums": "1:26|2:14|3:13|4:22|5:9|6:15"
+    },
+    "favorable_success": {
+      "max_line": 5,
+      "max_hits": 71,
+      "line_sums": "1:41|2:58|3:24|4:51|5:71|6:47"
+    },
+    "transition_choice": {
+      "max_line": 3,
+      "max_hits": 19,
+      "line_sums": "1:7|2:14|3:19|4:14|5:15|6:16"
+    },
+    "boundary_excess": {
+      "max_line": 6,
+      "max_hits": 28,
+      "line_sums": "1:14|2:23|3:24|4:20|5:12|6:28"
+    },
+    "return_withdrawal": {
+      "max_line": 4,
+      "max_hits": 45,
+      "line_sums": "1:36|2:27|3:32|4:45|5:21|6:42"
+    },
+    "relation_affinity": {
+      "max_line": 5,
+      "max_hits": 43,
+      "line_sums": "1:36|2:31|3:35|4:38|5:43|6:28"
+    },
+    "obstruction_blockage": {
+      "max_line": 2,
+      "max_hits": 10,
+      "line_sums": "1:5|2:10|3:8|4:7|5:7|6:8"
+    },
+    "carry_lift_rechart": {
+      "max_line": 6,
+      "max_hits": 25,
+      "line_sums": "1:24|2:15|3:21|4:19|5:20|6:25"
+    },
+    "invariant_custody": {
+      "max_line": 5,
+      "max_hits": 57,
+      "line_sums": "1:45|2:49|3:34|4:27|5:57|6:32"
+    },
+    "readout_oracle": {
+      "max_line": 2,
+      "max_hits": 14,
+      "line_sums": "1:6|2:14|3:5|4:5|5:7|6:3"
+    }
+  },
+  "key_findings": [
+    "The Wilhelm corpus can be normalized as a 64-state / 384-event retained-carrier automaton.",
+    "Line position is not semantically neutral: line 1 concentrates latency/waiting, line 3 concentrates danger/transition, line 6 concentrates boundary/excess and return/cycle markers.",
+    "Ordinal/name/text projections fail state-completeness; carrier plus selected line is the minimum graph-transition state under the audited flip convention.",
+    "Semantic readout is terminal: categories classify emitted line judgments, not the carried object by themselves."
+  ],
+  "bridge_status": {
+    "retained_carrier": "STRONG_OPERATIONAL_BRIDGE",
+    "admissible_line_event": "STRONG_OPERATIONAL_BRIDGE",
+    "B_like_refinement": "STRONG_OPERATIONAL_CANDIDATE_NOT_EXHAUSTED",
+    "L_cycle_boundary": "STRONG_LINE_POSITION_CANDIDATE_NOT_IDENTITY_PROOF",
+    "projection_loss": "STRONG_CONFIRMED"
+  }
+}

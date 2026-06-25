@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "phase_next_images_differ": true,
+    "phase_product_collision_uv_1_6_vs_2_3": true,
+    "phase_product_progress_symbolic": true,
+    "wilhelm_hypercube_edges": true,
+    "wilhelm_undirected_edges": true,
+    "yi_completion_value_formula_k1": true,
+    "yi_completion_value_formula_k2": true,
+    "yi_completion_value_formula_k3": true,
+    "yi_lift_value_k2": true
+  },
+  "global_pass": true,
+  "interpretation": "B(u,v)=sort(v,u+v) strictly raises product by v^2 before sorting for positive u,v; base-8 all-7 completion equals 8^k-1; Wilhelm line-flip graph has 384 directed edges.",
+  "symbolic_phase_product_progress_delta": "v**2"
+}

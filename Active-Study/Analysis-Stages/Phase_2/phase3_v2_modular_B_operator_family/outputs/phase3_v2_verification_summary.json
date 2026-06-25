@@ -1,0 +1,22 @@
+{
+  "claim": "B generalizes as a retained-carrier refinement schema: each domain supplies carrier, local refinement arithmetic, completion/capacity law, lift/re-chart law, and terminal projection discipline.",
+  "gate_counts": {
+    "carrier_transition_instances": 1,
+    "domains_tested": 3,
+    "full_schema_instances": 2,
+    "projection_loss_witnesses": 4,
+    "wilhelm_directed_edges": 384
+  },
+  "global_pass": true,
+  "next_target": "Phase 3 v3: Projection-Loss Theorem Across Corpus",
+  "phase": "Phase 3",
+  "proved_here": [
+    "Phase/Farey is the native full schema instance.",
+    "Ancient Yi base-8 place carry is an external full schema instance under the LSD-first carry model.",
+    "Wilhelm six-line mutation is a retained carrier-transition/projection-loss instance and marks the intrinsic completion/lift boundary.",
+    "Projection-only readouts fail state-completeness in all tested domains."
+  ],
+  "status": "CONDITIONAL_CLASS_CLAIM_SUPPORTED",
+  "target": "Modular-B Operator Family",
+  "version": "v2"
+}

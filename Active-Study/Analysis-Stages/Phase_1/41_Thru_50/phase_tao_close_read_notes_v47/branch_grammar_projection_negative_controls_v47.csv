@@ -1,0 +1,6 @@
+test,projection,collision,state_complete_for_next_transition,bridge_impact
+S5 primitive operator word only,"operator_word = L Q for s1,s2,s3,s4",four different transpositions share same primitive word,NO,Primitive word alone is not enough for arbitrary branch presentations; generator registry/sheet action is retained carrier data.
+S5 generator token plus registry,token s_i plus supplied finite action,none under declared registry,YES_FOR_DECLARED_PRESENTATION,External branch generators can be realized exactly when the action registry is retained.
+visible projection,"(A,q,theta mod 4,c)",sheet/history/kappa erased,NO,Matches Yi/Wilhelm/MFE/TDAHE rule: readout/scalar/visible projection is terminal unless it preserves transition state.
+sheet projector with action law,Pi_sheet after lifted execution,quotient residual zero for tested words,YES_FOR_SHEET_ACTION; NOT_COMPLETE_FOR_FULL_LIFTED_STATE,"Good quotient channel, but not replacement for full lifted object."
+quotient residual implementation,end_sheet - action.apply(start_sheet),defined from same action evaluation,PASS_AS_CONSISTENCY_CHECK; WEAK_AS_INDEPENDENT_TEST,Needs independent execution-vs-action comparison before treating residual as hard proof.

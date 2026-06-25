@@ -1,7 +1,0 @@
-candidate_projection,state_completeness_gate,missing_or_limited_state,v53_support
-hexagram ordinal alone,FAIL,"six-line carrier, line choice, line-order convention, operation family",King Wen adjacency has carrier-operation laws and stabilizer collapses
-hexagram name/text alone,FAIL,binary/six-line carrier and chosen line event,same text category may appear across many carrier states
-six-line carrier alone,PARTIAL,line event / selected slot and readout convention,carrier supports single-line transition graph but not line judgment by itself
-carrier + selected line,PARTIAL_PASS,commentary/readout convention if semantic output is required,state-complete for graph transition under flip convention
-carrier + line + operation family R/C/RC,PASS_FOR_KING_WEN_PAIR_AUDIT,none for adjacent-pair operation classification,all 32 odd/even adjacent pairs explained by reverse/complement family
-carrier + line + semantic category flags,PASS_FOR_BRIDGE_ANALYSIS,not a full philological translation,sufficient for operational line-ladder profile and bridge gates

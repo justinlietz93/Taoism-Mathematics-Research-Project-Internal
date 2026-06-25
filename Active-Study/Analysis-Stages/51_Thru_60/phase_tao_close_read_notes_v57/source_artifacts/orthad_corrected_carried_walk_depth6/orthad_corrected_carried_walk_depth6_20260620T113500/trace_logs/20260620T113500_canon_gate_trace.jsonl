@@ -1,6 +1,0 @@
-{"gate": "no_uv_cutoff", "status": "PASS", "detail": "Each domain applies six BQ pairs; B continues after every L."}
-{"gate": "no_reset_theta", "status": "PASS", "detail": "theta_quarters ends at 36; never reset at L."}
-{"gate": "no_reset_q", "status": "PASS", "detail": "q carries to (24157817, 39088169); each post-L root equals prior completion."}
-{"gate": "rank_grows_by_one_per_L", "status": "PASS", "detail": "depth=6; latched_axes=6."}
-{"gate": "no_capacity_ladder", "status": "PASS", "detail": "No 6,12,24... capacity ladder is used or emitted."}
-{"gate": "external_reference_last", "status": "PASS", "detail": "chi12 appears only in external comparison file."}

@@ -1,0 +1,9 @@
+id,gate,status,evidence_or_boundary
+G01,All available internal source surfaces mapped,PASS,CF000/Farey/CF19/formalisation/Orthad/verification packages indexed and audited for bridge phase
+G02,Stale canon separated from corrected Orthad,PASS,R/S/T/Tdelta/reset witness demoted; corrected L carries q/theta
+G03,Executable/data surfaces rerun where available,PASS,"CF19 reruns, branch grammar, Domesticating Chaos, TDAHE, Pencil transform, Python/SymPy gates"
+G04,External retained-carrier bridges mapped,PASS,"Ancient Yi, Wilhelm, ICPR, MFE/Liu, Pencil, Tao-control, Buddhism-control"
+G05,Projection-loss negative controls integrated,PASS,"visible-only, scalar-only, word-only, component-only failure classes catalogued"
+G06,Modular-B path preserved without overclaim,PASS,base-8 carry candidate separated from exact Phase B
+G07,Shadow treated as external reference,PASS,"no closure claim, no loading residual into lift"
+G08,Remaining blockers are outside available-source phase,PASS_CONDITIONAL,"Lean/lake, latest Phase HDD, Liu data; Ancient Yi/Shadow moved to enrichment/proof tracks"

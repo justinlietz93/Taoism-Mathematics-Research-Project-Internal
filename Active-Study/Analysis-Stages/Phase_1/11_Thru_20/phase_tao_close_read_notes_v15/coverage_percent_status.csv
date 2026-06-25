@@ -1,0 +1,78 @@
+kind,id,percent,status,path,note,pages,text_chars
+paper,1,100,opened,Modular-Forms/MFLecture1.pdf,COMPLETE_FIRST_PASS,63,36896
+paper,2,100,opened,Modular-Forms/Zagier123ModularForms.pdf,COMPLETE_FIRST_PASS,103,330181
+paper,3,65,opened,Phase-Calculus-PDFs/CF000_Primitive_Distinguishability.pdf,mechanism-covered; not full close-read,24,87040
+paper,4,100,queued,Phase-Calculus-PDFs/CF00_Induced_Geometry.pdf,COMPLETE_FIRST_PASS,33,77066
+paper,5,0,queued,Phase-Calculus-PDFs/CF13.pdf,queued,7,23367
+paper,6,70,opened,Phase-Calculus-PDFs/CF19_The_Full_Lifted_Object.pdf,mechanism-covered; code-adjacent anchor reviewed,18,73030
+paper,7,0,queued,Phase-Calculus-PDFs/Domesticating_Chaos_Projection_Loss_Accounting_in_Phase_Calculus.pdf,queued,16,51273
+paper,8,70,opened,Phase-Calculus-PDFs/Farey_Remainder_Recursion_and_Orthogonality.pdf,mechanism-covered; needs full formal sweep,7,22642
+paper,9,100,queued,Phase-Calculus-PDFs/Monodromy_as_Memory.pdf,COMPLETE_FIRST_PASS,4,11492
+paper,10,0,queued,Phase-Calculus-PDFs/Operation_Descent_in_Phase_Calculus.pdf,queued,4,11003
+paper,11,0,queued,Phase-Calculus-PDFs/Operational_Utility_and_Multiscale_Invariance_of_Phase_Calculus.pdf,queued,20,70671
+paper,12,60,opened,Phase-Calculus-PDFs/Phase_Calculus_Complete_Formalisation.pdf,opened and mechanism-covered; stale-canon caution; not full first-pass,77,179494
+paper,13,0,queued,Phase-Calculus-PDFs/Phase_Calculus_as_Universal_Exact_Grammar_for_Branching_Structures.pdf,queued,11,30533
+paper,14,0,queued,Phase-Calculus-PDFs/Primitive_Origin_and_Dependency_Chain.pdf,queued,1,3022
+paper,15,0,queued,Phase-Calculus-PDFs/Quotient_Descent.pdf,queued,10,38279
+paper,16,0,queued,Phase-Calculus-PDFs/TDAHE_Phase_Calculus_with_Experimental_Consequences.pdf,queued,22,74769
+paper,17,0,queued,Phase-Calculus-PDFs/Transcendental_Wall_Inverse_Word_Certifier.pdf,queued,8,17848
+paper,18,0,queued,Phase-Calculus-PDFs/Unified_Quintic.pdf,queued,15,46630
+paper,19,0,queued,Phase-Calculus-PDFs/non_commutative_phase_geometry.pdf,queued,10,21631
+paper,20,0,queued,Phase-Calculus-PDFs/phase_calculus_demonstration_paper_v2.pdf,queued,15,47104
+paper,21,100,queued,Phase-Calculus-PDFs/retained_state_phase_calculus_v6.pdf,COMPLETE_FIRST_PASS,7,13483
+paper,22,20,figure-check-needed,Phase-Calculus-Research-Pkgs/Loop_Generated_Projection_in_TDAHE/figures/fig1_loop_projection_residual.pdf,figure-only record; needs visual figure pass before completion,1,1222
+paper,23,20,figure-check-needed,Phase-Calculus-Research-Pkgs/Loop_Generated_Projection_in_TDAHE/figures/fig2_dual_hysteresis_projection.pdf,figure-only record; needs visual figure pass before completion,1,2035
+paper,24,20,figure-check-needed,Phase-Calculus-Research-Pkgs/Loop_Generated_Projection_in_TDAHE/figures/fig3_phase_space_and_controls.pdf,figure-only record; needs visual figure pass before completion,1,4561
+paper,25,20,figure-check-needed,Phase-Calculus-Research-Pkgs/Loop_Generated_Projection_in_TDAHE/figures/fig4_field_order_memory_checks.pdf,figure-only record; needs visual figure pass before completion,1,1939
+paper,26,0,figure-check-needed,Phase-Calculus-Research-Pkgs/Non_Commutative_Phase_Geometry/fixed_fig02_commutator_residuals.pdf,queued,1,1018
+paper,27,20,figure-check-needed,Phase-Calculus-Research-Pkgs/Non_Commutative_Phase_Geometry/nc_phase_geometry_package_v0_3_ALL_FIGURES/figures/fig01_hidden_order_commutator.pdf,figure-only record; needs visual figure pass before completion,1,339
+paper,28,20,figure-check-needed,Phase-Calculus-Research-Pkgs/Non_Commutative_Phase_Geometry/nc_phase_geometry_package_v0_3_ALL_FIGURES/figures/fig02_commutator_residuals.pdf,figure-only record; needs visual figure pass before completion,1,1018
+paper,29,20,figure-check-needed,Phase-Calculus-Research-Pkgs/Non_Commutative_Phase_Geometry/nc_phase_geometry_package_v0_3_ALL_FIGURES/figures/fig03_gaussian_saturation.pdf,figure-only record; needs visual figure pass before completion,1,427
+paper,30,20,figure-check-needed,Phase-Calculus-Research-Pkgs/Non_Commutative_Phase_Geometry/nc_phase_geometry_package_v0_3_ALL_FIGURES/figures/fig04_omega_curvature_integer.pdf,figure-only record; needs visual figure pass before completion,1,778
+paper,31,20,figure-check-needed,Phase-Calculus-Research-Pkgs/Non_Commutative_Phase_Geometry/nc_phase_geometry_package_v0_3_ALL_FIGURES/figures/fig05_quintic_commutator_matrix.pdf,figure-only record; needs visual figure pass before completion,1,1004
+paper,32,20,figure-check-needed,Phase-Calculus-Research-Pkgs/Non_Commutative_Phase_Geometry/nc_phase_geometry_package_v0_3_ALL_FIGURES/figures/fig06_balanced_corridor_anchor.pdf,figure-only record; needs visual figure pass before completion,1,440
+paper,33,0,queued,Phase-Calculus-Research-Pkgs/Operational_Utility_and_Multiscale_Invariance_of_Phase_Calculus/packages/phase_calculus_demonstration_paper_v2/main.pdf,queued,15,47104
+paper,34,0,queued,Phase-Calculus-Research-Pkgs/Phase_Calculus_as_Universal_Exact_Grammar_for_Branching_Structures/main.pdf,queued,11,30492
+paper,35,100,queued,Prospect-Leads/Axis-Free-overset-grid.pdf,COMPLETE_FIRST_PASS,14,97241
+paper,36,100,queued,Prospect-Leads/Dataset-of-Ancient-Chinese-Math.pdf,COMPLETE_FIRST_PASS,12,65181
+paper,37,5,queued,Prospect-Leads/Leibniz-Binary-Shao-Yongs-YiJing.pdf,text extraction failed/near-empty; needs alternate extraction or image pass,32,32
+paper,38,0,queued,Prospect-Leads/Liu_2022_ApJ_940_62.pdf,queued,15,67720
+paper,39,35,queued,Prospect-Leads/Physics_of_Buddhism_The_physics_and_math.pdf,partial control-paper read; not complete,53,131495
+paper,40,0,queued,Prospect-Leads/icpr2011_Logic-and-Philosophy-Today.pdf,queued; very large,437,1012529
+paper,41,100,opened,Prospect-Leads/philosophies-10-00111.pdf,COMPLETE_FIRST_PASS,11,58797
+paper,42,100,queued,Tao-Research/out/01-1-4-2024 (1).pdf,COMPLETE_FIRST_PASS,17,36859
+paper,43,100,opened,Tao-Research/out/0403123v1.pdf,COMPLETE_FIRST_PASS,15,41731
+paper,44,100,queued,Tao-Research/out/1003.1633v1.pdf,COMPLETE_FIRST_PASS,15,98713
+paper,45,0,queued,Tao-Research/out/1648-16.pdf,queued,9,28296
+paper,46,100,queued,Tao-Research/out/1705.0203v1.pdf,COMPLETE_FIRST_PASS,63,177991
+paper,47,100,opened,Tao-Research/out/1_ The Shape of Understanding - by Vincent John.pdf,COMPLETE_FIRST_PASS,21,50531
+paper,48,45,queued,Tao-Research/out/2508.08210v2.pdf,mechanism-opened; modern Yin-Yang/MFE lead; not complete,28,124726
+paper,49,100,opened,Tao-Research/out/2606.18009v1.pdf,COMPLETE_FIRST_PASS,22,68342
+paper,50,100,opened,Tao-Research/out/5d56507fb71b0.pdf,COMPLETE_FIRST_PASS,9,28207
+paper,51,100,opened,Tao-Research/out/5e0429a28f229.pdf,COMPLETE_FIRST_PASS,11,35017
+paper,52,100,queued,Tao-Research/out/9911050v1.pdf,COMPLETE_FIRST_PASS,4,13618
+paper,53,100,queued,Tao-Research/out/9911051v1.pdf,COMPLETE_FIRST_PASS,9,25603
+paper,54,100,queued,Tao-Research/out/ChinaandUniversals.pdf,COMPLETE_FIRST_PASS,22,52770
+paper,55,100,opened,Tao-Research/out/Geochem Geophys Geosyst - 2004 - Kageyama - Yin#U2010Yang grid   An overset grid in spherical geometry.pdf,COMPLETE_FIRST_PASS,15,74069
+paper,56,100,queued,Tao-Research/out/Geochem Geophys Geosyst - 2014 - Yoshida - A Fortran visualization program for spherical data on a Yin#U2010Yang grid.pdf,COMPLETE_FIRST_PASS,6,35441
+paper,57,100,opened,Tao-Research/out/Jin-Yuan Mathematics and Quanzhen Taoism.pdf,COMPLETE_FIRST_PASS,9,16837
+paper,58,0,queued,Tao-Research/out/Koulaouzidis_2018.pdf,queued,26,34405
+paper,59,45,queued,Tao-Research/out/Luo_2025_ApJS_280_48.pdf,mechanism-opened; modern Yin-Yang/MFE lead; not complete,20,149262
+paper,60,0,queued,"Tao-Research/out/Mathematics _ Definition, History, & Importance _ Britannica.pdf",queued,14,46323
+paper,61,40,opened,Tao-Research/out/Tao Te Ching.pdf,opened and sampled for conceptual resonance; not close-read cover-to-cover,130,90920
+paper,62,100,opened,Tao-Research/out/The Tao of Math.pdf,COMPLETE_FIRST_PASS,14,42280
+paper,63,5,queued,Tao-Research/out/Unearthing-the-Ancient-Yi_Chinese.pdf,text extraction poor/near-empty; likely needs OCR/alternate source,142,1313
+paper,64,100,queued,Tao-Research/out/Yin-Yang_grid_and_geodynamo_simulation.pdf,COMPLETE_FIRST_PASS,5,19533
+paper,65,45,queued,Tao-Research/out/mwre-mwr-d-12-00108.1.pdf,mechanism-opened; modern Yin-Yang/weather grid lead; not complete,19,102976
+paper,66,100,queued,Tao-Research/out/windwalker-iching.pdf,COMPLETE_FIRST_PASS,25,33650
+code,,100,,source/code/yinyang_transform.py,single-file source fully read; matrix/involution/det check noted,,
+code,,90,,source/code/iching-wilhelm-dataset-master/data/i-ching-basic.js,core 64-state/complement structure read; reversal/King-Wen product tests still pending,,
+code,,80,,source/code/iching-wilhelm-dataset-master/README.md,README/data purpose read; full line-comment corpus not exhausted,,
+code,,55,,source/code/MFE_pub-main/README.txt + python/pyMFE.py,README and reader inspected; Fortran ModGrid/Interp/Boundary not yet inspected,,
+code,,20,,source/code/MFE_pub-main/ full codebase,package identified; only README and pyMFE touched,,
+code,,0,,source/code/pencil-code-master.zip,queued; not inspected,,
+code,,100,,CF19/code/python/overflow_to_55_89_code.py,direct B/floor anchor witness fully read,,
+code,,85,,CF19/code/python/ramanujan_residual_balanced_windows_code.py,q-window/residual bridge read; needs eta/theta formal cross-check,,
+code,,90,,CF19/code/farey_balanced/*.S + runner.c,assembly/runner mechanism read; no exhaustive build/test audit,,
+code,,80,,CF19/code/xi_full_engine/*.S + runner.c,state fields and Q/B/L-like mechanics read; no exhaustive executable audit,,
+code,,0,,Phase package formal/Lean/SymPy/scripts broad pass,queued,,

@@ -1,0 +1,9 @@
+loss_class,witness,projection_collision,minimum_fix
+order loss,NC phase geometry commutator,"[a,b] and identity share visible projection under abelian readout",retain word/order or central charge
+history loss,Monodromy double-cover,empty loop and two-turn loop share visible sheet,retain kappa/winding and history
+action-registry loss,S5 branch grammar,same primitive word LQ maps to different sheet actions,retain generator/action registry
+basis loss,Pencil Yin-Yang vector transfer,same vector components in different chart bases are not same state,retain chart basis and channel type
+digit-order loss,Ancient Yi octal readout,scalar readout loses line/digit-order convention unless reconstruction is specified,retain LSD-first convention and place width
+semantic-readout loss,Wilhelm line corpus,line text/category does not determine graph transition,retain six-line carrier + selected line
+diagnostic loss,MFE/Liu projections,AIA/QSL output does not determine full boundary-complete MHD state,"retain field state, boundary callbacks, connectivity/restart data"
+stale selector loss,Phase formalisation RST/Tdelta,selector witness can reset or compress state unlike corrected L carry,separate executable witness layer from corrected canon

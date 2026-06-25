@@ -1,0 +1,13 @@
+feature,status,role
+even orientation vector a(-r)=a(r),general,forces bilateral n-weighted scalar cancellation and makes projection-loss exact
+positive orientation readout,general,recovers the nonzero partial/false-theta channel
+coefficient-stripped channel,general,candidate weight-1/2 shadow for unary finite-module cases
+n-weighted channel,general,raises unary theta channel by one weight unit; gives weight-3/2 derivative channel
+finite quadratic module A_m=Z/(2m)Z,general within phase3_v1 class,retained residue carrier supporting S/T action
+T_r=exp(pi*i*r^2/(2m)),general within phase3_v1 class,Q square seating / cusp phase shift
+S_rs=(2m)^(-1/2) exp(-pi*i*r*s/m),general within phase3_v1 class,B/L orthogonal dual seating / Gauss kernel
+"chi12 support gcd(n,6)=1",chi12-specific,Dedekind eta support/sign channel
+chi12 scalar quotient closure,chi12-specific simplification,one-dimensional scalar closure; not needed by general carrier
+chi8 two-step T orbit,case-specific boundary,"shows retained vector carrier is general target, scalar character quotient is special"
+Legendre p=1 mod4 cases,additional tested family,extends even orientation mechanism beyond chi12 and chi8
+constructed delta-pair vectors,stress test,tests carrier mechanics without relying on named character identity

@@ -1,0 +1,7 @@
+slot,general_role,phase,yi,wilhelm
+retained carrier,state object whose omitted coordinates change next transition,"q=(u,v)",LSD-first base-8 digit tuple with length,six-line carrier plus selected line
+refinement,state-local successor/refinement law,"sort(v,u+v)",base-8 increment/carry,flip selected line
+progress,same-domain movement is deterministic and admissible,uv strictly increases,value increments until all-7 completion,Hamming-adjacent target exists for selected line
+completion,finite current domain reaches no-next-same-domain state,lap/floor/horizon saturation,all k digits are 7,not intrinsic in six-line flip alone
+lift,new domain opens while retained state controls continuation,L carries q/theta and rank+1,append new high place: 77->001,requires external oracle/changing-line context
+projection,terminal readout not state-complete,product uv collision,scalar value/low-digit collision,carrier-only collision when selected line omitted

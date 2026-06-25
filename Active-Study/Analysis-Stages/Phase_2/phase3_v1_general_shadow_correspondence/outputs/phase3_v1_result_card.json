@@ -1,0 +1,28 @@
+{
+  "phase": "Phase 3",
+  "version": "phase3_v1",
+  "title": "General Shadow Correspondence Sweep",
+  "status": "CONDITIONAL_CLASS_CLAIM_SUPPORTED_BY_SWEEP",
+  "global_pass": true,
+  "case_count": 6,
+  "closed_phase2_instance_carried_forward": "chi12_eta_shadow_residual_closed_phase2",
+  "sweep_cases": [
+    "chi12_eta_shadow_residual_closed_phase2",
+    "chi8_level8_second_case",
+    "legendre5_level10",
+    "legendre13_level26",
+    "delta_pair_m7",
+    "three_pair_m9"
+  ],
+  "claim": "For unary false-theta/mock-shadow channels carried by A_m=Z/(2m)Z with even orientation vector a(-r)=a(r), the shadow map is the Phase Calculus projection-loss gate in the modular setting.",
+  "falsifier": "A finite-module unary false-theta/mock-shadow pair with even orientation vector and known S/T/shadow data where the S/T carrier is not T_r=exp(pi*i*r^2/(2m)), S_rs=(2m)^(-1/2)exp(-pi*i*r*s/m), or where the known shadow is not the coefficient-stripped projection of the same retained carrier.",
+  "next_targets": [
+    "phase3_v2_modular_B_operator_family",
+    "phase3_v3_projection_loss_theorem_corpus",
+    "phase3_v4_ancient_yi_carry_lift_closure",
+    "phase3_v5_wilhelm_six_line_phase_ladder",
+    "phase3_v6_latest_phase_source_sync",
+    "phase3_v7_lean_lake_execution"
+  ],
+  "Liu2022_status": "WAITING_FOR_DATA_RESPONSE"
+}

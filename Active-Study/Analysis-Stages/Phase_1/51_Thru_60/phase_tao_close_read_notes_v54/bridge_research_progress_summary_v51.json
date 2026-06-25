@@ -1,0 +1,20 @@
+{
+  "version": "v51",
+  "latest_pass": "notes/57_MONODROMY_MEMORY_STATE_COMPLETENESS_PASS.md",
+  "paper_resource_first_pass_coverage": "~98.8%",
+  "code_data_bridge_coverage": "~98.2%",
+  "overall_project_research_pass": "~96.4%",
+  "latest_revealing_findings": [
+    "same stripped visible projection does not imply same full lifted-register transition",
+    "double-cover two-turn loop returns visibly but changes kappa/history",
+    "quintic commutator is nonidentity, so action order is retained state",
+    "sheet/kappa/history/action registry become project-wide state-completeness gates"
+  ],
+  "cleaned_zip_exclusions": [
+    "renders/",
+    "tmp/",
+    "image files",
+    "PDF files",
+    "prior zip packages"
+  ]
+}

@@ -1,0 +1,21 @@
+domain,start_lsd,step,state_lsd,state_msd,value,complete_all_7,next_lsd,next_msd,next_value,domain_length_change
+Ancient Yi octal-place,0,0,0,0,0,False,1,1,1,0
+Ancient Yi octal-place,0,1,1,1,1,False,2,2,2,0
+Ancient Yi octal-place,0,2,2,2,2,False,3,3,3,0
+Ancient Yi octal-place,0,3,3,3,3,False,4,4,4,0
+Ancient Yi octal-place,6,0,6,6,6,False,7,7,7,0
+Ancient Yi octal-place,6,1,7,7,7,True,01,10,8,1
+Ancient Yi octal-place,6,2,01,10,8,False,11,11,9,0
+Ancient Yi octal-place,6,3,11,11,9,False,21,12,10,0
+Ancient Yi octal-place,7,0,7,7,7,True,01,10,8,1
+Ancient Yi octal-place,7,1,01,10,8,False,11,11,9,0
+Ancient Yi octal-place,7,2,11,11,9,False,21,12,10,0
+Ancient Yi octal-place,7,3,21,12,10,False,31,13,11,0
+Ancient Yi octal-place,77,0,77,77,63,True,001,100,64,1
+Ancient Yi octal-place,77,1,001,100,64,False,101,101,65,0
+Ancient Yi octal-place,77,2,101,101,65,False,201,102,66,0
+Ancient Yi octal-place,77,3,201,102,66,False,301,103,67,0
+Ancient Yi octal-place,777,0,777,777,511,True,0001,1000,512,1
+Ancient Yi octal-place,777,1,0001,1000,512,False,1001,1001,513,0
+Ancient Yi octal-place,777,2,1001,1001,513,False,2001,1002,514,0
+Ancient Yi octal-place,777,3,2001,1002,514,False,3001,1003,515,0

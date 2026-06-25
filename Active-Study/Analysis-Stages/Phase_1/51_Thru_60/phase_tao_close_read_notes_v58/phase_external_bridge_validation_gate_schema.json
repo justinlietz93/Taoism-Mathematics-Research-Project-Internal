@@ -1,0 +1,29 @@
+{
+  "artifact": "phase_external_bridge_validation_gate_schema_v1",
+  "purpose": "Prevent semantic drift by requiring function-first bridge validation before accepting or rejecting external matches.",
+  "bridge_test_order": [
+    "retained carrier/state identified",
+    "admissible transition or operation identified",
+    "refinement/transition law identified, allowing corpus-specific arithmetic",
+    "capacity/completion/blockage condition identified",
+    "lift/carry/re-chart/new-domain event identified",
+    "boundary readout/projection identified",
+    "scalar output confirmed terminal rather than carried",
+    "invariant/custody preservation or leakage explicitly checked",
+    "missing pieces listed without downgrading bridge prematurely"
+  ],
+  "classification_labels": {
+    "strong": "functional stack is present and mechanized in source evidence",
+    "candidate": "several stack elements present, but one or more transition/capacity laws still need extraction",
+    "open_not_exhausted": "insufficient extraction; do not downgrade to weak",
+    "negative": "explicit state-completeness, invariant, or transition-preservation test fails"
+  },
+  "current_open_blockers": [
+    "latest Phase selector/floor source from HDD",
+    "Ancient Yi full machine-readable row extraction and convention proof",
+    "Dongyuan/Ceyuan formula-state graph",
+    "Liu 2022 time series / QSL / current density / connectivity data",
+    "Shadow residual Jacobi derivative modular transformation",
+    "exact 2025 Yin-Yang-MFE source if distinct from base MFE_pub-main"
+  ]
+}

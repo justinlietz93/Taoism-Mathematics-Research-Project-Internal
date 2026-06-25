@@ -1,0 +1,27 @@
+series, t_exponent, q_exponent, coefficient
+eta_positive_half,1,1/24,1
+eta_positive_half,25,25/24,-1
+eta_positive_half,49,49/24,-1
+eta_positive_half,121,121/24,1
+eta_positive_half,169,169/24,1
+eta_positive_half,289,289/24,-1
+eta_positive_half,361,361/24,-1
+eta_positive_half,529,529/24,1
+eta_positive_half,625,625/24,1
+eta_positive_half,841,841/24,-1
+eta_positive_half,961,961/24,-1
+eta_positive_half,1225,1225/24,1
+eta_positive_half,1369,1369/24,1
+shadow_residual_R,1,1/24,1
+shadow_residual_R,25,25/24,-5
+shadow_residual_R,49,49/24,-7
+shadow_residual_R,121,121/24,11
+shadow_residual_R,169,169/24,13
+shadow_residual_R,289,289/24,-17
+shadow_residual_R,361,361/24,-19
+shadow_residual_R,529,529/24,23
+shadow_residual_R,625,625/24,25
+shadow_residual_R,841,841/24,-29
+shadow_residual_R,961,961/24,-31
+shadow_residual_R,1225,1225/24,35
+shadow_residual_R,1369,1369/24,37

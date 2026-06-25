@@ -1,0 +1,19 @@
+{
+  "pass": "44_B_REFINEMENT_SCOPE_CORRECTION",
+  "canonical_origin_example": "B from canonical QBL origin can follow Fibonacci/Farey corridor",
+  "general_b_rule": "B refinement is a state-carried operational refinement and can begin from arbitrary 1/n depth or asymmetric (u,v) pairs",
+  "external_bridge_standard": [
+    "retained current state controls legal successor",
+    "refinement can begin from non-origin state",
+    "continuation narrows/concentrates/extends carried structure",
+    "completion or overflow blocks same-domain continuation",
+    "Q/B context determines whether another refinement is admitted",
+    "blocked continuation contributes to lift/re-chart/new-domain opening"
+  ],
+  "ancient_yi_status": "strong operational B-candidate; arithmetic law differs from canonical origin B but bridge remains relevant",
+  "do_not_require": [
+    "exact q=(u,v)->sort(v,u+v) from origin in external source",
+    "Fibonacci sequence identity",
+    "start from (1,1) only"
+  ]
+}

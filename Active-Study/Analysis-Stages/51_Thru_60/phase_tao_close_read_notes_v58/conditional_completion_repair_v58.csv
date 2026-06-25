@@ -1,6 +1,0 @@
-blocker,old_status,v58_status,remaining,artifact
-Ancient Yi full 64-row table,open blocker,resolved for bridge research,philological edition check only,ancient_yi_full_64_table_reconstruction_v58.csv
-Ancient Yi line-order proof,open blocker,resolved for bridge research,human glyph audit optional,ancient_yi_line_order_proof_rows_v58.csv
-Shadow Residual Jacobi/unary-theta proof,vague absolute blocker,strong proof attempt complete; scalar direct closure obstructed,vector-valued/oriented half-lattice multiplier proof,shadow_residual_jacobi_theta_proof_attempt_v58.md
-Liu2022 data,external data pending,unchanged,QSL/current/connectivity data,terminal_blocker_and_evidence_request_v57.csv
-Lean/lake execution,environment blocker,unchanged,local Lean execution,proofs/*.lean
