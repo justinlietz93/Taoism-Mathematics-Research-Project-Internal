@@ -1,0 +1,7 @@
+constraint,explanation
+projection is downstream,Synthetic AIA images are derived from evolved density/temperature via line-of-sight integration; they are not the primary state.
+visible similarity is non-unique,Authors acknowledge HFT-MFR and double-decker/partial-eruption alternatives cannot be fully ruled out.
+history matters before endpoint labels,Footpoint transfer P1->P3 is a topological custody transition; endpoint label alone is not enough.
+boundary events should be explicit,HFT and null point identify where coupling/custody changes occur.
+data limitations block a stronger extractor,"Without requested data/animations, no frame-by-frame native coupling extraction can be independently replayed here."
+unstable initial state limits origin claims,"The simulation begins unstable and lacks slow-rise history, so it cannot supply a full buildup normal form."

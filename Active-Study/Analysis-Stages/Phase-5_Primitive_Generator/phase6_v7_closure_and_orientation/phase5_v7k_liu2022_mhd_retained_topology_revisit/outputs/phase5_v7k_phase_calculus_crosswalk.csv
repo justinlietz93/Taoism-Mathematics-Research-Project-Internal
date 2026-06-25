@@ -1,0 +1,7 @@
+phase5_object,liu2022_object,pass,note
+retained lifted state,3D data-constrained magnetic/plasma state,YES,Simulation evolves magnetic topology before producing synthetic AIA projections.
+branch/latch boundary,HFT and null-point topology,YES,HFT separates high and low structures; null-point reconnection changes footpoint custody.
+native coupling event,overlying reconnection + tether-cutting reconnection,PARTIAL,"Mechanism is topological, but no QBL coupling tensor is measured from data."
+projection loss,94 Å/304 Å differences and line-of-sight synthetic images,YES,High channel appears in hot passband; low-temperature projection differs.
+arbitrary-history classification,full time-resolved topology from raw model/animations,NO,"Paper supports mechanism, not a full history normal form theorem."
+monodromy/custody reassignment,right footpoint transfer P1->P3,YES_ANALOGUE,"Endpoint identity changes by reconnection, not by local image displacement alone."

@@ -1,0 +1,7 @@
+phase5_object,paper_object,mapping_strength,caution
+Orthad overset atlas,Yin-Yang two-patch grid,STRONG_ANALOGUE,"Yin/Yang patches are peer geometric charts, not literally point/eigen charts."
+chart transition,M coordinate rotation and P vector transform,STRONG_OPERATIONAL,Paper transition is geometric; Phase transition is retained-state/eigen chart.
+shared-boundary coupling,ghost-zone interpolation from internal neighboring patch zones,STRONG_OPERATIONAL,Interpolation is numerical and not automatically conservative.
+coupling registry,stored interpolation coefficients and overlap weight maps,STRONG_OPERATIONAL,Registry is fixed for stationary grid; QBL histories may have dynamic latch structure.
+projection discipline,overlap weights w=1-0.5 alpha,STRONG_ANALOGUE,"Weights solve double-counted integration, not full history equivalence."
+arbitrary-history normal form,scalar boundary flux replacement from interior fluxes,TESTABLE_TEMPLATE,Momentum/vector component mixing remains harder.

@@ -1,0 +1,15 @@
+{
+  "phase": "Phase 5 v7k",
+  "title": "Liu 2022 MHD Revisit for Retained Topology, Boundary Coupling, and Projection Discipline",
+  "status": "RETAINED_TOPOLOGY_ANALOGUE_CONFIRMED_ARBITRARY_HISTORY_CLASSIFICATION_STILL_OPEN",
+  "global_pass": true,
+  "phase5_closed": false,
+  "source_pdf": "Liu_2022_ApJ_940_62.pdf",
+  "source_sha256": "8796919c39198d379b8077aae04a0718ae29157ea7d8dc29cdbfac016ea8b310",
+  "mechanism_rows": 10,
+  "crosswalk_rows": 6,
+  "constraints": 6,
+  "falsification_targets": 5,
+  "data_request_status": "pending_no_external_data_available_in_this_pass",
+  "created_utc": "2026-06-25T16:04:54Z"
+}

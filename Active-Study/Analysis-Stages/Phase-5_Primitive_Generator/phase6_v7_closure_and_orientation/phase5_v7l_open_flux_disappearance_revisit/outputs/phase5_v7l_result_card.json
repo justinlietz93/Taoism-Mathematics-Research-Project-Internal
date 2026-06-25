@@ -1,0 +1,15 @@
+{
+  "phase": "Phase 5 v7l: Open-Flux Disappearance Revisit for Closure, Projection Loss, and Boundary-Coupling Normal Form",
+  "status": "OPEN_FLUX_DISAPPEARANCE_ANALOGUE_CONFIRMED_CLOSURE_PROJECTION_AND_BOUNDARY_COUPLING_CONSTRAINTS_EXTRACTED",
+  "global_pass": true,
+  "phase5_closed": false,
+  "created_utc": "2026-06-25T16:08:52Z",
+  "source": "An_almost_complete_disappearance_of_open-flux_pola.pdf",
+  "numeric_checks_passed": 5,
+  "numeric_checks_total": 6,
+  "mechanism_rows": 8,
+  "crosswalk_rows": 6,
+  "arbitrary_history_constraints": 6,
+  "falsification_targets": 5,
+  "key_result": "The paper is a strong analogue for closure-before-projection, topology recustody, boundary-edge coupling, and projection-loss discipline; it does not close arbitrary QBL history classification."
+}

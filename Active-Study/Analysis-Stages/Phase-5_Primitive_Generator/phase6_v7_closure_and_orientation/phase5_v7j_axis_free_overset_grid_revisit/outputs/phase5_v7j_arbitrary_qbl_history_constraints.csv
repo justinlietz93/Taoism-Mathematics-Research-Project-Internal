@@ -1,0 +1,7 @@
+constraint,rule,source_mechanism
+no_single_chart_global_claim,A chart-local evolution cannot be promoted to a global retained-state claim without overlap handoff gates.,single spherical grid pole artifacts
+transition_map_must_be_retained,"Chart changes must be stored as transition data, not recomputed after projection as explanation.",stored interpolation coefficient maps
+overlap_projection_weights_required,Projection/integration over an overset state must account for overlap multiplicity.,w=1-0.5 alpha weighting
+boundary_handoff_from_interior,Boundary handoff should be reconstructible from interior retained state where possible.,scalar flux replacement algorithm
+scalar_success_does_not_close_vector_tensor,Scalar conservation/readout success does not close component-mixing or momentum-like tensor gates.,momentum conservation remains harder
+auxiliary_projection_not_native_carrier,An auxiliary grid/readout basis can support computation without becoming the native retained carrier.,gravity solver auxiliary spherical polar grid

@@ -1,0 +1,6 @@
+target,falsifier
+arbitrary_history_normal_form,Two legally equivalent QBL histories produce different sealed coupling tensors.
+native_overlap_coupling,A shared-boundary history requires post-comparison adjustment of c_ij to close.
+projection_discipline,Scalar projection double-counts or loses overlap contribution under legal chart overlap.
+component_mixing,Vector/tensor readout fails under chart transition while scalar readout passes.
+auxiliary_readout,The external readout basis changes the retained evolution rather than only reading it.

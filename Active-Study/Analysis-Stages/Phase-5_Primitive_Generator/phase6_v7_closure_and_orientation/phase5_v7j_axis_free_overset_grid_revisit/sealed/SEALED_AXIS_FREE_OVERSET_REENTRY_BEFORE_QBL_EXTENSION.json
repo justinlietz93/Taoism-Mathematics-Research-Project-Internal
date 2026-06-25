@@ -1,0 +1,8 @@
+{
+  "sealed_before_phase_calculus_extension": true,
+  "source_pdf_sha256": "1f336abde7c5d0d3dcc882abcd3b690deef63cf690cbbae67376de32d3dfb6b9",
+  "numeric_checks_sha256": "ba371559e6b01ab958a6f24af9d6f295b9f4135651f5480b5cb3beed5d8cc168",
+  "mechanism_extract_sha256": "dd11dc8cab7139eb61d8ba787151b9aeebe2382ccf936e5393d111285aa20faa",
+  "crosswalk_sha256": "0e497f3e8ed30432c3ab500ced03d5b612500eb5b7aa6dcbc2cf58dfe1acbf33",
+  "constraints_sha256": "3ea165bcfb691bd481dea23d65f8ba7c575daf98c1ae9e16ee3bb6a1bd5ef2fd"
+}

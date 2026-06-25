@@ -1,0 +1,6 @@
+stale_statement,repair
+The Orthad is one matrix/lens.,The Orthad is an overset atlas/readout with chart transition structure; single lens is a collapse.
+Overlap is only a visualization artifact.,Overlap carries handoff data: interpolation/transition coefficients and projection weights.
+Scalar projection closure proves full retained closure.,Scalar closure is weaker than vector/tensor component closure across chart transitions.
+Boundary values can be imposed externally.,Boundary handoff should be derived from neighboring interior retained-state data when claiming native generation.
+Product-module coupling can be supplied as module data and counted as generated.,Generated coupling must be extracted and sealed from overlap/latch history before comparison.

@@ -1,0 +1,18 @@
+{
+  "sealed_utc": "2026-06-25T16:04:54Z",
+  "source_sha256": "8796919c39198d379b8077aae04a0718ae29157ea7d8dc29cdbfac016ea8b310",
+  "sealed_before_qbl_extension": true,
+  "sealed_mechanism_ids": [
+    "m1_initial_retained_topology",
+    "m2_hft_separator",
+    "m3_null_reconnection_footpoint_transfer",
+    "m4_tether_cutting_separation",
+    "m5_high_q_ribbons",
+    "m6_synthetic_aia_projection",
+    "m7_missing_slow_rise",
+    "m8_no_prominence_condensation",
+    "m9_model_ambiguity",
+    "m10_data_pending"
+  ],
+  "no_claim_to_close_arbitrary_history": true
+}

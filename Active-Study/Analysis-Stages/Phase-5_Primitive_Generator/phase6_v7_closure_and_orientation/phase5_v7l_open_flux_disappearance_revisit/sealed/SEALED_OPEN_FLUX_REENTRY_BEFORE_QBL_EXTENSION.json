@@ -1,0 +1,21 @@
+{
+  "phase": "Phase 5 v7l: Open-Flux Disappearance Revisit for Closure, Projection Loss, and Boundary-Coupling Normal Form",
+  "sealed_before_qbl_extension": true,
+  "source_pdf_sha256": "f3f778b2b9beb58979c7c4e77a66f6881a5fa8e965c896658a56b904e237d33c",
+  "numeric_extract": {
+    "initial_open_flux_wb": 400000000.0,
+    "remaining_open_flux_wb": 80000000.0,
+    "remaining_fraction": 0.2,
+    "closed_flux_wb": 320000000.0,
+    "closure_voltage_v": 32000.0,
+    "closure_time_hr": 2.7777777777777777,
+    "quiet_window_hr": 3.0,
+    "hca_duration_hr": 1.6833333333333333,
+    "center_tail_extent_re": 28,
+    "mhd_grid_points": 32768000,
+    "min_grid_spacing_re": 0.15
+  },
+  "mechanism_hash": "7ded8f3b7c86148c5c8f8a6a0276b04b76909d96f382dee9546811fd7d69201b",
+  "crosswalk_hash": "e642fe94a36ae84fdd5e966e2a1372aa33b779039709bdda2eb415f8f0cdd062",
+  "constraint_hash": "7240547c24947e084ab73992297d5aefbd0ad271dff7f1fc0524fc17fe134362"
+}

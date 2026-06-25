@@ -1,0 +1,7 @@
+phase5_object,paper_object,mapping,gate
+retained lifted state,"magnetosphere field-line topology: closed, half-open, full-open",field-line class is carried before auroral projection,must preserve topology class across projection
+boundary latch,dual-lobe reconnection site / OCB / CDPS edge,boundary event changes field-line custody,extract closure/reclosure event order
+coupling tensor candidate,dawn/dusk CDPS squeeze + KHI edge shear,two flank axes compress shared tail carrier,test whether flank incidences generate pairwise coupling
+projection loss,nearly disappeared polar cap despite active topology changes,visible open flux shrinks while retained system still dynamically reconfigures,avoid scalar-disappearance=state-disappearance error
+overset chart/readout,magnetosphere/ionosphere field-aligned mapping,same topology read in magnetotail plane and ionospheric aurora plane,mapping must preserve boundary edges and closure class
+normal form frontier,sequential opening/reclosing and scissors-like field-line distribution,history order matters for final topology,canonicalize open->half-open->closed event paths

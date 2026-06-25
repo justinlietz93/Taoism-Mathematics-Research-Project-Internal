@@ -1,0 +1,21 @@
+{
+  "phase": "Phase 5 v7j",
+  "title": "Axis-Free Overset Grid Revisit for Arbitrary QBL History",
+  "status": "OVERSET_GRID_MECHANISM_REENTRY_COMPLETED_ARBITRARY_HISTORY_CONSTRAINTS_EXTRACTED",
+  "global_pass": true,
+  "phase5_closed": false,
+  "source": "Axis-Free-overset-grid.pdf",
+  "numeric_checks": {
+    "all_pass": true,
+    "max_numeric_residual": 0.0,
+    "check_count": 5,
+    "checks_passed": 5,
+    "det_M": 1.0
+  },
+  "mechanism_rows": 10,
+  "crosswalk_rows": 6,
+  "constraints": 6,
+  "stale_patch_rules": 5,
+  "falsification_targets": 5,
+  "main_verdict": "The paper is a strong operational analogue for overset Orthad chart overlap and boundary handoff, but it does not close arbitrary QBL history classification. It sharpens the required normal-form and component-mixing gates."
+}

@@ -1,0 +1,7 @@
+constraint,why,phase5_requirement
+"arbitrary QBL history normal form must distinguish open, half-open, and closed custody classes","paper separates full-open, half-open, and closed field lines in simulation figure captions",retain topology class before scalar readout
+closure event order cannot be erased,dual-lobe reconnection opens/recloses sequentially with delays,history must keep event order and hemisphere/orientation hand
+edge motion and merging must be boundary-level observables,HCA poleward edges merge as polar cap nearly disappears,"boundary-edge registry, not only total scalar flux"
+"cross-axis coupling likely lives at flank/edge shear, not at bulk field average",KHI and density gradients at CDPS edges generate fine structures/arcs,extract coupling from shared boundary incidence/shear
+projection channels must remain separated,"magnetotail topology, plasma density, FAC, aurora, and convection each show different readouts","readout channels are vector fields, not one scalar"
+near-disappearance is not annihilation,open lines still appear at any time but are sequentially reclosed,state may persist dynamically despite scalar open-flux collapse

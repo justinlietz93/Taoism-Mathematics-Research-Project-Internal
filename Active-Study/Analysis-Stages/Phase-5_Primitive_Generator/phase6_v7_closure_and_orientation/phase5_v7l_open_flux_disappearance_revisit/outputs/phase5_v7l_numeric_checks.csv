@@ -1,0 +1,7 @@
+check,expression,value,threshold,pass
+remaining_open_flux_fraction,0.8e8 / 4.0e8,0.2,equals 0.2,True
+closed_open_flux_wb,4.0e8 - 0.8e8,320000000.0,equals 3.2e8 Wb,True
+closure_time_hours_at_32kV,3.2e8 Wb / 32000 V / 3600,2.7777777777777777,approx 2.8 h,True
+quiet_window_hours,09:17 to 12:17,3.0,3.0 h,True
+hca_evolution_hours,10:21 to 12:02,1.6833333333333333,approx 1.683 h,True
+mhd_grid_count,320^3,32768000,33554432 points,False

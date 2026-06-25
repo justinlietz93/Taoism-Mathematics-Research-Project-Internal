@@ -1,0 +1,17 @@
+{
+  "status": "RETAINED_TOPOLOGY_ANALOGUE_CONFIRMED_ARBITRARY_HISTORY_CLASSIFICATION_STILL_OPEN",
+  "global_pass": true,
+  "key_result": "Liu 2022 is a strong retained-topology/projection-discipline analogue but not a QBL arbitrary-history closure theorem.",
+  "strongest_mechanisms": [
+    "HFT separator",
+    "null-point footpoint transfer",
+    "tether-cutting separation",
+    "synthetic projection downstream"
+  ],
+  "blockers": [
+    "data request pending",
+    "unstable initial state",
+    "no radiative cooling/prominence condensation",
+    "model ambiguity remains"
+  ]
+}

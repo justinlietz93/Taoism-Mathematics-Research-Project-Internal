@@ -1,0 +1,6 @@
+check,metric,value,threshold,pass,meaning
+yin_yang_matrix_orthogonal,max_abs(M.T@M-I),0.0,1e-12,True,Yin-Yang chart transform is a rotation/reflection-free orthogonal change of chart.
+yin_yang_matrix_involutive,max_abs(M@M-I),0.0,1e-12,True,"The same transform returns from Yang to Yin, matching M^-1=M."
+yin_yang_matrix_orientation_preserving,abs(det(M)-1),0.0,1e-12,True,"The two-patch transform is a proper rotation composition, not an arbitrary projection."
+overlap_weight_bounds,min(w)>=0.5 and max(w)<=1,0.0,0.0,True,Overlap weights interpolate between full custody outside overlap and half custody inside full overlap.
+full_overlap_no_double_count,abs(two_patch_full_overlap_weight_sum-1),0.0,1e-12,True,A fully overlapped zone is split half/half rather than counted twice.
