@@ -1,0 +1,6 @@
+target,kill_condition
+legal swap changes retained signature,"any allowed support-disjoint swap changes axes, edges, holonomy, or contact_z"
+Foata normal form not invariant,two legally equivalent linearisations yield different Foata layers
+support rule too coarse,independence allows a birth violation or same-edge conflict
+derived overlap not native enough,O events cannot be extracted from actual Orthad lens support without hand labels
+C/QGT/contact gates decouple,support-derived histories do not reproduce v7m/v7n/v7o coupling signatures

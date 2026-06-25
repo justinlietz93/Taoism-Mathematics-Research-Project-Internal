@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "alphabet_rows": 5,
+    "claim_rows": 5,
+    "coupling_gates": 10,
+    "coupling_gates_passed": 10,
+    "falsification_targets": 5,
+    "frontier_rows": 4,
+    "independence_rows": 64,
+    "negative_controls": 4,
+    "negative_controls_passed": 4,
+    "rewrite_checks": 3,
+    "rewrite_checks_passed": 3,
+    "trace_cases": 10,
+    "trace_cases_passed": 10
+  },
+  "global_pass": true,
+  "main_result": "Independence is derived from native read/write/birth support tokens rather than hand-labeled admissibility. Legal swaps preserve retained signatures and Foata normal form on tested cases; illegal swaps are blocked by support/birth dependencies.",
+  "phase": "Phase 5 v7p",
+  "phase5_closed": false,
+  "standing_frontier": "Full arbitrary admissible QBL classification remains open until native lens support, transition assignment T, and finite quadratic module gauge classification are closed.",
+  "status": "NATIVE_SUPPORT_DERIVED_EVENT_ALPHABET_SUPPORTED_ON_TESTED_QBL_HISTORY_MODEL",
+  "title": "Native QBL Event Alphabet and Support-Derived Independence"
+}

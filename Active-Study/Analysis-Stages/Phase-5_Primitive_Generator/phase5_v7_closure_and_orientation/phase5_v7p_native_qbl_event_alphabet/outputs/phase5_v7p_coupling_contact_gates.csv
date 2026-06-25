@@ -1,0 +1,11 @@
+case,latch_count,contact_clock,contact_clock_gate,edge_born_gate,projection_read_mutation_gate,passed
+same_axis_QB_commute_before_latch,1,1,True,True,True,True
+same_axis_BQ_commute_before_latch,1,1,True,True,True,True
+two_axis_disjoint_after_birth_A,1,1,True,True,True,True
+two_axis_disjoint_after_birth_B,1,1,True,True,True,True
+overlap_pair_depends_on_both_axes,1,1,True,True,True,True
+three_axis_mixed_support,2,2,True,True,True,True
+readout_terminal_no_mutation,1,1,True,True,True,True
+contact_two_latches,2,2,True,True,True,True
+cross_pair_holonomy,1,1,True,True,True,True
+birth_causality_case,1,1,True,True,True,True

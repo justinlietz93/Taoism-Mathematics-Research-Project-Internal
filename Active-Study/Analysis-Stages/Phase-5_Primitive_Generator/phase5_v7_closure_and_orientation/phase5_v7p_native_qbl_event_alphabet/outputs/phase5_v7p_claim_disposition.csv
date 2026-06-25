@@ -1,0 +1,6 @@
+claim,status,gate
+Native event alphabet can be generated from Q/B/L effects plus derived read/overlap views.,SUPPORTED_ON_TESTED_MODEL,all alphabet rows have explicit support rules
+Independence can be derived from read/write/birth supports instead of hand labels.,SUPPORTED_ON_TESTED_MODEL,independence matrix and rewrite tests pass
+Legal independent swaps preserve retained signature and Foata normal form.,SUPPORTED_ON_TESTED_CASES,3/3 rewrite tests passed
+Illegal dependent swaps are rejected before they can masquerade as equivalence.,SUPPORTED_ON_TESTED_NEGATIVES,4/4 negative controls passed
+Full arbitrary QBL history classification is closed.,OPEN,"requires complete support semantics, transition assignment T, and isometry/gauge classifier"

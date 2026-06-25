@@ -1,0 +1,64 @@
+{
+  "events": [
+    "B0",
+    "Q0",
+    "L0"
+  ],
+  "foata": [
+    [
+      "B0",
+      "Q0"
+    ],
+    [
+      "L0"
+    ]
+  ],
+  "signature": {
+    "axes": {
+      "0": {
+        "born": true,
+        "latched": true,
+        "theta": 1,
+        "u": 1,
+        "v": 2
+      },
+      "1": {
+        "born": true,
+        "latched": false,
+        "theta": 0,
+        "u": 1,
+        "v": 1
+      }
+    },
+    "contact_clock": 1,
+    "contact_z": 4,
+    "edges": {
+      "0:1": 4
+    },
+    "hol": {}
+  },
+  "trace": [
+    {
+      "axis": 0,
+      "effect": "balanced_refine",
+      "event": "B0",
+      "u": 1,
+      "v": 2
+    },
+    {
+      "axis": 0,
+      "effect": "theta+1",
+      "event": "Q0",
+      "theta": 1
+    },
+    {
+      "axis": 0,
+      "contact_z": 4,
+      "dc": 4,
+      "dz": 4,
+      "effect": "latch_birth_contact",
+      "event": "L0",
+      "new_axis": 1
+    }
+  ]
+}

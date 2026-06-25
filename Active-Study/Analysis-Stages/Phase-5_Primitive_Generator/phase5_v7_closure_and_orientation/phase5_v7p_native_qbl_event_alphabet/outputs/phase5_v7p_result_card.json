@@ -1,0 +1,6 @@
+{
+  "global_pass": true,
+  "necessary_not_arbitrary": true,
+  "status": "NATIVE_SUPPORT_DERIVED_EVENT_ALPHABET_SUPPORTED_ON_TESTED_QBL_HISTORY_MODEL",
+  "why": "It replaces hand-labeled admissibility with support-derived independence, which is required before arbitrary admissible QBL histories can be classified."
+}

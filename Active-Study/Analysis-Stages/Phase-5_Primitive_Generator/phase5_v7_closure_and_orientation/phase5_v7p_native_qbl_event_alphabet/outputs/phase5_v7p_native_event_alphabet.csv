@@ -1,0 +1,6 @@
+kind,status,description,reads,writes,births_required,births_created,support_rule
+Q,primitive,quarter phase continuation on retained axis,born:0;theta:0,theta:0,0,,Q advances the native quarter-phase coordinate on one retained axis.
+B,primitive,balanced denominator-pair refinement on retained axis,born:0;q:0,q:0,0,,B refines the native balanced denominator pair on one retained axis; germ c is derived from theta and q.
+L,primitive,host lift / latch / axis birth boundary event,born:0;contact_clock;q:0;theta:0,born:1;contact_clock;contact_z;edge:0:1;latch:0,0,1,"L freezes a boundary value, creates the next retained axis, and appends contact/latch memory."
+O,derived_overlap,derived overlap-pair event from retained native supports,born:0;born:1;edge:0:1;q:0;q:1;theta:0;theta:1,edge:0:1;hol:0:1,0;1,,O is the derived overlap-pair read/write event extracted from native retained axes and their shared edge support.
+R,derived_readout,terminal readout/projection event,born:0;latch:0;q:0;theta:0,,0,,R is a terminal projection/read event; it must not affect retained dynamics.
