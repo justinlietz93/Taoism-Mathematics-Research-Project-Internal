@@ -1,0 +1,10 @@
+orthad_law,mock_shadow_meaning
+Orthad carrier A_m=Z/(2m)Z,finite residue/orientation module carrying shadow support
+K_N unitarity,shadow multiplier transfer is unitary on retained vector space
+K_N^2=reversal,orientation reversal / dual orientation behavior
+G_N quadratic self-twist,finite Gauss phase in T-multiplier
+polarization of G_N,Fourier pairing recovered from quadratic refinement
+even orientation vector a(-r)=a(r),signed bilateral scalar n-weighted projection cancels
+positive-orientation projection,false/mock shadow coefficient channel survives
+scalar quotient closure,special case such as chi12/chi8 where character vector is K-eigen
+full vector closure,general case where retained vector carrier closes but scalar quotient does not

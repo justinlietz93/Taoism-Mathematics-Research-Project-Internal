@@ -1,3 +1,5 @@
+![Phase Calculus Banner](/Assets/Phase-Calculus-Banner.png)
+
 # Phase Calculus and Taoism Modern Mathematics Research
 
 A collection of research artifacts exploring Phase Calculus and connections to Taoist texts and related mathematics. This repository bundles publications, reproducible research artifacts (TeX sources, notebooks, validation scripts), datasets, and supporting code used across the project's subprojects.

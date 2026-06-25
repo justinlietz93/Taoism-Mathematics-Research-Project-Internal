@@ -1,0 +1,5 @@
+case,N,signed_bilateral_cancel_abs,positive_orientation_sum,closure
+chi12,12,0.0,-4.0,SCALAR_CHARACTER_QUOTIENT_CLOSED
+chi8,8,0.0,-2.0,SCALAR_CHARACTER_QUOTIENT_CLOSED
+legendre5,10,0.0,0.0,FULL_VECTOR_CARRIER_REQUIRED
+legendre13,26,0.0,0.0,FULL_VECTOR_CARRIER_REQUIRED

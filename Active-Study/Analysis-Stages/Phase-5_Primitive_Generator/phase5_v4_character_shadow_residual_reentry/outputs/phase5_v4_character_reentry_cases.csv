@@ -1,0 +1,5 @@
+case,N,character,support,even_residual,signed_bilateral_scalar_cancel_abs,positive_orientation_readout_sum,K_scalar_eigenvalue,K_scalar_eigen_residual,K_nonzero_output_count,K_nonzero_output_magnitude_min,K_nonzero_output_magnitude_max,T_action_norm,closure
+chi12,12,Kronecker_12,4,0.0,0.0,-4.0,1,3.766336756138298e-15,4,0.9999999999999998,1.0000000000000004,2.0,SCALAR_CHARACTER_QUOTIENT_CLOSED
+chi8,8,Kronecker_8,4,0.0,0.0,-2.0,1,1.0235750533041806e-15,4,0.999999999999999,1.0000000000000004,2.0,SCALAR_CHARACTER_QUOTIENT_CLOSED
+legendre5,10,Legendre_5_lifted_to_2p,8,0.0,0.0,0.0,-0.707106781186547,0.707106781186549,4,1.414213562373095,1.4142135623730954,2.8284271247461903,FULL_VECTOR_CARRIER_REQUIRED
+legendre13,26,Legendre_13_lifted_to_2p,24,0.0,0.0,0.0,-0.707106781186548,0.7071067811865523,12,1.414213562373091,1.4142135623730998,4.898979485566356,FULL_VECTOR_CARRIER_REQUIRED

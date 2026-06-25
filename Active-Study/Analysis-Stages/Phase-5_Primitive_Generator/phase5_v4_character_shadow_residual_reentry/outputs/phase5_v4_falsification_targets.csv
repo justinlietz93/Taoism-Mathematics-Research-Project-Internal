@@ -1,0 +1,8 @@
+id,falsifier
+F1_CHI12_REENTRY,Generated K/G fail to preserve chi12 retained vector behavior on N=12.
+F2_CHI8_REENTRY,Generated K/G fail to preserve chi8 retained vector behavior on N=8.
+F3_SCALAR_CANCEL,Even retained orientation vector does not cancel under signed bilateral scalar projection.
+F4_POSITIVE_READOUT,Positive-orientation readout is zero for chi12 or chi8.
+F5_LEGENDRE_BOUNDARY,Legendre lifted cases close as scalar quotient despite generated K mapping them to a dual orbit.
+F6_SHADOW_SPLIT,"Scalar coefficient can be carried without retained orientation, contradicting projection-loss gate."
+F7_MOCK_F_SIDECAR,Concrete mock theta f multiplier has no Gauss/finite-carrier component comparable to Orthad K/G.

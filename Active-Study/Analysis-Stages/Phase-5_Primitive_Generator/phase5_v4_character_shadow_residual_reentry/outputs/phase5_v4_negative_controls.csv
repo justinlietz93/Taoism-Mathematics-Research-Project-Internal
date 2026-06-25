@@ -1,0 +1,5 @@
+control,mutation,expected_failure,status
+odd_character_vector,set a(-r)=-a(r),bilateral scalar n-weighted cancellation no longer represents even retained orientation shadow,PASS
+drop_orientation,replace a(r) and a(-r) by one scalar bucket,positive-orientation readout unrecoverable,PASS
+replace_generated_K_with_identity,K_N := I,chi12/chi8 scalar quotient closure no longer tests transfer,PASS
+odd_N_gauss,N odd,Gauss self-twist q(r)=r^2/(2N) not well-defined on Z/NZ,PASS

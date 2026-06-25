@@ -1,0 +1,28 @@
+{
+  "phase": "Phase 5 v4",
+  "title": "Character and Shadow Residual Re-entry",
+  "status": "CHARACTER_SHADOW_REENTRY_CLOSED_WITH_VECTOR_BOUNDARY",
+  "global_pass": true,
+  "sealed_before_interpretation": true,
+  "hand_admitted_dense_block": false,
+  "cases": [
+    "chi12_N12",
+    "chi8_N8",
+    "Legendre5_N10",
+    "Legendre13_N26"
+  ],
+  "exact_scalar_quotient_cases": [
+    "chi12_N12",
+    "chi8_N8"
+  ],
+  "full_vector_boundary_cases": [
+    "Legendre5_N10",
+    "Legendre13_N26"
+  ],
+  "max_K_scalar_eigen_residual_all_cases": 0.7071067811865523,
+  "max_K_scalar_eigen_residual_exact_cases": 3.766336756138298e-15,
+  "scalar_projection_cancellation_all_cases": true,
+  "positive_orientation_nonzero_chi12_chi8": true,
+  "legendre_scalar_quotient_boundary_confirmed": true,
+  "mock_theta_f_sidecar": "included_as_dictionary_alignment_not_core_gate"
+}
