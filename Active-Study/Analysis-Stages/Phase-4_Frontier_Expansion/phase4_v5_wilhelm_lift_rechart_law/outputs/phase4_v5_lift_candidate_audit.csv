@@ -1,0 +1,5 @@
+candidate,evidence,result,metric
+new_domain_lift,line6 target outside six-line carrier or state-count expansion,REJECTED_BY_FINITE_TABLE,all 64 line6 targets remain inside the 64-state carrier
+same_carrier_rechart,top-bit toggle / XOR 32 / hemisphere crossing,CONFIRMED,64/64 line6 events satisfy XOR 32 and cross hemispheres
+semantic_carry_pressure,boundary_excess and carry_lift_rechart maxima at line6,CONFIRMED,"{'boundary_excess': 28, 'carry_lift_rechart': 25}"
+full_Modular_B_upgrade,progress + completion + new domain lift,REJECTED_FOR_WILHELM_TABLE,no intrinsic dimensional lift event exists in the 384 single-line automaton

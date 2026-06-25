@@ -1,0 +1,88 @@
+{
+  "phase": "Phase 4 v5",
+  "title": "Wilhelm Lift/Re-Chart Law",
+  "status": "SAME_CARRIER_RECHART_LAW_CLOSED_NEW_DOMAIN_LIFT_REJECTED",
+  "global_pass": true,
+  "line6_event_count": 64,
+  "line6_hamming_distance_set": [
+    1
+  ],
+  "line6_involution": true,
+  "line6_xor32_law": true,
+  "line6_hemisphere_crossing": true,
+  "line6_new_dimension_lift": false,
+  "line6_same_carrier_rechart": true,
+  "line6_semantic_pressure_categories": [
+    "boundary_excess",
+    "carry_lift_rechart"
+  ],
+  "classification": "Wilhelm line 6 is exact top-bit same-carrier re-chart with semantic carry/lift pressure; it is not an intrinsic higher-domain lift in the finite Wilhelm transition table.",
+  "next_target": "Phase 4 v6: Liu/MFE Physical Re-Chart Gate when data arrives; otherwise Phase 4 v7: Lean/Lake Execution Repair after local lake build.",
+  "generated_at": "2026-06-25T07:40:29.548997+00:00",
+  "gates": [
+    {
+      "gate": "G1_LINE6_TOTALITY",
+      "claim": "Every retained carrier has exactly one line-6 event",
+      "metric": "line6 event count",
+      "value": 64,
+      "pass": true,
+      "falsifier": "Line 6 event count differs from 64"
+    },
+    {
+      "gate": "G2_LINE6_SINGLE_FLIP",
+      "claim": "Line 6 changes exactly one retained line",
+      "metric": "hamming distance set",
+      "value": "[1]",
+      "pass": true,
+      "falsifier": "A line-6 event changes zero or more than one bit"
+    },
+    {
+      "gate": "G3_LINE6_INVOLUTION",
+      "claim": "Line 6 is locally reversible by the same line action",
+      "metric": "all involution returns",
+      "value": true,
+      "pass": true,
+      "falsifier": "Line 6 applied twice does not return source"
+    },
+    {
+      "gate": "G4_LINE6_XOR32_LAW",
+      "claim": "Line 6 is exactly top-bit toggle / XOR 32",
+      "metric": "all target_index == ((source-1) xor 32)+1",
+      "value": true,
+      "pass": true,
+      "falsifier": "Any line-6 target differs from XOR 32"
+    },
+    {
+      "gate": "G5_HEMISPHERE_CROSSING",
+      "claim": "Line 6 crosses lower/upper carrier hemispheres",
+      "metric": "all source/target hemisphere flips",
+      "value": true,
+      "pass": true,
+      "falsifier": "A line-6 event stays in the same hemisphere"
+    },
+    {
+      "gate": "G6_SAME_CARRIER_NOT_NEW_DIMENSION",
+      "claim": "Line 6 does not create a new carrier dimension in the 384-event Wilhelm table",
+      "metric": "targets remain unique inside 64-state carrier",
+      "value": "{\"within_same\": true, \"unique_targets\": 64}",
+      "pass": true,
+      "falsifier": "Line 6 emits a target outside the six-line carrier or expands state count"
+    },
+    {
+      "gate": "G7_SEMANTIC_CARRY_PRESSURE",
+      "claim": "Line 6 carries boundary/excess/carry pressure in semantic maxima",
+      "metric": "line-6 maxima categories",
+      "value": "[\"boundary_excess\", \"carry_lift_rechart\"]",
+      "pass": true,
+      "falsifier": "Boundary/carry maxima move away from line 6 under full source reparse"
+    },
+    {
+      "gate": "G8_FULL_WILHELM_CLASSIFICATION",
+      "claim": "Wilhelm closes as same-carrier re-chart, not full Modular-B lift",
+      "metric": "classification",
+      "value": "SAME_CARRIER_RECHART_CONFIRMED / NEW_DOMAIN_LIFT_REJECTED",
+      "pass": true,
+      "falsifier": "Find an intrinsic Wilhelm line-6 transition that opens a higher-dimensional retained domain"
+    }
+  ]
+}

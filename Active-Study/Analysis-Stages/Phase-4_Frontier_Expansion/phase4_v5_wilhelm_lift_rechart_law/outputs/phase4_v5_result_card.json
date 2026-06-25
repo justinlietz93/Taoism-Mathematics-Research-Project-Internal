@@ -1,0 +1,22 @@
+{
+  "phase": "Phase 4 v5",
+  "title": "Wilhelm Lift/Re-Chart Law",
+  "status": "SAME_CARRIER_RECHART_LAW_CLOSED_NEW_DOMAIN_LIFT_REJECTED",
+  "global_pass": true,
+  "line6_event_count": 64,
+  "line6_hamming_distance_set": [
+    1
+  ],
+  "line6_involution": true,
+  "line6_xor32_law": true,
+  "line6_hemisphere_crossing": true,
+  "line6_new_dimension_lift": false,
+  "line6_same_carrier_rechart": true,
+  "line6_semantic_pressure_categories": [
+    "boundary_excess",
+    "carry_lift_rechart"
+  ],
+  "classification": "Wilhelm line 6 is exact top-bit same-carrier re-chart with semantic carry/lift pressure; it is not an intrinsic higher-domain lift in the finite Wilhelm transition table.",
+  "next_target": "Phase 4 v6: Liu/MFE Physical Re-Chart Gate when data arrives; otherwise Phase 4 v7: Lean/Lake Execution Repair after local lake build.",
+  "generated_at": "2026-06-25T07:40:29.548997+00:00"
+}

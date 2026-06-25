@@ -1,0 +1,6 @@
+target,falsifier
+F1_NEW_DOMAIN_LIFT,Find a Wilhelm line-6 source transition whose retained target is outside the six-line carrier or expands carrier dimension.
+F2_XOR32_LAW,Find any line-6 row whose target is not ((source_index-1) xor 32)+1.
+F3_SEMANTIC_PRESSURE,Full source reparse moves boundary_excess and carry_lift_rechart maxima away from line 6.
+F4_MODULAR_B_UPGRADE,Identify a Wilhelm-internal progress/completion/new-domain-lift operator satisfying all Modular-B classification gates.
+F5_RECHART_CUSTODY,Show carrier + selected line does not determine the re-chart target for all 384 events.

@@ -1,0 +1,4 @@
+witness_id,projection,state_x,state_y,projection_x,projection_y,next_x,next_y,result
+LINE6_CARRIER_ONLY_COLLISION_000000_vs_LINE1,carrier_only,000000:line6,000000:line1,000000,000000,100000,000001,projection_loss_confirmed
+LINE6_ROLE_ONLY_COLLISION,line6_role_only,000000:line6,111111:line6,excess_completion_carry_pressure,excess_completion_carry_pressure,100000,011111,projection_loss_confirmed
+HEMISPHERE_READOUT_COLLISION,hemisphere_only,000001:line6,011111:line6,lower,lower,100001,111111,projection_loss_confirmed

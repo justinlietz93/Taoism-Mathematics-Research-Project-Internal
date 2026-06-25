@@ -1,0 +1,4 @@
+diff --git a/phase4_status.md b/phase4_status.md
++P4-V5 Wilhelm Lift/Re-Chart Law: SAME_CARRIER_RECHART_LAW_CLOSED_NEW_DOMAIN_LIFT_REJECTED
++Wilhelm line 6 law: target_index = ((source_index - 1) xor 32) + 1
++Wilhelm classification: CARRIER_TRANSITION_BOUNDARY_NOT_FULL_B
