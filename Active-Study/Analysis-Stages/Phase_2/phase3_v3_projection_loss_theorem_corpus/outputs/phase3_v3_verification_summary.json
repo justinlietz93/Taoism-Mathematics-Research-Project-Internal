@@ -1,0 +1,27 @@
+{
+  "phase": "Phase 3 v3",
+  "target": "Projection-Loss Theorem Across Corpus",
+  "status": "THEOREM_SCHEMA_SUPPORTED_BY_CORPUS_WITNESSES",
+  "global_pass": true,
+  "witness_count": 8,
+  "domains_with_witnesses": [
+    "Ancient Yi LSD octal",
+    "Ancient Yi scalar value",
+    "Monodromy double cover",
+    "Pencil/Yin-Yang vector chart",
+    "Phase Farey/B refinement",
+    "Phase visible/Q4 memory",
+    "Shadow residual orientation",
+    "Wilhelm six-line"
+  ],
+  "custody_gate_failures_found": 8,
+  "quotient_vs_custody_gate_defined": true,
+  "liu_mfe_status": "WAITING_FOR_DATA_RESPONSE",
+  "claim": "A projection is bridge-admissible for custody exactly when it preserves enough retained state to determine the next admissible transition under the relevant operator family.",
+  "formal_core": {
+    "custody_complete": "exists G:P->S with E=G\u2218\u03a0",
+    "custody_loss_witness": "\u03a0(x)=\u03a0(y) and E(x)\u2260E(y)",
+    "quotient_complete": "exists H:P->P with \u03a0\u2218E=H\u2218\u03a0",
+    "quotient_loss_witness": "\u03a0(x)=\u03a0(y) and \u03a0(E(x))\u2260\u03a0(E(y))"
+  }
+}

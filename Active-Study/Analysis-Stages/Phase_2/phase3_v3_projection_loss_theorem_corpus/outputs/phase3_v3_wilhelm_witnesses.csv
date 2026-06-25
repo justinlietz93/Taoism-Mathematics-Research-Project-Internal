@@ -1,0 +1,2 @@
+domain,projection_tested,state_A,state_B,projection_A,projection_B,same_projection,next_A,next_B,next_retained_state_differs,retained_state_required,gate_kind,status
+Wilhelm six-line,carrier bits only,"{""bits"": ""111111"", ""line"": 1}","{""bits"": ""111111"", ""line"": 6}",111111,111111,True,"{""bits"": ""011111"", ""line"": null}","{""bits"": ""111110"", ""line"": null}",True,"selected line,operation registry",custody,PASS

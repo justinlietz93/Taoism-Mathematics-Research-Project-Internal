@@ -1,0 +1,12 @@
+{
+  "status": "FINITE_CARRY_LIFT_CLOSURE_SUPPORTED",
+  "claim": "Ancient Yi octal-place tables instantiate a retained finite carrier with LSD-first readout, local successor/carry refinement, all-7 completion, and lift into a higher place-domain.",
+  "proven_here": [
+    "LSD-first examples evaluate exactly to the extracted decimal values.",
+    "The normalized successor/carry rule increments retained value by one.",
+    "All-7 domain completion forces higher-place opening: 7..7 -> 0..01.",
+    "Scalar/low-digit/display projections lose active place-domain state."
+  ],
+  "next_target": "Phase 3 v5: Wilhelm Six-Line Phase Ladder",
+  "global_pass": true
+}

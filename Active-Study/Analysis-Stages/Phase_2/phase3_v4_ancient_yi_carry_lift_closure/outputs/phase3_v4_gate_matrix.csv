@@ -1,0 +1,6 @@
+gate,pass,quantity,falsifier,status
+G1_LSD_examples,True,"extracted examples evaluate as 1,62,63,64,510,511,512,4095",source table gives formula inconsistent with LSD-first expansion,CLOSED
+G2_successor_rule,True,succ(d) has value(d)+1,any carrier row where normalized successor changes value by something other than +1,CLOSED
+G3_completion_lift,True,77..7 -> 00..001,all-7 completion remains in same k-place domain or opens wrong high-place state,CLOSED
+G4_projection_loss,True,low digit/scalar/display projection collisions produce different next states,projection alone reconstructs active domain length and next state for all cases,CLOSED
+G5_line_symbol_mapping,False,full Chinese line-symbol to digit convention,machine-readable row extraction contradicts LSD-first normalized examples,OPEN_TARGET

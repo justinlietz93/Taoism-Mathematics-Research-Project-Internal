@@ -1,0 +1,8 @@
+{
+  "phase": "Phase 3 v3",
+  "target": "Projection-Loss Theorem Across Corpus",
+  "status": "THEOREM_SCHEMA_SUPPORTED_BY_CORPUS_WITNESSES",
+  "global_pass": true,
+  "witness_count": 8,
+  "claim": "A projection is bridge-admissible for custody exactly when it preserves enough retained state to determine the next admissible transition under the relevant operator family."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "WAITING_FOR_DATA_RESPONSE",
+  "needed_fields": [
+    "QSL time series",
+    "current density time series",
+    "connectivity/reconnection state table",
+    "HFT/topology transition markers",
+    "diagnostic image/projection outputs"
+  ],
+  "claim_target": "diagnostics are terminal projections unless full field/connectivity state is retained",
+  "falsifier": "diagnostic projection alone determines next MHD/topological transition without retained field/connectivity state"
+}

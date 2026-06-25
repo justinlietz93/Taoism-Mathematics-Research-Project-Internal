@@ -1,0 +1,95 @@
+{
+  "phase": "Phase 3 v4",
+  "target": "Ancient Yi Carry/Lift Closure",
+  "status": "FINITE_CARRY_LIFT_CLOSURE_SUPPORTED",
+  "global_pass": true,
+  "closed_gates": [
+    "G1_LSD_examples",
+    "G2_successor_rule",
+    "G3_completion_lift",
+    "G4_projection_loss"
+  ],
+  "open_targets": [
+    "G5_line_symbol_mapping"
+  ],
+  "depth_audits": [
+    {
+      "k": 1,
+      "states_in_domain": 8,
+      "checked_states": 8,
+      "audit_mode": "exhaustive",
+      "successor_value_pass": true,
+      "completion_display": "7",
+      "completion_next": "01",
+      "completion_lift_pass": true,
+      "failure": ""
+    },
+    {
+      "k": 2,
+      "states_in_domain": 64,
+      "checked_states": 64,
+      "audit_mode": "exhaustive",
+      "successor_value_pass": true,
+      "completion_display": "77",
+      "completion_next": "001",
+      "completion_lift_pass": true,
+      "failure": ""
+    },
+    {
+      "k": 3,
+      "states_in_domain": 512,
+      "checked_states": 512,
+      "audit_mode": "exhaustive",
+      "successor_value_pass": true,
+      "completion_display": "777",
+      "completion_next": "0001",
+      "completion_lift_pass": true,
+      "failure": ""
+    },
+    {
+      "k": 4,
+      "states_in_domain": 4096,
+      "checked_states": 4096,
+      "audit_mode": "exhaustive",
+      "successor_value_pass": true,
+      "completion_display": "7777",
+      "completion_next": "00001",
+      "completion_lift_pass": true,
+      "failure": ""
+    },
+    {
+      "k": 5,
+      "states_in_domain": 32768,
+      "checked_states": 32768,
+      "audit_mode": "exhaustive",
+      "successor_value_pass": true,
+      "completion_display": "77777",
+      "completion_next": "000001",
+      "completion_lift_pass": true,
+      "failure": ""
+    },
+    {
+      "k": 6,
+      "states_in_domain": 262144,
+      "checked_states": 1012,
+      "audit_mode": "boundary_plus_stratified_sample",
+      "successor_value_pass": true,
+      "completion_display": "777777",
+      "completion_next": "0000001",
+      "completion_lift_pass": true,
+      "failure": ""
+    }
+  ],
+  "projection_loss_witness_count": 3,
+  "completion_depths_verified": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "created_utc": "2026-06-25T06:30:17.487065+00:00"
+}

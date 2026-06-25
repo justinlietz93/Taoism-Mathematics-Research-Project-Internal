@@ -1,0 +1,4 @@
+id,state_x,state_y,projection,projection_x,projection_y,next_x,next_y,pass,meaning
+YI_LOW_DIGIT_COLLISION_7_vs_77,7,77,low_digit,7,7,01,001,True,low digit alone is not state-complete; active place-domain length is retained state
+YI_SCALAR_ZERO_COLLISION_0_vs_00,0,00,scalar_value,0,0,1,10,True,scalar value without active domain width is not state-complete
+YI_DISPLAY_DIRECTION_COLLISION_10,display 10 under LSD-first,display 10 under MSD-first,raw display string,10,10,20 (value 2 under LSD-first),11 or context-dependent if treated as two-place value 8/9 under MSD-first,True,display string is not self-interpreting without order convention

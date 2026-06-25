@@ -1,0 +1,2 @@
+domain,projection_tested,state_A,state_B,projection_A,projection_B,same_projection,next_A,next_B,next_retained_state_differs,retained_state_required,gate_kind,status
+Monodromy double cover,sheet only,"{""history"": """", ""kappa"": 0, ""sheet"": 0}","{""history"": ""g g"", ""kappa"": 2, ""sheet"": 0}",0,0,True,"{""history"": ""g"", ""kappa"": 1, ""sheet"": 1}","{""history"": ""g g g"", ""kappa"": 3, ""sheet"": 1}",True,"sheet,kappa,history,generator action table",custody,PASS

@@ -1,0 +1,7 @@
+k,states_in_domain,checked_states,audit_mode,successor_value_pass,completion_display,completion_next,completion_lift_pass,failure
+1,8,8,exhaustive,True,7,01,True,
+2,64,64,exhaustive,True,77,001,True,
+3,512,512,exhaustive,True,777,0001,True,
+4,4096,4096,exhaustive,True,7777,00001,True,
+5,32768,32768,exhaustive,True,77777,000001,True,
+6,262144,1012,boundary_plus_stratified_sample,True,777777,0000001,True,

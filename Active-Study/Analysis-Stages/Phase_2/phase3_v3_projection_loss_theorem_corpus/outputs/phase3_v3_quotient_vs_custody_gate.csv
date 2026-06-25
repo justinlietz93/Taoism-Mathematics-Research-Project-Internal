@@ -1,0 +1,4 @@
+gate,formal_condition,collision_falsifies,meaning
+custody transition-complete,exists G:P->S with E = G∘Π,Π(x)=Π(y) and E(x)≠E(y),projection can author the next retained state only if this holds
+projected quotient-complete,exists H:P->P with Π∘E = H∘Π,Π(x)=Π(y) and Π(E(x))≠Π(E(y)),projection can support a terminal projected law only if this holds
+terminal readout,projection applied after retained evolution,not a custody gate,readout may be lawful without being able to drive custody

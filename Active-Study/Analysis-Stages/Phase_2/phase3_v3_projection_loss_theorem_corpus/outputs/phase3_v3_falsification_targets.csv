@@ -1,0 +1,8 @@
+id,target,falsifier,settles
+F1,General theorem,"Find any corpus state pair with same projection and same next retained state for every candidate collision, while projection still claims to lose state",removes that corpus row from the theorem support set
+F2,Custody equivalence,Construct G:P->S for a stripped projection P such that E=G∘P on the full declared corpus state set,projection is custody-complete for that domain
+F3,Quotient/custody distinction,Show that Π∘E=H∘Π implies E=G∘Π without extra injectivity/canonical-section hypotheses,collapses the two-gate theorem
+F4,Ancient Yi,Find a machine-readable Yi row that violates LSD-first place carry or all-7 completion to higher-place opening,breaks the Ancient Yi retained-carrier witness
+F5,Wilhelm,Show ordinal/name/text alone determines selected-line transition across all 384 events,removes selected-line custody from Wilhelm
+F6,Shadow correspondence,Find known unary false-theta/mock-shadow pair whose shadow is not coefficient-stripped projection of the same retained orientation carrier,breaks the modular projection-loss class claim
+F7,Liu/MFE,"With QSL/current/connectivity data, show diagnostic projection alone predicts next topology transition as well as full retained field state",breaks MFE projection-loss row

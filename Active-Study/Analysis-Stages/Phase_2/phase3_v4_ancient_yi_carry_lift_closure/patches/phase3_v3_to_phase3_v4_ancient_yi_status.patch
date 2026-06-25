@@ -1,0 +1,17 @@
+diff --git a/phase3_status.md b/phase3_status.md
+index phase3v3..phase3v4 100644
+--- a/phase3_status.md
++++ b/phase3_status.md
+@@
+-P3-G4 Ancient Yi Carry/Lift Closure: TARGET
++P3-G4 Ancient Yi Carry/Lift Closure: FINITE_CARRY_LIFT_CLOSURE_SUPPORTED
++
++Closure:
++  retained LSD-first octal-place carrier;
++  successor/carry rule;
++  all-7 domain completion;
++  higher-place lift;
++  projection-loss witnesses.
++
++Open target:
++  full line-symbol-to-digit extraction.

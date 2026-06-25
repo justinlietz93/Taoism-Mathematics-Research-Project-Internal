@@ -1,0 +1,3 @@
+domain,projection_tested,state_A,state_B,projection_A,projection_B,same_projection,next_A,next_B,next_retained_state_differs,retained_state_required,gate_kind,status
+Ancient Yi LSD octal,lowest digit only,[7],"[7, 7]",7,7,True,"[0, 1]","[0, 0, 1]",True,"ordered place carrier,length",custody,PASS
+Ancient Yi scalar value,decimal value only,[0],"[0, 0]",0,0,True,[1],"[1, 0]",True,"ordered place carrier,length",custody,PASS

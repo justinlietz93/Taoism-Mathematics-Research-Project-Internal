@@ -1,0 +1,5 @@
+symbol,role,requirement,examples
+S,retained state/carrier,contains all fields needed for next admissible transition,Xi_hat/q/theta/kappa; Yi place carrier; Wilhelm six lines+selected line; monodromy sheet+kappa+history; Shadow orientation/residue vector
+O,operator family,legal transition selected from retained state,Q/B/L; base-8 successor/carry; line flip; branch generator; S/T residue action
+P,projection/readout,terminal unless it passes transition-complete gate,visible phase; product uv; decimal value; hexagram name/text; sheet only; scalar bilateral shadow
+K,custody gate,lift/re-chart preserves the fields required by O,q/theta carry; digit length; selected line; generator action table; orientation channel

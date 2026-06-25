@@ -1,0 +1,12 @@
+diff --git a/PHASE_3_STATUS.md b/PHASE_3_STATUS.md
++## Phase 3 v3: Projection-Loss Theorem Across Corpus
++
++Status: THEOREM_SCHEMA_SUPPORTED_BY_CORPUS_WITNESSES
++
++Claim: A projection is bridge-admissible for custody exactly when it preserves enough retained state to determine the next admissible retained transition under the relevant operator family.
++
++Gate split:
++  quotient closure: Π o E = H o Π
++  custody closure: E = G o Π
++
++Falsifier: construct G:P->S for a stripped projection that recovers full retained transition across the declared domain.
