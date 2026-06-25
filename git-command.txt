@@ -1,3 +1,0 @@
-git add .
-git commit -m "added v44-v50 to current 41 through 50 research"
-git push

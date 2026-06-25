@@ -1,0 +1,13 @@
+residue,T_multiplier
+0,exp(pi*i*0/12)
+1,exp(pi*i*1/12)
+2,exp(pi*i*4/12)
+3,exp(pi*i*9/12)
+4,exp(pi*i*16/12)
+5,exp(pi*i*25/12)
+6,exp(pi*i*36/12)
+7,exp(pi*i*49/12)
+8,exp(pi*i*64/12)
+9,exp(pi*i*81/12)
+10,exp(pi*i*100/12)
+11,exp(pi*i*121/12)

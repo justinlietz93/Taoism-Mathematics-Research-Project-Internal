@@ -1,0 +1,139 @@
+{
+  "eta_coefficient_check": {
+    "check": "sum_{n>=1} chi12(n) q^(n^2/24) equals eta(tau) coefficient-for-coefficient",
+    "max_shift_after_q_1_24": 650,
+    "mismatch_count": 0,
+    "first_mismatches": [],
+    "PASS": true
+  },
+  "orientation_projection_check": {
+    "check": "orientation projection carries R while symmetric scalar projection cancels",
+    "n_max": 500,
+    "sample_terms": [
+      {
+        "n": 1,
+        "plus": 1,
+        "minus": -1,
+        "scalar": 0,
+        "shadow_eta_coeff": 1
+      },
+      {
+        "n": 5,
+        "plus": -5,
+        "minus": 5,
+        "scalar": 0,
+        "shadow_eta_coeff": -1
+      },
+      {
+        "n": 7,
+        "plus": -7,
+        "minus": 7,
+        "scalar": 0,
+        "shadow_eta_coeff": -1
+      },
+      {
+        "n": 11,
+        "plus": 11,
+        "minus": -11,
+        "scalar": 0,
+        "shadow_eta_coeff": 1
+      },
+      {
+        "n": 13,
+        "plus": 13,
+        "minus": -13,
+        "scalar": 0,
+        "shadow_eta_coeff": 1
+      },
+      {
+        "n": 17,
+        "plus": -17,
+        "minus": 17,
+        "scalar": 0,
+        "shadow_eta_coeff": -1
+      },
+      {
+        "n": 19,
+        "plus": -19,
+        "minus": 19,
+        "scalar": 0,
+        "shadow_eta_coeff": -1
+      },
+      {
+        "n": 23,
+        "plus": 23,
+        "minus": -23,
+        "scalar": 0,
+        "shadow_eta_coeff": 1
+      },
+      {
+        "n": 25,
+        "plus": 25,
+        "minus": -25,
+        "scalar": 0,
+        "shadow_eta_coeff": 1
+      },
+      {
+        "n": 29,
+        "plus": -29,
+        "minus": 29,
+        "scalar": 0,
+        "shadow_eta_coeff": -1
+      },
+      {
+        "n": 31,
+        "plus": -31,
+        "minus": 31,
+        "scalar": 0,
+        "shadow_eta_coeff": -1
+      },
+      {
+        "n": 35,
+        "plus": 35,
+        "minus": -35,
+        "scalar": 0,
+        "shadow_eta_coeff": 1
+      }
+    ],
+    "scalar_projection_fail_count": 0,
+    "R_plus_nonzero_PASS": true,
+    "scalar_zero_PASS": true,
+    "shadow_eta_coeff_rule": "remove factor n from R_plus coefficients"
+  },
+  "chi_eta_multiplier_check": {
+    "chi_vector_order_r_0_to_11": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "weight_half_S_chi_eigenvalue": "1",
+    "weight_half_S_chi_max_abs_error": "6.9302591017124713092949437775234195897096118266849868707442320333671134007239735e-80",
+    "weight_half_S_chi_exact_PASS": true,
+    "T_chi_eigenvalue_on_support": "exp(pi*i/12)",
+    "T_chi_max_abs_error": "6.7265914692513925943662460812025045720707925294239661759836903736020331228719765e-80",
+    "T_chi_exact_PASS": true,
+    "threshold": "1.0e-70"
+  },
+  "numeric_S_T_transform_check": {
+    "theta_weight_half_T_max_abs_error": "1.664866342070754251760735105239770390176435890040405530938797227853109e-70",
+    "theta_weight_half_S_max_abs_error": "2.083913245978469713601661271339112894989024254883791599962275283685976e-70",
+    "derivative_weight_three_half_T_max_abs_error": "3.307802941302281184742083928386394494345897001438836928732104510861317e-70",
+    "derivative_weight_three_half_S_max_abs_error": "3.448299859193146359626795871626296064699154352659217741656748733037322e-70",
+    "threshold": "1.0e-45",
+    "PASS": true,
+    "S_formula_weight_half": "Theta_r(-1/tau)=(-i*tau)^(1/2)/sqrt(12) * sum_s exp(-pi*i*r*s/6) Theta_s(tau)",
+    "S_formula_weight_three_half": "D_r(-1/tau)=i*(-i*tau)^(3/2)/sqrt(12) * sum_s exp(-pi*i*r*s/6) D_s(tau)",
+    "T_formula": "component_r(tau+1)=exp(pi*i*r^2/12)*component_r(tau)"
+  },
+  "coefficient_rows_written": 49,
+  "GLOBAL_PASS": true
+}
