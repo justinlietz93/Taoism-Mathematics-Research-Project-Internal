@@ -1,0 +1,6 @@
+control,expected,status
+birth_before_latch_blocked,axis 1 is used before birth,PASS
+overlap_before_birth_blocked,overlap requires unborn axis,PASS
+illegal_same_edge_swap_detected,L and O are dependent by edge/birth support,PASS
+mutated_cocycle_rejected,hand-mutated transition fails triangle identity,PASS
+terminal_R_no_mutation,R must not change retained axes or edges,PASS

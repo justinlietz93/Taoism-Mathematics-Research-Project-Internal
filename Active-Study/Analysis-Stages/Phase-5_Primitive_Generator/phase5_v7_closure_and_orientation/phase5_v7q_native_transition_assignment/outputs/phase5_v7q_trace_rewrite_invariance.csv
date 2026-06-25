@@ -1,0 +1,4 @@
+left_case,right_case,same_edges,same_contact_z,same_transition_multiset,status
+axis_QB_latch,axis_BQ_latch,True,True,True,PASS
+birth_then_cross_overlap_A,birth_then_cross_overlap_B,True,True,True,PASS
+three_axis_chain,three_axis_alt_chain,True,True,True,PASS

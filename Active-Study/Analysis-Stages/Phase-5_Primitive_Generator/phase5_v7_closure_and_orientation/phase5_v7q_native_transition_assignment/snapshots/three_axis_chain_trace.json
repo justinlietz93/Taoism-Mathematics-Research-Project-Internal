@@ -1,0 +1,1095 @@
+{
+  "events": [
+    "B0",
+    "Q0",
+    "L0",
+    "Q1",
+    "B1",
+    "L1",
+    "O0_1",
+    "O1_2",
+    "O0_2"
+  ],
+  "trace": [
+    {
+      "event": "B0",
+      "signature": {
+        "axes": {
+          "0": {
+            "born": true,
+            "theta": 0,
+            "u": 1,
+            "v": 2,
+            "latched": false,
+            "value": "1/2*i^0"
+          }
+        },
+        "edges": {},
+        "contact_clock": 0,
+        "contact_z": 0,
+        "transitions": [
+          {
+            "event": "B0",
+            "kind": "same_axis_refinement",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 2,
+            "phase_mod4": 0,
+            "transition_key": "1/2*i^0",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "B transition assigned from germ-anchor ratio after/before"
+          }
+        ]
+      }
+    },
+    {
+      "event": "Q0",
+      "signature": {
+        "axes": {
+          "0": {
+            "born": true,
+            "theta": 1,
+            "u": 1,
+            "v": 2,
+            "latched": false,
+            "value": "1/2*i^1"
+          }
+        },
+        "edges": {},
+        "contact_clock": 0,
+        "contact_z": 0,
+        "transitions": [
+          {
+            "event": "B0",
+            "kind": "same_axis_refinement",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 2,
+            "phase_mod4": 0,
+            "transition_key": "1/2*i^0",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "B transition assigned from germ-anchor ratio after/before"
+          },
+          {
+            "event": "Q0",
+            "kind": "same_axis_phase",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 1,
+            "transition_key": "1/1*i^1",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "Q transition assigned from lens ratio after/before"
+          }
+        ]
+      }
+    },
+    {
+      "event": "L0",
+      "signature": {
+        "axes": {
+          "0": {
+            "born": true,
+            "theta": 1,
+            "u": 1,
+            "v": 2,
+            "latched": true,
+            "value": "1/2*i^1"
+          },
+          "1": {
+            "born": true,
+            "theta": 0,
+            "u": 1,
+            "v": 1,
+            "latched": false,
+            "value": "1/1*i^0"
+          }
+        },
+        "edges": {
+          "0:1": 4
+        },
+        "contact_clock": 1,
+        "contact_z": 4,
+        "transitions": [
+          {
+            "event": "B0",
+            "kind": "same_axis_refinement",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 2,
+            "phase_mod4": 0,
+            "transition_key": "1/2*i^0",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "B transition assigned from germ-anchor ratio after/before"
+          },
+          {
+            "event": "Q0",
+            "kind": "same_axis_phase",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 1,
+            "transition_key": "1/1*i^1",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "Q transition assigned from lens ratio after/before"
+          },
+          {
+            "event": "L0",
+            "kind": "latch_birth_boundary",
+            "src": "a0",
+            "dst": "a1",
+            "pair": "0:1",
+            "scale_num": 2,
+            "scale_den": 1,
+            "phase_mod4": 3,
+            "transition_key": "2/1*i^3",
+            "c_projection": 4,
+            "contact_dz": 4,
+            "note": "L assigns transition from latched active lens value to newborn active lens value"
+          }
+        ]
+      }
+    },
+    {
+      "event": "Q1",
+      "signature": {
+        "axes": {
+          "0": {
+            "born": true,
+            "theta": 1,
+            "u": 1,
+            "v": 2,
+            "latched": true,
+            "value": "1/2*i^1"
+          },
+          "1": {
+            "born": true,
+            "theta": 1,
+            "u": 1,
+            "v": 1,
+            "latched": false,
+            "value": "1/1*i^1"
+          }
+        },
+        "edges": {
+          "0:1": 4
+        },
+        "contact_clock": 1,
+        "contact_z": 4,
+        "transitions": [
+          {
+            "event": "B0",
+            "kind": "same_axis_refinement",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 2,
+            "phase_mod4": 0,
+            "transition_key": "1/2*i^0",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "B transition assigned from germ-anchor ratio after/before"
+          },
+          {
+            "event": "Q0",
+            "kind": "same_axis_phase",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 1,
+            "transition_key": "1/1*i^1",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "Q transition assigned from lens ratio after/before"
+          },
+          {
+            "event": "L0",
+            "kind": "latch_birth_boundary",
+            "src": "a0",
+            "dst": "a1",
+            "pair": "0:1",
+            "scale_num": 2,
+            "scale_den": 1,
+            "phase_mod4": 3,
+            "transition_key": "2/1*i^3",
+            "c_projection": 4,
+            "contact_dz": 4,
+            "note": "L assigns transition from latched active lens value to newborn active lens value"
+          },
+          {
+            "event": "Q1",
+            "kind": "same_axis_phase",
+            "src": "a1",
+            "dst": "a1",
+            "pair": "1:1",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 1,
+            "transition_key": "1/1*i^1",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "Q transition assigned from lens ratio after/before"
+          }
+        ]
+      }
+    },
+    {
+      "event": "B1",
+      "signature": {
+        "axes": {
+          "0": {
+            "born": true,
+            "theta": 1,
+            "u": 1,
+            "v": 2,
+            "latched": true,
+            "value": "1/2*i^1"
+          },
+          "1": {
+            "born": true,
+            "theta": 1,
+            "u": 1,
+            "v": 2,
+            "latched": false,
+            "value": "1/2*i^1"
+          }
+        },
+        "edges": {
+          "0:1": 4
+        },
+        "contact_clock": 1,
+        "contact_z": 4,
+        "transitions": [
+          {
+            "event": "B0",
+            "kind": "same_axis_refinement",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 2,
+            "phase_mod4": 0,
+            "transition_key": "1/2*i^0",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "B transition assigned from germ-anchor ratio after/before"
+          },
+          {
+            "event": "Q0",
+            "kind": "same_axis_phase",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 1,
+            "transition_key": "1/1*i^1",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "Q transition assigned from lens ratio after/before"
+          },
+          {
+            "event": "L0",
+            "kind": "latch_birth_boundary",
+            "src": "a0",
+            "dst": "a1",
+            "pair": "0:1",
+            "scale_num": 2,
+            "scale_den": 1,
+            "phase_mod4": 3,
+            "transition_key": "2/1*i^3",
+            "c_projection": 4,
+            "contact_dz": 4,
+            "note": "L assigns transition from latched active lens value to newborn active lens value"
+          },
+          {
+            "event": "Q1",
+            "kind": "same_axis_phase",
+            "src": "a1",
+            "dst": "a1",
+            "pair": "1:1",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 1,
+            "transition_key": "1/1*i^1",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "Q transition assigned from lens ratio after/before"
+          },
+          {
+            "event": "B1",
+            "kind": "same_axis_refinement",
+            "src": "a1",
+            "dst": "a1",
+            "pair": "1:1",
+            "scale_num": 1,
+            "scale_den": 2,
+            "phase_mod4": 0,
+            "transition_key": "1/2*i^0",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "B transition assigned from germ-anchor ratio after/before"
+          }
+        ]
+      }
+    },
+    {
+      "event": "L1",
+      "signature": {
+        "axes": {
+          "0": {
+            "born": true,
+            "theta": 1,
+            "u": 1,
+            "v": 2,
+            "latched": true,
+            "value": "1/2*i^1"
+          },
+          "1": {
+            "born": true,
+            "theta": 1,
+            "u": 1,
+            "v": 2,
+            "latched": true,
+            "value": "1/2*i^1"
+          },
+          "2": {
+            "born": true,
+            "theta": 0,
+            "u": 1,
+            "v": 1,
+            "latched": false,
+            "value": "1/1*i^0"
+          }
+        },
+        "edges": {
+          "0:1": 4,
+          "1:2": 4
+        },
+        "contact_clock": 2,
+        "contact_z": 12,
+        "transitions": [
+          {
+            "event": "B0",
+            "kind": "same_axis_refinement",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 2,
+            "phase_mod4": 0,
+            "transition_key": "1/2*i^0",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "B transition assigned from germ-anchor ratio after/before"
+          },
+          {
+            "event": "Q0",
+            "kind": "same_axis_phase",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 1,
+            "transition_key": "1/1*i^1",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "Q transition assigned from lens ratio after/before"
+          },
+          {
+            "event": "L0",
+            "kind": "latch_birth_boundary",
+            "src": "a0",
+            "dst": "a1",
+            "pair": "0:1",
+            "scale_num": 2,
+            "scale_den": 1,
+            "phase_mod4": 3,
+            "transition_key": "2/1*i^3",
+            "c_projection": 4,
+            "contact_dz": 4,
+            "note": "L assigns transition from latched active lens value to newborn active lens value"
+          },
+          {
+            "event": "Q1",
+            "kind": "same_axis_phase",
+            "src": "a1",
+            "dst": "a1",
+            "pair": "1:1",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 1,
+            "transition_key": "1/1*i^1",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "Q transition assigned from lens ratio after/before"
+          },
+          {
+            "event": "B1",
+            "kind": "same_axis_refinement",
+            "src": "a1",
+            "dst": "a1",
+            "pair": "1:1",
+            "scale_num": 1,
+            "scale_den": 2,
+            "phase_mod4": 0,
+            "transition_key": "1/2*i^0",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "B transition assigned from germ-anchor ratio after/before"
+          },
+          {
+            "event": "L1",
+            "kind": "latch_birth_boundary",
+            "src": "a1",
+            "dst": "a2",
+            "pair": "1:2",
+            "scale_num": 2,
+            "scale_den": 1,
+            "phase_mod4": 3,
+            "transition_key": "2/1*i^3",
+            "c_projection": 4,
+            "contact_dz": 8,
+            "note": "L assigns transition from latched active lens value to newborn active lens value"
+          }
+        ]
+      }
+    },
+    {
+      "event": "O0_1",
+      "signature": {
+        "axes": {
+          "0": {
+            "born": true,
+            "theta": 1,
+            "u": 1,
+            "v": 2,
+            "latched": true,
+            "value": "1/2*i^1"
+          },
+          "1": {
+            "born": true,
+            "theta": 1,
+            "u": 1,
+            "v": 2,
+            "latched": true,
+            "value": "1/2*i^1"
+          },
+          "2": {
+            "born": true,
+            "theta": 0,
+            "u": 1,
+            "v": 1,
+            "latched": false,
+            "value": "1/1*i^0"
+          }
+        },
+        "edges": {
+          "0:1": 5,
+          "1:2": 4
+        },
+        "contact_clock": 2,
+        "contact_z": 12,
+        "transitions": [
+          {
+            "event": "B0",
+            "kind": "same_axis_refinement",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 2,
+            "phase_mod4": 0,
+            "transition_key": "1/2*i^0",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "B transition assigned from germ-anchor ratio after/before"
+          },
+          {
+            "event": "Q0",
+            "kind": "same_axis_phase",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 1,
+            "transition_key": "1/1*i^1",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "Q transition assigned from lens ratio after/before"
+          },
+          {
+            "event": "L0",
+            "kind": "latch_birth_boundary",
+            "src": "a0",
+            "dst": "a1",
+            "pair": "0:1",
+            "scale_num": 2,
+            "scale_den": 1,
+            "phase_mod4": 3,
+            "transition_key": "2/1*i^3",
+            "c_projection": 4,
+            "contact_dz": 4,
+            "note": "L assigns transition from latched active lens value to newborn active lens value"
+          },
+          {
+            "event": "Q1",
+            "kind": "same_axis_phase",
+            "src": "a1",
+            "dst": "a1",
+            "pair": "1:1",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 1,
+            "transition_key": "1/1*i^1",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "Q transition assigned from lens ratio after/before"
+          },
+          {
+            "event": "B1",
+            "kind": "same_axis_refinement",
+            "src": "a1",
+            "dst": "a1",
+            "pair": "1:1",
+            "scale_num": 1,
+            "scale_den": 2,
+            "phase_mod4": 0,
+            "transition_key": "1/2*i^0",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "B transition assigned from germ-anchor ratio after/before"
+          },
+          {
+            "event": "L1",
+            "kind": "latch_birth_boundary",
+            "src": "a1",
+            "dst": "a2",
+            "pair": "1:2",
+            "scale_num": 2,
+            "scale_den": 1,
+            "phase_mod4": 3,
+            "transition_key": "2/1*i^3",
+            "c_projection": 4,
+            "contact_dz": 8,
+            "note": "L assigns transition from latched active lens value to newborn active lens value"
+          },
+          {
+            "event": "O0_1",
+            "kind": "overlap_pair_transition",
+            "src": "a0",
+            "dst": "a1",
+            "pair": "0:1",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 0,
+            "transition_key": "1/1*i^0",
+            "c_projection": 1,
+            "contact_dz": 0,
+            "note": "O assigns overlap transition by lens ratio value_j/value_i"
+          }
+        ]
+      }
+    },
+    {
+      "event": "O1_2",
+      "signature": {
+        "axes": {
+          "0": {
+            "born": true,
+            "theta": 1,
+            "u": 1,
+            "v": 2,
+            "latched": true,
+            "value": "1/2*i^1"
+          },
+          "1": {
+            "born": true,
+            "theta": 1,
+            "u": 1,
+            "v": 2,
+            "latched": true,
+            "value": "1/2*i^1"
+          },
+          "2": {
+            "born": true,
+            "theta": 0,
+            "u": 1,
+            "v": 1,
+            "latched": false,
+            "value": "1/1*i^0"
+          }
+        },
+        "edges": {
+          "0:1": 5,
+          "1:2": 8
+        },
+        "contact_clock": 2,
+        "contact_z": 12,
+        "transitions": [
+          {
+            "event": "B0",
+            "kind": "same_axis_refinement",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 2,
+            "phase_mod4": 0,
+            "transition_key": "1/2*i^0",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "B transition assigned from germ-anchor ratio after/before"
+          },
+          {
+            "event": "Q0",
+            "kind": "same_axis_phase",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 1,
+            "transition_key": "1/1*i^1",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "Q transition assigned from lens ratio after/before"
+          },
+          {
+            "event": "L0",
+            "kind": "latch_birth_boundary",
+            "src": "a0",
+            "dst": "a1",
+            "pair": "0:1",
+            "scale_num": 2,
+            "scale_den": 1,
+            "phase_mod4": 3,
+            "transition_key": "2/1*i^3",
+            "c_projection": 4,
+            "contact_dz": 4,
+            "note": "L assigns transition from latched active lens value to newborn active lens value"
+          },
+          {
+            "event": "Q1",
+            "kind": "same_axis_phase",
+            "src": "a1",
+            "dst": "a1",
+            "pair": "1:1",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 1,
+            "transition_key": "1/1*i^1",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "Q transition assigned from lens ratio after/before"
+          },
+          {
+            "event": "B1",
+            "kind": "same_axis_refinement",
+            "src": "a1",
+            "dst": "a1",
+            "pair": "1:1",
+            "scale_num": 1,
+            "scale_den": 2,
+            "phase_mod4": 0,
+            "transition_key": "1/2*i^0",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "B transition assigned from germ-anchor ratio after/before"
+          },
+          {
+            "event": "L1",
+            "kind": "latch_birth_boundary",
+            "src": "a1",
+            "dst": "a2",
+            "pair": "1:2",
+            "scale_num": 2,
+            "scale_den": 1,
+            "phase_mod4": 3,
+            "transition_key": "2/1*i^3",
+            "c_projection": 4,
+            "contact_dz": 8,
+            "note": "L assigns transition from latched active lens value to newborn active lens value"
+          },
+          {
+            "event": "O0_1",
+            "kind": "overlap_pair_transition",
+            "src": "a0",
+            "dst": "a1",
+            "pair": "0:1",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 0,
+            "transition_key": "1/1*i^0",
+            "c_projection": 1,
+            "contact_dz": 0,
+            "note": "O assigns overlap transition by lens ratio value_j/value_i"
+          },
+          {
+            "event": "O1_2",
+            "kind": "overlap_pair_transition",
+            "src": "a1",
+            "dst": "a2",
+            "pair": "1:2",
+            "scale_num": 2,
+            "scale_den": 1,
+            "phase_mod4": 3,
+            "transition_key": "2/1*i^3",
+            "c_projection": 4,
+            "contact_dz": 0,
+            "note": "O assigns overlap transition by lens ratio value_j/value_i"
+          }
+        ]
+      }
+    },
+    {
+      "event": "O0_2",
+      "signature": {
+        "axes": {
+          "0": {
+            "born": true,
+            "theta": 1,
+            "u": 1,
+            "v": 2,
+            "latched": true,
+            "value": "1/2*i^1"
+          },
+          "1": {
+            "born": true,
+            "theta": 1,
+            "u": 1,
+            "v": 2,
+            "latched": true,
+            "value": "1/2*i^1"
+          },
+          "2": {
+            "born": true,
+            "theta": 0,
+            "u": 1,
+            "v": 1,
+            "latched": false,
+            "value": "1/1*i^0"
+          }
+        },
+        "edges": {
+          "0:1": 5,
+          "0:2": 4,
+          "1:2": 8
+        },
+        "contact_clock": 2,
+        "contact_z": 12,
+        "transitions": [
+          {
+            "event": "B0",
+            "kind": "same_axis_refinement",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 2,
+            "phase_mod4": 0,
+            "transition_key": "1/2*i^0",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "B transition assigned from germ-anchor ratio after/before"
+          },
+          {
+            "event": "Q0",
+            "kind": "same_axis_phase",
+            "src": "a0",
+            "dst": "a0",
+            "pair": "0:0",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 1,
+            "transition_key": "1/1*i^1",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "Q transition assigned from lens ratio after/before"
+          },
+          {
+            "event": "L0",
+            "kind": "latch_birth_boundary",
+            "src": "a0",
+            "dst": "a1",
+            "pair": "0:1",
+            "scale_num": 2,
+            "scale_den": 1,
+            "phase_mod4": 3,
+            "transition_key": "2/1*i^3",
+            "c_projection": 4,
+            "contact_dz": 4,
+            "note": "L assigns transition from latched active lens value to newborn active lens value"
+          },
+          {
+            "event": "Q1",
+            "kind": "same_axis_phase",
+            "src": "a1",
+            "dst": "a1",
+            "pair": "1:1",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 1,
+            "transition_key": "1/1*i^1",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "Q transition assigned from lens ratio after/before"
+          },
+          {
+            "event": "B1",
+            "kind": "same_axis_refinement",
+            "src": "a1",
+            "dst": "a1",
+            "pair": "1:1",
+            "scale_num": 1,
+            "scale_den": 2,
+            "phase_mod4": 0,
+            "transition_key": "1/2*i^0",
+            "c_projection": 0,
+            "contact_dz": 0,
+            "note": "B transition assigned from germ-anchor ratio after/before"
+          },
+          {
+            "event": "L1",
+            "kind": "latch_birth_boundary",
+            "src": "a1",
+            "dst": "a2",
+            "pair": "1:2",
+            "scale_num": 2,
+            "scale_den": 1,
+            "phase_mod4": 3,
+            "transition_key": "2/1*i^3",
+            "c_projection": 4,
+            "contact_dz": 8,
+            "note": "L assigns transition from latched active lens value to newborn active lens value"
+          },
+          {
+            "event": "O0_1",
+            "kind": "overlap_pair_transition",
+            "src": "a0",
+            "dst": "a1",
+            "pair": "0:1",
+            "scale_num": 1,
+            "scale_den": 1,
+            "phase_mod4": 0,
+            "transition_key": "1/1*i^0",
+            "c_projection": 1,
+            "contact_dz": 0,
+            "note": "O assigns overlap transition by lens ratio value_j/value_i"
+          },
+          {
+            "event": "O1_2",
+            "kind": "overlap_pair_transition",
+            "src": "a1",
+            "dst": "a2",
+            "pair": "1:2",
+            "scale_num": 2,
+            "scale_den": 1,
+            "phase_mod4": 3,
+            "transition_key": "2/1*i^3",
+            "c_projection": 4,
+            "contact_dz": 0,
+            "note": "O assigns overlap transition by lens ratio value_j/value_i"
+          },
+          {
+            "event": "O0_2",
+            "kind": "overlap_pair_transition",
+            "src": "a0",
+            "dst": "a2",
+            "pair": "0:2",
+            "scale_num": 2,
+            "scale_den": 1,
+            "phase_mod4": 3,
+            "transition_key": "2/1*i^3",
+            "c_projection": 4,
+            "contact_dz": 0,
+            "note": "O assigns overlap transition by lens ratio value_j/value_i"
+          }
+        ]
+      }
+    }
+  ],
+  "signature": {
+    "axes": {
+      "0": {
+        "born": true,
+        "theta": 1,
+        "u": 1,
+        "v": 2,
+        "latched": true,
+        "value": "1/2*i^1"
+      },
+      "1": {
+        "born": true,
+        "theta": 1,
+        "u": 1,
+        "v": 2,
+        "latched": true,
+        "value": "1/2*i^1"
+      },
+      "2": {
+        "born": true,
+        "theta": 0,
+        "u": 1,
+        "v": 1,
+        "latched": false,
+        "value": "1/1*i^0"
+      }
+    },
+    "edges": {
+      "0:1": 5,
+      "0:2": 4,
+      "1:2": 8
+    },
+    "contact_clock": 2,
+    "contact_z": 12,
+    "transitions": [
+      {
+        "event": "B0",
+        "kind": "same_axis_refinement",
+        "src": "a0",
+        "dst": "a0",
+        "pair": "0:0",
+        "scale_num": 1,
+        "scale_den": 2,
+        "phase_mod4": 0,
+        "transition_key": "1/2*i^0",
+        "c_projection": 0,
+        "contact_dz": 0,
+        "note": "B transition assigned from germ-anchor ratio after/before"
+      },
+      {
+        "event": "Q0",
+        "kind": "same_axis_phase",
+        "src": "a0",
+        "dst": "a0",
+        "pair": "0:0",
+        "scale_num": 1,
+        "scale_den": 1,
+        "phase_mod4": 1,
+        "transition_key": "1/1*i^1",
+        "c_projection": 0,
+        "contact_dz": 0,
+        "note": "Q transition assigned from lens ratio after/before"
+      },
+      {
+        "event": "L0",
+        "kind": "latch_birth_boundary",
+        "src": "a0",
+        "dst": "a1",
+        "pair": "0:1",
+        "scale_num": 2,
+        "scale_den": 1,
+        "phase_mod4": 3,
+        "transition_key": "2/1*i^3",
+        "c_projection": 4,
+        "contact_dz": 4,
+        "note": "L assigns transition from latched active lens value to newborn active lens value"
+      },
+      {
+        "event": "Q1",
+        "kind": "same_axis_phase",
+        "src": "a1",
+        "dst": "a1",
+        "pair": "1:1",
+        "scale_num": 1,
+        "scale_den": 1,
+        "phase_mod4": 1,
+        "transition_key": "1/1*i^1",
+        "c_projection": 0,
+        "contact_dz": 0,
+        "note": "Q transition assigned from lens ratio after/before"
+      },
+      {
+        "event": "B1",
+        "kind": "same_axis_refinement",
+        "src": "a1",
+        "dst": "a1",
+        "pair": "1:1",
+        "scale_num": 1,
+        "scale_den": 2,
+        "phase_mod4": 0,
+        "transition_key": "1/2*i^0",
+        "c_projection": 0,
+        "contact_dz": 0,
+        "note": "B transition assigned from germ-anchor ratio after/before"
+      },
+      {
+        "event": "L1",
+        "kind": "latch_birth_boundary",
+        "src": "a1",
+        "dst": "a2",
+        "pair": "1:2",
+        "scale_num": 2,
+        "scale_den": 1,
+        "phase_mod4": 3,
+        "transition_key": "2/1*i^3",
+        "c_projection": 4,
+        "contact_dz": 8,
+        "note": "L assigns transition from latched active lens value to newborn active lens value"
+      },
+      {
+        "event": "O0_1",
+        "kind": "overlap_pair_transition",
+        "src": "a0",
+        "dst": "a1",
+        "pair": "0:1",
+        "scale_num": 1,
+        "scale_den": 1,
+        "phase_mod4": 0,
+        "transition_key": "1/1*i^0",
+        "c_projection": 1,
+        "contact_dz": 0,
+        "note": "O assigns overlap transition by lens ratio value_j/value_i"
+      },
+      {
+        "event": "O1_2",
+        "kind": "overlap_pair_transition",
+        "src": "a1",
+        "dst": "a2",
+        "pair": "1:2",
+        "scale_num": 2,
+        "scale_den": 1,
+        "phase_mod4": 3,
+        "transition_key": "2/1*i^3",
+        "c_projection": 4,
+        "contact_dz": 0,
+        "note": "O assigns overlap transition by lens ratio value_j/value_i"
+      },
+      {
+        "event": "O0_2",
+        "kind": "overlap_pair_transition",
+        "src": "a0",
+        "dst": "a2",
+        "pair": "0:2",
+        "scale_num": 2,
+        "scale_den": 1,
+        "phase_mod4": 3,
+        "transition_key": "2/1*i^3",
+        "c_projection": 4,
+        "contact_dz": 0,
+        "note": "O assigns overlap transition by lens ratio value_j/value_i"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+claim,disposition,gate
+"T is assigned from native lens support, not hand-supplied c",SUPPORTED,transition records generated from lens ratios only
+legal trace rewrites preserve transition-derived coupling/contact signatures,SUPPORTED_ON_TESTS,rewrite invariance rows pass
+overlap transition data obeys exact triangle cocycle identity for admissible chart ratios,SUPPORTED_ON_TESTS,non-mutated cocycle checks pass exactly
+gauge/frame changes preserve cycle holonomy,SUPPORTED_ON_TESTS,cycle product unchanged under local frame gauges
+arbitrary raw history closes without admissibility,REJECTED,birth and cocycle negative controls fail as required

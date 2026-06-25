@@ -1,0 +1,6 @@
+event,transition_assignment,support,status
+Q_a,T(Q_a)=lens_after(a)/lens_before(a)=i,theta:a,native
+B_a,T(B_a)=new_germ_anchor/old_germ_anchor,q:a,native
+L_a,T(L_a)=lens_newborn(a+1)/lens_latched(a),"latch:a,born:a+1,edge:a:a+1,contact",native
+O_ab,T(O_ab)=lens(b)/lens(a),"edge:a:b,hol:a:b",derived from native overlap support
+R_a,identity terminal projection only,read-only,non-mutating terminal readout
