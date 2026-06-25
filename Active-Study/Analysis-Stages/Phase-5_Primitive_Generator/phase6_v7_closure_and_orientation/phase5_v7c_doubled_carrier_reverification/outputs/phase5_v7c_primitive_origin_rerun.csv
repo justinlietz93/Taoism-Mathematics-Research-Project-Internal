@@ -1,0 +1,15 @@
+base_N,carrier_D,successor_single_cycle,dual_cochain_eigen_equation_residual,normalization_forced_by_unitarity,pass
+1,2,True,1.7319121124709863e-16,True,True
+2,4,True,3.6739403974420594e-16,True,True
+3,6,True,1.4424890682136796e-15,True,True
+4,8,True,1.570092458683775e-15,True,True
+5,10,True,1.808079236317001e-15,True,True
+6,12,True,3.632164660233972e-15,True,True
+8,16,True,4.69138790189706e-15,True,True
+10,20,True,4.352672517996974e-15,True,True
+12,24,True,6.718655405512713e-15,True,True
+13,26,True,6.623820291121619e-15,True,True
+20,40,True,6.8789745839470014e-15,True,True
+26,52,True,1.1454413659170494e-14,True,True
+60,120,True,2.067243698566252e-14,True,True
+180,360,True,4.217640432690787e-14,True,True

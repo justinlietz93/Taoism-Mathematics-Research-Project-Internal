@@ -1,0 +1,19 @@
+{
+  "phase": "Phase 5 v7c",
+  "title": "Doubled-Carrier Reverification of Generated Orthad Operators",
+  "status": "ALL_PRIOR_GENERATED_CYCLIC_RESULTS_REVERIFIED_ON_DOUBLED_ORIENTATION_CARRIER",
+  "global_pass": true,
+  "phase5_closed": false,
+  "base_moduli_swept": 69,
+  "base_moduli_min": 1,
+  "base_moduli_max": 240,
+  "carrier_law": "D_N = Z/(2N)Z",
+  "max_property_residual": 1.152670228422045e-12,
+  "max_post_seal_residual": 0.0,
+  "character_cases": 4,
+  "negative_controls_run": 40,
+  "negative_controls_passed": 40,
+  "primitive_origin_cases": 14,
+  "primitive_origin_passed": 14,
+  "remaining_frontier": "Phase 5 v7d multi-axis finite quadratic module test"
+}

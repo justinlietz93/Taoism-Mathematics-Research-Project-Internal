@@ -1,0 +1,7 @@
+id,target,falsifier,status
+F1,Fourier transfer,K_D K_D* != I or K_D^2 != reversal on D=2N,NOT_TRIGGERED
+F2,Gauss self-twist,G_D representative invariance or polarization fails on D=2N,NOT_TRIGGERED
+F3,Old odd-N boundary,Odd base N still fails on doubled carrier D=2N,NOT_TRIGGERED
+F4,Character re-entry,χ12/χ8 fail scalar quotient or Legendre full-vector carrier fails after doubling,NOT_TRIGGERED
+F5,Primitive origin,dual cochain cannot be derived from successor on D=2N,NOT_TRIGGERED
+F6,Product module frontier,single-axis doubled carrier assumed to settle multi-axis modules,HELD_OPEN_FOR_V7D

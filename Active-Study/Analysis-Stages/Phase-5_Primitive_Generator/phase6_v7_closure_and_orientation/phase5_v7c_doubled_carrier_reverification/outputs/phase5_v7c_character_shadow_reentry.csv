@@ -1,0 +1,5 @@
+case,carrier_D,scalar_bilateral_sum_real,scalar_bilateral_sum_imag,bilateral_cancellation_pass,positive_orientation_readout_real,positive_orientation_nonzero,best_scalar_alpha,scalar_quotient_residual,scalar_quotient_closure,full_vector_norm_after_K,full_vector_required
+chi12_D12,12,0.0,0.0,True,-4.0,True,1.0000000000000004+0j,6.4987410513651595e-15,True,2.000000000000001,False
+chi8_D8,8,0.0,0.0,True,-2.0,True,0.99999999999999978+0j,1.5635432653438143e-15,True,1.9999999999999993,False
+legendre5_D10,10,0.0,0.0,True,-2.0,True,0.70710678118654768+0j,1.414213562373095,False,2.0,True
+legendre13_D26,26,0.0,0.0,True,-10.0,True,0.70710678118654668+0j,2.4494897427831757,False,3.464101615137751,True

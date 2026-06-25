@@ -1,0 +1,7 @@
+old_claim,new_status,carrier,result
+Fourier transfer generated on Z/NZ,REVERIFIED_ON_DOUBLED_ORIENTATION_CARRIER,D=2N,PASS
+Gauss self-twist generated on even carrier,REPLACED_BY_DOUBLED_ORIENTATION_CARRIER_LAW,D=2N,PASS
+Odd N is boundary,DEMOTED_TO_FOLDED_CARRIER_ARTIFACT,Z/NZ folded,REPAIRED
+Character/shadow re-entry on χ12/χ8/Legendre,REVERIFIED_ON_DOUBLED_CARRIER,"D=12,8,10,26",PASS_WITH_VECTOR_BOUNDARY
+Primitive origin from cyclic successor,REVERIFIED_FOR_D=2N,D=2N,PASS
+Regression controls protect canon,RE-RUN_WITH_DOUBLED_CARRIER,D=2N,PASS
