@@ -1,0 +1,238 @@
+{
+  "sealed_before_final_canon_text": true,
+  "source_summaries": [
+    {
+      "phase": "Phase 5 v7b: Doubled Orientation Carrier Test",
+      "status": "DOUBLED_ORIENTATION_CARRIER_RESOLVES_ODD_N_ARTIFACT",
+      "global_pass": true,
+      "phase5_closed": false,
+      "base_moduli_swept_count": 65,
+      "base_moduli_min": 1,
+      "base_moduli_max": 180,
+      "doubled_carrier": "D_n = Z/(2n)Z",
+      "twist": "G_D(a)=exp(pi i a^2/(2n)) = exp(pi i a^2/D)",
+      "transfer": "K_D(a,b)=D^(-1/2) exp(-2pi i a b/D)",
+      "max_residuals": {
+        "unitarity": 4.51673279695716e-14,
+        "reversal": 1.1589991119609344e-13,
+        "fourth": 1.7280289428536552e-13,
+        "polarization": 9.641409168821612e-13,
+        "postseal_K": 0.0,
+        "postseal_G": 0.0,
+        "rep_invariance": 8.389579290879644e-13
+      },
+      "folded_odd_boundary_reclassified": "artifact of using Z/nZ when q(a)=a^2/(2n) requires the orientation double Z/(2n)Z",
+      "even_carrier_law_replaced_by": "orientation-doubled carrier law",
+      "corrected_next_target": "Phase 5 v8: Final Phase 5 Canon Package with doubled-orientation carrier correction included",
+      "_tag": "v7b",
+      "_source_dir": "phase5_v7b_doubled_orientation_carrier_test"
+    },
+    {
+      "phase": "Phase 5 v7c",
+      "title": "Doubled-Carrier Reverification of Generated Orthad Operators",
+      "status": "ALL_PRIOR_GENERATED_CYCLIC_RESULTS_REVERIFIED_ON_DOUBLED_ORIENTATION_CARRIER",
+      "global_pass": true,
+      "phase5_closed": false,
+      "base_moduli_swept": 69,
+      "base_moduli_min": 1,
+      "base_moduli_max": 240,
+      "carrier_law": "D_N = Z/(2N)Z",
+      "max_property_residual": 1.152670228422045e-12,
+      "max_post_seal_residual": 0.0,
+      "character_cases": 4,
+      "negative_controls_run": 40,
+      "negative_controls_passed": 40,
+      "primitive_origin_cases": 14,
+      "primitive_origin_passed": 14,
+      "remaining_frontier": "Phase 5 v7d multi-axis finite quadratic module test",
+      "_tag": "v7c",
+      "_source_dir": "phase5_v7c_doubled_carrier_reverification"
+    },
+    {
+      "phase": "Phase 5 v7d",
+      "target": "Multi-Axis Finite Quadratic Module Test",
+      "status": "DIRECT_SUM_GENERATED_CROSS_AXIS_SUPPORTED_WITH_RETAINED_COUPLING_FRONTIER_OPEN",
+      "global_pass": true,
+      "positive_cases": 8,
+      "positive_cases_passed": 8,
+      "negative_controls": 3,
+      "negative_controls_passed": 3,
+      "max_positive_residual": 3.7826405152761767e-13,
+      "core_verdict": "The overset Orthad extends from one doubled cyclic axis to product carriers. Independent axes generate direct sums. Nonzero cross-axis terms are generated when an admissible nondegenerate inter-axis coupling matrix is carried as retained module data. The current primitive-origin boundary is deriving that coupling matrix from QBL history rather than supplying it as product-module data.",
+      "sealed_before_comparison": true,
+      "hand_admitted_dense_block": false,
+      "_tag": "v7d",
+      "_source_dir": "phase5_v7d_multi_axis_finite_quadratic_module_test"
+    },
+    {
+      "phase": "Phase 5 v7e",
+      "title": "Native Inter-Axis Coupling Derivation",
+      "status": "NATIVE_SHARED_BOUNDARY_COUPLING_GENERATED_FOR_TESTED_PRODUCT_MODULES_FRONTIER_REFINED",
+      "global_pass": true,
+      "phase5_closed": false,
+      "sealed_before_comparison": true,
+      "positive_cases": 6,
+      "positive_cases_passed": 6,
+      "negative_controls": 5,
+      "negative_controls_passed": 5,
+      "max_positive_residual": 3.17539875105184e-13,
+      "native_extractor": "shared L-boundary incidence weighted by retained Q-depths before latch",
+      "core_result": "Shared-boundary QBL histories generated nonzero admissible c_ij in tested cases; independent/prefix-only histories did not.",
+      "frontier": "Derive the full inter-axis coupling registry for arbitrary QBL branching histories and realistic mock-theta finite quadratic modules.",
+      "_tag": "v7e",
+      "_source_dir": "phase5_v7e_native_inter_axis_coupling_derivation"
+    },
+    {
+      "phase": "5_v7f",
+      "title": "Coupling Registry Sweep",
+      "status": "COUPLING_REGISTRY_SWEEP_SUPPORTED_FOR_BOUNDED_SHARED_LATCH_HISTORIES_FRONTIER_REFINED",
+      "global_pass": true,
+      "phase5_closed": false,
+      "D_pair_count": 15,
+      "registry_rows": 918,
+      "unique_generated_c_total": 918,
+      "property_gate_cases": 29,
+      "property_gate_cases_passed": 29,
+      "negative_controls": 23,
+      "negative_controls_passed": 23,
+      "max_positive_residual": 1.0226784664791497e-12,
+      "full_valid_coverage_pairs": 15,
+      "mean_valid_closure_coverage_fraction": 1.0,
+      "mean_admissible_coverage_fraction": 1.0,
+      "sealed_before_comparison": true,
+      "hand_supplied_cij_used_as_generation_evidence": false,
+      "frontier": "bounded shared-latch histories generate many admissible nonzero couplings; complete arbitrary-history registry remains open",
+      "_tag": "v7f",
+      "_source_dir": "phase5_v7f_coupling_registry_sweep"
+    },
+    {
+      "phase": "5_v7g",
+      "title": "Multi-Axis Coupling Tensor Extension",
+      "status": "PAIRWISE_COUPLING_TENSOR_EXTENSION_SUPPORTED_TRIPLE_TERMS_REJECTED_AS_NONQUADRATIC_FRONTIER_REFINED",
+      "global_pass": true,
+      "phase5_closed": false,
+      "positive_cases": 11,
+      "positive_cases_passed": 11,
+      "negative_controls": 9,
+      "negative_controls_passed": 9,
+      "registry_rows": 62,
+      "registry_valid_rows": 34,
+      "registry_cross_valid_rows": 27,
+      "registry_degenerate_rows": 28,
+      "registry_nonrepresentative_rows": 0,
+      "max_positive_residual": 4.5013917250540656e-13,
+      "sealed_before_comparison": true,
+      "hand_supplied_cij_used_as_generation_evidence": false,
+      "main_verdict": "Multi-axis product modules close under the native pairwise coupling tensor registry. Triple or higher latch incidence is native history data but not an independent Weil-compatible higher-order tensor in tested cases; it must project to pairwise bilinear coupling or be rejected by the quadraticity gate.",
+      "frontier": "Complete arbitrary-history registry and proof that all admissible nondegenerate pairwise coupling tensors are reachable from QBL latch/branch histories.",
+      "_tag": "v7g",
+      "_source_dir": "phase5_v7g_multi_axis_coupling_tensor_extension"
+    },
+    {
+      "phase": "5_v7h",
+      "title": "Pairwise Coupling Reachability Sweep",
+      "status": "PAIRWISE_COUPLING_REACHABILITY_SUPPORTED_FOR_BOUNDED_NATIVE_HISTORY_FAMILIES",
+      "global_pass": true,
+      "phase5_closed": false,
+      "D_pair_count": 167,
+      "registry_rows": 1166,
+      "coverage_rows": 167,
+      "full_valid_coverage_pairs": 167,
+      "mean_valid_reachability_fraction": 1.0,
+      "unreachable_valid_pair_count": 0,
+      "max_shared_latch_count_bound": 1,
+      "property_gate_rows": 884,
+      "numeric_full_matrix_samples": 115,
+      "negative_controls": 211,
+      "negative_controls_passed": 211,
+      "max_numeric_positive_residual": 4.063423753964662e-14,
+      "sealed_before_comparison": true,
+      "hand_supplied_cij_used_as_generation_evidence": false,
+      "frontier": "bounded native families reach all admissible nondegenerate pairwise classes in swept pairs; full arbitrary QBL history classification remains open",
+      "_tag": "v7h",
+      "_source_dir": "phase5_v7h_pairwise_coupling_reachability_sweep"
+    }
+  ],
+  "package_hashes": [
+    {
+      "package": "phase5_v2_orthad_overset_canonization_package.zip",
+      "exists": true,
+      "size_bytes": 6755825,
+      "sha256": "69a55229f5d97d169462b20d967d0d67315b018b8f8f3f9f51be1fbe3fac91ea"
+    },
+    {
+      "package": "phase5_v3_general_N_stability_test_package.zip",
+      "exists": true,
+      "size_bytes": 440504,
+      "sha256": "3dab5a88d2e2f0ce5022ee3ec6e9e50ecca0cba11ffa0c5cdb13ebf668e3ae95"
+    },
+    {
+      "package": "phase5_v4_character_shadow_residual_reentry_package.zip",
+      "exists": true,
+      "size_bytes": 7196114,
+      "sha256": "ad2364d03a146002a141312442e8e61d47430b257f77cce982dadad7cf2894bc"
+    },
+    {
+      "package": "phase5_v5_orthad_primitive_origin_audit_package.zip",
+      "exists": true,
+      "size_bytes": 14521479,
+      "sha256": "a389775d5e604599395bd4c268bd72aed84b67093fd2a18581b61212736fe962"
+    },
+    {
+      "package": "phase5_v6_regression_stale_canon_repair_package.zip",
+      "exists": true,
+      "size_bytes": 35636924,
+      "sha256": "57e1b40739e4e1d4c44b01cce9b7ac610e528b1ed1746d766096b6b2cf8ff78a"
+    },
+    {
+      "package": "phase5_v7_lean_sympy_jupyter_closure_attack_package.zip",
+      "exists": true,
+      "size_bytes": 64904343,
+      "sha256": "90c72ea1da41df7dfe93da52b4862a7529a9173b9f673ab045fd61ac5c2c4fdb"
+    },
+    {
+      "package": "phase5_v7b_doubled_orientation_carrier_test_package.zip",
+      "exists": true,
+      "size_bytes": 64996657,
+      "sha256": "c6e950307b60c5bb8e04b484149a043304a4d82deff120ff5220d6e7997c0b7d"
+    },
+    {
+      "package": "phase5_v7c_doubled_carrier_reverification_package.zip",
+      "exists": true,
+      "size_bytes": 194539277,
+      "sha256": "529ae3f83baf78a7805565efbdb6fa30dfa2c38a7e9d05d1a9807ac65a82fd8c"
+    },
+    {
+      "package": "phase5_v7d_multi_axis_finite_quadratic_module_test_package.zip",
+      "exists": true,
+      "size_bytes": 446158,
+      "sha256": "0d76fb7261973af75292b27298d7bb796edda0c08507016e96c5af188c503c27"
+    },
+    {
+      "package": "phase5_v7e_native_inter_axis_coupling_derivation_package.zip",
+      "exists": true,
+      "size_bytes": 27775,
+      "sha256": "63b3bbbcc881d3cac3a1b5372af78f87061df3491c9a76c90ea1f853da0e3fd9"
+    },
+    {
+      "package": "phase5_v7f_coupling_registry_sweep_package.zip",
+      "exists": true,
+      "size_bytes": 31870,
+      "sha256": "7a764a369d44a82535562852c1710b44814ae97383fe3d84f4a739f2e1c28470"
+    },
+    {
+      "package": "phase5_v7g_multi_axis_coupling_tensor_extension_package.zip",
+      "exists": true,
+      "size_bytes": 15796,
+      "sha256": "8790523df422188007946d6443f6510398d3c4d8b13e7ad760e094ea023f8c9b"
+    },
+    {
+      "package": "phase5_v7h_pairwise_coupling_reachability_sweep_package.zip",
+      "exists": true,
+      "size_bytes": 44688,
+      "sha256": "6dc984472ac849cca927c867b77954931dca0322c1d6237e43a568ac9928fd62"
+    }
+  ],
+  "canon_ledger_sha256": "4888c1ff0c91d31fa210a3a2535d53bd9c7e27a78229a495c7fb1e3917e56fd3",
+  "claim_disposition_sha256": "3fd96ca83aa310f794ca77e20f7b5cdd3438bbb215224787e0f0cb83773f379f"
+}

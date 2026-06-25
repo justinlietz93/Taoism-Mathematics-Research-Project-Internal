@@ -1,0 +1,6 @@
+target,falsifier
+doubled_carrier,Find a generated cyclic Orthad operator that only passes on folded Z/NZ and fails on Z/(2N)Z without projection-loss explanation.
+product_module_pairwise_tensor,Find admissible nondegenerate pairwise coupling in swept class unreachable by native bounded histories.
+arbitrary_history_theorem,Find arbitrary QBL history class not covered by current registry classification.
+mock_theta_target,Map a concrete mock theta finite quadratic module requiring a coupling not generated/reachable by QBL history.
+formal_surface,Lean/Lake execution fails any stated formal obligation.

@@ -1,0 +1,13 @@
+{
+  "status": "CANON_CONSOLIDATED_PRODUCT_MODULE_FRONTIER_SEPARATED_V8_READY_WITH_OPEN_FRONTIERS",
+  "global_pass": true,
+  "phase5_closed": false,
+  "main_result": "Phase 5 canon is consolidated without overstating cyclic/product-module scope.",
+  "blocked_overstatements": [
+    "even-only law",
+    "single cyclic carrier covers product modules",
+    "hand-supplied c_ij proves generation",
+    "triple incidence is independent Weil tensor"
+  ],
+  "ready_for_v8": true
+}

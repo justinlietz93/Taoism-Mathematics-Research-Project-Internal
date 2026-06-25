@@ -1,0 +1,8 @@
+claim,disposition,replacement,evidence
+Odd N is a boundary,rejected/repaired,Odd folded carrier is projection loss; retained cyclic carrier is Z/(2N)Z.,"v7b,v7c"
+Even-carrier law,rejected/repaired,Orientation-doubled carrier law.,"v7b,v7c"
+Single cyclic result implies product-module result,blocked,Product modules require explicit product tests and coupling tensor gates.,v7d-v7h
+Cross-axis c_ij may be supplied as proof of generation,blocked,c_ij must be extracted and sealed before comparison.,v7e-v7h
+Triple latch incidence is independent Weil tensor,rejected_in_tested_layer,Higher latch incidence must project to pairwise bilinear form or fail quadraticity.,v7g
+Scalar shadow projection failure means no closure,rejected/repaired,Projection loss: retained vector carrier can close while scalar projection cancels.,"v4,v7c"
+Orthad is diagonal lens only,rejected/repaired,Diagonal lens is same-chart collapse; full Orthad is overset dual-lens.,"v2,v6"

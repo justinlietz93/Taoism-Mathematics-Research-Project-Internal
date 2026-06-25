@@ -1,0 +1,10 @@
+layer,status,canon_statement,frontier
+L0_failure_record,preserved,"Failed v1 branches remain as controls and warning signs, not deleted history.",none
+L1_overset_orthad,canon,"Orthad is overset dual-lens: same-chart self-read, cross-chart transfer, reverse-transfer quadratic self-twist.",not a one-lens diagonal object
+L2_doubled_orientation_carrier,canon,Cyclic base modulus N is carried on D=2N; odd folded carrier failure is projection loss.,single-axis only
+L3_cyclic_generated_operators,reverified,"K_D(a,b)=D^(-1/2) exp(-2πiab/D); G_D(a)=exp(πia^2/D) reverified on doubled carrier.",product modules not implied by cyclic tests
+L4_character_shadow_reentry,reverified_with_boundary,Scalar projection can cancel while retained orientation-residue vector carries shadow structure.,full mock analytic completion not claimed
+L5_product_module_with_retained_coupling,supported,Product finite quadratic modules close when admissible nondegenerate pairwise coupling tensor is retained.,retained c_ij alone is not primitive origin
+L6_native_shared_boundary_coupling,supported_bounded,Shared L-boundary QBL histories generate nonzero c_ij in tested bounded families.,arbitrary-history theorem open
+L7_pairwise_tensor_extension,supported,Three-plus-axis product modules close through symmetric pairwise coupling tensors.,independent higher-order Weil tensors rejected as nonquadratic in tested layer
+L8_pairwise_reachability,supported_bounded,All admissible nondegenerate pairwise c_ij classes in swept pairs had bounded native witnesses.,complete QBL history classification open

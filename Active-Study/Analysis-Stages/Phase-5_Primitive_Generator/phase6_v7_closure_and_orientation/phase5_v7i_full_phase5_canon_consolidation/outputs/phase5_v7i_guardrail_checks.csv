@@ -1,0 +1,9 @@
+check,pass_,detail,pass
+all_loaded_v7_summaries_global_pass,True,7/7 loaded summaries global_pass=true,True
+numeric_residuals_below_threshold,True,"max_seen=1.152670228422045e-12, threshold=1e-09",True
+v7c_doubled_carrier_reverification_present,True,v7c doubled carrier summary loaded,True
+v7d_retained_coupling_frontier_present,True,v7d separates retained coupling from primitive origin,True
+v7e_native_extraction_present,True,v7e native shared-boundary extraction loaded,True
+v7h_reachability_present,True,v7h reachability summary loaded,True
+no_final_phase5_closed_stamp,True,phase remains open pending v8 and local Lean/full theorem work,True
+no_hand_supplied_cij_as_generation_evidence,True,no loaded summary accepts hand-supplied c_ij as generation evidence,True

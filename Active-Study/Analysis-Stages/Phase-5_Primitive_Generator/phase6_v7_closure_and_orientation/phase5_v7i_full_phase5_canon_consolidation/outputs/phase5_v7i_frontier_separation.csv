@@ -1,0 +1,6 @@
+frontier,status,falsifier
+arbitrary_history_classification,open,"Find a QBL history whose native coupling classification cannot be mapped to direct-sum, admissible nondegenerate pairwise, degenerate, or nonrepresentative class."
+mock_theta_specific_module_matching,open,A concrete mock theta finite quadratic module requires coupling data not reachable by the bounded registry or QBL history map.
+analytic_completion,open,Finite carrier laws fail to lift into the required analytic transformation/completion for a chosen mock theta target.
+Lean_local_execution,pending,Lake build fails or finds inconsistent assumptions in formal surfaces.
+higher_order_nonquadratic_incidence,rejected_as_weil_tensor_in_tested_layer,Exhibit a genuine third-order term that preserves finite quadratic module Weil gates without reducing to pairwise bilinear form.
