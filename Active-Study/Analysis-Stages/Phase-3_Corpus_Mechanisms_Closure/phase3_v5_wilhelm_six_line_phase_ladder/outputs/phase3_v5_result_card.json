@@ -1,0 +1,13 @@
+{
+  "phase": "Phase 3 v5",
+  "title": "Wilhelm Six-Line Phase Ladder",
+  "status": "SIX_LINE_LADDER_CONFIRMED_TRANSITION_CUSTODY_CLOSED",
+  "global_pass": true,
+  "directed_events": 384,
+  "undirected_edges": 192,
+  "state_count": 64,
+  "selected_line_count": 6,
+  "projection_loss_witness_count": 6,
+  "line_relabel_nonidentity_min_changed_transitions": 128,
+  "next_target": "Phase 3 v6: Latest Phase Source Synchronization and Lean/Lake Execution Prep"
+}

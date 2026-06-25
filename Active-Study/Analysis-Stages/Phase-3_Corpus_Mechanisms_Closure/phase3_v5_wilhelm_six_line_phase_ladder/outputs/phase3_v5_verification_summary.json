@@ -1,0 +1,131 @@
+{
+  "phase": "Phase 3 v5",
+  "title": "Wilhelm Six-Line Phase Ladder",
+  "status": "SIX_LINE_LADDER_CONFIRMED_TRANSITION_CUSTODY_CLOSED",
+  "global_pass": true,
+  "directed_events": 384,
+  "undirected_edges": 192,
+  "state_count": 64,
+  "selected_line_count": 6,
+  "projection_loss_witness_count": 6,
+  "line_relabel_nonidentity_min_changed_transitions": 128,
+  "next_target": "Phase 3 v6: Latest Phase Source Synchronization and Lean/Lake Execution Prep",
+  "gates": [
+    {
+      "gate": "G1_Q6_AUTOMATON",
+      "claim": "Wilhelm line dynamics normalizes to 64 carriers x 6 selected-line events",
+      "metric": "directed edge count",
+      "value": 384,
+      "pass": true,
+      "falsifier": "directed event count not equal to 384 under six-line carrier x selected-line normalization"
+    },
+    {
+      "gate": "G2_SINGLE_LINE_FLIP",
+      "claim": "Every selected-line event flips exactly one retained line",
+      "metric": "hamming distance set",
+      "value": [
+        1
+      ],
+      "pass": true,
+      "falsifier": "any event changes zero or more than one retained line under convention"
+    },
+    {
+      "gate": "G3_INVOLUTION",
+      "claim": "Line mutation is locally reversible by the same selected-line action",
+      "metric": "all involution_return",
+      "value": true,
+      "pass": true,
+      "falsifier": "flip selected line twice does not return source"
+    },
+    {
+      "gate": "G4_CARRIER_ONLY_FAILS",
+      "claim": "Carrier alone does not determine next transition",
+      "metric": "carriers with multiple targets under selected lines",
+      "value": 64,
+      "pass": true,
+      "falsifier": "carrier-only projection determines target for every selected line"
+    },
+    {
+      "gate": "G5_LINE_ONLY_FAILS",
+      "claim": "Selected line alone does not determine next transition",
+      "metric": "target count per line",
+      "value": {
+        "1": 64,
+        "2": 64,
+        "3": 64,
+        "4": 64,
+        "5": 64,
+        "6": 64
+      },
+      "pass": true,
+      "falsifier": "line-only projection determines target independent of carrier"
+    },
+    {
+      "gate": "G6_LINE_ORDER_RIGID",
+      "claim": "Line labels are not freely permutable without changing transitions",
+      "metric": "minimum changed transitions for nonidentity line permutation",
+      "value": 128,
+      "pass": true,
+      "falsifier": "nonidentity line permutation preserves all 384 transitions"
+    },
+    {
+      "gate": "G7_LADDER_PROFILE_NONFLAT",
+      "claim": "Line-position semantic maxima are not flat across six lines",
+      "metric": "category maxima occupy multiple line positions",
+      "value": 6,
+      "pass": true,
+      "falsifier": "category maxima collapse to one line or uniform profile"
+    },
+    {
+      "gate": "G8_TOP_LINE_CARRY_PRESSURE",
+      "claim": "Line 6 carries excess/completion/carry pressure",
+      "metric": "boundary_excess and carry_lift_rechart maxima",
+      "value": {
+        "boundary_excess": "line6",
+        "carry_lift_rechart": "line6"
+      },
+      "pass": true,
+      "falsifier": "full corpus shows boundary_excess and carry_lift_rechart not concentrated at line 6"
+    }
+  ],
+  "kingwen_facts_from_phase2_notes": {
+    "kingwen_consecutive_hamming_counts": {
+      "1": 2,
+      "2": 20,
+      "3": 13,
+      "4": 19,
+      "6": 9
+    },
+    "kingwen_consecutive_operation_counts": {
+      "other": 30,
+      "reverse": 24,
+      "complement+reverse_complement": 4,
+      "complement+reverse": 4,
+      "complement": 1
+    },
+    "kingwen_odd_even_pair_operation_counts": {
+      "reverse": 24,
+      "complement+reverse_complement": 4,
+      "complement+reverse": 4
+    },
+    "single_line_consecutive_edges": 2,
+    "not_simple_single_line_successor": true
+  },
+  "closed_claims": [
+    "Wilhelm is a retained six-line carrier plus selected-line event automaton.",
+    "The transition graph is Q6: 64 states, 384 directed single-line events, 192 undirected edges.",
+    "Carrier-only, line-only, semantic-role-only, ordinal/name-only projections are not state-complete for transition custody.",
+    "Line-position semantics form a non-flat ladder, with line 6 carrying upper excess/completion/carry pressure."
+  ],
+  "open_target": [
+    "Find or derive the explicit post-line-6 lift/re-chart rule connecting Wilhelm upper-excess pressure to a new retained carrier domain.",
+    "Run full source-string semantic reparse if raw Wilhelm translation JS is available, replacing extracted summary profiles with regenerated line-text flags."
+  ],
+  "falsification_targets": [
+    "A full Wilhelm source extraction where selected-line event count differs from 64x6.",
+    "A line event that cannot be represented as a single retained-line flip under the declared line-order convention.",
+    "A projection using ordinal/name/text/category alone that determines all 384 next transitions.",
+    "A nonidentity line permutation preserving all 384 transitions.",
+    "A full semantic reparse where line-position category profile is flat and line 6 does not carry excess/completion pressure."
+  ]
+}

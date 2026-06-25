@@ -1,0 +1,25 @@
+[
+  {
+    "kingwen_consecutive_hamming_counts":{
+      "1":2,
+      "2":20,
+      "3":13,
+      "4":19,
+      "6":9
+    },
+    "kingwen_consecutive_operation_counts":{
+      "other":30,
+      "reverse":24,
+      "complement+reverse_complement":4,
+      "complement+reverse":4,
+      "complement":1
+    },
+    "kingwen_odd_even_pair_operation_counts":{
+      "reverse":24,
+      "complement+reverse_complement":4,
+      "complement+reverse":4
+    },
+    "single_line_consecutive_edges":2,
+    "not_simple_single_line_successor":true
+  }
+]

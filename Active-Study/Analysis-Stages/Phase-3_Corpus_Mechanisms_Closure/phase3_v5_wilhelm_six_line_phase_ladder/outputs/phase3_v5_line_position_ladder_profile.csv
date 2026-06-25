@@ -1,0 +1,7 @@
+line,operational_reading,dominant_categories,primary_gate
+1,admission / hidden origin,danger_transition; constraint_invariant; choice_branch; return_cycle,entry begins below visibility; carrier state required before readout
+2,manifesting field,manifestation_visible; choice_branch; constraint_invariant; danger_transition,first stable manifestation of carrier into readable field
+3,danger / transition stress,danger_transition; manifestation_visible; choice_branch; constraint_invariant,transition stress and instability; selected line becomes decisive
+4,branch choice / boundary test,danger_transition; choice_branch; constraint_invariant; return_cycle,boundary choice and chart crossing pressure
+5,full expression / central authority,manifestation_visible; constraint_invariant; danger_transition; choice_branch,central expression and invariant custody
+6,excess / completion / carry pressure,danger_transition; return_cycle; constraint_invariant; choice_branch,upper excess and lift/carry pressure

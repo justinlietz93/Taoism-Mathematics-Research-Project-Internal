@@ -1,0 +1,9 @@
+gate,claim,metric,value,pass,falsifier
+G1_Q6_AUTOMATON,Wilhelm line dynamics normalizes to 64 carriers x 6 selected-line events,directed edge count,384,True,directed event count not equal to 384 under six-line carrier x selected-line normalization
+G2_SINGLE_LINE_FLIP,Every selected-line event flips exactly one retained line,hamming distance set,[1],True,any event changes zero or more than one retained line under convention
+G3_INVOLUTION,Line mutation is locally reversible by the same selected-line action,all involution_return,True,True,flip selected line twice does not return source
+G4_CARRIER_ONLY_FAILS,Carrier alone does not determine next transition,carriers with multiple targets under selected lines,64,True,carrier-only projection determines target for every selected line
+G5_LINE_ONLY_FAILS,Selected line alone does not determine next transition,target count per line,"{1: 64, 2: 64, 3: 64, 4: 64, 5: 64, 6: 64}",True,line-only projection determines target independent of carrier
+G6_LINE_ORDER_RIGID,Line labels are not freely permutable without changing transitions,minimum changed transitions for nonidentity line permutation,128,True,nonidentity line permutation preserves all 384 transitions
+G7_LADDER_PROFILE_NONFLAT,Line-position semantic maxima are not flat across six lines,category maxima occupy multiple line positions,6,True,category maxima collapse to one line or uniform profile
+G8_TOP_LINE_CARRY_PRESSURE,Line 6 carries excess/completion/carry pressure,boundary_excess and carry_lift_rechart maxima,"{'boundary_excess': 'line6', 'carry_lift_rechart': 'line6'}",True,full corpus shows boundary_excess and carry_lift_rechart not concentrated at line 6

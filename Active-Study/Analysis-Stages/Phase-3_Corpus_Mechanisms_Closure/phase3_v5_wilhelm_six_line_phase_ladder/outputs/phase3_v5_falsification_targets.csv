@@ -1,0 +1,6 @@
+falsification_target
+A full Wilhelm source extraction where selected-line event count differs from 64x6.
+A line event that cannot be represented as a single retained-line flip under the declared line-order convention.
+A projection using ordinal/name/text/category alone that determines all 384 next transitions.
+A nonidentity line permutation preserving all 384 transitions.
+A full semantic reparse where line-position category profile is flat and line 6 does not carry excess/completion pressure.
