@@ -1,0 +1,9 @@
+{
+  "phase5_can_close": false,
+  "reason": "complete finite quadratic module isometry classifier remains BLOCKING_OPEN after boundary attack",
+  "blocking_open": [
+    "Full p^k mixed cyclic Jordan decomposition",
+    "Full 2-adic Nikulin / Conway-Sloane classification",
+    "Arbitrary cross-coupled product presentations"
+  ]
+}

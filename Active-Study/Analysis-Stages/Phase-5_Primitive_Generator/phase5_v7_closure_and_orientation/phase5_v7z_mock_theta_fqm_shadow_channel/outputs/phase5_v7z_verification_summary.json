@@ -1,0 +1,39 @@
+{
+  "phase": "Phase 5 v7z",
+  "title": "Mock-Theta FQM Matching and Shadow Residual Channel Comparison",
+  "status": "MOCK_THETA_FQM_MATCHING_AND_SHADOW_CHANNEL_COMPARISON_CLOSED_POSITIVE_ON_FINITE_CHI12_SKELETON",
+  "global_pass": true,
+  "phase5_closed": false,
+  "fqm_module": "A = Z/12Z, q(r)=r^2/24 mod 1, b(r,s)=rs/12 mod 1",
+  "mock_theta_vector": "v_chi[r] = chi12(r), support r in {1,5,7,11}",
+  "fourier_checks_passed": 12,
+  "fourier_checks_total": 12,
+  "max_fourier_residual": 3.5021553731717377e-15,
+  "T_phase_checks_passed": 4,
+  "T_phase_checks_total": 4,
+  "max_T_phase_residual": 7.550332863779066e-16,
+  "channel_records_passed": 160,
+  "channel_records_total": 160,
+  "depth_counts": {
+    "3": 11,
+    "4": 21,
+    "5": 43,
+    "6": 85
+  },
+  "negative_controls_passed": 8,
+  "negative_controls_total": 8,
+  "numeric_tolerance": 1e-12,
+  "closed_positive_targets": [
+    "concrete mock-theta FQM matching",
+    "Shadow Residual channel-field comparison without scalar cargo"
+  ],
+  "closed_negative_targets": [
+    "mod6 carrier sufficiency",
+    "scalar Shadow Residual cargo retained by state"
+  ],
+  "still_open": [
+    "all-history confluence + cocycle proof",
+    "full FQM classification boundary attack",
+    "analytic completion beyond finite carrier skeleton"
+  ]
+}

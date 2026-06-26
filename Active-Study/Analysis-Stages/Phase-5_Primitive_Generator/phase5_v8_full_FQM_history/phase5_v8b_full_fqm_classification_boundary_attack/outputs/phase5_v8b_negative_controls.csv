@@ -1,0 +1,20 @@
+control,params,expected,observed,pass
+nonunit_generator_transform,"{""N"": 12, ""t"": 1, ""u"": 2, ""t_bad"": 4}",reject,reject,True
+nonunit_generator_transform,"{""N"": 16, ""t"": 3, ""u"": 2, ""t_bad"": 12}",reject,reject,True
+nonunit_generator_transform,"{""N"": 18, ""t"": 5, ""u"": 3, ""t_bad"": 9}",reject,reject,True
+nonunit_generator_transform,"{""N"": 25, ""t"": 1, ""u"": 5, ""t_bad"": 25}",reject,reject,True
+degenerate_rank2_form,"{""p"": 3, ""A"": [[1, 1], [1, 1]], ""det"": 0}",reject,reject,True
+degenerate_rank2_form,"{""p"": 5, ""A"": [[2, 4], [4, 3]], ""det"": 0}",reject,reject,True
+degenerate_rank2_form,"{""p"": 7, ""A"": [[1, 2], [2, 4]], ""det"": 0}",reject,reject,True
+collapse_U_V_policy,"{""k"": 1}",reject collapse,reject collapse,True
+collapse_U_V_policy,"{""k"": 2}",reject collapse,reject collapse,True
+collapse_U_V_policy,"{""k"": 3}",reject collapse,reject collapse,True
+collapse_U_V_policy,"{""k"": 4}",reject collapse,reject collapse,True
+collapse_U_V_policy,"{""k"": 5}",reject collapse,reject collapse,True
+raw_matrix_identity_as_invariant,"{""p"": 3, ""A"": [[1, 0], [0, 1]], ""P"": [[2, 2], [2, 1]], ""B"": [[2, 0], [0, 2]]}",raw differs but canonical same,"raw_equal=False, canonical_equal=True",True
+raw_matrix_identity_as_invariant,"{""p"": 5, ""A"": [[1, 0], [0, 1]], ""P"": [[4, 4], [4, 3]], ""B"": [[2, 3], [3, 0]]}",raw differs but canonical same,"raw_equal=False, canonical_equal=True",True
+raw_matrix_identity_as_invariant,"{""p"": 7, ""A"": [[1, 0], [0, 1]], ""P"": [[6, 6], [6, 5]], ""B"": [[2, 3], [3, 5]]}",raw differs but canonical same,"raw_equal=False, canonical_equal=True",True
+mixed_p_power_cross_coupled_full_claim,"{""modulus"": 4}",do_not_claim_full_general_classifier,frontier_blocking_open,True
+mixed_p_power_cross_coupled_full_claim,"{""modulus"": 8}",do_not_claim_full_general_classifier,frontier_blocking_open,True
+mixed_p_power_cross_coupled_full_claim,"{""modulus"": 9}",do_not_claim_full_general_classifier,frontier_blocking_open,True
+mixed_p_power_cross_coupled_full_claim,"{""modulus"": 16}",do_not_claim_full_general_classifier,frontier_blocking_open,True

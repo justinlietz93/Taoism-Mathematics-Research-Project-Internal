@@ -1,0 +1,13 @@
+n_a,n_b,same_residue_mod12,same_fqm_fractional_q,same_chi12,different_terminal_magnitude,different_terminal_exponent,interpretation,pass
+1,13,True,True,True,True,True,finite FQM matches fractional/gauge skeleton; terminal cursor retains magnitude and integer exponent lift,True
+5,17,True,True,True,True,True,finite FQM matches fractional/gauge skeleton; terminal cursor retains magnitude and integer exponent lift,True
+7,19,True,True,True,True,True,finite FQM matches fractional/gauge skeleton; terminal cursor retains magnitude and integer exponent lift,True
+11,23,True,True,True,True,True,finite FQM matches fractional/gauge skeleton; terminal cursor retains magnitude and integer exponent lift,True
+13,25,True,True,True,True,True,finite FQM matches fractional/gauge skeleton; terminal cursor retains magnitude and integer exponent lift,True
+17,29,True,True,True,True,True,finite FQM matches fractional/gauge skeleton; terminal cursor retains magnitude and integer exponent lift,True
+19,31,True,True,True,True,True,finite FQM matches fractional/gauge skeleton; terminal cursor retains magnitude and integer exponent lift,True
+23,35,True,True,True,True,True,finite FQM matches fractional/gauge skeleton; terminal cursor retains magnitude and integer exponent lift,True
+25,37,True,True,True,True,True,finite FQM matches fractional/gauge skeleton; terminal cursor retains magnitude and integer exponent lift,True
+29,41,True,True,True,True,True,finite FQM matches fractional/gauge skeleton; terminal cursor retains magnitude and integer exponent lift,True
+31,43,True,True,True,True,True,finite FQM matches fractional/gauge skeleton; terminal cursor retains magnitude and integer exponent lift,True
+35,47,True,True,True,True,True,finite FQM matches fractional/gauge skeleton; terminal cursor retains magnitude and integer exponent lift,True

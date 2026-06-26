@@ -1,0 +1,38 @@
+{
+  "cyclic_example": {
+    "N": 12,
+    "t": 1,
+    "key": 1,
+    "orbit": [
+      1
+    ]
+  },
+  "rank2_example": {
+    "p": 5,
+    "A": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "canonical": [
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "large_rank_example": {
+    "rank_blocks": 64,
+    "estimated_group_order_log10": 61.351,
+    "used_group_enumeration": false,
+    "used_automorphism_orbit_enumeration": false,
+    "symbol_sha256": "6549d94318a38ce7d2c44734b4b3394957bed7aad335217685f4e0374f419fc5",
+    "pass": true,
+    "status": "NONBRUTEFORCE_STRUCTURAL_KEY_ONLY_NOT_FULL_ISOMETRY_PROOF"
+  }
+}

@@ -1,0 +1,6 @@
+target,kill_condition
+Find admitted coprime asymmetric start whose B^k matrix formula fails,any formula_check passed=false
+Find admitted start whose terminal pair cannot recover origin by B^{-k},any inverse_check passed=false
+Show terminal projection signature is state-complete,no projection collisions across tested starts
+Show noncanonical starts are all canonical Fibonacci-origin shifts,all asymmetric_arbitrary starts canonical_reachable=true
+Find B ladder that changes gcd for admitted start,any gcd_preserved_all_depths=false

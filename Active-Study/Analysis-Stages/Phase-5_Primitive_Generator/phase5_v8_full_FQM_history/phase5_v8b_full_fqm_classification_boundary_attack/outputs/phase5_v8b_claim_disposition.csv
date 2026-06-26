@@ -1,0 +1,8 @@
+claim,disposition,evidence,risk
+"exact doubled-cyclic FQM carrier classifier for q_t on Z/NZ under unit lifts modulo 2N, N<=96 sweep",CLOSED_POSITIVE,cyclic_exact_classification.csv; cyclic unit checks implicit in summary,"extends by same orbit formula, but package only sweeps bounded N"
+"odd-prime rank-2 field classifier by exact GL(2,p) orbit for p in {3,5,7,11}",CLOSED_POSITIVE,odd_field_rank2_orbit_checks.csv; rank2 summary,"field-level only, not p^k lattice/Jordan full classification"
+orthogonal direct-sum Jordan symbol is permutation invariant,CLOSED_POSITIVE,direct_sum_jordan_symbol_checks.csv,only for already-decomposed orthogonal block presentations
+2-primary cyclic odd block normalization under odd generator changes,CLOSED_POSITIVE,two_primary_policy_boundary_checks.csv,U/V full equivalence and indecomposable 2-adic classification not fully implemented
+complete finite quadratic module isometry classifier in all ranks/all abelian groups,BLOCKING_OPEN,frontier_separation.csv,would be false to claim without full Jordan/Nikulin/Conway-Sloane implementation
+large-rank classifier without brute-force enumeration,CLOSED_POSITIVE_FOR_STRUCTURAL_KEYS,large_rank_nonbruteforce_checks.csv,structural keys are not complete isometry proof for arbitrary cross-coupled presentations
+raw coordinate matrix C is invariant,CLOSED_NEGATIVE,negative_controls.csv raw_matrix_identity_as_invariant,none

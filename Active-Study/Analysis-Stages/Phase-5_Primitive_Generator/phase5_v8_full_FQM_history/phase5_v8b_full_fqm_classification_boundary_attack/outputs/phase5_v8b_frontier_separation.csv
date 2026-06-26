@@ -1,0 +1,6 @@
+frontier,status,closure_requirement
+Full p^k mixed cyclic Jordan decomposition,BLOCKING_OPEN,Implement decomposition of arbitrary nondegenerate finite quadratic modules into indecomposable p-primary Jordan blocks and prove uniqueness up to symbols.
+Full 2-adic Nikulin / Conway-Sloane classification,BLOCKING_OPEN,"Implement odd/even 2-adic symbols, oddity formula, sign conventions, compartment rules, and equivalence moves."
+Arbitrary cross-coupled product presentations,BLOCKING_OPEN,Reduce arbitrary T-derived matrices to Jordan normal symbols without brute-force orbit enumeration.
+Lean-verified executable classifier,DEFERRED_TO_FINAL_PROOF_PASS,Port exact classifier functions and proofs to Lean after classifier target is mathematically complete.
+Analytic completion beyond finite carrier skeleton,DEFERRED_OUT_OF_PHASE,Requires q-series/mock-theta analytic object; not part of this finite FQM boundary attack.

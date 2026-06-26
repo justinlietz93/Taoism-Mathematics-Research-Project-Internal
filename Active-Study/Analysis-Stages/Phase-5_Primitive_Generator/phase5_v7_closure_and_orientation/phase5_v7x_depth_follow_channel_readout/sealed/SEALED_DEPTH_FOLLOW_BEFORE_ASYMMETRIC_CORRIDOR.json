@@ -1,0 +1,8 @@
+{
+  "sealed_after": "Phase 5 v7x",
+  "closed_targets": [
+    "depth 3-6 Follow channel-field readout",
+    "lap-2 = -lap-1 behavior"
+  ],
+  "next_target": "Phase 5 v7y: Asymmetric Corridor / Arbitrary Start Ladder"
+}

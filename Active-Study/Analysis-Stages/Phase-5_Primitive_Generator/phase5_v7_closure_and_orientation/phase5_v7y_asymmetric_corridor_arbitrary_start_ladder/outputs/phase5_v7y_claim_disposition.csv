@@ -1,0 +1,7 @@
+claim,status,evidence
+asymmetric corridor / arbitrary start ladder,CLOSED_POSITIVE,"96 starts including 1/n and arbitrary coprime asymmetric starts passed continuant, gcd, inverse recovery, and projection-collision separation gates"
+B refinement is not restricted to Fibonacci origin,CLOSED_POSITIVE,noncanonical starts are admitted and recoverable at every tested depth
+arbitrary start can be collapsed to canonical Fibonacci origin,CLOSED_NEGATIVE,force-origin negative control rejects arbitrary starts
+terminal projection signature alone is state-complete,CLOSED_NEGATIVE,projection collision witnesses require retained inverse start state
+mock-theta FQM matching,BLOCKING_OPEN,deferred to v7z
+all-history confluence + cocycle proof,BLOCKING_OPEN,deferred to v8a

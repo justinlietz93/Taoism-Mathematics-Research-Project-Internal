@@ -1,0 +1,6 @@
+target,status,note
+complete_FQM_classifier,BLOCKING_OPEN,Needs v8b classifier boundary attack.
+analytic_completion_beyond_finite_skeleton,DEFERRED_OUT_OF_PHASE,Separate analytic pass; finite Phase 5 skeleton now separated.
+Lean_verified_all_history_proof,BLOCKING_OPEN,Executable Lean proof still required for final closure.
+all_admissible_history_confluence,CLOSED_POSITIVE_CONDITIONAL,Closed under defined support-derived admissibility axioms.
+cocycle_compatibility,CLOSED_POSITIVE_CONDITIONAL,Closed for exact lens-transition cochain compiler.

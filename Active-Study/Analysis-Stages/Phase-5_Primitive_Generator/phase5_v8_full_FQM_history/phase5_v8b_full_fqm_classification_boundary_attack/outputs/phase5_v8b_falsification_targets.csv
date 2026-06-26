@@ -1,0 +1,6 @@
+target,falsifier,status
+cyclic classifier,"Find N,t,u unit with canon(t) != canon(t*u^2 mod 2N).",not observed in sweep
+rank2 odd field determinant classifier,Find two forms over F_p same determinant squareclass but different exact GL orbit for p in tested set.,not observed
+direct-sum Jordan symbol,Permuting orthogonal blocks changes normalized symbol.,not observed
+2-primary policy,U and V blocks collapse under current policy tags.,rejected
+full classifier closure,Any arbitrary cross-coupled p^k presentation cannot be reduced by implemented rules.,observed as blocking frontier; no full closure claimed

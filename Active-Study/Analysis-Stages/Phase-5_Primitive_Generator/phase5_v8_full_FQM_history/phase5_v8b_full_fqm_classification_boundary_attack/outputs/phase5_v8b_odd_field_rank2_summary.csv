@@ -1,0 +1,5 @@
+p,forms,gl2_size,isometry_classes,det_square_classes_seen,classes_per_det,classification_by_dimension_and_det_squareclass_pass
+3,18,48,2,"-1,1","{""-1"": 1, ""1"": 1}",True
+5,100,480,2,"-1,1","{""-1"": 1, ""1"": 1}",True
+7,294,2016,2,"-1,1","{""-1"": 1, ""1"": 1}",True
+11,1210,13200,2,"-1,1","{""-1"": 1, ""1"": 1}",True

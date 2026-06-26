@@ -1,0 +1,77 @@
+{
+  "blocking_open_surfaces": [
+    "Full p^k mixed cyclic Jordan decomposition",
+    "Full 2-adic Nikulin / Conway-Sloane classification",
+    "Arbitrary cross-coupled product presentations"
+  ],
+  "closed_negative_surfaces": [
+    "raw coordinate matrix C is invariant"
+  ],
+  "closed_positive_surfaces": [
+    "exact doubled-cyclic FQM carrier classifier for q_t on Z/NZ under unit lifts modulo 2N, N<=96 sweep",
+    "odd-prime rank-2 field classifier by exact GL(2,p) orbit for p in {3,5,7,11}",
+    "orthogonal direct-sum Jordan symbol is permutation invariant",
+    "2-primary cyclic odd block normalization under odd generator changes",
+    "large-rank classifier without brute-force enumeration"
+  ],
+  "cyclic_rows": 3760,
+  "cyclic_unit_checks": 3760,
+  "cyclic_unit_checks_passed": 3760,
+  "direct_sum_checks": 240,
+  "direct_sum_checks_passed": 240,
+  "generated_at": "2026-06-26T04:12:20Z",
+  "global_pass": true,
+  "large_rank_nonbruteforce_rows": 7,
+  "naming_guard": "No complete FQM classifier closure is claimed. This package attacks the boundary and closes exact subclasses while marking the full general classifier BLOCKING_OPEN.",
+  "negative_controls": 19,
+  "negative_controls_passed": 19,
+  "odd_field_rank2_primes": [
+    3,
+    5,
+    7,
+    11
+  ],
+  "odd_field_rank2_summary": [
+    {
+      "classes_per_det": "{\"-1\": 1, \"1\": 1}",
+      "classification_by_dimension_and_det_squareclass_pass": true,
+      "det_square_classes_seen": "-1,1",
+      "forms": 18,
+      "gl2_size": 48,
+      "isometry_classes": 2,
+      "p": 3
+    },
+    {
+      "classes_per_det": "{\"-1\": 1, \"1\": 1}",
+      "classification_by_dimension_and_det_squareclass_pass": true,
+      "det_square_classes_seen": "-1,1",
+      "forms": 100,
+      "gl2_size": 480,
+      "isometry_classes": 2,
+      "p": 5
+    },
+    {
+      "classes_per_det": "{\"-1\": 1, \"1\": 1}",
+      "classification_by_dimension_and_det_squareclass_pass": true,
+      "det_square_classes_seen": "-1,1",
+      "forms": 294,
+      "gl2_size": 2016,
+      "isometry_classes": 2,
+      "p": 7
+    },
+    {
+      "classes_per_det": "{\"-1\": 1, \"1\": 1}",
+      "classification_by_dimension_and_det_squareclass_pass": true,
+      "det_square_classes_seen": "-1,1",
+      "forms": 1210,
+      "gl2_size": 13200,
+      "isometry_classes": 2,
+      "p": 11
+    }
+  ],
+  "phase": "Phase 5 v8b",
+  "phase5_closed": false,
+  "status": "FQM_CLASSIFICATION_BOUNDARY_ATTACK_COMPLETED_EXACT_SUBCLASS_CLOSURES_AND_FULL_CLASSIFIER_FRONTIER_ISOLATED",
+  "title": "Full FQM Classification Boundary Attack",
+  "two_primary_policy_rows": 526
+}

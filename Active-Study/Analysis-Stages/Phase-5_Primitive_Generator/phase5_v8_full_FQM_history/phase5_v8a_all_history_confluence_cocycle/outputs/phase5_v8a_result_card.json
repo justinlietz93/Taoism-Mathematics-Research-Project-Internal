@@ -1,0 +1,40 @@
+{
+  "phase": "Phase 5 v8a",
+  "title": "All-History Confluence + Cocycle Compatibility Attack",
+  "status": "ALL_HISTORY_CONFLUENCE_AND_COCYCLE_COMPATIBILITY_CLOSED_CONDITIONALLY_FOR_DEFINED_ADMISSIBLE_RETAINED_QBL_SYSTEM",
+  "global_pass": true,
+  "phase5_closed": false,
+  "main_result": "All-history confluence and cocycle compatibility closed conditionally for the explicitly defined admissible retained QBL trace-cocycle system.",
+  "hard_counts": {
+    "critical_pair_checks": {
+      "passed": 1182,
+      "total": 1182
+    },
+    "rewrite_checks": {
+      "passed": 500,
+      "total": 500
+    },
+    "diamond_checks": {
+      "passed": 20736,
+      "total": 20736
+    },
+    "cocycle_checks": {
+      "passed": 4000,
+      "total": 4000
+    },
+    "gauge_checks": {
+      "passed": 100,
+      "total": 100
+    },
+    "negative_controls": {
+      "passed": 30,
+      "total": 30
+    }
+  },
+  "max_cocycle_residual_mod12": 0,
+  "remaining_blockers": [
+    "complete FQM classifier boundary attack",
+    "Lean-verified executable all-history proof",
+    "analytic completion beyond finite carrier skeleton"
+  ]
+}

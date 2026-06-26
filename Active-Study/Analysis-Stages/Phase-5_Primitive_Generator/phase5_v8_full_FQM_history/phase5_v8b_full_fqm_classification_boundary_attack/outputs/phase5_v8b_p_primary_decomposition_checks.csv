@@ -1,0 +1,315 @@
+N,t,prime_factors,decomposition_key,pass
+2,1,"[(2, 1)]",p2^1:2-cyclic-odd:1,True
+6,1,"[(2, 1), (3, 1)]",p2^1:2-cyclic-odd:1 x p3^1:odd-cyclic:1,True
+8,5,"[(2, 3)]",p2^3:2-cyclic-odd:5,True
+10,1,"[(2, 1), (5, 1)]",p2^1:2-cyclic-odd:1 x p5^1:odd-cyclic:1,True
+11,9,"[(11, 1)]",p11^1:odd-cyclic:1,True
+12,19,"[(2, 2), (3, 1)]",p2^2:2-cyclic-odd:3 x p3^1:odd-cyclic:1,True
+13,23,"[(13, 1)]",p13^1:odd-cyclic:1,True
+14,25,"[(2, 1), (7, 1)]",p2^1:2-cyclic-odd:1 x p7^1:odd-cyclic:1,True
+16,5,"[(2, 4)]",p2^4:2-cyclic-odd:5,True
+16,29,"[(2, 4)]",p2^4:2-cyclic-odd:5,True
+17,23,"[(17, 1)]",p17^1:odd-cyclic:3,True
+18,19,"[(2, 1), (3, 2)]",p2^1:2-cyclic-odd:3 x p3^2:odd-cyclic:1,True
+19,13,"[(19, 1)]",p19^1:odd-cyclic:2,True
+20,1,"[(2, 2), (5, 1)]",p2^2:2-cyclic-odd:1 x p5^1:odd-cyclic:1,True
+20,31,"[(2, 2), (5, 1)]",p2^2:2-cyclic-odd:7 x p5^1:odd-cyclic:1,True
+21,29,"[(3, 1), (7, 1)]",p3^1:odd-cyclic:2 x p7^1:odd-cyclic:1,True
+22,19,"[(2, 1), (11, 1)]",p2^1:2-cyclic-odd:3 x p11^1:odd-cyclic:2,True
+23,1,"[(23, 1)]",p23^1:odd-cyclic:1,True
+23,27,"[(23, 1)]",p23^1:odd-cyclic:1,True
+24,7,"[(2, 3), (3, 1)]",p2^3:2-cyclic-odd:7 x p3^1:odd-cyclic:1,True
+24,43,"[(2, 3), (3, 1)]",p2^3:2-cyclic-odd:3 x p3^1:odd-cyclic:1,True
+25,27,"[(5, 2)]",p5^2:odd-cyclic:2,True
+26,5,"[(2, 1), (13, 1)]",p2^1:2-cyclic-odd:1 x p13^1:odd-cyclic:2,True
+26,31,"[(2, 1), (13, 1)]",p2^1:2-cyclic-odd:3 x p13^1:odd-cyclic:2,True
+27,7,"[(3, 3)]",p3^3:odd-cyclic:1,True
+27,43,"[(3, 3)]",p3^3:odd-cyclic:1,True
+28,19,"[(2, 2), (7, 1)]",p2^2:2-cyclic-odd:3 x p7^1:odd-cyclic:3,True
+28,47,"[(2, 2), (7, 1)]",p2^2:2-cyclic-odd:7 x p7^1:odd-cyclic:3,True
+29,17,"[(29, 1)]",p29^1:odd-cyclic:2,True
+29,43,"[(29, 1)]",p29^1:odd-cyclic:2,True
+30,17,"[(2, 1), (3, 1), (5, 1)]",p2^1:2-cyclic-odd:1 x p3^1:odd-cyclic:2 x p5^1:odd-cyclic:2,True
+31,1,"[(31, 1)]",p31^1:odd-cyclic:1,True
+31,25,"[(31, 1)]",p31^1:odd-cyclic:1,True
+31,51,"[(31, 1)]",p31^1:odd-cyclic:1,True
+32,13,"[(2, 5)]",p2^5:2-cyclic-odd:5,True
+32,37,"[(2, 5)]",p2^5:2-cyclic-odd:5,True
+32,61,"[(2, 5)]",p2^5:2-cyclic-odd:5,True
+33,35,"[(3, 1), (11, 1)]",p3^1:odd-cyclic:2 x p11^1:odd-cyclic:2,True
+34,5,"[(2, 1), (17, 1)]",p2^1:2-cyclic-odd:1 x p17^1:odd-cyclic:3,True
+34,31,"[(2, 1), (17, 1)]",p2^1:2-cyclic-odd:3 x p17^1:odd-cyclic:3,True
+34,57,"[(2, 1), (17, 1)]",p2^1:2-cyclic-odd:1 x p17^1:odd-cyclic:3,True
+35,19,"[(5, 1), (7, 1)]",p5^1:odd-cyclic:1 x p7^1:odd-cyclic:3,True
+35,53,"[(5, 1), (7, 1)]",p5^1:odd-cyclic:2 x p7^1:odd-cyclic:1,True
+36,19,"[(2, 2), (3, 2)]",p2^2:2-cyclic-odd:3 x p3^2:odd-cyclic:1,True
+36,55,"[(2, 2), (3, 2)]",p2^2:2-cyclic-odd:7 x p3^2:odd-cyclic:1,True
+37,13,"[(37, 1)]",p37^1:odd-cyclic:2,True
+37,39,"[(37, 1)]",p37^1:odd-cyclic:2,True
+37,63,"[(37, 1)]",p37^1:odd-cyclic:1,True
+38,13,"[(2, 1), (19, 1)]",p2^1:2-cyclic-odd:1 x p19^1:odd-cyclic:2,True
+38,39,"[(2, 1), (19, 1)]",p2^1:2-cyclic-odd:3 x p19^1:odd-cyclic:1,True
+38,65,"[(2, 1), (19, 1)]",p2^1:2-cyclic-odd:1 x p19^1:odd-cyclic:2,True
+39,23,"[(3, 1), (13, 1)]",p3^1:odd-cyclic:2 x p13^1:odd-cyclic:1,True
+39,59,"[(3, 1), (13, 1)]",p3^1:odd-cyclic:2 x p13^1:odd-cyclic:2,True
+40,17,"[(2, 3), (5, 1)]",p2^3:2-cyclic-odd:1 x p5^1:odd-cyclic:2,True
+40,47,"[(2, 3), (5, 1)]",p2^3:2-cyclic-odd:7 x p5^1:odd-cyclic:2,True
+40,77,"[(2, 3), (5, 1)]",p2^3:2-cyclic-odd:5 x p5^1:odd-cyclic:2,True
+41,21,"[(41, 1)]",p41^1:odd-cyclic:1,True
+41,47,"[(41, 1)]",p41^1:odd-cyclic:3,True
+41,71,"[(41, 1)]",p41^1:odd-cyclic:3,True
+42,23,"[(2, 1), (3, 1), (7, 1)]",p2^1:2-cyclic-odd:3 x p3^1:odd-cyclic:2 x p7^1:odd-cyclic:1,True
+42,65,"[(2, 1), (3, 1), (7, 1)]",p2^1:2-cyclic-odd:1 x p3^1:odd-cyclic:2 x p7^1:odd-cyclic:1,True
+43,13,"[(43, 1)]",p43^1:odd-cyclic:1,True
+43,37,"[(43, 1)]",p43^1:odd-cyclic:2,True
+43,63,"[(43, 1)]",p43^1:odd-cyclic:2,True
+44,1,"[(2, 2), (11, 1)]",p2^2:2-cyclic-odd:1 x p11^1:odd-cyclic:1,True
+44,27,"[(2, 2), (11, 1)]",p2^2:2-cyclic-odd:3 x p11^1:odd-cyclic:1,True
+44,53,"[(2, 2), (11, 1)]",p2^2:2-cyclic-odd:5 x p11^1:odd-cyclic:1,True
+44,81,"[(2, 2), (11, 1)]",p2^2:2-cyclic-odd:1 x p11^1:odd-cyclic:1,True
+45,31,"[(3, 2), (5, 1)]",p3^2:odd-cyclic:1 x p5^1:odd-cyclic:1,True
+45,77,"[(3, 2), (5, 1)]",p3^2:odd-cyclic:2 x p5^1:odd-cyclic:2,True
+46,17,"[(2, 1), (23, 1)]",p2^1:2-cyclic-odd:1 x p23^1:odd-cyclic:5,True
+46,43,"[(2, 1), (23, 1)]",p2^1:2-cyclic-odd:3 x p23^1:odd-cyclic:5,True
+46,67,"[(2, 1), (23, 1)]",p2^1:2-cyclic-odd:3 x p23^1:odd-cyclic:5,True
+47,1,"[(47, 1)]",p47^1:odd-cyclic:1,True
+47,25,"[(47, 1)]",p47^1:odd-cyclic:1,True
+47,51,"[(47, 1)]",p47^1:odd-cyclic:1,True
+47,75,"[(47, 1)]",p47^1:odd-cyclic:1,True
+48,7,"[(2, 4), (3, 1)]",p2^4:2-cyclic-odd:7 x p3^1:odd-cyclic:1,True
+48,43,"[(2, 4), (3, 1)]",p2^4:2-cyclic-odd:3 x p3^1:odd-cyclic:1,True
+48,79,"[(2, 4), (3, 1)]",p2^4:2-cyclic-odd:7 x p3^1:odd-cyclic:1,True
+49,15,"[(7, 2)]",p7^2:odd-cyclic:1,True
+49,43,"[(7, 2)]",p7^2:odd-cyclic:1,True
+49,71,"[(7, 2)]",p7^2:odd-cyclic:1,True
+50,1,"[(2, 1), (5, 2)]",p2^1:2-cyclic-odd:1 x p5^2:odd-cyclic:1,True
+50,31,"[(2, 1), (5, 2)]",p2^1:2-cyclic-odd:3 x p5^2:odd-cyclic:1,True
+50,61,"[(2, 1), (5, 2)]",p2^1:2-cyclic-odd:1 x p5^2:odd-cyclic:1,True
+50,91,"[(2, 1), (5, 2)]",p2^1:2-cyclic-odd:3 x p5^2:odd-cyclic:1,True
+51,29,"[(3, 1), (17, 1)]",p3^1:odd-cyclic:2 x p17^1:odd-cyclic:3,True
+51,65,"[(3, 1), (17, 1)]",p3^1:odd-cyclic:2 x p17^1:odd-cyclic:3,True
+52,1,"[(2, 2), (13, 1)]",p2^2:2-cyclic-odd:1 x p13^1:odd-cyclic:1,True
+52,27,"[(2, 2), (13, 1)]",p2^2:2-cyclic-odd:3 x p13^1:odd-cyclic:1,True
+52,53,"[(2, 2), (13, 1)]",p2^2:2-cyclic-odd:5 x p13^1:odd-cyclic:1,True
+52,79,"[(2, 2), (13, 1)]",p2^2:2-cyclic-odd:7 x p13^1:odd-cyclic:1,True
+53,1,"[(53, 1)]",p53^1:odd-cyclic:1,True
+53,25,"[(53, 1)]",p53^1:odd-cyclic:1,True
+53,49,"[(53, 1)]",p53^1:odd-cyclic:1,True
+53,75,"[(53, 1)]",p53^1:odd-cyclic:2,True
+53,99,"[(53, 1)]",p53^1:odd-cyclic:1,True
+54,25,"[(2, 1), (3, 3)]",p2^1:2-cyclic-odd:1 x p3^3:odd-cyclic:1,True
+54,61,"[(2, 1), (3, 3)]",p2^1:2-cyclic-odd:1 x p3^3:odd-cyclic:1,True
+54,97,"[(2, 1), (3, 3)]",p2^1:2-cyclic-odd:1 x p3^3:odd-cyclic:1,True
+55,23,"[(5, 1), (11, 1)]",p5^1:odd-cyclic:2 x p11^1:odd-cyclic:1,True
+55,57,"[(5, 1), (11, 1)]",p5^1:odd-cyclic:2 x p11^1:odd-cyclic:2,True
+55,89,"[(5, 1), (11, 1)]",p5^1:odd-cyclic:1 x p11^1:odd-cyclic:1,True
+56,11,"[(2, 3), (7, 1)]",p2^3:2-cyclic-odd:3 x p7^1:odd-cyclic:1,True
+56,39,"[(2, 3), (7, 1)]",p2^3:2-cyclic-odd:7 x p7^1:odd-cyclic:1,True
+56,67,"[(2, 3), (7, 1)]",p2^3:2-cyclic-odd:3 x p7^1:odd-cyclic:1,True
+56,95,"[(2, 3), (7, 1)]",p2^3:2-cyclic-odd:7 x p7^1:odd-cyclic:1,True
+57,13,"[(3, 1), (19, 1)]",p3^1:odd-cyclic:1 x p19^1:odd-cyclic:2,True
+57,53,"[(3, 1), (19, 1)]",p3^1:odd-cyclic:2 x p19^1:odd-cyclic:2,True
+57,89,"[(3, 1), (19, 1)]",p3^1:odd-cyclic:2 x p19^1:odd-cyclic:2,True
+58,9,"[(2, 1), (29, 1)]",p2^1:2-cyclic-odd:1 x p29^1:odd-cyclic:1,True
+58,35,"[(2, 1), (29, 1)]",p2^1:2-cyclic-odd:3 x p29^1:odd-cyclic:1,True
+58,59,"[(2, 1), (29, 1)]",p2^1:2-cyclic-odd:3 x p29^1:odd-cyclic:1,True
+58,83,"[(2, 1), (29, 1)]",p2^1:2-cyclic-odd:3 x p29^1:odd-cyclic:1,True
+58,109,"[(2, 1), (29, 1)]",p2^1:2-cyclic-odd:1 x p29^1:odd-cyclic:1,True
+59,17,"[(59, 1)]",p59^1:odd-cyclic:1,True
+59,41,"[(59, 1)]",p59^1:odd-cyclic:1,True
+59,67,"[(59, 1)]",p59^1:odd-cyclic:2,True
+59,91,"[(59, 1)]",p59^1:odd-cyclic:2,True
+59,115,"[(59, 1)]",p59^1:odd-cyclic:2,True
+60,41,"[(2, 2), (3, 1), (5, 1)]",p2^2:2-cyclic-odd:1 x p3^1:odd-cyclic:2 x p5^1:odd-cyclic:1,True
+60,83,"[(2, 2), (3, 1), (5, 1)]",p2^2:2-cyclic-odd:3 x p3^1:odd-cyclic:2 x p5^1:odd-cyclic:2,True
+61,5,"[(61, 1)]",p61^1:odd-cyclic:1,True
+61,29,"[(61, 1)]",p61^1:odd-cyclic:2,True
+61,53,"[(61, 1)]",p61^1:odd-cyclic:2,True
+61,79,"[(61, 1)]",p61^1:odd-cyclic:2,True
+61,103,"[(61, 1)]",p61^1:odd-cyclic:1,True
+62,5,"[(2, 1), (31, 1)]",p2^1:2-cyclic-odd:1 x p31^1:odd-cyclic:1,True
+62,29,"[(2, 1), (31, 1)]",p2^1:2-cyclic-odd:1 x p31^1:odd-cyclic:3,True
+62,55,"[(2, 1), (31, 1)]",p2^1:2-cyclic-odd:3 x p31^1:odd-cyclic:3,True
+62,79,"[(2, 1), (31, 1)]",p2^1:2-cyclic-odd:3 x p31^1:odd-cyclic:3,True
+62,105,"[(2, 1), (31, 1)]",p2^1:2-cyclic-odd:1 x p31^1:odd-cyclic:3,True
+63,11,"[(3, 2), (7, 1)]",p3^2:odd-cyclic:2 x p7^1:odd-cyclic:1,True
+63,53,"[(3, 2), (7, 1)]",p3^2:odd-cyclic:2 x p7^1:odd-cyclic:1,True
+63,95,"[(3, 2), (7, 1)]",p3^2:odd-cyclic:2 x p7^1:odd-cyclic:1,True
+64,5,"[(2, 6)]",p2^6:2-cyclic-odd:5,True
+64,29,"[(2, 6)]",p2^6:2-cyclic-odd:5,True
+64,53,"[(2, 6)]",p2^6:2-cyclic-odd:5,True
+64,77,"[(2, 6)]",p2^6:2-cyclic-odd:5,True
+64,101,"[(2, 6)]",p2^6:2-cyclic-odd:5,True
+64,125,"[(2, 6)]",p2^6:2-cyclic-odd:5,True
+65,29,"[(5, 1), (13, 1)]",p5^1:odd-cyclic:1 x p13^1:odd-cyclic:1,True
+65,61,"[(5, 1), (13, 1)]",p5^1:odd-cyclic:1 x p13^1:odd-cyclic:1,True
+65,93,"[(5, 1), (13, 1)]",p5^1:odd-cyclic:2 x p13^1:odd-cyclic:2,True
+65,127,"[(5, 1), (13, 1)]",p5^1:odd-cyclic:2 x p13^1:odd-cyclic:1,True
+66,35,"[(2, 1), (3, 1), (11, 1)]",p2^1:2-cyclic-odd:3 x p3^1:odd-cyclic:2 x p11^1:odd-cyclic:2,True
+66,73,"[(2, 1), (3, 1), (11, 1)]",p2^1:2-cyclic-odd:1 x p3^1:odd-cyclic:1 x p11^1:odd-cyclic:2,True
+66,113,"[(2, 1), (3, 1), (11, 1)]",p2^1:2-cyclic-odd:1 x p3^1:odd-cyclic:2 x p11^1:odd-cyclic:1,True
+67,13,"[(67, 1)]",p67^1:odd-cyclic:2,True
+67,37,"[(67, 1)]",p67^1:odd-cyclic:1,True
+67,61,"[(67, 1)]",p67^1:odd-cyclic:2,True
+67,87,"[(67, 1)]",p67^1:odd-cyclic:2,True
+67,111,"[(67, 1)]",p67^1:odd-cyclic:2,True
+68,1,"[(2, 2), (17, 1)]",p2^2:2-cyclic-odd:1 x p17^1:odd-cyclic:1,True
+68,27,"[(2, 2), (17, 1)]",p2^2:2-cyclic-odd:3 x p17^1:odd-cyclic:3,True
+68,53,"[(2, 2), (17, 1)]",p2^2:2-cyclic-odd:5 x p17^1:odd-cyclic:1,True
+68,77,"[(2, 2), (17, 1)]",p2^2:2-cyclic-odd:5 x p17^1:odd-cyclic:1,True
+68,103,"[(2, 2), (17, 1)]",p2^2:2-cyclic-odd:7 x p17^1:odd-cyclic:1,True
+68,129,"[(2, 2), (17, 1)]",p2^2:2-cyclic-odd:1 x p17^1:odd-cyclic:3,True
+69,29,"[(3, 1), (23, 1)]",p3^1:odd-cyclic:2 x p23^1:odd-cyclic:1,True
+69,65,"[(3, 1), (23, 1)]",p3^1:odd-cyclic:2 x p23^1:odd-cyclic:5,True
+69,101,"[(3, 1), (23, 1)]",p3^1:odd-cyclic:2 x p23^1:odd-cyclic:1,True
+70,1,"[(2, 1), (5, 1), (7, 1)]",p2^1:2-cyclic-odd:1 x p5^1:odd-cyclic:1 x p7^1:odd-cyclic:1,True
+70,37,"[(2, 1), (5, 1), (7, 1)]",p2^1:2-cyclic-odd:1 x p5^1:odd-cyclic:2 x p7^1:odd-cyclic:1,True
+70,71,"[(2, 1), (5, 1), (7, 1)]",p2^1:2-cyclic-odd:3 x p5^1:odd-cyclic:1 x p7^1:odd-cyclic:1,True
+70,107,"[(2, 1), (5, 1), (7, 1)]",p2^1:2-cyclic-odd:3 x p5^1:odd-cyclic:2 x p7^1:odd-cyclic:1,True
+71,1,"[(71, 1)]",p71^1:odd-cyclic:1,True
+71,25,"[(71, 1)]",p71^1:odd-cyclic:1,True
+71,49,"[(71, 1)]",p71^1:odd-cyclic:1,True
+71,75,"[(71, 1)]",p71^1:odd-cyclic:1,True
+71,99,"[(71, 1)]",p71^1:odd-cyclic:7,True
+71,123,"[(71, 1)]",p71^1:odd-cyclic:7,True
+72,7,"[(2, 3), (3, 2)]",p2^3:2-cyclic-odd:7 x p3^2:odd-cyclic:1,True
+72,43,"[(2, 3), (3, 2)]",p2^3:2-cyclic-odd:3 x p3^2:odd-cyclic:1,True
+72,79,"[(2, 3), (3, 2)]",p2^3:2-cyclic-odd:7 x p3^2:odd-cyclic:1,True
+72,115,"[(2, 3), (3, 2)]",p2^3:2-cyclic-odd:3 x p3^2:odd-cyclic:1,True
+73,5,"[(73, 1)]",p73^1:odd-cyclic:5,True
+73,29,"[(73, 1)]",p73^1:odd-cyclic:5,True
+73,53,"[(73, 1)]",p73^1:odd-cyclic:5,True
+73,79,"[(73, 1)]",p73^1:odd-cyclic:1,True
+73,103,"[(73, 1)]",p73^1:odd-cyclic:5,True
+73,127,"[(73, 1)]",p73^1:odd-cyclic:1,True
+74,5,"[(2, 1), (37, 1)]",p2^1:2-cyclic-odd:1 x p37^1:odd-cyclic:2,True
+74,29,"[(2, 1), (37, 1)]",p2^1:2-cyclic-odd:1 x p37^1:odd-cyclic:2,True
+74,55,"[(2, 1), (37, 1)]",p2^1:2-cyclic-odd:3 x p37^1:odd-cyclic:2,True
+74,79,"[(2, 1), (37, 1)]",p2^1:2-cyclic-odd:3 x p37^1:odd-cyclic:2,True
+74,103,"[(2, 1), (37, 1)]",p2^1:2-cyclic-odd:3 x p37^1:odd-cyclic:2,True
+74,129,"[(2, 1), (37, 1)]",p2^1:2-cyclic-odd:1 x p37^1:odd-cyclic:2,True
+75,11,"[(3, 1), (5, 2)]",p3^1:odd-cyclic:2 x p5^2:odd-cyclic:1,True
+75,53,"[(3, 1), (5, 2)]",p3^1:odd-cyclic:2 x p5^2:odd-cyclic:2,True
+75,101,"[(3, 1), (5, 2)]",p3^1:odd-cyclic:2 x p5^2:odd-cyclic:1,True
+75,143,"[(3, 1), (5, 2)]",p3^1:odd-cyclic:2 x p5^2:odd-cyclic:2,True
+76,23,"[(2, 2), (19, 1)]",p2^2:2-cyclic-odd:7 x p19^1:odd-cyclic:1,True
+76,47,"[(2, 2), (19, 1)]",p2^2:2-cyclic-odd:7 x p19^1:odd-cyclic:1,True
+76,73,"[(2, 2), (19, 1)]",p2^2:2-cyclic-odd:1 x p19^1:odd-cyclic:1,True
+76,99,"[(2, 2), (19, 1)]",p2^2:2-cyclic-odd:3 x p19^1:odd-cyclic:1,True
+76,123,"[(2, 2), (19, 1)]",p2^2:2-cyclic-odd:3 x p19^1:odd-cyclic:1,True
+76,149,"[(2, 2), (19, 1)]",p2^2:2-cyclic-odd:5 x p19^1:odd-cyclic:1,True
+77,27,"[(7, 1), (11, 1)]",p7^1:odd-cyclic:3 x p11^1:odd-cyclic:1,True
+77,59,"[(7, 1), (11, 1)]",p7^1:odd-cyclic:3 x p11^1:odd-cyclic:1,True
+77,87,"[(7, 1), (11, 1)]",p7^1:odd-cyclic:3 x p11^1:odd-cyclic:2,True
+77,117,"[(7, 1), (11, 1)]",p7^1:odd-cyclic:3 x p11^1:odd-cyclic:2,True
+77,151,"[(7, 1), (11, 1)]",p7^1:odd-cyclic:1 x p11^1:odd-cyclic:2,True
+78,35,"[(2, 1), (3, 1), (13, 1)]",p2^1:2-cyclic-odd:3 x p3^1:odd-cyclic:2 x p13^1:odd-cyclic:1,True
+78,73,"[(2, 1), (3, 1), (13, 1)]",p2^1:2-cyclic-odd:1 x p3^1:odd-cyclic:1 x p13^1:odd-cyclic:2,True
+78,113,"[(2, 1), (3, 1), (13, 1)]",p2^1:2-cyclic-odd:1 x p3^1:odd-cyclic:2 x p13^1:odd-cyclic:1,True
+78,151,"[(2, 1), (3, 1), (13, 1)]",p2^1:2-cyclic-odd:3 x p3^1:odd-cyclic:1 x p13^1:odd-cyclic:2,True
+79,21,"[(79, 1)]",p79^1:odd-cyclic:1,True
+79,45,"[(79, 1)]",p79^1:odd-cyclic:1,True
+79,69,"[(79, 1)]",p79^1:odd-cyclic:3,True
+79,95,"[(79, 1)]",p79^1:odd-cyclic:1,True
+79,119,"[(79, 1)]",p79^1:odd-cyclic:1,True
+79,143,"[(79, 1)]",p79^1:odd-cyclic:1,True
+80,11,"[(2, 4), (5, 1)]",p2^4:2-cyclic-odd:3 x p5^1:odd-cyclic:1,True
+80,41,"[(2, 4), (5, 1)]",p2^4:2-cyclic-odd:1 x p5^1:odd-cyclic:1,True
+80,71,"[(2, 4), (5, 1)]",p2^4:2-cyclic-odd:7 x p5^1:odd-cyclic:1,True
+80,101,"[(2, 4), (5, 1)]",p2^4:2-cyclic-odd:5 x p5^1:odd-cyclic:1,True
+80,131,"[(2, 4), (5, 1)]",p2^4:2-cyclic-odd:3 x p5^1:odd-cyclic:1,True
+81,1,"[(3, 4)]",p3^4:odd-cyclic:1,True
+81,37,"[(3, 4)]",p3^4:odd-cyclic:1,True
+81,73,"[(3, 4)]",p3^4:odd-cyclic:1,True
+81,109,"[(3, 4)]",p3^4:odd-cyclic:1,True
+81,145,"[(3, 4)]",p3^4:odd-cyclic:1,True
+82,13,"[(2, 1), (41, 1)]",p2^1:2-cyclic-odd:1 x p41^1:odd-cyclic:3,True
+82,37,"[(2, 1), (41, 1)]",p2^1:2-cyclic-odd:1 x p41^1:odd-cyclic:1,True
+82,63,"[(2, 1), (41, 1)]",p2^1:2-cyclic-odd:3 x p41^1:odd-cyclic:3,True
+82,87,"[(2, 1), (41, 1)]",p2^1:2-cyclic-odd:3 x p41^1:odd-cyclic:1,True
+82,111,"[(2, 1), (41, 1)]",p2^1:2-cyclic-odd:3 x p41^1:odd-cyclic:3,True
+82,137,"[(2, 1), (41, 1)]",p2^1:2-cyclic-odd:1 x p41^1:odd-cyclic:3,True
+82,161,"[(2, 1), (41, 1)]",p2^1:2-cyclic-odd:1 x p41^1:odd-cyclic:3,True
+83,21,"[(83, 1)]",p83^1:odd-cyclic:1,True
+83,45,"[(83, 1)]",p83^1:odd-cyclic:2,True
+83,69,"[(83, 1)]",p83^1:odd-cyclic:1,True
+83,95,"[(83, 1)]",p83^1:odd-cyclic:1,True
+83,119,"[(83, 1)]",p83^1:odd-cyclic:1,True
+83,143,"[(83, 1)]",p83^1:odd-cyclic:2,True
+84,1,"[(2, 2), (3, 1), (7, 1)]",p2^2:2-cyclic-odd:1 x p3^1:odd-cyclic:1 x p7^1:odd-cyclic:1,True
+84,43,"[(2, 2), (3, 1), (7, 1)]",p2^2:2-cyclic-odd:3 x p3^1:odd-cyclic:1 x p7^1:odd-cyclic:1,True
+84,85,"[(2, 2), (3, 1), (7, 1)]",p2^2:2-cyclic-odd:5 x p3^1:odd-cyclic:1 x p7^1:odd-cyclic:1,True
+84,127,"[(2, 2), (3, 1), (7, 1)]",p2^2:2-cyclic-odd:7 x p3^1:odd-cyclic:1 x p7^1:odd-cyclic:1,True
+85,1,"[(5, 1), (17, 1)]",p5^1:odd-cyclic:1 x p17^1:odd-cyclic:1,True
+85,33,"[(5, 1), (17, 1)]",p5^1:odd-cyclic:2 x p17^1:odd-cyclic:1,True
+85,67,"[(5, 1), (17, 1)]",p5^1:odd-cyclic:2 x p17^1:odd-cyclic:1,True
+85,97,"[(5, 1), (17, 1)]",p5^1:odd-cyclic:2 x p17^1:odd-cyclic:3,True
+85,129,"[(5, 1), (17, 1)]",p5^1:odd-cyclic:1 x p17^1:odd-cyclic:3,True
+85,161,"[(5, 1), (17, 1)]",p5^1:odd-cyclic:1 x p17^1:odd-cyclic:1,True
+86,17,"[(2, 1), (43, 1)]",p2^1:2-cyclic-odd:1 x p43^1:odd-cyclic:1,True
+86,41,"[(2, 1), (43, 1)]",p2^1:2-cyclic-odd:1 x p43^1:odd-cyclic:1,True
+86,67,"[(2, 1), (43, 1)]",p2^1:2-cyclic-odd:3 x p43^1:odd-cyclic:1,True
+86,91,"[(2, 1), (43, 1)]",p2^1:2-cyclic-odd:3 x p43^1:odd-cyclic:2,True
+86,115,"[(2, 1), (43, 1)]",p2^1:2-cyclic-odd:3 x p43^1:odd-cyclic:2,True
+86,141,"[(2, 1), (43, 1)]",p2^1:2-cyclic-odd:1 x p43^1:odd-cyclic:2,True
+86,165,"[(2, 1), (43, 1)]",p2^1:2-cyclic-odd:1 x p43^1:odd-cyclic:1,True
+87,25,"[(3, 1), (29, 1)]",p3^1:odd-cyclic:1 x p29^1:odd-cyclic:1,True
+87,65,"[(3, 1), (29, 1)]",p3^1:odd-cyclic:2 x p29^1:odd-cyclic:1,True
+87,101,"[(3, 1), (29, 1)]",p3^1:odd-cyclic:2 x p29^1:odd-cyclic:2,True
+87,137,"[(3, 1), (29, 1)]",p3^1:odd-cyclic:2 x p29^1:odd-cyclic:2,True
+88,1,"[(2, 3), (11, 1)]",p2^3:2-cyclic-odd:1 x p11^1:odd-cyclic:1,True
+88,27,"[(2, 3), (11, 1)]",p2^3:2-cyclic-odd:3 x p11^1:odd-cyclic:1,True
+88,53,"[(2, 3), (11, 1)]",p2^3:2-cyclic-odd:5 x p11^1:odd-cyclic:1,True
+88,81,"[(2, 3), (11, 1)]",p2^3:2-cyclic-odd:1 x p11^1:odd-cyclic:1,True
+88,107,"[(2, 3), (11, 1)]",p2^3:2-cyclic-odd:3 x p11^1:odd-cyclic:2,True
+88,133,"[(2, 3), (11, 1)]",p2^3:2-cyclic-odd:5 x p11^1:odd-cyclic:1,True
+88,159,"[(2, 3), (11, 1)]",p2^3:2-cyclic-odd:7 x p11^1:odd-cyclic:1,True
+89,9,"[(89, 1)]",p89^1:odd-cyclic:1,True
+89,33,"[(89, 1)]",p89^1:odd-cyclic:3,True
+89,57,"[(89, 1)]",p89^1:odd-cyclic:1,True
+89,81,"[(89, 1)]",p89^1:odd-cyclic:1,True
+89,107,"[(89, 1)]",p89^1:odd-cyclic:1,True
+89,131,"[(89, 1)]",p89^1:odd-cyclic:1,True
+89,155,"[(89, 1)]",p89^1:odd-cyclic:3,True
+90,1,"[(2, 1), (3, 2), (5, 1)]",p2^1:2-cyclic-odd:1 x p3^2:odd-cyclic:1 x p5^1:odd-cyclic:1,True
+90,47,"[(2, 1), (3, 2), (5, 1)]",p2^1:2-cyclic-odd:3 x p3^2:odd-cyclic:2 x p5^1:odd-cyclic:2,True
+90,91,"[(2, 1), (3, 2), (5, 1)]",p2^1:2-cyclic-odd:3 x p3^2:odd-cyclic:1 x p5^1:odd-cyclic:1,True
+90,137,"[(2, 1), (3, 2), (5, 1)]",p2^1:2-cyclic-odd:1 x p3^2:odd-cyclic:2 x p5^1:odd-cyclic:2,True
+91,1,"[(7, 1), (13, 1)]",p7^1:odd-cyclic:1 x p13^1:odd-cyclic:1,True
+91,31,"[(7, 1), (13, 1)]",p7^1:odd-cyclic:3 x p13^1:odd-cyclic:2,True
+91,61,"[(7, 1), (13, 1)]",p7^1:odd-cyclic:3 x p13^1:odd-cyclic:1,True
+91,93,"[(7, 1), (13, 1)]",p7^1:odd-cyclic:1 x p13^1:odd-cyclic:2,True
+91,123,"[(7, 1), (13, 1)]",p7^1:odd-cyclic:1 x p13^1:odd-cyclic:2,True
+91,153,"[(7, 1), (13, 1)]",p7^1:odd-cyclic:3 x p13^1:odd-cyclic:1,True
+92,1,"[(2, 2), (23, 1)]",p2^2:2-cyclic-odd:1 x p23^1:odd-cyclic:1,True
+92,27,"[(2, 2), (23, 1)]",p2^2:2-cyclic-odd:3 x p23^1:odd-cyclic:1,True
+92,51,"[(2, 2), (23, 1)]",p2^2:2-cyclic-odd:3 x p23^1:odd-cyclic:5,True
+92,77,"[(2, 2), (23, 1)]",p2^2:2-cyclic-odd:5 x p23^1:odd-cyclic:1,True
+92,101,"[(2, 2), (23, 1)]",p2^2:2-cyclic-odd:5 x p23^1:odd-cyclic:1,True
+92,127,"[(2, 2), (23, 1)]",p2^2:2-cyclic-odd:7 x p23^1:odd-cyclic:1,True
+92,151,"[(2, 2), (23, 1)]",p2^2:2-cyclic-odd:7 x p23^1:odd-cyclic:1,True
+92,177,"[(2, 2), (23, 1)]",p2^2:2-cyclic-odd:1 x p23^1:odd-cyclic:1,True
+93,25,"[(3, 1), (31, 1)]",p3^1:odd-cyclic:1 x p31^1:odd-cyclic:1,True
+93,65,"[(3, 1), (31, 1)]",p3^1:odd-cyclic:2 x p31^1:odd-cyclic:3,True
+93,101,"[(3, 1), (31, 1)]",p3^1:odd-cyclic:2 x p31^1:odd-cyclic:1,True
+93,137,"[(3, 1), (31, 1)]",p3^1:odd-cyclic:2 x p31^1:odd-cyclic:3,True
+93,175,"[(3, 1), (31, 1)]",p3^1:odd-cyclic:1 x p31^1:odd-cyclic:1,True
+94,17,"[(2, 1), (47, 1)]",p2^1:2-cyclic-odd:1 x p47^1:odd-cyclic:1,True
+94,41,"[(2, 1), (47, 1)]",p2^1:2-cyclic-odd:1 x p47^1:odd-cyclic:5,True
+94,67,"[(2, 1), (47, 1)]",p2^1:2-cyclic-odd:3 x p47^1:odd-cyclic:5,True
+94,91,"[(2, 1), (47, 1)]",p2^1:2-cyclic-odd:3 x p47^1:odd-cyclic:5,True
+94,115,"[(2, 1), (47, 1)]",p2^1:2-cyclic-odd:3 x p47^1:odd-cyclic:1,True
+94,139,"[(2, 1), (47, 1)]",p2^1:2-cyclic-odd:3 x p47^1:odd-cyclic:5,True
+94,165,"[(2, 1), (47, 1)]",p2^1:2-cyclic-odd:1 x p47^1:odd-cyclic:1,True
+95,1,"[(5, 1), (19, 1)]",p5^1:odd-cyclic:1 x p19^1:odd-cyclic:1,True
+95,33,"[(5, 1), (19, 1)]",p5^1:odd-cyclic:2 x p19^1:odd-cyclic:2,True
+95,67,"[(5, 1), (19, 1)]",p5^1:odd-cyclic:2 x p19^1:odd-cyclic:2,True
+95,97,"[(5, 1), (19, 1)]",p5^1:odd-cyclic:2 x p19^1:odd-cyclic:2,True
+95,127,"[(5, 1), (19, 1)]",p5^1:odd-cyclic:2 x p19^1:odd-cyclic:2,True
+95,159,"[(5, 1), (19, 1)]",p5^1:odd-cyclic:1 x p19^1:odd-cyclic:1,True
+96,1,"[(2, 5), (3, 1)]",p2^5:2-cyclic-odd:1 x p3^1:odd-cyclic:1,True
+96,37,"[(2, 5), (3, 1)]",p2^5:2-cyclic-odd:5 x p3^1:odd-cyclic:1,True
+96,73,"[(2, 5), (3, 1)]",p2^5:2-cyclic-odd:1 x p3^1:odd-cyclic:1,True
+96,109,"[(2, 5), (3, 1)]",p2^5:2-cyclic-odd:5 x p3^1:odd-cyclic:1,True
+96,145,"[(2, 5), (3, 1)]",p2^5:2-cyclic-odd:1 x p3^1:odd-cyclic:1,True
+96,181,"[(2, 5), (3, 1)]",p2^5:2-cyclic-odd:5 x p3^1:odd-cyclic:1,True

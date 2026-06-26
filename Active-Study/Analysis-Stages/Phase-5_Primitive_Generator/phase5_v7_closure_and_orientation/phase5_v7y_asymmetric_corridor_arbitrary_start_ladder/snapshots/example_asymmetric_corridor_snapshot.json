@@ -1,0 +1,14 @@
+{
+  "start": {
+    "u0": 2,
+    "v0": 13
+  },
+  "depth": 6,
+  "terminal_pair": [
+    114,
+    185
+  ],
+  "width_u_plus_v": 299,
+  "matrix_formula_ok": true,
+  "inverse_recovers_start": true
+}
