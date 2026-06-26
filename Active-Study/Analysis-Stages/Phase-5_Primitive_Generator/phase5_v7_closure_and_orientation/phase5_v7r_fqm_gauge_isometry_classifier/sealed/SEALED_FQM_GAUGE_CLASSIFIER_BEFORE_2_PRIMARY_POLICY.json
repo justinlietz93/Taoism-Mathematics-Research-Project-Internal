@@ -1,0 +1,10 @@
+{
+  "phase": "Phase 5 v7r",
+  "sealed_before": "2-primary normalization policy and full T-to-FQM extraction",
+  "locked_correction": "raw C is coordinate presentation; invariant object is isometry/gauge class",
+  "do_not_upgrade_to_proven": [
+    "full arbitrary QBL history classification",
+    "full finite quadratic module Jordan classification",
+    "complete 2-primary normalization"
+  ]
+}

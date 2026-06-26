@@ -1,0 +1,7 @@
+id,risk,severity,mitigation
+R01,False closure by treating bounded tests as all-history proof,HIGH,Phase gate blocks closure until T04/T05 are proved or explicitly closed negative.
+R02,False contradiction from comparing raw C matrices after basis change,HIGH,"Use FQM gauge/isometry class, not raw tensor equality."
+R03,2-primary ambiguity hidden by simplified normal key,HIGH,v7s policy remains partial; full 2-adic classifier is blocking open.
+R04,Old Follow/parity targets lost behind new FQM pipeline,HIGH,T12-T18 recovered as blocking open targets.
+R05,Asymmetric starts silently assumed covered by Fibonacci origin,MEDIUM,T16 requires arbitrary corridor starts through current pipeline.
+R06,Lean stubs mistaken for executed proof,HIGH,T20 explicitly deferred; no Lean closure claim until executable proof run.

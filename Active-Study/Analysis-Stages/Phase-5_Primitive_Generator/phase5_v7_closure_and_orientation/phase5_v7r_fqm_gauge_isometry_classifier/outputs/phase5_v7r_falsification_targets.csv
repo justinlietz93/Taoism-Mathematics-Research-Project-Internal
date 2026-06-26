@@ -1,0 +1,6 @@
+target,expected,status
+Gauge transform changes canonical key,FAIL if observed,not_observed
+Degenerate radical accepted as FQM,FAIL if observed,not_observed
+Coordinate c treated as invariant despite basis change,FAIL if allowed,blocked_by_protocol
+Even 2-primary class admitted without policy tag,FAIL if observed,not_observed
+Nonisometric canonical keys collapse,FAIL if observed,not_observed_on_sweep

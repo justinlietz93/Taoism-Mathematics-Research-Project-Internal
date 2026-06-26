@@ -1,0 +1,7 @@
+D1,D2,c_coordinate,L,gcd,representative_valid,interpretation,pass
+8,12,6,24,4,True,coordinate_presentation_only,True
+10,10,3,10,10,True,coordinate_presentation_only,True
+12,12,5,12,12,True,coordinate_presentation_only,True
+6,6,1,6,6,True,coordinate_presentation_only,True
+8,8,3,8,8,True,coordinate_presentation_only,True
+4,4,1,4,4,True,coordinate_presentation_only,True

@@ -1,0 +1,6 @@
+claim_id,claim,status,evidence
+C1,Pre-L mod-6 seat cannot define χ12 on support.,CLOSED_POSITIVE,mod6 obstruction witnesses for residues 1 and 5
+C2,Post-L parity latch reconstructs a mod-12 seat from mod-6 seat plus lens parity sign.,CLOSED_POSITIVE,12/12 lens parity latch matrix checks pass
+C3,n=7 is separated from n=1 after L.,CLOSED_POSITIVE,post_l_seat 1 vs 7 and χ12 +1 vs -1
+C4,χ12 readout is recovered from post-L seat without scalar cargo on tested support terms.,CLOSED_POSITIVE,16/16 support terms pass
+C5,Parity seating closes all Follow depth channel behavior.,NOT_CLAIMED,deferred to v7x depth 3-6 Follow channel-field readout

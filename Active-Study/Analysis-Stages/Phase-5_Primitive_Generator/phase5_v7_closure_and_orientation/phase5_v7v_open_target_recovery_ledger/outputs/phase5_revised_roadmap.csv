@@ -1,0 +1,8 @@
+order,phase,name,closes,gate
+1,v7w,Parity Seating / Post-L Mod-12 Reverification,"T12,T13",Derive lens parity latch and n=7 separation inside current compiler pipeline.
+2,v7x,Depth 3-6 Follow Channel-Field Readout,"T14,T15,T18_partial",Produce depth/lap readout records and compare channels without scalar cargo.
+3,v7y,Asymmetric Corridor / Arbitrary Start Ladder,T16,Run arbitrary starts through lens/T/FQM pipeline and check classifier stability.
+4,v7z,Mock-Theta FQM Matching and Shadow Residual Channel Comparison,"T17,T18",Match or close negative concrete FQM target and channel-field comparison.
+5,v8a,All-History Confluence + Cocycle Compatibility Attack,"T02,T04,T05,T06,T07",Theorem/schema proof or contradiction report for all admissible histories.
+6,v8b,Full FQM Classification Boundary Attack,"T08,T09,T10,T11",Complete classifier or explicit supported regime boundary.
+7,v8c,Final Phase 5 Closure or Contradiction Report,all_remaining,No BLOCKING_OPEN targets remain.

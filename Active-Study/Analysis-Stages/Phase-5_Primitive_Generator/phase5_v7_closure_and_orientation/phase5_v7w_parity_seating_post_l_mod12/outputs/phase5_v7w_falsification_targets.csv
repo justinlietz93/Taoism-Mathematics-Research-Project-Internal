@@ -1,0 +1,5 @@
+target,kill_condition
+find support n where post-L seat does not reproduce χ12,any support n with chi12(n) != chi12(seat12_from_latch(n))
+mod6-only character works for χ12,both lifts of each support mod6 class share same χ12
+lens parity latch not necessary,χ12 recovered from pre-L seat alone without contradiction
+L does not double capacity,post-L seat set has cardinality 6 instead of 12

@@ -1,0 +1,8 @@
+{
+  "phase": "Phase 5 v7v",
+  "sealed": true,
+  "phase5_closed": false,
+  "target_count": 29,
+  "blocking_open_count": 16,
+  "hash_scope": "All package files except manifest itself."
+}

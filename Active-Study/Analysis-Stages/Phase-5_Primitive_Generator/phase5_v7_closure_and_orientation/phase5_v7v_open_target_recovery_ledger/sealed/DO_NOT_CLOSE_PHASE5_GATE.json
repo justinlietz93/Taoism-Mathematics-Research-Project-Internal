@@ -1,0 +1,8 @@
+{
+  "phase": "Phase 5 v7v",
+  "gate": "DO_NOT_CLOSE_PHASE5",
+  "reason": "Blocking open targets remain in recovered ledger.",
+  "blocking_open_count": 16,
+  "required_before_closure": "Every BLOCKING_OPEN target must become CLOSED_POSITIVE, CLOSED_NEGATIVE, SUPERSEDED_WITH_EXPLICIT_REPLACEMENT, or DEFERRED_OUT_OF_PHASE_WITH_REASON.",
+  "sealed_at": "2026-06-25T21:30:00-05:00"
+}

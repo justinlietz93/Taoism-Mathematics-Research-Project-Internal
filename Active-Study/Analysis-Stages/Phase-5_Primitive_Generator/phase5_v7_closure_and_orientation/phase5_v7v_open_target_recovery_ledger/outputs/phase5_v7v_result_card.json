@@ -1,0 +1,12 @@
+{
+  "phase": "Phase 5 v7v",
+  "result": "DO_NOT_CLOSE_PHASE5",
+  "global_pass": true,
+  "phase5_closed": false,
+  "target_rows": 29,
+  "blocking_open": 16,
+  "closed_positive": 5,
+  "closed_negative": 2,
+  "superseded": 3,
+  "deferred": 3
+}

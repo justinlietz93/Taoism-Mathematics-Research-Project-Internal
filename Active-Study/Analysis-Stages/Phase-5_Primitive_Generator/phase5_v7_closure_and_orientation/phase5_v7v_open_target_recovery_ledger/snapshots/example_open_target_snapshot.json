@@ -1,0 +1,7 @@
+{
+  "snapshot": "phase5_v7v_open_target_snapshot",
+  "target_count": 29,
+  "blocking_open_count": 16,
+  "can_close_phase5": false,
+  "next_phase": "Phase 5 v7w: Parity Seating / Post-L Mod-12 Reverification"
+}

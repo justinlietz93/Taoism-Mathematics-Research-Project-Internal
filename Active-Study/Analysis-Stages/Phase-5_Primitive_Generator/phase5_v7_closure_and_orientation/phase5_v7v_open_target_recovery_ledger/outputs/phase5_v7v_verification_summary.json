@@ -1,0 +1,30 @@
+{
+  "phase": "Phase 5 v7v",
+  "title": "Open Target Recovery Ledger and Closure Plan",
+  "status": "OPEN_TARGET_RECOVERY_LEDGER_COMPLETED_PHASE5_CLOSURE_BLOCKED_UNTIL_BLOCKING_TARGETS_RESOLVED",
+  "global_pass": true,
+  "phase5_closed": false,
+  "allowed_statuses": [
+    "CLOSED_POSITIVE",
+    "CLOSED_NEGATIVE",
+    "SUPERSEDED_WITH_EXPLICIT_REPLACEMENT",
+    "DEFERRED_OUT_OF_PHASE_WITH_REASON",
+    "BLOCKING_OPEN"
+  ],
+  "target_count": 29,
+  "status_counts": {
+    "CLOSED_POSITIVE": 5,
+    "CLOSED_NEGATIVE": 2,
+    "SUPERSEDED_WITH_EXPLICIT_REPLACEMENT": 3,
+    "DEFERRED_OUT_OF_PHASE_WITH_REASON": 3,
+    "BLOCKING_OPEN": 16
+  },
+  "blocking_open_count": 16,
+  "can_close_phase5": false,
+  "next_targets": [
+    "v7w: Parity Seating / Post-L Mod-12 Reverification",
+    "v7x: Depth 3-6 Follow Channel-Field Readout",
+    "v7y: Asymmetric Corridor / Arbitrary Start Ladder",
+    "v7z: Mock-Theta FQM Matching and Shadow Residual Channel Comparison"
+  ]
+}

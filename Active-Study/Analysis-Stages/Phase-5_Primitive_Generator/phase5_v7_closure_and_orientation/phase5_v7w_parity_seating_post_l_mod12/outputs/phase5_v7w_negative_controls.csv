@@ -1,0 +1,7 @@
+negative_control,passed,verdict,reason
+drop_latch,true,PASS,rejected: n=1 and n=7 collide pre-L but differ in chi12
+wrong_latch_offset_3,true,PASS,"rejected: parity latch must double by +6, not rotate by +3"
+parity_without_base_seat,true,PASS,rejected: latch bit alone cannot carry chi12
+external_chi12_scalar_cargo,true,PASS,"rejected by protocol: chi12 must be read from retained lens seat, not carried as cargo"
+supportless_residue_nonzero_character,true,PASS,rejected: non-coprime residues remain zero
+terminal_R_mutates_post_L_seat,true,PASS,rejected by protocol: terminal projection cannot mutate retained post-L seat

@@ -1,0 +1,3 @@
+mod6_residue,mod12_lifts,chi12_values,well_defined_mod6_character_possible,verdict
+1,"1,7","1,-1",false,PASS_OBSTRUCTION_DETECTED
+5,"5,11","-1,1",false,PASS_OBSTRUCTION_DETECTED
