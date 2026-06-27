@@ -1,6 +1,0 @@
-[NbConvertApp] Converting notebook /mnt/data/phase_tao_close_read/notebooks/nc_phase_geometry_projection_loss_attack_v49.ipynb to notebook
-/opt/pyvenv/lib/python3.13/site-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
-  validate(nb)
-[NbConvertApp] Writing 93727 bytes to /mnt/data/phase_tao_close_read/notebooks/nc_phase_geometry_projection_loss_attack_v49.ipynb
-
-EXIT=0

@@ -1,0 +1,5 @@
+id,test,failure_effect
+FALSIFY-V8C-001,Find a finite admissible retained QBL history whose legal rewrite changes Foata normal form or transition cocycle class.,Would reopen v8a and block Phase 5 native closure.
+FALSIFY-V8C-002,Find an Orthad compiler-emitted structured FQM presentation outside the documented classifier boundary keys.,Would reopen v7u/v8b boundary.
+FALSIFY-V8C-003,Show that Z/12Z chi12 fixed-vector claim requires scalar q-series cargo.,Would reopen corrected v7z.
+FALSIFY-V8C-004,"Show that deferred arbitrary FQM classifier is required to define the native Orthad invariant, not merely to classify external presentations.",Would turn deferral into BLOCKING_OPEN.

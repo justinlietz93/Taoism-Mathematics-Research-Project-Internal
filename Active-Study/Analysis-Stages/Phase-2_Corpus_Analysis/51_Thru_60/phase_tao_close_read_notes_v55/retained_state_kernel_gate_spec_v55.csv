@@ -1,7 +1,0 @@
-gate_id,gate_name,minimal_requirement,passed_by,still_open
-G1,retained carrier,object must carry state beyond scalar name/readout,"Orthad, CF19, Yi, Wilhelm, Pencil, MFE/Liu, monodromy, branch grammar",source-specific exact minimality proof
-G2,admissible transition,next operation must be determined by retained state + operator registry,"QBL, Yi carry, Wilhelm line flip/selected line, Pencil chart transfer",Ancient Yi exact successor law translation
-G3,refinement arithmetic,"arithmetic may be carrier/domain-selected, not rigid semantic label","Phase B corridors, Yi base-8, MFE update operators",modular-B formal family tests
-G4,completion/lift,"same-domain continuation must fail, overflow, saturate, or require re-chart","Orthad L, Yi 8^k carry, Pencil chart boundary",external exact lift triggers
-G5,projection-loss negative control,projection collision must not be mistaken for state equality,"Domesticating Chaos, TDAHE, NC, Monodromy, Branch grammar",broader formal proof execution
-G6,terminal scalar discipline,scalar/readout may compare after custody but cannot author custody,all current major corpora,Shadow residual transformation proof

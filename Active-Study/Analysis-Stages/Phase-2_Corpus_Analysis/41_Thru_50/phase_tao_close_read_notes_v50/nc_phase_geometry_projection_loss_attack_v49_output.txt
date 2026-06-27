@@ -1,7 +1,0 @@
-PASS symbolic_central_charge= True m*np - mp*n
-PASS visible_projection_erases_order= True (0, 0, 1) (0, 0)
-PASS visible_fiber_has_many_hidden_states= True [(0, 0, -3), (0, 0, -2), (0, 0, -1), (0, 0, 0), (0, 0, 1), (0, 0, 2), (0, 0, 3)]
-PASS non_origin_B_corridor_exists= True [(2, 13), (13, 15), (15, 28), (28, 43), (43, 71)]
-FINAL_RESULT: PASS
-
-EXIT=0

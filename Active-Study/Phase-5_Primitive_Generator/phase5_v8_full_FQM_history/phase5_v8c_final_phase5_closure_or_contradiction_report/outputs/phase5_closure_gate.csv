@@ -1,0 +1,5 @@
+gate,value,note
+bad_status_rows,0,must be 0
+blocking_open_rows,0,must be 0
+classifier_boundary_deferrals,3,must have hard scope reasons
+phase5_closed,true,Native finite admissible Orthad retained-history pipeline through shadow-skeleton FQM/channel identification and structured FQM presentation keys.

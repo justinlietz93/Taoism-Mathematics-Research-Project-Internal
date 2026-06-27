@@ -1,3 +1,0 @@
-report,name,loop_a,loop_b,same_visible_projection,same_full_register_transition,lost_gate,explanation
-double_cover,double_cover_kernel_loop,,g g,True,False,visible projection iff full transition is false,"For z -> z^2 over C*, a two-turn loop has the same stripped visible projection as the empty loop but different retained kappa/history."
-quintic,nonidentity_commutator_a_b,a b,b a,projection may hide action-order difference,False,"operator order is retained state, not display metadata","commutator word is nonidentity with cycles [[1, 2, 4]]"

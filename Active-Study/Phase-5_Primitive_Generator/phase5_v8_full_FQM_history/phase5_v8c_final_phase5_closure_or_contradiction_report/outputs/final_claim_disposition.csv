@@ -1,0 +1,7 @@
+claim,disposition,support,scope_note
+native retained QBL history compiles to Orthad lens transitions,CLOSED_POSITIVE,v7p-v8a,Finite admissible retained histories under explicit support rules.
+Orthad transition records extract FQM presentations,CLOSED_POSITIVE,v7t-v7u,Structured presentations with transition provenance.
+Z/12Z chi12 shadow-skeleton identified,CLOSED_POSITIVE,v7z-corrected,Finite skeleton only; no q-series completion claimed.
+all-history confluence and cocycle compatibility,CLOSED_POSITIVE,v8a,Closed inside defined admissible retained QBL system.
+universal FQM isometry classifier is implemented,DEFERRED_OUT_OF_PHASE_WITH_REASON,v8b-v8c,Explicitly not implemented in Phase 5.
+Phase 5 proves analytic q-series completion,DEFERRED_OUT_OF_PHASE_WITH_REASON,v8c,Outside finite carrier skeleton scope.

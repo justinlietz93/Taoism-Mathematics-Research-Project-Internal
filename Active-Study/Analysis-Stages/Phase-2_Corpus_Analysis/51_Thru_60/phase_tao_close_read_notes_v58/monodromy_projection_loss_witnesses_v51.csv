@@ -1,4 +1,0 @@
-report,witness_index,before_sheet,after_sheet,before_kappa,after_kappa,before_history,after_history,same_visible_projection,lifted_state_changed,lost_coordinates,bridge_reading
-quintic,0,0,0,0,0,,a b a^-1 b^-1,True,True,kappa;sheet;history,visible projection is not state-complete for next branch transition
-double_cover,0,0,1,0,1,,g,True,True,kappa;sheet;history,visible projection is not state-complete for next branch transition
-double_cover,1,0,0,0,2,,g g,True,True,kappa;sheet;history,visible projection is not state-complete for next branch transition

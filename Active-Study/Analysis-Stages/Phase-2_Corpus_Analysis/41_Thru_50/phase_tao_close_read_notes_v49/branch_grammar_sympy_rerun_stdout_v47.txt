@@ -1,5 +1,0 @@
-{
-  "status": "PASS",
-  "gate_count": 10
-}
-FINAL_RESULT: PASS

@@ -1,6 +1,0 @@
-id,blocker,track,effect,next_evidence_required
-B01,Lean/lake execution,Internal proof environment,blocks absolute formal proof completion only,Run local Lean 4/lake against included companion scripts and formal repos
-B02,Latest active Phase source from HDD,Internal current canon,blocks absolute latest-canon completion only,Import latest selector/floor/source files and rerun stale-canon demotion gates
-B03,Liu2022 QSL/current/connectivity data,External MHD bridge,blocks absolute Liu mechanism proof only,Load numerical data; test QSL/current/connectivity time series and HFT/topology transition table
-B04,Ancient Yi full translation/table proof,External historical-detail enrichment,not blocking operational bridge; blocks philological exactness,Human translation and manual row verification across entire table
-B05,Shadow Jacobi/unary-theta formal closure,External comparison/proof track,not blocking corpus bridge; blocks Shadow closure claim,Derive transformation of the Jacobi-derivative/unary-theta residual separately

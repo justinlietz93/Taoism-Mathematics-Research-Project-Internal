@@ -1,7 +1,0 @@
-place_count_k,admitted_digit_values,display_order,domain_min_decimal_observed_rule,domain_max_decimal,completion_state_lsd_first,next_domain_opening_state_lsd_first,completion_event,orthad_phase_analogue
-1,0..7 per place,least-significant place first; new high place appended to right,0,7,7,01,7 -> 01,finite admitted carrier completes; continuation opens lifted/higher-place domain
-2,0..7 per place,least-significant place first; new high place appended to right,0,63,77,001,77 -> 001,finite admitted carrier completes; continuation opens lifted/higher-place domain
-3,0..7 per place,least-significant place first; new high place appended to right,64,511,777,0001,777 -> 0001,finite admitted carrier completes; continuation opens lifted/higher-place domain
-4,0..7 per place,least-significant place first; new high place appended to right,512,4095,7777,00001,7777 -> 00001,finite admitted carrier completes; continuation opens lifted/higher-place domain
-5,0..7 per place,least-significant place first; new high place appended to right,4096,32767,77777,000001,77777 -> 000001,finite admitted carrier completes; continuation opens lifted/higher-place domain
-6,0..7 per place,least-significant place first; new high place appended to right,32768,262143,777777,0000001,777777 -> 0000001,finite admitted carrier completes; continuation opens lifted/higher-place domain

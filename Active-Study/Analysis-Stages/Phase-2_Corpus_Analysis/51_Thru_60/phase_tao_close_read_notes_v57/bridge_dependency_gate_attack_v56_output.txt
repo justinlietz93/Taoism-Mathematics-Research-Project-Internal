@@ -1,5 +1,0 @@
-PASS
-claims=10
-closed_or_current_locked=6
-open_or_data_pending=4
-hard_100_blockers=5

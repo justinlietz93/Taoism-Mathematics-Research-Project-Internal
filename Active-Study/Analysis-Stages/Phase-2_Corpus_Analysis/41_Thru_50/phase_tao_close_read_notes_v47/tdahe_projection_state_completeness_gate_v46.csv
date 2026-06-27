@@ -1,6 +1,0 @@
-claim,retained_states,projection,collision,missing_state,next_or_readout_difference,gate,result
-Planar projection collision,gamma_plus and gamma_minus,P0 gamma,same planar projection,through-thickness orientation epsilon,mu_y changes sign,projection not state-complete,PASS
-Ordinary AHE quotient residual,TDAHE retained branch with h_y,ordinary 2D Hall readout,ordinary projector strips in-plane branch,h_y / retained loop branch,R_TD - R_2D = chi*a_y*h_y,quotient residual nonzero unless branch absent,PASS
-Scalar h_z projection obstruction,"(h_z,h_y) and (h_z,h_y_prime)",p_z = h_z,same h_z,h_y,after U_y p_z difference = -beta,no scalar h_z-only map when beta != 0,PASS_NEGATIVE_CONTROL
-Field-order memory,two-register branch memory,endpoint field values only,same endpoints can hide order,protocol word / register order,"[U_y,U_z]=alpha*beta*diag(1,-1)",noncommuting branch-history register,PASS
-Control collapse,same equations with alpha=0 or beta=0 or h=0,same scalar channel,branch inactive or coupling removed,none active,order signal controls vanish,negative-control specificity,PASS_CONTROL

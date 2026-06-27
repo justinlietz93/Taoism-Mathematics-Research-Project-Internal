@@ -1,0 +1,5 @@
+check,result,note
+corrected_v7z_label_used,PASS,"shadow-skeleton FQM identification (Z/12Z, chi12)"
+q_series_completion_not_claimed,PASS,analytic completion deferred out of Phase 5
+universal_classifier_not_claimed,PASS,classifier boundary deferred with hard scope reasons
+forbidden_vague_deferral_language_absent,PASS,no deferral uses later theorem surface as reason

@@ -1,7 +1,0 @@
-clause,meaning,cross_corpus_application
-declare_carried_coordinates,Retained branch state must declare sheet/index/history/action coordinates.,Ancient Yi line/place carrier; Wilhelm six-line carrier; MFE field/boundary state; Orthad q/theta/rank/axis/latches.
-declare_sheet_action,"Sheet/action map must be explicit, not inferred from scalar label.",King Wen R/C/RC operation registry; Branch grammar generator registry; Pencil chart transform basis.
-lifted_transport_updates_state_and_history,"Transport must update retained state and history, not visible projection only.",Corrected Orthad emitted word plus carried q/theta; MFE boundary callbacks; TDAHE branch register.
-commuting_quotient_laws,Projection/readout must declare what commutes and what information is lost.,Yi decimal/octal readout; MFE diagnostic outputs; Shadow comparison external.
-mark_non_state_complete_projections,Any stripped projection omitting needed state must be marked non-state-complete.,"Visible witness, ordinal names, scalar h_z, chart components, primitive word alone."
-certificate_requires_transition_history,"Branch certificate must report transition, retained history word, commutator/residual, and readout status.",v43-v50 bridge matrices now use this as gate schema.

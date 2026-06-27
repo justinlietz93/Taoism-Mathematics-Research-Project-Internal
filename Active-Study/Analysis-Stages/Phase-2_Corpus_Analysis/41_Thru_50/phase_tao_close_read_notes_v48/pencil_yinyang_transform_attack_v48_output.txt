@@ -1,6 +1,0 @@
-PENCIL_YINYANG_TRANSFORM_ATTACK_V48
-A_squared_identity PASS
-orthogonal PASS
-det_plus_one PASS
-norm_preserved PASS
-matrix= [[-1, 0, 0], [0, 0, -1], [0, -1, 0]]

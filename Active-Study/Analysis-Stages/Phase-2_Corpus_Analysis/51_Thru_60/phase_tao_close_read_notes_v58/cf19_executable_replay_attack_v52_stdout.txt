@@ -1,6 +1,0 @@
-origin_11_to_55_89: PASS
-small_lift_12_to_55_89: PASS
-origin_uv_4895: PASS
-non_origin_13_not_origin_anchor: PASS
-non_origin_2_13_not_origin_anchor: PASS
-CF19 v52 state-completeness arithmetic attack: PASS

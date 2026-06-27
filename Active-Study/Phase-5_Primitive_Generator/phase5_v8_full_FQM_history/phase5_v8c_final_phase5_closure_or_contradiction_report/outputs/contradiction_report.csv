@@ -1,0 +1,4 @@
+id,risk,status,resolution
+V8C-C001,v7z label risk,RESOLVED,"Corrected target name to shadow-skeleton FQM identification (Z/12Z, chi12); no q-series object claimed."
+V8C-C002,raw C invariant risk,RESOLVED,Raw coordinate matrices demoted to presentations; invariant is gauge/isometry class where classifier applies.
+V8C-C003,universal classifier overclaim risk,RESOLVED_BY_SCOPE_BOUNDARY,Full arbitrary FQM classifier not claimed; deferred with hard out-of-phase boundary.

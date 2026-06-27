@@ -1,0 +1,36 @@
+target_id,target,status,source_phase,closure_note
+P5-T001,axis-free overset chart handoff constraints,CLOSED_POSITIVE,v7j,"Chart overlap, transition maps, boundary handoff, projection weights retained."
+P5-T002,retained topology / reconnection custody analogue,CLOSED_POSITIVE,v7k,Retained topology before projection separated from synthetic visibility.
+P5-T003,open-flux closure-before-projection analogue,CLOSED_POSITIVE,v7l,Topology classes and closure event order retained before boundary readout.
+P5-T004,trace-cocycle normal form target replacement,CLOSED_POSITIVE,v7m,Raw tensor target replaced by trace/cocycle/holonomy/FQM gauge-class target.
+P5-T005,finite Orthad QGT J/M split,CLOSED_POSITIVE,v7n,C projected from finite overlap object H=M+iJ.
+P5-T006,contact/latch boundary extension,CLOSED_POSITIVE,v7o,Contact coordinate Z separates boundary-path collisions lost by C and H.
+P5-T007,native QBL event alphabet,CLOSED_POSITIVE,v7p,Q/B/L/O/R support tokens define the native event alphabet.
+P5-T008,support-derived independence relation,CLOSED_POSITIVE,v7p,Legal rewrites derive from support conflict and birth/latch constraints.
+P5-T009,native transition assignment T,CLOSED_POSITIVE,v7q,Support-normalized histories emit exact Orthad lens transition records.
+P5-T010,bounded FQM gauge/isometry classifier,CLOSED_POSITIVE,v7r,Bounded classifier demotes coordinate matrices and compares gauge/isometry keys.
+P5-T011,2-primary normalization policy layer,CLOSED_POSITIVE,v7s,2-primary cyclic and U/V block policy prevents hidden even-prime ambiguity.
+P5-T012,T-to-FQM extraction from native transition records,CLOSED_POSITIVE,v7t,T records extract FQM presentations with radical gates and classifier keys.
+P5-T013,full Orthad lens compiler binding on defined admissible histories,CLOSED_POSITIVE,v7u,Native retained histories compile to T records and FQM presentations.
+P5-T014,open target recovery ledger,CLOSED_POSITIVE,v7v,Previously open targets recovered and closure gate enforced.
+P5-T015,parity seating across 12 from lens latch,CLOSED_POSITIVE,v7w,Post-L parity latch separates seats across Z/12Z.
+P5-T016,post-L n=7 separation from n=1,CLOSED_POSITIVE,v7w,n=1 and n=7 remain collapsed mod 6 but separate post-L mod 12.
+P5-T017,depth 3-6 Follow channel-field readout,CLOSED_POSITIVE,v7x,Depth 3-6 channel records generated without scalar Shadow cargo.
+P5-T018,lap-2 equals negative lap-1,CLOSED_POSITIVE,v7x,Lap sign antisymmetry closed on tested retained lens model.
+P5-T019,asymmetric corridor / arbitrary start ladder,CLOSED_POSITIVE,v7y,Arbitrary coprime starts recover under inverse B ladder; Fibonacci origin demoted.
+P5-T020,"shadow-skeleton FQM identification (Z/12Z, chi12)",CLOSED_POSITIVE,v7z-corrected,Finite Z/12Z chi12 skeleton identified; no q-series object claimed.
+P5-T021,Shadow Residual channel-field comparison without scalar cargo,CLOSED_POSITIVE,v7z-corrected,Terminal channel comparison retained; no scalar series or coefficient cargo in state.
+P5-T022,all-history confluence for defined admissible retained QBL system,CLOSED_POSITIVE,v8a,All finite admissible retained histories under explicit support rules preserve normal form.
+P5-T023,cocycle compatibility for exact Orthad lens cochains,CLOSED_POSITIVE,v8a,T_ab=lambda_b-lambda_a gives exact triangle cocycle identity modulo 12.
+P5-T024,doubled-cyclic exact classifier subclass,CLOSED_POSITIVE,v8b,Doubled-cyclic carriers classified under unit lifts for tested range.
+P5-T025,odd-prime rank-2 exact GL orbit subclass,CLOSED_POSITIVE,v8b,"Odd-prime rank-2 field forms classified by exact orbit for p=3,5,7,11."
+P5-T026,mod6 carrier sufficiency,CLOSED_NEGATIVE,v7w/v7z,mod6 collapses n=1 and n=7 and fails chi12 separation.
+P5-T027,scalar Shadow Residual cargo retained by state,CLOSED_NEGATIVE,v7x/v7z,Retained state carries channels only; scalar series object remains external.
+P5-T028,arbitrary starts collapse to Fibonacci origin,CLOSED_NEGATIVE,v7y,Inverse B recovery separates noncanonical starts.
+P5-T029,terminal projection signature is state-complete,CLOSED_NEGATIVE,v7o/v7y,Projection collisions require retained latch/path state.
+P5-T030,raw coordinate matrix C is invariant,CLOSED_NEGATIVE,v7m/v7r/v8b,Raw C changes under basis/gauge and is demoted to presentation.
+P5-T031,analytic completion beyond finite carrier skeleton,DEFERRED_OUT_OF_PHASE_WITH_REASON,v8c,"Scope boundary: analytic q-series completion is a continuum/automorphic-completion program, not a finite Orthad retained-state compiler target."
+P5-T032,full p^k mixed cyclic Jordan decomposition,DEFERRED_OUT_OF_PHASE_WITH_REASON,v8c,Scope boundary: universal decomposition of arbitrary external finite quadratic modules is a general FQM classification backend; Phase 5 only emits structured Orthad-derived presentations with transition provenance and boundary keys.
+P5-T033,full 2-adic Nikulin / Conway-Sloane classification,DEFERRED_OUT_OF_PHASE_WITH_REASON,v8c,"Scope boundary: full 2-adic taxonomy names arbitrary external 2-primary forms; Phase 5 requires explicit 2-primary policy guards for its generated carriers, not universal taxonomy closure."
+P5-T034,arbitrary cross-coupled product presentations,DEFERRED_OUT_OF_PHASE_WITH_REASON,v8c,"Scope boundary: arbitrary coordinate cross-couplings without Orthad transition provenance are external inputs, not native histories; Phase 5 classifies compiler-emitted structured presentations only."
+P5-T035,Lean-verified executable universal classifier,DEFERRED_OUT_OF_PHASE_WITH_REASON,v8c,Scope boundary: proof-engineering of a universal executable classifier belongs to the formalization phase after the native Orthad invariant target is fixed.

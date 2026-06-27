@@ -1,5 +1,0 @@
-source_observed_decimal,source_observed_name,source_observed_binary,source_observed_yi_octal,known_hexagram_line_structure_interpretation,inference,proof_status
-0,坤,000000,00,"all yin lines, Kun",leftmost/top line is displayed first but carries 2^0 place value,direct_source_page_18_visual_numeric_crosscheck
-1,剥/剝,100000,10,"single yang at top line, Bo/Falling Away",leftmost/top line is displayed first but carries 2^0 place value,direct_source_page_18_visual_numeric_crosscheck
-2,比,010000,20,"yang at fifth line only, Bi/Union",leftmost/top line is displayed first but carries 2^0 place value,direct_source_page_18_visual_numeric_crosscheck
-3,观/觀,110000,30,"top two lines yang, Guan/Watching",leftmost/top line is displayed first but carries 2^0 place value,direct_source_page_18_visual_numeric_crosscheck

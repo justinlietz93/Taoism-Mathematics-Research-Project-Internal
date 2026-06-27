@@ -1,8 +1,0 @@
-report,word,reduced_word,permutation,start_sheet,end_sheet,kappa_delta,history_delta,visible_projection_state_complete,retained_register_needed
-quintic,a,a,"[1, 2, 0, 3, 4]",0,1,1,a,"NO, if sheet/kappa/history omitted",sheet;kappa;history;generator_action_registry
-quintic,b,b,"[0, 1, 3, 4, 2]",0,0,0,b,"NO, if sheet/kappa/history omitted",sheet;kappa;history;generator_action_registry
-quintic,a b,a b,"[1, 3, 0, 4, 2]",0,1,1,a b,"NO, if sheet/kappa/history omitted",sheet;kappa;history;generator_action_registry
-quintic,a b a^-1 b^-1,a b a^-1 b^-1,"[0, 2, 4, 3, 1]",0,0,0,a b a^-1 b^-1,"NO, if sheet/kappa/history omitted",sheet;kappa;history;generator_action_registry
-double_cover,,,"[0, 1]",0,0,0,,"NO, if sheet/kappa/history omitted",sheet;kappa;history;generator_action_registry
-double_cover,g,g,"[1, 0]",0,1,1,g,"NO, if sheet/kappa/history omitted",sheet;kappa;history;generator_action_registry
-double_cover,g g,g g,"[0, 1]",0,0,2,g g,"NO, if sheet/kappa/history omitted",sheet;kappa;history;generator_action_registry
