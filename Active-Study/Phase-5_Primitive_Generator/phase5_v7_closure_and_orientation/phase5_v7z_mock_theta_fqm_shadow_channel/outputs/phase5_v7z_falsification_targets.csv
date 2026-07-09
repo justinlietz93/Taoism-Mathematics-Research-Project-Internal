@@ -1,6 +1,0 @@
-target,kill_condition
-Find supported n with FQM support mismatch,"exists n gcd(n,6)=1 but chi vector support at n mod12 is zero"
-Find supported n with sign mismatch,exists supported n where readout sign != chi12(n mod12)
-Break Fourier fixed-vector property,max |K12 chi - chi| > 1e-12
-Break T-phase support constancy,exists unit r with r^2 not congruent 1 mod24
-Show scalar cargo was used,retained state stores q-series coefficient or Shadow Residual object

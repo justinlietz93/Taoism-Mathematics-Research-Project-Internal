@@ -1,4 +1,0 @@
-frontier,status,reason
-analytic q-series convergence/completion,DEFERRED_OUT_OF_PHASE,"v7z closes finite FQM/channel skeleton, not analytic completion"
-full all-history confluence+cocycle proof,BLOCKING_OPEN,scheduled for v8a
-full FQM classification boundary,BLOCKING_OPEN,scheduled for v8b

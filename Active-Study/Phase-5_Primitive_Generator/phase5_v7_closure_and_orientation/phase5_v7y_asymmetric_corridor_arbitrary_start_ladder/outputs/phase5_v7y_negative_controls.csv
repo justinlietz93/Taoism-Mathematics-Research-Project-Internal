@@ -1,9 +1,0 @@
-negative_control,expected_rejection,observed_rejection,reason,passed
-zero_coordinate,True,True,nonpositive_coordinate,True
-negative_coordinate,True,True,nonpositive_coordinate,True
-noncoprime,True,True,noncoprime_start,True
-force_fibonacci_origin_on_arbitrary_start,True,True,"arbitrary terminal (31, 50) != origin terminal (8, 13)",True
-ratio_only_projection_collision,True,True,projection collisions exist and require retained inverse state,True
-drop_inverse_start_recovery,True,True,"without retained terminal pair/depth, collided projection keys cannot recover start",True
-manual_shadow_scalar_cargo,True,True,channel sample records scalar_cargo_carried=false,True
-nonunimodular_fake_B,True,True,fake matrix det != +/-1 would not preserve gcd/wedge gates,True

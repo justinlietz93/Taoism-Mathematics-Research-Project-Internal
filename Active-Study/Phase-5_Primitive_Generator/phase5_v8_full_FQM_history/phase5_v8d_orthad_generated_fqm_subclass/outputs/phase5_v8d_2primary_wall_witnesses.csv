@@ -1,0 +1,4 @@
+presentation,D,C,representative_invariant,radical_size,radical_mode,route,blocking_open,reason
+wall_D8_D8_c2,"[8, 8]","[[0, 1, 2]]",True,1,computed,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED,True,Cross-coupled even carrier reaches 2-primary mixed classification wall.
+wall_D8_D16_c2,"[8, 16]","[[0, 1, 2]]",True,1,computed,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED,True,Cross-coupled even carrier reaches 2-primary mixed classification wall.
+wall_D12_D24_c2,"[12, 24]","[[0, 1, 2]]",True,1,computed,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED,True,Cross-coupled even carrier reaches 2-primary mixed classification wall.

@@ -1,5 +1,0 @@
-depth,terms_checked,lap1_sign_matches_chi12,lap2_sign_matches_negative_chi12,magnitude_channel_matches_abs_n,support_channel_matches_coprime_to_6,state_carries_scalar_residual,comparison_uses_external_reference_only_at_readout,status
-3,11,True,True,True,True,False,True,PASS
-4,21,True,True,True,True,False,True,PASS
-5,43,True,True,True,True,False,True,PASS
-6,85,True,True,True,True,False,True,PASS

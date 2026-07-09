@@ -1,5 +1,0 @@
-claim,disposition,metric
-Every prior open target was recovered into ledger,SUPPORTED,29 target rows
-Phase 5 cannot close now,SUPPORTED,16 BLOCKING_OPEN targets
-Raw arbitrary-history target is superseded,SUPPORTED,T01 replacement to admissible history -> gauge class
-Old Follow/parity/depth/asymmetric/mock-theta targets remain live,SUPPORTED,T12-T18 BLOCKING_OPEN

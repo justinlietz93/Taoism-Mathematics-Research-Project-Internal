@@ -1,5 +1,0 @@
-pair,a,b,pre_l_same_mod6,pre_l_seat,post_l_seat_a,post_l_seat_b,post_l_separated,chi12_a,chi12_b,chi12_separated,verdict
-"1,7",1,7,true,1,1,7,true,1,-1,true,PASS
-"5,11",5,11,true,5,5,11,true,-1,1,true,PASS
-"13,19",13,19,true,1,1,7,true,1,-1,true,PASS
-"17,23",17,23,true,5,5,11,true,-1,1,true,PASS

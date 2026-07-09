@@ -1,0 +1,4 @@
+test,D,q,support,reachable,contradiction_grade_if_false,passed,max_residual,threshold,support_terms
+Z12_chi12_reachable_from_Orthad_T,12,r^2/24,"{1,5,7,11}",True,True,True,,,
+K12_vchi_fixed,,,,,,True,5.126297777653476e-15,1e-12,
+T_phase_support_q_1_24,,,,,,True,,,4

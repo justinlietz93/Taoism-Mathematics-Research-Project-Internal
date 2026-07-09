@@ -1,4 +1,0 @@
-{
-  "phase5_can_close": false,
-  "reason": "v7x closes depth Follow readout targets but asymmetric corridor, mock-theta matching, all-history confluence/cocycle, and full FQM classification remain open."
-}

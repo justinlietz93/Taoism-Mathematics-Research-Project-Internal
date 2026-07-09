@@ -1,8 +1,0 @@
-{
-  "module": "(Z/8Z)^2",
-  "representative_form": [[0,1],[1,0]],
-  "basis_change": [[1,1],[0,1]],
-  "transformed_form": [[0,1],[1,2]],
-  "invariant": "canonical orbit key under GL(2,Z/8Z)",
-  "meaning": "two matrices can differ while representing the same gauge/isometry class"
-}

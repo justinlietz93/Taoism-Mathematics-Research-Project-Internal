@@ -1,0 +1,5 @@
+term,meaning,forbidden
+Orthad-generated FQM subclass,family F of FQM presentations reached by defined Orthad T records: unary doubled-cyclic blocks plus representative-invariant pairwise bilinear O_ij edges,universal FQM class
+trilinearity gate,negative control requiring every generated incidence to fit q:A->Q/Z and b:A×A->Q/Z; nondecomposable triple incidence is rejected or contradiction-grade,hiding rank-3 data inside an FQM
+2-primary classifier wall,blocking open condition reached when generated even/mixed cross-coupled presentations require full 2-adic isometry classification,calling structural keys a classifier
+routing decision,"exact gate result that assigns a generated presentation to classified, radical, rejected, or blocking-open route",full classifier unless isometry completeness is proved

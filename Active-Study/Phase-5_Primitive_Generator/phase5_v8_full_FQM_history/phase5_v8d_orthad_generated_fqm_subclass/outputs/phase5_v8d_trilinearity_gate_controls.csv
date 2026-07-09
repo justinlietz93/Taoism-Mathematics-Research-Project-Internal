@@ -1,0 +1,5 @@
+control,D,incidence,expected,passed,gate
+genuine_triple_tau_012,"[4, 6, 8]",tau*x0*y1*z2,REJECT_NON_FQM_SLOT,True,FQM has q:A->Q/Z and b:A×A->Q/Z only; no trilinear retained slot
+triple_boundary_projected_pairwise,"[4, 6, 8]",edges(01)+edges(12)+edges(02),DECOMPOSES_TO_PAIRWISE_BILINEAR,True,FQM has q:A->Q/Z and b:A×A->Q/Z only; no trilinear retained slot
+triple_with_unary_latch_payload,"[8, 8, 12]",edge(01)+latch(2),DECOMPOSES_TO_PAIRWISE_PLUS_UNARY,True,FQM has q:A->Q/Z and b:A×A->Q/Z only; no trilinear retained slot
+fake_triple_as_C_tensor,"[6, 10, 14]",C_012 stored as rank3,REJECT_NON_FQM_SLOT,True,FQM has q:A->Q/Z and b:A×A->Q/Z only; no trilinear retained slot

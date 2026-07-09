@@ -1,6 +1,0 @@
-id,target,expected_response
-F01,Find prior open target not represented in ledger,Add row and keep Phase 5 open
-F02,Show any BLOCKING_OPEN target is actually closed by existing package,Promote status with artifact pointer and closure gate evidence
-F03,Show any SUPERSEDED target lacks explicit replacement,Demote to BLOCKING_OPEN
-F04,Show roadmap phase fails to cover a blocking target,Revise roadmap before closure
-F05,Show final closure attempted with BLOCKING_OPEN count > 0,Reject closure and issue contradiction report

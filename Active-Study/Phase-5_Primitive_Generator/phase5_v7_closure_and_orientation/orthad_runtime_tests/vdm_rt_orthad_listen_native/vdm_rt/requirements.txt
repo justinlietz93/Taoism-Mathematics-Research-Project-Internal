@@ -1,4 +1,0 @@
-numpy # For numerical operations
-networkx # Graph operations for sparse connectome snapshots
-scipy # Sparse matrix operations
-h5py # Engram, saves the models brain

@@ -1,4 +1,0 @@
-{
-  "example": "rank4_mixed",
-  "pipeline": ["QBL history", "lens compiler", "T records", "FQM presentation", "classifier key"]
-}

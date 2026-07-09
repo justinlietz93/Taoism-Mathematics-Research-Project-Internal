@@ -1,0 +1,6 @@
+record_type,arity,retained_slot,lands_in_family_F,family_effect,proof_step
+Q_i,1,unary phase/lens update,True,diagonal block only,arity induction over T-record concatenation
+B_i,1,unary refinement update,True,diagonal block / carrier update only,arity induction over T-record concatenation
+L_i,1,unary lift with latch bit,True,doubled carrier / diagonal block only,arity induction over T-record concatenation
+O_ij,2,binary overlap handoff,True,pairwise bilinear edge c_ij only,arity induction over T-record concatenation
+R_i,0,terminal readout,True,no retained FQM mutation,arity induction over T-record concatenation

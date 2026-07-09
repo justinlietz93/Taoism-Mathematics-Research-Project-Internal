@@ -1,5 +1,0 @@
-depth,support_terms,records_passed,records_total,pass,first_n,last_n,fractional_exponent_locked
-3,11,11,11,True,1,31,1/24
-4,21,21,21,True,1,61,1/24
-5,43,43,43,True,1,127,1/24
-6,85,85,85,True,1,253,1/24

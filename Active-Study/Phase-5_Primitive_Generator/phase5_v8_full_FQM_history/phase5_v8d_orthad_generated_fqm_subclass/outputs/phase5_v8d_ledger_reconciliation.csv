@@ -1,0 +1,7 @@
+ledger_item,compliance
+Authority rule,read before pass; copied to source_notes; claim_disposition reconciled
+v8c suspended,kept suspended; not called wrong; decision depends on v8d reachability
+Z/12Z chi12 skeleton decisive,tested as contradiction-grade if false; passed
+Naming registry,new STATUS terms registered in naming_registry_delta.csv before use
+Deferral rule,BLOCKING_OPEN used for 2-adic wall; no vague deferral
+Liu2022 separate,not interleaved

@@ -1,6 +1,0 @@
-{
-  "result": "CLOSED_POSITIVE_ON_FINITE_CHI12_SKELETON",
-  "global_pass": true,
-  "phase5_closed": false,
-  "one_line": "The Shadow Residual finite skeleton is matched by the FQM A=Z/12Z with q=r^2/24 and character vector chi12, which is a normalized Fourier fixed vector and a T-eigen channel on unit support."
-}

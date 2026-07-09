@@ -1,7 +1,0 @@
-claim,metric,status
-full_lens_compiler_to_T,transition records generated from compiler,SUPPORTED
-T_to_FQM_bound,all cases produced module presentation,SUPPORTED
-mixed_prime_mixed_cyclic_classification,p-primary symbolic classifier keys,SUPPORTED_BOUNDED
-large_rank_without_bruteforce,rank up to 12 without orbit enumeration,SUPPORTED_AS_INVARIANT_KEY
-Lean_verified_executable_classifier,"surface included, final closure pending",DEFERRED
-all_admissible_confluence_cocycle,support disjointness and cocycle identities,THEOREM_SCHEMA_PLUS_TESTS

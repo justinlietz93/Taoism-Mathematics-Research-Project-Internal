@@ -1,7 +1,0 @@
-{
-  "phase": "Phase 5 v7x",
-  "status": "DEPTH_3_6_FOLLOW_CHANNEL_FIELD_READOUT_SUPPORTED_WITH_LAP2_NEGATION_ON_TESTED_RETAINED_LENS_MODEL",
-  "global_pass": true,
-  "phase5_closed": false,
-  "main_result": "Depth 3-6 Follow channel-field readout closed positive on retained post-L lens/latch model; lap-2=-lap-1 verified on tested support terms."
-}

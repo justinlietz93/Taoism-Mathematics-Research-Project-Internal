@@ -1,6 +1,0 @@
-claim_id,claim,disposition,evidence
-C1,"depth 3-6 Follow readout emits support, magnitude, sign, phase, exponent spacing channels",CLOSED_POSITIVE,phase5_v7x_depth_follow_readout_records.csv; phase5_v7x_channel_field_summary.csv
-C2,lap-2 readout is negative of lap-1 readout on same support terms,CLOSED_POSITIVE,phase5_v7x_lap_antisymmetry_checks.csv
-C3,lap-1 sign channel matches external chi12 and lap-2 matches flipped orientation,CLOSED_POSITIVE,phase5_v7x_shadow_residual_channel_comparison.csv
-C4,state does not carry scalar Shadow Residual cargo,CLOSED_POSITIVE,state_carries_scalar_residual=false in readout records and comparison table
-C5,full arbitrary QBL history classification closes here,BLOCKING_OPEN,v7x covers depth 3-6 Follow readout only

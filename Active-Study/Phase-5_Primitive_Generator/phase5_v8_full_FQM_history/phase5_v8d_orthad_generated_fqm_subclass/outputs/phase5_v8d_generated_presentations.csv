@@ -1,0 +1,69 @@
+presentation,D,C,source,note,representative_invariant,classification_route
+shadow_skeleton_Z12_chi12,[12],[],corrected_v7z,decisive skeleton reachability test,True,CLASSIFIED_SHADOW_SKELETON_Z12_CHI12
+orthogonal_D2,[2],[],generated_unary,unary diagonal doubled-cyclic witness,True,CLASSIFIED_ORTHOGONAL_DOUBLED_CYCLIC_SUM
+orthogonal_D4,[4],[],generated_unary,unary diagonal doubled-cyclic witness,True,CLASSIFIED_ORTHOGONAL_DOUBLED_CYCLIC_SUM
+orthogonal_D6,[6],[],generated_unary,unary diagonal doubled-cyclic witness,True,CLASSIFIED_ORTHOGONAL_DOUBLED_CYCLIC_SUM
+orthogonal_D8,[8],[],generated_unary,unary diagonal doubled-cyclic witness,True,CLASSIFIED_ORTHOGONAL_DOUBLED_CYCLIC_SUM
+orthogonal_D10,[10],[],generated_unary,unary diagonal doubled-cyclic witness,True,CLASSIFIED_ORTHOGONAL_DOUBLED_CYCLIC_SUM
+orthogonal_D12,[12],[],generated_unary,unary diagonal doubled-cyclic witness,True,CLASSIFIED_SHADOW_SKELETON_Z12_CHI12
+orthogonal_D16,[16],[],generated_unary,unary diagonal doubled-cyclic witness,True,CLASSIFIED_ORTHOGONAL_DOUBLED_CYCLIC_SUM
+orthogonal_D24,[24],[],generated_unary,unary diagonal doubled-cyclic witness,True,CLASSIFIED_ORTHOGONAL_DOUBLED_CYCLIC_SUM
+pair_D2_D2_c1,"[2, 2]","[[0, 1, 1]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D2_D4_c2,"[2, 4]","[[0, 1, 2]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D2_D6_c3,"[2, 6]","[[0, 1, 3]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D2_D8_c4,"[2, 8]","[[0, 1, 4]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D2_D10_c5,"[2, 10]","[[0, 1, 5]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D2_D12_c6,"[2, 12]","[[0, 1, 6]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D2_D16_c8,"[2, 16]","[[0, 1, 8]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D2_D24_c12,"[2, 24]","[[0, 1, 12]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D4_D4_c1,"[4, 4]","[[0, 1, 1]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D4_D4_c3,"[4, 4]","[[0, 1, 3]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D4_D6_c6,"[4, 6]","[[0, 1, 6]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D4_D8_c2,"[4, 8]","[[0, 1, 2]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D4_D8_c6,"[4, 8]","[[0, 1, 6]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D4_D10_c10,"[4, 10]","[[0, 1, 10]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D4_D12_c3,"[4, 12]","[[0, 1, 3]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D4_D12_c9,"[4, 12]","[[0, 1, 9]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D4_D16_c4,"[4, 16]","[[0, 1, 4]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D4_D16_c12,"[4, 16]","[[0, 1, 12]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D4_D24_c6,"[4, 24]","[[0, 1, 6]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D4_D24_c18,"[4, 24]","[[0, 1, 18]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D6_D6_c1,"[6, 6]","[[0, 1, 1]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D6_D6_c5,"[6, 6]","[[0, 1, 5]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D6_D8_c12,"[6, 8]","[[0, 1, 12]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D6_D10_c15,"[6, 10]","[[0, 1, 15]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D6_D12_c2,"[6, 12]","[[0, 1, 2]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D6_D12_c10,"[6, 12]","[[0, 1, 10]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D6_D16_c24,"[6, 16]","[[0, 1, 24]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D6_D24_c4,"[6, 24]","[[0, 1, 4]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D6_D24_c20,"[6, 24]","[[0, 1, 20]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D8_D8_c1,"[8, 8]","[[0, 1, 1]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D8_D8_c7,"[8, 8]","[[0, 1, 7]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D8_D10_c20,"[8, 10]","[[0, 1, 20]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D8_D12_c6,"[8, 12]","[[0, 1, 6]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D8_D12_c18,"[8, 12]","[[0, 1, 18]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D8_D16_c2,"[8, 16]","[[0, 1, 2]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D8_D16_c14,"[8, 16]","[[0, 1, 14]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D8_D24_c3,"[8, 24]","[[0, 1, 3]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D8_D24_c21,"[8, 24]","[[0, 1, 21]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D10_D10_c1,"[10, 10]","[[0, 1, 1]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D10_D10_c9,"[10, 10]","[[0, 1, 9]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D10_D12_c30,"[10, 12]","[[0, 1, 30]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D10_D16_c40,"[10, 16]","[[0, 1, 40]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D10_D24_c60,"[10, 24]","[[0, 1, 60]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D12_D12_c1,"[12, 12]","[[0, 1, 1]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D12_D12_c11,"[12, 12]","[[0, 1, 11]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D12_D16_c12,"[12, 16]","[[0, 1, 12]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D12_D16_c36,"[12, 16]","[[0, 1, 36]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D12_D24_c2,"[12, 24]","[[0, 1, 2]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D12_D24_c22,"[12, 24]","[[0, 1, 22]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D16_D16_c1,"[16, 16]","[[0, 1, 1]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D16_D16_c15,"[16, 16]","[[0, 1, 15]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D16_D24_c6,"[16, 24]","[[0, 1, 6]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D16_D24_c42,"[16, 24]","[[0, 1, 42]]",generated_pairwise,representative-invariant pairwise overlap witness,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+pair_D24_D24_c1,"[24, 24]","[[0, 1, 1]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+pair_D24_D24_c23,"[24, 24]","[[0, 1, 23]]",generated_pairwise,representative-invariant pairwise overlap witness,True,RADICAL_FLAGGED
+multi_graph_0,"[4, 6, 12]","[[0, 1, 6], [1, 2, 2]]",generated_pairwise_graph,multi-axis graph with pairwise edges only,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+multi_graph_1,"[8, 8, 8]","[[0, 1, 1], [1, 2, 1], [0, 2, 1]]",generated_pairwise_graph,multi-axis graph with pairwise edges only,True,RADICAL_FLAGGED
+multi_graph_2,"[12, 16, 24]","[[0, 1, 12], [1, 2, 6]]",generated_pairwise_graph,multi-axis graph with pairwise edges only,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED
+multi_graph_3,"[6, 10, 14]","[[0, 1, 15], [0, 2, 21]]",generated_pairwise_graph,multi-axis graph with pairwise edges only,True,BLOCKING_OPEN_FULL_2_PRIMARY_CLASSIFIER_REQUIRED

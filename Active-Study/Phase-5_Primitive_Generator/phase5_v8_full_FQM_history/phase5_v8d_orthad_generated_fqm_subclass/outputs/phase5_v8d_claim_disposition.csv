@@ -1,0 +1,7 @@
+claim,ledger_prior_status,v8d_status,scope,evidence,phase5_effect
+v8d Orthad-generated FQM subclass derivation,BLOCKING_OPEN_CURRENT_TARGET,CLOSED_POSITIVE_WITH_CONDITION,defined Orthad T-record semantics from ledger; family F containment proof by arity induction,family_definition + T_record_to_family_gates + reachability witnesses,advances but does not close Phase 5
+cross-coupled reachability from Orthad T records,BLOCKING_OPEN,CLOSED_POSITIVE,representative-invariant pairwise O_ij records,36 D-pair reachability rows,v8c remains suspended because cross-coupled presentations are reachable
+trilinearity gate,REQUIRED_BY_V8D_COMMISSION,CLOSED_NEGATIVE_FOR_NONDECOMPOSABLE_TRIPLE,FQM carrier q and b slots only,4 trilinearity negative controls,no contradiction-grade triple incidence generated in defined system
+Z/12Z chi12 skeleton reachability,BLOCKING_OPEN_DECISIVE_TEST,CLOSED_POSITIVE,single D=12 doubled-cyclic carrier q=r^2/24 with chi12 support,skeleton_reachability + Fourier fixed vector,correspondence bridge survives this gate
+full 2-adic Nikulin/Conway-Sloane classification,BLOCKING_OPEN_UNLESS_IMAGE_NARROWS,BLOCKING_OPEN,generated image includes cross-coupled even/mixed 2-primary witnesses,2primary_wall_witnesses,wall is real; Phase 5 remains open
+v8c closure,SUSPENDED,REMAINS_SUSPENDED,hinged on cross-coupled unreachable premise,cross-coupled reachability true,not sound retroactively

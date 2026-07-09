@@ -1,0 +1,5 @@
+target,kill_condition,observed,result
+skeleton_reachability,D=12 q=r^2/24 chi12 cannot be produced from Orthad T records,reachable,not killed
+FQM carrier sufficiency,defined Orthad T records generate genuine nondecomposable triple incidence,none; triple controls rejected/decomposed,not killed
+v8c unreachable premise,cross-coupled presentations reachable from Orthad T,reachable,v8c remains suspended
+2-primary wall avoided,generated image includes cross-coupled even/mixed 2-primary witnesses,included,killed; wall real

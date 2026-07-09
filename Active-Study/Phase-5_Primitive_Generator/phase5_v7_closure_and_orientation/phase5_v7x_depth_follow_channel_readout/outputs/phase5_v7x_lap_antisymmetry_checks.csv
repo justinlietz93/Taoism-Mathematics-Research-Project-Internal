@@ -1,5 +1,0 @@
-depth,terms_checked,same_support_lap1_lap2,same_magnitude_lap1_lap2,same_exponent_spacing_lap1_lap2,lap2_equals_negative_lap1,failure_terms,status
-3,11,True,True,True,True,,PASS
-4,21,True,True,True,True,,PASS
-5,43,True,True,True,True,,PASS
-6,85,True,True,True,True,,PASS

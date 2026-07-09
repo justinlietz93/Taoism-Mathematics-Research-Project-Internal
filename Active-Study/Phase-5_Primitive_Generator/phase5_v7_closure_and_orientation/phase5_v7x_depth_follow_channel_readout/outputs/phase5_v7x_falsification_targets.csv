@@ -1,6 +1,0 @@
-target,falsifier
-lap2_negation,any support n in depths 3-6 has sign_lap2 != -sign_lap1
-post_l_depth_stability,deeper depth changes prior support prefix channels
-chi12_channel_match,lap1 sign channel differs from external chi12 for supported n
-no_scalar_cargo,state record contains scalar residual coefficient as carried field
-phase_exponent_channels,inter-term phase or exponent spacing omitted or inconsistent

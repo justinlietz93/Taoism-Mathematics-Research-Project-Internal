@@ -1,9 +1,0 @@
-negative_control,rejection_reason,pass
-mod6_carrier_collapses_n1_n7,n=1 and n=7 have same mod6 seat but opposite chi12,True
-support_only_vector_not_fourier_fixed,residual=1.154701e+00,True
-alternate_unit_sign_vector_not_fourier_fixed,residual=1.000000e+00,True
-single_sign_mutation_not_fourier_fixed,residual=1.527525e+00,True
-nonunit_support_injection_rejected,residue 3 has chi12=0 and violates unit support channel,True
-scalar_cargo_injection_rejected,attempted retention of q-series scalar is outside retained state schema,True
-terminal_magnitude_from_residue_only_rejected,n=1 and n=13 share residue but differ in coefficient magnitude,True
-raw_mod6_sign_rule_rejected,mod6 cannot separate residue 1 from 7,True
