@@ -1,4 +1,6 @@
 venv/
+__pycache__/
+*.pyc
 Active-Study/globusconnectpersonal-3.2.8
 Active-Study/Liu-et-al-2022
 Active-Study/globusconnectpersonal-latest.tgz
