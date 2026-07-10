@@ -1,0 +1,5 @@
+{
+  "sealed_before": "rank>=5 mixed/high-rank classifier",
+  "rank4_closed": true,
+  "rankge5_blocking_open": true
+}

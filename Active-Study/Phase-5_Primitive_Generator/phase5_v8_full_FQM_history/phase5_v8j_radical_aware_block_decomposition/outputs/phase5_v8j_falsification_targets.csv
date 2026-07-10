@@ -1,0 +1,6 @@
+target,kill_condition,result
+radical-first correction,any ground-truth row lacks decomposition,not triggered; 229/229 decomposed
+worked radical completion,"[2,2] c01=1 not reproduced",not triggered
+non-summand measurement,non-summand case hidden or forced through summand path,not triggered; zero detected in stated range
+rank>=5 radical-first decomposition,any corrected residual lacks radical/block row,not triggered; 5/5 have decomposition rows
+symbol classifier closure,complete classifier claimed from observed relation data,not triggered; remains BLOCKING_OPEN

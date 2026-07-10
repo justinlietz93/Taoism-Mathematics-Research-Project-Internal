@@ -1,0 +1,6 @@
+claim,status,scope,evidence
+true-diagonal rank4 orbit table publication,CLOSED_POSITIVE,"512 forms, shape [4,4,2,16], diag [1,3,3,5]","14 classes, 530 decision rows, archival class 5"
+v8h archival rank4 retro-check closure,CLOSED_POSITIVE_AFTER_TABLE_PUBLICATION,true-diagonal archival object only,published true-diagonal table places archival form in class 5
+229/229 full decomposition,BLOCKING_OPEN,v8e/v8g/v8h ground-truth representatives,1 verified certificate rows; target not closed
+five rank>=5 core full decomposition,BLOCKING_OPEN,corrected five residual cores,radical quotient/complement shapes measured; no block certificates claimed
+"worked [2,2] certificate",CLOSED_POSITIVE,single worked target,"basis [[1,0],[1,1]] verifies A_2(1) PERP R_2(q=0)"

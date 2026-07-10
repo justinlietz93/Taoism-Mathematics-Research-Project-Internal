@@ -1,0 +1,15 @@
+{
+  "phase": "Phase 5 v8k",
+  "title": "Radical-Aware Decomposition Redone Under Data Gates",
+  "status": "V8K_WORKED_RADICAL_CERTIFICATE_CLOSED_FORM_SPEC_AND_RANK4_RETROCHECK_CLOSED_FULL_DECOMPOSITION_BLOCKING_OPEN",
+  "global_pass": true,
+  "phase5_closed": false,
+  "worked_target_verified": true,
+  "groundtruth_rows": 229,
+  "groundtruth_certified_decompositions": 1,
+  "rankge5_cores": 5,
+  "rankge5_certified_decompositions": 0,
+  "rank4_retrocheck_status": "REROUTED_WITH_TRUE_DIAGONALS_CLOSED_ON_SAME_SHAPE_RANGE",
+  "v8h_archival_true_diagonal_class_id": 6,
+  "v8j_rejected_claims_reused": false
+}

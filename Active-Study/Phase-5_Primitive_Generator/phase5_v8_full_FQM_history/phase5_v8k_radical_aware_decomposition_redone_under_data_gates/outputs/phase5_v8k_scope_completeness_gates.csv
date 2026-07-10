@@ -1,0 +1,4 @@
+range,expected_rows,actual_rows,missing_rows,pass
+ground_truth_rows,229,229,0,True
+rankge5_residual_cores,5,5,0,True
+form_spec_archival_cases,7,7,0,True

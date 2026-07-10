@@ -1,0 +1,15 @@
+{
+  "status": "V8F_RANK3_EQUAL_2PRIMARY_CHAIN_CLASSIFIER_CLOSED_ON_TESTED_RANGE_MIXED_HIGH_RANK_COMPONENTS_BLOCKING_OPEN",
+  "global_pass": true,
+  "phase5_closed": false,
+  "closed_positive": [
+    "rank3 equal 2-primary chain classifier on tested range",
+    "v7t rank3 archival routing and classification",
+    "split-first gate with secretly split control caught"
+  ],
+  "blocking_open": [
+    "v7u mixed/high-rank 2-primary components",
+    "cross-shape rigidity proof",
+    "Lean executable classifier"
+  ]
+}

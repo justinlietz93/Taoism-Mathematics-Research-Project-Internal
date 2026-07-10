@@ -1,0 +1,4 @@
+term,meaning,forbidden
+Family-F size-2 isometry classifier,exact bounded decision procedure for size-2 Family-F components using Aut-orbit ground truth over the stated D range,universal FQM classifier or rank>=3 classifier
+invariant separation residual wall,a tested pair where requested compact invariants fail to separate exact orbit classes,contradiction against exact orbit classifier
+rank>=3 component blocker,generated connected component of the F coupling graph with at least 3 vertices not classified by v8e size-2 classifier,small implementation detail

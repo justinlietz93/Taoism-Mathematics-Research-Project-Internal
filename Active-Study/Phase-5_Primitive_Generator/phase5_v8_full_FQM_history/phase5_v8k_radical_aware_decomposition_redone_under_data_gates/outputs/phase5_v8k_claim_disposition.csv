@@ -1,0 +1,7 @@
+claim,status,scope,evidence
+v8j radical measurement,ADOPTED_RECONFIRMED,"229 ground-truth rows, ambient radical test",phase5_v8k_groundtruth_radical_measurement_and_attempts.csv
+v8j decomposition claims,REJECTED_REMAINS_REJECTED,all prior rank>=5 DECOMPOSED_TO_BLOCKS rows,no v8j decomposition certificate reused
+"worked [2,2] c01=1 certificate",CLOSED_POSITIVE,single worked target,"basis [[1,0],[1,1]] verifies A_2(1) PERP R_2(q=0)"
+229/229 decomposed with certificates,BLOCKING_OPEN,v8e+v8g+v8h ground-truth rows,only worked target emits verified certificate in v8k; remaining rows are measured but not certified
+rank>=5 residual cores decomposed,BLOCKING_OPEN,five corrected v7u residual cores,complete form spec and ambient radical measurement emitted; no block certificate claimed
+v8h archival rank4 closure under true diagonals,CLOSED_POSITIVE_AFTER_RETROCHECK,"shape [4,4,2,16] true diagonal units [1,3,3,5]","exact same-shape reroute: 512 forms, 14 classes, archival class 6"

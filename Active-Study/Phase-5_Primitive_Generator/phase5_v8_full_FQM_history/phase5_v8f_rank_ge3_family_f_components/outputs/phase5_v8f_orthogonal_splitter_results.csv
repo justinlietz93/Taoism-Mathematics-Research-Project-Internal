@@ -1,0 +1,145 @@
+D,form,graph_connected,orthogonally_splits,split_target,witness_basis,rank_ge3_booking
+4,"[0, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+4,"[0, 0, 1]",False,True,,,GRAPH_DISCONNECTED
+4,"[0, 0, 2]",False,True,,,GRAPH_DISCONNECTED
+4,"[0, 0, 3]",False,True,,,GRAPH_DISCONNECTED
+4,"[1, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+4,"[1, 0, 1]",True,False,,,CONNECTED_UNSPLIT_RANK3
+4,"[1, 0, 2]",True,False,,,CONNECTED_UNSPLIT_RANK3
+4,"[1, 0, 3]",True,False,,,CONNECTED_UNSPLIT_RANK3
+4,"[2, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+4,"[2, 0, 1]",True,False,,,CONNECTED_UNSPLIT_RANK3
+4,"[2, 0, 2]",True,True,"[0, 0, 0]","[[0, 0, 1], [1, 2, 2], [0, 1, 0]]",SPLIT_TO_SIZE_LE_2
+4,"[2, 0, 3]",True,False,,,CONNECTED_UNSPLIT_RANK3
+4,"[3, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+4,"[3, 0, 1]",True,False,,,CONNECTED_UNSPLIT_RANK3
+4,"[3, 0, 2]",True,False,,,CONNECTED_UNSPLIT_RANK3
+4,"[3, 0, 3]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[0, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+8,"[0, 0, 1]",False,True,,,GRAPH_DISCONNECTED
+8,"[0, 0, 2]",False,True,,,GRAPH_DISCONNECTED
+8,"[0, 0, 3]",False,True,,,GRAPH_DISCONNECTED
+8,"[0, 0, 4]",False,True,,,GRAPH_DISCONNECTED
+8,"[0, 0, 5]",False,True,,,GRAPH_DISCONNECTED
+8,"[0, 0, 6]",False,True,,,GRAPH_DISCONNECTED
+8,"[0, 0, 7]",False,True,,,GRAPH_DISCONNECTED
+8,"[1, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+8,"[1, 0, 1]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[1, 0, 2]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[1, 0, 3]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[1, 0, 4]",True,True,"[0, 0, 1]","[[0, 0, 1], [4, 1, 0], [1, 0, 0]]",SPLIT_TO_SIZE_LE_2
+8,"[1, 0, 5]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[1, 0, 6]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[1, 0, 7]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[2, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+8,"[2, 0, 1]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[2, 0, 2]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 3, 2], [1, 0, 0]]",SPLIT_TO_SIZE_LE_2
+8,"[2, 0, 3]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[2, 0, 4]",True,True,"[0, 0, 2]","[[0, 0, 1], [0, 1, 0], [1, 4, 0]]",SPLIT_TO_SIZE_LE_2
+8,"[2, 0, 5]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[2, 0, 6]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 3, 2], [1, 4, 0]]",SPLIT_TO_SIZE_LE_2
+8,"[2, 0, 7]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[3, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+8,"[3, 0, 1]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[3, 0, 2]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[3, 0, 3]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[3, 0, 4]",True,True,"[0, 0, 3]","[[0, 0, 1], [4, 1, 0], [1, 0, 0]]",SPLIT_TO_SIZE_LE_2
+8,"[3, 0, 5]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[3, 0, 6]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[3, 0, 7]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[4, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+8,"[4, 0, 1]",True,True,"[0, 0, 1]","[[0, 0, 1], [1, 0, 4], [1, 1, 7]]",SPLIT_TO_SIZE_LE_2
+8,"[4, 0, 2]",True,True,"[0, 0, 2]","[[0, 0, 1], [1, 0, 4], [2, 1, 6]]",SPLIT_TO_SIZE_LE_2
+8,"[4, 0, 3]",True,True,"[0, 0, 3]","[[0, 0, 1], [1, 0, 4], [3, 1, 5]]",SPLIT_TO_SIZE_LE_2
+8,"[4, 0, 4]",True,True,"[0, 0, 0]","[[0, 0, 1], [0, 1, 4], [1, 4, 0]]",SPLIT_TO_SIZE_LE_2
+8,"[4, 0, 5]",True,True,"[0, 0, 3]","[[0, 0, 1], [1, 0, 4], [5, 1, 5]]",SPLIT_TO_SIZE_LE_2
+8,"[4, 0, 6]",True,True,"[0, 0, 2]","[[0, 0, 1], [1, 0, 4], [6, 1, 6]]",SPLIT_TO_SIZE_LE_2
+8,"[4, 0, 7]",True,True,"[0, 0, 1]","[[0, 0, 1], [1, 0, 4], [7, 1, 7]]",SPLIT_TO_SIZE_LE_2
+8,"[5, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+8,"[5, 0, 1]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[5, 0, 2]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[5, 0, 3]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[5, 0, 4]",True,True,"[0, 0, 3]","[[0, 0, 1], [4, 1, 2], [1, 0, 0]]",SPLIT_TO_SIZE_LE_2
+8,"[5, 0, 5]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[5, 0, 6]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[5, 0, 7]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[6, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+8,"[6, 0, 1]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[6, 0, 2]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 3, 6], [1, 0, 0]]",SPLIT_TO_SIZE_LE_2
+8,"[6, 0, 3]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[6, 0, 4]",True,True,"[0, 0, 2]","[[0, 0, 1], [0, 1, 4], [1, 4, 0]]",SPLIT_TO_SIZE_LE_2
+8,"[6, 0, 5]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[6, 0, 6]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 3, 6], [1, 4, 0]]",SPLIT_TO_SIZE_LE_2
+8,"[6, 0, 7]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[7, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+8,"[7, 0, 1]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[7, 0, 2]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[7, 0, 3]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[7, 0, 4]",True,True,"[0, 0, 1]","[[0, 0, 1], [4, 1, 6], [1, 0, 0]]",SPLIT_TO_SIZE_LE_2
+8,"[7, 0, 5]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[7, 0, 6]",True,False,,,CONNECTED_UNSPLIT_RANK3
+8,"[7, 0, 7]",True,False,,,CONNECTED_UNSPLIT_RANK3
+16,"[0, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+16,"[0, 0, 2]",False,True,,,GRAPH_DISCONNECTED
+16,"[0, 0, 4]",False,True,,,GRAPH_DISCONNECTED
+16,"[0, 0, 6]",False,True,,,GRAPH_DISCONNECTED
+16,"[0, 0, 8]",False,True,,,GRAPH_DISCONNECTED
+16,"[0, 0, 10]",False,True,,,GRAPH_DISCONNECTED
+16,"[0, 0, 12]",False,True,,,GRAPH_DISCONNECTED
+16,"[0, 0, 14]",False,True,,,GRAPH_DISCONNECTED
+16,"[2, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+16,"[2, 0, 2]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 2], [1, 0, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[2, 0, 4]",True,True,"[0, 0, 2]","[[0, 0, 1], [0, 1, 0], [7, 4, 8]]",SPLIT_TO_SIZE_LE_2
+16,"[2, 0, 6]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 2], [9, 4, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[2, 0, 8]",True,True,"[0, 0, 2]","[[0, 0, 1], [0, 1, 0], [1, 8, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[2, 0, 10]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 2], [1, 8, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[2, 0, 12]",True,True,"[0, 0, 2]","[[0, 0, 1], [0, 1, 0], [7, 12, 8]]",SPLIT_TO_SIZE_LE_2
+16,"[2, 0, 14]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 2], [9, 12, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[4, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+16,"[4, 0, 2]",True,True,"[0, 0, 2]","[[0, 0, 1], [1, 4, 12], [6, 15, 2]]",SPLIT_TO_SIZE_LE_2
+16,"[4, 0, 4]",True,True,"[0, 0, 0]","[[0, 0, 1], [0, 7, 4], [7, 12, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[4, 0, 6]",True,True,"[0, 0, 2]","[[0, 0, 1], [1, 4, 12], [2, 1, 14]]",SPLIT_TO_SIZE_LE_2
+16,"[4, 0, 8]",True,True,"[0, 0, 0]","[[0, 0, 1], [0, 7, 4], [1, 8, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[4, 0, 10]",True,True,"[0, 0, 2]","[[0, 0, 1], [1, 4, 12], [6, 1, 14]]",SPLIT_TO_SIZE_LE_2
+16,"[4, 0, 12]",True,True,"[0, 0, 0]","[[0, 0, 1], [0, 7, 4], [7, 4, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[4, 0, 14]",True,True,"[0, 0, 2]","[[0, 0, 1], [1, 4, 12], [2, 15, 2]]",SPLIT_TO_SIZE_LE_2
+16,"[6, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+16,"[6, 0, 2]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 6], [1, 0, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[6, 0, 4]",True,True,"[0, 0, 2]","[[0, 0, 1], [0, 1, 4], [7, 4, 8]]",SPLIT_TO_SIZE_LE_2
+16,"[6, 0, 6]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 6], [9, 4, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[6, 0, 8]",True,True,"[0, 0, 2]","[[0, 0, 1], [0, 1, 4], [1, 8, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[6, 0, 10]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 6], [1, 8, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[6, 0, 12]",True,True,"[0, 0, 2]","[[0, 0, 1], [0, 1, 4], [7, 12, 8]]",SPLIT_TO_SIZE_LE_2
+16,"[6, 0, 14]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 6], [9, 12, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[8, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+16,"[8, 0, 2]",True,True,"[0, 0, 2]","[[0, 0, 1], [1, 0, 8], [2, 1, 14]]",SPLIT_TO_SIZE_LE_2
+16,"[8, 0, 4]",True,True,"[0, 0, 0]","[[0, 0, 1], [0, 1, 8], [7, 4, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[8, 0, 6]",True,True,"[0, 0, 2]","[[0, 0, 1], [1, 0, 8], [6, 1, 14]]",SPLIT_TO_SIZE_LE_2
+16,"[8, 0, 8]",True,True,"[0, 0, 0]","[[0, 0, 1], [0, 1, 8], [1, 8, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[8, 0, 10]",True,True,"[0, 0, 2]","[[0, 0, 1], [1, 0, 8], [10, 1, 14]]",SPLIT_TO_SIZE_LE_2
+16,"[8, 0, 12]",True,True,"[0, 0, 0]","[[0, 0, 1], [0, 1, 8], [7, 12, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[8, 0, 14]",True,True,"[0, 0, 2]","[[0, 0, 1], [1, 0, 8], [14, 1, 14]]",SPLIT_TO_SIZE_LE_2
+16,"[10, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+16,"[10, 0, 2]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 10], [1, 0, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[10, 0, 4]",True,True,"[0, 0, 2]","[[0, 0, 1], [0, 1, 8], [7, 4, 8]]",SPLIT_TO_SIZE_LE_2
+16,"[10, 0, 6]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 10], [9, 4, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[10, 0, 8]",True,True,"[0, 0, 2]","[[0, 0, 1], [0, 1, 8], [1, 8, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[10, 0, 10]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 10], [1, 8, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[10, 0, 12]",True,True,"[0, 0, 2]","[[0, 0, 1], [0, 1, 8], [7, 12, 8]]",SPLIT_TO_SIZE_LE_2
+16,"[10, 0, 14]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 10], [9, 12, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[12, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+16,"[12, 0, 2]",True,True,"[0, 0, 2]","[[0, 0, 1], [1, 4, 4], [6, 15, 2]]",SPLIT_TO_SIZE_LE_2
+16,"[12, 0, 4]",True,True,"[0, 0, 0]","[[0, 0, 1], [0, 7, 12], [7, 12, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[12, 0, 6]",True,True,"[0, 0, 2]","[[0, 0, 1], [1, 4, 4], [2, 1, 14]]",SPLIT_TO_SIZE_LE_2
+16,"[12, 0, 8]",True,True,"[0, 0, 0]","[[0, 0, 1], [0, 7, 12], [1, 8, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[12, 0, 10]",True,True,"[0, 0, 2]","[[0, 0, 1], [1, 4, 4], [6, 1, 14]]",SPLIT_TO_SIZE_LE_2
+16,"[12, 0, 12]",True,True,"[0, 0, 0]","[[0, 0, 1], [0, 7, 12], [7, 4, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[12, 0, 14]",True,True,"[0, 0, 2]","[[0, 0, 1], [1, 4, 4], [2, 15, 2]]",SPLIT_TO_SIZE_LE_2
+16,"[14, 0, 0]",False,True,,,GRAPH_DISCONNECTED
+16,"[14, 0, 2]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 14], [1, 0, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[14, 0, 4]",True,True,"[0, 0, 2]","[[0, 0, 1], [0, 1, 12], [7, 4, 8]]",SPLIT_TO_SIZE_LE_2
+16,"[14, 0, 6]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 14], [9, 4, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[14, 0, 8]",True,True,"[0, 0, 2]","[[0, 0, 1], [0, 1, 12], [1, 8, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[14, 0, 10]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 14], [1, 8, 0]]",SPLIT_TO_SIZE_LE_2
+16,"[14, 0, 12]",True,True,"[0, 0, 2]","[[0, 0, 1], [0, 1, 12], [7, 12, 8]]",SPLIT_TO_SIZE_LE_2
+16,"[14, 0, 14]",True,True,"[0, 0, 0]","[[0, 0, 1], [2, 5, 14], [9, 12, 0]]",SPLIT_TO_SIZE_LE_2

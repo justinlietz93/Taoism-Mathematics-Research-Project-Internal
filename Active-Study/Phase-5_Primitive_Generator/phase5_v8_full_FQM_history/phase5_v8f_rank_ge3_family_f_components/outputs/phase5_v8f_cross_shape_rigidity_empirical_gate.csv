@@ -1,0 +1,8 @@
+shape_a,shape_b,rank,source,alias_pair_tested,cross_shape_isometry_hits,status
+"(4,6)","(2,12)",2,v8e_external_audit_imported,True,0,EMPIRICALLY_GATED_ZERO_HITS
+"(6,8)","(2,24)",2,v8e_external_audit_imported,True,0,EMPIRICALLY_GATED_ZERO_HITS
+"(4,10)","(2,20)",2,v8e_external_audit_imported,True,0,EMPIRICALLY_GATED_ZERO_HITS
+"(8,12)","(4,24)",2,v8e_external_audit_imported,True,0,EMPIRICALLY_GATED_ZERO_HITS
+"(4,4,4)",none_same_group_in_equal_core_range,3,v8f_equal_2primary_range,False,0,NO_CROSS_SHAPE_ALIAS_IN_EQUAL_CORE_TEST_RANGE
+"(8,8,8)",none_same_group_in_equal_core_range,3,v8f_equal_2primary_range,False,0,NO_CROSS_SHAPE_ALIAS_IN_EQUAL_CORE_TEST_RANGE
+"(16,16,16)",none_same_group_in_equal_core_range,3,v8f_equal_2primary_range,False,0,NO_CROSS_SHAPE_ALIAS_IN_EQUAL_CORE_TEST_RANGE

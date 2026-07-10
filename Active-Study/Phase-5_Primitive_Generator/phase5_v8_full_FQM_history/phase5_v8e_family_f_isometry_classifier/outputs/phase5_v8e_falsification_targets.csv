@@ -1,0 +1,5 @@
+target,kill_condition,observed,result
+size2_orbit_classifier,some c residue lacks exact orbit class or Aut enumeration fails,all residues classified,not killed
+compact_invariants_complete,two orbit classes share invariant key,7 residual collision rows,killed on tested range
+rank_ge3_absent,archival generated presentations include connected component size >=3,14,killed; blocker remains
+chi12_route,Z/12Z chi12 cannot be routed from T trace,routed with K12 residual 5.126e-15,not killed

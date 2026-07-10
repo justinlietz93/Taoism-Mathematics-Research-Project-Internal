@@ -1,0 +1,9 @@
+{
+  "D": 8,
+  "triangle_form": [
+    1,
+    1,
+    1
+  ],
+  "route": "triangle_core_or_split_per_outputs"
+}

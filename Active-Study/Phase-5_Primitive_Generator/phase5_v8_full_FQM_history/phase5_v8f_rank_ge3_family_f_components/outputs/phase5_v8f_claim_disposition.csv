@@ -1,0 +1,7 @@
+claim,status,scope,evidence
+rank3_equal_2primary_chain_classifier_D4_D8_D16sample,CLOSED_POSITIVE_ON_TESTED_RANGE,"two-edge chain Family-F cores for D=4 all, D=8 all, D=16 even-c margin",exact pullback-form isometry decider; orbit tables
+connected_graph_implies_indecomposable,CLOSED_NEGATIVE,tested range,"secretly split connected forms caught, e.g. (1,0,4)->(0,0,1) for D=8"
+compact_invariants_classify_rank3,NOT_CLAIMED,none,"v8f uses exact orbit ground truth, not compact keys"
+archival_v7t_rank3_cases,CLOSED_POSITIVE_ON_TESTED_RANGE,three v7t rank3 equal D=8 cases,routed through splitter + exact classifier
+archival_v7u_rank_ge3_cases,BLOCKING_OPEN,seven mixed/high-rank 2-primary components,"routed, not covered by equal-core rank3 tested range"
+cross_shape_rigidity,CONJECTURED_LEMMA_EMPIRICALLY_GATED,v8e imported aliases + v8f no-alias equal-core range,no proof; no hits in audited alias pairs

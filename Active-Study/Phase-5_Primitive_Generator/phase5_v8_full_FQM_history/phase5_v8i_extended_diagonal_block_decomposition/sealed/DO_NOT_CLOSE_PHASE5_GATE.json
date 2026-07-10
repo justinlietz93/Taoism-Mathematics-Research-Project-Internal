@@ -1,0 +1,4 @@
+{
+  "phase5_closed": false,
+  "reason": "rank>=5 block decomposition and classifier remain blocking open"
+}

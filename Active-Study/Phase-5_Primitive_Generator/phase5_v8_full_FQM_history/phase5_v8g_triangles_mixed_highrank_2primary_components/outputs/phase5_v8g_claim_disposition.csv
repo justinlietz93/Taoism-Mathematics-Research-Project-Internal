@@ -1,0 +1,8 @@
+claim,status,scope,evidence
+equal_D_rank3_triangle_scope_hole,CLOSED_POSITIVE,D=4 complete and D=8 complete equal-D triangle forms,every triangle has disposition row; exact orbit table; splitter before classification
+scope_completeness_gate_equal_D_rank3,CLOSED_POSITIVE,all D=4 and D=8 equal-D rank3 forms,D^3 forms enumerated; missing rows 0
+mixed_rank3_2primary_core_classifier,CLOSED_POSITIVE_ON_TESTED_RANGE,"shape [2,4,2] all representative-invariant residues",exact same-shape orbit table
+rank4_mixed_2primary_core_classifier,BLOCKING_OPEN,"v7u rank4_mixed core [4,4,2,16]",same-shape lower split exhaustion only; full orbit classifier not closed
+rank_ge5_high_rank_2primary_components,BLOCKING_OPEN,v7u rank5/rank6/rank8/rank10/rank12 cores,p-primary split done; high-rank exhaustive split not claimed
+cross_shape_rigidity_general,CONJECTURED_LEMMA_EMPIRICALLY_GATED,mixed original shapes,pure 2-primary shape type proved unique; mixed alias gate not general
+connected_graph_implies_indecomposable,CLOSED_NEGATIVE,preserved from v8f and enforced,triangle splitter catches split triangles before classification

@@ -1,0 +1,12 @@
+{
+  "status": "V8G_TRIANGLES_AND_MIXED_RANK3_CLASSIFIER_CLOSED_MIXED_HIGH_RANK_COMPONENTS_BLOCKING_OPEN",
+  "global_pass": true,
+  "phase5_closed": false,
+  "v8c": "SUSPENDED_REMAINS_SUSPENDED",
+  "blocking_open": [
+    "rank4 mixed 2-primary core full classifier",
+    "rank>=5 high-rank 2-primary components",
+    "mixed cross-shape rigidity general proof",
+    "Lean executable classifier"
+  ]
+}

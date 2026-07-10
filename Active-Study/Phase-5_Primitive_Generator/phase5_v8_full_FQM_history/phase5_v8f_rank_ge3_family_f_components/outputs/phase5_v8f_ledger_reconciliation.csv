@@ -1,0 +1,5 @@
+ledger_item,v8f_disposition
+v8e size-2 classifier adopted,PRESERVED_AS_ACTIVE_TRUTH
+cross-shape rigidity unproven assumption,NOT_USED_AS_THEOREM; EMPIRICAL_GATE_ONLY
+connected coupling graph does not imply indecomposable,ENFORCED; SPLIT_FIRST_NEGATIVE_CONTROL_CAUGHT
+rank>=3 Family-F components,PARTIAL_CLOSE_EQUAL_CORE_TESTED_RANGE; MIXED_HIGH_RANK_BLOCKING_OPEN

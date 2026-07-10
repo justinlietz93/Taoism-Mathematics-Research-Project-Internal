@@ -1,0 +1,8 @@
+case,upstream_source,upstream_edge_count,v8j_edge_count,edge_lists_match_v8g,v8k_uses_upstream_edges,diff_status
+rank3_mixed,v8g,3,,,True,PATCHED_FROM_V8G
+rank4_mixed,v8g,5,,,True,PATCHED_FROM_V8G
+rank5_prime,v8g,10,10,True,True,MATCH
+rank6_large,v8g,14,14,True,True,MATCH
+rank8_large,v8g,25,25,True,True,MATCH
+rank10_large,v8g,41,41,True,True,MATCH
+rank12_large,v8g,62,62,True,True,MATCH

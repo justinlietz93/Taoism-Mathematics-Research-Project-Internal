@@ -1,0 +1,7 @@
+claim,status,scope,evidence
+true chi12 coefficient-character channel entered the live boundary field,EMITTED_AND_META_VERIFIED,canonical n=1..12 period produced by the lift domain,orthad_live_sympy_kronecker_gate.csv
+chi12 survives one B-FLOOR-L cusp crossing,EMITTED_AND_META_VERIFIED,12/12 channels in one crossing,orthad_live_per_channel_survival.csv
+latched axis after the crossing,EMITTED,"B:(34,55)->(55,89), phase i, then L",orthad_live_latched_axis.json
+LAW 0 and LAW 0b compliance,META_VERIFIED_FOR_THIS_ARTIFACT,src/orthad_live source and emitted fields,orthad_live_law0_source_audit.csv; orthad_live_meta_gates.csv
+arbitrary crossing transport or full q-series theorem,NOT_CLAIMED,outside this experiment,orthad_live_result_card.json
+v8n degenerate-block alphabet,QUEUED_NOT_STARTED,meta-verifier lane,SEALED_V8N_NOT_STARTED.json

@@ -1,0 +1,14 @@
+{
+  "case": "rank5_prime",
+  "D2_core": "[2, 4, 4, 2, 16]",
+  "edge_count": 10,
+  "split_success": false,
+  "block_symbol": "A_16(9) + A_2(1) + A_4(3)",
+  "status": "BLOCKING_OPEN_SPLITTER_CERTIFICATE_INCOMPLETE",
+  "failure_reason": "NO_CERTIFIED_A_OR_EQUAL_LEVEL_UV_PIVOT",
+  "failure_active_residual": "[2, 3]",
+  "failure_active_diag": "[{\"index\": 2, \"D\": 4, \"q\": \"0\", \"bii\": \"0\"}, {\"index\": 3, \"D\": 2, \"q\": \"0\", \"bii\": \"0\"}]",
+  "partial_blocks": "[{\"type\": \"A\", \"indices\": [0], \"D\": 2, \"t\": 1}, {\"type\": \"A\", \"indices\": [1], \"D\": 4, \"t\": 3}, {\"type\": \"A\", \"indices\": [4], \"D\": 16, \"t\": 9}]",
+  "basis_transform_certificate": "[[1, -1, 14, -1, -1], [0, 1, -3, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 1, 0], [0, 0, -12, 0, 1]]",
+  "provenance_verdict": "MATCHED_UPSTREAM_V8G"
+}

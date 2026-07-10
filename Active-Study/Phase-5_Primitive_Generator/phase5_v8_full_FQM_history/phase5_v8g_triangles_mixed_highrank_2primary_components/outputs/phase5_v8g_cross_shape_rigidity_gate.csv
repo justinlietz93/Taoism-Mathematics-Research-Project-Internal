@@ -1,0 +1,6 @@
+shape,range,same_group_aliases_found,method,status
+"(4,4,4)",v8g pure 2-primary core,0,finite abelian 2-group cyclic power multiset uniqueness; permutations are inside same-shape automorphism search,PROVEN_FOR_PURE_2PRIMARY_SHAPE_TYPE
+"(8,8,8)",v8g pure 2-primary core,0,finite abelian 2-group cyclic power multiset uniqueness; permutations are inside same-shape automorphism search,PROVEN_FOR_PURE_2PRIMARY_SHAPE_TYPE
+"(2,4,2)",v8g pure 2-primary core,0,finite abelian 2-group cyclic power multiset uniqueness; permutations are inside same-shape automorphism search,PROVEN_FOR_PURE_2PRIMARY_SHAPE_TYPE
+"(4,4,2,16)",v8g pure 2-primary core,0,finite abelian 2-group cyclic power multiset uniqueness; permutations are inside same-shape automorphism search,PROVEN_FOR_PURE_2PRIMARY_SHAPE_TYPE
+mixed odd-cofactor shapes from v8e,imported v8e alias gate,0,exhaustive alias gate imported for four audited pairs,EMPIRICALLY_GATED_NOT_GENERAL_PROOF

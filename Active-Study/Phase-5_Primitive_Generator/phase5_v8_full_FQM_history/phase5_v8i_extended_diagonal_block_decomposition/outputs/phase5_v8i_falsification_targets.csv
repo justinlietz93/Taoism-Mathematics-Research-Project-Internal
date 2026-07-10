@@ -1,0 +1,5 @@
+target,kill_condition,result
+v8h archival edge transcription,rank10/rank12 edges remain empty after v8i,not triggered; restored from v8g/audit
+extended-diagonal splitter closure,any ground-truth class rep fails decomposition,triggered; closure denied
+rank>=5 decomposition closure,any corrected rank>=5 core lacks block decomposition certificate,triggered; remains blocking open
+block-symbol classifier,block symbols used despite failed ground-truth validation,not triggered

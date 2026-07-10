@@ -1,0 +1,8 @@
+claim,ledger_prior_status,v8e_status,scope,evidence,phase5_effect
+v8e Family-F size-2 isometry classifier,v8d 2-primary wall blocking open for generated cross-coupled witnesses,CLOSED_POSITIVE,"size-2 components over D range [2,4,6,8,10,12,14,16,18,20,24,32] with order <= 1024",exact Aut-orbit enumeration over finite abelian group; all c residues assigned orbit class,closes v8d size-2 wall on tested range only
+compact invariant set separates size-2 classes,not active truth,CLOSED_NEGATIVE_ON_TESTED_RANGE,same size-2 tested range,invariant_separation_residual_walls.csv,exact orbit table required; invariant key alone is not classifier
+Milgram magnitude correctness gate,commissioned by v8e,CLOSED_POSITIVE,nondegenerate size-2 presentations in tested range,milgram_magnitude_gates.csv,validates q/b normalization for classified nondegenerate forms
+component decomposition of F presentations,commissioned by v8e,CLOSED_POSITIVE_WITH_CONDITION,orthogonal sum over disconnected coupling graph components,graph decomposition proof + component distribution,reduces classifier to connected components
+rank>=3 generated connected components,open after v8d/v7u archival routing,BLOCKING_OPEN,v7t/v7u archival full-compiler presentations with connected component size >=3,archival_v7t_v7u_routing.csv,Phase 5 remains open
+Z/12Z chi12 skeleton routed through current classifier path,ACTIVE_TRUTH decisive skeleton from v7z/v8d,CLOSED_POSITIVE,single component D=12 shadow skeleton,chi12_T_record_trace + chi12 decisive run,correspondence bridge survives this gate
+v8c suspended closure,SUSPENDED,REMAINS_SUSPENDED,Phase 5 closure,rank>=3 component blocker + invariant residual wall,not sound retroactively

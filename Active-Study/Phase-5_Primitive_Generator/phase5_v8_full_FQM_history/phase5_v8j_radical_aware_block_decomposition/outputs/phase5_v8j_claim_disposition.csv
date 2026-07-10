@@ -1,0 +1,8 @@
+claim,status,scope,evidence
+Radical computed before A/UV pivot and q|Rad emitted per ground-truth form,CLOSED_POSITIVE,229 ground-truth representatives,phase5_v8j_groundtruth_radical_decomposition.csv
+Radical-aware decomposition validates on all available ground-truth representatives,CLOSED_POSITIVE_ON_TESTED_RANGE,v8e size2 + v8g rank3 + v8h rank4 representatives,229/229 decomposition rows; scope gate passed
+"Worked target [2,2] c01=1 decomposes as A_2(1) PERP R_2(q=0)",CLOSED_POSITIVE,audit worked target,phase5_v8j_worked_radical_completion.csv
+Non-summand radicals occur in current Family-F tested/rank>=5 range,CLOSED_NEGATIVE_ON_TESTED_RANGE,229 ground-truth rows + five corrected rank>=5 residuals,radical_summand_measurement; rankge5 decomposition rows
+Five corrected rank>=5 residual cores decompose by radical-first block symbols,CLOSED_POSITIVE_ON_CURRENT_RESIDUAL_SET,rank5/6/8/10/12 v7u corrected cores,phase5_v8j_rankge5_radical_first_decomposition.csv
+Block-symbol comparison is a complete isometry classifier,BLOCKING_OPEN,requires relation completeness / final proof pass,observed_symbol_relations.csv is data only
+Any machinery assuming nondegeneracy states the assumption explicitly,CLOSED_POSITIVE,v8j outputs,phase5_v8j_nondegeneracy_gate.csv

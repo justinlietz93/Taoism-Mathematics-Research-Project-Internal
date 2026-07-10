@@ -1,0 +1,6 @@
+ledger_rule,result,evidence
+ledger source of truth,applied,source_notes/PHASE5_CANONICAL_LEDGER.md
+provenance gate,passed,programmatic v8g/v8h/audit diff emitted
+split-law,passed,no indecomposable claim from split failure
+classifier naming rule,passed,STATUS does not use classifier for v8i splitter
+scope-completeness gate,passed,all stated validation/routing rows have dispositions

@@ -1,0 +1,3 @@
+range,total_parameter_space,disposition_rows,missing_rows,pass
+"rank4_same_shape_[4,4,2,16]",512,512,0,True
+archival_rank_ge5_reduction_cases,5,5,0,True

@@ -1,0 +1,4 @@
+range,expected_rows,actual_rows,missing_rows,pass
+"true_diag_rank4_[4,4,2,16]",512,512,0,True
+groundtruth_decomposition_rows,229,229,0,True
+rankge5_core_rows,5,5,0,True

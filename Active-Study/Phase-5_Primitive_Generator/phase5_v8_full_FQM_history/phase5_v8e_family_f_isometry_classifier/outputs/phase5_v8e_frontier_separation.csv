@@ -1,0 +1,4 @@
+target,status,premise,evidence
+rank>=3 Family-F connected component classifier,BLOCKING_OPEN,v7t/v7u archival Orthad compiler artifacts generate connected components of size >=3,archival_v7t_v7u_routing.csv
+compact invariant completeness for size2,CLOSED_NEGATIVE_ON_TESTED_RANGE,requested invariant set collides on exact orbit ground truth for named even 2-primary pairs,invariant_separation_residual_walls.csv
+Lean-verified executable classifier,DEFERRED_TO_FINAL_PROOF_PASS,ledger already defers Lean proof after computational closure surface,PHASE5_CANONICAL_LEDGER.md

@@ -1,0 +1,7 @@
+ledger_rule,result,evidence
+ledger source of truth,applied,source_notes/PHASE5_CANONICAL_LEDGER.md
+provenance gate,passed,phase5_v8j_provenance_diff.csv
+scope-completeness gate,passed,phase5_v8j_scope_completeness_gates.csv
+split-law,passed,split failures not used as indecomposable claims
+classifier naming rule,passed,STATUS does not use classifier
+nondegeneracy assumption rule,passed,phase5_v8j_nondegeneracy_gate.csv

@@ -1,0 +1,6 @@
+ledger_rule,compliance
+Authority rule,PHASE5_CANONICAL_LEDGER.md copied and read before pass
+classifier naming,STATUS uses classifier only for exact size-2 Aut-orbit ground-truth range
+v8c suspended,v8c remains suspended; no retroactive closure
+v8d patches,chi12 T trace generated; v7t/v7u routed through classifier
+alphabet growth condition,standing condition copied into summary and docs

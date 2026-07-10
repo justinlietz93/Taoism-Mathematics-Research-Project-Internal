@@ -1,0 +1,4 @@
+target,status,kill_condition
+true diagonal table missing row,not triggered,any of 512 forms lacks disposition
+229/229 certificate target,triggered / BLOCKING_OPEN,rows without verified basis certificates remain
+rank>=5 block certificate target,triggered / BLOCKING_OPEN,no verified block certificate emitted for five cores

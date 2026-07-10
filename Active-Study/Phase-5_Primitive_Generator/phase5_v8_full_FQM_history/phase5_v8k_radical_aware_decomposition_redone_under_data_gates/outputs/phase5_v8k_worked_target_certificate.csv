@@ -1,0 +1,2 @@
+target,D,diag_units,edges,basis_matrix_json,blocks_json,certificate_verified,detail
+"[2,2] c01=1","[2, 2]","[1, 1]","[[0, 1, 1]]","[[1, 0], [1, 1]]","[{""type"": ""A"", ""index"": 0, ""indices"": [0], ""D"": 2, ""t"": 1}, {""type"": ""R"", ""index"": 1, ""indices"": [1], ""D"": 2, ""q_xM"": 0}]",True,ok

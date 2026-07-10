@@ -1,0 +1,5 @@
+range,forms,trivial_radical,nontrivial_radical,radical_summand_true,non_summand_cases,status
+v8e_size2,193,128,65,193,0,NO_NON_SUMMAND_CASES_DETECTED_IN_CURRENT_RANGE
+v8g_rank3_equalD,22,6,16,22,0,NO_NON_SUMMAND_CASES_DETECTED_IN_CURRENT_RANGE
+v8h_rank4,14,4,10,14,0,NO_NON_SUMMAND_CASES_DETECTED_IN_CURRENT_RANGE
+groundtruth_total,229,138,91,229,0,NO_NON_SUMMAND_CASES_DETECTED_IN_CURRENT_RANGE

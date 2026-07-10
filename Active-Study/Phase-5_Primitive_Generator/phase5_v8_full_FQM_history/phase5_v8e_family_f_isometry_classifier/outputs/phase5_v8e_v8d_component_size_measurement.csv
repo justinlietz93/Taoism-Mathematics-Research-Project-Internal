@@ -1,0 +1,69 @@
+source,case,rank,component_sizes,max_component_size,components,route
+v8d_generated,shadow_skeleton_Z12_chi12,1,[1],1,[[0]],SIZE_LE_2
+v8d_generated,orthogonal_D2,1,[1],1,[[0]],SIZE_LE_2
+v8d_generated,orthogonal_D4,1,[1],1,[[0]],SIZE_LE_2
+v8d_generated,orthogonal_D6,1,[1],1,[[0]],SIZE_LE_2
+v8d_generated,orthogonal_D8,1,[1],1,[[0]],SIZE_LE_2
+v8d_generated,orthogonal_D10,1,[1],1,[[0]],SIZE_LE_2
+v8d_generated,orthogonal_D12,1,[1],1,[[0]],SIZE_LE_2
+v8d_generated,orthogonal_D16,1,[1],1,[[0]],SIZE_LE_2
+v8d_generated,orthogonal_D24,1,[1],1,[[0]],SIZE_LE_2
+v8d_generated,pair_D2_D2_c1,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D2_D4_c2,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D2_D6_c3,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D2_D8_c4,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D2_D10_c5,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D2_D12_c6,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D2_D16_c8,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D2_D24_c12,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D4_D4_c1,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D4_D4_c3,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D4_D6_c6,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D4_D8_c2,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D4_D8_c6,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D4_D10_c10,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D4_D12_c3,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D4_D12_c9,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D4_D16_c4,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D4_D16_c12,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D4_D24_c6,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D4_D24_c18,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D6_D6_c1,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D6_D6_c5,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D6_D8_c12,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D6_D10_c15,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D6_D12_c2,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D6_D12_c10,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D6_D16_c24,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D6_D24_c4,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D6_D24_c20,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D8_D8_c1,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D8_D8_c7,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D8_D10_c20,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D8_D12_c6,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D8_D12_c18,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D8_D16_c2,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D8_D16_c14,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D8_D24_c3,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D8_D24_c21,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D10_D10_c1,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D10_D10_c9,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D10_D12_c30,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D10_D16_c40,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D10_D24_c60,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D12_D12_c1,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D12_D12_c11,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D12_D16_c12,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D12_D16_c36,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D12_D24_c2,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D12_D24_c22,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D16_D16_c1,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D16_D16_c15,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D16_D24_c6,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D16_D24_c42,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D24_D24_c1,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,pair_D24_D24_c23,2,[2],2,"[[0, 1]]",SIZE_LE_2
+v8d_generated,multi_graph_0,3,[3],3,"[[0, 1, 2]]",RANK_GE_3_BLOCKING_OPEN
+v8d_generated,multi_graph_1,3,[3],3,"[[0, 1, 2]]",RANK_GE_3_BLOCKING_OPEN
+v8d_generated,multi_graph_2,3,[3],3,"[[0, 1, 2]]",RANK_GE_3_BLOCKING_OPEN
+v8d_generated,multi_graph_3,3,[3],3,"[[0, 1, 2]]",RANK_GE_3_BLOCKING_OPEN

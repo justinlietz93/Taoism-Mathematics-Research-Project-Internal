@@ -1,0 +1,6 @@
+gate,rows_checked,failures,pass,evidence
+TRUE_DIAGONAL_RANK4_TABLE_PUBLISHED,512,0,True,512 true-diagonal forms classified; class and decision tables emitted
+GROUNDTRUTH_CERTIFICATE_DATA,229,228,False,full 229/229 certificate target remains blocking open
+RANKGE5_CERTIFICATE_DATA,5,5,False,five cores measured but not decomposed with block certificates
+RADICAL_BII_ZERO,1,0,True,"only emitted R block is worked target and has b(v,v)=0"
+FORM_SPEC_COMPLETE,5,0,True,diag_units and corrected edges retained for every core

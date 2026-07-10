@@ -1,0 +1,5 @@
+ledger_item,v8g_disposition
+v8f adopted with triangle scope hole,CLOSED: D4/D8 triangles disposed with full scope-completeness gate
+connected coupling graph does not imply indecomposable,ENFORCED: splitter before triangle classification
+cross-shape rigidity empirical/unproven,PURE_2PRIMARY_SHAPE_TYPE_PROVED; MIXED_ALIAS_GENERAL_PROOF_STILL_OPEN
+v8c suspended,REMAINS_SUSPENDED

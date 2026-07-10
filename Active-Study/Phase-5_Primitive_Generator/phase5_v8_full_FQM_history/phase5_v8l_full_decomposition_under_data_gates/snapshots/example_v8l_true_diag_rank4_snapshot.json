@@ -1,0 +1,16 @@
+{
+  "shape": [
+    4,
+    4,
+    2,
+    16
+  ],
+  "diag_units": [
+    1,
+    3,
+    3,
+    5
+  ],
+  "archival_class_id": 5,
+  "class_count": 14
+}

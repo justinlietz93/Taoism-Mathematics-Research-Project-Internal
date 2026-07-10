@@ -1,0 +1,5 @@
+range,expected_rows,disposition_rows,missing_rows,pass
+groundtruth_radical_decomposition,229,229,0,True
+rankge5_corrected_residuals,5,5,0,True
+provenance_diff_rows,7,7,0,True
+worked_completion,1,1,0,True

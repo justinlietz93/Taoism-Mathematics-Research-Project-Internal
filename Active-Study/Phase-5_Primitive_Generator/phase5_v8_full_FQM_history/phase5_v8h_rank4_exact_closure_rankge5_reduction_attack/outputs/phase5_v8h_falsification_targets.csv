@@ -1,0 +1,4 @@
+target,kill_condition,result
+find missing disposition row in rank4 range,any of 512 forms lacks disposition,not triggered
+rank4 orbit certificate invalid,witness fails pointwise q pullback or nonisometry search not exhaustive,not triggered
+rank>=5 closed without exhaustive certificate,claim classifier or indecomposable above rank4,not triggered

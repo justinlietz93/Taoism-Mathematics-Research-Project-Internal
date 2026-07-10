@@ -1,0 +1,4 @@
+gate,rows_checked,failures,pass,evidence
+CERTIFICATE_IS_DATA,1,0,True,worked target basis_matrix_json is explicit integer matrix
+RADICAL_BII_ZERO,1,0,True,"no R block emitted unless b(v,v)=0 and ambient radical test passes"
+FORM_SPEC_COMPLETE,7,0,True,"D2_core, odd_cofactors, diag_units_mod_2D, edges_2core carried for every archival core"

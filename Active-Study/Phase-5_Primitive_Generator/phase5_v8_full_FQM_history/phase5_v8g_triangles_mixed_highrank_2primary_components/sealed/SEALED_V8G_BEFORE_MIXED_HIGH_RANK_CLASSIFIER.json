@@ -1,0 +1,9 @@
+{
+  "sealed": true,
+  "blocking_open": [
+    "rank4 mixed 2-primary core full classifier",
+    "rank>=5 high-rank 2-primary components",
+    "mixed cross-shape rigidity general proof",
+    "Lean executable classifier"
+  ]
+}

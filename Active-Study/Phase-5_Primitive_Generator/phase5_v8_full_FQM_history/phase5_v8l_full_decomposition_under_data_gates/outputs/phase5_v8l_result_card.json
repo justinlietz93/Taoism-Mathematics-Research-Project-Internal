@@ -1,0 +1,16 @@
+{
+  "phase": "Phase 5 v8l",
+  "title": "Full Decomposition Under Data Gates",
+  "status": "V8L_TRUE_DIAGONAL_RANK4_TABLE_CLOSED_FULL_DECOMPOSITION_BLOCKING_OPEN",
+  "global_pass": true,
+  "phase5_closed": false,
+  "true_diag_rank4_forms": 512,
+  "true_diag_rank4_classes": 14,
+  "true_diag_rank4_decision_rows": 530,
+  "archival_true_diag_class_id": 5,
+  "groundtruth_rows": 229,
+  "groundtruth_verified_decomposition_certificates": 1,
+  "rankge5_cores": 5,
+  "rankge5_verified_decomposition_certificates": 0,
+  "claim_overreach": false
+}

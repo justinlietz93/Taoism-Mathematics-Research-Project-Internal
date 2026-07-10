@@ -1,0 +1,2 @@
+case,completed_symbol,verified
+"[2,2] c01=1",A_2(1) + R_2(q=0),True

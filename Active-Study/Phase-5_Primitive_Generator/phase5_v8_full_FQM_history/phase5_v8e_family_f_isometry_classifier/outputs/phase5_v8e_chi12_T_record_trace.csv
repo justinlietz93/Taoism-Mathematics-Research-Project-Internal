@@ -1,0 +1,5 @@
+event_step,r,pre_L_seat_mod6,parity_latch,post_L_seat_mod12,chi12,r2_mod24,q,support_reachable_from_T_record
+orthad_T_to_Z12_chi12,1,1,0,1,1,1,1/24,True
+orthad_T_to_Z12_chi12,5,5,0,5,-1,1,1/24,True
+orthad_T_to_Z12_chi12,7,1,1,7,-1,1,1/24,True
+orthad_T_to_Z12_chi12,11,5,1,11,1,1,1/24,True

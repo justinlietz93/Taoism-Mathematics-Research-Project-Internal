@@ -1,0 +1,26 @@
+{
+  "shape": [
+    4,
+    4,
+    2,
+    16
+  ],
+  "example_class": {
+    "class_id": 1,
+    "representative": "{\"c01\": 1, \"c02\": 2, \"c03\": 12, \"c12\": 2, \"c13\": 4, \"c23\": 8}",
+    "orbit_size": 16,
+    "radical_size": 4,
+    "nondegenerate": false,
+    "gauss_magnitude": 45.25483399593905,
+    "sqrt_order": 22.627416997969522,
+    "milgram_magnitude_pass": "",
+    "gauss_signature_mod8": 5.0,
+    "oddity_proxy_mod8": 5.0,
+    "odd_p_excess": 0,
+    "has_connected_representative": true,
+    "has_disconnected_representative": false,
+    "split_status": "NO_GRAPH_DISCONNECTED_REPRESENTATIVE_IN_SAME_SHAPE_ORBIT__NOT_INDECOMPOSABLE_CLAIM",
+    "component_shapes_seen": "[\"(4,)\"]",
+    "example_disconnected_representative": ""
+  }
+}

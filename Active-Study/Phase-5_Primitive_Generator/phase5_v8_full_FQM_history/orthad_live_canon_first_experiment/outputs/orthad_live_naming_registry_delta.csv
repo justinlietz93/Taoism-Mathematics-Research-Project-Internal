@@ -1,0 +1,3 @@
+term,meaning,forbidden_reading
+ORTHAD_LIVE,live deterministic QBL lift and channel readout layer; no meta-layer equality machinery inside it,classifier or external verifier
+character-channel survival,equality of the separated chi12 channel before and after the emitted crossing map,full Shadow Residual q-series theorem

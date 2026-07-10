@@ -1,0 +1,2 @@
+case,target_symbol,radical_first_result,pointwise_verified_by_audit,v8j_status
+"[2,2] c01=1",A_2(1) + R_2(q=0),A_2(1) + R_2(q=0),True,REPRODUCED_CLOSED_POSITIVE

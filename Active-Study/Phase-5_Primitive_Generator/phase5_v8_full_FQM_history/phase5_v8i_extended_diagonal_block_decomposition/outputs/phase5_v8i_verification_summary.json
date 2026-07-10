@@ -1,0 +1,16 @@
+{
+  "phase": "Phase 5 v8i",
+  "status": "V8I_PROVENANCE_PATCH_CLOSED_EXTENDED_DIAGONAL_SPLITTER_FAILED_GROUND_TRUTH_VALIDATION_RANKGE5_BLOCKING_OPEN",
+  "global_pass": true,
+  "phase5_closed": false,
+  "v8c": "SUSPENDED_REMAINS_SUSPENDED",
+  "edge_patch_closed": true,
+  "rank10_restored_edge_count": 41,
+  "rank12_restored_edge_count": 62,
+  "groundtruth_validation_rows": 229,
+  "groundtruth_split_success_rows": 138,
+  "rankge5_cases": 5,
+  "rankge5_decomposed_to_blocks": 0,
+  "rankge5_blocking_open": 5,
+  "classifier_claim": false
+}

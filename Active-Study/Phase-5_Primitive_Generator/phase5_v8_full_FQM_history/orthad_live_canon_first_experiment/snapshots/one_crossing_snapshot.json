@@ -1,0 +1,19 @@
+{
+  "qbl_word": "BL",
+  "event_sequence": [
+    "B",
+    "FLOOR",
+    "L"
+  ],
+  "pair_before": [
+    34,
+    55
+  ],
+  "pair_after_B": [
+    55,
+    89
+  ],
+  "latched_axis": "(0+1i)/4895",
+  "channels": 12,
+  "character_survival": 12
+}

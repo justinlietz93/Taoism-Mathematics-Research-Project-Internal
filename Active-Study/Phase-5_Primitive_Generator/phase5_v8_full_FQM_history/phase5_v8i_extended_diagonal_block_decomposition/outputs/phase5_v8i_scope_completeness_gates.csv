@@ -1,0 +1,4 @@
+range,expected_rows,disposition_rows,missing_rows,pass
+provenance_patch_v8g_vs_v8h,7,7,0,True
+rankge5_corrected_residuals,5,5,0,True
+groundtruth_validation_tables,229,229,0,True

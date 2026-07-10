@@ -1,0 +1,34 @@
+{
+  "D1": 8,
+  "D2": 8,
+  "classes": [
+    {
+      "D1": 8,
+      "D2": 8,
+      "class_id": 0,
+      "c_residues": "[0, 4]",
+      "class_size": 2
+    },
+    {
+      "D1": 8,
+      "D2": 8,
+      "class_id": 1,
+      "c_residues": "[1, 7]",
+      "class_size": 2
+    },
+    {
+      "D1": 8,
+      "D2": 8,
+      "class_id": 2,
+      "c_residues": "[2, 6]",
+      "class_size": 2
+    },
+    {
+      "D1": 8,
+      "D2": 8,
+      "class_id": 3,
+      "c_residues": "[3, 5]",
+      "class_size": 2
+    }
+  ]
+}

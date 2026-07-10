@@ -1,0 +1,4 @@
+target,status,kill_condition
+construct 229/229 explicit block certificates,BLOCKING_OPEN,any claimed block certificate fails SNF/order/cross-b/q-b verification
+rank>=5 residual block certificates,BLOCKING_OPEN,failure to emit verified basis matrix for each corrected core
+symbol classifier relation proof,DEFERRED,distinct ground-truth orbits collapse under claimed symbol equality

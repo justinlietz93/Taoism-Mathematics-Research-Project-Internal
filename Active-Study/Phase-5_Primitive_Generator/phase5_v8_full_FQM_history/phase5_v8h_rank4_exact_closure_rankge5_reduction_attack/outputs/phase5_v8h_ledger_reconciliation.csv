@@ -1,0 +1,5 @@
+ledger_rule,result,evidence
+ledger source of truth,applied,PHASE5_CANONICAL_LEDGER copied to source_notes
+scope-completeness gate,passed,"512/512 rank4 dispositions, zero missing"
+classifier only with orbit ground truth,passed,status classifier restricted to rank4 full same-shape range
+same-shape split not indecomposable proof,passed,no indecomposable claim emitted

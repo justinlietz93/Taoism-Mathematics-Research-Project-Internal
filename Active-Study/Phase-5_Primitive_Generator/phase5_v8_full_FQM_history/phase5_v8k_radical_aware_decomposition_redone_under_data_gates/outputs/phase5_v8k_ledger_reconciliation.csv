@@ -1,0 +1,6 @@
+ledger_item,package_action
+v8j decomposition claims rejected,not reused; remains rejected
+CERTIFICATE_IS_DATA,worked certificate is matrix data; no prose certificate emitted as positive evidence
+RADICAL_BII_ZERO,automatic gate emitted; no R block with nonzero bii
+FORM_SPEC_COMPLETE,diag_units_mod_2D emitted for archival cores
+v8h rank4 suspended pending retro-check,retro-check run with true diagonal units; archival case rerouted

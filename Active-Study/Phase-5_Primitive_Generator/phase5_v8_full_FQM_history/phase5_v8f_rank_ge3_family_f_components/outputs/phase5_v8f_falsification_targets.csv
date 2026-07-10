@@ -1,0 +1,4 @@
+target,status,falsifier
+mixed_high_rank_2primary_component_classifier,BLOCKING_OPEN,Find complete exact isometry decision for all routed v7u mixed/high-rank components or a proof they split to lower ranks.
+cross_shape_rigidity_lemma,OPEN,A same-group different-shape isometry witness invalidates shape-rigidity assumptions.
+alphabet_growth_reopens_F,STANDING_CONDITION,Any new T event arity or new incidence form outside pairwise bilinear reopens containment proof.

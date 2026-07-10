@@ -1,0 +1,8 @@
+D1,D2,invariant_key,ground_truth_classes_not_separated,residual_wall
+8,8,"((8, 8), 64, 1, 2, ((2, 'oddity', 2, 64, 64),))","[0, 2]",INVARIANT_SET_NOT_COMPLETE_USE_EXACT_ORBIT_TABLE
+8,24,"((8, 24), 192, 1, 2, ((2, 'oddity', 0, 64, 64), (3, 'p_excess', 2, 3, 3)))","[0, 2]",INVARIANT_SET_NOT_COMPLETE_USE_EXACT_ORBIT_TABLE
+8,32,"((8, 32), 256, 1, 2, ((2, 'oddity', 2, 256, 256),))","[0, 1]",INVARIANT_SET_NOT_COMPLETE_USE_EXACT_ORBIT_TABLE
+24,24,"((24, 24), 576, 1, 2, ((2, 'oddity', 6, 64, 64), (3, 'p_excess', 4, 9, 9)))","[0, 6]",INVARIANT_SET_NOT_COMPLETE_USE_EXACT_ORBIT_TABLE
+24,24,"((24, 24), 576, 3, 0, ((2, 'oddity', 6, 64, 64), (3, 'p_excess', 2, 27, 9)))","[2, 4]",INVARIANT_SET_NOT_COMPLETE_USE_EXACT_ORBIT_TABLE
+24,32,"((24, 32), 768, 1, 2, ((2, 'oddity', 0, 256, 256), (3, 'p_excess', 2, 3, 3)))","[0, 1]",INVARIANT_SET_NOT_COMPLETE_USE_EXACT_ORBIT_TABLE
+32,32,"((32, 32), 1024, 1, 2, ((2, 'oddity', 2, 1024, 1024),))","[0, 2]",INVARIANT_SET_NOT_COMPLETE_USE_EXACT_ORBIT_TABLE

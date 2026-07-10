@@ -1,0 +1,6 @@
+claim,status,scope,evidence
+F1 archival edge+diag provenance diff,CLOSED_POSITIVE,six edge values + diag units,phase5_v8m_f1_archival_edge_diag_provenance_diff.csv
+F2 stable class keys for true-diagonal rank4 table,CLOSED_POSITIVE,14 true-diagonal classes,canonical representative + order/q fingerprint emitted; class 6 vs 5 reconciled
+F3 global_pass semantics,CLOSED_POSITIVE,result card semantics,global_pass is AND of declared gates
+229 explicit basis-matrix certificates,CLOSED_POSITIVE_ON_CERTIFICATE_GATE,229 ground-truth rows,229/229 certificate_verified=True under package verifier
+229 radical direct-summand decomposition,BLOCKING_OPEN,229 ground-truth rows,26 rows require unsplit degenerate GRAM block; failure vectors emitted

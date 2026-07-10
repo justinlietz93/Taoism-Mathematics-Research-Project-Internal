@@ -1,0 +1,16 @@
+{
+  "phase": "Phase 5 v8j",
+  "title": "Radical-Aware Block Decomposition",
+  "status": "V8J_RADICAL_AWARE_BLOCK_DECOMPOSITION_CLOSED_ON_TESTED_RANGE_RANKGE5_RESIDUALS_DECOMPOSED_SYMBOL_CLASSIFIER_BLOCKING_OPEN",
+  "global_pass": true,
+  "phase5_closed": false,
+  "groundtruth_rows": 229,
+  "groundtruth_decomposed": 229,
+  "nondegenerate_rows": 138,
+  "degenerate_rows": 91,
+  "non_summand_cases_groundtruth": 0,
+  "rankge5_rows": 5,
+  "rankge5_decomposed": 5,
+  "symbol_relation_rows": 65,
+  "classifier_claim": false
+}

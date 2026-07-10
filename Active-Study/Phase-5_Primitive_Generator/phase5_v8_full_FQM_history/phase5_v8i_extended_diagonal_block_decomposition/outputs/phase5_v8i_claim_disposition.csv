@@ -1,0 +1,6 @@
+claim,status,scope,evidence
+rank10_large and rank12_large edge-data restored from upstream v8g/audit,CLOSED_POSITIVE,provenance patch,phase5_v8i_provenance_diff.csv; corrected_rankge5_routing.csv
+provenance gate emitted programmatic diff before carrying archival data,CLOSED_POSITIVE,cross-package archival routing,phase5_v8i_provenance_diff.csv
+extended-diagonal splitter is validated against all available ground-truth orbit tables,CLOSED_NEGATIVE_ON_TESTED_RANGE,v8e/v8g/v8h representatives,splitter failures on ground-truth representatives; no classifier claim emitted
+rank>=5 residual cores decompose completely into v7s A/U/V blocks,BLOCKING_OPEN,rank5/6/8/10/12 corrected residual cores,phase5_v8i_rankge5_decomposition_attempts.csv
+block-symbol comparison decides isometry for rank>=5 residuals,BLOCKING_OPEN,requires validated splitter and relation set,splitter validation failed; relation catalog is observational only

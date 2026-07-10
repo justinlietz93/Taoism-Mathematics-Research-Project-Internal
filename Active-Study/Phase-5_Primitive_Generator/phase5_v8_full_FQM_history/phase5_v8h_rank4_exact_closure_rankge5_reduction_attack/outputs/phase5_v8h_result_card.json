@@ -1,0 +1,21 @@
+{
+  "phase": "Phase 5 v8h",
+  "status": "V8H_RANK4_MIXED_SAME_SHAPE_CLASSIFIER_CLOSED_ON_FULL_RANGE_RANK_GE5_REDUCTION_RESIDUALS_BLOCKING_OPEN",
+  "global_pass": true,
+  "phase5_closed": false,
+  "rank4_shape": [
+    4,
+    4,
+    2,
+    16
+  ],
+  "rank4_forms": 512,
+  "rank4_orbit_classes": 14,
+  "classification_decisions": 530,
+  "rank4_scope_missing_rows": 0,
+  "archival_rank4_closed": true,
+  "archival_rank_ge5_blocking_open": 5,
+  "compact_invariant_collision_groups": 0,
+  "cross_shape_rigidity_status": "NOT_USED_AS_THEOREM",
+  "split_law": "same-shape split search is not an indecomposability proof"
+}

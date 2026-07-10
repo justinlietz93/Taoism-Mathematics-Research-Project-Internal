@@ -1,0 +1,5 @@
+claim,status,scope,evidence
+"rank4 [4,4,2,16] same-shape isometry classifier on full representative-invariant range",CLOSED_POSITIVE,"512 Family-F presentations on shape [4,4,2,16]","exact pullback-form search, 14 orbit classes, 530 decision certificates"
+rank>=5 high-rank Family-F classifier,BLOCKING_OPEN,v7u rank5/6/8/10/12 residuals,p-primary split and naming done; no exhaustive orbit/split certificate above rank4
+same-shape split search proves indecomposable,CLOSED_NEGATIVE,all split language,ledger law; v8h uses no indecomposable claim from same-shape search
+compact invariants classify rank4 range,CLOSED_NEGATIVE_ON_TESTED_RANGE,"rank4 [4,4,2,16] compact invariant harvest",0 collision groups

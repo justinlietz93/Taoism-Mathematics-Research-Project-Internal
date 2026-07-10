@@ -1,0 +1,4 @@
+target,status,falsifier
+rank4_mixed_2primary_core_full_classifier,BLOCKING_OPEN,"Exact orbit classifier for [4,4,2,16] core or proof it decomposes outside same-shape target range."
+rank_ge5_high_rank_split_certificates,BLOCKING_OPEN,Certified orthogonal decomposition or exact irreducible core classifier for each routed high-rank v7u case.
+mixed_cross_shape_rigidity_general,OPEN,"Any same-group different-shape isometry witness, or a general proof resolving all mixed aliases."
