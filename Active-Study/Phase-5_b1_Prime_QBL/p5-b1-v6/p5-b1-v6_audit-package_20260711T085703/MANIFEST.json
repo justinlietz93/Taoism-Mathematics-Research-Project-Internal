@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "bytes": 5718,
+      "path": "AUDIT_RESULTS.md",
+      "sha256": "5391b69fdb014c0902dd5e0d61df1ad2ee1e2868c8581d9b773f48f1eeb94cfa"
+    },
+    {
+      "bytes": 4913,
+      "path": "OUTGOING_INSTRUCTIONS.md",
+      "sha256": "115c80f3b184ef16c8125864b37f32fc30d358394ae90215f8ad7bb300bad1fb"
+    },
+    {
+      "bytes": 1233,
+      "path": "README.md",
+      "sha256": "a9977b150d031c3ab3546a570ec2eb0b45a83d53386f0413705d1f4cd50756a7"
+    },
+    {
+      "bytes": 805,
+      "path": "SOURCE_MAP.md",
+      "sha256": "e3c6a505697798b2b4aece2bfc7c4f5c3951966ffbb475d6ef825a3c716b96f9"
+    },
+    {
+      "bytes": 643,
+      "path": "outputs/p5-b1-v6_audit-summary.json",
+      "sha256": "9bd2b6ce85ec4ae8c4c1ef634e237ec8b54e3da90a6d0bfb222aca7180cb661c"
+    },
+    {
+      "bytes": 307,
+      "path": "outputs/p5-b1-v6_clean-rebuild.log",
+      "sha256": "2ed9a45f161ac355095f87968f5b3913f72133293c156df03ca72f353c7fc1ad"
+    },
+    {
+      "bytes": 978,
+      "path": "outputs/p5-b1-v6_language-output-verification.json",
+      "sha256": "880700e5e8d2756ed44062b0032eb9484246e52fe0be0a4008ad295987144949"
+    },
+    {
+      "bytes": 978,
+      "path": "outputs/p5-b1-v6_language-output-verification.log",
+      "sha256": "880700e5e8d2756ed44062b0032eb9484246e52fe0be0a4008ad295987144949"
+    },
+    {
+      "bytes": 829,
+      "path": "outputs/p5-b1-v6_package-verification.json",
+      "sha256": "9cce9265ea1a91c6de0b0fbf1929dd66bbcf48add3142266079b8fb8ba549670"
+    },
+    {
+      "bytes": 829,
+      "path": "outputs/p5-b1-v6_package-verification.log",
+      "sha256": "9cce9265ea1a91c6de0b0fbf1929dd66bbcf48add3142266079b8fb8ba549670"
+    },
+    {
+      "bytes": 54,
+      "path": "requirements.txt",
+      "sha256": "ec64d5b3a5f35ed7a3ee2b7127afd3def1c6b2f6b8ee37dc1c946f0ef323376f"
+    },
+    {
+      "bytes": 4186,
+      "path": "scripts/p5-b1-v6_verify_agent_package.py",
+      "sha256": "927cabc7d6a8e76436fa9ae5f7265cfc5522562a9b6a7c3a3bea127e4e62fc2e"
+    },
+    {
+      "bytes": 3571,
+      "path": "scripts/p5-b1-v6_verify_language_outputs.py",
+      "sha256": "7656a57cf9d01bc8a20830af60b33dd7b469175fe0a8e594da7eebd998b87e40"
+    },
+    {
+      "bytes": 1809,
+      "path": "source-extracts/AGENT_FINDINGS.md",
+      "sha256": "c092ee8454a21a66eec7312d4cdbebe3feaf5cbfd6d9ce8af829e8ac309002b3"
+    },
+    {
+      "bytes": 1377,
+      "path": "source-extracts/AGENT_README.md",
+      "sha256": "2803a499455cb992be024d3e77b28ee1b0bc6a0b514908d5f4f955e6d51646bd"
+    },
+    {
+      "bytes": 16693,
+      "path": "source-extracts/QBL_CARRY_AFFINE_LANGUAGE_STRUCTURE_v4.md",
+      "sha256": "b3b75959831fd868b98672eb17eacabc0c4d59432107e371dffe9b9fad4c814b"
+    },
+    {
+      "bytes": 497,
+      "path": "source-references/p5-b1-v6_audited-artifacts.json",
+      "sha256": "184ccd27fe4e6cf95b5fb923009d8bd42002120860ebced149ec9424c15fc6ab"
+    }
+  ],
+  "step_id": "p5-b1-v6",
+  "timestamp": "20260711T085703",
+  "type": "audit-package"
+}

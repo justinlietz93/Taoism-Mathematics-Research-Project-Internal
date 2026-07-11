@@ -1,0 +1,6 @@
+target,kill_condition
+legal_rewrite_changes_coupling_class,two trace-equivalent histories produce non-gauge-equivalent overlap/holonomy object
+nonconfluent_QBL_rewrite_system,same admissible history has no unique normal representative under declared independence
+cocycle_incompatibility,history passes local extraction but fails required overlap compatibility
+basis_matrix_mistaken_for_invariant,"basis change changes C but not (D,q), and canon still treats raw C as primitive"
+VDM_runtime_instability,runtime graph event legal rewrites do not preserve extracted gauge class

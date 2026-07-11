@@ -1,0 +1,45 @@
+{
+  "after_L": {
+    "A": 1,
+    "j": 7,
+    "k": 0,
+    "pair": [
+      55,
+      89
+    ],
+    "pair_product": 4895,
+    "phase_label": "i",
+    "phase_mod4": 1,
+    "phase_quarters": 5,
+    "u": 55,
+    "v": 89,
+    "word": "BQQBBBQBQBBQBBL"
+  },
+  "after_first_next_domain_B": {
+    "A": 1,
+    "j": 7,
+    "k": 0,
+    "pair": [
+      89,
+      144
+    ],
+    "pair_product": 12816,
+    "phase_label": "i",
+    "phase_mod4": 1,
+    "phase_quarters": 5,
+    "u": 89,
+    "v": 144,
+    "word": "BQQBBBQBQBBQBBLB"
+  },
+  "first_next_domain_primitive": "B",
+  "floor_pair": [
+    55,
+    89
+  ],
+  "floor_product": 4895,
+  "floor_reached": true,
+  "phase_at_boundary": "i",
+  "phase_quarters_at_boundary": 5,
+  "q_steps": 5,
+  "word": "BQQBBBQBQBBQBBL"
+}

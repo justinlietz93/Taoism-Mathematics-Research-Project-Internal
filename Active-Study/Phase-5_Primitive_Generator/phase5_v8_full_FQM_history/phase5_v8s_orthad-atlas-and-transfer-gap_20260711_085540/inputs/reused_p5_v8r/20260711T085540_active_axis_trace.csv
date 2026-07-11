@@ -1,0 +1,17 @@
+step_index,primitive,word_prefix,A,pair,global_phase_quarters,active_phase_quarters,active_phase_mod4,phase_factor,denominator,active_axis,latched_axis,active_axis_after_l
+1,B,B,0,"[1, 2]",0,0,0,1,2,1/2,,
+2,Q,BQ,0,"[1, 2]",1,1,1,i,2,i/2,,
+3,Q,BQQ,0,"[1, 2]",2,2,2,-1,2,-1/2,,
+4,B,BQQB,0,"[2, 3]",2,2,2,-1,6,-1/6,,
+5,B,BQQBB,0,"[3, 5]",2,2,2,-1,15,-1/15,,
+6,B,BQQBBB,0,"[5, 8]",2,2,2,-1,40,-1/40,,
+7,Q,BQQBBBQ,0,"[5, 8]",3,3,3,-i,40,-i/40,,
+8,B,BQQBBBQB,0,"[8, 13]",3,3,3,-i,104,-i/104,,
+9,Q,BQQBBBQBQ,0,"[8, 13]",4,4,0,1,104,1/104,,
+10,B,BQQBBBQBQB,0,"[13, 21]",4,4,0,1,273,1/273,,
+11,B,BQQBBBQBQBB,0,"[21, 34]",4,4,0,1,714,1/714,,
+12,Q,BQQBBBQBQBBQ,0,"[21, 34]",5,5,1,i,714,i/714,,
+13,B,BQQBBBQBQBBQB,0,"[34, 55]",5,5,1,i,1870,i/1870,,
+14,B,BQQBBBQBQBBQBB,0,"[55, 89]",5,5,1,i,4895,i/4895,,
+15,L,BQQBBBQBQBBQBBL,1,"[55, 89]",5,0,0,1,1,1,i/4895,1
+16,B,BQQBBBQBQBBQBBLB,1,"[89, 144]",5,0,0,1,12816,1/12816,,

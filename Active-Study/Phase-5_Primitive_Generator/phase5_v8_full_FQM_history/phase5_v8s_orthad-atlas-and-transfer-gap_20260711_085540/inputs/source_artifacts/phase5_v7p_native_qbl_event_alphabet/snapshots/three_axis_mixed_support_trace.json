@@ -1,0 +1,117 @@
+{
+  "events": [
+    "B0",
+    "L0",
+    "Q1",
+    "B1",
+    "L1",
+    "Q2",
+    "O0_2"
+  ],
+  "foata": [
+    [
+      "B0"
+    ],
+    [
+      "L0"
+    ],
+    [
+      "B1",
+      "Q1"
+    ],
+    [
+      "L1"
+    ],
+    [
+      "Q2"
+    ],
+    [
+      "O0_2"
+    ]
+  ],
+  "signature": {
+    "axes": {
+      "0": {
+        "born": true,
+        "latched": true,
+        "theta": 0,
+        "u": 1,
+        "v": 2
+      },
+      "1": {
+        "born": true,
+        "latched": true,
+        "theta": 1,
+        "u": 1,
+        "v": 2
+      },
+      "2": {
+        "born": true,
+        "latched": false,
+        "theta": 1,
+        "u": 1,
+        "v": 1
+      }
+    },
+    "contact_clock": 2,
+    "contact_z": 10,
+    "edges": {
+      "0:1": 2,
+      "1:2": 4
+    },
+    "hol": {}
+  },
+  "trace": [
+    {
+      "axis": 0,
+      "effect": "balanced_refine",
+      "event": "B0",
+      "u": 1,
+      "v": 2
+    },
+    {
+      "axis": 0,
+      "contact_z": 2,
+      "dc": 2,
+      "dz": 2,
+      "effect": "latch_birth_contact",
+      "event": "L0",
+      "new_axis": 1
+    },
+    {
+      "axis": 1,
+      "effect": "theta+1",
+      "event": "Q1",
+      "theta": 1
+    },
+    {
+      "axis": 1,
+      "effect": "balanced_refine",
+      "event": "B1",
+      "u": 1,
+      "v": 2
+    },
+    {
+      "axis": 1,
+      "contact_z": 10,
+      "dc": 4,
+      "dz": 8,
+      "effect": "latch_birth_contact",
+      "event": "L1",
+      "new_axis": 2
+    },
+    {
+      "axis": 2,
+      "effect": "theta+1",
+      "event": "Q2",
+      "theta": 1
+    },
+    {
+      "dc": 0,
+      "edge": 0,
+      "effect": "overlap_pair_update",
+      "event": "O0_2",
+      "pair": "0:2"
+    }
+  ]
+}

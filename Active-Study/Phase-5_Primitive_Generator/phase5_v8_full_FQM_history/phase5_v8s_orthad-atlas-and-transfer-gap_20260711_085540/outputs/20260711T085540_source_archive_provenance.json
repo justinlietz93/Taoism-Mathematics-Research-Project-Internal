@@ -1,0 +1,28 @@
+{
+  "audit_zip_sha256": "09825787b8bb266957229d7eb5256085c1b841c395fe87d84f071e9e1c12f306",
+  "baseline_zip_sha256": "5456edffbdc482564904e37aac6565ab39a11036be9959a20935982dc5184556",
+  "embedded_artifacts": {
+    "v7m": {
+      "source_root": "phase5_v7_closure_and_orientation/phase5_v7m_trace_cocycle_normal_form",
+      "tree_sha256": "d2aa1e6c94de937a07fbc3da8cf439e174b4fe91dd1d16f3352441466ca14af9"
+    },
+    "v7p": {
+      "source_root": "phase5_v7_closure_and_orientation/phase5_v7p_native_qbl_event_alphabet",
+      "tree_sha256": "246b6e9239215c8b6f2c719c535677f3150d6659ae2f2e2480a17268ee033ce2"
+    },
+    "v7q": {
+      "source_root": "phase5_v7_closure_and_orientation/phase5_v7q_native_transition_assignment",
+      "tree_sha256": "709312774ba59de402aca1b32b7b9e50957113ad9053c70e663e3785ae1db8f9"
+    },
+    "v7u": {
+      "source_root": "phase5_v7_closure_and_orientation/phase5_v7u_full_orthad_lens_compiler_binding",
+      "tree_sha256": "781143062593cfa207684f7c2bfcd2e62eb29f4aa6eb3fd69261e2daa8989018"
+    },
+    "v8a": {
+      "source_root": "phase5_v8_full_FQM_history/phase5_v8a_all_history_confluence_cocycle",
+      "tree_sha256": "da64057a2808429da7ba81e04d4811c339ae2cfbf29baef2f393dea50b57f870"
+    }
+  },
+  "source_archive_path": "Phase-5_v7-v8_Primitive_Generator.zip",
+  "source_archive_sha256": "5486f0c5fe377ab8155b0871ea9355e6372bf268bc119e4c0bf8f0368e0faa09"
+}

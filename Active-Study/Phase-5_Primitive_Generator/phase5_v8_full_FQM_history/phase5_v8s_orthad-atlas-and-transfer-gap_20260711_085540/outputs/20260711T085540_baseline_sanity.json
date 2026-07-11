@@ -1,0 +1,32 @@
+{
+  "after_first_next_domain_B": {
+    "A": 1,
+    "j": 7,
+    "k": 0,
+    "pair": [
+      89,
+      144
+    ],
+    "phase_quarters": 5,
+    "word": "BQQBBBQBQBBQBBLB"
+  },
+  "baseline_zip_sha256": "5456edffbdc482564904e37aac6565ab39a11036be9959a20935982dc5184556",
+  "first_floor_pair": [
+    55,
+    89
+  ],
+  "first_floor_phase_quarters": 5,
+  "immediately_after_L": {
+    "A": 1,
+    "j": 7,
+    "k": 0,
+    "pair": [
+      55,
+      89
+    ],
+    "phase_quarters": 5,
+    "word": "BQQBBBQBQBBQBBL"
+  },
+  "pass": true,
+  "word_through_first_L": "BQQBBBQBQBBQBBL"
+}

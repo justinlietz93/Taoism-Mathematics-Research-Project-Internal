@@ -1,0 +1,12 @@
+{
+  "step_id": "p5-b1-v6",
+  "agent_package": {
+    "name": "p5-b1-v6_affine-language-structure_20260711T083401.zip",
+    "sha256": "2b21db666b26273b0ba945b0f9a855bf074596ac6a67237f2e571ad7e29fb3af"
+  },
+  "primary_document": {
+    "name": "QBL_CARRY_AFFINE_LANGUAGE_STRUCTURE_v4.md",
+    "sha256": "b3b75959831fd868b98672eb17eacabc0c4d59432107e371dffe9b9fad4c814b"
+  },
+  "audit_target": "affine language complexity, entropy, non-soficity, mixing, finite Markov witnesses, and reproducibility"
+}

@@ -1,0 +1,5 @@
+frontier,status,blocker
+full native QBL support semantics,OPEN,current model uses finite axis tokens and derived O events; full Orthad lens support must be integrated
+transition assignment T,OPEN,event-to-cocycle map needs canonical extraction from native lens/overlap data
+gauge/isometry classifier,OPEN,finite quadratic module classifier and 2-primary convention not yet embedded
+VDM runtime substrate test,NEXT,map runtime graph events to the same support-derived event schema

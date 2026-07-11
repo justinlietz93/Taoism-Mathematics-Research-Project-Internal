@@ -1,0 +1,21 @@
+{
+  "actual_nonmanifest_files": 57,
+  "document_hash_pass": true,
+  "document_sha256": "b3b75959831fd868b98672eb17eacabc0c4d59432107e371dffe9b9fad4c814b",
+  "expected_document_sha256": "b3b75959831fd868b98672eb17eacabc0c4d59432107e371dffe9b9fad4c814b",
+  "expected_zip_sha256": "2b21db666b26273b0ba945b0f9a855bf074596ac6a67237f2e571ad7e29fb3af",
+  "manifest_entries": 57,
+  "manifest_extra_entries": [],
+  "manifest_issues": [],
+  "manifest_missing_entries": [],
+  "manifest_pass": true,
+  "notebook_code_cells": 15,
+  "notebook_error_cells": [],
+  "notebook_pass": true,
+  "notebook_pass_cells": 15,
+  "notebook_png_outputs": 15,
+  "overall_pass": true,
+  "root": "p5-b1-v6_affine-language-structure_20260711T083401",
+  "zip_hash_pass": true,
+  "zip_sha256": "2b21db666b26273b0ba945b0f9a855bf074596ac6a67237f2e571ad7e29fb3af"
+}

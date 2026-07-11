@@ -1,0 +1,28 @@
+word,edge_envelope,realizable,cylinder,reason
+777,False,False,,zero pair edge
+778,False,False,,zero pair edge
+779,False,False,,zero pair edge
+787,True,False,,forbidden 787 at current a
+788,True,True,"(-1,-7/4*a -1/2]",nonempty exact affine cylinder
+789,True,True,"(-7/4*a -1/2,-3/2*a -1/2]",nonempty exact affine cylinder
+797,True,True,"(-3/2*a -1/2,-7/4*a -3/8]",nonempty exact affine cylinder
+798,True,True,"(-7/4*a -3/8,-a -1/2]",nonempty exact affine cylinder
+799,False,False,,zero pair edge
+877,False,False,,zero pair edge
+878,True,True,"(-a -1/2,-7/4*a -1/4]",nonempty exact affine cylinder
+879,True,True,"(-7/4*a -1/4,-3/2*a -1/4]",nonempty exact affine cylinder
+887,True,True,"(-3/2*a -1/4,-7/4*a -1/8]",nonempty exact affine cylinder
+888,True,True,"(-7/4*a -1/8,-7/4*a]",nonempty exact affine cylinder
+889,True,True,"(-7/4*a,-3/2*a]",nonempty exact affine cylinder
+897,True,True,"(-3/2*a,-7/4*a + 1/8]",nonempty exact affine cylinder
+898,True,True,"(-7/4*a + 1/8,-a]",nonempty exact affine cylinder
+899,False,False,,zero pair edge
+977,False,False,,zero pair edge
+978,True,True,"(-a,-7/4*a + 1/4]",nonempty exact affine cylinder
+979,True,True,"(-7/4*a + 1/4,-3/2*a + 1/4]",nonempty exact affine cylinder
+987,True,True,"(-3/2*a + 1/4,-7/4*a + 3/8]",nonempty exact affine cylinder
+988,True,True,"(-7/4*a + 3/8,0]",nonempty exact affine cylinder
+989,True,False,,forbidden 989 interval
+997,False,False,,zero pair edge
+998,False,False,,zero pair edge
+999,False,False,,zero pair edge

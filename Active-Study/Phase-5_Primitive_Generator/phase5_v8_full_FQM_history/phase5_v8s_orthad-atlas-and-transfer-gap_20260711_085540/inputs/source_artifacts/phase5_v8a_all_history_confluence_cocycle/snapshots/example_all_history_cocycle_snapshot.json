@@ -1,0 +1,30 @@
+{
+  "example_history": [
+    "Q0",
+    "B2",
+    "O0_2",
+    "L2",
+    "Q3",
+    "O2_3",
+    "R3"
+  ],
+  "foata_form": [
+    [
+      "B2",
+      "Q0"
+    ],
+    [
+      "L2",
+      "O0_2"
+    ],
+    [
+      "Q3"
+    ],
+    [
+      "O2_3",
+      "R3"
+    ]
+  ],
+  "cocycle_law": "T_ab + T_bc + T_ca = 0 mod 12",
+  "status": "PASS"
+}

@@ -1,0 +1,62 @@
+Completed `p5-b1-v6`.
+
+The structural fork closes as follows:
+
+[
+p(n)=2^{n+1}-1,
+\qquad
+h_{\mathrm{affine}}=\log 2.
+]
+
+The complete refinement proof now explicitly establishes the bijection between complementary arcs and distinct cylinder words. The actual affine carry language is also:
+
+```text
+FINITE-STATE/SOFIC STATUS: PROVED NON-SOFIC
+ACTUAL AFFINE LANGUAGE MIXING: PROVED
+FINITE MARKOV ORDER: NONE
+```
+
+The non-soficity proof uses the infinitely many distinct follower-arc pairs forced by the irrational orbit of the cut point (p). The mixing proof comes directly from topological exactness of doubling on every nonempty open cylinder image.
+
+The order `1..10` witnesses were rebuilt using rational-affine endpoints (qa+r) and an outward-rounded enclosure of (a), replacing the truncated-decimal witnesses.
+
+[Corrected affine-language document](sandbox:/mnt/data/QBL_CARRY_AFFINE_LANGUAGE_STRUCTURE_v4.md)
+
+[Complete p5-b1-v6 experiment package](sandbox:/mnt/data/p5-b1-v6_affine-language-structure_20260711T083401.zip)
+
+[Package findings](sandbox:/mnt/data/p5-b1-v6_affine-language-structure_20260711T083401/FINDINGS.md)
+
+```text
+Document SHA-256:
+b3b75959831fd868b98672eb17eacabc0c4d59432107e371dffe9b9fad4c814b
+
+Package SHA-256:
+2b21db666b26273b0ba945b0f9a855bf074596ac6a67237f2e571ad7e29fb3af
+```
+
+Package verification:
+
+```text
+Manifest files:                    57
+Notebook code cells:               15
+Notebook cells passing:            15/15
+Figures emitted:                   15
+Semantic clean rebuild:            PASS
+Internal hash reproduction:        PASS
+Byte-identical archive rebuild:    PASS
+```
+
+Lean remains correctly bounded:
+
+```text
+LEAN SOURCE PRESENT; COMPILATION NOT VERIFIED
+```
+
+The existing research holds remain unchanged:
+
+```text
+SPECIFIC-ORBIT EQUIDISTRIBUTION: NOT PROVED
+GLOBAL T_A=ceil(y_A) BRIDGE: NOT YET PROVED
+GAUGE/FQM MAP FROM d_A=±1: NOT YET DERIVED
+```
+

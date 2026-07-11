@@ -1,0 +1,31 @@
+## Audit verdict
+
+```text
+REVISE
+
+AFFINE COMPLEXITY AND ENTROPY: ADOPT
+ACTUAL AFFINE LANGUAGE MIXING: ADOPT
+FINITE BOUNDARY CERTIFICATE: ADOPT
+NON-SOFICITY: WITHHOLD PENDING FOLLOWER-SET BRIDGE
+FINITE MARKOV ORDER NONE: WITHHOLD AS DEPENDENT CLAIM
+```
+
+The package hash, 57-file manifest, 15/15 notebook cells, figures, finite outputs, and byte-identical clean rebuild all pass.
+
+The remaining defect is narrow but load-bearing: the proof identifies the standard follower sets of **half-open word cylinders** with continuation languages of their **open interiors** without proving that included endpoints create no additional continuations. `p5-b1-v7` asks the agent to close that exact bridge before Branch 1 is marked complete.
+
+* [Download `p5-b1-v6_audit-package_20260711T085703.zip`](sandbox:/mnt/data/p5-b1-v6_audit-package_20260711T085703.zip)
+* [Read the audit results](sandbox:/mnt/data/p5-b1-v6_audit-package_20260711T085703/AUDIT_RESULTS.md)
+* [Read the `p5-b1-v7` instructions](sandbox:/mnt/data/p5-b1-v6_audit-package_20260711T085703/OUTGOING_INSTRUCTIONS.md)
+* [Download the SHA-256 file](sandbox:/mnt/data/p5-b1-v6_audit-package_20260711T085703.zip.sha256)
+
+```text
+SHA-256:
+9b104ce70fc445ac17f20c6e5dd0ae98fb65c44756fc7d5a5c5ff6947ecfa979
+```
+
+```text
+p5-b1 BRANCH STATUS: NOT YET CLOSED
+NEXT STEP: p5-b1-v7
+```
+

@@ -1,0 +1,81 @@
+{
+  "byte_identical_count": 11,
+  "compared_count": 11,
+  "contract": "normalized semantic reproducibility with byte-identical generated scientific artifacts",
+  "files": [
+    {
+      "match": true,
+      "path": "outputs/20260711T085540_baseline_sanity.json",
+      "rebuilt_sha256": "77fc7762233741d1987a39f6e100406421eca3d63e2f2de3c4253e6df25dd83c",
+      "sealed_sha256": "77fc7762233741d1987a39f6e100406421eca3d63e2f2de3c4253e6df25dd83c"
+    },
+    {
+      "match": true,
+      "path": "outputs/20260711T085540_source_lineage_inventory.csv",
+      "rebuilt_sha256": "46351773f5867e401cb0a3940eb0175889e5fcedd25122c2b81e491a406ecab8",
+      "sealed_sha256": "46351773f5867e401cb0a3940eb0175889e5fcedd25122c2b81e491a406ecab8"
+    },
+    {
+      "match": true,
+      "path": "outputs/20260711T085540_source_claim_matrix.csv",
+      "rebuilt_sha256": "dfcfd0951f1145289c47b33b6aee240ad01d998d69eef4496f6a807b456a4793",
+      "sealed_sha256": "dfcfd0951f1145289c47b33b6aee240ad01d998d69eef4496f6a807b456a4793"
+    },
+    {
+      "match": true,
+      "path": "outputs/20260711T085540_orthad_type_status.csv",
+      "rebuilt_sha256": "d1b168b5e5bcacb2ca69df42a8ce7b3deb038cd48d57bd460bf2ba37077ff319",
+      "sealed_sha256": "d1b168b5e5bcacb2ca69df42a8ce7b3deb038cd48d57bd460bf2ba37077ff319"
+    },
+    {
+      "match": true,
+      "path": "outputs/20260711T085540_typed_missing_bridge.json",
+      "rebuilt_sha256": "f3941da0fbfa4f3470d4bae6a6113887f659b1ca331089884f08a630e5676627",
+      "sealed_sha256": "f3941da0fbfa4f3470d4bae6a6113887f659b1ca331089884f08a630e5676627"
+    },
+    {
+      "match": true,
+      "path": "outputs/20260711T085540_bilinear_underdetermination_witness.json",
+      "rebuilt_sha256": "661f906f09a58c1a56c59fd916c778f4496c1a9f07933f98ee3c8cf6c64bf158",
+      "sealed_sha256": "661f906f09a58c1a56c59fd916c778f4496c1a9f07933f98ee3c8cf6c64bf158"
+    },
+    {
+      "match": true,
+      "path": "outputs/20260711T085540_active_scalar_role.json",
+      "rebuilt_sha256": "35ffe3be85b4f426325aec48ee1e1fc29b3d49fbfddb8a4c11bd1aff6bd99a9c",
+      "sealed_sha256": "35ffe3be85b4f426325aec48ee1e1fc29b3d49fbfddb8a4c11bd1aff6bd99a9c"
+    },
+    {
+      "match": true,
+      "path": "outputs/20260711T085540_historical_overlap_record_assessment.json",
+      "rebuilt_sha256": "ffb11758a932e18bd77ee2a48a743d277246e29af6f6e071973eb2f754e1906b",
+      "sealed_sha256": "ffb11758a932e18bd77ee2a48a743d277246e29af6f6e071973eb2f754e1906b"
+    },
+    {
+      "match": true,
+      "path": "outputs/20260711T085540_historical_coupling_formula_audit.csv",
+      "rebuilt_sha256": "8b2dde3f586a4b6849f9666018375081ddaa7bd7ffc4eb47539ba193e53b24ab",
+      "sealed_sha256": "8b2dde3f586a4b6849f9666018375081ddaa7bd7ffc4eb47539ba193e53b24ab"
+    },
+    {
+      "match": true,
+      "path": "outputs/20260711T085540_first_L_block_obligations.json",
+      "rebuilt_sha256": "8d69c5139e8115adffc056843ce3738da7c6396938c42add674e98fa278619d1",
+      "sealed_sha256": "8d69c5139e8115adffc056843ce3738da7c6396938c42add674e98fa278619d1"
+    },
+    {
+      "match": true,
+      "path": "outputs/20260711T085540_statuses.json",
+      "rebuilt_sha256": "02fdd10f7d234645154c496e634d170c0464f949f5f2f4a9bad420f8f77742ab",
+      "sealed_sha256": "02fdd10f7d234645154c496e634d170c0464f949f5f2f4a9bad420f8f77742ab"
+    }
+  ],
+  "normalized_exclusions": [
+    "MANIFEST.json",
+    "ZIP container metadata",
+    "detached response SHA-256",
+    "pytest JUnit timestamps",
+    "post-seal verifier output"
+  ],
+  "pass": true
+}

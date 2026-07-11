@@ -1,0 +1,6 @@
+frontier,status,next_gate
+full native Orthad lens support semantics,partially closed,derive support tokens directly from finalized lens compiler
+transition assignment T from lens support,supported on tested model,bind to full lens matrix Ω update and cusp-path log
+finite quadratic module gauge/isometry classifier,open,"classify (D,q) not just C-projection"
+2-primary normalization policy,open,define canonical convention for doubled carrier sectors
+generic admissible-history closure,open,prove confluence + cocycle compatibility for all admissible support histories

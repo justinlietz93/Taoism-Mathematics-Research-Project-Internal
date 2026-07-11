@@ -1,0 +1,13 @@
+control,target_gate,fired,detail
+mutate_baseline_word,baseline_sanity,True,word mismatch detected
+remove_v7p_lineage,full_cited_lineage,True,lineage count drops
+mark_H_derived,atlas_open,True,status contradiction
+promote_scalar_to_chart,scalar_role,True,role contradiction
+license_pair_c,pair_c_rejected,True,verdict contradiction
+erase_mixed_difference,bilinear_witness,True,witness mixed difference collapses
+remove_typed_gap,earliest_gap,True,required file absence is fatal
+emit_projection_row,downstream_closed,True,forbidden downstream filename would be detected
+inject_pyc,cache_free,True,pyc suffix is rejected
+drop_results_heading,results_headings,True,missing heading is detected
+missing_novelty_artifact,novelty_required_artifacts,True,novelty gate requires lineage/type/gap artifacts
+unmanifested_extra,manifest_path_set,True,path-set verifier rejects extra archive files

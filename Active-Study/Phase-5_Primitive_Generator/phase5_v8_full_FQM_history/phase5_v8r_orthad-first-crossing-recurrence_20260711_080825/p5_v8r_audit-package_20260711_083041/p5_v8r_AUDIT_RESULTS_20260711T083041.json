@@ -1,0 +1,67 @@
+{
+  "audit_id": "p5_v8r",
+  "next_id": "p5_v8s",
+  "verdict": "REVISE",
+  "source_zip": {
+    "path": "p5_v8r_orthad-first-crossing-recurrence_20260711_080825.zip",
+    "sha256": "5456edffbdc482564904e37aac6565ab39a11036be9959a20935982dc5184556"
+  },
+  "reproduced": {
+    "pytest_passed": 9,
+    "controls_fired": 16,
+    "controls_total": 16,
+    "word": "BQQBBBQBQBBQBBL",
+    "floor_pair": [
+      55,
+      89
+    ],
+    "phase_quarters": 5,
+    "post_l_pair": [
+      55,
+      89
+    ],
+    "first_next_domain_pair": [
+      89,
+      144
+    ],
+    "internal_verifier_passed": 22,
+    "internal_verifier_total": 22,
+    "detached_zip_hash_gate": "PASS",
+    "combined_verifier_passed": 23,
+    "combined_verifier_total": 23
+  },
+  "adopt": [
+    "primitive_first_crossing",
+    "first_l_carry",
+    "three_named_snapshots",
+    "active_axis_local_shorthand",
+    "refusal_to_emit_underived_orthad",
+    "broad_restriction_underdetermination"
+  ],
+  "revise": [
+    "smallest_missing_equation_is_not_typed",
+    "local_scalar_not_proved_to_be_chart_restriction",
+    "full_source_set_claim_exceeds_included_lineage",
+    "O_event_rejected_by_wrong_boundary",
+    "Lean_record_theorem_not_bilinear_proof",
+    "hard_stop_gate_is_static_report_consistency",
+    "manifest_omits_9_archived_pyc_files",
+    "timestamped_results_headings_nonconforming",
+    "novelty_gate_missing"
+  ],
+  "corrected_statuses": {
+    "PRIMITIVE_FIRST_CROSSING": "PASS",
+    "FIRST_L_CARRY": "PASS",
+    "FIRST_NEXT_DOMAIN_B": "PASS",
+    "ACTIVE_AXIS_LOCAL_SHORTHAND": "PASS",
+    "INCLUDED_SOURCE_SET_RECURRENCE_CLOSURE": "FAIL",
+    "ORTHAD_RECURRENCE": "NOT_YET_DERIVED",
+    "ORTHAD_CAUSAL_PROJECTION": "NOT_RUN",
+    "GAUGE_FQM_WEIL_DESCENT": "NOT_RUN"
+  },
+  "archive_manifest": {
+    "zip_file_entries": 70,
+    "manifest_entries": 60,
+    "unmanifested_pyc_files": 9
+  }
+}

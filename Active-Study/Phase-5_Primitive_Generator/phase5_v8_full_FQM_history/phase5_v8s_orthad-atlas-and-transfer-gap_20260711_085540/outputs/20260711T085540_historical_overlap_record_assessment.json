@@ -1,0 +1,12 @@
+{
+  "custody_primitive": false,
+  "historical_scheduling": {
+    "v7p": "explicit derived O event in support traces",
+    "v7q": "explicit O event supplied in event histories",
+    "v7u": "build_history appends all O records after Q/B/L axis histories",
+    "v8a": "O belongs to the defined admissible event alphabet, not the clean self-selecting primitive word"
+  },
+  "modern_per_tick_schedule": "NOT_YET_DERIVED",
+  "semantic_role": "DERIVED_OVERLAP_UPDATE",
+  "verdict": "O is not rejected by name. Its semantics are a plausible derived overlap update, but the historical scheduling and scalar state are not a tick-by-tick modern Orthad recurrence."
+}

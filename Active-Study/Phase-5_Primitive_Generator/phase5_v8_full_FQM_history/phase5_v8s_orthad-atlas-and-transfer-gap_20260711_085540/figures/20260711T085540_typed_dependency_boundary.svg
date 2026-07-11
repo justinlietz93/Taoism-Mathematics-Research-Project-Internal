@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="260" viewBox="0 0 980 260">
+<rect width="980" height="260" fill="white"/>
+<g font-family="monospace" font-size="16" text-anchor="middle">
+<rect x="20" y="90" width="170" height="70" rx="8" fill="#e8f1ff" stroke="#222"/><text x="105" y="120">Custody X_t,W_t</text><text x="105" y="144">DERIVED</text>
+<path d="M190 125 H250" stroke="#222" stroke-width="2" marker-end="url(#a)"/>
+<rect x="250" y="75" width="210" height="100" rx="8" fill="#ffe8e8" stroke="#a00" stroke-width="3"/><text x="355" y="112">Ambient module H_t</text><text x="355" y="138">EARLIEST GAP</text><text x="355" y="160">NOT YET DERIVED</text>
+<path d="M460 125 H520" stroke="#888" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a)"/>
+<rect x="520" y="90" width="190" height="70" rx="8" fill="#f4f4f4" stroke="#888"/><text x="615" y="118">Charts + iota</text><text x="615" y="144">blocked</text>
+<path d="M710 125 H770" stroke="#888" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a)"/>
+<rect x="770" y="90" width="190" height="70" rx="8" fill="#f4f4f4" stroke="#888"/><text x="865" y="118">P, Ω, transfers</text><text x="865" y="144">blocked</text>
+</g><defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#222"/></marker></defs>
+</svg>

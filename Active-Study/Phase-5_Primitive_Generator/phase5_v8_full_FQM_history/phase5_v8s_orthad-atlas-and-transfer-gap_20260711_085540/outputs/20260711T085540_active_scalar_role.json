@@ -1,0 +1,7 @@
+{
+  "chart_entry": "NOT_DERIVED",
+  "classification": "LOCAL_DESCENDANT_ONLY",
+  "formula": "a_t=i^(local_Q)/(u_t v_t)",
+  "primary_pairing_invariant": "NOT_DERIVED",
+  "reason": "The clean law explicitly calls it an older single-entry shorthand; historical v7q/v7u scalar lens models provide no iota map into the modern pairing-first atlas."
+}

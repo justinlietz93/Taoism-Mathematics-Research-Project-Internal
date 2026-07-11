@@ -1,0 +1,23 @@
+{
+  "step_id": "p5-b1-v6",
+  "verdict": "REVISE",
+  "adopt": [
+    "affine ceiling map",
+    "half-open partition",
+    "J and P",
+    "forbidden 989",
+    "length-three count 15",
+    "complexity p(n)=2^(n+1)-1",
+    "entropy log(2)",
+    "topological mixing",
+    "finite boundary certificate A=0..10000",
+    "finite Markov counterexamples for orders 1..10",
+    "manifest and deterministic rebuild"
+  ],
+  "withhold": [
+    "non-soficity until the standard follower-set/half-open-region bridge is proved",
+    "no finite Markov order as a dependent global claim"
+  ],
+  "branch_status": "p5-b1 NOT YET CLOSED",
+  "next_step": "p5-b1-v7"
+}

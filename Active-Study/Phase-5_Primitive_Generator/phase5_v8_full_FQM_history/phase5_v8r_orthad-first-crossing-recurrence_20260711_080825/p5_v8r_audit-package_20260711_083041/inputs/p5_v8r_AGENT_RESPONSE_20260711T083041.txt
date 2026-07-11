@@ -1,0 +1,17 @@
+A clean primitive engine remains the safer base. The rejected Orthad implementation encoded incompatible custody semantics, so only the accepted p5_v8q engine was retained. The older Orthad sources were used to attack the recurrence opening, not to import their extra event or ad hoc coupling rule.
+
+Package: p5_v8r_orthad-first-crossing-recurrence_20260711_080825.zip
+SHA256: 5456edffbdc482564904e37aac6565ab39a11036be9959a20935982dc5184556
+
+Reported statuses:
+PRIMITIVE_FIRST_CROSSING: PASS
+FIRST_L_CARRY: PASS
+ACTIVE_AXIS_RECURRENCE: PASS
+PRIMARY_PAIRING_RECURRENCE: NOT_YET_DERIVED
+ORTHAD_CHART_RECURRENCE: NOT_YET_DERIVED
+ORTHAD_RANK_EXTENSION: NOT_YET_DERIVED
+ORTHAD_CAUSAL_PROJECTION: NOT_RUN
+GAUGE_FQM_WEIL_DESCENT: NOT_RUN
+
+Reported smallest missing bridge:
+tau_0 and tau_(t+1)=Phi_(U_t)(X_(t+1),W_(t+1),tau_t), where tau_t=P_t(iota_plus(e_t),iota_minus(e_t)).

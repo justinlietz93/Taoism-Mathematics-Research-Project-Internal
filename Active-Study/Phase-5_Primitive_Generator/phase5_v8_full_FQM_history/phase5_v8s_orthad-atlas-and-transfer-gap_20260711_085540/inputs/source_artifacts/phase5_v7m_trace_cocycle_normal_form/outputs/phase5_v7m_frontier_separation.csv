@@ -1,0 +1,6 @@
+frontier,status,next_gate
+full_QBL_event_alphabet,open,"define all event supports for Q, B, L, latch, branch, commutator, projection"
+independence_relation_I,partially_defined,prove dependence exactly matches shared retained support
+transition_assignment_T,partially_defined,derive every overlap transition from native QBL data
+finite_quadratic_module_isometry_classifier,open,"canonicalize (D,q) up to basis/gauge, with explicit 2-primary policy"
+VDM_runtime_experiment,ready_to_design,extract graph event traces and test gauge-class invariance under legal rewrites

@@ -1,0 +1,24 @@
+{
+  "interaction_id": "p5_v8s",
+  "verdict": "REVISE",
+  "adopt": [
+    "PRIMITIVE_BASELINE",
+    "LOCAL_ACTIVE_SCALAR_CLASSIFICATION",
+    "HISTORICAL_O_SCHEDULING_AUDIT",
+    "PAIR_C_REJECTION",
+    "BILINEAR_NONUNIQUENESS_CORE",
+    "DOWNSTREAM_HARD_STOP"
+  ],
+  "revise_or_reject": {
+    "EARLIEST_TYPED_GAP": "native successor omitted; ambient module functor not proved minimal",
+    "FULL_CITED_SOURCE_LINEAGE": "external orthad_overset_grids.zip unavailable",
+    "HISTORICAL_L_TRANSITION": "local identity slot wrongly conflated with global pair/phase reset",
+    "TEST_SUITE_SEMANTIC_INTEGRITY": "three tests assert withdrawn p5_v8r claims",
+    "CORRUPTION_CONTROLS": "response says 16; package contains 12 static rows with no executable control runner",
+    "VERIFIER_DIRECT_EXECUTION": "ordinary execution creates unmanifested caches and can fail",
+    "RESPONSE_ZIP_SHA256": "declared hash does not match supplied archive",
+    "BILINEAR_WITNESS_SCOPE": "one form degenerate; strengthen for nondegenerate admissible class"
+  },
+  "next_interaction_id": "p5_v8t",
+  "next_experiment": "orthad-native-successor-and-carrier-gap"
+}

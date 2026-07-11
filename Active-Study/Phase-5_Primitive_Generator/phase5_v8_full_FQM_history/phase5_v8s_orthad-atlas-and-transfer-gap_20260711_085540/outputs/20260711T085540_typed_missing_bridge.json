@@ -1,0 +1,28 @@
+{
+  "case_analysis": {
+    "case_1_atlas_missing": "ACTUAL: the cited corpus has scalar axis values and support tokens but no typed ambient module or chart atlas.",
+    "case_2_atlas_fixed_transfer_missing": "CONDITIONAL: even on a fixed 2D atlas, diagonal restrictions do not determine the mixed transfer; see the bilinear witness.",
+    "case_3_historical_records_contain_law": "REJECTED: T/O records define scalar cochains and post-hoc overlap couplings, not restrictions of one typed primary pairing under the clean per-tick architecture."
+  },
+  "earliest_missing_object": "ambient_retained_module_functor",
+  "inputs": [
+    "clean custody state X_t=(A,u,v,phase,k,j,W)",
+    "selected primitive U_t in {B,Q,L}",
+    "exact word prefix W_{t+1}"
+  ],
+  "known_constraints": [
+    "rank is fixed under B and Q",
+    "L embeds the complete old block and appends exactly one active axis",
+    "pair and phase carry across L",
+    "both chart maps, pairing, restrictions, and transfers must be derived after H_t is typed"
+  ],
+  "nonuniqueness_witness_file": "outputs/20260711T085540_bilinear_underdetermination_witness.json",
+  "output": [
+    "coefficient ring or field R",
+    "ambient retained R-module H_t",
+    "distinguished retained basis/axis decomposition",
+    "per-letter module map Phi_U^H:H_t->H_{t+1}"
+  ],
+  "typed_declaration": "H : (X_t, W_t) -> (R, H_t, basis_t, Phi_B^H, Phi_Q^H, Phi_L^H)",
+  "why_earlier_than_mixed_transfer": "Without H_t, C_t^\u00b1, iota_t^\u00b1, and K, neither P_t nor M_t:C_t^- x C_t^+ -> K is well-typed. tau_t therefore cannot be minimal."
+}

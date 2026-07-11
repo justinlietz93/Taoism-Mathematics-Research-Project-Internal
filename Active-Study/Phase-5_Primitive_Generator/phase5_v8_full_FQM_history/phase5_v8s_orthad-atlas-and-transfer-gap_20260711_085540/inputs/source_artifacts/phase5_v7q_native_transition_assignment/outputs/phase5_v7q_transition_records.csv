@@ -1,0 +1,52 @@
+event,kind,src,dst,pair,scale_num,scale_den,phase_mod4,transition_key,c_projection,contact_dz,note,case
+Q0,same_axis_phase,a0,a0,0:0,1,1,1,1/1*i^1,0,0,Q transition assigned from lens ratio after/before,axis_QB_latch
+B0,same_axis_refinement,a0,a0,0:0,1,2,0,1/2*i^0,0,0,B transition assigned from germ-anchor ratio after/before,axis_QB_latch
+L0,latch_birth_boundary,a0,a1,0:1,2,1,3,2/1*i^3,4,4,L assigns transition from latched active lens value to newborn active lens value,axis_QB_latch
+B0,same_axis_refinement,a0,a0,0:0,1,2,0,1/2*i^0,0,0,B transition assigned from germ-anchor ratio after/before,axis_BQ_latch
+Q0,same_axis_phase,a0,a0,0:0,1,1,1,1/1*i^1,0,0,Q transition assigned from lens ratio after/before,axis_BQ_latch
+L0,latch_birth_boundary,a0,a1,0:1,2,1,3,2/1*i^3,4,4,L assigns transition from latched active lens value to newborn active lens value,axis_BQ_latch
+L0,latch_birth_boundary,a0,a1,0:1,1,1,0,1/1*i^0,1,1,L assigns transition from latched active lens value to newborn active lens value,birth_then_cross_overlap_A
+Q0,same_axis_phase,a0,a0,0:0,1,1,1,1/1*i^1,0,0,Q transition assigned from lens ratio after/before,birth_then_cross_overlap_A
+B1,same_axis_refinement,a1,a1,1:1,1,2,0,1/2*i^0,0,0,B transition assigned from germ-anchor ratio after/before,birth_then_cross_overlap_A
+O0_1,overlap_pair_transition,a0,a1,0:1,1,2,3,1/2*i^3,4,0,O assigns overlap transition by lens ratio value_j/value_i,birth_then_cross_overlap_A
+L0,latch_birth_boundary,a0,a1,0:1,1,1,0,1/1*i^0,1,1,L assigns transition from latched active lens value to newborn active lens value,birth_then_cross_overlap_B
+B1,same_axis_refinement,a1,a1,1:1,1,2,0,1/2*i^0,0,0,B transition assigned from germ-anchor ratio after/before,birth_then_cross_overlap_B
+Q0,same_axis_phase,a0,a0,0:0,1,1,1,1/1*i^1,0,0,Q transition assigned from lens ratio after/before,birth_then_cross_overlap_B
+O0_1,overlap_pair_transition,a0,a1,0:1,1,2,3,1/2*i^3,4,0,O assigns overlap transition by lens ratio value_j/value_i,birth_then_cross_overlap_B
+B0,same_axis_refinement,a0,a0,0:0,1,2,0,1/2*i^0,0,0,B transition assigned from germ-anchor ratio after/before,three_axis_chain
+Q0,same_axis_phase,a0,a0,0:0,1,1,1,1/1*i^1,0,0,Q transition assigned from lens ratio after/before,three_axis_chain
+L0,latch_birth_boundary,a0,a1,0:1,2,1,3,2/1*i^3,4,4,L assigns transition from latched active lens value to newborn active lens value,three_axis_chain
+Q1,same_axis_phase,a1,a1,1:1,1,1,1,1/1*i^1,0,0,Q transition assigned from lens ratio after/before,three_axis_chain
+B1,same_axis_refinement,a1,a1,1:1,1,2,0,1/2*i^0,0,0,B transition assigned from germ-anchor ratio after/before,three_axis_chain
+L1,latch_birth_boundary,a1,a2,1:2,2,1,3,2/1*i^3,4,8,L assigns transition from latched active lens value to newborn active lens value,three_axis_chain
+O0_1,overlap_pair_transition,a0,a1,0:1,1,1,0,1/1*i^0,1,0,O assigns overlap transition by lens ratio value_j/value_i,three_axis_chain
+O1_2,overlap_pair_transition,a1,a2,1:2,2,1,3,2/1*i^3,4,0,O assigns overlap transition by lens ratio value_j/value_i,three_axis_chain
+O0_2,overlap_pair_transition,a0,a2,0:2,2,1,3,2/1*i^3,4,0,O assigns overlap transition by lens ratio value_j/value_i,three_axis_chain
+Q0,same_axis_phase,a0,a0,0:0,1,1,1,1/1*i^1,0,0,Q transition assigned from lens ratio after/before,three_axis_alt_chain
+B0,same_axis_refinement,a0,a0,0:0,1,2,0,1/2*i^0,0,0,B transition assigned from germ-anchor ratio after/before,three_axis_alt_chain
+L0,latch_birth_boundary,a0,a1,0:1,2,1,3,2/1*i^3,4,4,L assigns transition from latched active lens value to newborn active lens value,three_axis_alt_chain
+B1,same_axis_refinement,a1,a1,1:1,1,2,0,1/2*i^0,0,0,B transition assigned from germ-anchor ratio after/before,three_axis_alt_chain
+Q1,same_axis_phase,a1,a1,1:1,1,1,1,1/1*i^1,0,0,Q transition assigned from lens ratio after/before,three_axis_alt_chain
+L1,latch_birth_boundary,a1,a2,1:2,2,1,3,2/1*i^3,4,8,L assigns transition from latched active lens value to newborn active lens value,three_axis_alt_chain
+O1_2,overlap_pair_transition,a1,a2,1:2,2,1,3,2/1*i^3,4,0,O assigns overlap transition by lens ratio value_j/value_i,three_axis_alt_chain
+O0_1,overlap_pair_transition,a0,a1,0:1,1,1,0,1/1*i^0,1,0,O assigns overlap transition by lens ratio value_j/value_i,three_axis_alt_chain
+O0_2,overlap_pair_transition,a0,a2,0:2,2,1,3,2/1*i^3,4,0,O assigns overlap transition by lens ratio value_j/value_i,three_axis_alt_chain
+Q0,same_axis_phase,a0,a0,0:0,1,1,1,1/1*i^1,0,0,Q transition assigned from lens ratio after/before,readout_terminal
+R0,terminal_readout,a0,proj0,0:read,1,1,0,1/1*i^0,0,0,R is terminal projection; identity transition and no retained mutation,readout_terminal
+B0,same_axis_refinement,a0,a0,0:0,1,2,0,1/2*i^0,0,0,B transition assigned from germ-anchor ratio after/before,readout_terminal
+L0,latch_birth_boundary,a0,a1,0:1,2,1,3,2/1*i^3,4,4,L assigns transition from latched active lens value to newborn active lens value,readout_terminal
+B0,same_axis_refinement,a0,a0,0:0,1,2,0,1/2*i^0,0,0,B transition assigned from germ-anchor ratio after/before,contact_two_latches
+Q0,same_axis_phase,a0,a0,0:0,1,1,1,1/1*i^1,0,0,Q transition assigned from lens ratio after/before,contact_two_latches
+L0,latch_birth_boundary,a0,a1,0:1,2,1,3,2/1*i^3,4,4,L assigns transition from latched active lens value to newborn active lens value,contact_two_latches
+B1,same_axis_refinement,a1,a1,1:1,1,2,0,1/2*i^0,0,0,B transition assigned from germ-anchor ratio after/before,contact_two_latches
+Q1,same_axis_phase,a1,a1,1:1,1,1,1,1/1*i^1,0,0,Q transition assigned from lens ratio after/before,contact_two_latches
+L1,latch_birth_boundary,a1,a2,1:2,2,1,3,2/1*i^3,4,8,L assigns transition from latched active lens value to newborn active lens value,contact_two_latches
+L0,latch_birth_boundary,a0,a1,0:1,1,1,0,1/1*i^0,1,1,L assigns transition from latched active lens value to newborn active lens value,overlap_after_phase_shift
+Q1,same_axis_phase,a1,a1,1:1,1,1,1,1/1*i^1,0,0,Q transition assigned from lens ratio after/before,overlap_after_phase_shift
+O0_1,overlap_pair_transition,a0,a1,0:1,1,1,1,1/1*i^1,2,0,O assigns overlap transition by lens ratio value_j/value_i,overlap_after_phase_shift
+B1,same_axis_refinement,a1,a1,1:1,1,2,0,1/2*i^0,0,0,B transition assigned from germ-anchor ratio after/before,overlap_after_phase_shift
+O0_1,overlap_pair_transition,a0,a1,0:1,1,2,1,1/2*i^1,2,0,O assigns overlap transition by lens ratio value_j/value_i,overlap_after_phase_shift
+Q0,same_axis_phase,a0,a0,0:0,1,1,1,1/1*i^1,0,0,Q transition assigned from lens ratio after/before,edge_birth_causality
+L0,latch_birth_boundary,a0,a1,0:1,1,1,3,1/1*i^3,2,2,L assigns transition from latched active lens value to newborn active lens value,edge_birth_causality
+Q1,same_axis_phase,a1,a1,1:1,1,1,1,1/1*i^1,0,0,Q transition assigned from lens ratio after/before,edge_birth_causality
+O0_1,overlap_pair_transition,a0,a1,0:1,1,1,0,1/1*i^0,1,0,O assigns overlap transition by lens ratio value_j/value_i,edge_birth_causality

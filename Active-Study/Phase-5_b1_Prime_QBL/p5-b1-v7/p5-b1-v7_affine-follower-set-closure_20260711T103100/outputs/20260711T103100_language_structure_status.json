@@ -1,0 +1,23 @@
+{
+  "complexity_theorem": "p(n)=2^(n+1)-1 for every n>=1",
+  "entropy": "log(2)",
+  "finite_markov_order": "NONE; finite Markov order implies SFT implies sofic; exact order 1..10 witnesses remain finite certificates",
+  "follower_bridge": "PROVED FOR STANDARD HALF-OPEN WORD FOLLOWERS",
+  "follower_identity": "Fol(w)={v : H_w intersect C(v) is nonempty}, H_w=D^|w|(C(w)); exact including all included endpoints",
+  "holds": [
+    "SPECIFIC-ORBIT EQUIDISTRIBUTION: NOT PROVED",
+    "GLOBAL T_A=ceil(y_A) BRIDGE: NOT YET PROVED",
+    "GAUGE/FQM MAP FROM d_A=\u00b11: NOT YET DERIVED"
+  ],
+  "mixing": "PROVED TOPOLOGICALLY MIXING; independent of soficity proof",
+  "mixing_argument": "every nonempty cylinder has open image; doubling sends every nonempty open arc onto the circle after finitely many iterates",
+  "soficity": "PROVED NON-SOFIC",
+  "soficity_argument": [
+    "standard follower sets equal exact intersection languages of half-open follower regions",
+    "equality of those languages forces equality of region interiors by the shrinking cylinder basis",
+    "boundary-adjacent cylinders lie in one D^-n(p) fundamental gap and D^n preserves their order",
+    "the ordered interior pair has oriented minus-to-plus handoff D^n(p), even when the outer endpoints also coincide",
+    "repetition of an ordered follower-set pair forces D^n(p)=D^m(p)",
+    "irrational p excludes eventual periodicity"
+  ]
+}

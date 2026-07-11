@@ -1,0 +1,23 @@
+{
+  "after_rank": 2,
+  "before_rank": 1,
+  "fixed": [
+    "P_old is inherited without mutation at L",
+    "one new active axis is appended",
+    "pair (55,89) and phase quarters 5 carry",
+    "B/Q fixed-rank and L +1 rank schedule"
+  ],
+  "minus_to_plus_extension": "old block inherited only after its recurrence is defined; new row/column couplings open",
+  "omega_minus_extension": "inherited old restriction block plus one row/column, all numerical new entries open because iota_minus is open",
+  "omega_plus_extension": "inherited old restriction block plus one row/column, all numerical new entries open because iota_plus is open",
+  "open": [
+    "coefficient ring and codomain",
+    "new-axis pairing p_new_new",
+    "old/new couplings m_old_new and m_new_old",
+    "symmetry/adjoint relation between mixed couplings",
+    "both chart embeddings before and after L"
+  ],
+  "plus_to_minus_extension": "old block inherited only after its recurrence is defined; new row/column couplings open",
+  "primary_pairing_shape": "P_after=[[P_old, m_old_new],[m_new_old,p_new_new]]",
+  "status": "NOT_YET_DERIVED"
+}

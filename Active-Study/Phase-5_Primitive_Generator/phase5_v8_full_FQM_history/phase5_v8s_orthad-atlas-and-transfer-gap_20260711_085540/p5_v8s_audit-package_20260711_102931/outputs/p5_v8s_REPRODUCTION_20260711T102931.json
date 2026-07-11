@@ -1,0 +1,18 @@
+{
+  "actual_sha256": "0f780bf91f8d366b96e64ee4c3a6ae6531daa6e6cb868593a6eeaeabcf281200",
+  "archive_file_entries": 236,
+  "control_count_match": false,
+  "corruption_control_rows": 12,
+  "declared_sha256": "947211aa29891e0f454aac78478fb4e0567301f46e3b2909edfa8ba3e206c502",
+  "first_L_doc_has_backspace": true,
+  "hash_match": false,
+  "manifest_entries": 235,
+  "manifest_path_match": true,
+  "native_successor_in_claim_matrix": false,
+  "native_successor_in_type_boundary": false,
+  "proof_has_backspace": true,
+  "response_claimed_controls": 16,
+  "stale_old_O_rejection_test": true,
+  "stale_tau_test": true,
+  "zip_name": "p5_v8s_orthad-atlas-and-transfer-gap_20260711_085540.zip"
+}

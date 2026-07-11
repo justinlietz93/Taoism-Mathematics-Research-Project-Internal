@@ -1,0 +1,12 @@
+typed_item,status,reason
+H_t ambient retained module,NOT_YET_DERIVED,"The custody state supplies integers, pair, phase, indices, and word, but no coefficient ring, module operations, basis functor, or per-letter module maps."
+C_t^+ chart module,NOT_YET_DERIVED,"The sources say two charts cover complementary poles but give no module, basis, dimension, or overlap submodule."
+C_t^- chart module,NOT_YET_DERIVED,Same missing atlas datum as C_t^+.
+iota_t^+ embedding,NOT_YET_DERIVED,QBL v2 calls explicit chart maps a formalization obligation.
+iota_t^- embedding,NOT_YET_DERIVED,No source defines the minus-chart embedding or its relation to the lap sign.
+K pairing codomain,NOT_YET_DERIVED,Q/Z is fixed only after FQM descent; it is not licensed retroactively as the Orthad pairing codomain.
+P_t primary pairing,NOT_YET_DERIVED,"Pairing-first direction is ratified, but domain, codomain, seed, linearity type, and B/Q/L update are absent."
+bilinear vs sesquilinear law,NOT_YET_DERIVED,"The gauge schematic uses an adjoint symbol, while the downstream FQM polarization is bilinear; the Orthad layer does not resolve the choice."
+symmetry or adjoint law,NOT_YET_DERIVED,"Neither symmetry, Hermitianity, skew law, nor transfer adjunction is stated."
+chart dimensions and bases,NOT_YET_DERIVED,"The rank schedule is constrained, but separate chart dimensions, bases, and overlap coordinates are not."
+rank schedule,DERIVED,B and Q preserve rank; L preserves the inherited block and adds exactly one active axis.

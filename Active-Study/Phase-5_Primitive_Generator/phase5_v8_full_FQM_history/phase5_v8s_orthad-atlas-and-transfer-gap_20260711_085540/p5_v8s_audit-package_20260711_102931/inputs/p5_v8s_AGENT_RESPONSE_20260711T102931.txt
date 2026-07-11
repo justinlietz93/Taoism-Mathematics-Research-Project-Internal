@@ -1,0 +1,14 @@
+Executed `p5_v8s`.
+
+Package: p5_v8s_orthad-atlas-and-transfer-gap_20260711_085540.zip
+Declared SHA-256: 947211aa29891e0f454aac78478fb4e0567301f46e3b2909edfa8ba3e206c502
+
+Key claims:
+- earliest typed gap is an ambient retained-module functor;
+- full cited v7p/v7q/v7m/v7u/v8a lineage does not force the recurrence;
+- `O` is a derived overlap update with post-hoc historical scheduling;
+- `T_ab=lens(b)/lens(a)` is conditionally licensed in the historical scalar model;
+- `pair_c` is rejected;
+- corruption controls 16/16;
+- pytest 18 passed;
+- manifest/archive path sets exact.

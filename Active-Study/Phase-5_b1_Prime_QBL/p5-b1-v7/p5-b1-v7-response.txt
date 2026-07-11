@@ -1,0 +1,70 @@
+Completed `p5-b1-v7`.
+
+The missing bridge is now stated directly for the **standard follower sets of the actual half-open cylinders**:
+
+[
+C(wv)=C(w)\cap D^{-|w|}(C(v)),
+]
+
+so
+
+[
+\operatorname{Fol}(w)
+=====================
+
+\left{v:
+D^{|w|}(C(w))\cap C(v)\neq\varnothing
+\right}.
+]
+
+This identity preserves included and excluded endpoints exactly. No replacement of the cylinder by its open interior occurs.
+
+The proof also avoids the unnecessarily strong claim that the two follower-region closures always have a unique common boundary. In complementary-image cases they can share two boundaries. The ordered pair still has a unique **oriented minus-to-plus handoff** at
+
+[
+D^n(p),
+]
+
+which is sufficient: repetition of an ordered standard follower-set pair would force repetition of the irrational cut orbit.
+
+```text
+FINITE-STATE/SOFIC STATUS: PROVED NON-SOFIC
+FINITE MARKOV ORDER: NONE
+ACTUAL AFFINE LANGUAGE MIXING: PROVED INDEPENDENTLY
+p5-b1 BRANCH STATUS: CLOSED
+```
+
+[Corrected follower-structure document](sandbox:/mnt/data/QBL_CARRY_AFFINE_FOLLOWER_STRUCTURE_v5.md)
+
+[Complete p5-b1-v7 experiment package](sandbox:/mnt/data/p5-b1-v7_affine-follower-set-closure_20260711T103100.zip)
+
+[Package findings](sandbox:/mnt/data/p5-b1-v7_affine-follower-set-closure_20260711T103100/FINDINGS.md)
+
+```text
+Document SHA-256:
+46996ac568f205d6a7cbb200a2c4108e77cec2b3e3b8e13a8aa5ffb854cba8ed
+
+Package SHA-256:
+0181c907c0fbe0e3e502fb72ad06ac13c2f9ab91146f2589a5c670094c7fc94c
+```
+
+Verification:
+
+```text
+Manifest entries:               62
+Notebook cells passing:         16/16
+Figures emitted:                16
+Manifest verification:          PASS
+Clean rebuild:                  PASS
+Byte-identical archive rebuild: PASS
+LEAN SOURCE PRESENT; COMPILATION NOT VERIFIED
+```
+
+The Orthad boundary remains unchanged: count properties still do not determine chart matrices, gauge values, holonomy, FQM classes, or Weil projections. 
+
+```text
+SPECIFIC-ORBIT EQUIDISTRIBUTION: NOT PROVED
+GLOBAL T_A=ceil(y_A) BRIDGE: NOT YET PROVED
+GAUGE/FQM MAP FROM d_A=±1: NOT YET DERIVED
+```
+

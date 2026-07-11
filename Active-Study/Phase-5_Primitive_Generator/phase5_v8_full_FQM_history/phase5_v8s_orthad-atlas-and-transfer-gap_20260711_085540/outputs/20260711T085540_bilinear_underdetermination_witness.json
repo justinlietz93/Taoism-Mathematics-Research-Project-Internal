@@ -1,0 +1,45 @@
+{
+  "P0_matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "P1_matrix": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "ambient_module": "H=Q^2",
+  "both_symmetric": true,
+  "chart_modules": {
+    "C_minus": "Q",
+    "C_plus": "Q"
+  },
+  "coefficient_field": "Q",
+  "diagonal_restriction_residual": 0,
+  "embeddings": {
+    "iota_minus(y)": "(0,y)",
+    "iota_plus(x)": "(x,0)"
+  },
+  "minus_restriction_P0": 1,
+  "minus_restriction_P1": 1,
+  "minus_to_plus_P0": 0,
+  "minus_to_plus_P1": 1,
+  "mixed_transfer_difference": 1,
+  "pass": true,
+  "plus_restriction_P0": 1,
+  "plus_restriction_P1": 1,
+  "plus_to_minus_P0": 0,
+  "plus_to_minus_P1": 1,
+  "theorem": "Fixed chart modules, fixed embeddings, fixed diagonal restrictions, and symmetry do not determine the mixed transfer block."
+}

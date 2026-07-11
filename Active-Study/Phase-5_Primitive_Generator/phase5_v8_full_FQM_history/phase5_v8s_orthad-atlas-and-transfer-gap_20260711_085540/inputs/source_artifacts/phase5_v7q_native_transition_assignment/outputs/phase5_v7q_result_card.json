@@ -1,0 +1,21 @@
+{
+  "phase": "Phase 5 v7q",
+  "title": "Native Transition Assignment T from Orthad Lens Support",
+  "status": "NATIVE_TRANSITION_ASSIGNMENT_SUPPORTED_ON_TESTED_ORTHAD_LENS_SUPPORT_MODEL",
+  "global_pass": true,
+  "phase5_closed": false,
+  "transition_rule_rows": 5,
+  "transition_cases_passed": 10,
+  "transition_cases_total": 10,
+  "transition_records": 51,
+  "rewrite_checks_passed": 3,
+  "rewrite_checks_total": 3,
+  "cocycle_checks_passed": 4,
+  "cocycle_checks_total": 4,
+  "gauge_checks_passed": 2,
+  "gauge_checks_total": 2,
+  "negative_controls_passed": 5,
+  "negative_controls_total": 5,
+  "max_cocycle_identity_failures": 0,
+  "result": "T assigns same-axis, latch, overlap, and terminal-readout transitions from native lens values and support tokens; legal rewrites preserve transition-derived signatures; bad cocycles and birth violations are rejected."
+}
