@@ -1,0 +1,69 @@
+{
+  "block_convention": "[[P_old,C_right],[C_left,p_new]], where C_right=P(old,new) and C_left=P(new,old)",
+  "cases": [
+    {
+      "case": "right_orthogonality_only",
+      "forced": [
+        "C_right=0"
+      ],
+      "not_forced": [
+        "C_left=0"
+      ]
+    },
+    {
+      "case": "left_orthogonality_only",
+      "forced": [
+        "C_left=0"
+      ],
+      "not_forced": [
+        "C_right=0"
+      ]
+    },
+    {
+      "case": "two_sided_orthogonality",
+      "forced": [
+        "C_right=0",
+        "C_left=0"
+      ],
+      "not_forced": []
+    },
+    {
+      "case": "symmetric_or_Hermitian_plus_right",
+      "forced": [
+        "C_right=0",
+        "C_left=0"
+      ],
+      "not_forced": []
+    },
+    {
+      "case": "no_symmetry_law",
+      "forced": [],
+      "not_forced": [
+        "either mixed block"
+      ]
+    }
+  ],
+  "counterexample": {
+    "P_new_old": 0,
+    "P_old_new": 1,
+    "conclusion": "left orthogonality does not force right orthogonality",
+    "matrix": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "new_axis": [
+      0,
+      1
+    ],
+    "old_axis": [
+      1,
+      0
+    ]
+  }
+}

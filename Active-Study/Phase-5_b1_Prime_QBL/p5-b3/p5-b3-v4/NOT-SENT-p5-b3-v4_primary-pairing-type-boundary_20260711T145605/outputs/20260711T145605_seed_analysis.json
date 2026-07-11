@@ -1,0 +1,21 @@
+{
+  "basis_presentation_freedom": "PRESENT",
+  "bilinear_rank_one_fixed_basis": {
+    "general_form": "alpha*x*y",
+    "normalization": "P(e,e)=1",
+    "solution": "alpha=1",
+    "unique": true
+  },
+  "gauge_class_uniqueness": "NOT_YET_DERIVED",
+  "same_type_seed_nonuniqueness": "NOT_PROVED",
+  "sesquilinear_rank_one_fixed_basis": {
+    "general_form": "alpha*conjugate(x)*y",
+    "normalization": "P(e,e)=1",
+    "solution": "alpha=1",
+    "unique": true
+  },
+  "type_ambiguity_witness": {
+    "bilinear_at_i_1": "i",
+    "sesquilinear_at_i_1": "-i"
+  }
+}

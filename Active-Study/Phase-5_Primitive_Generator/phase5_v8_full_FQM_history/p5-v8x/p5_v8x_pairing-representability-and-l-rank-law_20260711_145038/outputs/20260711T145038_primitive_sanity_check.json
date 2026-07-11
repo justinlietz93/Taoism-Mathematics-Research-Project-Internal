@@ -1,0 +1,29 @@
+{
+  "Q_steps": 5,
+  "after_L": {
+    "A": 1,
+    "j": 7,
+    "k": 0,
+    "phase_quarters": 5,
+    "u": 55,
+    "v": 89,
+    "word": "BQQBBBQBQBBQBBL"
+  },
+  "after_next_B": {
+    "A": 1,
+    "j": 7,
+    "k": 0,
+    "phase_quarters": 5,
+    "u": 89,
+    "v": 144,
+    "word": "BQQBBBQBQBBQBBLB"
+  },
+  "floor_pair": [
+    55,
+    89
+  ],
+  "floor_product": 4895,
+  "pass": true,
+  "phase_witness": "i",
+  "word": "BQQBBBQBQBBQBBL"
+}

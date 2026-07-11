@@ -1,0 +1,8 @@
+{
+  "branch_status": "OPEN",
+  "next_interaction": "p5-b3-v8",
+  "parallel_input_included": true,
+  "parallel_input_sha256": "491ecfffd78ce5ab11e82794381e7579168027892dce7986fb9d4d3507395d27",
+  "parallel_manifest_entries_verified": 61,
+  "verdict": "REVISE"
+}

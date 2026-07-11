@@ -1,0 +1,16 @@
+{"event": 0, "imag": "0", "local": "1", "op": "START", "prefix": "", "q_count": 0, "real": "1", "u": 1, "v": 1}
+{"event": 1, "imag": "0", "local": "1/2", "op": "B", "prefix": "B", "q_count": 0, "real": "1/2", "u": 1, "v": 2}
+{"event": 2, "imag": "1/2", "local": "1/2*i", "op": "Q", "prefix": "BQ", "q_count": 1, "real": "0", "u": 1, "v": 2}
+{"event": 3, "imag": "0", "local": "-1/2", "op": "Q", "prefix": "BQQ", "q_count": 2, "real": "-1/2", "u": 1, "v": 2}
+{"event": 4, "imag": "0", "local": "-1/6", "op": "B", "prefix": "BQQB", "q_count": 2, "real": "-1/6", "u": 2, "v": 3}
+{"event": 5, "imag": "0", "local": "-1/15", "op": "B", "prefix": "BQQBB", "q_count": 2, "real": "-1/15", "u": 3, "v": 5}
+{"event": 6, "imag": "0", "local": "-1/40", "op": "B", "prefix": "BQQBBB", "q_count": 2, "real": "-1/40", "u": 5, "v": 8}
+{"event": 7, "imag": "-1/40", "local": "-1/40*i", "op": "Q", "prefix": "BQQBBBQ", "q_count": 3, "real": "0", "u": 5, "v": 8}
+{"event": 8, "imag": "-1/104", "local": "-1/104*i", "op": "B", "prefix": "BQQBBBQB", "q_count": 3, "real": "0", "u": 8, "v": 13}
+{"event": 9, "imag": "0", "local": "1/104", "op": "Q", "prefix": "BQQBBBQBQ", "q_count": 4, "real": "1/104", "u": 8, "v": 13}
+{"event": 10, "imag": "0", "local": "1/273", "op": "B", "prefix": "BQQBBBQBQB", "q_count": 4, "real": "1/273", "u": 13, "v": 21}
+{"event": 11, "imag": "0", "local": "1/714", "op": "B", "prefix": "BQQBBBQBQBB", "q_count": 4, "real": "1/714", "u": 21, "v": 34}
+{"event": 12, "imag": "1/714", "local": "1/714*i", "op": "Q", "prefix": "BQQBBBQBQBBQ", "q_count": 5, "real": "0", "u": 21, "v": 34}
+{"event": 13, "imag": "1/1870", "local": "1/1870*i", "op": "B", "prefix": "BQQBBBQBQBBQB", "q_count": 5, "real": "0", "u": 34, "v": 55}
+{"event": 14, "imag": "1/4895", "local": "1/4895*i", "op": "B", "prefix": "BQQBBBQBQBBQBB", "q_count": 5, "real": "0", "u": 55, "v": 89}
+{"event": 15, "imag": "1/4895", "local": "1/4895*i", "op": "L", "prefix": "BQQBBBQBQBBQBBL", "q_count": 5, "real": "0", "u": 55, "v": 89}

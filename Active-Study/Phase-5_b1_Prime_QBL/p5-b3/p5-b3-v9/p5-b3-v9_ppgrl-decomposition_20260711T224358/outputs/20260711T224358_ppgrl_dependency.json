@@ -1,0 +1,55 @@
+{
+  "earliest_missing": "state_indexed_argument_and_placement_realization",
+  "layers": [
+    {
+      "name": "custody_state_and_word",
+      "order": 0,
+      "status": "PROVED"
+    },
+    {
+      "name": "two_slot_architectural_skeleton",
+      "order": 1,
+      "status": "PROVED"
+    },
+    {
+      "name": "state_indexed_argument_and_placement_realization",
+      "order": 2,
+      "status": "OPEN_EARLIEST"
+    },
+    {
+      "name": "primary_carrier_codomain_evaluation",
+      "order": 3,
+      "status": "OPEN"
+    },
+    {
+      "name": "restriction_constructor_realization",
+      "order": 4,
+      "status": "OPEN"
+    },
+    {
+      "name": "primary_seed",
+      "order": 5,
+      "status": "OPEN"
+    },
+    {
+      "name": "intrinsic_B_value_action",
+      "order": 6,
+      "status": "OPEN"
+    },
+    {
+      "name": "intrinsic_Q_action_type",
+      "order": 7,
+      "status": "OPEN"
+    },
+    {
+      "name": "intrinsic_L_mixed_and_newnew",
+      "order": 8,
+      "status": "OPEN"
+    },
+    {
+      "name": "exact_action_equivalence_category",
+      "order": 9,
+      "status": "OPEN"
+    }
+  ]
+}

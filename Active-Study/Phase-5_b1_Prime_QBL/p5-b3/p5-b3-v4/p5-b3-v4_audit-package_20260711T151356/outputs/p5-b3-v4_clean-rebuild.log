@@ -1,0 +1,13 @@
+{
+  "PASS": true,
+  "first_domain_endpoint": "i/4895",
+  "branch_status": "OPEN"
+}
+{
+  "archive": "/mnt/data/p5b3v4_clean_rebuild_same_root.zip",
+  "sha256": "c3c91e37e7d970f8f89bf3db086fb64dc658e1e1e1c77fb3666f6aed80405b9b",
+  "manifest_entries": 55,
+  "notebook_cells": 15,
+  "figures": 15,
+  "PASS": true
+}

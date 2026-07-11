@@ -1,0 +1,47 @@
+{
+  "step_id": "p5_v8x",
+  "next_step_id": "p5_v8y",
+  "timestamp": "20260711T152446",
+  "entries": [
+    {
+      "path": "README.md",
+      "bytes": 361,
+      "sha256": "89ecb0694bce8499aee20b955c165bc14abf8240f39f2a90d32d0bbce6bbe5fd"
+    },
+    {
+      "path": "inputs/20260711T152446_QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+      "bytes": 29584,
+      "sha256": "3dc57669c4e251098180c07ec4e406f4057088a64c49c94537b7add7dd189386"
+    },
+    {
+      "path": "inputs/p5_v8x_AGENT_RESPONSE_20260711T152446.txt",
+      "bytes": 541,
+      "sha256": "df05f34823a1bf281897b2a5d8fedcafb05a7328c0c1081906f2040f5968b78d"
+    },
+    {
+      "path": "outputs/p5_v8x_REPRODUCTION_20260711T152446.json",
+      "bytes": 1323,
+      "sha256": "f241f74f1cc799b2b207113e61ced74f9ac3ec49f6f8dadabdeb44844857783e"
+    },
+    {
+      "path": "p5_v8x_AUDIT_REPORT_20260711T152446.md",
+      "bytes": 7623,
+      "sha256": "c20dc4a85c0afc80a46194abab88aa6e7720c3bebef8ef103ec48f98ae9244b9"
+    },
+    {
+      "path": "p5_v8y_AGENT_INSTRUCTIONS_20260711T152446.md",
+      "bytes": 10495,
+      "sha256": "e44e8632ffcee0aa66252c47a8a303083f60371a71b91371b121533ccb647349"
+    },
+    {
+      "path": "scripts/p5_v8x_reproduce_audit_20260711T152446.py",
+      "bytes": 2428,
+      "sha256": "4685bd8fe00e59d46cf613a21feab99df7a60bf49eb77f27c276023d2cd370a7"
+    },
+    {
+      "path": "source_maps/20260711T152446_SOURCE_MAP.md",
+      "bytes": 1231,
+      "sha256": "4d88139dc8f312ecff9c414a54fe9de83314976c13cde590c2e789a2e4f44641"
+    }
+  ]
+}

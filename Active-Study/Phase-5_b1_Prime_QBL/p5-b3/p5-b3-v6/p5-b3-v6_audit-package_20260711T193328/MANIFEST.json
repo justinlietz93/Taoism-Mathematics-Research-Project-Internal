@@ -1,0 +1,102 @@
+{
+  "files": [
+    {
+      "bytes": 7240,
+      "path": "AUDIT_RESULTS.md",
+      "sha256": "db85620a00372ab24e6d8dc9de3adf9a6a0300a604540a1e2e245f08a665b1ca"
+    },
+    {
+      "bytes": 7394,
+      "path": "OUTGOING_INSTRUCTIONS.md",
+      "sha256": "c73b82cd51c3a1c23eb5b053fc9d30836df8e4259b9052d6a61ce7e45061bf55"
+    },
+    {
+      "bytes": 1106,
+      "path": "README.md",
+      "sha256": "341f49da116218792ca4d88e9096d1252f66e5a46731ed90f1d1d7322b102c83"
+    },
+    {
+      "bytes": 947,
+      "path": "SOURCE_MAP.md",
+      "sha256": "cfb9db6c31776de7a6204007fbad4062ca2ff1d029f08497c105b4167baae91a"
+    },
+    {
+      "bytes": 284505,
+      "path": "inputs/CF000_Primitive_Distinguishability.pdf",
+      "sha256": "b98ecb0e947750eb8c3069d5ac67d8d397f54c2b61b5d34770f65349b5a54b6f"
+    },
+    {
+      "bytes": 1510,
+      "path": "inputs/CF000_RELEVANT_EXCERPTS.md",
+      "sha256": "76611b80bbfbc99ec941696b03e712f42c2d7f50d718365b451022d45f977d63"
+    },
+    {
+      "bytes": 120002,
+      "path": "inputs/CG000_Branch_Relative_Origin_Resolution_Whitepaper.pdf",
+      "sha256": "a739a05bac4456d2e5035c6e20dfd3340d0983d72f622d95b6ee7d89a0f72f92"
+    },
+    {
+      "bytes": 4406,
+      "path": "inputs/DESCRIPTIVE_ARTICULATION_EQUIVALENCE.md",
+      "sha256": "3c190593488659191d7065719d5f8f145012745d79bc551c388a883d76be22f3"
+    },
+    {
+      "bytes": 21597,
+      "path": "inputs/QBL_DESCRIPTIVE_ARTICULATION_BOUNDARY_v1.md",
+      "sha256": "f02c26e7502bd03a077d843d17d81f6456b9bc658da6c6efcee59bb215034459"
+    },
+    {
+      "bytes": 29584,
+      "path": "inputs/QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+      "sha256": "f0f66790bf6da0b3fca9a400da36ff5879db4b3e861703ef3a309829a2af9962"
+    },
+    {
+      "bytes": 6454,
+      "path": "inputs/SINGLE_COURSE_CORRECTION.md",
+      "sha256": "e410b1413086b184cd2ebb50fbd45d1cdb82c10b02d2cfaba154336fcf1bd9b0"
+    },
+    {
+      "bytes": 566,
+      "path": "outputs/p5-b3-v6_audit-summary.json",
+      "sha256": "c785f4147948e9cbff50626d2382769c8765cd32bf944ec3b86dc8e598ebbe84"
+    },
+    {
+      "bytes": 689,
+      "path": "outputs/p5-b3-v6_bridge-audit.json",
+      "sha256": "d4b2400dd7afbe9ae3d981c78a36825ed0dde6a178e643b1fde5bd7f3e72ef91"
+    },
+    {
+      "bytes": 499,
+      "path": "outputs/p5-b3-v6_package-verification.json",
+      "sha256": "c48d0313f2fc894ebc1516d440a3414839339bae9cca4cb5d46afe8f4bd19764"
+    },
+    {
+      "bytes": 0,
+      "path": "outputs/p5-b3-v6_package-verification.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 24,
+      "path": "requirements.txt",
+      "sha256": "0d5b8d9408d93e3953b2a0117a8a9657d829f2e95f79d904093bab5eec894183"
+    },
+    {
+      "bytes": 1439,
+      "path": "scripts/p5-b3-v6_bridge_audit.py",
+      "sha256": "005a5c171fa51d2b15076d32a906c346c9ffe48af0b914c0903fed928a2d13d0"
+    },
+    {
+      "bytes": 3218,
+      "path": "scripts/p5-b3-v6_verify_agent_package.py",
+      "sha256": "cefc4644f4a9e2874eadf6485be0a2a908711b3ca9b2a1779bdb677f8d1a4f5b"
+    },
+    {
+      "bytes": 967,
+      "path": "source-references/p5-b3-v6_audited-artifacts.json",
+      "sha256": "5cc0665468e00d41349435661863e62915bfa2dac0f2a632d8b5cc8caaf44dc2"
+    }
+  ],
+  "id": "p5-b3-v6",
+  "timestamp": "20260711T193328",
+  "type": "audit-package"
+}

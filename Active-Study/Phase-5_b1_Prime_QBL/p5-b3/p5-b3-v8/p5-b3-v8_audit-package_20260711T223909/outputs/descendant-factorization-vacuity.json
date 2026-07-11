@@ -1,0 +1,12 @@
+{
+  "certificate": "Arbitrary target descendants satisfy D=R(P) through state-dependent constant maps.",
+  "descendants_were_chosen_independently": true,
+  "equation_D_equals_R_of_P_passes": true,
+  "placement_checks": {
+    "++": true,
+    "+-": true,
+    "-+": true,
+    "--": true
+  },
+  "required_guard": "R must factor through fixed placement data and a realization-fixed restriction constructor; identical P and structural data must force identical D."
+}

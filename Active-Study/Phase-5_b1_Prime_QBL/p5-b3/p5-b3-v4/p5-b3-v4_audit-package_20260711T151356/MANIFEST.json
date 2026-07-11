@@ -1,0 +1,62 @@
+{
+  "files": [
+    {
+      "path": "AUDIT_RESULTS.md",
+      "sha256": "d33147ac32d366817085e4b6e88f951ece290ba8565fe1ab91564ac5347b14c0",
+      "size": 5844
+    },
+    {
+      "path": "OUTGOING_INSTRUCTIONS.md",
+      "sha256": "ae2b1776041100c0d484d8227760b1a7b7e64c0be10d46d9d3f0a6453648f402",
+      "size": 5657
+    },
+    {
+      "path": "README.md",
+      "sha256": "504821e1feff79c2fa281e95e6d845ce849592f2053b38d844e90d707e5576c5",
+      "size": 599
+    },
+    {
+      "path": "SOURCE_MAP.md",
+      "sha256": "85f8dbd72c878a80173755e7c3d83d79d1454ef0c5902d5115baafd5ef9636f0",
+      "size": 653
+    },
+    {
+      "path": "outputs/p5-b3-v4_clean-rebuild.log",
+      "sha256": "1be4d2e948544c3995cc235e017b186d59d4b0f12e923878275dad38166d239c",
+      "size": 310
+    },
+    {
+      "path": "outputs/p5-b3-v4_package-verification.json",
+      "sha256": "ca687de568718c07c1418728f0cc7adef5a53701019a65ad7aa9c4e33cf25308",
+      "size": 286
+    },
+    {
+      "path": "outputs/p5-b3-v4_scope-audit.json",
+      "sha256": "7a5c20ea1c92a7a2132eb0a75b1ae9ead15f1ba9bf954f3794e40bbfb785500a",
+      "size": 672
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "8dffa3eeb410a314a7ed99f353b0abe8f997bd940e94ba61454af0e50313f855",
+      "size": 56
+    },
+    {
+      "path": "scripts/p5-b3-v4_scope_audit.py",
+      "sha256": "e93577f950768f2cf0e932087992b36d2c85976878d5fb6398970cea00c385a8",
+      "size": 1877
+    },
+    {
+      "path": "scripts/p5-b3-v4_verify_agent_package.py",
+      "sha256": "80bd1997216a79eec16e6ba9f4fe89b5e0a643cf25ac50927cabbb711a2a689a",
+      "size": 2418
+    },
+    {
+      "path": "source-references/p5-b3-v4_audited-artifacts.json",
+      "sha256": "ec4e9624c514c1a4376e1930130e2067fc5a084bdd41d7eeff7c31b4dbf04452",
+      "size": 578
+    }
+  ],
+  "hash_rule": "all files except MANIFEST.json",
+  "package": "p5-b3-v4_audit-package_20260711T151356",
+  "schema": "audit-package-v1"
+}

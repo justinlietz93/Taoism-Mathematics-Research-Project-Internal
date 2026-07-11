@@ -1,0 +1,13 @@
+{
+  "B_local_identity": true,
+  "PROVED_emitted_for_complete_pairing": false,
+  "Q_local_identity": true,
+  "authority_markers": true,
+  "carry_indexing": true,
+  "complete_type_not_forced": true,
+  "conditional_two_sided_block_formula": true,
+  "first_domain_endpoint": true,
+  "fixed_type_seed_uniqueness": true,
+  "one_sided_orthogonality_counterexample": true,
+  "type_ambiguity_model_witness": true
+}

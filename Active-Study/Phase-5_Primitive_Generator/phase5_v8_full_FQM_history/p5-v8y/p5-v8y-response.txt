@@ -1,0 +1,127 @@
+Executed `p5_v8y`.
+
+[Download `p5_v8y_primary-pairing-star-phase-compatibility_20260711_162758.zip`](sandbox:/mnt/data/p5_v8y_primary-pairing-star-phase-compatibility_20260711_162758.zip)
+
+```text
+ZIP SHA-256:
+491ecfffd78ce5ab11e82794381e7579168027892dce7986fb9d4d3507395d27
+```
+
+First audit file:
+
+[FINDINGS.md](sandbox:/mnt/data/p5_v8y_primary-pairing-star-phase-compatibility_20260711_162758/FINDINGS.md)
+
+Corrected research document:
+
+[20260711T162758_PRIMARY_PAIRING_STAR_PHASE_COMPATIBILITY.md](sandbox:/mnt/data/p5_v8y_primary-pairing-star-phase-compatibility_20260711_162758/docs/20260711T162758_PRIMARY_PAIRING_STAR_PHASE_COMPATIBILITY.md)
+
+```text
+Document SHA-256:
+bbba649dcbeff1593afb6d81ca6753253533e6dbe4e2bd8057a7eab1caa5bd46
+```
+
+## Status
+
+```text
+PAIRING_FIRST_REALIGNMENT:
+    PASS
+
+SOURCE-BOUND CLAIM LEDGER:
+    PASS
+
+SOURCE-FORCED LOCAL SIGNATURE:
+    DERIVED
+
+GENERAL Pair(-,-) BIFUNCTOR:
+    ADMISSIBLE_CANDIDATE
+
+STAR SEMANTICS:
+    NOT_YET_DERIVED
+
+Q QUARTER-TURN ACTION TYPE:
+    NOT_YET_DERIVED
+
+HERMITIAN DIAGONAL PROMOTION OF i/(uv):
+    REJECTED
+
+HISTORICAL H=M+iJ:
+    DERIVED_HERMITIAN_OVERLAP_RECONSTRUCTION_ON_HISTORICAL_ADMISSIBLE_TRACE_COCYCLE_TESTS;
+    NOT_PRIMARY_SEED_OR_RECURRENCE
+
+FIRST-L OLD/NEW RELATION:
+    NOT_YET_DERIVED
+
+FIRST-L NEW/OLD RELATION:
+    NOT_YET_DERIVED
+
+EXACT PRIMARY PAIRING TYPE:
+    NOT_YET_DERIVED
+
+SURVIVING MODELS:
+    complex bilinear symmetric
+    complex bilinear nonsymmetric
+    complex sesquilinear non-Hermitian
+    Hermitian
+    skew-Hermitian
+    operator-valued pairing
+    abstract dual-pullback model
+
+EARLIEST MISSING AXIOM:
+    STAR_SEMANTICS_AXIOM
+
+EXACT PRIMARY PAIRING SEED:
+    NOT_YET_DERIVED
+
+Xi_hat_t VALUES:
+    NOT_INSTANTIATED
+
+REAL SOURCE-CORRUPTION CONTROLS:
+    PASS
+
+TERMINAL PROJECTION:
+    NOT_RUN
+```
+
+## Research boundary
+
+The written architecture forces one primary object, two chart maps, and four descendants constructed from that primary object. It does **not** yet force a global `Pair(-,-)` bifunctor or one interpretation of `*`.
+
+`STAR_SEMANTICS_AXIOM` is the earliest unresolved axiom because the same glyph must coherently type:
+
+```text
+iota* P iota
+U* P U
+C_t*
+```
+
+The Q witness `i` remains separately untyped as scalar multiplication, a complex structure, an orientation action, or a local descendant label.
+
+The Hermitian obstruction was proved only at the licensed boundary:
+
+[
+h(x,x)=\overline{h(x,x)}
+]
+
+for a Hermitian form, whereas
+
+[
+\frac{i}{4895}\ne\overline{\frac{i}{4895}}.
+]
+
+Therefore `i/4895` cannot be promoted to a Hermitian diagonal self-pairing. This does not rule out a larger Hermitian primary object.
+
+## Verification
+
+```text
+source-bound excerpts:          12/12 verified
+full verifier gates:            18/18 passed
+pytest:                          3 passed
+real corruption controls:       6/6 fired intended gates
+clean rebuild comparison:       16/16 byte-identical artifacts
+manifest paths:                 61/61 before ZIP sealing
+archive/root file paths:        exact match
+cache or bytecode entries:      0
+```
+
+Lean source formalizes the Hermitian diagonal obstruction and the one-sided orthogonality counterexample. Lean compilation was unavailable and is not claimed.
+

@@ -1,0 +1,10 @@
+{
+  "candidate_model": "P:H->D(H)",
+  "currying_assumed": false,
+  "finite_dimensionality_assumed": false,
+  "missing_axiom": "For every H, a representing dual object D(H) and a natural isomorphism Pair(A,H) ~= Hom(A,D(H)), natural in A and compatible with pullback in H.",
+  "perfectness_assumed": false,
+  "reflexivity_assumed": false,
+  "source_forced_object": "Pair(A,B) with contravariant pullback in both slots",
+  "status": "NOT_YET_DERIVED"
+}

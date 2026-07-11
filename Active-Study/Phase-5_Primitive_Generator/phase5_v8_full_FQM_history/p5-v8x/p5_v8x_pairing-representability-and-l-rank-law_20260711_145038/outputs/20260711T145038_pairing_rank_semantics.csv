@@ -1,0 +1,6 @@
+rank_notion,status,first_L_effect,reason
+architectural_axis_count,DERIVED,1->2,literal source obligation
+argument_object_rank_or_dimension,NOT_YET_DERIVED,open,axis is not proved to be a basis vector or free generator
+block_matrix_size,CONDITIONAL_ON_REPRESENTATION,1 block->2 blocks,requires a block presentation
+pairing_morphism_rank,NOT_YET_TYPED,open,representability and rank function absent
+nondegenerate_pairing_rank,NOT_YET_TYPED,open,nondegeneracy absent

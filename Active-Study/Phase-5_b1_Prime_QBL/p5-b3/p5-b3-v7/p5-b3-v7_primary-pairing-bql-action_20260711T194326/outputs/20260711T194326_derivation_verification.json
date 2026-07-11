@@ -1,0 +1,11 @@
+{
+  "all_pass": true,
+  "checks": {
+    "L_old_old_preserved": true,
+    "boundary_bridge_not_invented": true,
+    "no_unlicensed_zero_blocks": true,
+    "source_dependencies": true,
+    "trace_endpoint": true,
+    "two_slot_arity": true
+  }
+}

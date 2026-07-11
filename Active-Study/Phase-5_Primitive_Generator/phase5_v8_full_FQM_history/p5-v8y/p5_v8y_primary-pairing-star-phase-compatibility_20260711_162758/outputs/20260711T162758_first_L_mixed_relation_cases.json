@@ -1,0 +1,29 @@
+{
+  "source_forced": [
+    "retain old pairing content",
+    "append one new orthogonal-axis obligation",
+    "extend both restrictions",
+    "extend both transfers",
+    "axis count increases by one"
+  ],
+  "old_to_new": "NOT_YET_DERIVED",
+  "new_to_old": "NOT_YET_DERIVED",
+  "newborn_self_relation": "NOT_YET_DERIVED",
+  "orthogonality_semantics": "NOT_YET_DERIVED",
+  "pairing_rank_semantics": "NOT_YET_TYPED",
+  "matrix_block_presentation": "CANDIDATE_ONLY",
+  "counterexample": {
+    "matrix": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "new_to_old": 0,
+    "old_to_new": 1
+  }
+}

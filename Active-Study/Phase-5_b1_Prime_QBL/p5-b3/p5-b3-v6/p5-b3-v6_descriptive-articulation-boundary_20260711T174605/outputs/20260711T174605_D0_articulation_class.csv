@@ -1,0 +1,10 @@
+construction,classification,certificate
+one-step primitive transitions,NATIVE,"Step emits B, Q, or L"
+exact word prefixes,NATIVE,W is a retained state coordinate
+finite QBL paths,DERIVED INSIDE D0,finite composition of Step
+stopping times,DERIVED INSIDE D0,first hitting index of a state predicate
+boundary sections,DERIVED INSIDE D0,B blocked and Q blocked
+first-return maps,DERIVED INSIDE D0,iterate Step between section hits
+path observables,DERIVED INSIDE D0,function of retained state/path/word suffix
+induced symbolic codes,DERIVED INSIDE D0,label on states or return paths
+unrealized topological closure points,NOT YET LICENSED,no corresponding enlarged QBL state family

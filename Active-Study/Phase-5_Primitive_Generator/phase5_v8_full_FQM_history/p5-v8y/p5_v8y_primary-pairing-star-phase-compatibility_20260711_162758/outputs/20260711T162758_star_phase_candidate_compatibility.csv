@@ -1,0 +1,8 @@
+candidate,star_realization,four_descendants,gauge_expression,first_L_Cstar,old_block_retention,Q_quarter_turn,axis_append,orthogonality,later_FQM_polarization,local_shorthand,historical_H_alignment,verdict
+complex bilinear symmetric,transpose,PASS,PASS,PASS,PASS,CONDITIONAL,PASS,PASS,PASS,BOUNDARY_PRESERVED,H is separate downstream object,ADMISSIBLE_BUT_NOT_FORCED
+complex bilinear nonsymmetric,transpose,PASS,PASS,PASS,PASS,CONDITIONAL,PASS,SIDE_OPEN,PASS,BOUNDARY_PRESERVED,H is separate downstream object,ADMISSIBLE_BUT_NOT_FORCED
+complex sesquilinear non-Hermitian,conjugate transpose,PASS,PASS,PASS,PASS,CONDITIONAL,PASS,SIDE_OPEN,PASS,BOUNDARY_PRESERVED,H is an admissible special downstream case,ADMISSIBLE_BUT_NOT_FORCED
+Hermitian,conjugate transpose,PASS,PASS,PASS,PASS,REQUIRES_Q_ACTION_AXIOM,PASS,TWO_SIDED_IF_SELF_ADJOINT,PASS,i/(uv) forbidden only as diagonal,H aligns as downstream Hermitian reconstruction,REQUIRES_ONE_AXIOM
+skew-Hermitian,conjugate transpose,PASS,PASS,PASS,PASS,REQUIRES_Q_ACTION_AXIOM,PASS,TWO_SIDED_UP_TO_SIGN,PASS,i/(uv) could be diagonal only after a missing identification,historical H has different self-adjointness,REQUIRES_ONE_AXIOM
+operator-valued pairing,operator adjoint,PASS,PASS,PASS,PASS,REQUIRES_COEFFICIENT_STAR_AND_Q_ACTION,PASS,SIDE_OPEN,REQUIRES_DESCENT_MAP,BOUNDARY_PRESERVED,H may be represented downstream,REQUIRES_ONE_AXIOM
+abstract dual-pullback model,categorical dual pullback,PASS,PASS,CONDITIONAL,PASS,REQUIRES_PHASE_ENRICHMENT,PASS,SEMANTICS_OPEN,REQUIRES_POLARIZATION_DESCENT,BOUNDARY_PRESERVED,H not typed at abstract layer,REQUIRES_ONE_AXIOM

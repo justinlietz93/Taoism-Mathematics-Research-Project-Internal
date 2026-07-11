@@ -1,0 +1,5 @@
+{"evidence_class": "COUNTERMODEL", "question": "new alphabet implies new domain", "result": "REJECTED BY CONTROL A"}
+{"evidence_class": "COUNTERMODEL", "question": "fiber split is sufficient evidence of new determination", "result": "SUPPORTED BY CONTROL B"}
+{"evidence_class": "DOCUMENT PROOF", "question": "D1 enriched return system", "result": "SAME-LAYER INDUCED RECODING"}
+{"evidence_class": "DOCUMENT PROOF", "question": "D0 saturation forces D1", "result": "FALSE; D0 CONTINUES NATIVELY"}
+{"evidence_class": "OPEN", "question": "D1 saturation", "result": "OPEN"}

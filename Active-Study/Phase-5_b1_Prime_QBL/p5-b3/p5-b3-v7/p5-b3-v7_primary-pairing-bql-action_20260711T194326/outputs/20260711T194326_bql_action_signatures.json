@@ -1,0 +1,31 @@
+{
+  "B": {
+    "active_change": "arithmetic pair metadata",
+    "argument_architecture": "retained",
+    "first_missing": "typed active-sector transport under pair refinement",
+    "latched": "preserved",
+    "rank_change": 0,
+    "slot_action": "OPEN",
+    "value_law": "OPEN"
+  },
+  "L": {
+    "arity_change": 0,
+    "first_missing": "typed orthogonality and extension-component law",
+    "new_new": "OPEN",
+    "new_old": "OPEN",
+    "old_new": "OPEN",
+    "old_old": "embedded prior pairing",
+    "rank_change": 1,
+    "zero_mixed_forced": false
+  },
+  "Q": {
+    "active_change": "quarter-orientation metadata",
+    "argument_architecture": "retained",
+    "first_missing": "typed quarter-turn action on two-slot interface",
+    "latched": "preserved",
+    "rank_change": 0,
+    "slot_action": "OPEN",
+    "value_law": "OPEN"
+  },
+  "status": "PROVED_AT_ARCHITECTURAL_LEVEL"
+}

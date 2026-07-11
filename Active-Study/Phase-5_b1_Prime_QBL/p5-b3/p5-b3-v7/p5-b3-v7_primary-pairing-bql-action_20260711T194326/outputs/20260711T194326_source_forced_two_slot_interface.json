@@ -1,0 +1,26 @@
+{
+  "algebraic_rank_typed": false,
+  "architectural_rank_law": "A+1",
+  "arity": 2,
+  "chart_descendants": [
+    "++",
+    "--",
+    "+-",
+    "-+"
+  ],
+  "source_checks": {
+    "B_fixed_rank": true,
+    "L_append_axis": true,
+    "L_preserve_old": true,
+    "L_rank_plus_one": true,
+    "Q_fixed_rank": true,
+    "chart_recurrence_open": true,
+    "four_block_shape": true,
+    "open_pairing_recurrence": true,
+    "pairing_generated": true,
+    "shape_is_intended": true
+  },
+  "star_typed": false,
+  "status": "PROVED",
+  "word_dependent": true
+}

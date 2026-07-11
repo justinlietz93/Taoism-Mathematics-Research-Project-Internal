@@ -1,0 +1,48 @@
+[
+  {
+    "conclusion": "A primary two-slot pairing object with contravariant restriction in each slot is sufficient and source-forced at the interface level.",
+    "evidence_class": "SOURCE_DERIVED",
+    "premises": [
+      "S02_PAIRING_FIRST",
+      "S03_FOUR_PULLBACKS"
+    ],
+    "rule_id": "R01_TWO_SLOT_PULLBACK"
+  },
+  {
+    "conclusion": "No source row states a representing dual object or natural currying isomorphism; P:H->D(H) is not derived.",
+    "evidence_class": "SOURCE_DERIVED",
+    "premises": [
+      "S03_FOUR_PULLBACKS",
+      "S11_AUDIT_RETYPE"
+    ],
+    "rule_id": "R02_NO_REPRESENTABILITY"
+  },
+  {
+    "conclusion": "Scalar variance is downstream of a coefficient object, scalar action, and involution.",
+    "evidence_class": "SOURCE_DERIVED",
+    "premises": [
+      "S05_Q_QUARTER_TURN",
+      "S09_FQM_POLARIZATION",
+      "S11_AUDIT_RETYPE"
+    ],
+    "rule_id": "R03_SCALAR_DOWNSTREAM"
+  },
+  {
+    "conclusion": "The word orthogonal does not select left, right, or two-sided vanishing; neither mixed block is derived zero.",
+    "evidence_class": "SOURCE_DERIVED",
+    "premises": [
+      "S06_L_EXTENSION",
+      "S11_AUDIT_RETYPE"
+    ],
+    "rule_id": "R04_L_MIXED_OPEN"
+  },
+  {
+    "conclusion": "Architectural axis count rises; pairing morphism rank is not yet typed.",
+    "evidence_class": "SOURCE_DERIVED",
+    "premises": [
+      "S06_L_EXTENSION",
+      "S11_AUDIT_RETYPE"
+    ],
+    "rule_id": "R05_RANK_UNTYPED"
+  }
+]

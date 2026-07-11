@@ -1,0 +1,9 @@
+{
+  "canonical_closure": "NOT YET DETERMINED",
+  "carry_symbols": 10000,
+  "descriptive_L": "PROVED",
+  "edges": 9999,
+  "finite_words_full_through_length": 7,
+  "symbolic_checks": "PASS",
+  "trace_rows": 10001
+}

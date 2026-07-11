@@ -1,0 +1,66 @@
+You were at the handoff point for the agent’s `p5-b3-v7` response and package. You had shown me the response, and I recommended sending it to the auditor with a note distinguishing:
+
+```text
+pairing architecture and two-slot interface:
+    already derived
+
+exact pairing type, seed, and value recurrence:
+    still open
+```
+
+Then your questions about visualization, CF000, and self-driven evolution exposed a stronger audit criterion for that same package.
+
+Yes, attach the principle alongside:
+
+1. the agent’s response;
+2. the `p5-b3-v7` package;
+3. this additional audit note.
+
+I would use this slightly tightened version:
+
+```text
+ADDITIONAL AUDIT CONSTRAINT:
+STATE-FORCED DERIVATION PRINCIPLE
+
+At every unresolved algebraic fork, determine how the complete retained
+state constrains the available continuations.
+
+Treat the candidate actions as possible representations of one intrinsic
+state-update law. Do not treat them as choices available to the evolving
+system.
+
+Exclude any candidate intrinsic law that:
+
+- contradicts Phase Calculus;
+- loses retained structure or exact word history;
+- introduces projection during evolution;
+- requires an external scheduler, convention, or realization choice;
+- fails to update the complete coupled retained state;
+- fails to reproduce the exact accepted descendants.
+
+Determine whether apparently different algebraic candidates are merely
+coordinate presentations of the same intrinsic action.
+
+When one intrinsic law survives, report the exact constraints that force it.
+
+When several intrinsic laws survive, report:
+
+1. the exact retained datum or theorem needed to distinguish them; or
+2. a precise independence result showing that the current authority cannot
+   distinguish them.
+
+Do not select a candidate solely because it is familiar, simple, or elegant.
+
+Use minimal added structure and natural closure as evidence only after the
+other candidates have been eliminated by explicit Phase Calculus constraints.
+```
+
+Add this final sentence so the auditor knows it is not a new branch:
+
+```text
+Apply this principle to the existing p5-b3-v7 pairing audit. Do not open a
+separate CF000 or descriptive-articulation investigation.
+```
+
+This helps rather than muddies the handoff. It tells the auditor how to evaluate the unresolved pairing forks without changing the actual research target.
+

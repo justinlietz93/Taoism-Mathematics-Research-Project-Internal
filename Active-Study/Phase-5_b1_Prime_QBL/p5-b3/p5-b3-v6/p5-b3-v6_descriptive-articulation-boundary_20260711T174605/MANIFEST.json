@@ -1,0 +1,286 @@
+{
+  "files": [
+    {
+      "bytes": 1482,
+      "path": "FINDINGS.md",
+      "sha256": "989b217485f91e2416d4393c14403a8ea2873c6827505334f33313b215b3441c"
+    },
+    {
+      "bytes": 1243,
+      "path": "README.md",
+      "sha256": "cfbb7697a8c4c7b535f58836e7d0a6742c73ef8d022ca77d1d29904aed6e747d"
+    },
+    {
+      "bytes": 806,
+      "path": "docs/20260711T174605_RESULTS.md",
+      "sha256": "41c4b74040c98c7a6b96dd4be0e89791a9d40427798cad6335142f5f181b367e"
+    },
+    {
+      "bytes": 4406,
+      "path": "docs/DESCRIPTIVE_ARTICULATION_EQUIVALENCE.md",
+      "sha256": "3c190593488659191d7065719d5f8f145012745d79bc551c388a883d76be22f3"
+    },
+    {
+      "bytes": 21597,
+      "path": "docs/QBL_DESCRIPTIVE_ARTICULATION_BOUNDARY_v1.md",
+      "sha256": "f02c26e7502bd03a077d843d17d81f6456b9bc658da6c6efcee59bb215034459"
+    },
+    {
+      "bytes": 23962,
+      "path": "figures/20260711T174605_claim_01.png",
+      "sha256": "233ed3cced766729f853206a57205c68ffb853c15207b632f4b809b60e5939f0"
+    },
+    {
+      "bytes": 27151,
+      "path": "figures/20260711T174605_claim_02.png",
+      "sha256": "a161c58daee6cf378fb3b92575c968d3a39caab0ba44698323a5cd3a4bff4c40"
+    },
+    {
+      "bytes": 30321,
+      "path": "figures/20260711T174605_claim_03.png",
+      "sha256": "52836fd041cd466dc78bfbf3e8bc5e52c9a1064162ae814a8c843b2ef5461ead"
+    },
+    {
+      "bytes": 31357,
+      "path": "figures/20260711T174605_claim_04.png",
+      "sha256": "f49897b34b2c4a041e1e0f023bb31b9c8e46598020fee50200dfb5f4b38f7109"
+    },
+    {
+      "bytes": 31654,
+      "path": "figures/20260711T174605_claim_05.png",
+      "sha256": "995d7caad14468102b570830f91b720e0c62aa4378b4c8f1d98d4fe9908abb2d"
+    },
+    {
+      "bytes": 27264,
+      "path": "figures/20260711T174605_claim_06.png",
+      "sha256": "71c930007c720eac3946ea8f8bd253a6b8af95b33b898bbcc86e5b19095830b9"
+    },
+    {
+      "bytes": 22421,
+      "path": "figures/20260711T174605_claim_07.png",
+      "sha256": "633f874ffdb8ce22e2a01eb4535b5e4a4ff193eb0022837c92a9706a46024b6c"
+    },
+    {
+      "bytes": 25211,
+      "path": "figures/20260711T174605_claim_08.png",
+      "sha256": "de2292f4232ec5c6d762536aed223ddd07017664200c33bbf107161fccb5b5f5"
+    },
+    {
+      "bytes": 33747,
+      "path": "figures/20260711T174605_claim_09.png",
+      "sha256": "907882036e50f0a8af90fa8f89741d9babc2f91ba3247976bd09ba0fc43603a3"
+    },
+    {
+      "bytes": 14233,
+      "path": "figures/20260711T174605_claim_10.png",
+      "sha256": "b0c123f1c246548ba7155972e93a82c1bfa9e4f6e6e869a694660d9c36e9ef24"
+    },
+    {
+      "bytes": 21041,
+      "path": "figures/20260711T174605_claim_11.png",
+      "sha256": "cd72d2442a4d3444f2566a6232ba06b6ea9b615b446d3166a14524755ebd24c3"
+    },
+    {
+      "bytes": 21692,
+      "path": "figures/20260711T174605_claim_12.png",
+      "sha256": "e9dde8032900fec34dd267f324f4ca55a576e167d7eb3034e3aea10e20658898"
+    },
+    {
+      "bytes": 482540,
+      "path": "inputs/20260711T174605_ACCEPTED_CARRY_TRACE_A0_A10000.csv",
+      "sha256": "9ef968c1fd15954f8c0203e0f20fc0da65d50e9eb894c3eed514c31828da9a5e"
+    },
+    {
+      "bytes": 7370,
+      "path": "inputs/20260711T174605_ACCEPTED_TASK.md",
+      "sha256": "b59aa47262d6d71f95dbdd39b790a2d02c9a26a17c24b0b432a310f5cde97292"
+    },
+    {
+      "bytes": 1996,
+      "path": "inputs/20260711T174605_ASSUMPTION_LOCK.md",
+      "sha256": "f562ebb04bc2fd8139f2d1e14ccaea6390c3beb020167697c2c9e6b3a8ce6f51"
+    },
+    {
+      "bytes": 284505,
+      "path": "inputs/20260711T174605_CF000_Primitive_Distinguishability.pdf",
+      "sha256": "b98ecb0e947750eb8c3069d5ac67d8d397f54c2b61b5d34770f65349b5a54b6f"
+    },
+    {
+      "bytes": 3039003,
+      "path": "inputs/20260711T174605_PRIOR_p5-b3-v5_release.zip",
+      "sha256": "6c5109dac6bde39687142a05c474db16f19d698f9d6040c5a07d92a7a0784ac2"
+    },
+    {
+      "bytes": 109,
+      "path": "inputs/20260711T174605_PRIOR_p5-b3-v5_release.zip.sha256",
+      "sha256": "e09f912a2bcdd7795479800e6775b0b9ee5912610abb7abb443d9a3e27ffccc5"
+    },
+    {
+      "bytes": 21667,
+      "path": "inputs/20260711T174605_QBL_CARRY_AFFINE_FOLLOWER_STRUCTURE_v5.md",
+      "sha256": "46996ac568f205d6a7cbb200a2c4108e77cec2b3e3b8e13a8aa5ffb854cba8ed"
+    },
+    {
+      "bytes": 23931,
+      "path": "inputs/20260711T174605_QBL_DOMAIN_PROPER_EFFECTIVE_INVARIANT_v1_AUDITED.md",
+      "sha256": "97a149261ad5653b097157d532e2dd0f2218985dd8c17c776c003961983884ea"
+    },
+    {
+      "bytes": 8055,
+      "path": "inputs/20260711T174605_QBL_GLOBAL_EXACT_THRESHOLD_BRIDGE_v2.md",
+      "sha256": "04eb66a2fe85b1b5cbdd3bfe8cd6cf426123124d51582b6f17bfb93f8b2603b9"
+    },
+    {
+      "bytes": 15506,
+      "path": "inputs/20260711T174605_QBL_HIERARCHICAL_GRAMMAR_FACTOR_SCOPE_v2.md",
+      "sha256": "63a522df4882409f7147ea96db128554b9a87530d880780cb8ffbda8025f31fd"
+    },
+    {
+      "bytes": 29584,
+      "path": "inputs/20260711T174605_QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+      "sha256": "f0f66790bf6da0b3fca9a400da36ff5879db4b3e861703ef3a309829a2af9962"
+    },
+    {
+      "bytes": 6659,
+      "path": "inputs/20260711T174605_p5-b3-v5_AUDIT_RESULTS.md",
+      "sha256": "c83c56431da55b5ff611a6d9a36c312dfdd15fd444d9f096b3bc12192167ff95"
+    },
+    {
+      "bytes": 920,
+      "path": "lab-journal.md",
+      "sha256": "71262b7b864516a727b0f5b0f99fa00f8c8db853808e0d31c55f4d029b3bb98f"
+    },
+    {
+      "bytes": 19638,
+      "path": "notebooks/20260711T174605_Descriptive_Articulation_Boundary.ipynb",
+      "sha256": "2d5f6214900313d85839b75466a03555a6f8c888847ac49714e18e5af13aef7e"
+    },
+    {
+      "bytes": 438532,
+      "path": "notebooks/20260711T174605_Descriptive_Articulation_Boundary_executed.ipynb",
+      "sha256": "58195e2dd980eab5f18367186890e30ea120db8af0526613061d8ff9fd00b85b"
+    },
+    {
+      "bytes": 688,
+      "path": "outputs/20260711T174605_D0_articulation_class.csv",
+      "sha256": "b28325992f6ab84a30d5937bf4e939373676d2b3dd8a93d059c2549b33a73ded"
+    },
+    {
+      "bytes": 783,
+      "path": "outputs/20260711T174605_D1_to_D0_interpretation.json",
+      "sha256": "27dded32361e89a5d27aa7ddf48bd7e500cc99f675dfff11d14df29863fece71"
+    },
+    {
+      "bytes": 1226,
+      "path": "outputs/20260711T174605_build_summary.json",
+      "sha256": "835a676b00a2969a2e7ab4636b21699c25c2eac3afb6417a5d10a681ec2353dd"
+    },
+    {
+      "bytes": 8300,
+      "path": "outputs/20260711T174605_canonical_boundary_states.csv",
+      "sha256": "ac86bf82334126bc11a80b5a3e26e550efd342a5dc852043b5d5732c36cd963e"
+    },
+    {
+      "bytes": 657,
+      "path": "outputs/20260711T174605_canonical_word_complexity.csv",
+      "sha256": "56b587f00d8926a0b7ca06d5b9ac910827262f703aa3eb0ce9c953a5c0436a0f"
+    },
+    {
+      "bytes": 273,
+      "path": "outputs/20260711T174605_corrected_prior_release_hash.json",
+      "sha256": "df40313d00615c34539df3b9b60733a88b0fcd46fa32a93313e22bf3596a27b6"
+    },
+    {
+      "bytes": 734,
+      "path": "outputs/20260711T174605_derivation_summary.json",
+      "sha256": "def2a69c78eefbb52ffbe5e56502f53197c21fc1b442612a47aee368a2bf70b8"
+    },
+    {
+      "bytes": 252,
+      "path": "outputs/20260711T174605_edge_frequencies.csv",
+      "sha256": "5be92c35dd553e0a56c93c35a16e4d9f14f754268bbf9750d480cf5baef4d65f"
+    },
+    {
+      "bytes": 1102,
+      "path": "outputs/20260711T174605_evidence_status.json",
+      "sha256": "6a1cd9569e1aa8b956d8ab842411516ea542ccec7c47ff25f622d611a0ee3aae"
+    },
+    {
+      "bytes": 965,
+      "path": "outputs/20260711T174605_negative_control_genuine_fiber_split.json",
+      "sha256": "babc17c48fb5fa60d2093ea6de013b8a90d08784856a5b08b9734dcd14ec7f33"
+    },
+    {
+      "bytes": 2976,
+      "path": "outputs/20260711T174605_negative_control_same_layer_return_code.json",
+      "sha256": "4321dfc3e0ca8902ee40fe669852df21773e65fdf61fe6af07d25aaf3a341289"
+    },
+    {
+      "bytes": 264,
+      "path": "outputs/20260711T174605_notebook_verification.json",
+      "sha256": "71bc6d4c656befe23ced32b3ec04adc539cd0d36634925432d41938da2d6dc4f"
+    },
+    {
+      "bytes": 8433,
+      "path": "outputs/20260711T174605_return_edges.csv",
+      "sha256": "449aea1dd327f46e1b78fdac129a6bd31725d57823be5a33fb1450414a249611"
+    },
+    {
+      "bytes": 585,
+      "path": "outputs/20260711T174605_saturation_status.csv",
+      "sha256": "08ad3ee83a4bc01b23127d0d389561a84f978b608c4083789cc77a3895b9a760"
+    },
+    {
+      "bytes": 69,
+      "path": "outputs/20260711T174605_state_frequencies.csv",
+      "sha256": "9896c2e0d5a8eab0ba7b75d5958ff4ad0b2e1bfde82035afbefe0b1359a0dcba"
+    },
+    {
+      "bytes": 792,
+      "path": "outputs/20260711T174605_structural_status.csv",
+      "sha256": "ef6248a76afe5dbe0ae85c7e066fc84500519254c6280b1c793bb1251c454f94"
+    },
+    {
+      "bytes": 81,
+      "path": "requirements.txt",
+      "sha256": "3ec4e7d3a0743885987f192914717805ca5031ed5191329581bf79e448f3b46f"
+    },
+    {
+      "bytes": 16814,
+      "path": "scripts/20260711T174605_build_package.py",
+      "sha256": "c47265d5aecf5dbf340e30fdf605e72f25032e2c0b81a5c647e41460ef4f79b5"
+    },
+    {
+      "bytes": 20392,
+      "path": "scripts/20260711T174605_derive_articulation_boundary.py",
+      "sha256": "1925e90cdebcce671e6cffec2ebf1eb56c0c46de256bcccf1b78064bb7218ef3"
+    },
+    {
+      "bytes": 1972,
+      "path": "scripts/20260711T174605_verify_package.py",
+      "sha256": "a4d76b1adac5168124cb2fd500aa84c7d08f614032fd7982a16d07fe5a90976d"
+    },
+    {
+      "bytes": 1357,
+      "path": "source_maps/20260711T174605_SOURCE_MAP.md",
+      "sha256": "64b4a897a696adf9363d8f3ee339b570a4eb63ac0a65bb8139f9b5b4494f88b4"
+    },
+    {
+      "bytes": 15602726,
+      "path": "trace/20260711T174605_primitive_custody_trace.jsonl",
+      "sha256": "b7855178615edc8f810d065b6c5ca96f8efeb9eabefcb75d78e3e1f1b3c91989"
+    },
+    {
+      "bytes": 9940,
+      "path": "trace/20260711T174605_return_interpretation_trace.jsonl",
+      "sha256": "091bcdc2814fe246abb0c3169e10b186244a2ca7857aa71da60d206877365de3"
+    },
+    {
+      "bytes": 570,
+      "path": "trace/20260711T174605_structural_decision_trace.jsonl",
+      "sha256": "e572cae2a569390a8ea92af73e002da4bf8ae0f5c54eda398626e06109ea8862"
+    }
+  ],
+  "manifest_version": 1,
+  "package": "p5-b3-v6_descriptive-articulation-boundary_20260711T174605"
+}

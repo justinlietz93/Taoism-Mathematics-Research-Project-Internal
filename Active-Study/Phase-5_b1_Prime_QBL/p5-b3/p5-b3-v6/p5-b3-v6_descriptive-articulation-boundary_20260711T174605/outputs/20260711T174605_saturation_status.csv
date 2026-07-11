@@ -1,0 +1,6 @@
+level,status,evidence_class,certificate
+local Domain-A at S_A^-,PROVED,DOCUMENT PROOF + EXACT SIMULATION,B blocked and Q blocked
+complete D0 all-domain custody layer,FALSE ON CANONICAL INFINITE ORBIT,DOCUMENT PROOF,native L and later B/Q steps continue within D0
+D1 saturation criterion,DEFINED,DEFINITION,"future separation, return-observable completeness, no internal refinement"
+D1 same-layer saturation,NOT YET DERIVED,OPEN,no nontrivial complete D1 descriptor proved
+D1 next re-articulation,NOT YET DERIVED,OPEN,no D1 saturation and no forced irreducible next determination

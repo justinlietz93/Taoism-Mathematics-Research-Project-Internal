@@ -1,0 +1,13 @@
+{
+  "contract": "NORMALIZED_SEMANTIC_REPRODUCIBILITY",
+  "compared": 16,
+  "byte_identical": 16,
+  "changed": [],
+  "normalized_exclusions": [
+    "MANIFEST.json",
+    "verification report",
+    "gate table",
+    "ZIP container metadata",
+    "source notebook execution metadata"
+  ]
+}

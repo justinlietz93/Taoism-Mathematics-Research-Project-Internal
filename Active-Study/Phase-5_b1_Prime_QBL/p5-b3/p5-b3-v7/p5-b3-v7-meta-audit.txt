@@ -1,0 +1,77 @@
+The unified package is approved except for one scalar-descendant scope issue.
+
+
+
+In OUTGOING_INSTRUCTIONS.md, replace:
+
+
+
+LOCAL ACTIVE DESCENDANT i/4895: DERIVED
+
+
+
+with:
+
+
+
+FIRST-DOMAIN COMPLETED LOCAL DESCENDANT i/4895: DERIVED
+
+GLOBAL ALL-DOMAIN ACTIVE-SPINE FORMULA: NOT YET DERIVED
+
+
+
+Replace Step 5 with:
+
+
+
+5. Scope the local descendant before using it.
+
+
+
+   On the exact Domain-0 path before the first L, derive
+
+
+
+   a_t = i^{#Q(W_t)} / (u_t v_t).
+
+
+
+   Prove its B and Q updates on that path.
+
+
+
+   At the first L, classify i/4895 as the completed retained
+
+   old-axis descendant.
+
+
+
+   Keep the newly opened active axis distinct. It begins as the
+
+   new unmutated axis required by the authority.
+
+
+
+   Determine whether the retained state forces an axis-indexed
+
+   recurrence for later domains.
+
+
+
+  Contender A is an adopted interface. Test whether it is sufficient to force the intrinsic law; do not retest whether the local interface exists.
+
+
+
+   Do not apply the total global Q count to the newborn active
+
+   axis without deriving that identification.
+
+
+
+   State exactly which pairing component each scalar descendant
+
+   constrains.
+
+
+
+   Report: LOCAL_DESCENDANT_SCOPE.md.

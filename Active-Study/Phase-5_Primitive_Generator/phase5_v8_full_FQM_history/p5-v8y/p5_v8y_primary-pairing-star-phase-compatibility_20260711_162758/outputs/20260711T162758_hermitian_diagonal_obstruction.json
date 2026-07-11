@@ -1,0 +1,18 @@
+{
+  "uv": 4895,
+  "value": {
+    "re": 0,
+    "im_numerator": 1,
+    "im_denominator": 4895
+  },
+  "conjugate": {
+    "re": 0,
+    "im_numerator": -1,
+    "im_denominator": 4895
+  },
+  "conjugation_fixed": false,
+  "difference_im_numerator": 2,
+  "difference_im_denominator": 4895,
+  "theorem": "For Hermitian h, h(x,x)=conj(h(x,x)); nonzero i/uv is not conjugation-fixed.",
+  "claim_boundary": "Reject only promotion of local i/(uv) to a Hermitian diagonal self-pairing; do not reject a larger Hermitian primary object."
+}

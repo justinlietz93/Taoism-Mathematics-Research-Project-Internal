@@ -1,0 +1,297 @@
+{
+  "files": [
+    {
+      "path": "FINDINGS.md",
+      "sha256": "9b3530a9ef9c6a9d250caedd194d00e8db33edd4a35637949d145461e2eed000",
+      "size": 496
+    },
+    {
+      "path": "README.md",
+      "sha256": "c62d0814384aaca5932d2c95bc63f97d7ee9b94db067b92c86c0fe571cdadb41",
+      "size": 730
+    },
+    {
+      "path": "docs/20260711T194326_RESULTS.md",
+      "sha256": "9b3530a9ef9c6a9d250caedd194d00e8db33edd4a35637949d145461e2eed000",
+      "size": 496
+    },
+    {
+      "path": "docs/QBL_PRIMARY_PAIRING_BQL_ACTION_BOUNDARY_v1.md",
+      "sha256": "6b00af9589c8727de5749045699fc0353b1a9faf5258ee207a5fda6fc6fac06a",
+      "size": 19734
+    },
+    {
+      "path": "docs/SOURCE_FORCED_TWO_SLOT_PAIRING.md",
+      "sha256": "9f2c85eb0557afaf2c2328f28042bcc891c5b4c5f53da7948eed20fcaa7a175f",
+      "size": 3457
+    },
+    {
+      "path": "figures/20260711T194326_claim_01.png",
+      "sha256": "5a1ce2979c19a74830dd1c2806108c804793ee0c75f00662e5b7b929f32ba217",
+      "size": 26988
+    },
+    {
+      "path": "figures/20260711T194326_claim_02.png",
+      "sha256": "68c1a9dd99a549b3cc2998c2a0695f949f0992c22b7a5f9f58fd769780eaa3a1",
+      "size": 15532
+    },
+    {
+      "path": "figures/20260711T194326_claim_03.png",
+      "sha256": "0f4babe8e5664abd71ea17fdcaac1c37f9f2c35b04e6c5b60acc1fbfe2c29f13",
+      "size": 23107
+    },
+    {
+      "path": "figures/20260711T194326_claim_04.png",
+      "sha256": "f80aa56e214b55ecf3c7d928b6393dfa094258ca2cf1c746ab3d4d4253e66c28",
+      "size": 18108
+    },
+    {
+      "path": "figures/20260711T194326_claim_05.png",
+      "sha256": "f53eface946cf0820ca35264b6a0e70f13d0396d78f90e4483eb59f9f62b704d",
+      "size": 24446
+    },
+    {
+      "path": "figures/20260711T194326_claim_06.png",
+      "sha256": "da0ea6e19688fcb9641ff9b7fe672f00a89b9af79d168b8935d3157959a1dd87",
+      "size": 18060
+    },
+    {
+      "path": "figures/20260711T194326_claim_07.png",
+      "sha256": "1e91e001d080ae1e6bcd7f8be3b829a3259941c5ecca2eed8a638772ecd39061",
+      "size": 15738
+    },
+    {
+      "path": "figures/20260711T194326_claim_08.png",
+      "sha256": "2fa08d175e7914db9c089b26fbc0b45eb3dd6a5c1adccbe6fc7177c1337696b6",
+      "size": 12950
+    },
+    {
+      "path": "figures/20260711T194326_claim_09.png",
+      "sha256": "11a2b49196dee7a6f16ae87f501d546f5497a48e23e9a63962adeff5bde16315",
+      "size": 19841
+    },
+    {
+      "path": "figures/20260711T194326_claim_10.png",
+      "sha256": "544b831b1f83ff18dba364c818a855fee6504458f9b63b0d3b3029d7cdb6ded9",
+      "size": 9063
+    },
+    {
+      "path": "figures/20260711T194326_claim_11.png",
+      "sha256": "b5336530db52285b3dbde9a3d72e9d4f28bcc5247935757fd6a4c33de3f33182",
+      "size": 24794
+    },
+    {
+      "path": "figures/20260711T194326_claim_12.png",
+      "sha256": "5a0d8843f2f72cd3dcaf68f49516446ccdbc60c16b91680ae493e55ffe7e0414",
+      "size": 33615
+    },
+    {
+      "path": "figures/20260711T194326_claim_13.png",
+      "sha256": "548bdc22a2f8f9c3cf2990df2124f29ace4be83edce4eda30b4894bc5b0aa59c",
+      "size": 31720
+    },
+    {
+      "path": "figures/20260711T194326_claim_14.png",
+      "sha256": "e2f474e8162df49d88d928316322da38297e84d81ff44fc5554275ccddb2b713",
+      "size": 38746
+    },
+    {
+      "path": "figures/20260711T194326_claim_15.png",
+      "sha256": "ebd0ba96c128c5ec2d0a13855e423f967aa22056fb41c475e366fef341efdcf7",
+      "size": 19178
+    },
+    {
+      "path": "inputs/20260711T194326_ACCEPTED_TASK.md",
+      "sha256": "c73b82cd51c3a1c23eb5b053fc9d30836df8e4259b9052d6a61ce7e45061bf55",
+      "size": 7394
+    },
+    {
+      "path": "inputs/20260711T194326_ASSUMPTION_LOCK.md",
+      "sha256": "fc83eb28a76595544b4b9d0b5eab21034271d8b73b228c35c7bbbe99d92b897c",
+      "size": 900
+    },
+    {
+      "path": "inputs/20260711T194326_CF000_Primitive_Distinguishability.pdf",
+      "sha256": "b98ecb0e947750eb8c3069d5ac67d8d397f54c2b61b5d34770f65349b5a54b6f",
+      "size": 284505
+    },
+    {
+      "path": "inputs/20260711T194326_CG000_HISTORICAL_CONTEXT.pdf",
+      "sha256": "a739a05bac4456d2e5035c6e20dfd3340d0983d72f622d95b6ee7d89a0f72f92",
+      "size": 120002
+    },
+    {
+      "path": "inputs/20260711T194326_OUTGOING_INSTRUCTIONS_p5-b3-v7.md",
+      "sha256": "c73b82cd51c3a1c23eb5b053fc9d30836df8e4259b9052d6a61ce7e45061bf55",
+      "size": 7394
+    },
+    {
+      "path": "inputs/20260711T194326_PAIRING_FIRST_SOURCE_EXTRACT.md",
+      "sha256": "aeefb7f7fd7412de188e4c6fe3fbf2eaa6f34e2b86e2dbc86490df88aff4c235",
+      "size": 1068
+    },
+    {
+      "path": "inputs/20260711T194326_QBL_DESCRIPTIVE_ARTICULATION_BOUNDARY_v1.md",
+      "sha256": "f02c26e7502bd03a077d843d17d81f6456b9bc658da6c6efcee59bb215034459",
+      "size": 21597
+    },
+    {
+      "path": "inputs/20260711T194326_QBL_PRIMARY_PAIRING_TYPE_BOUNDARY_v2.md",
+      "sha256": "00c9d0068dad1b45ddb7cd71dcf1d8695c1fcbc64d3e3f2563bf36bafc5b5a16",
+      "size": 18854
+    },
+    {
+      "path": "inputs/20260711T194326_QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+      "sha256": "f0f66790bf6da0b3fca9a400da36ff5879db4b3e861703ef3a309829a2af9962",
+      "size": 29584
+    },
+    {
+      "path": "inputs/20260711T194326_SINGLE_COURSE_CORRECTION.md",
+      "sha256": "e410b1413086b184cd2ebb50fbd45d1cdb82c10b02d2cfaba154336fcf1bd9b0",
+      "size": 6454
+    },
+    {
+      "path": "inputs/20260711T194326_orthad-diagram-v5_CONTEXT.png",
+      "sha256": "2880cd7c9d228a2739637990e8c7ff2322bb840f3da14f51f472d2689d6ed2e6",
+      "size": 1998671
+    },
+    {
+      "path": "inputs/20260711T194326_p5-b3-v6_AUDIT_RESULTS.md",
+      "sha256": "db85620a00372ab24e6d8dc9de3adf9a6a0300a604540a1e2e245f08a665b1ca",
+      "size": 7240
+    },
+    {
+      "path": "lab-journal.md",
+      "sha256": "0bb1f50cdfb86e6fb126f527a2fe93e953e8b4c3e5531e1ebb48a6fd660c23ea",
+      "size": 633
+    },
+    {
+      "path": "notebooks/20260711T194326_Primary_Pairing_BQL_Action_Boundary.ipynb",
+      "sha256": "9c62f8856809cb9e1cf76864d5632abc8badc19c0dd934db14331d09e3040dd9",
+      "size": 11373
+    },
+    {
+      "path": "notebooks/20260711T194326_Primary_Pairing_BQL_Action_Boundary_executed.ipynb",
+      "sha256": "c052a4174985a0c3ae6899b411c6f6063ce2daace27b042ca486d11193844403",
+      "size": 460775
+    },
+    {
+      "path": "outputs/20260711T194326_L_component_schema.json",
+      "sha256": "d9428cb412344c1d825f3c90f5e83c7e26b1dd936b9b6d5563e42a3b82f50ad7",
+      "size": 329
+    },
+    {
+      "path": "outputs/20260711T194326_boundary_return_pairing_constraint.json",
+      "sha256": "8ebcdb276a978cfab4b89de21116b5753f1b37069ec0ef699420c3de7d175a61",
+      "size": 500
+    },
+    {
+      "path": "outputs/20260711T194326_bql_action_signatures.json",
+      "sha256": "bf104f9f1e054fc20035fdae16306939e2cd59e1be34e192564518964ad79731",
+      "size": 882
+    },
+    {
+      "path": "outputs/20260711T194326_build_summary.json",
+      "sha256": "a8b45453f753c89a0d6b01cd70c91d45099ece1091bdcd622d88724a1470a7d5",
+      "size": 269
+    },
+    {
+      "path": "outputs/20260711T194326_derivation_verification.json",
+      "sha256": "1bcc00996b90a95dd9710a1b085d063347b1299d914ee3dd6ee8188a9099067f",
+      "size": 244
+    },
+    {
+      "path": "outputs/20260711T194326_first_domain_symbolic_trace.csv",
+      "sha256": "65f19cda0fe95b9290dd793cf945bf7882f1295d2861e9772065faef7bf53a98",
+      "size": 1042
+    },
+    {
+      "path": "outputs/20260711T194326_notebook_verification.json",
+      "sha256": "fdda488e8b27c71f9d27c00b5b61a90b557aacad2db6869819c61abcfb3110e8",
+      "size": 2799
+    },
+    {
+      "path": "outputs/20260711T194326_one_sided_orthogonality_control.json",
+      "sha256": "6c8938e08ba6bc6431e21f65c7ddefe051a3f6fe001febda1a3bb99fc44cb4be",
+      "size": 266
+    },
+    {
+      "path": "outputs/20260711T194326_realization_candidates.csv",
+      "sha256": "e534d41d28e70b8bf852875f166dbefc3a0a01e112ca35fc8152292dc6675ec5",
+      "size": 463
+    },
+    {
+      "path": "outputs/20260711T194326_reproducibility.json",
+      "sha256": "95d6185c1916831a02d3705e337c6364a341dcd61c7265d8d13db3c15f06d66a",
+      "size": 214
+    },
+    {
+      "path": "outputs/20260711T194326_source_forced_two_slot_interface.json",
+      "sha256": "1c6aab15bc468de995eee5fa99b2d86a09c930366d07341feeff073b1f0a9ef7",
+      "size": 550
+    },
+    {
+      "path": "outputs/20260711T194326_status.json",
+      "sha256": "435368c522a0a9b7f0c801b631e1136f9cb5ab3b2c8053ecc3daac59a879dc3a",
+      "size": 396
+    },
+    {
+      "path": "proofs/20260711T194326_QBLPrimaryPairingBQLActionBoundary.lean",
+      "sha256": "12edcebeaf9db3ba6e8af506c414cd31df2380cf106a1d81a5470fe3f5f09c7d",
+      "size": 2291
+    },
+    {
+      "path": "proofs/20260711T194326_lean_compiler.log",
+      "sha256": "65334192ae9df0ad42055e869445f9e9cfa96a28b93a6c90c50a4c633df149a2",
+      "size": 104
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "a26315373a7ea0c9b6edf1f55a195336f4474b05171b98cda9f10899797bdfca",
+      "size": 81
+    },
+    {
+      "path": "scripts/20260711T194326_build_package.py",
+      "sha256": "019653e9d3cb6fdb08b7c5abe85be0a6348efbc9cc49f5151bc2204045760e1d",
+      "size": 4815
+    },
+    {
+      "path": "scripts/20260711T194326_derive_bql_action_boundary.py",
+      "sha256": "23d1d99376eff0b567f6db0e86ae516de712482a1f655ffaa48058fbf9dfa2c5",
+      "size": 8204
+    },
+    {
+      "path": "scripts/20260711T194326_verify_archive.py",
+      "sha256": "114665c1fdb08074b0a6f352a9f177c1e27f41eb37d29caef485af52fb08a069",
+      "size": 1172
+    },
+    {
+      "path": "source_maps/20260711T194326_SOURCE_MAP.md",
+      "sha256": "4760064283a24c5f59a0e7f6d0e7a84eba3f6b605b78e79ad313d964b8821871",
+      "size": 1059
+    },
+    {
+      "path": "trace/20260711T194326_authority_decision_trace.jsonl",
+      "sha256": "b3f58e0e58cca37075bbaea54f8932a783e4f12fc5aee7d5e9f407ae2ad60008",
+      "size": 1349
+    },
+    {
+      "path": "trace/20260711T194326_model_witness_trace.jsonl",
+      "sha256": "f81c3f68fd65504451e72c58bceec30ba9ed8fd0dc790f4c6fd333ce3a640bb4",
+      "size": 580
+    },
+    {
+      "path": "trace/20260711T194326_rebuild_trace.jsonl",
+      "sha256": "da013860e59aa40fd3666115068d197d49b098a4c981bd4719b64fabd458a949",
+      "size": 204
+    },
+    {
+      "path": "trace/20260711T194326_symbolic_prefix_trace.jsonl",
+      "sha256": "2e423cae80f29a740a912710489a04da73d821da1b6c5ec95656c52d1812a91c",
+      "size": 3152
+    }
+  ],
+  "hash_rule": "all package files except MANIFEST.json",
+  "package": "p5-b3-v7_primary-pairing-bql-action_20260711T194326",
+  "schema": "qbl-experiment-manifest-v1"
+}

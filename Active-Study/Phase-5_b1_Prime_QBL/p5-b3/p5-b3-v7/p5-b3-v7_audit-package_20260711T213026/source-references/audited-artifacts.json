@@ -1,0 +1,13 @@
+{
+  "incoming_archive": "p5-b3-v7_primary-pairing-bql-action_20260711T194326(2).zip",
+  "incoming_sha256": "a585adef6990ad33bb355450c82cebfa57afe807ed7006b3b4cd9b182124a298",
+  "incoming_extracted_root": "p5-b3-v7_primary-pairing-bql-action_20260711T194326",
+  "parallel_convergence_input": {
+    "archive": "p5_v8y_primary-pairing-star-phase-compatibility_20260711_162758.zip",
+    "sha256": "491ecfffd78ce5ab11e82794381e7579168027892dce7986fb9d4d3507395d27",
+    "document_sha256": "bbba649dcbeff1593afb6d81ca6753253533e6dbe4e2bd8057a7eab1caa5bd46",
+    "integrity_status": "independently_verified_external_input",
+    "embedded": false,
+    "role": "convergence_input"
+  }
+}

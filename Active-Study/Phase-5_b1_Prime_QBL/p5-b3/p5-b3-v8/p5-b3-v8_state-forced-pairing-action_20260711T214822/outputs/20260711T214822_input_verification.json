@@ -1,0 +1,15 @@
+{
+  "audit_zip": {
+    "path": "inputs/p5-b3-v7_audit-package_20260711T213026.zip",
+    "sha256": "332c6b775decfc130c1beea42129054bf4c989e8f1f632667afb148806f66377"
+  },
+  "authority": {
+    "path": "inputs/QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+    "sha256": "f0f66790bf6da0b3fca9a400da36ff5879db4b3e861703ef3a309829a2af9962"
+  },
+  "convergence_zip": {
+    "expected": "491ecfffd78ce5ab11e82794381e7579168027892dce7986fb9d4d3507395d27",
+    "path": "inputs/convergence/p5_v8y_primary-pairing-star-phase-compatibility_20260711_162758.zip",
+    "sha256": "491ecfffd78ce5ab11e82794381e7579168027892dce7986fb9d4d3507395d27"
+  }
+}

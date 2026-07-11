@@ -1,0 +1,12 @@
+{
+  "agent_archive": {
+    "name": "p5-b3-v5_domain-proper-effective-invariant_20260711T162253.zip",
+    "actual_sha256": "6c5109dac6bde39687142a05c474db16f19d698f9d6040c5a07d92a7a0784ac2",
+    "reported_sha256": "6c5109dac6bde39687142a05c474db16f19d698f9d6040c5a07d92a7a0784ac",
+    "reported_hash_length": 63
+  },
+  "document": {
+    "path_in_archive": "docs/QBL_DOMAIN_PROPER_EFFECTIVE_INVARIANT_v1.md",
+    "sha256": "97a149261ad5653b097157d532e2dd0f2218985dd8c17c776c003961983884ea"
+  }
+}

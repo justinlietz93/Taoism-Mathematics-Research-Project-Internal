@@ -1,0 +1,82 @@
+{
+  "all_executed": true,
+  "cells": [
+    {
+      "cell": 1,
+      "figure": "20260711T145605_claim_01.png",
+      "status_line": "STATUS: authority boundary represented"
+    },
+    {
+      "cell": 2,
+      "figure": "20260711T145605_claim_02.png",
+      "status_line": "MODEL WITNESS: multiple algebraic types can realize the architectural role"
+    },
+    {
+      "cell": 3,
+      "figure": "20260711T145605_claim_03.png",
+      "status_line": "STATUS: PRIMARY_PAIRING_REALIZATION_AXIOM dependency order"
+    },
+    {
+      "cell": 4,
+      "figure": "20260711T145605_claim_04.png",
+      "status_line": "PASS: fixed one-dimensional bilinear type, fixed basis, P(e,e)=1 gives alpha=1"
+    },
+    {
+      "cell": 5,
+      "figure": "20260711T145605_claim_05.png",
+      "status_line": "PASS: fixed one-dimensional conjugate-sesquilinear type, fixed basis, P(e,e)=1 gives alpha=1"
+    },
+    {
+      "cell": 6,
+      "figure": "20260711T145605_claim_06.png",
+      "status_line": "MODEL WITNESS: two types share P(1,1)=1 but differ at P(i,1)"
+    },
+    {
+      "cell": 7,
+      "figure": "20260711T145605_claim_07.png",
+      "status_line": "MODEL WITNESS: basis presentation changes displayed seed coefficient"
+    },
+    {
+      "cell": 8,
+      "figure": "20260711T145605_claim_08.png",
+      "status_line": "PASS: one-sided orthogonality does not force both mixed blocks to vanish"
+    },
+    {
+      "cell": 9,
+      "figure": "20260711T145605_claim_09.png",
+      "status_line": "CONDITIONAL CHECK: two-sided P-orthogonal L birth gives block diagonal extension"
+    },
+    {
+      "cell": 10,
+      "figure": "20260711T145605_claim_10.png",
+      "status_line": "PASS: local B descendant a -> a*u/(u+v)"
+    },
+    {
+      "cell": 11,
+      "figure": "20260711T145605_claim_11.png",
+      "status_line": "PASS: local Q descendant a -> i*a"
+    },
+    {
+      "cell": 12,
+      "figure": "20260711T145605_claim_12.png",
+      "status_line": "PASS: recursive first-domain interpreter reaches i/4895 before L"
+    },
+    {
+      "cell": 13,
+      "figure": "20260711T145605_claim_13.png",
+      "status_line": "PASS: just-completed c_A is recovered at S_A^-; future carry is absent at prior instantaneous L"
+    },
+    {
+      "cell": 14,
+      "figure": "20260711T145605_claim_14.png",
+      "status_line": "MODEL WITNESS: local +i quarter action does not select variance without a slot convention"
+    },
+    {
+      "cell": 15,
+      "figure": "20260711T145605_claim_15.png",
+      "status_line": "STATUS: final dependency-derived boundary"
+    }
+  ],
+  "code_cells": 15,
+  "figures": 15
+}

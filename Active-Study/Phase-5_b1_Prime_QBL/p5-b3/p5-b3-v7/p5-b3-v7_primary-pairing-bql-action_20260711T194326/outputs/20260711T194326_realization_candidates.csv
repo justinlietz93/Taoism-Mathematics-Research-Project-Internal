@@ -1,0 +1,5 @@
+candidate,two_slots,four_blocks,extra_data,evidence_class,authority_selection
+nonrepresented two-slot pairing,yes,yes,argument category and abstract restriction,MODEL WITNESS,not selected
+represented duality morphism,yes,yes,"duality, embeddings, naturality",MODEL WITNESS,not selected
+scalar bilinear,yes,yes,"module, scalars, bilinearity",MODEL WITNESS,not selected
+conjugate sesquilinear,yes,yes,"involution, variance, adjoint",MODEL WITNESS,not selected

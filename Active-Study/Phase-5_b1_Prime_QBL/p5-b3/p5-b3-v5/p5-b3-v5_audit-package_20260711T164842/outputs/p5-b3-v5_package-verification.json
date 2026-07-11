@@ -1,0 +1,16 @@
+{
+  "archive_matches_actual_expected": true,
+  "archive_sha256": "6c5109dac6bde39687142a05c474db16f19d698f9d6040c5a07d92a7a0784ac2",
+  "document_hash_pass": true,
+  "document_sha256": "97a149261ad5653b097157d532e2dd0f2218985dd8c17c776c003961983884ea",
+  "figures": 12,
+  "manifest_coverage_difference": [],
+  "manifest_entries": 49,
+  "manifest_errors": [],
+  "pass_internal": true,
+  "pass_response_integrity": false,
+  "reported_hash_length": 63,
+  "reported_hash_valid_sha256_length": false,
+  "reported_matches_archive": false,
+  "reported_sha256": "6c5109dac6bde39687142a05c474db16f19d698f9d6040c5a07d92a7a0784ac"
+}

@@ -1,0 +1,6 @@
+{"step": 1, "object": "primitive custody", "status": "ACCEPTED_BASELINE"}
+{"step": 2, "object": "source-forced local pairing obligations", "status": "DERIVED"}
+{"step": 3, "object": "star semantics", "status": "NOT_YET_DERIVED"}
+{"step": 4, "object": "Q action type", "status": "BLOCKED_BY_STAR_SEMANTICS"}
+{"step": 5, "object": "primary pairing type and seed", "status": "BLOCKED"}
+{"step": 6, "object": "charts/transfers/projection", "status": "NOT_RUN"}

@@ -1,0 +1,36 @@
+# p5-b3-v6_audit-package_20260711T193328
+
+Minimal audit package for the incoming `p5-b3-v6` result.
+
+## Verdict
+
+```text
+REVISE_DECISIVE_VERDICT
+
+EXACT RETURN-SYSTEM ISOMORPHISM: ADOPT
+CARRY AS D0 PATH-OBSERVABLE FACTOR: ADOPT
+CORRECTED SATURATION INDEXING: ADOPT
+SYMBOLIC CLOSURE POINT / LAWFUL QBL STATE SEPARATION: ADOPT
+
+FIBER SPLITTING AS NECESSARY FOR A NEW CF000 DOMAIN: REJECT
+COMPLETE D0 PATH-CLOSURE AS UNIVERSAL SAME-LAYER CRITERION: REJECT
+D1 SAME-LAYER ARTICULATION: NOT YET DERIVED
+D1 DOMAIN-PROPER EFFECTIVE INVARIANT FALSE: NOT ESTABLISHED
+HIGHER-ORDER DESCRIPTIVE L FOR D0->D1 FALSE: NOT ESTABLISHED
+
+p5-b3 BRANCH STATUS: OPEN
+NEXT INTERACTION: p5-b3-v7
+```
+
+Run the mechanical checks with:
+
+```bash
+python scripts/p5-b3-v6_verify_agent_package.py \
+  --archive /path/to/p5-b3-v6_descriptive-articulation-boundary_20260711T174605.zip
+
+python scripts/p5-b3-v6_bridge_audit.py \
+  --cf000-excerpts inputs/CF000_RELEVANT_EXCERPTS.md \
+  --criterion inputs/DESCRIPTIVE_ARTICULATION_EQUIVALENCE.md
+```
+
+The source-phrase bridge script is a traceability aid. It is not a formal theorem checker.

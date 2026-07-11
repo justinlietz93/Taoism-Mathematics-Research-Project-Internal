@@ -1,0 +1,182 @@
+Yes. You caught it at the right time.
+
+The branch had already backed away from declaring higher-order (L) false, and `p5-b3` is still open. The pairing work has not been wasted, but the next instructions need this correction **before** the pairing geometry becomes the sole test for descriptive recurrence.
+
+CF000 explicitly says that a newly admitted domain inherits the primitive invariant and prior effective-invariant stack, then adds a new effective invariant proper to that domain. It does not require the new invariant to preserve the mathematical form of the previous one. 
+
+Paste this into the prior channel:
+
+---
+
+# NOTICE INTERJECTION: CF000 EFFECTIVE-INVARIANT CORRECTION
+
+Pause before issuing the next `p5-b3` instructions.
+
+A load-bearing CF000 rule needs to be restored to the current-state boundary.
+
+CF000 proves that each newly admitted axis or domain:
+
+1. inherits the primitive invariant;
+2. retains the previously formed effective-invariant stack;
+3. adds a new effective invariant proper to the newly admitted domain.
+
+The new effective invariant does **not** have to resemble the prior invariant’s realization.
+
+Examples:
+
+```text
+oak-tree branching:
+    spatial and geometric realization
+
+organizational hierarchy:
+    authority and dependency realization
+
+music-genre hierarchy:
+    classification and ancestry realization
+```
+
+These can express the same tree invariant without building the same kind of geometry.
+
+## Correction to the higher-order `L` test
+
+Do not require the affine `7/8/9` layer to append an Orthad axis, pairing rank, or geometric coordinate before it can qualify as a higher-order descriptive re-articulation.
+
+That requirement tests only a literal or Orthad-level `L`.
+
+Keep these two questions separate:
+
+```text
+ORTHAD-LEVEL L:
+    Does P, both chart restrictions, and both transfers
+    retain the old structure and append a new Orthad axis?
+
+DESCRIPTIVE-LEVEL L:
+    Does saturation of one descriptive layer produce a new
+    irreducible articulation class with its own native effective invariant?
+```
+
+The primary-pairing research remains necessary for the first question.
+
+It is not the sole gate for the second question.
+
+## Candidate grammar-level effective invariants
+
+At the affine grammar layer, the new effective invariant may be expressed through objects native to symbolic dynamics:
+
+```text
+exact boundary-return cocycle
+three-symbol branch partition
+cylinder-language complexity
+entropy
+follower-set structure
+non-sofic memory
+mixing
+```
+
+These should be tested as grammar-level invariants. They should not be rejected because they do not construct geometry in the manner of primitive `L`.
+
+## Correct current statuses
+
+```text
+LITERAL IDENTITY WITH PRIMITIVE L:
+    FALSE
+
+REQUIREMENT OF A NEW GEOMETRIC AXIS AT THE GRAMMAR LAYER:
+    NOT APPLICABLE
+
+ORTHAD-LEVEL HIGHER-ORDER L RECURRENCE:
+    NOT YET DERIVED
+
+EXACT BOUNDARY-RETURN COCYCLE:
+    PROVED
+
+AFFINE GRAMMAR AS A DOMAIN-PROPER EFFECTIVE INVARIANT:
+    NOT YET DERIVED
+
+HIGHER-ORDER DESCRIPTIVE L:
+    LIVE CONJECTURE; NOT YET DERIVED
+```
+
+## Scope boundary
+
+The full affine language has proved:
+
+```text
+p(n)=2^(n+1)-1
+entropy = log 2
+non-soficity
+no finite Markov order
+mixing
+```
+
+The canonical QBL boundary orbit is currently proved to semiconjugate to one affine orbit.
+
+It is not yet proved that the canonical orbit closure equals the full affine system.
+
+Therefore determine which invariant package belongs to the actual canonical QBL boundary layer:
+
+```text
+Case 1:
+The canonical orbit closure equals the full affine system.
+The full affine invariant package transfers.
+
+Case 2:
+The canonical orbit closure is smaller but carries its own
+new intrinsic effective invariants.
+
+Case 3:
+Only the arithmetic cocycle transfers.
+The stronger language invariants remain ambient-model properties.
+```
+
+## Revised descriptive-`L` test
+
+For the primitive QBL layer (\mathcal D_0) and boundary-return layer (\mathcal D_1), determine:
+
+1. What are the lawful objects of (\mathcal D_1)?
+2. What invariant (I_1) is intrinsic to those objects?
+3. Which inherited invariants from (\mathcal D_0) remain present?
+4. Is (I_1) genuinely new rather than a renaming or reparameterization of (I_0)?
+5. What constitutes same-layer saturation in (\mathcal D_1)?
+6. Does saturation force another lawful re-articulation?
+
+The target is:
+
+[
+I_1
+\text{ is inherited from the prior invariant stack,}
+]
+
+[
+I_1
+\text{ is proper to the new descriptive domain,}
+]
+
+and
+
+[
+I_1
+\not\equiv
+\text{a mere re-expression inside the old articulation class.}
+]
+
+## Direction
+
+Continue the pairing work, but narrow its role:
+
+```text
+pairing branch:
+    tests literal Orthad retention and axis extension
+
+effective-invariant branch:
+    tests descriptive recurrence across emergent levels
+```
+
+Do not make closure of the primary pairing recurrence a prerequisite for recognizing every possible grammar-level effective invariant.
+
+This notice supersedes any earlier criterion that treated geometric or matrix-axis extension as universally required for a higher-order descriptive `L`.
+
+---
+
+The key timing point is that you caught this **before `p5-b3` closed** and before the geometric criterion became ratified. The next interaction can absorb the correction without undoing the pairing work already completed.
+

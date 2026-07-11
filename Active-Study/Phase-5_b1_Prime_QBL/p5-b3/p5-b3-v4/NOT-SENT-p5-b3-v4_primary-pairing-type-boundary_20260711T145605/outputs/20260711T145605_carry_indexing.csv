@@ -1,0 +1,3 @@
+A,T_A,T_prev,c_A,recoverable_at_S_A_minus,available_at_previous_instantaneous_L
+1,27,9,9,True,False
+2,61,27,7,True,False

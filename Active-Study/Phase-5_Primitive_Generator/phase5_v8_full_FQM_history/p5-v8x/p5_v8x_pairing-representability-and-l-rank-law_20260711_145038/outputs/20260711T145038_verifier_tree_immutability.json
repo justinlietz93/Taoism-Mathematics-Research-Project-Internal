@@ -1,0 +1,9 @@
+{
+  "changed_paths": [],
+  "command": "<PYTHON> scripts/20260711T145038_verify.py <PACKAGE_ROOT>",
+  "path_sets_equal": true,
+  "paths_after": 59,
+  "paths_before": 59,
+  "verified_tree_unchanged": true,
+  "verifier_exit_code": 0
+}

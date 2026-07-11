@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "csv_marks_criterion_stated_as_pass": true,
+    "d1_explicitly_induced_first_return_map": true,
+    "d1_label_derived_from_d0_history": true,
+    "d1_saturation_only_defined": true,
+    "document_claims_descriptive_l_proved": true,
+    "no_symbolwise_map_used_as_novelty_certificate": true
+  },
+  "findings": [
+    "D1 is proved as an induced return invariant derived from D0 paths and history.",
+    "Failure of a one-letter map does not exclude variable-length same-layer recoding.",
+    "The package counts a stated saturation criterion as a passed saturation premise.",
+    "The descriptive-L theorem exceeds the proved irreducibility and saturation bridges."
+  ],
+  "recommended_status": {
+    "D1_DOMAIN_PROPER_EFFECTIVE_INVARIANT": "NOT YET DERIVED",
+    "D1_INDUCED_RETURN_INVARIANT": "PROVED",
+    "HIGHER_ORDER_DESCRIPTIVE_L": "NOT YET DERIVED"
+  }
+}

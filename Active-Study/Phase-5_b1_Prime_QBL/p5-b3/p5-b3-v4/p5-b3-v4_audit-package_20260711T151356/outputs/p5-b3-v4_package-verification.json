@@ -1,0 +1,9 @@
+{
+  "PASS": true,
+  "archive_sha256": "c3c91e37e7d970f8f89bf3db086fb64dc658e1e1e1c77fb3666f6aed80405b9b",
+  "document_sha256": "00c9d0068dad1b45ddb7cd71dcf1d8695c1fcbc64d3e3f2563bf36bafc5b5a16",
+  "failures": [],
+  "figures": 15,
+  "manifest_entries": 55,
+  "notebook_code_cells": 15
+}

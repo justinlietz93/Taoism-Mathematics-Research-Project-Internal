@@ -1,0 +1,6 @@
+requirement,verdict,certificate
+prior invariant stack retained,PASS,D1 is induced over complete saturated D0 boundary states
+new descriptive domain lawfully admitted,PASS,exact variable-length first-return map
+new domain-proper effective invariant,PASS,three-valued renormalized return cocycle
+not a D0 symbol rename,PASS,"all closings use L while c takes 7,8,9"
+same-layer saturation criterion independent,PASS,future/follower separation criterion stated

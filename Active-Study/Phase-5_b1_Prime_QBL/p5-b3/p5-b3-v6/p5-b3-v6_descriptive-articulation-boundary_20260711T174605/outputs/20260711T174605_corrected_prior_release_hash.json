@@ -1,0 +1,7 @@
+{
+  "actual": "6c5109dac6bde39687142a05c474db16f19d698f9d6040c5a07d92a7a0784ac2",
+  "archive": "20260711T174605_PRIOR_p5-b3-v5_release.zip",
+  "expected": "6c5109dac6bde39687142a05c474db16f19d698f9d6040c5a07d92a7a0784ac2",
+  "hex_length": 64,
+  "verifier_result": "PASS"
+}

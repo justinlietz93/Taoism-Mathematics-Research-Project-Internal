@@ -1,0 +1,10 @@
+{
+  "b_countermodel_is_label_dictionary": true,
+  "boundary_independence_uses_arbitrary_sequences": true,
+  "complete_coupled_state_transition_defined": false,
+  "coordinate_equivalence_test_present": true,
+  "pass_state_forced_burden": false,
+  "q_countermodel_is_label_dictionary": true,
+  "realization_witness_is_names_only": true,
+  "state_forced_principle_present": false
+}

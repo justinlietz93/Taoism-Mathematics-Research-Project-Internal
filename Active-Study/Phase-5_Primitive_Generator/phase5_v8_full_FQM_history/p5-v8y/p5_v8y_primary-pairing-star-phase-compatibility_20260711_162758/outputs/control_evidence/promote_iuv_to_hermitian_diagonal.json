@@ -1,0 +1,141 @@
+{
+  "control": {
+    "mutation": "promote_iuv_to_hermitian_diagonal",
+    "command": "python <TEMP_PACKAGE>/scripts/20260711T162758_verify.py <TEMP_PACKAGE> --skip-controls --control-mode",
+    "verifier_exit_code": 1,
+    "failed_gate": "HERMITIAN_DIAGONAL_BOUNDARY",
+    "evidence_path": "outputs/control_evidence/promote_iuv_to_hermitian_diagonal.json",
+    "pass": true,
+    "observed_failed_gates": [
+      "HERMITIAN_DIAGONAL_BOUNDARY"
+    ]
+  },
+  "verifier_report": {
+    "pass": false,
+    "gates": [
+      {
+        "gate": "MANIFEST_PATH_SET",
+        "pass": true,
+        "detail": {
+          "listed": 54,
+          "actual": 54
+        },
+        "evidence_class": "MECHANICALLY_RECOMPUTED"
+      },
+      {
+        "gate": "MANIFEST_HASHES",
+        "pass": true,
+        "detail": [],
+        "evidence_class": "MECHANICALLY_RECOMPUTED"
+      },
+      {
+        "gate": "SOURCE_BOUND_CLAIM_LEDGER",
+        "pass": true,
+        "detail": {
+          "rows": 12,
+          "failures": []
+        },
+        "evidence_class": "SOURCE_DERIVED"
+      },
+      {
+        "gate": "PAIRING_FIRST_REALIGNMENT",
+        "pass": true,
+        "detail": "PASS",
+        "evidence_class": "SOURCE_DERIVED"
+      },
+      {
+        "gate": "LOCAL_SIGNATURE_BOUNDARY",
+        "pass": true,
+        "detail": "DERIVED",
+        "evidence_class": "SOURCE_DERIVED"
+      },
+      {
+        "gate": "GENERAL_PAIR_BIFUNCTOR_BOUNDARY",
+        "pass": true,
+        "detail": "ADMISSIBLE_CANDIDATE",
+        "evidence_class": "CANDIDATE_FORMALIZATION"
+      },
+      {
+        "gate": "STAR_SEMANTICS_BOUNDARY",
+        "pass": true,
+        "detail": "NOT_YET_DERIVED",
+        "evidence_class": "SOURCE_DERIVED"
+      },
+      {
+        "gate": "Q_ACTION_BOUNDARY",
+        "pass": true,
+        "detail": "NOT_YET_DERIVED",
+        "evidence_class": "SOURCE_DERIVED"
+      },
+      {
+        "gate": "HERMITIAN_DIAGONAL_BOUNDARY",
+        "pass": false,
+        "detail": "DERIVED",
+        "evidence_class": "MECHANICALLY_RECOMPUTED"
+      },
+      {
+        "gate": "FIRST_L_MATRIX_BOUNDARY",
+        "pass": true,
+        "detail": "CANDIDATE_PRESENTATION_ONLY",
+        "evidence_class": "CANDIDATE_FORMALIZATION"
+      },
+      {
+        "gate": "PAIRING_TYPE_BOUNDARY",
+        "pass": true,
+        "detail": "NOT_YET_DERIVED",
+        "evidence_class": "SOURCE_DERIVED"
+      },
+      {
+        "gate": "SEED_BOUNDARY",
+        "pass": true,
+        "detail": "NOT_YET_DERIVED",
+        "evidence_class": "SOURCE_DERIVED"
+      },
+      {
+        "gate": "LIFTED_STATE_BOUNDARY",
+        "pass": true,
+        "detail": {
+          "Xi_hat_t": "NOT_INSTANTIATED",
+          "projection": "NOT_RUN"
+        },
+        "evidence_class": "SOURCE_DERIVED"
+      },
+      {
+        "gate": "HERMITIAN_OBSTRUCTION_RECOMPUTED",
+        "pass": true,
+        "detail": {
+          "expected_fraction": [
+            2,
+            4895
+          ],
+          "actual_fraction": [
+            2,
+            4895
+          ]
+        },
+        "evidence_class": "MECHANICALLY_RECOMPUTED"
+      },
+      {
+        "gate": "ONE_SIDED_ORTHOGONALITY_COUNTEREXAMPLE",
+        "pass": true,
+        "detail": {
+          "matrix": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        "evidence_class": "MECHANICALLY_RECOMPUTED"
+      }
+    ],
+    "failed_gates": [
+      "HERMITIAN_DIAGONAL_BOUNDARY"
+    ]
+  },
+  "stderr": ""
+}

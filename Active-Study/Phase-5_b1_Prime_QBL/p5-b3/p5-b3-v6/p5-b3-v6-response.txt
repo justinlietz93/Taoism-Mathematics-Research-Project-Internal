@@ -1,0 +1,103 @@
+[Complete research document](sandbox:/mnt/data/QBL_DESCRIPTIVE_ARTICULATION_BOUNDARY_v1.md)
+
+[Descriptive-articulation equivalence criterion](sandbox:/mnt/data/p5-b3-v6_descriptive-articulation-boundary_20260711T174605/docs/DESCRIPTIVE_ARTICULATION_EQUIVALENCE.md)
+
+[Reproducible experiment package](sandbox:/mnt/data/p5-b3-v6_descriptive-articulation-boundary_20260711T174605.zip)
+
+[Archive SHA-256 file](sandbox:/mnt/data/p5-b3-v6_descriptive-articulation-boundary_20260711T174605.zip.sha256)
+
+```text
+Document SHA-256:
+f02c26e7502bd03a077d843d17d81f6456b9bc658da6c6efcee59bb215034459
+
+ZIP SHA-256:
+9a849f82c2b96a174b104fc589ca50e1f71ab88dabd05c03f65034ca4554488a
+```
+
+## Decisive result
+
+The stronger formulation separates two objects that the earlier three-case fork combined:
+
+1. The **enriched canonical return system** consists of actual D0 boundary states and complete D0 paths.
+2. The **symbolic orbit closure** may contain limit sequences that have not been constructed as lawful QBL states.
+
+For the enriched return system, Case A is proved:
+
+[
+\boxed{\text{D1 is a same-layer induced recoding of D0.}}
+]
+
+The interpretation
+
+[
+J:\operatorname{Ret}(D_0,\Sigma^-)\longrightarrow\operatorname{Path}(D_0)
+]
+
+is identity on boundary states and maps each return edge to its exact QBL path. It is faithful, full onto the boundary-return subcategory, and invertible by segmentation at the internally defined pre-`L` boundary hits.
+
+The carry remains exact and intrinsic:
+
+[
+c_A=\nu(q_A)-2\nu(q_{A-1})\in{7,8,9},
+]
+
+but it is a D0 path observable and an information-losing symbolic factor of the enriched return system. It therefore does not add a determination outside the complete D0 state-and-path articulation class.
+
+CF000 requires a genuinely higher domain to add an internal determination rather than rename or reparameterize the prior one. It also requires irreducibility to the exhausted prior domain.  The current custody authority natively retains exact word prefixes and already includes `L` and continued all-domain evolution, making finite paths, sections, and return maps derived D0 constructions. 
+
+```text
+D1 INDUCED RETURN INVARIANT: PROVED
+D1 IS A SAME-LAYER INDUCED RECODING OF D0: PROVED
+D1 DOMAIN-PROPER EFFECTIVE INVARIANT:
+    FALSE FOR THE INDUCED ORBIT PRESENTATION
+
+D1 IS A LAWFUL INDUCED DESCRIPTION,
+NOT A FORCED RE-ARTICULATION: PROVED
+```
+
+## Saturation and descriptive `L`
+
+```text
+LOCAL DOMAIN-A SATURATION AT S_A^-: PROVED
+
+COMPLETE D0 ALL-DOMAIN SATURATION:
+    FALSE ON THE CANONICAL INFINITE CUSTODY ORBIT
+
+D1 SATURATION CRITERION: DEFINED
+D1 SAME-LAYER SATURATION: NOT YET DERIVED
+D1 NEXT RE-ARTICULATION: NOT YET DERIVED
+
+HIGHER-ORDER DESCRIPTIVE L:
+    FALSE FOR D0-TO-D1
+```
+
+This does not reject a later descriptive `L`. It establishes only that the current D0-to-D1 induced return construction is not one. A future D1-to-new-domain claim still requires proved D1 saturation and an irreducible new determination.
+
+## Integrity correction and verification
+
+The corrected prior `p5-b3-v5` archive hash is:
+
+```text
+6c5109dac6bde39687142a05c474db16f19d698f9d6040c5a07d92a7a0784ac2
+```
+
+The package verifier directly hashes the included prior archive and verifies all 64 hexadecimal characters.
+
+```text
+Manifest entries:                  56
+Notebook cells passing:            12/12
+Figures regenerated:               12
+Prior-release hash verification:   PASS
+Current archive hash verification: PASS
+Clean extracted rebuild:           PASS
+Release vs clean rebuild:          BYTE-IDENTICAL
+```
+
+```text
+CANONICAL ORBIT CLOSURE = FULL AFFINE SYSTEM: NOT YET PROVED
+SPECIFIC-ORBIT EQUIDISTRIBUTION: NOT PROVED
+EXACT PRIMARY PAIRING RECURRENCE: NOT YET DERIVED
+ORTHAD-LEVEL HIGHER-ORDER L: NOT YET DERIVED
+p5-b3 BRANCH STATUS: OPEN
+```
+

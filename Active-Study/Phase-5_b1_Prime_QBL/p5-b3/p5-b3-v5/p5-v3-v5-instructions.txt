@@ -1,0 +1,246 @@
+[CURRENT STATE]
+
+Use CF000_Primitive_Distinguishability as the authority for
+effective-invariant inheritance and domain-proper re-articulation.
+
+Use QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2 as the authority for
+primitive custody and Orthad structure.
+
+Keep these results:
+
+CANONICAL QBL-TO-AFFINE BOUNDARY-ORBIT SEMICONJUGACY: PROVED
+EXACT BOUNDARY-RETURN COCYCLE: PROVED
+FULL AFFINE INTERVAL FACTOR FROM THE COUNTABLE CANONICAL ORBIT:
+    IMPOSSIBLE AS A surjective map from the orbit itself
+FULL AFFINE LANGUAGE:
+    p(n)=2^(n+1)-1
+    entropy=log 2
+    non-sofic
+    no finite Markov order
+    mixing
+
+Keep these boundaries:
+
+CANONICAL ORBIT CLOSURE = FULL AFFINE SYSTEM: NOT YET PROVED
+SPECIFIC-ORBIT EQUIDISTRIBUTION: NOT PROVED
+EXACT PRIMARY PAIRING RECURRENCE: NOT YET DERIVED
+ORTHAD-LEVEL HIGHER-ORDER L: NOT YET DERIVED
+
+Do not require a geometric axis, matrix axis, or pairing-rank increase
+to recognize a descriptive-level effective invariant.
+
+Keep the two questions separate:
+
+ORTHAD-LEVEL L:
+    retention and independent axis extension in P, charts, and transfers
+
+DESCRIPTIVE-LEVEL L:
+    inheritance of the prior invariant stack and admission of a new
+    domain-proper effective invariant in the boundary-return layer
+
+
+[STRATEGIC QUESTION]
+
+Determine which effective-invariant package belongs intrinsically to
+the canonical QBL boundary-return layer.
+
+Settle which of these cases holds:
+
+Case 1:
+    The canonical affine orbit closure is the full affine system.
+
+Case 2:
+    The orbit closure is proper but has its own nontrivial intrinsic
+    symbolic-dynamical invariant package.
+
+Case 3:
+    Only the arithmetic cocycle is intrinsic to the canonical orbit,
+    while the stronger language invariants belong only to the ambient
+    affine model.
+
+Consider whether a proof of density is available.
+
+Do not require equidistribution when orbit-closure equality is enough.
+
+
+[REASONING TASK]
+
+1. Define the descriptive domains.
+
+   Let D0 be the primitive QBL custody layer.
+
+   Let D1 be the induced pre-L boundary-return layer.
+
+   State the lawful objects and transformations of each layer.
+
+   Report:
+   a definition table for D0 and D1.
+
+2. Identify inherited structure in D1.
+
+   Determine which data from D0 remain recoverable or operative at the
+   boundary-return layer.
+
+   Include the retained pair, global phase-position index, B-count,
+   domain history, and exact return cocycle where licensed.
+
+   Separate retained data from derived labels.
+
+   Report:
+   an inherited-invariant map.
+
+3. Determine the canonical orbit closure.
+
+   Conjugate the affine return law to the doubling map where useful.
+
+   Determine whether the specific canonical orbit is dense.
+
+   Use an exact argument if one exists.
+
+   Do not infer density from irrationality alone.
+
+   Report one of:
+
+   CANONICAL ORBIT CLOSURE = FULL AFFINE SYSTEM: PROVED
+
+   CANONICAL ORBIT CLOSURE IS PROPER: PROVED
+
+   CANONICAL ORBIT CLOSURE: NOT YET DETERMINED
+
+4. Determine the intrinsic language of the orbit closure.
+
+   Compute or derive its allowed finite words.
+
+   Compare them with the full affine language.
+
+   Test complexity, entropy, follower sets, non-soficity, finite Markov
+   order, and mixing only on the actual orbit closure.
+
+   Distinguish theorem, finite evidence, and ambient-model inheritance.
+
+   Report:
+   a property table with columns
+
+   property
+   canonical orbit
+   canonical orbit closure
+   full affine system
+   transfer status
+   proof or witness
+
+5. Identify the candidate D1 effective invariant.
+
+   Consider the following as one package rather than isolated numbers:
+
+   exact boundary-return cocycle
+   three-symbol branch partition
+   intrinsic cylinder language
+   complexity growth
+   entropy
+   follower-set structure
+   memory class
+   mixing behavior
+
+   Determine which parts are intrinsic to D1.
+
+   Report:
+   the smallest invariant package that is both lawful and nontrivial.
+
+6. Test novelty against D0.
+
+   Determine whether the D1 invariant package is merely a
+   reparameterization of primitive custody data.
+
+   Determine whether it defines distinctions and lawful relations that
+   do not exist as objects of D0 before boundary induction.
+
+   Use CF000's genuineness criterion:
+   the new domain must add an internal determination rather than merely
+   rename the prior one.
+
+   Report one of:
+
+   D1 EFFECTIVE INVARIANT GENUINELY NEW: PROVED
+
+   D1 EFFECTIVE INVARIANT IS ONLY A REPARAMETERIZATION: PROVED
+
+   D1 EFFECTIVE-INVARIANT NOVELTY: NOT YET DERIVED
+
+7. Test invariant stacking.
+
+   Determine whether D1 carries:
+
+   the primitive invariant
+   prior effective invariants inherited from D0
+   a new D1-proper effective invariant
+
+   Do not require the three items to share the same realization type.
+
+   Report:
+   a dependency diagram for the inherited stack.
+
+8. Define same-layer saturation for D1.
+
+   Give a native symbolic-dynamics definition.
+
+   Consider exhaustion of lawful finite-state, finite-memory, or
+   same-language articulation only where those notions are justified.
+
+   Do not declare non-soficity itself to be saturation without proving
+   the connection.
+
+   Report:
+   a falsifiable saturation criterion.
+
+9. Test descriptive L.
+
+   Apply this criterion:
+
+   prior invariant stack retained
+   new descriptive domain lawfully admitted
+   new domain-proper effective invariant present
+   new invariant not reducible to renaming inside D0
+   same-layer saturation stated independently
+
+   Report:
+
+   HIGHER-ORDER DESCRIPTIVE L: PROVED
+
+   or
+
+   HIGHER-ORDER DESCRIPTIVE L: NOT YET DERIVED
+
+   Name the exact missing bridge if it remains open.
+
+10. Keep the Orthad lane separate.
+
+    Record the current primary-pairing, chart-map, transfer, and
+    Orthad-axis obligations.
+
+    Do not use those open obligations to negate a grammar-level result.
+
+    Report:
+
+    ORTHAD-LEVEL HIGHER-ORDER L: NOT YET DERIVED
+
+    unless the actual Orthad recurrence is proved independently.
+
+11. Produce the complete research artifact.
+
+    Write:
+
+    QBL_DOMAIN_PROPER_EFFECTIVE_INVARIANT_v1.md
+
+    Build:
+
+    p5-b3-v5_domain-proper-effective-invariant_<timestamp>.zip
+
+    Include exact scripts, source and executed notebooks, outputs,
+    traces, assumption lock, source map, findings, and manifest.
+
+    Split every conclusion into:
+
+    PROVED
+    CERTIFIED FINITELY
+    OBSERVED
+    OPEN

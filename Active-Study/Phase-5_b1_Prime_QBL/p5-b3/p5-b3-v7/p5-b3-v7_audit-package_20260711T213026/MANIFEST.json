@@ -1,0 +1,107 @@
+{
+  "algorithm": "sha256",
+  "entry_count": 20,
+  "files": [
+    {
+      "bytes": 3341,
+      "path": "ACCEPTED_TASK.md",
+      "sha256": "d38184c80919f5efdeee27dbff285b8498d0dd79ea883aeb24e0f92e1a9019dd"
+    },
+    {
+      "bytes": 5518,
+      "path": "AUDIT_RESULTS.md",
+      "sha256": "eadb1d684898caa8f5da1525032611f077210ac9b992a67b3b9634e78a978b3c"
+    },
+    {
+      "bytes": 11022,
+      "path": "OUTGOING_INSTRUCTIONS.md",
+      "sha256": "17e3ca671d66fb49de79996daa6c06a1df0752ac8b2ebdd405e6acd69e1b8b97"
+    },
+    {
+      "bytes": 1374,
+      "path": "README.md",
+      "sha256": "98134e45c4bb65c4433462fb0bdec98efb37bb68879df30ca406480fed3a323b"
+    },
+    {
+      "bytes": 1861,
+      "path": "SOURCE_MAP.md",
+      "sha256": "6a18a4c9adfb8ac24e947ba5b4c44034b0771490538716cecb7164ada5c05060"
+    },
+    {
+      "bytes": 4333,
+      "path": "inputs/ASSUMPTION_LOCK.md",
+      "sha256": "5017728847c4de45f9ccdbc1e8e13b271f812a2b9aba6141f50aa9207c44d753"
+    },
+    {
+      "bytes": 1598,
+      "path": "inputs/PARALLEL_CONVERGENCE_INPUT.md",
+      "sha256": "87b711f4abfa3d9a62eeaef7caa25c6b8561f709c8f28f25817241888e29e0c5"
+    },
+    {
+      "bytes": 19033083,
+      "path": "inputs/convergence/p5_v8y_primary-pairing-star-phase-compatibility_20260711_162758.zip",
+      "sha256": "491ecfffd78ce5ab11e82794381e7579168027892dce7986fb9d4d3507395d27"
+    },
+    {
+      "bytes": 261,
+      "path": "outputs/audit-summary.json",
+      "sha256": "a9e1a787dcda9a24a63463328ebb1faad00ba6ec5c35588f165bfe52b21b3f7d"
+    },
+    {
+      "bytes": 607,
+      "path": "outputs/convergence-input-verification.json",
+      "sha256": "f020a67839d0210523d96052b707235d8f4560759b037bb5c603f2a1d553f528"
+    },
+    {
+      "bytes": 166,
+      "path": "outputs/package-verification.json",
+      "sha256": "e490ffa1e4f4e407dd63cc9c4b47b8bae12098740916d0c3bec9f49f17700464"
+    },
+    {
+      "bytes": 166,
+      "path": "outputs/package-verification.json.log",
+      "sha256": "e490ffa1e4f4e407dd63cc9c4b47b8bae12098740916d0c3bec9f49f17700464"
+    },
+    {
+      "bytes": 379,
+      "path": "outputs/state-forced-evidence-audit.json",
+      "sha256": "e0701bf96e776d6abc02d1a40b788c1a303602b5ecc4dcf860d7a4101ff8f617"
+    },
+    {
+      "bytes": 379,
+      "path": "outputs/state-forced-evidence-audit.json.log",
+      "sha256": "e0701bf96e776d6abc02d1a40b788c1a303602b5ecc4dcf860d7a4101ff8f617"
+    },
+    {
+      "bytes": 29,
+      "path": "requirements.txt",
+      "sha256": "683dedca4af4529ac3b77d67ed28d764a90174777c6e97432f66fcd94cc7d127"
+    },
+    {
+      "bytes": 1932,
+      "path": "scripts/audit_state_forced_evidence.py",
+      "sha256": "2e80df8ffc431ef475c04cb08669c7b81348c798238832085876d2e2b79d9d29"
+    },
+    {
+      "bytes": 1114,
+      "path": "scripts/verify_agent_package.py",
+      "sha256": "40c987383f7cd2b071db9e7d57c8e1001d351160932056646309a87c39937992"
+    },
+    {
+      "bytes": 3386,
+      "path": "scripts/verify_parallel_convergence_input.py",
+      "sha256": "f63b0611ae6697c36318c3cbbe6b965fd3a292a32dcf602799a68401cc16a695"
+    },
+    {
+      "bytes": 678,
+      "path": "source-references/audited-artifacts.json",
+      "sha256": "8b383ef1b6ed78cb1428db3c3d9b155de8e89d14d43caf2c1178da94f6741b67"
+    },
+    {
+      "bytes": 373,
+      "path": "source-references/convergence-artifacts.json",
+      "sha256": "6aeb4e327919af33d19061489f2c570e529f53128343a1c2a207b7747ed6920c"
+    }
+  ],
+  "package": "p5-b3-v7_audit-package_20260711T213026"
+}

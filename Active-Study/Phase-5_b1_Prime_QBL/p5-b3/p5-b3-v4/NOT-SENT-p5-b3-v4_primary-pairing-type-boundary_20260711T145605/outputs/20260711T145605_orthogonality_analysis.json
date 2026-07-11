@@ -1,0 +1,26 @@
+{
+  "authority_level_L_signature": [
+    "rank +1",
+    "old structure embeds unchanged",
+    "new active axis appended"
+  ],
+  "conditional_block_formula": "[[P_old,0],[0,sigma]]",
+  "counterexample_matrix": [
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "counterexample_result": {
+    "left_zero": true,
+    "right_zero": false
+  },
+  "left_orthogonality": "P(new,old)=0",
+  "right_orthogonality": "P(old,new)=0",
+  "status": "TWO_SIDED_ZERO_MIXED_BLOCKS_CONDITIONAL",
+  "two_sided": "both"
+}

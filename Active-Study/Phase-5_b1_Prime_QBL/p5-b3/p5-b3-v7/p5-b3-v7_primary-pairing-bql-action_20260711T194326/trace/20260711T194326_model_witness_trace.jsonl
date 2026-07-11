@@ -1,0 +1,2 @@
+{"matrix": [[1, 1], [0, 2]], "new_old": 0, "old_new": 1, "one_sided_zero": true, "other_mixed_nonzero": true, "verdict": "COUNTERMODEL: one-sided orthogonality does not force both mixed components zero"}
+{"current_linking_equation_present": false, "different_classes": true, "first_missing_bridge": "exact boundary-return law or quotient map on primary-pairing classes", "pairing_class_model_A": ["x", "x", "x", "x", "x", "x", "x", "x"], "pairing_class_model_B": ["y0", "y1", "y2", "y0", "y1", "y2", "y0", "y1"], "same_carry_sequence": [9, 7, 8, 8, 9, 8, 7, 8], "status": "OPEN"}

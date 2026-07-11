@@ -1,0 +1,3 @@
+{"result": "vacuous", "step": "bare_equation", "value": true}
+{"P0": 0, "P1": 1, "sensitive": true, "step": "pointwise_restriction"}
+{"fidelity": false, "step": "constant_map_test", "verdict": "REJECTED"}

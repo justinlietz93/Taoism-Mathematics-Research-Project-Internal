@@ -1,0 +1,24 @@
+{
+  "cf000": {
+    "path": "/mnt/data/CF000_Primitive_Distinguishability(1).pdf",
+    "sha256": "b98ecb0e947750eb8c3069d5ac67d8d397f54c2b61b5d34770f65349b5a54b6f"
+  },
+  "cg000": {
+    "path": "/mnt/data/CG000_Branch_Relative_Origin_Resolution_Whitepaper(1).pdf",
+    "sha256": "a739a05bac4456d2e5035c6e20dfd3340d0983d72f622d95b6ee7d89a0f72f92"
+  },
+  "course_correction": {
+    "path": "/mnt/data/SINGLE_COURSE_CORRECTION_p5-b3-v5 (1).md",
+    "sha256": "e410b1413086b184cd2ebb50fbd45d1cdb82c10b02d2cfaba154336fcf1bd9b0"
+  },
+  "incoming_archive": {
+    "path": "/mnt/data/p5-b3-v6_descriptive-articulation-boundary_20260711T174605(2)(1).zip",
+    "sha256": "9a849f82c2b96a174b104fc589ca50e1f71ab88dabd05c03f65034ca4554488a"
+  },
+  "incoming_document": {
+    "sha256": "f02c26e7502bd03a077d843d17d81f6456b9bc658da6c6efcee59bb215034459"
+  },
+  "incoming_equivalence_criterion": {
+    "sha256": "3c190593488659191d7065719d5f8f145012745d79bc551c388a883d76be22f3"
+  }
+}

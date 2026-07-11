@@ -1,0 +1,240 @@
+{
+  "excludes": [
+    "MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": "FINDINGS.md",
+      "sha256": "36ba030e8c0d19dda5191c19b95bef6657811249d497017c5af28e6739f7c16f",
+      "size": 978
+    },
+    {
+      "path": "README.md",
+      "sha256": "3dc0676afd55b2a999017a806bc1499cc58974eb04517feb417bd2c9ad920d03",
+      "size": 760
+    },
+    {
+      "path": "docs/INTRINSIC_ACTION_EQUIVALENCE.md",
+      "sha256": "c8467314bfe8da117dfe944a4fa818f7317db73741f75e8176f574d33367876c",
+      "size": 1190
+    },
+    {
+      "path": "docs/NONVACUOUS_DESCENDANT_FACTORIZATION.md",
+      "sha256": "c042bb3abc4443e016b6d5c2171b71caa79ce865919125389701dec1a1c98a0a",
+      "size": 2291
+    },
+    {
+      "path": "docs/PPGRL_DEPENDENCY_DECOMPOSITION.md",
+      "sha256": "c33d52c7280d79e99aa7b4a94392900bc7365ae63d0b5df7a38cfe17c3b7fd82",
+      "size": 2414
+    },
+    {
+      "path": "docs/QBL_PRIMARY_PAIRING_PPGRL_DECOMPOSITION_v1.md",
+      "sha256": "29c5021836cfdd78bc93370a537413f40d3987318ca2fe68603324fc923aaaf3",
+      "size": 17152
+    },
+    {
+      "path": "figures/20260711T224358_claim_01.png",
+      "sha256": "8bcd47406da3635a9de8eea6c4b4bfd847333e67a89dc9daf7e91ab7628287ab",
+      "size": 21672
+    },
+    {
+      "path": "figures/20260711T224358_claim_02.png",
+      "sha256": "de7adcf0c054426251e900f5a2ab595b499f19bfc395161a64ae0df74b794175",
+      "size": 18042
+    },
+    {
+      "path": "figures/20260711T224358_claim_03.png",
+      "sha256": "81e2ab527eed15d40e6f9c516cdc574abf9d8ddb730fd9f5b8a62329a9b00ba6",
+      "size": 21121
+    },
+    {
+      "path": "figures/20260711T224358_claim_04.png",
+      "sha256": "b271dd85430f0aecc8772fc030e0ff0a8e6b097d6dea55e9927d02b12159487c",
+      "size": 9728
+    },
+    {
+      "path": "figures/20260711T224358_claim_05.png",
+      "sha256": "404b87d1a9931e20435a92551fbe494089296293aa244d7784e629140e095f7b",
+      "size": 11611
+    },
+    {
+      "path": "figures/20260711T224358_claim_06.png",
+      "sha256": "77859483383e6ba0b5b77cfb98f0305a4c2f96ab66256e59db05deebe6494bda",
+      "size": 14723
+    },
+    {
+      "path": "figures/20260711T224358_claim_07.png",
+      "sha256": "e6330b483348dfa6200ad764973027ea8c28fc437666eb09035ff4f2b90cbd8c",
+      "size": 21634
+    },
+    {
+      "path": "figures/20260711T224358_claim_08.png",
+      "sha256": "a355997b86559f0b5ddb129859554419b905dc2c41cb8619f919382a55dc8fbb",
+      "size": 13235
+    },
+    {
+      "path": "figures/20260711T224358_claim_09.png",
+      "sha256": "426c5c5b7d7d9f824456b80bc06aed00c97367500fec2361caa3277cf29156af",
+      "size": 10777
+    },
+    {
+      "path": "figures/20260711T224358_claim_10.png",
+      "sha256": "a4aea608a0d1e5cc51fe0c2ae693a403ef6398c777af45a98bc8077f5a6683ee",
+      "size": 17382
+    },
+    {
+      "path": "figures/20260711T224358_claim_11.png",
+      "sha256": "4864cb0a8a9bacaebec36258babba1c8893e65ca6e67dc35c781edfefc2cfa9d",
+      "size": 8931
+    },
+    {
+      "path": "figures/20260711T224358_claim_12.png",
+      "sha256": "d981bbd237b9e8a73e5af18090701dfc3eae919de45b2863dccd2e2654439c7b",
+      "size": 13242
+    },
+    {
+      "path": "figures/20260711T224358_claim_13.png",
+      "sha256": "776aff67609781ee24fe571e300f42128d05eb9fc0223ec70bab923133058c74",
+      "size": 14028
+    },
+    {
+      "path": "figures/20260711T224358_claim_14.png",
+      "sha256": "b1abff0182883ebe51d1313199f5e333f05bdd1d5752951c9c57d01ac749218c",
+      "size": 10827
+    },
+    {
+      "path": "inputs/20260711T224358_ACCEPTED_TASK.md",
+      "sha256": "67bba94e631c9cb6e3672e610f888cdd8e30349740c2ece80fd9b1376cae0033",
+      "size": 7321
+    },
+    {
+      "path": "inputs/20260711T224358_ASSUMPTION_LOCK.md",
+      "sha256": "ac3f943e3fd3fee1a181ba9f556540c6e987cfbc3d8e815f7bc157526b07a28a",
+      "size": 1652
+    },
+    {
+      "path": "inputs/20260711T224358_AUDIT_RESULTS.md",
+      "sha256": "cf1501fbe92992e1cf81ee7d1f2e677665fc9df36b2fc9e92d283b02bac6bd00",
+      "size": 5344
+    },
+    {
+      "path": "inputs/QBL_PRIMARY_PAIRING_STATE_FORCED_ACTION_v1.md",
+      "sha256": "e3c07ccb94df97a27771da9c09bc4548fdc9969934c4ff5aab530f3b1db272b6",
+      "size": 18378
+    },
+    {
+      "path": "inputs/QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+      "sha256": "f0f66790bf6da0b3fca9a400da36ff5879db4b3e861703ef3a309829a2af9962",
+      "size": 29584
+    },
+    {
+      "path": "inputs/orthad-diagram-v5.png",
+      "sha256": "2880cd7c9d228a2739637990e8c7ff2322bb840f3da14f51f472d2689d6ed2e6",
+      "size": 1998671
+    },
+    {
+      "path": "inputs/p5-b3-v8_audit-package_20260711T223909.zip",
+      "sha256": "8854679262a79cbc176e888271febe1d9ae10b15a8aca6a2bbbff1232a6c3a9a",
+      "size": 15587
+    },
+    {
+      "path": "lab-journal.md",
+      "sha256": "0b77f2978f23010675e1e28bb96e3841e977acfa138ef571563b1c644db181ed",
+      "size": 794
+    },
+    {
+      "path": "notebooks/20260711T224358_ppgrl_decomposition.ipynb",
+      "sha256": "6eb1f803026c375cd63f2c2a621cec459f71771174138dd3f0b93c53ad0d0bdb",
+      "size": 10586
+    },
+    {
+      "path": "notebooks/20260711T224358_ppgrl_decomposition_executed.ipynb",
+      "sha256": "da2a50eccee1a8263d65f7c4c0efdfbc4d44a0fdf708aab01c9102b8faccf85f",
+      "size": 292423
+    },
+    {
+      "path": "outputs/20260711T224358_derivation_summary.json",
+      "sha256": "90f6b54acae2ad7c24dea585036b2cdeed0c3f4c9e0628834d8a466cc2acc2aa",
+      "size": 1300
+    },
+    {
+      "path": "outputs/20260711T224358_notebook_summary.json",
+      "sha256": "37b0a3fbec512906453818fd4283d6486685d7e3df5a150cdead9afaf1bce896",
+      "size": 97
+    },
+    {
+      "path": "outputs/20260711T224358_ppgrl_dependency.json",
+      "sha256": "82ae279982fc57e8fe48ce4140fe0082604b1dc958503372f21edc2728e5cb4a",
+      "size": 1119
+    },
+    {
+      "path": "outputs/CONSTANT_MAP_SMUGGLING_CONTROL.json",
+      "sha256": "21deb2777c1c0a99e33191beeb0215e6b493b0ef1d5712b3a9b3579e8ae3da3e",
+      "size": 247
+    },
+    {
+      "path": "outputs/DOMAIN0_PREFIX_TRACE.csv",
+      "sha256": "217b5a5956affadbc1922faa47fca5bf468c731c949403c4eec028bbc2e6dc01",
+      "size": 563
+    },
+    {
+      "path": "outputs/STATUS.json",
+      "sha256": "35cd3774473192d804e7f09027378ee6710f7876fe71478f4584f56f50677c1d",
+      "size": 959
+    },
+    {
+      "path": "proofs/20260711T224358_QBLPPGRLDecomposition.lean",
+      "sha256": "3a8c2266c640dcbd16aaea566e88b347a6833215265626328b1fbec0340fa5aa",
+      "size": 2655
+    },
+    {
+      "path": "proofs/20260711T224358_lean_compile.log",
+      "sha256": "ad98cc1d45915f23d5c77ccd1937b0f171d4547b14f304cc36dd63ed273354df",
+      "size": 108
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "e52431e31171d5dc9b2cf6cad9dea04a493b168ab0e12b9b3c5057f581b07a42",
+      "size": 84
+    },
+    {
+      "path": "scripts/20260711T224358_build_package.py",
+      "sha256": "c1ee7b1d2a4cd730b3d99d61729eb8fbe4f7db3e6bbe5021f2f0ec3594df3d37",
+      "size": 3301
+    },
+    {
+      "path": "scripts/20260711T224358_derive_ppgrl.py",
+      "sha256": "3e98eb0770d49a0fe8c8642b6b7ed211da132fa1b86d554dcfb63e67f914ca8f",
+      "size": 6929
+    },
+    {
+      "path": "scripts/20260711T224358_verify_package.py",
+      "sha256": "3ddf84bbc5f8bc207ff46d2a788f4d1859c5f4f9228e91c73a53b481e764ee5c",
+      "size": 1327
+    },
+    {
+      "path": "source_maps/20260711T224358_SOURCE_MAP.md",
+      "sha256": "fe72f6fc055b17f00423d56bb232f5be85bc1647c0a6abce8fbc98691e714a21",
+      "size": 1445
+    },
+    {
+      "path": "trace/20260711T224358_dependency_trace.jsonl",
+      "sha256": "552c28d064b4b8dcac67fdf8f588695691d1c5d479e9bcf11b5bfb36b270004e",
+      "size": 794
+    },
+    {
+      "path": "trace/20260711T224358_domain0_trace.jsonl",
+      "sha256": "8a439c29a698cbc446bd2d56cd1983cba3a933b0f58077a623208e4af757b20e",
+      "size": 2002
+    },
+    {
+      "path": "trace/20260711T224358_factorization_trace.jsonl",
+      "sha256": "65c50d67b8acf395208c80c516e5e31aa8616c54ccb08202b8d69b23278b9f5d",
+      "size": 205
+    }
+  ],
+  "generated_at": "20260711T224358",
+  "hash_algorithm": "SHA-256",
+  "package": "p5-b3-v9_ppgrl-decomposition_20260711T224358"
+}

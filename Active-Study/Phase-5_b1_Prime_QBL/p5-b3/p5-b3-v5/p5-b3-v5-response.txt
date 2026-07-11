@@ -1,0 +1,96 @@
+[Complete research document](sandbox:/mnt/data/QBL_DOMAIN_PROPER_EFFECTIVE_INVARIANT_v1.md)
+
+[Reproducible experiment package](sandbox:/mnt/data/p5-b3-v5_domain-proper-effective-invariant_20260711T162253.zip)
+
+[Archive SHA-256 file](sandbox:/mnt/data/p5-b3-v5_domain-proper-effective-invariant_20260711T162253.zip.sha256)
+
+```text
+Document SHA-256:
+97a149261ad5653b097157d532e2dd0f2218985dd8c17c776c003961983884ea
+
+ZIP SHA-256:
+6c5109dac6bde39687142a05c474db16f19d698f9d6040c5a07d92a7a0784ac
+```
+
+## Decisive result
+
+The canonical affine orbit is conjugate to the doubling orbit
+
+[
+z_A=2^A\alpha\pmod 1,
+\qquad
+\alpha=12\frac{\log2}{\log\varphi}.
+]
+
+The package proves that (\alpha) is irrational, but correctly rejects the implication “irrational (\Rightarrow) dense.” Density is equivalent to the stronger statement that (\alpha) is base-2 disjunctive.
+
+```text
+CANONICAL ORBIT CLOSURE: NOT YET DETERMINED
+CASE 1 VERSUS CASE 2:
+    REDUCED TO BASE-2 DISJUNCTIVITY OF alpha
+CASE 3:
+    FALSE
+```
+
+Case 3 fails because the canonical boundary layer intrinsically carries more than the arithmetic cocycle. Its carry itinerary is proved aperiodic, and its shift-orbit closure is proved infinite and topologically transitive. Its intrinsic complexity satisfies
+
+[
+n+1\le p_{\mathrm{can}}(n)\le 2^{n+1}-1,
+]
+
+so
+
+[
+0\le h(X_{\mathrm{can}})\le\log2.
+]
+
+The exact entropy, non-soficity, mixing, and finite-Markov-order status of the canonical closure remain open. The corresponding full-affine properties are not transferred without density or language equality.
+
+## Effective-invariant result
+
+The D1-proper invariant is the induced boundary-renormalization cocycle package
+
+[
+(\Sigma^-,\mathcal R,c),
+\qquad
+c_A=\nu(q_A)-2\nu(q_{A-1})\in{7,8,9},
+]
+
+together with its canonically generated itinerary, language, and orbit closure.
+
+This is not a relabeling of the primitive alphabet. Every closing primitive step is `L`, while successive complete returns can carry labels (9,7,8). The new distinction exists only after inducing the variable-length return map between saturated pre-`L` states.
+
+CF000 explicitly permits a newly admitted domain to inherit the prior invariant stack and add an effective invariant proper to that domain without requiring metric or geometric realization. 
+
+```text
+D1 EFFECTIVE INVARIANT GENUINELY NEW: PROVED
+HIGHER-ORDER DESCRIPTIVE L: PROVED
+```
+
+This result is descriptive and grammar-level. It does not claim that (c_{A+1}) is appended by the instantaneous primitive `L`.
+
+## Orthad boundary
+
+The primary pairing, chart restrictions, and directed transfers remain downstream obligations. The current law explicitly leaves their all-depth recurrences open, so the descriptive result does not close or negate Orthad-level rank extension. 
+
+```text
+ORTHAD-LEVEL HIGHER-ORDER L: NOT YET DERIVED
+EXACT PRIMARY PAIRING RECURRENCE: NOT YET DERIVED
+SPECIFIC-ORBIT EQUIDISTRIBUTION: NOT PROVED
+p5-b3 BRANCH STATUS: OPEN
+```
+
+Package verification:
+
+```text
+Manifest entries:                 49
+Notebook cells passing:           12/12
+Figures regenerated:              12
+Accepted carry symbols checked:   10,000
+Accepted transition edges:        9,999
+Full finite language coverage:    lengths 1 through 7
+Manifest verification:            PASS
+Two clean archive builds:         BYTE-IDENTICAL
+Release versus clean rebuild:     BYTE-IDENTICAL
+```
+

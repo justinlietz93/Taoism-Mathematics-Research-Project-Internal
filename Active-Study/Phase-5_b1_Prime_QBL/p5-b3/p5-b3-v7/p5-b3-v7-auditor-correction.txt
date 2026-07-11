@@ -1,0 +1,55 @@
+The p5-b3-v7 audit and p5-b3-v8 state-forced task are approved.
+
+Before release, incorporate the attached parallel package:
+
+p5_v8y_primary-pairing-star-phase-compatibility_20260711_162758.zip
+
+Do not change the REVISE verdict.
+Do not open a new branch.
+Keep the next interaction as p5-b3-v8.
+
+Add the parallel package to the source map, accepted task, and assumption
+lock as a convergence input.
+
+The parallel branch reached the same unresolved region through a different
+route:
+
+- primary pairing and four descendants;
+- repeated-star semantics;
+- Q quarter-turn compatibility;
+- first-L old/new relations;
+- exact pairing type and seed.
+
+It differs from p5-b3-v7 on this boundary:
+
+- p5-b3-v7 claims a source-forced local two-slot interface;
+- p5_v8y treats a general two-slot pairing as an admissible candidate;
+- p5_v8y proposes STAR_SEMANTICS_AXIOM as the earliest missing axiom.
+
+Test these claims head to head under the complete intrinsic-transition and
+action-equivalence criteria already required by p5-b3-v8.
+
+Distinguish:
+
+1. a local ordered two-slot restriction interface;
+2. a globally defined Pair(-,-) bifunctor;
+3. an algebraic realization of the intrinsic pairing law.
+
+Do not accept STAR_SEMANTICS_AXIOM before testing whether the retained state,
+exact word, Q cycle, four descendants, and L retention force the star law.
+
+Treat these as three contenders:
+
+A. source-forced two-slot architecture;
+B. genuine star-semantics independence;
+C. state-forced derivation of one intrinsic action.
+
+For each rejected contender, report the exact contradiction certificate.
+
+For surviving contenders, determine whether they are:
+
+- incomplete descriptions;
+- coordinate-equivalent representations;
+- or genuinely inequivalent complete intrinsic laws.
+
+Produce one unified p5-b3-v8 task.

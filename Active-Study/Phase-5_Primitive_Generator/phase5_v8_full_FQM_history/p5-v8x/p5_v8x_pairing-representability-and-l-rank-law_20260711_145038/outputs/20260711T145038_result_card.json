@@ -1,0 +1,50 @@
+{
+  "claim_boundary": "no pairing, chart, transfer, projection, gauge quotient, FQM, Weil, affine, or MHD values emitted",
+  "earliest_missing_axiom": "For every H, a representing dual object D(H) and a natural isomorphism Pair(A,H) ~= Hom(A,D(H)), natural in A and compatible with pullback in H.",
+  "primitive_sanity": {
+    "Q_steps": 5,
+    "after_L": {
+      "A": 1,
+      "j": 7,
+      "k": 0,
+      "phase_quarters": 5,
+      "u": 55,
+      "v": 89,
+      "word": "BQQBBBQBQBBQBBL"
+    },
+    "after_next_B": {
+      "A": 1,
+      "j": 7,
+      "k": 0,
+      "phase_quarters": 5,
+      "u": 89,
+      "v": 144,
+      "word": "BQQBBBQBQBBQBBLB"
+    },
+    "floor_pair": [
+      55,
+      89
+    ],
+    "floor_product": 4895,
+    "pass": true,
+    "phase_witness": "i",
+    "word": "BQQBBBQBQBBQBBL"
+  },
+  "stamp": "20260711T145038",
+  "statuses": {
+    "DUALITY_MORPHISM_MODEL": "ADMISSIBLE_CANDIDATE",
+    "EXACT_PRIMARY_PAIRING_SEED": "NOT_YET_DERIVED",
+    "EXACT_PRIMARY_PAIRING_TYPE": "NOT_YET_DERIVED",
+    "FIRST_L_LEFT_MIXED_BLOCK": "NOT_YET_DERIVED",
+    "FIRST_L_PAIRING_RANK_LAW": "NOT_YET_TYPED",
+    "FIRST_L_RIGHT_MIXED_BLOCK": "NOT_YET_DERIVED",
+    "PAIRING_FIRST_REALIGNMENT": "PASS",
+    "PAIRING_REPRESENTABILITY": "NOT_YET_DERIVED",
+    "REAL_CORRUPTION_CONTROLS": "PASS",
+    "SCALAR_VARIANCE_STATUS": "DOWNSTREAM",
+    "SOURCE_FORCED_PAIRING_INTERFACE": "DERIVED",
+    "TERMINAL_PROJECTION": "NOT_RUN",
+    "Xi_hat_t VALUES": "NOT_INSTANTIATED"
+  },
+  "step": "p5_v8x"
+}

@@ -1,0 +1,206 @@
+{
+  "external_selector": {
+    "complete_all_prefix_recurrence": true,
+    "descendants_induced_every_prefix": true,
+    "failed_obligation": "primitive input does not factor through Sigma_custody",
+    "selector_factorization": false,
+    "steps_executed": 8,
+    "trace": [
+      {
+        "descendants_induced": true,
+        "history": "",
+        "rank": 1,
+        "required": "B",
+        "supplied": "Q",
+        "t": 0
+      },
+      {
+        "descendants_induced": true,
+        "history": "Q",
+        "rank": 1,
+        "required": "B",
+        "supplied": "B",
+        "t": 1
+      },
+      {
+        "descendants_induced": true,
+        "history": "QB",
+        "rank": 1,
+        "required": "Q",
+        "supplied": "Q",
+        "t": 2
+      },
+      {
+        "descendants_induced": true,
+        "history": "QBQ",
+        "rank": 1,
+        "required": "B",
+        "supplied": "L",
+        "t": 3
+      },
+      {
+        "descendants_induced": true,
+        "history": "QBQL",
+        "rank": 2,
+        "required": "B",
+        "supplied": "B",
+        "t": 4
+      },
+      {
+        "descendants_induced": true,
+        "history": "QBQLB",
+        "rank": 2,
+        "required": "B",
+        "supplied": "Q",
+        "t": 5
+      },
+      {
+        "descendants_induced": true,
+        "history": "QBQLBQ",
+        "rank": 2,
+        "required": "B",
+        "supplied": "B",
+        "t": 6
+      },
+      {
+        "descendants_induced": true,
+        "history": "QBQLBQB",
+        "rank": 2,
+        "required": "B",
+        "supplied": "L",
+        "t": 7
+      }
+    ],
+    "verdict": "REJECT"
+  },
+  "independent_descendant": {
+    "complete_all_prefix_recurrence": true,
+    "descendants_induced_every_prefix": false,
+    "failed_obligation": "D_ab,next != R_ab,next(P_next)",
+    "selector_factorization": true,
+    "steps_executed": 15,
+    "trace": [
+      {
+        "descendants_induced": false,
+        "prefix": "B",
+        "primary_history": "B",
+        "rank": 1,
+        "selected": "B",
+        "t": 0
+      },
+      {
+        "descendants_induced": false,
+        "prefix": "BQ",
+        "primary_history": "BQ",
+        "rank": 1,
+        "selected": "Q",
+        "t": 1
+      },
+      {
+        "descendants_induced": false,
+        "prefix": "BQQ",
+        "primary_history": "BQQ",
+        "rank": 1,
+        "selected": "Q",
+        "t": 2
+      },
+      {
+        "descendants_induced": false,
+        "prefix": "BQQB",
+        "primary_history": "BQQB",
+        "rank": 1,
+        "selected": "B",
+        "t": 3
+      },
+      {
+        "descendants_induced": false,
+        "prefix": "BQQBB",
+        "primary_history": "BQQBB",
+        "rank": 1,
+        "selected": "B",
+        "t": 4
+      },
+      {
+        "descendants_induced": false,
+        "prefix": "BQQBBB",
+        "primary_history": "BQQBBB",
+        "rank": 1,
+        "selected": "B",
+        "t": 5
+      },
+      {
+        "descendants_induced": false,
+        "prefix": "BQQBBBQ",
+        "primary_history": "BQQBBBQ",
+        "rank": 1,
+        "selected": "Q",
+        "t": 6
+      },
+      {
+        "descendants_induced": false,
+        "prefix": "BQQBBBQB",
+        "primary_history": "BQQBBBQB",
+        "rank": 1,
+        "selected": "B",
+        "t": 7
+      },
+      {
+        "descendants_induced": false,
+        "prefix": "BQQBBBQBQ",
+        "primary_history": "BQQBBBQBQ",
+        "rank": 1,
+        "selected": "Q",
+        "t": 8
+      },
+      {
+        "descendants_induced": false,
+        "prefix": "BQQBBBQBQB",
+        "primary_history": "BQQBBBQBQB",
+        "rank": 1,
+        "selected": "B",
+        "t": 9
+      },
+      {
+        "descendants_induced": false,
+        "prefix": "BQQBBBQBQBB",
+        "primary_history": "BQQBBBQBQBB",
+        "rank": 1,
+        "selected": "B",
+        "t": 10
+      },
+      {
+        "descendants_induced": false,
+        "prefix": "BQQBBBQBQBBQ",
+        "primary_history": "BQQBBBQBQBBQ",
+        "rank": 1,
+        "selected": "Q",
+        "t": 11
+      },
+      {
+        "descendants_induced": false,
+        "prefix": "BQQBBBQBQBBQB",
+        "primary_history": "BQQBBBQBQBBQB",
+        "rank": 1,
+        "selected": "B",
+        "t": 12
+      },
+      {
+        "descendants_induced": false,
+        "prefix": "BQQBBBQBQBBQBB",
+        "primary_history": "BQQBBBQBQBBQBB",
+        "rank": 1,
+        "selected": "B",
+        "t": 13
+      },
+      {
+        "descendants_induced": false,
+        "prefix": "BQQBBBQBQBBQBBL",
+        "primary_history": "BQQBBBQBQBBQBBL",
+        "rank": 2,
+        "selected": "L",
+        "t": 14
+      }
+    ],
+    "verdict": "REJECT"
+  }
+}

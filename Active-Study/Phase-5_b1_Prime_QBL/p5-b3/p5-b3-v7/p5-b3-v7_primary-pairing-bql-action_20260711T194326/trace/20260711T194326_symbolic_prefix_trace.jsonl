@@ -1,0 +1,16 @@
+{"B_count": 0, "Q_count": 0, "formal_pairing": "P[epsilon]", "local_im": "0", "local_re": "1", "local_scalar": "1", "op": "start", "prefix": "", "step": 0, "u": 1, "v": 1}
+{"B_count": 1, "Q_count": 0, "formal_pairing": "B_1_1_to_1_2[P[prefix_0]]", "local_im": "0", "local_re": "1/2", "local_scalar": "1/2", "op": "B", "prefix": "B", "step": 1, "u": 1, "v": 2}
+{"B_count": 1, "Q_count": 1, "formal_pairing": "Q_1[P[prefix_1]]", "local_im": "1/2", "local_re": "0", "local_scalar": "1/2*i", "op": "Q", "prefix": "BQ", "step": 2, "u": 1, "v": 2}
+{"B_count": 1, "Q_count": 2, "formal_pairing": "Q_2[P[prefix_2]]", "local_im": "0", "local_re": "-1/2", "local_scalar": "-1/2", "op": "Q", "prefix": "BQQ", "step": 3, "u": 1, "v": 2}
+{"B_count": 2, "Q_count": 2, "formal_pairing": "B_1_2_to_2_3[P[prefix_3]]", "local_im": "0", "local_re": "-1/6", "local_scalar": "-1/6", "op": "B", "prefix": "BQQB", "step": 4, "u": 2, "v": 3}
+{"B_count": 3, "Q_count": 2, "formal_pairing": "B_2_3_to_3_5[P[prefix_4]]", "local_im": "0", "local_re": "-1/15", "local_scalar": "-1/15", "op": "B", "prefix": "BQQBB", "step": 5, "u": 3, "v": 5}
+{"B_count": 4, "Q_count": 2, "formal_pairing": "B_3_5_to_5_8[P[prefix_5]]", "local_im": "0", "local_re": "-1/40", "local_scalar": "-1/40", "op": "B", "prefix": "BQQBBB", "step": 6, "u": 5, "v": 8}
+{"B_count": 4, "Q_count": 3, "formal_pairing": "Q_3[P[prefix_6]]", "local_im": "-1/40", "local_re": "0", "local_scalar": "-1/40*i", "op": "Q", "prefix": "BQQBBBQ", "step": 7, "u": 5, "v": 8}
+{"B_count": 5, "Q_count": 3, "formal_pairing": "B_5_8_to_8_13[P[prefix_7]]", "local_im": "-1/104", "local_re": "0", "local_scalar": "-1/104*i", "op": "B", "prefix": "BQQBBBQB", "step": 8, "u": 8, "v": 13}
+{"B_count": 5, "Q_count": 4, "formal_pairing": "Q_4[P[prefix_8]]", "local_im": "0", "local_re": "1/104", "local_scalar": "1/104", "op": "Q", "prefix": "BQQBBBQBQ", "step": 9, "u": 8, "v": 13}
+{"B_count": 6, "Q_count": 4, "formal_pairing": "B_8_13_to_13_21[P[prefix_9]]", "local_im": "0", "local_re": "1/273", "local_scalar": "1/273", "op": "B", "prefix": "BQQBBBQBQB", "step": 10, "u": 13, "v": 21}
+{"B_count": 7, "Q_count": 4, "formal_pairing": "B_13_21_to_21_34[P[prefix_10]]", "local_im": "0", "local_re": "1/714", "local_scalar": "1/714", "op": "B", "prefix": "BQQBBBQBQBB", "step": 11, "u": 21, "v": 34}
+{"B_count": 7, "Q_count": 5, "formal_pairing": "Q_5[P[prefix_11]]", "local_im": "1/714", "local_re": "0", "local_scalar": "1/714*i", "op": "Q", "prefix": "BQQBBBQBQBBQ", "step": 12, "u": 21, "v": 34}
+{"B_count": 8, "Q_count": 5, "formal_pairing": "B_21_34_to_34_55[P[prefix_12]]", "local_im": "1/1870", "local_re": "0", "local_scalar": "1/1870*i", "op": "B", "prefix": "BQQBBBQBQBBQB", "step": 13, "u": 34, "v": 55}
+{"B_count": 9, "Q_count": 5, "formal_pairing": "B_34_55_to_55_89[P[prefix_13]]", "local_im": "1/4895", "local_re": "0", "local_scalar": "1/4895*i", "op": "B", "prefix": "BQQBBBQBQBBQBB", "step": 14, "u": 55, "v": 89}
+{"B_count": 9, "Q_count": 5, "formal_pairing": "L[P[prefix_14]]", "local_im": "1/4895", "local_re": "0", "local_scalar": "1/4895*i", "op": "L", "prefix": "BQQBBBQBQBBQBBL", "step": 15, "u": 55, "v": 89}

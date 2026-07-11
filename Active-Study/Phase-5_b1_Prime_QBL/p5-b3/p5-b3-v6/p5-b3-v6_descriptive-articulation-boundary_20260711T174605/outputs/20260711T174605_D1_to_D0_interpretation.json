@@ -1,0 +1,18 @@
+{
+  "derived_verdict": "D1 IS A SAME-LAYER INDUCED RECODING OF D0: PROVED",
+  "edges": "J(r_A)=the exact D0 path suffix from W_A^- to W_{A+1}^-",
+  "faithful": "DOCUMENT PROOF; finite regression PASS",
+  "full_onto_boundary_return_subcategory": "DOCUMENT PROOF; deterministic segmentation algorithm",
+  "invertible_enriched_presentation": "DOCUMENT PROOF; split at boundary predicate hits",
+  "objects": "J(S_A^-)=S_A^-",
+  "premises": {
+    "edge_injectivity": true,
+    "fiber_split_beyond_complete_D0_interpretation_found": false,
+    "object_injectivity": true,
+    "relation_internality": true,
+    "state_internality": true,
+    "transition_internality": true,
+    "unique_boundary_segmentation": true
+  },
+  "symbolic_carry_map": "information-losing path-observable factor"
+}

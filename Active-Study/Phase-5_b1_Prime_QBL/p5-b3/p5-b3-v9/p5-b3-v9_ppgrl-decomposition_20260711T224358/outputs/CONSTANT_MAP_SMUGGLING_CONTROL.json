@@ -1,0 +1,11 @@
+{
+  "bare_equation_vacuous": true,
+  "constant_constructor_pointwise_fidelity": false,
+  "constant_constructor_target": 7,
+  "placed_primary_values": [
+    0,
+    1
+  ],
+  "placed_sensitivity": true,
+  "verdict": "REJECT_CONSTANT_MAP_SMUGGLING"
+}

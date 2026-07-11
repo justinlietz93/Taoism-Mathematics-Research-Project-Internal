@@ -1,0 +1,22 @@
+{
+  "conclusion": "block size increases while algebraic rank does not",
+  "extended_matrix_with_p_new_zero": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "new_algebraic_rank": 1,
+  "new_block_size": 2,
+  "old_algebraic_rank": 1,
+  "old_block_size": 1,
+  "old_matrix": [
+    [
+      1
+    ]
+  ]
+}

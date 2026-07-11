@@ -1,0 +1,18 @@
+{
+  "A_local_interface": {
+    "classification": "INCOMPLETE DESCRIPTION",
+    "contradiction_if_complete": "does not compute P_next or four restrictions",
+    "status": "PROVED"
+  },
+  "B_star_independence": {
+    "classification": "NOT A COMPLETE INTRINSIC LAW",
+    "missing": "two complete lawful recurrences plus inequivalence theorem",
+    "status": "OPEN"
+  },
+  "C_state_forced_action": {
+    "classification": "REQUIRED TARGET, FORMULA NOT DERIVED",
+    "missing": "PPGRL",
+    "status": "OPEN"
+  },
+  "first_missing_bridge": "PRIMARY PAIRING GENERATION AND RESTRICTION LAW (PPGRL)"
+}

@@ -1,0 +1,31 @@
+{
+  "controls": {
+    "all_pass": true,
+    "failed_as_required": 6,
+    "total": 6
+  },
+  "gate_count": 15,
+  "gates": [
+    "source_ledger",
+    "source_inference_mode",
+    "source_interface",
+    "representability_boundary",
+    "scalar_variance_boundary",
+    "orthogonality_boundary",
+    "rank_boundary",
+    "gauge_boundary",
+    "lifted_schema_boundary",
+    "downstream_boundary",
+    "primitive_baseline",
+    "notebook_complete",
+    "pytest",
+    "controls",
+    "manifest"
+  ],
+  "pytest": {
+    "collected": 14,
+    "exit_code": 0,
+    "passed": 14
+  },
+  "status": "PASS"
+}

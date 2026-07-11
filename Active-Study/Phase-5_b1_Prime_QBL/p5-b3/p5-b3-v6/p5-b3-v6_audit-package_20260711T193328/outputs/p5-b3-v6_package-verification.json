@@ -1,0 +1,14 @@
+{
+  "archive_hash_match": true,
+  "archive_sha256": "9a849f82c2b96a174b104fc589ca50e1f71ab88dabd05c03f65034ca4554488a",
+  "build_returncode": 0,
+  "byte_identical_rebuild": true,
+  "expected_sha256": "9a849f82c2b96a174b104fc589ca50e1f71ab88dabd05c03f65034ca4554488a",
+  "figures": 12,
+  "manifest_entries": 56,
+  "manifest_errors": [],
+  "notebook_code_cells": 12,
+  "notebook_pass_cells": 12,
+  "pass": true,
+  "rebuilt_sha256": "9a849f82c2b96a174b104fc589ca50e1f71ab88dabd05c03f65034ca4554488a"
+}

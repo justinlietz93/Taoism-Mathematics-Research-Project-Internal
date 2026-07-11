@@ -1,0 +1,38 @@
+{
+  "AUTHORITY_FORCED": [
+    "one retained generative P_t at every primitive prefix",
+    "charts and directed transfers descend from P_t",
+    "B and Q preserve architectural rank",
+    "L preserves old retained structure and raises rank by one",
+    "one new active axis is appended",
+    "no projection during mutation"
+  ],
+  "CANDIDATE_REALIZATION": [
+    "P_t : H_t -> D(H_t)",
+    "ordinary-dual bilinear scalar model",
+    "conjugate-dual sesquilinear scalar model"
+  ],
+  "OPEN": [
+    "scalar carrier declared",
+    "scalar-valued codomain declared",
+    "linearity declared",
+    "scalar variance declared",
+    "symmetry/adjoint law declared",
+    "left/right/two-sided orthogonality declared",
+    "complete seed declared",
+    "complete value recurrence declared"
+  ],
+  "markers": {
+    "B fixed rank": true,
+    "L rank extension": true,
+    "Q fixed rank": true,
+    "chart restrictions derived from primary": true,
+    "directed transfers derived from primary": true,
+    "exact recurrence open": true,
+    "new orthogonal axis": true,
+    "old block retained": true,
+    "primary generated from retained state and word": true,
+    "pullback only intended": true
+  },
+  "minimality_of_duality_morphism": "NOT_YET_DERIVED"
+}

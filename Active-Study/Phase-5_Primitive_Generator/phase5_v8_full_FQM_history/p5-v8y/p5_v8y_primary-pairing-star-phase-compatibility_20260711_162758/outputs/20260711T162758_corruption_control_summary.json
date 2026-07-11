@@ -1,0 +1,72 @@
+{
+  "pass": true,
+  "count": 6,
+  "results": [
+    {
+      "mutation": "replace_primary_law",
+      "command": "python <TEMP_PACKAGE>/scripts/20260711T162758_verify.py <TEMP_PACKAGE> --skip-controls --control-mode",
+      "verifier_exit_code": 1,
+      "failed_gate": "SOURCE_BOUND_CLAIM_LEDGER",
+      "evidence_path": "outputs/control_evidence/replace_primary_law.json",
+      "pass": true,
+      "observed_failed_gates": [
+        "SOURCE_BOUND_CLAIM_LEDGER"
+      ]
+    },
+    {
+      "mutation": "change_iota_excerpt",
+      "command": "python <TEMP_PACKAGE>/scripts/20260711T162758_verify.py <TEMP_PACKAGE> --skip-controls --control-mode",
+      "verifier_exit_code": 1,
+      "failed_gate": "SOURCE_BOUND_CLAIM_LEDGER",
+      "evidence_path": "outputs/control_evidence/change_iota_excerpt.json",
+      "pass": true,
+      "observed_failed_gates": [
+        "SOURCE_BOUND_CLAIM_LEDGER"
+      ]
+    },
+    {
+      "mutation": "promote_pair_bifunctor",
+      "command": "python <TEMP_PACKAGE>/scripts/20260711T162758_verify.py <TEMP_PACKAGE> --skip-controls --control-mode",
+      "verifier_exit_code": 1,
+      "failed_gate": "GENERAL_PAIR_BIFUNCTOR_BOUNDARY",
+      "evidence_path": "outputs/control_evidence/promote_pair_bifunctor.json",
+      "pass": true,
+      "observed_failed_gates": [
+        "GENERAL_PAIR_BIFUNCTOR_BOUNDARY"
+      ]
+    },
+    {
+      "mutation": "promote_iuv_to_hermitian_diagonal",
+      "command": "python <TEMP_PACKAGE>/scripts/20260711T162758_verify.py <TEMP_PACKAGE> --skip-controls --control-mode",
+      "verifier_exit_code": 1,
+      "failed_gate": "HERMITIAN_DIAGONAL_BOUNDARY",
+      "evidence_path": "outputs/control_evidence/promote_iuv_to_hermitian_diagonal.json",
+      "pass": true,
+      "observed_failed_gates": [
+        "HERMITIAN_DIAGONAL_BOUNDARY"
+      ]
+    },
+    {
+      "mutation": "assume_block_matrix_without_decomposition",
+      "command": "python <TEMP_PACKAGE>/scripts/20260711T162758_verify.py <TEMP_PACKAGE> --skip-controls --control-mode",
+      "verifier_exit_code": 1,
+      "failed_gate": "FIRST_L_MATRIX_BOUNDARY",
+      "evidence_path": "outputs/control_evidence/assume_block_matrix_without_decomposition.json",
+      "pass": true,
+      "observed_failed_gates": [
+        "FIRST_L_MATRIX_BOUNDARY"
+      ]
+    },
+    {
+      "mutation": "hardcode_star_as_derived",
+      "command": "python <TEMP_PACKAGE>/scripts/20260711T162758_verify.py <TEMP_PACKAGE> --skip-controls --control-mode",
+      "verifier_exit_code": 1,
+      "failed_gate": "STAR_SEMANTICS_BOUNDARY",
+      "evidence_path": "outputs/control_evidence/hardcode_star_as_derived.json",
+      "pass": true,
+      "observed_failed_gates": [
+        "STAR_SEMANTICS_BOUNDARY"
+      ]
+    }
+  ]
+}

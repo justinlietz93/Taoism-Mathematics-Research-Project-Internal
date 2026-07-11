@@ -1,0 +1,74 @@
+[
+  {
+    "cell": 1,
+    "figure_count": 1,
+    "pass_marker": true,
+    "text_head": "PASS\n{'D0': 'X=(A,q,theta,k,j,W); one primitive step', 'D1': 'S_A^- boundary states; induced return map and cocycle'}\n"
+  },
+  {
+    "cell": 2,
+    "figure_count": 1,
+    "pass_marker": true,
+    "text_head": "PASS\nexact residual = 0\n"
+  },
+  {
+    "cell": 3,
+    "figure_count": 1,
+    "pass_marker": true,
+    "text_head": "PASS\nexact residual = 0\n"
+  },
+  {
+    "cell": 4,
+    "figure_count": 1,
+    "pass_marker": true,
+    "text_head": "PASS\nexact residual = 0\n"
+  },
+  {
+    "cell": 5,
+    "figure_count": 1,
+    "pass_marker": true,
+    "text_head": "MODEL WITNESS PASS\nfinite prefix has block 11: False\ndocument theorem: the infinite factorial-position number is irrational and misses 11\n"
+  },
+  {
+    "cell": 6,
+    "figure_count": 1,
+    "pass_marker": true,
+    "text_head": "PASS\n{'rows_A': (0, 10000), 'carry_count': 10000, 'alphabet': [7, 8, 9]}\n"
+  },
+  {
+    "cell": 7,
+    "figure_count": 1,
+    "pass_marker": true,
+    "text_head": "PASS\nbounds checked for n=1..20\n"
+  },
+  {
+    "cell": 8,
+    "figure_count": 1,
+    "pass_marker": true,
+    "text_head": "FINITE REGRESSION PASS\nfull coverage through length = 7\nthis does not prove density\n"
+  },
+  {
+    "cell": 9,
+    "figure_count": 1,
+    "pass_marker": true,
+    "text_head": "FINITE OBSERVATION PASS\n{7: 0.2637, 8: 0.5042, 9: 0.2321}\n"
+  },
+  {
+    "cell": 10,
+    "figure_count": 1,
+    "pass_marker": true,
+    "text_head": "PASS\n{'closing_letters': ['L', 'L', 'L'], 'return_labels': [9, 7, 8]}\n"
+  },
+  {
+    "cell": 11,
+    "figure_count": 1,
+    "pass_marker": true,
+    "text_head": "PASS\n[('prior invariant stack retained', 'PASS'), ('new descriptive domain lawfully admitted', 'PASS'), ('new domain-proper effective invariant', 'PASS'), ('not a D0 symbol rename', 'PASS'), ('same-layer saturation criterion independent', 'PASS')]\n"
+  },
+  {
+    "cell": 12,
+    "figure_count": 1,
+    "pass_marker": true,
+    "text_head": "PASS\n{'canonical_closure': 'NOT YET DETERMINED', 'descriptive_L': 'PROVED', 'Orthad_level_L': 'NOT YET DERIVED'}\n"
+  }
+]

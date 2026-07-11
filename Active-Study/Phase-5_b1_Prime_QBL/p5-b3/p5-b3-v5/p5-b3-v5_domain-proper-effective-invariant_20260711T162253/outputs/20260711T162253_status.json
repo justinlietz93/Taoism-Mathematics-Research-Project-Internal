@@ -1,0 +1,30 @@
+{
+  "CERTIFIED_FINITE": [
+    "accepted trace has A=0..10000 exactly",
+    "all carries lie in {7,8,9}",
+    "all ambient words length 1..7 occur in accepted finite trace"
+  ],
+  "OBSERVED": [
+    "finite language coverage is compatible with density",
+    "finite frequencies are close to prior Lebesgue benchmarks"
+  ],
+  "OPEN": [
+    "CANONICAL ORBIT CLOSURE = FULL AFFINE SYSTEM",
+    "CANONICAL ORBIT CLOSURE IS PROPER",
+    "SPECIFIC-ORBIT EQUIDISTRIBUTION",
+    "CANONICAL ORBIT-CLOSURE NON-SOFICITY",
+    "CANONICAL ORBIT-CLOSURE MIXING",
+    "CANONICAL ORBIT-CLOSURE FINITE MARKOV ORDER",
+    "EXACT PRIMARY PAIRING RECURRENCE",
+    "ORTHAD-LEVEL HIGHER-ORDER L"
+  ],
+  "PROVED": [
+    "CANONICAL QBL-TO-AFFINE BOUNDARY-ORBIT SEMICONJUGACY",
+    "EXACT BOUNDARY-RETURN COCYCLE",
+    "CANONICAL CARRY ITINERARY APERIODIC",
+    "CANONICAL SYMBOLIC ORBIT CLOSURE INFINITE",
+    "CANONICAL SYMBOLIC ORBIT CLOSURE TRANSITIVE",
+    "D1 EFFECTIVE INVARIANT GENUINELY NEW",
+    "HIGHER-ORDER DESCRIPTIVE L"
+  ]
+}

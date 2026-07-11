@@ -1,0 +1,9 @@
+{
+  "parallel_package": {
+    "audit_path": "inputs/convergence/p5_v8y_primary-pairing-star-phase-compatibility_20260711_162758.zip",
+    "document_sha256": "bbba649dcbeff1593afb6d81ca6753253533e6dbe4e2bd8057a7eab1caa5bd46",
+    "manifest_entries": 61,
+    "role": "convergence input",
+    "sha256": "491ecfffd78ce5ab11e82794381e7579168027892dce7986fb9d4d3507395d27"
+  }
+}

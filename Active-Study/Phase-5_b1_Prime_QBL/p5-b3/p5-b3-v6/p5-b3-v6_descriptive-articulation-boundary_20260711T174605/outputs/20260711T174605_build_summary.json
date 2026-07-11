@@ -1,0 +1,33 @@
+{
+  "archive_mode": "deterministic release and experiment rerun",
+  "derivation": {
+    "accepted_carries": 10000,
+    "accepted_edges": 9999,
+    "branch_status": "OPEN",
+    "cf000_sha256": "b98ecb0e947750eb8c3069d5ac67d8d397f54c2b61b5d34770f65349b5a54b6f",
+    "decisive_verdict": "D1 IS A SAME-LAYER INDUCED RECODING OF D0: PROVED",
+    "descriptive_L_D0_to_D1": "FALSE",
+    "full_finite_language_through_length": 7,
+    "prior_release_hash_verification": "PASS",
+    "same_layer_premises": {
+      "edge_injectivity": true,
+      "fiber_split_beyond_complete_D0_interpretation_found": false,
+      "object_injectivity": true,
+      "relation_internality": true,
+      "state_internality": true,
+      "transition_internality": true,
+      "unique_boundary_segmentation": true
+    },
+    "simulated_boundaries": 9,
+    "simulated_return_edges": 8
+  },
+  "notebook": {
+    "cells_with_PASS_and_no_FAIL": 12,
+    "code_cells": 12,
+    "executed_notebook": "20260711T174605_Descriptive_Articulation_Boundary_executed.ipynb",
+    "figures": 12,
+    "pass": true,
+    "source_notebook": "20260711T174605_Descriptive_Articulation_Boundary.ipynb"
+  },
+  "package": "p5-b3-v6_descriptive-articulation-boundary_20260711T174605"
+}

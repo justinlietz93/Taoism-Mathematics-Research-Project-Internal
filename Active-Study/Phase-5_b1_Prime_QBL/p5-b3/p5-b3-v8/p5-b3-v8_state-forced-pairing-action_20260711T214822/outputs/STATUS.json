@@ -1,0 +1,9 @@
+{
+  "autonomous_transition_interface": "PROVED",
+  "branch_status": "OPEN",
+  "explicit_intrinsic_action": "OPEN",
+  "first_missing_bridge": "PPGRL",
+  "local_two_slot_interface": "PROVED",
+  "star_independence": "OPEN",
+  "star_typed_by_authority": "FALSE"
+}

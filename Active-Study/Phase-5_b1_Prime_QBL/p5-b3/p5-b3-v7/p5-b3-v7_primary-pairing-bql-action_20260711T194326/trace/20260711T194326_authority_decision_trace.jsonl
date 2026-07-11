@@ -1,0 +1,13 @@
+{"claim": "pairing_generated", "source_present": true}
+{"claim": "four_block_shape", "source_present": true}
+{"claim": "shape_is_intended", "source_present": true}
+{"claim": "chart_recurrence_open", "source_present": true}
+{"claim": "B_fixed_rank", "source_present": true}
+{"claim": "Q_fixed_rank", "source_present": true}
+{"claim": "L_preserve_old", "source_present": true}
+{"claim": "L_append_axis", "source_present": true}
+{"claim": "L_rank_plus_one", "source_present": true}
+{"claim": "open_pairing_recurrence", "source_present": true}
+{"operation": "B", "signature": {"active_change": "arithmetic pair metadata", "argument_architecture": "retained", "first_missing": "typed active-sector transport under pair refinement", "latched": "preserved", "rank_change": 0, "slot_action": "OPEN", "value_law": "OPEN"}}
+{"operation": "Q", "signature": {"active_change": "quarter-orientation metadata", "argument_architecture": "retained", "first_missing": "typed quarter-turn action on two-slot interface", "latched": "preserved", "rank_change": 0, "slot_action": "OPEN", "value_law": "OPEN"}}
+{"operation": "L", "signature": {"arity_change": 0, "first_missing": "typed orthogonality and extension-component law", "new_new": "OPEN", "new_old": "OPEN", "old_new": "OPEN", "old_old": "embedded prior pairing", "rank_change": 1, "zero_mixed_forced": false}}

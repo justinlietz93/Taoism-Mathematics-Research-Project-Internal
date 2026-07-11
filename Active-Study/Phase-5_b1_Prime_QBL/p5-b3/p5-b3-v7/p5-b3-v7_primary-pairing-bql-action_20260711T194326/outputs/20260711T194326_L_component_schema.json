@@ -1,0 +1,20 @@
+{
+  "architectural_rank_increment": 1,
+  "argument1": [
+    "old",
+    "new"
+  ],
+  "argument2": [
+    "old",
+    "new"
+  ],
+  "components": {
+    "new_new": "OPEN",
+    "new_old": "OPEN",
+    "old_new": "OPEN",
+    "old_old": "Emb(P_t)"
+  },
+  "forced_zero_components": [],
+  "pairing_arity": 2,
+  "status": "PROVED_BOUNDARY"
+}

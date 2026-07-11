@@ -1,0 +1,5 @@
+{"claim": "irrationality implies density", "reason": "proper infinite doubling-invariant closures may contain irrational points", "verdict": "REJECTED"}
+{"claim": "case 3 only arithmetic intrinsic", "reason": "canonical aperiodic transitive symbolic orbit closure is intrinsic", "verdict": "REJECTED"}
+{"claim": "D1 novelty", "reason": "induced return-edge class is not a primitive-letter rename", "verdict": "PROVED"}
+{"claim": "descriptive L", "reason": "retention, lawful induction, new effective invariant, and independent saturation criterion", "verdict": "PROVED"}
+{"claim": "Orthad L", "reason": "primary pairing recurrence is first missing dependency", "verdict": "OPEN"}

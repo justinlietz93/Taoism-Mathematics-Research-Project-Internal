@@ -1,0 +1,10 @@
+{
+  "alpha": "12*log(2)/log(phi)",
+  "alpha_irrational": "PROVED IN DOCUMENT BY GALOIS CONJUGATION",
+  "canonical_orbit_closure": "NOT YET DETERMINED",
+  "case_3_only_arithmetic_intrinsic": false,
+  "density_equivalent_to": "base-2 disjunctivity of alpha",
+  "exact_missing_bridge": "prove or refute base-2 disjunctivity of alpha",
+  "irrationality_implies_density": false,
+  "lambda": "log(2)/log(phi)"
+}

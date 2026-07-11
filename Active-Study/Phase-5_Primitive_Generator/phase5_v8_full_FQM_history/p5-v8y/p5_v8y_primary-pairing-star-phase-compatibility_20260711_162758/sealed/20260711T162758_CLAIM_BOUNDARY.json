@@ -1,0 +1,13 @@
+{
+  "pairing_values_emitted": false,
+  "chart_values_emitted": false,
+  "transfer_values_emitted": false,
+  "projection_rows_emitted": false,
+  "gauge_quotient_emitted": false,
+  "fqm_emitted": false,
+  "weil_emitted": false,
+  "affine_emitted": false,
+  "mhd_emitted": false,
+  "exact_pairing_type": "NOT_YET_DERIVED",
+  "exact_seed": "NOT_YET_DERIVED"
+}

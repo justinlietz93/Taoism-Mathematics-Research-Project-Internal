@@ -1,0 +1,18 @@
+{"claim": "primary generated from retained state and word", "kind": "authority_marker", "present": true}
+{"claim": "chart restrictions derived from primary", "kind": "authority_marker", "present": true}
+{"claim": "directed transfers derived from primary", "kind": "authority_marker", "present": true}
+{"claim": "B fixed rank", "kind": "authority_marker", "present": true}
+{"claim": "Q fixed rank", "kind": "authority_marker", "present": true}
+{"claim": "L rank extension", "kind": "authority_marker", "present": true}
+{"claim": "old block retained", "kind": "authority_marker", "present": true}
+{"claim": "new orthogonal axis", "kind": "authority_marker", "present": true}
+{"claim": "exact recurrence open", "kind": "authority_marker", "present": true}
+{"claim": "pullback only intended", "kind": "authority_marker", "present": true}
+{"field": "scalar carrier declared", "fixed": false, "kind": "unfixed_type_field"}
+{"field": "scalar-valued codomain declared", "fixed": false, "kind": "unfixed_type_field"}
+{"field": "linearity declared", "fixed": false, "kind": "unfixed_type_field"}
+{"field": "scalar variance declared", "fixed": false, "kind": "unfixed_type_field"}
+{"field": "symmetry/adjoint law declared", "fixed": false, "kind": "unfixed_type_field"}
+{"field": "left/right/two-sided orthogonality declared", "fixed": false, "kind": "unfixed_type_field"}
+{"field": "complete seed declared", "fixed": false, "kind": "unfixed_type_field"}
+{"field": "complete value recurrence declared", "fixed": false, "kind": "unfixed_type_field"}

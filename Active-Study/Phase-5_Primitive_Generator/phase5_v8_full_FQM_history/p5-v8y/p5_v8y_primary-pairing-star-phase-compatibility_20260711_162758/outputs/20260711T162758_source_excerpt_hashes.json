@@ -1,0 +1,98 @@
+{
+  "lifted_state_dependency": {
+    "excerpt_sha256": "424c9680e3255980664f2dc9731a94f0a68c13ade1d6fe8f04389fe14d336236",
+    "source_file_sha256": "3dc57669c4e251098180c07ec4e406f4057088a64c49c94537b7add7dd189386",
+    "line_range": [
+      438,
+      478
+    ]
+  },
+  "four_descendants": {
+    "excerpt_sha256": "62a71e58daf25ad4026b48e473d07495b46ce3df9ed8936381ceb8a25482edd0",
+    "source_file_sha256": "3dc57669c4e251098180c07ec4e406f4057088a64c49c94537b7add7dd189386",
+    "line_range": [
+      509,
+      541
+    ]
+  },
+  "B_mutation": {
+    "excerpt_sha256": "373053c0bfe335f69bc88f4d332a99ccc669192dbc28ebd8e475c1a831c628bc",
+    "source_file_sha256": "3dc57669c4e251098180c07ec4e406f4057088a64c49c94537b7add7dd189386",
+    "line_range": [
+      549,
+      570
+    ]
+  },
+  "Q_quarter_turn": {
+    "excerpt_sha256": "8910a8b8438df04fc07a5586d99fda258514d47350945c1cfaf1b8ef6425ddf5",
+    "source_file_sha256": "3dc57669c4e251098180c07ec4e406f4057088a64c49c94537b7add7dd189386",
+    "line_range": [
+      572,
+      593
+    ]
+  },
+  "L_orthogonal_axis": {
+    "excerpt_sha256": "500ae809a5b07849a93914eab965acc3e8d8b678a492d7b31732188bdb0d2849",
+    "source_file_sha256": "3dc57669c4e251098180c07ec4e406f4057088a64c49c94537b7add7dd189386",
+    "line_range": [
+      595,
+      613
+    ]
+  },
+  "local_axis_shorthand": {
+    "excerpt_sha256": "806faa35744fa53cfd35256fed260b35e38eccb9aca27e885de912fc0e6eed34",
+    "source_file_sha256": "3dc57669c4e251098180c07ec4e406f4057088a64c49c94537b7add7dd189386",
+    "line_range": [
+      617,
+      664
+    ]
+  },
+  "gauge_star": {
+    "excerpt_sha256": "1c5c789d8614e1a24622b55aae1e136aba3c968b6c889d8ceef4629ad64f0565",
+    "source_file_sha256": "3dc57669c4e251098180c07ec4e406f4057088a64c49c94537b7add7dd189386",
+    "line_range": [
+      690,
+      726
+    ]
+  },
+  "FQM_polarization": {
+    "excerpt_sha256": "e5ccfb2aad71af28963cbd111817b71b968ec7ae1854cc58ed8b827fb51a52e0",
+    "source_file_sha256": "3dc57669c4e251098180c07ec4e406f4057088a64c49c94537b7add7dd189386",
+    "line_range": [
+      730,
+      744
+    ]
+  },
+  "candidate_Cstar_block": {
+    "excerpt_sha256": "ae9bdd07c24dc5a3ced643a5d6032983cd218c4284256bec825dd284e1ca4c37",
+    "source_file_sha256": "f2e8cc185b03c03da5dc9dac9ddf5b7944f1393414391bcd9257cd2bf3640cb3",
+    "line_range": [
+      510,
+      521
+    ]
+  },
+  "historical_H_construction": {
+    "excerpt_sha256": "d16e1e84a07fa34747e8a315fe9368ded94eda13291f598e898ed76826c44fbe",
+    "source_file_sha256": "e2508ddf691e1e16fe93a03ff4eed1ef3e14fc325587d046310f695d1824376d",
+    "line_range": [
+      7,
+      34
+    ]
+  },
+  "historical_H_disposition": {
+    "excerpt_sha256": "1e4a8e10ae245b6d6af7ea0922a5a80df562d9f23039d7bcc9da3d6e0aefe0e2",
+    "source_file_sha256": "e2508ddf691e1e16fe93a03ff4eed1ef3e14fc325587d046310f695d1824376d",
+    "line_range": [
+      48,
+      62
+    ]
+  },
+  "historical_H_executable": {
+    "excerpt_sha256": "32d1e59c87c18a0e7d4ea9489946c952a847287d39e83274b853f1651bff563a",
+    "source_file_sha256": "3504ef8c8b295d8aacaf9dd2a229b9526ef50c00ee468a2e578347c2dca4f7a4",
+    "line_range": [
+      81,
+      100
+    ]
+  }
+}

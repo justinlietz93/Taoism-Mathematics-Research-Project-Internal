@@ -1,0 +1,11 @@
+{
+  "Xi_hat_t_values": "NOT_INSTANTIATED",
+  "chart_values": "NOT_EMITTED",
+  "directed_transfer_values": "NOT_EMITTED",
+  "terminal_projection": "NOT_RUN",
+  "gauge_quotient": "NOT_CONSTRUCTED",
+  "FQM": "NOT_RUN",
+  "Weil": "NOT_RUN",
+  "affine": "NOT_RUN",
+  "MHD": "NOT_RUN"
+}

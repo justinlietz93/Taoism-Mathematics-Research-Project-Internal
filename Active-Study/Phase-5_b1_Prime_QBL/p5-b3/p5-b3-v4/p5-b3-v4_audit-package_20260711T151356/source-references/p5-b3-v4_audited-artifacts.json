@@ -1,0 +1,15 @@
+{
+  "agent_archive": {
+    "path": "/mnt/data/p5-b3-v4_primary-pairing-type-boundary_20260711T145605.zip",
+    "sha256": "c3c91e37e7d970f8f89bf3db086fb64dc658e1e1e1c77fb3666f6aed80405b9b"
+  },
+  "internal_document": {
+    "path_in_archive": "docs/QBL_PRIMARY_PAIRING_TYPE_BOUNDARY_v2.md",
+    "sha256": "00c9d0068dad1b45ddb7cd71dcf1d8695c1fcbc64d3e3f2563bf36bafc5b5a16"
+  },
+  "clean_rebuild": {
+    "sha256": "c3c91e37e7d970f8f89bf3db086fb64dc658e1e1e1c77fb3666f6aed80405b9b",
+    "byte_identical": true,
+    "condition": "original package-root directory name preserved"
+  }
+}

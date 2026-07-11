@@ -1,0 +1,6 @@
+{"claim": "custody selects primitive", "depends_on": ["CanB", "CanQ", "B>Q>L"], "status": "PROVED", "step": 1}
+{"claim": "custody advances", "depends_on": ["selected primitive"], "status": "PROVED", "step": 2}
+{"claim": "primary pairing mutates", "depends_on": ["PPGRL"], "status": "OPEN VALUE LAW", "step": 3}
+{"claim": "four descendants induced", "depends_on": ["P_next", "R_ab,next"], "status": "PROVED DIRECTION; OPEN MAPS", "step": 4}
+{"claim": "complete state retained", "depends_on": ["all prior"], "status": "OPEN UNTIL STEPS 3-4", "step": 5}
+{"claim": "projection", "depends_on": [], "status": "FORBIDDEN DURING CUSTODY", "step": 6}

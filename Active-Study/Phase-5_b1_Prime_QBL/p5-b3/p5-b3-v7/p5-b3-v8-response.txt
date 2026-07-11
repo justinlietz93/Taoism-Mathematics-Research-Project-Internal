@@ -1,0 +1,117 @@
+[Complete research document](sandbox:/mnt/data/QBL_PRIMARY_PAIRING_BQL_ACTION_BOUNDARY_v1.md)
+
+[Source-forced two-slot interface](sandbox:/mnt/data/p5-b3-v7_primary-pairing-bql-action_20260711T194326/docs/SOURCE_FORCED_TWO_SLOT_PAIRING.md)
+
+[Reproducible experiment package](sandbox:/mnt/data/p5-b3-v7_primary-pairing-bql-action_20260711T194326.zip)
+
+[Archive SHA-256 file](sandbox:/mnt/data/p5-b3-v7_primary-pairing-bql-action_20260711T194326.zip.sha256)
+
+```text
+Document SHA-256:
+6b00af9589c8727de5749045699fc0353b1a9faf5258ee207a5fda6fc6fac06a
+
+ZIP SHA-256:
+a585adef6990ad33bb355450c82cebfa57afe807ed7006b3b4cd9b182124a298
+```
+
+## Result
+
+The source forces one exact-word-dependent **two-slot primary object** that generates both chart restrictions and both mixed transfers. The displayed forms (\iota_a^*P_t\iota_b) establish placement and direction of descent from (P_t), but the source calls them an intended algebraic shape and leaves the chart and primary-pairing recurrences open. The star therefore has no currently licensed adjoint, duality, or scalar-variance interpretation. 
+
+```text
+SOURCE-FORCED TWO-SLOT PAIRING INTERFACE: DERIVED
+ORTHAD-LEVEL B/Q/L ARCHITECTURAL SIGNATURES: DERIVED
+```
+
+The weakest forced actions are:
+
+[
+B:\quad
+\text{fixed architecture and rank;}
+\quad
+\text{latched sectors retained;}
+\quad
+\text{active arithmetic data mutates},
+]
+
+[
+Q:\quad
+\text{fixed architecture and rank;}
+\quad
+\text{latched sectors retained;}
+\quad
+\text{active orientation advances by the quarter-turn witness},
+]
+
+and, at `L`,
+
+[
+P_{t+1}\rightsquigarrow
+\left(
+P_{\mathrm{oo}},
+P_{\mathrm{on}},
+P_{\mathrm{no}},
+P_{\mathrm{nn}}
+\right),
+\qquad
+P_{\mathrm{oo}}=\operatorname{Emb}_t(P_t).
+]
+
+The other three `L` components remain unresolved:
+
+```text
+old-new: OPEN
+new-old: OPEN
+new-new: OPEN
+```
+
+No mixed component is forced to vanish. “Orthogonal axis” has not yet been typed as left, right, or two-sided orthogonality of the primary pairing.
+
+The first-domain replay preserves the full pairing updates symbolically and independently recovers the accepted local descendant:
+
+[
+B:a\mapsto a\frac{u}{u+v},
+\qquad
+Q:a\mapsto ia,
+\qquad
+a_{\mathrm{completed},0}=\frac{i}{4895}.
+]
+
+## Boundary-return and descriptive status
+
+The exact custody cocycle does not presently induce a recurrence on pairing classes. The first missing bridge is an exact pairing-class projection and boundary-return commuting law.
+
+```text
+PAIRING SIMPLIFICATION FROM EFFECTIVE INVARIANTS: NOT YET DERIVED
+FIRST MISSING BRIDGE:
+    exact boundary-return law or quotient map on primary-pairing classes
+
+D1 DOMAIN-PROPER EFFECTIVE INVARIANT: NOT YET DERIVED
+HIGHER-ORDER DESCRIPTIVE L: NOT YET DERIVED
+```
+
+CG000 remains an exploratory historical whitepaper rather than a hypothesis or formal authority. Its interface-mirror idea is recorded only as a historical structural echo. 
+
+## Verification
+
+```text
+Manifest entries:              58
+Notebook code cells executed:  15/15
+Figures regenerated:           15
+Manifest verification:         PASS
+Release vs clean rebuild:      BYTE-IDENTICAL
+Two independent clean builds:  BYTE-IDENTICAL
+
+LEAN SOURCE PRESENT;
+PROOF AND COMPILATION NOT VERIFIED
+```
+
+```text
+EXACT PRIMARY PAIRING TYPE: NOT YET DERIVED
+EXACT PRIMARY PAIRING SEED: NOT YET DERIVED
+EXACT B/Q/L VALUE RECURRENCE: NOT YET DERIVED
+EXACT CHART MAPS: NOT YET DERIVED
+EXACT DIRECTED TRANSFERS: NOT YET DERIVED
+p5-b3 BRANCH STATUS: OPEN
+```
+

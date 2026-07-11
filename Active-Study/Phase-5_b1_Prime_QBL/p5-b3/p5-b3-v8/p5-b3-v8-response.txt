@@ -1,0 +1,106 @@
+[Complete research document](sandbox:/mnt/data/QBL_PRIMARY_PAIRING_STATE_FORCED_ACTION_v1.md)
+
+[Reproducible experiment package](sandbox:/mnt/data/p5-b3-v8_state-forced-pairing-action_20260711T214822.zip)
+
+[Archive SHA-256 file](sandbox:/mnt/data/p5-b3-v8_state-forced-pairing-action_20260711T214822.zip.sha256)
+
+```text
+Document SHA-256:
+e3c07ccb94df97a27771da9c09bc4548fdc9969934c4ff5aab530f3b1db272b6
+
+ZIP SHA-256:
+5ffc26e0d38bdf40491492aa9ee427100aad7adddcda61b10585f3aec325c1bb
+```
+
+## Decisive result
+
+The current authority forces an autonomous, pairing-first **transition interface**, but it does not yet force the primary-pairing value recurrence.
+
+The first missing bridge is the complete state-generated:
+
+```text
+PRIMARY PAIRING GENERATION AND RESTRICTION LAW
+PPGRL
+```
+
+It must determine, after custody selects the primitive:
+
+[
+\bigl(P_{t+1},R_{++,t+1},R_{--,t+1},R_{+-,t+1},R_{-+,t+1}\bigr)
+]
+
+from the retained state, exact word, and advanced custody state. The authority requires one primary object to generate all four descendants, while explicitly leaving the exact recurrence and chart maps open. 
+
+The contender disposition is:
+
+```text
+A. LOCAL ORDERED TWO-SLOT ARCHITECTURE:
+   PROVED
+   INCOMPLETE DESCRIPTION
+
+B. GENUINE STAR-SEMANTICS INDEPENDENCE:
+   NOT YET DERIVED
+   NO COMPLETE-MODEL INDEPENDENCE CERTIFICATE
+
+C. ONE EXPLICIT STATE-FORCED INTRINSIC ACTION:
+   NOT YET DERIVED
+   REQUIRED RESEARCH TARGET
+```
+
+The repeated `*` is only an untyped role marker in the current authority:
+
+* `ι_a^* P ι_b` is an intended algebraic shape.
+* `P -> U^* P U` is schematic.
+* Historical `H=M+iJ` and candidate `C_t*` relations do not type the present primary law.
+
+Therefore `STAR_SEMANTICS_AXIOM` is not adopted. Preselecting it would violate the State-Forced Derivation Principle before complete inequivalent lawful recurrences had been established. 
+
+## Preserved exact results
+
+[
+B:a\mapsto a\frac{u}{u+v},
+\qquad
+Q:a\mapsto ia,
+\qquad
+a_{\mathrm{completed},0}=\frac{i}{4895}.
+]
+
+These constrain the Domain-0 local active trace only. They do not identify a pairing diagonal, chart block, transfer block, or later-axis recurrence.
+
+At `L`:
+
+```text
+old-old retained embedding: PROVED
+old-new value:              NOT YET DERIVED
+new-old value:              NOT YET DERIVED
+new-new value:              NOT YET DERIVED
+zero mixed components:      NOT DERIVED
+```
+
+## Package verification
+
+```text
+Manifest entries:                48
+Notebook cells passing:          14/14
+Figures regenerated:             14
+Convergence ZIP hash:            PASS
+Complete countermodel checks:    PASS
+Manifest verification:           PASS
+Two clean archive rebuilds:      BYTE-IDENTICAL
+Release versus clean rebuild:    BYTE-IDENTICAL
+
+LEAN SOURCE PRESENT;
+PROOF AND COMPILATION NOT VERIFIED
+```
+
+```text
+STATE-FORCED INTRINSIC ACTION: NOT YET DERIVED
+GENUINE STAR-SEMANTICS INDEPENDENCE: NOT YET DERIVED
+EXACT PRIMARY PAIRING RECURRENCE: NOT YET DERIVED
+EXACT CHART MAPS: NOT YET DERIVED
+EXACT DIRECTED TRANSFERS: NOT YET DERIVED
+D1 DOMAIN-PROPER EFFECTIVE INVARIANT: NOT YET DERIVED
+HIGHER-ORDER DESCRIPTIVE L: NOT YET DERIVED
+p5-b3 BRANCH STATUS: OPEN
+```
+

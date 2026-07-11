@@ -1,0 +1,32 @@
+{
+  "CERTIFIED_FINITE": [
+    "custody simulation through Domain 8",
+    "accepted carry trace A=0..10000 validated",
+    "full ambient language coverage through length 7",
+    "corrected prior release hash verified"
+  ],
+  "OBSERVED": [
+    "broad finite ambient-language coverage",
+    "finite frequencies close to prior Lebesgue benchmark"
+  ],
+  "OPEN": [
+    "CANONICAL ORBIT CLOSURE = FULL AFFINE SYSTEM",
+    "CANONICAL ORBIT CLOSURE IS PROPER",
+    "SPECIFIC-ORBIT EQUIDISTRIBUTION",
+    "D1 SAME-LAYER SATURATION",
+    "D1 NEXT RE-ARTICULATION",
+    "EXACT PRIMARY PAIRING RECURRENCE",
+    "ORTHAD-LEVEL HIGHER-ORDER L"
+  ],
+  "PROVED": [
+    "CANONICAL QBL-TO-AFFINE BOUNDARY-ORBIT SEMICONJUGACY",
+    "EXACT BOUNDARY-RETURN COCYCLE",
+    "CANONICAL CARRY ITINERARY APERIODIC",
+    "CANONICAL SYMBOLIC ORBIT CLOSURE INFINITE",
+    "CANONICAL SYMBOLIC ORBIT CLOSURE TRANSITIVE",
+    "D1 INDUCED RETURN INVARIANT",
+    "D1 IS A SAME-LAYER INDUCED RECODING OF D0",
+    "D1 IS A LAWFUL INDUCED DESCRIPTION, NOT A FORCED RE-ARTICULATION",
+    "HIGHER-ORDER DESCRIPTIVE L FALSE FOR D0-TO-D1"
+  ]
+}

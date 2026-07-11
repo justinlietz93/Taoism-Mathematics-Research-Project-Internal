@@ -1,0 +1,7 @@
+meaning,iota_pullbacks,gauge,C_t_star,historical_H,Q_i,verdict
+transpose,typed in a matrix realization,typed as U^T P U,typed as transpose,does not explain historical Hermitian adjoint unless J=0,scalar i action possible but not source-forced,ADMISSIBLE_BUT_NOT_FORCED
+conjugate transpose,typed in a complex matrix realization,typed as U^† P U,typed as conjugate transpose,coherent with M real symmetric and J real skew,requires Q_ACTION_AXIOM to preserve Hermitian/skew-Hermitian subclass,ADMISSIBLE_BUT_NOT_FORCED
+categorical dual pullback,typed if a duality is supplied,typed as dual(U) P U,only typed after a dual map is defined,not typed without scalar enrichment,not typed without phase enrichment,ADMISSIBLE_BUT_NOT_FORCED
+adjoint under an auxiliary pairing,typed only after another pairing defines adjoints,typed but circular for the primary pairing,typed conditionally,possible downstream,conditional,REQUIRES_ONE_AXIOM
+coefficient involution only,not typed,not typed on maps,not typed on maps,coefficient conjugation alone is insufficient,conjugates i but supplies no pullback,RULED_OUT
+formal placeholder,not mechanically typed,not mechanically typed,not mechanically typed,no relation established,no relation established,CURRENT_SOURCE_STATUS

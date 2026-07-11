@@ -1,0 +1,5 @@
+passage,authority_class,expression,typed_star,conclusion
+chart descendants,RATIFIED_INTENDED_SHAPE,iota_a^* P iota_b,False,schematic role
+gauge change,RATIFIED_SCHEMATIC,P -> U^* P U,False,schematic role
+first-L reverse relation,TASK_LEVEL_CANDIDATE,C_t*,False,not authority
+historical overlap,HISTORICAL,H=M+iJ,False,not seed

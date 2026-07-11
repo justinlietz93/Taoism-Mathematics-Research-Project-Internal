@@ -1,0 +1,89 @@
+{
+  "excludes": [
+    "MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": "ACCEPTED_TASK.md",
+      "sha256": "60230099ff1b05606f15802f0cc8a2b43b3f969432758f8454b1b3408685cc74",
+      "size": 962
+    },
+    {
+      "path": "AUDIT_RESULTS.md",
+      "sha256": "cf1501fbe92992e1cf81ee7d1f2e677665fc9df36b2fc9e92d283b02bac6bd00",
+      "size": 5344
+    },
+    {
+      "path": "OUTGOING_INSTRUCTIONS.md",
+      "sha256": "67bba94e631c9cb6e3672e610f888cdd8e30349740c2ece80fd9b1376cae0033",
+      "size": 7321
+    },
+    {
+      "path": "README.md",
+      "sha256": "c49cc96e85811c572ebc5c4db86380fcf5495f5e8ed15dad53133c1271373701",
+      "size": 949
+    },
+    {
+      "path": "SOURCE_MAP.md",
+      "sha256": "c40720bc276d05e13fb1be58666c86dd273eb70eeea82580c53f6934ce282104",
+      "size": 1050
+    },
+    {
+      "path": "inputs/ASSUMPTION_LOCK.md",
+      "sha256": "5e4afef7f6db14531d381f73ca49852f4a843dced2b70b8f8a22b6afcd359ebd",
+      "size": 1064
+    },
+    {
+      "path": "outputs/audit-summary.json",
+      "sha256": "466055578cd876683c153a9184440ad890b1fa4454dabd7fbb6e27d4dde74e46",
+      "size": 419
+    },
+    {
+      "path": "outputs/clean-rebuild-verification.json",
+      "sha256": "88239ff0d445a937678bba756817847aeb45dd4aa333c42f5aa43b4002525aa5",
+      "size": 313
+    },
+    {
+      "path": "outputs/descendant-factorization-vacuity.json",
+      "sha256": "e8f0f9e6278389a9fa4a576d6484208df1ea0e1b124e0b661accaad696ed43b3",
+      "size": 461
+    },
+    {
+      "path": "outputs/descendant-factorization-vacuity.log",
+      "sha256": "e8f0f9e6278389a9fa4a576d6484208df1ea0e1b124e0b661accaad696ed43b3",
+      "size": 461
+    },
+    {
+      "path": "outputs/package-verification.json",
+      "sha256": "de84fd5cc920adf14934d2819dd4eed6f7be25b476e95b964d8516910e664340",
+      "size": 181
+    },
+    {
+      "path": "outputs/package-verification.log",
+      "sha256": "de84fd5cc920adf14934d2819dd4eed6f7be25b476e95b964d8516910e664340",
+      "size": 181
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "780b07894d16bf730a7f4a55418a60ac89382510c02d1f9e004a6231700e5031",
+      "size": 31
+    },
+    {
+      "path": "scripts/test_descendant_factorization.py",
+      "sha256": "16476c61458c48b649cc64ccae40d1147cdf61e24d2fcb8008ed3d4571a26690",
+      "size": 1186
+    },
+    {
+      "path": "scripts/verify_agent_package.py",
+      "sha256": "d6bdeae5b4c3b805a8b3b21e2142d8df803eb0a98a8a542a219b809ba98bb737",
+      "size": 1554
+    },
+    {
+      "path": "source-references/audited-artifacts.json",
+      "sha256": "f14c97b15f7ce0ce251927929712cc79e48863e4d61bcd4fc7d525d2624a5557",
+      "size": 533
+    }
+  ],
+  "hash_algorithm": "sha256",
+  "package": "p5-b3-v8_audit-package_20260711T223909"
+}

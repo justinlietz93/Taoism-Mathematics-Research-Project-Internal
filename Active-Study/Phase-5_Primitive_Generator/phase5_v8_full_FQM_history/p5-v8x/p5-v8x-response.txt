@@ -1,0 +1,130 @@
+Executed `p5_v8x`.
+
+[Download `p5_v8x_pairing-representability-and-l-rank-law_20260711_145038.zip`](sandbox:/mnt/data/p5_v8x_pairing-representability-and-l-rank-law_20260711_145038.zip)
+
+```text
+ZIP SHA-256:
+6689e6b39d200cfc4fd4f181b85ccda588ce1333665da597f3e48f36e505ef36
+```
+
+First audit file:
+
+[FINDINGS.md](sandbox:/mnt/data/p5_v8x_pairing-representability-and-l-rank-law_20260711_145038/FINDINGS.md)
+
+Corrected research document:
+
+[20260711T145038_PAIRING_REPRESENTABILITY_AND_L_RANK_LAW.md](sandbox:/mnt/data/p5_v8x_pairing-representability-and-l-rank-law_20260711_145038/docs/20260711T145038_PAIRING_REPRESENTABILITY_AND_L_RANK_LAW.md)
+
+```text
+Document SHA-256:
+417a48354d3a004bf7fd77b8746d0cd2b422380f4177855bfae2338ac04f9885
+```
+
+## Status
+
+```text
+PAIRING_FIRST_REALIGNMENT:
+    PASS
+
+SOURCE_FORCED_PAIRING_INTERFACE:
+    DERIVED
+
+DUALITY_MORPHISM_MODEL:
+    ADMISSIBLE_CANDIDATE
+
+PAIRING_REPRESENTABILITY:
+    NOT_YET_DERIVED
+
+SCALAR_VARIANCE_STATUS:
+    DOWNSTREAM
+
+FIRST_L_RIGHT_MIXED_BLOCK:
+    NOT_YET_DERIVED
+
+FIRST_L_LEFT_MIXED_BLOCK:
+    NOT_YET_DERIVED
+
+FIRST_L_PAIRING_RANK_LAW:
+    NOT_YET_TYPED
+
+EXACT_PRIMARY_PAIRING_TYPE:
+    NOT_YET_DERIVED
+
+EXACT PRIMARY PAIRING SEED:
+    NOT_YET_DERIVED
+
+Xi_hat_t VALUES:
+    NOT_INSTANTIATED
+
+REAL CORRUPTION CONTROLS:
+    PASS
+
+TERMINAL PROJECTION:
+    NOT_RUN
+```
+
+## Research result
+
+The weakest interface forced by the written architecture is a primary two-slot pairing system:
+
+```text
+P_t ∈ Pair(H_t,H_t)
+
+(f,g)*:
+Pair(A,B) -> Pair(A',B')
+for f:A'->A and g:B'->B
+```
+
+This directly types both chart restrictions and both directed transfers. At this layer, `*` means first-slot pullback notation. It is not yet an adjoint, conjugation, transpose, or scalar involution.
+
+The represented model
+
+```text
+P_t : H_t -> D(H_t)
+```
+
+requires an additional axiom:
+
+```text
+For every H, there exists D(H) and a natural isomorphism
+
+Pair(A,H) ≅ Hom(A,D(H))
+
+compatible with pullback in both arguments.
+```
+
+No source supplies that representability axiom.
+
+At the first `L`, the strongest licensed block schema is:
+
+```text
+[[P_t,    C_right],
+ [C_left, p_new ]]
+```
+
+The source does not define orthogonality as left, right, or two-sided. The explicit nonsymmetric example
+
+```text
+[[1,1],
+ [0,1]]
+```
+
+has `P(new,old)=0` and `P(old,new)=1`, proving that one-sided orthogonality does not force both mixed blocks to vanish.
+
+The architectural axis count increases `1 -> 2`. Algebraic pairing rank is not implied: `diag(1,0)` has block size two but rank one.
+
+## Verification
+
+```text
+full verifier gates:          15/15 passed
+pytest:                       14/14 passed
+real corruption controls:     6/6 fired
+manifest entries:             61
+ZIP files:                    62 including MANIFEST.json
+archive/manifest path sets:   exact match
+cache or bytecode entries:    0
+verified tree mutations:      0
+```
+
+Lean formalizes the one-sided orthogonality counterexample, the block-diagonal implication from two vanished mixed blocks, and the zero-birth singular extension. Lean was unavailable in the build environment, so compilation is not claimed.
+

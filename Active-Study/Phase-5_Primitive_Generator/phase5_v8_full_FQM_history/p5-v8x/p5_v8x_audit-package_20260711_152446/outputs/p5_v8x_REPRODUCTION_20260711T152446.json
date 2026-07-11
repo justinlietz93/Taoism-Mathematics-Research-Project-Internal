@@ -1,0 +1,33 @@
+{
+  "step_id": "p5_v8x",
+  "audit_timestamp": "20260711T152446",
+  "supplied_zip_sha256": "6689e6b39d200cfc4fd4f181b85ccda588ce1333665da597f3e48f36e505ef36",
+  "declared_zip_sha256": "6689e6b39d200cfc4fd4f181b85ccda588ce1333665da597f3e48f36e505ef36",
+  "zip_hash_match": true,
+  "research_document_sha256": "417a48354d3a004bf7fd77b8746d0cd2b422380f4177855bfae2338ac04f9885",
+  "declared_document_sha256": "417a48354d3a004bf7fd77b8746d0cd2b422380f4177855bfae2338ac04f9885",
+  "document_hash_match": true,
+  "clean_reproduction": {
+    "verifier_gates": "15/15",
+    "pytest": "14/14",
+    "controls": "6/6",
+    "manifest_archive_path_match": true,
+    "tree_mutations": 0
+  },
+  "source_binding_attack": {
+    "mutation": "replace QBL primary authority with unrelated two-line text",
+    "manifest_regenerated": true,
+    "verifier_skip_controls_exit_code": 0,
+    "verifier_result": "PASS",
+    "conclusion": "ledger claims are not bound to source bytes"
+  },
+  "corrected_statuses": {
+    "general_pair_bifunctor": "ADMISSIBLE_CANDIDATE",
+    "source_forced_pairing_type": "NOT_YET_DERIVED",
+    "star_semantics": "NOT_YET_DERIVED",
+    "quarter_turn_action_type": "NOT_YET_DERIVED",
+    "first_L_block_matrix": "CANDIDATE_PRESENTATION",
+    "source_excerpt_binding": "FAIL",
+    "real_corruption_controls": "PASS"
+  }
+}

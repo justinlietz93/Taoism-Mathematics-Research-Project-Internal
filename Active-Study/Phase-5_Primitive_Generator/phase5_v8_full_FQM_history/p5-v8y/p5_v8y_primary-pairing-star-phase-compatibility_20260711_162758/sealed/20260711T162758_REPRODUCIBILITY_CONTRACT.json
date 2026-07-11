@@ -1,0 +1,11 @@
+{
+  "contract": "NORMALIZED_SEMANTIC_REPRODUCIBILITY",
+  "rebuild_command": "python scripts/20260711T162758_rebuild.py",
+  "verify_command": "python scripts/20260711T162758_verify.py .",
+  "normalized_exclusions": [
+    "ZIP container metadata",
+    "source notebook execution metadata",
+    "temporary corruption-control paths normalized to <TEMP_PACKAGE>"
+  ],
+  "cache_entries_allowed": false
+}

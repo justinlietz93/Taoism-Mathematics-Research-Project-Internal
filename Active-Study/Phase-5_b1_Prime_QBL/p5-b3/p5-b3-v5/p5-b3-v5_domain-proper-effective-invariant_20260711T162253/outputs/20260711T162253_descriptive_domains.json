@@ -1,0 +1,26 @@
+{
+  "D0": {
+    "objects": "primitive custody states X_t=(A,q,theta,k,j,W)",
+    "selection": "strict state law B>Q>L",
+    "transformations": [
+      "B",
+      "Q",
+      "L"
+    ]
+  },
+  "D1": {
+    "derived_edge_label": "c_A=nu(q_A)-2*nu(q_{A-1}) in {7,8,9}",
+    "objects": "canonical saturated pre-L states S_A^- and return edges e_A",
+    "transformation": "induced first-return map R"
+  },
+  "inherited": [
+    "A",
+    "q",
+    "theta",
+    "k",
+    "j",
+    "W",
+    "B-count recoverability",
+    "domain history"
+  ]
+}

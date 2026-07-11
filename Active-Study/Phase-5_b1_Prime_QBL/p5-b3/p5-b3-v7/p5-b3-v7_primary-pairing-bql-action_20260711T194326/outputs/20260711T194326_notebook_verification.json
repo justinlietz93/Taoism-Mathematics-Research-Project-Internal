@@ -1,0 +1,82 @@
+{
+  "all_executed": true,
+  "cells": [
+    {
+      "cell": 1,
+      "figure": "20260711T194326_claim_01.png",
+      "status_line": "PROVED: architectural rank law r_arch=A+1 from seed one, B/Q fixed rank, L +1"
+    },
+    {
+      "cell": 2,
+      "figure": "20260711T194326_claim_02.png",
+      "status_line": "PROVED: two slots and two chart embeddings yield four source-descended blocks"
+    },
+    {
+      "cell": 3,
+      "figure": "20260711T194326_claim_03.png",
+      "status_line": "PROVED: accepted local B descendant a -> a*u/(u+v)"
+    },
+    {
+      "cell": 4,
+      "figure": "20260711T194326_claim_04.png",
+      "status_line": "PROVED: quarter-turn witness has order four on local orientation data"
+    },
+    {
+      "cell": 5,
+      "figure": "20260711T194326_claim_05.png",
+      "status_line": "CERTIFIED FINITELY: first-domain local endpoint i/4895"
+    },
+    {
+      "cell": 6,
+      "figure": "20260711T194326_claim_06.png",
+      "status_line": "COUNTERMODEL: B architectural signature does not select a unique full-pairing action"
+    },
+    {
+      "cell": 7,
+      "figure": "20260711T194326_claim_07.png",
+      "status_line": "COUNTERMODEL: local a->i*a does not type Q on the full pairing"
+    },
+    {
+      "cell": 8,
+      "figure": "20260711T194326_claim_08.png",
+      "status_line": "DOCUMENT PROOF: repeated-star notation fixes chart-map placement, not a typed adjoint or variance law"
+    },
+    {
+      "cell": 9,
+      "figure": "20260711T194326_claim_09.png",
+      "status_line": "PROVED: L retains old-old structure and preserves two-slot arity; three components remain open"
+    },
+    {
+      "cell": 10,
+      "figure": "20260711T194326_claim_10.png",
+      "status_line": "COUNTERMODEL: one-sided orthogonality does not force both mixed components to vanish"
+    },
+    {
+      "cell": 11,
+      "figure": "20260711T194326_claim_11.png",
+      "status_line": "MODEL WITNESS: multiple nonexhaustive realizations satisfy the same abstract interface"
+    },
+    {
+      "cell": 12,
+      "figure": "20260711T194326_claim_12.png",
+      "status_line": "OPEN: custody carry sequence alone does not determine a pairing-class recurrence"
+    },
+    {
+      "cell": 13,
+      "figure": "20260711T194326_claim_13.png",
+      "status_line": "DOCUMENT PROOF: descriptive correction preserved; novelty and descriptive L remain open"
+    },
+    {
+      "cell": 14,
+      "figure": "20260711T194326_claim_14.png",
+      "status_line": "OBSERVED: CG000 supplies a historical structural echo only; it carries no theorem burden"
+    },
+    {
+      "cell": 15,
+      "figure": "20260711T194326_claim_15.png",
+      "status_line": "OPEN: exact primary pairing recurrence remains underdetermined at eight named obligations"
+    }
+  ],
+  "code_cells": 15,
+  "figures": 15
+}

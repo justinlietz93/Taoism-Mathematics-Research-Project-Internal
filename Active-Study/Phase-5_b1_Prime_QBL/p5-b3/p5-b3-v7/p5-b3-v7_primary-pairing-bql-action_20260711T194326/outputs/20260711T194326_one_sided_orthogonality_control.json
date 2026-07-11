@@ -1,0 +1,17 @@
+{
+  "matrix": [
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "new_old": 0,
+  "old_new": 1,
+  "one_sided_zero": true,
+  "other_mixed_nonzero": true,
+  "verdict": "COUNTERMODEL: one-sided orthogonality does not force both mixed components zero"
+}

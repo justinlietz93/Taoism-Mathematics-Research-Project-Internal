@@ -1,0 +1,8 @@
+{
+  "all_symbolic_checks_zero_or_integer": true,
+  "boundary_factor_recurrence_residual": "0",
+  "canonical_doubling_seed_residual": "0",
+  "doubling_conjugacy_difference": "-c",
+  "doubling_conjugacy_is_integer_when_c_integer": true,
+  "global_position_recurrence_residual": "0"
+}

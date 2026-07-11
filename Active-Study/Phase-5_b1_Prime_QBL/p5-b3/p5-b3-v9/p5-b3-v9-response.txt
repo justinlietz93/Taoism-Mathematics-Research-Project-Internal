@@ -1,0 +1,126 @@
+Completed `p5-b3-v9`.
+
+[Complete research document](sandbox:/mnt/data/QBL_PRIMARY_PAIRING_PPGRL_DECOMPOSITION_v1.md)
+
+[Reproducible experiment package](sandbox:/mnt/data/p5-b3-v9_ppgrl-decomposition_20260711T224358.zip)
+
+[Archive SHA-256 file](sandbox:/mnt/data/p5-b3-v9_ppgrl-decomposition_20260711T224358.zip.sha256)
+
+```text
+Document SHA-256:
+29c5021836cfdd78bc93370a537413f40d3987318ca2fe68603324fc923aaaf3
+
+ZIP SHA-256:
+8206106b7f2ae57cf4b81551480bd9e24f22dbd815a34352515e923375f0f79e
+```
+
+## Decisive result
+
+`PPGRL` decomposes into a strict dependency chain. The earliest unresolved datum is:
+
+```text
+STATE-INDEXED ARGUMENT-AND-PLACEMENT REALIZATION
+```
+
+It must determine the ambient argument architecture, the two chart argument objects, the state-fixed placements (\iota_+) and (\iota_-), their `B/Q` transport, and their old/new extension under `L`.
+
+This precedes the pairing carrier, codomain, restriction realization, seed, and value recurrences. The authority forces the primary-to-descendant direction but explicitly leaves the exact chart maps and primary recurrence open. 
+
+## Repaired descendant dependency
+
+The non-vacuous factorization is:
+
+[
+D_{ab,t}(x,y)
+=============
+
+P_t!\left(\iota_{a,t}(x),\iota_{b,t}(y)\right).
+]
+
+This requires no vector space, scalar field, duality, adjoint, or star. It rejects constant-map smuggling because descendants must agree pointwise with the primary object on the placed arguments.
+
+```text
+NON-VACUOUS RESTRICTION FACTORIZATION INTERFACE:
+    PROVED
+
+EXACT QBL PLACEMENT MAPS:
+    NOT YET DERIVED
+
+EXACT QBL RESTRICTION CONSTRUCTOR REALIZATION:
+    NOT YET DERIVED
+```
+
+## Intrinsic-action boundary
+
+```text
+PPGRL UMBRELLA TARGET:
+    ADOPTED
+
+ARGUMENT-OBJECT ARCHITECTURE:
+    SOURCE-FORCED SKELETON: PROVED
+    EXACT FAMILY: NOT YET DERIVED
+
+CHART PLACEMENT MAPS:
+    EXISTENCE AND ROLE: SOURCE-FORCED
+    EXACT PREFIX RECURRENCE: NOT YET DERIVED
+
+PRIMARY PAIRING SEED:
+    NOT YET DERIVED
+
+INTRINSIC B ACTION:
+    ARCHITECTURAL SIGNATURE: PROVED
+    PRIMARY VALUE ACTION: NOT YET DERIVED
+
+INTRINSIC Q ACTION:
+    ORDER-FOUR ORIENTATION QUOTIENT: PROVED
+    PRIMARY ACTION TYPE: NOT YET DERIVED
+
+INTRINSIC L ACTION:
+    OLD-OLD RETENTION SHAPE: PROVED
+    OLD-NEW / NEW-OLD / NEW-NEW: NOT YET DERIVED
+
+STAR LAW:
+    NOT YET DERIVED
+
+ACTION-EQUIVALENCE CATEGORY:
+    ABSTRACT COMMUTING CRITERION: PROVED
+    EXACT REPRESENTATION CATEGORY: NOT YET DERIVED
+
+COMPLETE-MODEL INDEPENDENCE:
+    NOT YET DERIVED
+
+STATE-FORCED INTRINSIC ACTION:
+    NOT YET DERIVED
+```
+
+The exact Domain-0 local descendant remains:
+
+[
+B:a\mapsto a\frac{u}{u+v},
+\qquad
+Q:a\mapsto ia,
+\qquad
+a_{\mathrm{completed},0}=\frac{i}{4895}.
+]
+
+## Verification
+
+```text
+Manifest entries:              46
+Notebook cells executed:       14/14
+Figures regenerated:           14
+Constant-map control:          REJECTED AS REQUIRED
+Manifest verification:         PASS
+Two clean package rebuilds:    BYTE-IDENTICAL
+Release versus rebuild:        BYTE-IDENTICAL
+
+LEAN SOURCE PRESENT;
+PROOF AND COMPILATION NOT VERIFIED
+```
+
+```text
+D1 DOMAIN-PROPER EFFECTIVE INVARIANT: NOT YET DERIVED
+HIGHER-ORDER DESCRIPTIVE L: NOT YET DERIVED
+p5-b3 BRANCH STATUS: OPEN
+```
+

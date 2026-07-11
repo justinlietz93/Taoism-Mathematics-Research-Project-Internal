@@ -1,0 +1,208 @@
+{
+  "edges": [
+    {
+      "label": "odd",
+      "m": 0,
+      "path": [
+        0,
+        1
+      ],
+      "return_length": 1,
+      "source": 0,
+      "target": 1
+    },
+    {
+      "label": "even",
+      "m": 1,
+      "path": [
+        1,
+        2,
+        3
+      ],
+      "return_length": 2,
+      "source": 1,
+      "target": 3
+    },
+    {
+      "label": "odd",
+      "m": 2,
+      "path": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "return_length": 3,
+      "source": 3,
+      "target": 6
+    },
+    {
+      "label": "even",
+      "m": 3,
+      "path": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "return_length": 4,
+      "source": 6,
+      "target": 10
+    },
+    {
+      "label": "odd",
+      "m": 4,
+      "path": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "return_length": 5,
+      "source": 10,
+      "target": 15
+    },
+    {
+      "label": "even",
+      "m": 5,
+      "path": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "return_length": 6,
+      "source": 15,
+      "target": 21
+    },
+    {
+      "label": "odd",
+      "m": 6,
+      "path": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "return_length": 7,
+      "source": 21,
+      "target": 28
+    },
+    {
+      "label": "even",
+      "m": 7,
+      "path": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "return_length": 8,
+      "source": 28,
+      "target": 36
+    },
+    {
+      "label": "odd",
+      "m": 8,
+      "path": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "return_length": 9,
+      "source": 36,
+      "target": 45
+    },
+    {
+      "label": "even",
+      "m": 9,
+      "path": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "return_length": 10,
+      "source": 45,
+      "target": 55
+    },
+    {
+      "label": "odd",
+      "m": 10,
+      "path": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "return_length": 11,
+      "source": 55,
+      "target": 66
+    },
+    {
+      "label": "even",
+      "m": 11,
+      "path": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "return_length": 12,
+      "source": 66,
+      "target": 78
+    }
+  ],
+  "fiber_split_beyond_base": false,
+  "name": "triangular-section successor return code",
+  "relation_internality": true,
+  "state_internality": true,
+  "transition_internality": true,
+  "verdict": "SAME-LAYER INDUCED RECODING"
+}

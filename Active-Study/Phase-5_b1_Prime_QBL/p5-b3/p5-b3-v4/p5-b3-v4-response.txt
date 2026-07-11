@@ -1,0 +1,109 @@
+[Corrected research document](sandbox:/mnt/data/QBL_PRIMARY_PAIRING_TYPE_BOUNDARY_v2.md)
+
+[Reproducible experiment package](sandbox:/mnt/data/p5-b3-v4_primary-pairing-type-boundary_20260711T145605.zip)
+
+[Archive SHA-256 file](sandbox:/mnt/data/p5-b3-v4_primary-pairing-type-boundary_20260711T145605.zip.sha256)
+
+```text
+Document SHA-256:
+00c9d0068dad1b45ddb7cd71dcf1d8695c1fcbc64d3e3f2563bf36bafc5b5a16
+
+ZIP SHA-256:
+c3c91e37e7d970f8f89bf3db086fb64dc658e1e1e1c77fb3666f6aed80405b9b
+```
+
+## Result
+
+The current authority forces the pairing-first architecture, including one generative (P_t), chart restrictions and transfers derived from it, fixed rank under (B/Q), and rank increase with old-structure retention under (L). It describes the pullback formulas only as the intended algebraic shape and explicitly leaves the all-depth recurrence open. 
+
+No existing authority selects a unique algebraic realization. In particular, CF00’s Hermitian covariance is derived after quotient descent and is explicitly downstream geometry, so it cannot silently determine the type of the primary Orthad pairing. 
+
+The corrected decision boundary is:
+
+```text
+AUTHORITY-FORCED PAIRING-FIRST ARCHITECTURE: PROVED
+DUALITY-MORPHISM INTERFACE: LAWFUL CANDIDATE REALIZATION
+MINIMALITY OF P:H->D(H): NOT YET DERIVED
+
+PRIMARY_PAIRING_REALIZATION_AXIOM: REQUIRED
+SCALAR VARIANCE: DOWNSTREAM FIELD OF THAT AXIOM
+```
+
+The required axiom package now places the dependencies in order:
+
+```text
+carrier and rank
+coefficient system and codomain
+pairing kind
+additivity and linearity
+duality or adjoint
+scalar variance
+symmetry or adjoint law
+orthogonality semantics
+seed and new-axis normalization
+gauge equivalence
+B/Q/L value mutations
+chart-interface compatibility
+```
+
+## Seed and `L` corrections
+
+Within a fixed one-dimensional bilinear type, fixed basis and (P(e,e)=1) force the seed coefficient to equal (1). The same is true within the fixed conjugate-sesquilinear type. Therefore the current evidence proves **type ambiguity**, not same-type seed nonuniqueness.
+
+For a nonsymmetric pairing,
+
+[
+\begin{pmatrix}
+1&1\
+0&2
+\end{pmatrix}
+]
+
+has (P(\text{new},\text{old})=0) but (P(\text{old},\text{new})\neq0). Thus one-sided orthogonality cannot force both mixed blocks to vanish. The block law
+
+[
+P_{t+1}=
+\begin{pmatrix}
+P_t&0\
+0&\sigma_t
+\end{pmatrix}
+]
+
+is retained only as a conditional theorem under explicitly declared two-sided (P)-orthogonality.
+
+The accepted local descendants remain unchanged:
+
+[
+B:a\mapsto a\frac{u}{u+v},
+\qquad
+Q:a\mapsto ia,
+\qquad
+a_{\mathrm{completed},0}=\frac{i}{4895}.
+]
+
+## Verification
+
+```text
+Manifest entries:              55
+Notebook cells executed:       15/15
+Figures regenerated:           15
+Derivation dependencies:       PASS
+Manifest verification:         PASS
+Release versus clean rebuild:  BYTE-IDENTICAL
+Two independent clean builds:  BYTE-IDENTICAL
+
+LEAN SOURCE PRESENT;
+PROOF AND COMPILATION NOT VERIFIED
+```
+
+```text
+EXACT PRIMARY PAIRING TYPE: NOT YET DERIVED
+EXACT PRIMARY PAIRING SEED: NOT YET DERIVED
+EXACT PRIMARY PAIRING RECURRENCE: NOT YET DERIVED
+EXACT CHART MAPS: NOT YET DERIVED
+EXACT DIRECTED TRANSFERS: NOT YET DERIVED
+HIGHER-ORDER DESCRIPTIVE L: NOT YET DERIVED
+GAUGE/FQM MAP FROM d_A=±1: NOT YET DERIVED
+p5-b3 BRANCH STATUS: OPEN
+```
+

@@ -1,0 +1,65 @@
+{
+  "fiber_split": true,
+  "name": "second-coordinate fiber split",
+  "new_coordinate": "xi(x,b)=b",
+  "old_description": "D(x,b)=x",
+  "verdict": "GENUINE ADDITIONAL DETERMINATION RELATIVE TO OLD DESCRIPTION",
+  "witness_pairs": [
+    {
+      "D_z": 0,
+      "D_z_prime": 0,
+      "xi_z": 0,
+      "xi_z_prime": 1,
+      "z": [
+        0,
+        0
+      ],
+      "z_prime": [
+        0,
+        1
+      ]
+    },
+    {
+      "D_z": 1,
+      "D_z_prime": 1,
+      "xi_z": 0,
+      "xi_z_prime": 1,
+      "z": [
+        1,
+        0
+      ],
+      "z_prime": [
+        1,
+        1
+      ]
+    },
+    {
+      "D_z": 2,
+      "D_z_prime": 2,
+      "xi_z": 0,
+      "xi_z_prime": 1,
+      "z": [
+        2,
+        0
+      ],
+      "z_prime": [
+        2,
+        1
+      ]
+    },
+    {
+      "D_z": 3,
+      "D_z_prime": 3,
+      "xi_z": 0,
+      "xi_z_prime": 1,
+      "z": [
+        3,
+        0
+      ],
+      "z_prime": [
+        3,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+claim,status,evidence_class,certificate
+D1 INDUCED RETURN INVARIANT,PROVED,DOCUMENT PROOF,first-return system and exact cocycle
+D1 IS A SAME-LAYER INDUCED RECODING OF D0,PROVED,DOCUMENT PROOF,full faithful interpretation with inverse segmentation
+D1 DOMAIN-PROPER EFFECTIVE INVARIANT,FALSE FOR INDUCED ORBIT PRESENTATION,DOCUMENT PROOF,no determination beyond complete D0 path interpretation
+D1 ADMISSION MECHANISM,"LAWFUL INDUCTION, NOT FORCED RE-ARTICULATION",DOCUMENT PROOF,D0 continues natively through L
+HIGHER-ORDER DESCRIPTIVE L D0->D1,FALSE,DOCUMENT PROOF,D0 not saturated; D1 same-layer
+D1 SAME-LAYER SATURATION,NOT YET DERIVED,OPEN,criterion defined but not satisfied
+ORTHAD-LEVEL HIGHER-ORDER L,NOT YET DERIVED,OPEN,primary pairing recurrence remains first open dependency

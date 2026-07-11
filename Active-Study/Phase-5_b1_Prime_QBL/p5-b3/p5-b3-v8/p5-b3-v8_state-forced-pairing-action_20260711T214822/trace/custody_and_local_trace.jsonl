@@ -1,0 +1,16 @@
+{"A": 0, "W": "", "a": "1", "j": 1, "k": 0, "selected": "start", "step": 0, "thetaQ": 0, "u": 1, "v": 1}
+{"A": 0, "W": "B", "a": "1/2", "j": 1, "k": 0, "selected": "B", "step": 1, "thetaQ": 0, "u": 1, "v": 2}
+{"A": 0, "W": "BQ", "a": "i/2", "j": 2, "k": 1, "selected": "Q", "step": 2, "thetaQ": 1, "u": 1, "v": 2}
+{"A": 0, "W": "BQQ", "a": "-1/2", "j": 3, "k": 2, "selected": "Q", "step": 3, "thetaQ": 2, "u": 1, "v": 2}
+{"A": 0, "W": "BQQB", "a": "-1/6", "j": 3, "k": 2, "selected": "B", "step": 4, "thetaQ": 2, "u": 2, "v": 3}
+{"A": 0, "W": "BQQBB", "a": "-1/15", "j": 3, "k": 2, "selected": "B", "step": 5, "thetaQ": 2, "u": 3, "v": 5}
+{"A": 0, "W": "BQQBBB", "a": "-1/40", "j": 3, "k": 2, "selected": "B", "step": 6, "thetaQ": 2, "u": 5, "v": 8}
+{"A": 0, "W": "BQQBBBQ", "a": "-i/40", "j": 4, "k": 3, "selected": "Q", "step": 7, "thetaQ": 3, "u": 5, "v": 8}
+{"A": 0, "W": "BQQBBBQB", "a": "-i/104", "j": 4, "k": 3, "selected": "B", "step": 8, "thetaQ": 3, "u": 8, "v": 13}
+{"A": 0, "W": "BQQBBBQBQ", "a": "1/104", "j": 5, "k": 4, "selected": "Q", "step": 9, "thetaQ": 4, "u": 8, "v": 13}
+{"A": 0, "W": "BQQBBBQBQB", "a": "1/273", "j": 5, "k": 4, "selected": "B", "step": 10, "thetaQ": 4, "u": 13, "v": 21}
+{"A": 0, "W": "BQQBBBQBQBB", "a": "1/714", "j": 5, "k": 4, "selected": "B", "step": 11, "thetaQ": 4, "u": 21, "v": 34}
+{"A": 0, "W": "BQQBBBQBQBBQ", "a": "i/714", "j": 6, "k": 5, "selected": "Q", "step": 12, "thetaQ": 5, "u": 21, "v": 34}
+{"A": 0, "W": "BQQBBBQBQBBQB", "a": "i/1870", "j": 6, "k": 5, "selected": "B", "step": 13, "thetaQ": 5, "u": 34, "v": 55}
+{"A": 0, "W": "BQQBBBQBQBBQBB", "a": "i/4895", "j": 6, "k": 5, "selected": "B", "step": 14, "thetaQ": 5, "u": 55, "v": 89}
+{"A": 1, "W": "BQQBBBQBQBBQBBL", "a": "new active; old=i/4895", "j": 7, "k": 0, "selected": "L", "step": 15, "thetaQ": 5, "u": 55, "v": 89}

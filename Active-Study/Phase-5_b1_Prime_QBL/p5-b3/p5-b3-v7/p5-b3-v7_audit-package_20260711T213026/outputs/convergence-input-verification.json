@@ -1,0 +1,12 @@
+{
+  "actual_document_sha256": "bbba649dcbeff1593afb6d81ca6753253533e6dbe4e2bd8057a7eab1caa5bd46",
+  "actual_zip_sha256": "491ecfffd78ce5ab11e82794381e7579168027892dce7986fb9d4d3507395d27",
+  "archive": "inputs/convergence/p5_v8y_primary-pairing-star-phase-compatibility_20260711_162758.zip",
+  "expected_document_sha256": "bbba649dcbeff1593afb6d81ca6753253533e6dbe4e2bd8057a7eab1caa5bd46",
+  "expected_zip_sha256": "491ecfffd78ce5ab11e82794381e7579168027892dce7986fb9d4d3507395d27",
+  "listed_but_missing": [],
+  "manifest_entries": 61,
+  "manifest_errors": [],
+  "status": "PASS",
+  "unlisted_files": []
+}

@@ -1,0 +1,10 @@
+{
+  "reported_zip_sha256_match": true,
+  "manifest_entries_valid": 48,
+  "notebook_cells_passing": "14/14",
+  "figures_regenerated": 14,
+  "control_character_scan": "PASS",
+  "clean_rebuild": "PASS",
+  "release_vs_clean_rebuild": "BYTE-IDENTICAL",
+  "lean": "SOURCE PRESENT; PROOF AND COMPILATION NOT VERIFIED"
+}
