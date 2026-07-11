@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "bytes": 1514,
+      "path": "AUDIT_RESULTS.md",
+      "sha256": "66eefebf583da67d18678011e9891fdfb8dff6717bcb2c22131c6e2ec0833734"
+    },
+    {
+      "bytes": 1707,
+      "path": "OUTGOING_INSTRUCTIONS.md",
+      "sha256": "7acd2db52f515383a87f6ceb40a2383db79285184e38d1ab6030f09c2ca3849a"
+    },
+    {
+      "bytes": 513,
+      "path": "README.md",
+      "sha256": "ab291daf2fe411307896a7a90b2aeef95fea328ca14878da024b5df1ca9eda6d"
+    },
+    {
+      "bytes": 715,
+      "path": "SOURCE_MAP.md",
+      "sha256": "10e59bdbcb15a4f1e959eb099ee32109e1d86b26b05329c76c1e22736a0341a3"
+    },
+    {
+      "bytes": 3886,
+      "path": "inputs/p5-b2-v1_ACCEPTED_TASK.md",
+      "sha256": "725394247bdf14a8e678afbd62cb9d8b4b311d0655d1eeab9faa579af8b0ebaf"
+    },
+    {
+      "bytes": 550,
+      "path": "inputs/p5-b2-v1_AGENT_RESPONSE.txt",
+      "sha256": "a37d31a08a29d3cf41b028c7b5f1a6078877f20e41d55d63474148bd71ba110a"
+    },
+    {
+      "bytes": 67,
+      "path": "outputs/p5-b2-v1_manifest-verification.stdout.txt",
+      "sha256": "6f9efe0b8216c802966d3961ce4450c86378afdc982e575ea975a4c7365fe9dc"
+    },
+    {
+      "bytes": 362,
+      "path": "outputs/p5-b2-v1_nonexecution-audit.json",
+      "sha256": "b68248466111c597d7e8c8a975468e25c3acc669eb0bc4b9c37fc5fb3bfaa4f2"
+    },
+    {
+      "bytes": 362,
+      "path": "outputs/p5-b2-v1_nonexecution-audit.stdout.txt",
+      "sha256": "b68248466111c597d7e8c8a975468e25c3acc669eb0bc4b9c37fc5fb3bfaa4f2"
+    },
+    {
+      "bytes": 32,
+      "path": "requirements.txt",
+      "sha256": "74c1b9d7e6103576c1f8c7bf2bf255e088ee5ab2c8f5d7f70dc757c0ae596011"
+    },
+    {
+      "bytes": 1311,
+      "path": "scripts/p5-b2-v1_nonexecution_audit.py",
+      "sha256": "15261f5aa0d6019b15bf5f01fb63439062ef8c5f11647e8a247afc880b154e61"
+    },
+    {
+      "bytes": 1306,
+      "path": "scripts/p5-b2-v1_verify_audit_package.py",
+      "sha256": "884016695225acc9baae4d5969f3c5724c29f58d4a3905ae9845e381d4f61085"
+    }
+  ],
+  "interaction_id": "p5-b2-v1",
+  "package_type": "audit-package",
+  "timestamp": "20260711T055743",
+  "verdict": "REJECT_NO_EXECUTION"
+}

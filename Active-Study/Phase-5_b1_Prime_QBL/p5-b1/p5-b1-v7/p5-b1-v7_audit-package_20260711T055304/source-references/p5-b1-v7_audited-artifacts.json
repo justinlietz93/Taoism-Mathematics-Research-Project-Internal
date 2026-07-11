@@ -1,0 +1,10 @@
+{
+  "step_id": "p5-b1-v7",
+  "agent_package": "p5-b1-v7_affine-follower-set-closure_20260711T103100.zip",
+  "agent_package_sha256": "0181c907c0fbe0e3e502fb72ad06ac13c2f9ab91146f2589a5c670094c7fc94c",
+  "document": "QBL_CARRY_AFFINE_FOLLOWER_STRUCTURE_v5.md",
+  "document_sha256": "46996ac568f205d6a7cbb200a2c4108e77cec2b3e3b8e13a8aa5ffb854cba8ed",
+  "audit_verdict": "ADOPT",
+  "branch_status": "CLOSED",
+  "recommended_next_step": "p5-b2-v1"
+}

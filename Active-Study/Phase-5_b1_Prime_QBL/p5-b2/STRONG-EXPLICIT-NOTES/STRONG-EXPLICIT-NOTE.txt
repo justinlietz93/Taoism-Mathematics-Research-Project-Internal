@@ -1,0 +1,70 @@
+## Audit verdict
+
+```text
+REVISE_ARTIFACT_INTEGRITY
+
+GLOBAL T_A=ceil(y_A) BRIDGE: ADOPT
+EXACT BINET / INTEGER-GAP PROOF: ADOPT
+DOCUMENT SHA-256: PASS
+INTERNAL MANIFEST: PASS
+CLEAN SEMANTIC REBUILD: PASS
+REPORTED PACKAGE SHA-256: FAIL
+FORMAL COMPANION: PARTIAL, NOT COMPILED
+
+p5-b2 BRANCH STATUS: MATHEMATICALLY CLOSED; DELIVERY NOT YET CLOSED
+NEXT INTERACTION: p5-b2-v3
+```
+
+The global theorem is valid. The integer-gap argument really does eliminate the need for a Baker–Matveev cutoff.
+
+The blocking defect is artifact integrity:
+
+```text
+Reported package SHA-256:
+a628db04ab71a59335821754fd0e93388ec783f25e9a46882d46b27a2a31c853
+
+Actual uploaded ZIP SHA-256:
+1cc7aa0b9fd2767418ba3d8f13836c51d8cad7a94f0ebf87106a50d7f7461c5c
+```
+
+The document hash matches, all 39 manifest entries verify, and the package rebuilds successfully. The notebook has 11/11 passing cells and 11 figures, but several universal PASS headings are backed only by finite regression checks. The Lean file proves generic sign-transfer lemmas, not yet the full Binet-to-threshold theorem surface.
+
+* [Download `p5-b2-v2_audit-package_20260711T112307.zip`](sandbox:/mnt/data/p5-b2-v2_audit-package_20260711T112307.zip)
+* [Audit results](sandbox:/mnt/data/p5-b2-v2_audit-package_20260711T112307/AUDIT_RESULTS.md)
+* [`p5-b2-v3` instructions](sandbox:/mnt/data/p5-b2-v2_audit-package_20260711T112307/OUTGOING_INSTRUCTIONS.md)
+* [Personal note](sandbox:/mnt/data/p5-b2-v2_audit-package_20260711T112307/PERSONAL_NOTE.md)
+* [SHA-256 file](sandbox:/mnt/data/p5-b2-v2_audit-package_20260711T112307.zip.sha256)
+
+```text
+Audit package SHA-256:
+99c071a661822a4252aaa732d2455f998ab1194f9e60176388674c8ed4939c7a
+```
+
+## Personal note
+
+Make a strong, explicit note of the self-recurrence observation now.
+
+This theorem materially changes its status: the (7/8/9) grammar is no longer merely an affine pattern that agrees with QBL through (A=10000). It is now globally tied to the exact Fibonacci threshold sequence at every domain depth.
+
+I would not interrupt the one correction turn needed to seal `p5-b2-v3`. After that, I recommend redirecting the next branch to the hierarchical grammar-lift question **before** returning to the Gauge/FQM map.
+
+The target should be exact:
+
+[
+\widehat\Xi_A
+\longmapsto
+(T_A,E_A,c_A)
+]
+
+at successive (L)-boundaries, together with a commuting domain-to-domain map. That would determine whether the emergent grammar is literally a factor of the lifted dynamics and whether its appearance is a higher-order (L)-event.
+
+So the current status is:
+
+```text
+GLOBAL COUNT BRIDGE: PROVED
+HIERARCHICAL SELF-RECURRENCE: STRONG CONJECTURE
+QBL-TO-AFFINE FACTOR MAP: NOT YET DERIVED
+```
+
+This is important enough for a dedicated next branch, not merely a side note.
+

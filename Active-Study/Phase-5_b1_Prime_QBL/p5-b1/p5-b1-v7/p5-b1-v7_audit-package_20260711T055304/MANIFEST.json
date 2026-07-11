@@ -1,0 +1,67 @@
+{
+  "files": [
+    {
+      "bytes": 4987,
+      "path": "AUDIT_RESULTS.md",
+      "sha256": "5527aa9fa02266a04eb14ec31e1c9c16e4ee619adb6bae187411bbfde30dc62f"
+    },
+    {
+      "bytes": 3886,
+      "path": "OUTGOING_INSTRUCTIONS.md",
+      "sha256": "725394247bdf14a8e678afbd62cb9d8b4b311d0655d1eeab9faa579af8b0ebaf"
+    },
+    {
+      "bytes": 779,
+      "path": "README.md",
+      "sha256": "017ebf75c8ab0b15c08b7a16cf732791579220caa80f0ec438547da5d36517e9"
+    },
+    {
+      "bytes": 844,
+      "path": "SOURCE_MAP.md",
+      "sha256": "8897cf6db509ecefb698cee5011dd355bf76285993b2e72badb148444caf1e91"
+    },
+    {
+      "bytes": 1428,
+      "path": "outputs/p5-b1-v7_follower-structure-audit.json",
+      "sha256": "de559fa77daeeeed20a3401e7d91ec7000386ab8b749426823f0dc56e0494f49"
+    },
+    {
+      "bytes": 1428,
+      "path": "outputs/p5-b1-v7_follower-structure-audit.stdout.txt",
+      "sha256": "de559fa77daeeeed20a3401e7d91ec7000386ab8b749426823f0dc56e0494f49"
+    },
+    {
+      "bytes": 1291,
+      "path": "outputs/p5-b1-v7_package-verification.json",
+      "sha256": "2935bf6d1e1458d92d86ffeb5cde1e38111a4be81abe122927f59ecfcc55d818"
+    },
+    {
+      "bytes": 1291,
+      "path": "outputs/p5-b1-v7_package-verification.stdout.txt",
+      "sha256": "2935bf6d1e1458d92d86ffeb5cde1e38111a4be81abe122927f59ecfcc55d818"
+    },
+    {
+      "bytes": 25,
+      "path": "requirements.txt",
+      "sha256": "d195d93d1dbb2461b703d41642ba0796d275e4cd0438897c2f11f824f578a3e9"
+    },
+    {
+      "bytes": 5720,
+      "path": "scripts/p5-b1-v7_follower_structure_audit.py",
+      "sha256": "c7d020bc38509f527782e4ee2ec8ba166da2da48feed610473ee724db21748a5"
+    },
+    {
+      "bytes": 5865,
+      "path": "scripts/p5-b1-v7_verify_agent_package.py",
+      "sha256": "63c4933b8bf0110abb2f7e329448284defcfce84caa864b61f008d572b15edce"
+    },
+    {
+      "bytes": 445,
+      "path": "source-references/p5-b1-v7_audited-artifacts.json",
+      "sha256": "4b78a834c2d8f3636101bdc7fb34a19019e5f82d9a1d75a29ddb75c2e211f438"
+    }
+  ],
+  "step_id": "p5-b1-v7",
+  "timestamp": "20260711T055304",
+  "type": "audit-package"
+}

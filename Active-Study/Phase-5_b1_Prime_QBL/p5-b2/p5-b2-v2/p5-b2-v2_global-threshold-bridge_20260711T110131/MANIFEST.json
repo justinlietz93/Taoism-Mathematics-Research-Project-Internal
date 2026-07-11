@@ -1,0 +1,202 @@
+{
+  "file_count": 39,
+  "files": [
+    {
+      "path": "FINDINGS.md",
+      "sha256": "d18a68f3ff62a18bebba0bdde02dba652b1c58662b96842cea82e3fc4b35e400",
+      "size": 630
+    },
+    {
+      "path": "README.md",
+      "sha256": "f6a6a1a51e67fffa27a6f4ff4b0a2aee973f6aed8314193d914df80768bbc649",
+      "size": 558
+    },
+    {
+      "path": "docs/20260711T110131_RESULTS.md",
+      "sha256": "8657f17a96425a426f8a79a5bf4861cabd20e274c24dc83c0d207c6f8fe330ba",
+      "size": 9836
+    },
+    {
+      "path": "docs/QBL_GLOBAL_EXACT_THRESHOLD_BRIDGE_v1.md",
+      "sha256": "8657f17a96425a426f8a79a5bf4861cabd20e274c24dc83c0d207c6f8fe330ba",
+      "size": 9836
+    },
+    {
+      "path": "figures/20260711T110131_claim_01.png",
+      "sha256": "dbd8c8b09fcf4880391392eaa11f58b551caaa418916938afdc3507a7658cec3",
+      "size": 19853
+    },
+    {
+      "path": "figures/20260711T110131_claim_02.png",
+      "sha256": "06a23d18ad00d06b6579fbd606491c73a80e37961777c4954aa665390787a00f",
+      "size": 16192
+    },
+    {
+      "path": "figures/20260711T110131_claim_03.png",
+      "sha256": "0fd910c5e66fddeddb5e69558db52e49a9a259d8008fb7f257f9e02b789351e5",
+      "size": 15035
+    },
+    {
+      "path": "figures/20260711T110131_claim_04.png",
+      "sha256": "168166a47b6c7ae6b2f5fa932e3c2d7a5844522591c64dae30c198cbc64246b6",
+      "size": 17843
+    },
+    {
+      "path": "figures/20260711T110131_claim_05.png",
+      "sha256": "8a85e7e2c01eac9964762c1bcc6a26faa91b0e129af8e93aef4331f112a1a364",
+      "size": 18814
+    },
+    {
+      "path": "figures/20260711T110131_claim_06.png",
+      "sha256": "9a5871bcc7ca4b77952ad89352f469d4d4a791c42ebf8586a7e7ec3bcd207353",
+      "size": 21386
+    },
+    {
+      "path": "figures/20260711T110131_claim_07.png",
+      "sha256": "fc718665ff4e26024531cb9331bbf7936625f8ed2ab9abe95f16b895c0edf710",
+      "size": 15299
+    },
+    {
+      "path": "figures/20260711T110131_claim_08.png",
+      "sha256": "b13cd285dbe3dd35001e2bea089f6496caba8ed5a03bd8db3a923d5d552b5c92",
+      "size": 23323
+    },
+    {
+      "path": "figures/20260711T110131_claim_09.png",
+      "sha256": "c3431c238fa68347fea613ba2d99c7baab203a17e1f8edc6e746613a335d416b",
+      "size": 14936
+    },
+    {
+      "path": "figures/20260711T110131_claim_10.png",
+      "sha256": "70b9dca37db2baf80afb3a12a41ea14da8b09965e51e18f0bbbc6e4dd639d881",
+      "size": 12772
+    },
+    {
+      "path": "figures/20260711T110131_claim_11.png",
+      "sha256": "3ab5b876a62d99ae232b77cb68d802a01c69c21a3667bee337868ff521ece36c",
+      "size": 20749
+    },
+    {
+      "path": "inputs/20260711T110131_ASSUMPTION_LOCK.md",
+      "sha256": "3baf39f9089c32bb83c99fbd5de8ebf805992ced8af763e5bd51eff11c03fcfa",
+      "size": 486
+    },
+    {
+      "path": "inputs/20260711T110131_BRANCH1_CLOSURE_PROVENANCE.md",
+      "sha256": "717cca2e7263dc1a5cba967ed1333f9838aa0472656f43cdbb2e56f02f82b581",
+      "size": 375
+    },
+    {
+      "path": "inputs/20260711T110131_QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+      "sha256": "f0f66790bf6da0b3fca9a400da36ff5879db4b3e861703ef3a309829a2af9962",
+      "size": 29584
+    },
+    {
+      "path": "inputs/20260711T110131_p5-b2-v1_ACCEPTED_TASK.md",
+      "sha256": "725394247bdf14a8e678afbd62cb9d8b4b311d0655d1eeab9faa579af8b0ebaf",
+      "size": 3886
+    },
+    {
+      "path": "lab-journal.md",
+      "sha256": "ac1066a9dc4dc1324f552211169685474744e4231bb190b66c5ec89e52b79bf7",
+      "size": 680
+    },
+    {
+      "path": "notebooks/20260711T110131_Global_Threshold_Bridge.ipynb",
+      "sha256": "bdf1a4c731b07539cff16548d65b406e764806a36efb6cd6a3882dea0bca536b",
+      "size": 20964
+    },
+    {
+      "path": "notebooks/20260711T110131_Global_Threshold_Bridge_executed.ipynb",
+      "sha256": "37d44174e5943f22876858e52b33b2668f4c2a79b89995ba33633639cbc4b310",
+      "size": 290349
+    },
+    {
+      "path": "outputs/20260711T110131_constants.json",
+      "sha256": "7bd52915a469fc73a70733ae913181a83b3fe1263fb03b0ef6a8bf136a1fe667",
+      "size": 725
+    },
+    {
+      "path": "outputs/20260711T110131_derive_threshold_stdout.json",
+      "sha256": "71e8ed48e453b2978f4ab99accd3af75d2df32739cfd499e735dcb9bac1e64bc",
+      "size": 85
+    },
+    {
+      "path": "outputs/20260711T110131_equality_obstruction.json",
+      "sha256": "750a3a4a2845fc2251d6aec283330f69e35791ff216750a64363cd25dff61b66",
+      "size": 261
+    },
+    {
+      "path": "outputs/20260711T110131_exact_sample_thresholds.csv",
+      "sha256": "fda9f343b8a38bf01504b51bb1852ec4eed948e584cc68f81e93386646027e35",
+      "size": 6241
+    },
+    {
+      "path": "outputs/20260711T110131_finite_remainder_certificate.json",
+      "sha256": "e8029d4b2ab1f86180b60bb6e33f9df99353e33d961eda2e6e5ba7da2a2006b2",
+      "size": 148
+    },
+    {
+      "path": "outputs/20260711T110131_global_theorem_certificate.json",
+      "sha256": "e770636de2d1c4e94151117a9cb7adf1dfabccb908a9154beb4a5bcaa0aaa8b8",
+      "size": 342
+    },
+    {
+      "path": "outputs/20260711T110131_log_form_bounds.csv",
+      "sha256": "32ecdacbce314873f06ed6a369850ced9d37238f9640052c1a411a8ad7daeba2",
+      "size": 3068
+    },
+    {
+      "path": "proofs/20260711T110131_QBLGlobalThreshold.lean",
+      "sha256": "405e994424934b3b3b0bd11cea812e56af46fac6db3c0afb67c110b1f84d4c83",
+      "size": 2479
+    },
+    {
+      "path": "proofs/20260711T110131_lean_compiler.log",
+      "sha256": "303c33c25c4d52cf01507adc716fce56f985760e3644c499c874d9bc3e6c7321",
+      "size": 105
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "d5ddb33241b2ff87ad770d985f85e910322eb6914faebf611e3d153ad2d873b7",
+      "size": 148
+    },
+    {
+      "path": "scripts/20260711T110131_build_package.py",
+      "sha256": "dc439bf8d0a0f20a2cddbef389d30cdc70492293a39e429af894636d0227131e",
+      "size": 9042
+    },
+    {
+      "path": "scripts/20260711T110131_derive_threshold.py",
+      "sha256": "7d217510bd48e5f251463d7c03e50e691a37bf68ca7fb652db977ce8115ddec9",
+      "size": 1210
+    },
+    {
+      "path": "scripts/20260711T110131_verify_package.py",
+      "sha256": "6d13d06fca06d2b4e1670a1f6b254d18013241e17f0a6499d1d23d889c1ba79c",
+      "size": 463
+    },
+    {
+      "path": "source_maps/20260711T110131_SOURCE_MAP.md",
+      "sha256": "f8c0beab47e96af6dfe01f496a48b08deeb81eaa52fb09af8455744f5165e18c",
+      "size": 1100
+    },
+    {
+      "path": "trace/20260711T110131_builder_stdout.txt",
+      "sha256": "e985ce2ba4360e0436e787a1b28216812e0bf7cb1fe07e08d5f06dc41258123d",
+      "size": 94
+    },
+    {
+      "path": "trace/20260711T110131_finite_threshold_trace.jsonl",
+      "sha256": "421f02f5d0672179f85200de0e10de8068e970a80657db00def0e54367fb4c53",
+      "size": 10396
+    },
+    {
+      "path": "trace/20260711T110131_threshold_derivation_trace.jsonl",
+      "sha256": "096779e7826f14e69540f30344f720470c3a2d23d32c52d3037af935943fd153",
+      "size": 628
+    }
+  ],
+  "schema": "p5-experiment-manifest-v1",
+  "timestamp": "20260711T110131"
+}

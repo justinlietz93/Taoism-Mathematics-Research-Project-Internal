@@ -1,0 +1,14 @@
+{
+  "actual_document_sha256": "8657f17a96425a426f8a79a5bf4861cabd20e274c24dc83c0d207c6f8fe330ba",
+  "actual_package_sha256": "1cc7aa0b9fd2767418ba3d8f13836c51d8cad7a94f0ebf87106a50d7f7461c5c",
+  "document_hash_matches_report": true,
+  "manifest_bad_entries": [],
+  "manifest_entries": 39,
+  "manifest_missing_files": [],
+  "manifest_pass": true,
+  "manifest_unlisted_files": [],
+  "package_hash_matches_report": false,
+  "reported_document_sha256": "8657f17a96425a426f8a79a5bf4861cabd20e274c24dc83c0d207c6f8fe330ba",
+  "reported_package_sha256": "a628db04ab71a59335821754fd0e93388ec783f25e9a46882d46b27a2a31c853",
+  "status": "PASS"
+}

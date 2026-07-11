@@ -1,0 +1,97 @@
+{
+  "algebra_checks": {
+    "phi_fifth_gt_4": true,
+    "phi_minus_inverse": true,
+    "phi_relation": true,
+    "psi_equals_minus_phi_inverse": true
+  },
+  "audit_conclusion": "The hand proof of T_A=ceil(y_A) for all A>=0 is valid.",
+  "binet_exact_samples_checked": 80,
+  "correction_samples_checked": 1000,
+  "logical_dependencies": {
+    "binet_identity": true,
+    "ceiling_logic": "L_n>X_A iff n>y_A; nonintegrality of y_A then gives min{n:n>y_A}=ceil(y_A).",
+    "exact_threshold_samples_A_0_12": true,
+    "integer_gap_logic": "If P and X are distinct integers, |P-X|>=1; with |rho|<1/4 and P=L+rho, sign(P-X)=sign(L-X) and |L-X|>3/4.",
+    "power_of_two_obstruction_regression": true,
+    "uniform_correction_bound": true
+  },
+  "power_of_two_products_found": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "sample_threshold_rows": [
+    {
+      "A": 0,
+      "T": 9,
+      "exact_bracket": true
+    },
+    {
+      "A": 1,
+      "T": 27,
+      "exact_bracket": true
+    },
+    {
+      "A": 2,
+      "T": 61,
+      "exact_bracket": true
+    },
+    {
+      "A": 3,
+      "T": 130,
+      "exact_bracket": true
+    },
+    {
+      "A": 4,
+      "T": 269,
+      "exact_bracket": true
+    },
+    {
+      "A": 5,
+      "T": 545,
+      "exact_bracket": true
+    },
+    {
+      "A": 6,
+      "T": 1098,
+      "exact_bracket": true
+    },
+    {
+      "A": 7,
+      "T": 2205,
+      "exact_bracket": true
+    },
+    {
+      "A": 8,
+      "T": 4417,
+      "exact_bracket": true
+    },
+    {
+      "A": 9,
+      "T": 8842,
+      "exact_bracket": true
+    },
+    {
+      "A": 10,
+      "T": 17692,
+      "exact_bracket": true
+    },
+    {
+      "A": 11,
+      "T": 35392,
+      "exact_bracket": true
+    },
+    {
+      "A": 12,
+      "T": 70792,
+      "exact_bracket": true
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,8 @@
+{"claim": "exact threshold", "formula": "T_A=min{n:F_(n+1)F_(n+2)>=2^(12(2^(A+1)-1))}", "step": 1}
+{"claim": "Binet", "formula": "P_n=(phi^(2n+3)+(-1)^n-phi^(-(2n+3)))/5", "step": 2}
+{"bound": "abs(rho_n)<1/4", "claim": "correction", "step": 3}
+{"claim": "equality obstruction", "result": "P_n != X_A for all A,n>=0", "step": 4}
+{"claim": "integer gap", "result": "same sign; abs(L_n-X_A)>3/4", "step": 5}
+{"claim": "ceiling", "result": "T_A=ceil(y_A) globally", "step": 6}
+{"claim": "log form", "result": "explicit lower bound from integer separation", "step": 7}
+{"A0": 0, "claim": "cutoff", "finite_remainder": 0, "step": 8}

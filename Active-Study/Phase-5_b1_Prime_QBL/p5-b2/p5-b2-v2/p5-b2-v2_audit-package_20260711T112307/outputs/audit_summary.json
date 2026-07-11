@@ -1,0 +1,13 @@
+{
+  "step_id": "p5-b2-v2",
+  "verdict": "REVISE_ARTIFACT_INTEGRITY",
+  "mathematical_core": "ADOPT",
+  "global_threshold_bridge": "PROVED",
+  "reported_package_hash": "FAIL",
+  "document_hash": "PASS",
+  "manifest": "PASS",
+  "clean_rebuild": "PASS_SEMANTIC_NOT_BYTE_IDENTICAL",
+  "notebook": "11/11 PASS with universal-claim scope defects",
+  "lean": "SOURCE PARTIAL; COMPILATION NOT VERIFIED",
+  "next_interaction": "p5-b2-v3"
+}

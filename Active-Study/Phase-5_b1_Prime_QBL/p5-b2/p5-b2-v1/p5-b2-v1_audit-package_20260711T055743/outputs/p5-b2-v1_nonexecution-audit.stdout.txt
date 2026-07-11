@@ -1,0 +1,15 @@
+{
+  "branch_1_status": "CLOSED",
+  "branch_2_status": "OPEN",
+  "interaction_id": "p5-b2-v1",
+  "next_interaction": "p5-b2-v2",
+  "required_signal_checks": {
+    "binet": false,
+    "document_hash": false,
+    "document_link": false,
+    "finite_certificate": false,
+    "package_hash": false,
+    "package_name": false
+  },
+  "verdict": "REJECT_NO_EXECUTION"
+}

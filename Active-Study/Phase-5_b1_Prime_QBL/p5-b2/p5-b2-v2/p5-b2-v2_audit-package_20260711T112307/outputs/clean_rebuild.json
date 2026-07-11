@@ -1,0 +1,13 @@
+{
+  "status": "PASS_SEMANTIC_NOT_BYTE_IDENTICAL",
+  "builder_command": "python scripts/20260711T110131_build_package.py --package-root . --verify",
+  "builder_status": "PASS",
+  "manifest_verification": "PASS",
+  "manifest_entries": 39,
+  "changed_files_after_clean_rebuild": [
+    "MANIFEST.json",
+    "notebooks/20260711T110131_Global_Threshold_Bridge_executed.ipynb"
+  ],
+  "original_manifest_sha256": "579ddb7e74d406a208fe51a3a281480ea8c867a3113de4a2ab6d72d9c8d06d2b",
+  "rebuilt_manifest_sha256": "3f2fc623e5d43a8ca5138487fec5832edb84a4bd9f877df342393745e6908adc"
+}

@@ -1,0 +1,15 @@
+{
+  "QBL_threshold_minimum": 4096,
+  "conclusion": "P_n != X_A for all A,n>=0.",
+  "statement": "F_(n+1)*F_(n+2) is a power of 2 only for n=0,1.",
+  "witnesses": [
+    {
+      "n": 0,
+      "product": 1
+    },
+    {
+      "n": 1,
+      "product": 2
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "all_cells_have_one_figure": true,
+  "all_cells_print_PASS": true,
+  "cells": [
+    {
+      "cell": 1,
+      "execution_count": 1,
+      "figures": 1,
+      "prints_PASS": true
+    },
+    {
+      "cell": 2,
+      "execution_count": 2,
+      "figures": 1,
+      "prints_PASS": true
+    },
+    {
+      "cell": 3,
+      "execution_count": 3,
+      "figures": 1,
+      "prints_PASS": true
+    },
+    {
+      "cell": 4,
+      "execution_count": 4,
+      "figures": 1,
+      "prints_PASS": true
+    },
+    {
+      "cell": 5,
+      "execution_count": 5,
+      "figures": 1,
+      "prints_PASS": true
+    },
+    {
+      "cell": 6,
+      "execution_count": 6,
+      "figures": 1,
+      "prints_PASS": true
+    },
+    {
+      "cell": 7,
+      "execution_count": 7,
+      "figures": 1,
+      "prints_PASS": true
+    },
+    {
+      "cell": 8,
+      "execution_count": 8,
+      "figures": 1,
+      "prints_PASS": true
+    },
+    {
+      "cell": 9,
+      "execution_count": 9,
+      "figures": 1,
+      "prints_PASS": true
+    },
+    {
+      "cell": 10,
+      "execution_count": 10,
+      "figures": 1,
+      "prints_PASS": true
+    },
+    {
+      "cell": 11,
+      "execution_count": 11,
+      "figures": 1,
+      "prints_PASS": true
+    }
+  ],
+  "executed_code_cells": 11,
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "source_code_cells": 11,
+  "status": "PASS_WITH_SCOPE_DEFECTS",
+  "universal_claim_cells_using_finite_samples": [
+    2,
+    3,
+    4,
+    5
+  ]
+}

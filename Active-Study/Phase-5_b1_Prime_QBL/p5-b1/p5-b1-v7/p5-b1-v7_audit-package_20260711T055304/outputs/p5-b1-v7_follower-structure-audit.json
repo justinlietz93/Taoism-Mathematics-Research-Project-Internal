@@ -1,0 +1,31 @@
+{
+  "boundary_pair_rows": 20,
+  "complexity_formula_pass": true,
+  "complexity_rows": 20,
+  "finite_boundary_pair_flags_pass": true,
+  "finite_q_intervals_pairwise_disjoint": true,
+  "follower_region_geometry_pass": true,
+  "half_open_follower_region_rows": 12,
+  "markov_orders_1_to_10_pass": true,
+  "overall_pass": true,
+  "proof_marker_pass": true,
+  "proof_markers": {
+    "exact_concat_identity": true,
+    "interior_separation": true,
+    "mixing_conclusion": true,
+    "non_sofic_conclusion": true,
+    "oriented_handoff": true,
+    "standard_follower_identity": true
+  },
+  "status_finite_markov_order": "NONE; finite Markov order implies SFT implies sofic; exact order 1..10 witnesses remain finite certificates",
+  "status_mixing": "PROVED TOPOLOGICALLY MIXING; independent of soficity proof",
+  "status_soficity": "PROVED NON-SOFIC",
+  "theorem_audit": {
+    "finite_markov_order": "PASS: finite memory implies SFT implies sofic",
+    "follower_bridge": "PASS: exact set identity preserves half-open endpoints",
+    "mixing": "PASS: topological exactness gives every sufficiently large bridge length",
+    "non_soficity": "PASS: infinitely many ordered follower pairs contradict finiteness for any finite labeled graph",
+    "oriented_handoff": "PASS: ordered interiors distinguish q_n even in complementary-image cases",
+    "separation_lemma": "PASS for the proper half-open follower arcs used in the proof"
+  }
+}

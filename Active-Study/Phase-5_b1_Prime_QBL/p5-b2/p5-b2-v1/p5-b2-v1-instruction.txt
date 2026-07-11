@@ -1,0 +1,34 @@
+## Audit verdict
+
+```text
+ADOPT
+
+STANDARD HALF-OPEN FOLLOWER BRIDGE: PROVED
+FINITE-STATE/SOFIC STATUS: PROVED NON-SOFIC
+FINITE MARKOV ORDER: NONE
+ACTUAL AFFINE LANGUAGE MIXING: PROVED
+p5-b1 BRANCH STATUS: CLOSED
+```
+
+The archive hash, 62-entry manifest, 16/16 notebook cells, 16 figures, clean rebuild, and byte-identical archive rebuild all pass.
+
+The follower-set repair is sufficient:
+
+* The standard follower identity preserves the actual half-open endpoints.
+* Equal follower languages force equal follower-region interiors.
+* The ordered minus-to-plus handoff uniquely recovers (D^n(p)), including complementary-image cases.
+* Irrationality prevents handoff repetition, yielding infinitely many follower-set pairs and non-soficity.
+* The topological mixing proof is independent and valid.
+
+The audit package includes verification scripts, reproduced outputs, the complete audit, and recommended `p5-b2-v1` instructions targeting the global exact-threshold bridge.
+
+* [Download `p5-b1-v7_audit-package_20260711T055304.zip`](sandbox:/mnt/data/p5-b1-v7_audit-package_20260711T055304.zip)
+* [Audit results](sandbox:/mnt/data/p5-b1-v7_audit-package_20260711T055304/AUDIT_RESULTS.md)
+* [`p5-b2-v1` outgoing instructions](sandbox:/mnt/data/p5-b1-v7_audit-package_20260711T055304/OUTGOING_INSTRUCTIONS.md)
+* [SHA-256 file](sandbox:/mnt/data/p5-b1-v7_audit-package_20260711T055304.zip.sha256)
+
+```text
+SHA-256:
+5441938a2997097276402f4b573dbcddbbe63325995d7f7835534f31c98dc441
+```
+

@@ -1,0 +1,66 @@
+Completed `p5-b2-v2`.
+
+The global bridge closes without requiring a Baker–Matveev cutoff. The exact Binet decomposition is
+
+[
+F_{n+1}F_{n+2}
+==============
+
+\frac{\varphi^{2n+3}}5
++
+\frac{(-1)^n-\varphi^{-(2n+3)}}5,
+]
+
+with additive correction
+
+[
+|\rho_n|<\frac14.
+]
+
+The Fibonacci product and threshold (2^{12(2^{A+1}-1)}) are distinct integers, so their nonzero gap is at least (1). This forces the affine leading term to remain on the same side of the threshold, with separation greater than (3/4), for every (A,n\ge0). Therefore (A_0=0), the finite remainder is empty, and
+
+[
+T_A=\left\lceil
+\frac{12(2^{A+1}-1)\log2+\log5}{2\log\varphi}
+-\frac32
+\right\rceil
+]
+
+holds globally.
+
+[Completed research document](sandbox:/mnt/data/QBL_GLOBAL_EXACT_THRESHOLD_BRIDGE_v1.md)
+
+[Complete experiment package](sandbox:/mnt/data/p5-b2-v2_global-threshold-bridge_20260711T110131.zip)
+
+```text
+Document SHA-256:
+8657f17a96425a426f8a79a5bf4861cabd20e274c24dc83c0d207c6f8fe330ba
+
+Package SHA-256:
+a628db04ab71a59335821754fd0e93388ec783f25e9a46882d46b27a2a31c853
+```
+
+Package verification:
+
+```text
+Manifest entries:       39
+Notebook cells:         11
+Notebook cells passing: 11/11
+Figures:                11
+Exact sample checks:    A=0..12
+Rebuild command:        PASS
+Manifest verification:  PASS
+LEAN SOURCE PRESENT; COMPILATION NOT VERIFIED
+```
+
+```text
+GLOBAL T_A=ceil(y_A) BRIDGE: PROVED
+GAUGE/FQM MAP FROM d_A=±1: NOT YET DERIVED
+```
+
+The package also retains:
+
+```text
+SPECIFIC-ORBIT EQUIDISTRIBUTION: NOT PROVED
+```
+
