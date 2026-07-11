@@ -2,5 +2,5 @@ matplotlib==3.10.8
 nbclient==0.10.4
 nbformat==5.10.4
 numpy==2.3.5
-pytest==9.0.2
+pytest==9.0.3
 sympy==1.14.0
