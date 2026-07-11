@@ -1,0 +1,11 @@
+{
+  "required_identities": [
+    "OmegaPlus=iota_plus^* P iota_plus",
+    "OmegaMinus=iota_minus^* P iota_minus",
+    "T_plus_to_minus=iota_minus^* P iota_plus",
+    "T_minus_to_plus=iota_plus^* P iota_minus"
+  ],
+  "residuals": "NOT_EVALUATED_MISSING_PRIMARY_PAIRING_AND_CHART_MAPS",
+  "status": "NOT_RUN",
+  "zero_residual_claimed": false
+}

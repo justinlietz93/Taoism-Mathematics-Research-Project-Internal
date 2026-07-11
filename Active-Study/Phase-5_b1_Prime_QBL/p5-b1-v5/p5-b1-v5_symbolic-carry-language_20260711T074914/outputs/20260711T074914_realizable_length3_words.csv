@@ -1,0 +1,28 @@
+word,pairwise_edge_envelope,realizable_current_parameter,cylinder_initial_E,cylinder_latex,reason
+777,False,False,,,empty because 7->7 has zero one-step mass
+778,False,False,,,empty because 7->7 has zero one-step mass
+779,False,False,,,empty because 7->7 has zero one-step mass
+787,True,False,,,"empty at the current constant: after 7->8, F8 image starts at -2+6a; a>3/14 makes it miss I7"
+788,True,True,"(-1, -7/4*a -1/2]","(-1,\frac{-7}{4}a-\frac{1}{2}]",nonempty exact affine cylinder at the current parameter enclosure
+789,True,True,"(-7/4*a -1/2, -3/2*a -1/2]","(\frac{-7}{4}a-\frac{1}{2},\frac{-3}{2}a-\frac{1}{2}]",nonempty exact affine cylinder at the current parameter enclosure
+797,True,True,"(-3/2*a -1/2, -7/4*a -3/8]","(\frac{-3}{2}a-\frac{1}{2},\frac{-7}{4}a-\frac{3}{8}]",nonempty exact affine cylinder at the current parameter enclosure
+798,True,True,"(-7/4*a -3/8, -a -1/2]","(\frac{-7}{4}a-\frac{3}{8},-a-\frac{1}{2}]",nonempty exact affine cylinder at the current parameter enclosure
+799,False,False,,,empty because 9->9 has zero one-step mass
+877,False,False,,,empty because 7->7 has zero one-step mass
+878,True,True,"(-a -1/2, -7/4*a -1/4]","(-a-\frac{1}{2},\frac{-7}{4}a-\frac{1}{4}]",nonempty exact affine cylinder at the current parameter enclosure
+879,True,True,"(-7/4*a -1/4, -3/2*a -1/4]","(\frac{-7}{4}a-\frac{1}{4},\frac{-3}{2}a-\frac{1}{4}]",nonempty exact affine cylinder at the current parameter enclosure
+887,True,True,"(-3/2*a -1/4, -7/4*a -1/8]","(\frac{-3}{2}a-\frac{1}{4},\frac{-7}{4}a-\frac{1}{8}]",nonempty exact affine cylinder at the current parameter enclosure
+888,True,True,"(-7/4*a -1/8, -7/4*a]","(\frac{-7}{4}a-\frac{1}{8},\frac{-7}{4}a]",nonempty exact affine cylinder at the current parameter enclosure
+889,True,True,"(-7/4*a, -3/2*a]","(\frac{-7}{4}a,\frac{-3}{2}a]",nonempty exact affine cylinder at the current parameter enclosure
+897,True,True,"(-3/2*a, -7/4*a + 1/8]","(\frac{-3}{2}a,\frac{-7}{4}a+\frac{1}{8}]",nonempty exact affine cylinder at the current parameter enclosure
+898,True,True,"(-7/4*a + 1/8, -a]","(\frac{-7}{4}a+\frac{1}{8},-a]",nonempty exact affine cylinder at the current parameter enclosure
+899,False,False,,,empty because 9->9 has zero one-step mass
+977,False,False,,,empty because 7->7 has zero one-step mass
+978,True,True,"(-a, -7/4*a + 1/4]","(-a,\frac{-7}{4}a+\frac{1}{4}]",nonempty exact affine cylinder at the current parameter enclosure
+979,True,True,"(-7/4*a + 1/4, -3/2*a + 1/4]","(\frac{-7}{4}a+\frac{1}{4},\frac{-3}{2}a+\frac{1}{4}]",nonempty exact affine cylinder at the current parameter enclosure
+987,True,True,"(-3/2*a + 1/4, -7/4*a + 3/8]","(\frac{-3}{2}a+\frac{1}{4},\frac{-7}{4}a+\frac{3}{8}]",nonempty exact affine cylinder at the current parameter enclosure
+988,True,True,"(-7/4*a + 3/8, 0]","(\frac{-7}{4}a+\frac{3}{8},0]",nonempty exact affine cylinder at the current parameter enclosure
+989,True,False,,,"empty: after 9->8, F8 image is (-1,-2+6a], which lies left of I9 for a<1/4"
+997,False,False,,,empty because 9->9 has zero one-step mass
+998,False,False,,,empty because 9->9 has zero one-step mass
+999,False,False,,,empty because 9->9 has zero one-step mass

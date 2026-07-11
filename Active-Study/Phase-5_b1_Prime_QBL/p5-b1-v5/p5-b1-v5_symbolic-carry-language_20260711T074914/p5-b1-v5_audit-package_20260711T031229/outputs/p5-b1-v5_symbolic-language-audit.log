@@ -1,0 +1,145 @@
+{
+  "direct_counts_1_13": [
+    3,
+    7,
+    15,
+    31,
+    63,
+    127,
+    255,
+    511,
+    1023,
+    2047,
+    4095,
+    8191,
+    16383
+  ],
+  "expected_counts_1_13": [
+    3,
+    7,
+    15,
+    31,
+    63,
+    127,
+    255,
+    511,
+    1023,
+    2047,
+    4095,
+    8191,
+    16383
+  ],
+  "complexity_counts_pass": true,
+  "length3_actual_count": 15,
+  "length3_envelope_count": 17,
+  "length3_envelope_excess": [
+    "787",
+    "989"
+  ],
+  "length3_pass": true,
+  "markov_witnesses": [
+    {
+      "order": 1,
+      "word_1": "78",
+      "word_2": "88",
+      "computed_extensions_1": "89",
+      "computed_extensions_2": "789",
+      "reported_extensions_1": "89",
+      "reported_extensions_2": "789",
+      "pass": true
+    },
+    {
+      "order": 2,
+      "word_1": "788",
+      "word_2": "888",
+      "computed_extensions_1": "89",
+      "computed_extensions_2": "789",
+      "reported_extensions_1": "89",
+      "reported_extensions_2": "789",
+      "pass": true
+    },
+    {
+      "order": 3,
+      "word_1": "7888",
+      "word_2": "9888",
+      "computed_extensions_1": "789",
+      "computed_extensions_2": "7",
+      "reported_extensions_1": "789",
+      "reported_extensions_2": "7",
+      "pass": true
+    },
+    {
+      "order": 4,
+      "word_1": "78887",
+      "word_2": "98887",
+      "computed_extensions_1": "89",
+      "computed_extensions_2": "8",
+      "reported_extensions_1": "89",
+      "reported_extensions_2": "8",
+      "pass": true
+    },
+    {
+      "order": 5,
+      "word_1": "788878",
+      "word_2": "988878",
+      "computed_extensions_1": "89",
+      "computed_extensions_2": "8",
+      "reported_extensions_1": "89",
+      "reported_extensions_2": "8",
+      "pass": true
+    },
+    {
+      "order": 6,
+      "word_1": "7888788",
+      "word_2": "9888788",
+      "computed_extensions_1": "89",
+      "computed_extensions_2": "8",
+      "reported_extensions_1": "89",
+      "reported_extensions_2": "8",
+      "pass": true
+    },
+    {
+      "order": 7,
+      "word_1": "78887888",
+      "word_2": "88887888",
+      "computed_extensions_1": "9",
+      "computed_extensions_2": "789",
+      "reported_extensions_1": "9",
+      "reported_extensions_2": "789",
+      "pass": true
+    },
+    {
+      "order": 8,
+      "word_1": "788878889",
+      "word_2": "888878889",
+      "computed_extensions_1": "8",
+      "computed_extensions_2": "78",
+      "reported_extensions_1": "8",
+      "reported_extensions_2": "78",
+      "pass": true
+    },
+    {
+      "order": 9,
+      "word_1": "7888788898",
+      "word_2": "9888788898",
+      "computed_extensions_1": "78",
+      "computed_extensions_2": "7",
+      "reported_extensions_1": "78",
+      "reported_extensions_2": "7",
+      "pass": true
+    },
+    {
+      "order": 10,
+      "word_1": "78887888987",
+      "word_2": "98887888987",
+      "computed_extensions_1": "89",
+      "computed_extensions_2": "8",
+      "reported_extensions_1": "89",
+      "reported_extensions_2": "8",
+      "pass": true
+    }
+  ],
+  "markov_witnesses_reproduce": true,
+  "arithmetic_status": "high-precision Decimal using the package decimal gamma; not an exact or outward-rounded certificate",
+  "overall_pass": true
+}

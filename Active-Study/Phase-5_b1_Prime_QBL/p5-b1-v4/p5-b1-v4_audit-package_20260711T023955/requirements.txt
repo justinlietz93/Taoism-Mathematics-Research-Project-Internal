@@ -1,0 +1,2 @@
+# Core audit scripts use only the Python 3.11+ standard library.
+# Rebuilding the audited experiment package requires its own pinned requirements.txt.

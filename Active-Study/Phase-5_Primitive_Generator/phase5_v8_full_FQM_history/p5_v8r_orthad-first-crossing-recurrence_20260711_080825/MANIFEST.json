@@ -1,0 +1,305 @@
+{
+  "files": [
+    {
+      "bytes": 2542,
+      "path": "FINDINGS.md",
+      "sha256": "11a08d681f61b51c21cad7e90db91b8e55c997263817ab2f562466395f154f4c"
+    },
+    {
+      "bytes": 1017,
+      "path": "README.md",
+      "sha256": "895d9e5512c62d17ed472c96dbb5007a7624ce97d9876a7d7d578552470df505"
+    },
+    {
+      "bytes": 1039,
+      "path": "docs/20260711T080825_RESULTS.md",
+      "sha256": "b21cfbaaf8b4e69d0612b1e31e21048f29e5dc83daa75ae210baee65504f58ef"
+    },
+    {
+      "bytes": 2574,
+      "path": "figures/20260711T080825_active_axis_trace.svg",
+      "sha256": "f6680f1408527f09e8303ca6c1c8ad950652466070bd59eeb592d8d317b97d9a"
+    },
+    {
+      "bytes": 1311,
+      "path": "inputs/20260711T080825_ASSUMPTION_LOCK.md",
+      "sha256": "65834163102c642e3ac12ebe5eb0f5e6962d81bfbc27b1a98e4658e8effbd36f"
+    },
+    {
+      "bytes": 18946,
+      "path": "inputs/20260711T080825_ORTHAD_CANON_TIGHTENED_DRAFT_v1_0_NONCITABLE.md",
+      "sha256": "5e778ab309ad5c75f06fabc3327393a38de88d3b2ec9656da8e17dd3380a4444"
+    },
+    {
+      "bytes": 38763,
+      "path": "inputs/20260711T080825_PHASE5_CANONICAL_LEDGER_v3.md",
+      "sha256": "49e87de491fdeb57c1017eb62260fbe4493b031663d9734a089c0d42a9179c14"
+    },
+    {
+      "bytes": 29584,
+      "path": "inputs/20260711T080825_QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+      "sha256": "3dc57669c4e251098180c07ec4e406f4057088a64c49c94537b7add7dd189386"
+    },
+    {
+      "bytes": 241059,
+      "path": "inputs/20260711T080825_orthad_canon_diagram.png",
+      "sha256": "bd596d99d97e2d179027dc7285489aaf10eea9c65e9fbc320d36c0c3484bc57d"
+    },
+    {
+      "bytes": 27633,
+      "path": "inputs/20260711T080825_p5_v8q_audit-package_20260711_024822.zip",
+      "sha256": "cedddbc951354ac41ecd3f582b463e633ad91931279b352c52adc6c9f1e567de"
+    },
+    {
+      "bytes": 167804,
+      "path": "inputs/20260711T080825_p5_v8q_experiment_package_PROVENANCE.zip",
+      "sha256": "625a2587e160ed39c5a18cce4c0e00ec15544608776f65b2aac785d233ff4131"
+    },
+    {
+      "bytes": 533070,
+      "path": "inputs/20260711T080825_rejected_dual_chart_package_CODE_PROVENANCE.zip",
+      "sha256": "906787a686458477fefc8e042832682aa3f3ba8c232667d235a15512c3273e75"
+    },
+    {
+      "bytes": 2132,
+      "path": "inputs/20260711T080825_v7u_full_orthad_lens_compiler_binding_HISTORICAL.md",
+      "sha256": "8383a426ec462ce7854a7a0f0ff31c020b2e9409fc9efb4bd0cd794a682abac5"
+    },
+    {
+      "bytes": 16176,
+      "path": "inputs/20260711T080825_v7u_full_orthad_lens_compiler_binding_HISTORICAL.py",
+      "sha256": "7eb3ebf40ef5ae7f604f9572911539691c08a219fbd5e309c47ed0bbfc80a87f"
+    },
+    {
+      "bytes": 569,
+      "path": "lab-journal.md",
+      "sha256": "4d5599b726a1ad3dc296a3fbf52eb46d5ab79cbaaf41c4a8ad57baa04a62b825"
+    },
+    {
+      "bytes": 3650,
+      "path": "notebooks/20260711T080825_orthad_recurrence.ipynb",
+      "sha256": "cde0dd822c91aa60930bf814a6474d117d8ec3915f7c6e2248c23a73a0e779a7"
+    },
+    {
+      "bytes": 5096,
+      "path": "notebooks/20260711T080825_orthad_recurrence_executed.ipynb",
+      "sha256": "20718f3b7ccad8ffc4abeae2111441a1783d491af7f7a8e60bb75276e80cc3ce"
+    },
+    {
+      "bytes": 924,
+      "path": "outputs/20260711T080825_active_axis_trace.csv",
+      "sha256": "4add2203fa0b0ea084a12dbf9ec6c3875e4717a843f2039c6875f03f4fcb64e0"
+    },
+    {
+      "bytes": 6672,
+      "path": "outputs/20260711T080825_active_axis_trace.json",
+      "sha256": "da7c280578207f453c05bfd3f71bece008e4118f2ee83b970976bf809f0d7d1f"
+    },
+    {
+      "bytes": 755,
+      "path": "outputs/20260711T080825_boundary_results.json",
+      "sha256": "311a0e7ce60cdc775c1f7b14e46d8fa7ca21aa2ef4096eafab36dc5a76941bf8"
+    },
+    {
+      "bytes": 130,
+      "path": "outputs/20260711T080825_build_environment.json",
+      "sha256": "965b59039e8af4cc780716772abbdd81923e5eb8169dc3ad9413fa499afec247"
+    },
+    {
+      "bytes": 2901,
+      "path": "outputs/20260711T080825_control_results.csv",
+      "sha256": "6bc9eae8b77ee9a5b9ee86fc59cb78bbed26932b65f739a809398fb7d3775e20"
+    },
+    {
+      "bytes": 4655,
+      "path": "outputs/20260711T080825_control_results.json",
+      "sha256": "de5d0699c18307eeccb57e5f1daa1b495010e1e8c17c27d2ee2d5f74e2f78a10"
+    },
+    {
+      "bytes": 805,
+      "path": "outputs/20260711T080825_custody_snapshots.json",
+      "sha256": "6a69ad0ae1e10a580ab7a6ab8b4f0f336d33c6d837d03724039babb2c3d2fe8e"
+    },
+    {
+      "bytes": 8402,
+      "path": "outputs/20260711T080825_gate_results.csv",
+      "sha256": "1c5f496ff2cd2572d4cf5b9079129dc5dd140695ec2fd9fb8746f89f1b4b8c93"
+    },
+    {
+      "bytes": 9818,
+      "path": "outputs/20260711T080825_gate_results.json",
+      "sha256": "5e08734f91db417bd2ae4d81cfb224eff85ca0b68fa6733c7c5d0f34f5b0b910"
+    },
+    {
+      "bytes": 112,
+      "path": "outputs/20260711T080825_lean_compile_status.json",
+      "sha256": "b663532f95bb77a759fd047fc123424f69efebcbf02ac72c437dcc9b4b9a6f35"
+    },
+    {
+      "bytes": 105,
+      "path": "outputs/20260711T080825_notebook_execution.json",
+      "sha256": "1f77bbe96904716368b95252a4883ab40e1129a7adb125d02e3a0099e73a6175"
+    },
+    {
+      "bytes": 343,
+      "path": "outputs/20260711T080825_overset_consistency.json",
+      "sha256": "8448fe1d51943d85325e9f2f36807511ea8d18f3515ff8270e32cdf182598e0a"
+    },
+    {
+      "bytes": 913,
+      "path": "outputs/20260711T080825_recurrence_assessment.json",
+      "sha256": "ab7efa1f999c5e9f483e3140b69c5bf484ec2c01a2809e7478b0e2ed2ed7a332"
+    },
+    {
+      "bytes": 5837,
+      "path": "outputs/20260711T080825_reproducibility_comparison.json",
+      "sha256": "6d706fa5356789e43e853c23279403f6735871b617ca34559571e7422658783a"
+    },
+    {
+      "bytes": 671,
+      "path": "outputs/20260711T080825_source_constraint_table.csv",
+      "sha256": "62b1a981d52346e4458257f41fbbbcffb934ee0bb1e8f4fc85596f9200a854c0"
+    },
+    {
+      "bytes": 1369,
+      "path": "outputs/20260711T080825_source_provenance.csv",
+      "sha256": "92decb57328714484266a62e7e78f9571feca04ae45500b982a8a1ce126a0282"
+    },
+    {
+      "bytes": 329,
+      "path": "outputs/20260711T080825_statuses.json",
+      "sha256": "60807c1d80c2905a48005a0bf244e21a0b048458d99eb72a7f01cef955a6fe07"
+    },
+    {
+      "bytes": 102,
+      "path": "outputs/20260711T080825_test_results.json",
+      "sha256": "464ba26e38dc149e94daaf35afadf11f1e189016c86dfb98865abee94e15729c"
+    },
+    {
+      "bytes": 651,
+      "path": "proofs/20260711T080825_OrthadRecurrenceGap.lean",
+      "sha256": "a4a000cfdda213dd52d095b4e6f768ed5f15e69c58d3da6e5690e0779c19e2ee"
+    },
+    {
+      "bytes": 82,
+      "path": "proofs/20260711T080825_lean_compiler.log",
+      "sha256": "fdf2b327c58ce0a0644d3674ec4d9b2ae22094b43862ba74be90c430b6c0d31c"
+    },
+    {
+      "bytes": 47,
+      "path": "requirements.txt",
+      "sha256": "33cf376bfcdc3e3803ce2fb7a535d4810d00e0e056c2f50834d3f080338fc2da"
+    },
+    {
+      "bytes": 254,
+      "path": "scripts/20260711T080825_independent_oracle.py",
+      "sha256": "b922236d8173d78ae0d7d58d256f5ae9a90b8c4be538ccfbb1aa2b261ca1d848"
+    },
+    {
+      "bytes": 575,
+      "path": "scripts/20260711T080825_make_manifest.py",
+      "sha256": "43a8d241bd301c938a56a3b28ea9182a4c563b88a7d77df713472fdf3284722c"
+    },
+    {
+      "bytes": 14297,
+      "path": "scripts/20260711T080825_rebuild.py",
+      "sha256": "1355864ea8546893fdefdde8980f82401c43142184506b8f12de909794fba305"
+    },
+    {
+      "bytes": 1228,
+      "path": "scripts/20260711T080825_verify.py",
+      "sha256": "494d341d126176f5fef650f1177c262fd5744f044c9bcc7a0c533e596c5c4ccc"
+    },
+    {
+      "bytes": 1320,
+      "path": "source_maps/20260711T080825_SOURCE_MAP.md",
+      "sha256": "4e35aa9e0632424f7fcfd8259fee3ce844d72e4ff61c3143e7c648094b989f1a"
+    },
+    {
+      "bytes": 158,
+      "path": "src/orthad_v8r/__init__.py",
+      "sha256": "148489145e85efa230f3efbd5ec4fdb8b27cb25475937b308c4a1cfb50e46f2a"
+    },
+    {
+      "bytes": 1618,
+      "path": "src/orthad_v8r/assessment.py",
+      "sha256": "e516d3c0277949d2a6f79d46286b0ea3f2396c21abd92252f984de3c40be56b5"
+    },
+    {
+      "bytes": 2310,
+      "path": "src/orthad_v8r/axis.py",
+      "sha256": "d5744dfec5c6a5745b116334e8f172f8d970db27bb4f777f5ba61130964ef7ab"
+    },
+    {
+      "bytes": 5128,
+      "path": "src/orthad_v8r/controls.py",
+      "sha256": "27b3d80b55bc2b86a5cb7d47eef535fbca30dde0229c61939275d0db197bbc2b"
+    },
+    {
+      "bytes": 2870,
+      "path": "src/orthad_v8r/engine.py",
+      "sha256": "88e4b19fad79b90bda366a2a3ada3492fc05aef73523ac876dc31e591672729a"
+    },
+    {
+      "bytes": 1358,
+      "path": "src/orthad_v8r/evidence.py",
+      "sha256": "774264e8e6def907e9b80ad135d07af0674a0a3317463a8c70e1da8b4a84ceae"
+    },
+    {
+      "bytes": 1734,
+      "path": "src/orthad_v8r/law.py",
+      "sha256": "b61bbc786bb4dee68bc8efb0392672d27ee50d631fd1dbc1abd8c620a9a67be3"
+    },
+    {
+      "bytes": 1445,
+      "path": "src/orthad_v8r/oracle.py",
+      "sha256": "6094c2c7e2424bfd3b85c45e95316d299163f3ae0d73179bae016c29b1ac74d2"
+    },
+    {
+      "bytes": 991,
+      "path": "src/orthad_v8r/state.py",
+      "sha256": "0e75385be36eaf7d372720b7a546f994c9d60976ea1767fa7a39893778e80e05"
+    },
+    {
+      "bytes": 10283,
+      "path": "src/orthad_v8r/verification.py",
+      "sha256": "eabbd69e27745c7a91b5aad918d580274b8f750775d0be615ed21027bd141fb4"
+    },
+    {
+      "bytes": 37,
+      "path": "tests/.pytest_cache/.gitignore",
+      "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd"
+    },
+    {
+      "bytes": 191,
+      "path": "tests/.pytest_cache/CACHEDIR.TAG",
+      "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4"
+    },
+    {
+      "bytes": 302,
+      "path": "tests/.pytest_cache/README.md",
+      "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad"
+    },
+    {
+      "bytes": 479,
+      "path": "tests/.pytest_cache/v/cache/nodeids",
+      "sha256": "f7e5208fa02601a01119516189505edc936a5c27babbbaaa8a394c5859eb3ed9"
+    },
+    {
+      "bytes": 2040,
+      "path": "tests/test_primitive.py",
+      "sha256": "2ddb83dcdf0539fe17fa2dab09968f71ce4f41c6d9dabf5a90c92838a2353b25"
+    },
+    {
+      "bytes": 636,
+      "path": "tests/test_recurrence_boundary.py",
+      "sha256": "59b865a9ba108abc491b4cb3b56e7b95a949a88d77a237bd9baf7b5bcd254069"
+    },
+    {
+      "bytes": 8433,
+      "path": "trace/20260711T080825_primitive_trace.jsonl",
+      "sha256": "08ca09dee7c9aad5143ac27bd32253dff6309b9acb13e561e030f4d6ac8cc9b8"
+    }
+  ],
+  "schema_version": 1
+}

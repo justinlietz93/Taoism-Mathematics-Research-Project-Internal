@@ -1,0 +1,82 @@
+{
+  "generated_utc": "2026-07-11T06:35:51.364460+00:00",
+  "package": "audit_review_package_20260711T013340",
+  "file_count": 15,
+  "files": [
+    {
+      "path": "AUDIT_RESULTS.md",
+      "bytes": 4802,
+      "sha256": "6841e23494099ea11316d53adb909d6ade66c6b3a0a34751cd4b3836df93ee17"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1217,
+      "sha256": "fbf711b9cc6e267d31ea053644e90f05326572172d272c58edaffc9a913e8559"
+    },
+    {
+      "path": "inputs/QBL_CARRY_J_DERIVATION_AND_RESEARCH_BOUNDARY_v1.md",
+      "bytes": 11400,
+      "sha256": "0509505200e2d3289363934103570b3cc36833aeda6be3e9d27ced3bc0835bc8"
+    },
+    {
+      "path": "inputs/QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+      "bytes": 29584,
+      "sha256": "f0f66790bf6da0b3fca9a400da36ff5879db4b3e861703ef3a309829a2af9962"
+    },
+    {
+      "path": "inputs/audit-and-instruct.md",
+      "bytes": 12895,
+      "sha256": "acb7763e03f0fc641cd6f7cafb971d702ed3521dd782120bfe4d7a7a2bfdf1e0"
+    },
+    {
+      "path": "inputs/experiment_package_20260710_234301.zip",
+      "bytes": 2133774,
+      "sha256": "2d4d5851c45f21a7c210c13ad60d69089edb15b3d07d1e338bdd221604a982f2"
+    },
+    {
+      "path": "inputs/qbl_prime_pattern_watch_v1.zip",
+      "bytes": 110061,
+      "sha256": "f641fb40db73fd231dafaebe64a417c69ddf4d70c4c572ee683a88212d09a420"
+    },
+    {
+      "path": "outputs/combined_audit.json",
+      "bytes": 13097,
+      "sha256": "34c4a2f172fde481131b33545b4fddd078a5219139d1020b51e4e2fdb795025d"
+    },
+    {
+      "path": "outputs/j_derivation_audit.json",
+      "bytes": 5223,
+      "sha256": "4ccd0a6fcb75c37c64d84bf7f746ebe93c1d43aad9672607bdd3e2098d480053"
+    },
+    {
+      "path": "outputs/package_integrity_audit.json",
+      "bytes": 7080,
+      "sha256": "a2d52926daeffd98b0940d84a880c2362daefc55df94ec938bf4f9ffebc35992"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 50,
+      "sha256": "2ed32ad062205f65517ed572e74c113653407b4e32f4cc7236b79c3c6c3894a2"
+    },
+    {
+      "path": "scripts/audit_j_derivation.py",
+      "bytes": 7780,
+      "sha256": "56831c894f75c1d8026fc31eedd57f6f177234f63cd7a4b03c0300d7c71a3d28"
+    },
+    {
+      "path": "scripts/audit_package_integrity.py",
+      "bytes": 7656,
+      "sha256": "1857f4e486d7c99f1ada2e172c8d34d924806f56754fef8b690a5e7c8239fc93"
+    },
+    {
+      "path": "scripts/run_audit.py",
+      "bytes": 1555,
+      "sha256": "ee9c542c20d33cc54adde808ec7249595d5162c19be5277d7eb3937bbc0fd7ef"
+    },
+    {
+      "path": "scripts/write_manifest.py",
+      "bytes": 1199,
+      "sha256": "a1c642d73f74cdb776368a61800fe6f56f91a37a17f53a4dee9f64c766e875ca"
+    }
+  ]
+}

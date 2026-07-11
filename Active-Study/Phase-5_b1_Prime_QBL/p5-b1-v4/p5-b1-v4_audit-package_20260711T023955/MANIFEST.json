@@ -1,0 +1,85 @@
+{
+  "step_id": "p5-b1-v4",
+  "timestamp": "20260711T023955",
+  "package": "p5-b1-v4_audit-package_20260711T023955",
+  "manifest_excludes": [
+    "MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": "AUDIT_RESULTS.md",
+      "bytes": 5490,
+      "sha256": "9a537b8ffc25967fb5e608680bd6d414ffac8f6980d4eb82e761e181435343f9"
+    },
+    {
+      "path": "OUTGOING_INSTRUCTIONS.md",
+      "bytes": 6295,
+      "sha256": "c83537ab934ab1e68cb39fda042c59d6aba6fe3b25a5924479d332cd5bdbf50f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1232,
+      "sha256": "dc1f21326d6f1f7b886561ab8591a5347786c69a0b9c8f7a01bb3a99a6cff076"
+    },
+    {
+      "path": "SOURCE_MAP.md",
+      "bytes": 850,
+      "sha256": "bf5ce98a01004a90376cb8f299c7ef1177753155d5526fa5dab91e08db686eb4"
+    },
+    {
+      "path": "outputs/p5-b1-v4_audit-summary.json",
+      "bytes": 823,
+      "sha256": "08808b57cb968e905b6589307da32fed8b8b8d6b7afaf7f02c74287bbb591114"
+    },
+    {
+      "path": "outputs/p5-b1-v4_length3-language.csv",
+      "bytes": 1580,
+      "sha256": "930b9d6ae5ae7eb1ce6f8eafa550406f433b212f9b6054e4a809c1573a2770b7"
+    },
+    {
+      "path": "outputs/p5-b1-v4_package-verification.json",
+      "bytes": 1537,
+      "sha256": "ed8315b17e8cb1d8b5a8421a7f5c17f91351d47cc47622e3a57725ba5056f5fe"
+    },
+    {
+      "path": "outputs/p5-b1-v4_package-verification.log",
+      "bytes": 97,
+      "sha256": "f5020d1a59a0a261f72c349c2a4e7f36e852516e948d7048303366020bbdab3f"
+    },
+    {
+      "path": "outputs/p5-b1-v4_symbolic-language-audit.json",
+      "bytes": 7256,
+      "sha256": "37395b31c8424604ff85d0b6668ce384b23ff6b45ee16f74ae711b3119514d3b"
+    },
+    {
+      "path": "outputs/p5-b1-v4_symbolic-language-audit.log",
+      "bytes": 273,
+      "sha256": "8fd771d913011ee5f6df4a7d84ac4069388587b7ee3a14525590eb6818db5cb4"
+    },
+    {
+      "path": "outputs/p5-b1-v4_word-complexity.csv",
+      "bytes": 240,
+      "sha256": "bc6f9db538bf2c3355538599a5e0e4b210c7761863b42c2a9028b47bdcb055c8"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 151,
+      "sha256": "ea5615ed0f0039245b3d8a450df90c5be90b35b70850cb18205ee524985bb3a4"
+    },
+    {
+      "path": "scripts/p5-b1-v4_symbolic_language_audit.py",
+      "bytes": 6666,
+      "sha256": "c90b98f029c1d16252854b201c554dc1d427914b1785fb9938bee64268ad3fdb"
+    },
+    {
+      "path": "scripts/p5-b1-v4_verify_agent_package.py",
+      "bytes": 6330,
+      "sha256": "b1de4dd35248f0c88a686397426c7023c74515a96195e853a9accf06d084fab1"
+    },
+    {
+      "path": "source-references/p5-b1-v4_audited-artifacts.json",
+      "bytes": 743,
+      "sha256": "a0f9c225c4188c7376f6e42015509a26566c60a61cb5def5e8369dab66e8db04"
+    }
+  ]
+}

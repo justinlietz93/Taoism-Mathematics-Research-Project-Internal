@@ -1,0 +1,61 @@
+{
+  "files": [
+    {
+      "bytes": 5055,
+      "path": "AGENT_INSTRUCTIONS.md",
+      "sha256": "cda0d5e0e90bf446e5c2d5520991156498a386b920d80cb5e96c18d39fd17dd3"
+    },
+    {
+      "bytes": 4632,
+      "path": "AUDIT_RESULTS.md",
+      "sha256": "007292f2337180c0a60055efd17276c485972d3e7e4eff6508dc23e681e9d348"
+    },
+    {
+      "bytes": 915,
+      "path": "README.md",
+      "sha256": "a5f9929b2372c412105ff14f0f900cf626c34f68f89e8f961ca0fe243998259e"
+    },
+    {
+      "bytes": 656,
+      "path": "inputs/20260711T064705_AGENT_RESPONSE_CLAIMS.md",
+      "sha256": "3a3184f15c29d2e2a3515689beb3adb4960e9a8f6fdd214cbcb75876ee125b56"
+    },
+    {
+      "bytes": 1377,
+      "path": "inputs/20260711T064705_ASSUMPTION_LOCK.md",
+      "sha256": "72c1fb1e4ed13fe86d81865168bb034b76182ecb245d537faa74f9934fdeeffd"
+    },
+    {
+      "bytes": 29584,
+      "path": "inputs/20260711T064705_QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+      "sha256": "3dc57669c4e251098180c07ec4e406f4057088a64c49c94537b7add7dd189386"
+    },
+    {
+      "bytes": 13806,
+      "path": "outputs/20260711T064705_V8P_REAUDIT_REPORT_FULL.md",
+      "sha256": "38ef1f6def132586eeeaa40bdbd8eb7223c84611e85837a7bfbff677cf6d95ac"
+    },
+    {
+      "bytes": 2821,
+      "path": "outputs/20260711T064705_V8P_REAUDIT_RESULTS.json",
+      "sha256": "440155553b5035b80b08a0a241b0d15e0de27e960d7c526fd193f536f4b38b88"
+    },
+    {
+      "bytes": 8812,
+      "path": "scripts/20260711T064705_reaudit_v8p_against_clean_qbl.py",
+      "sha256": "f9cd7b1300b489c2e9431a12c8b6f4f9da0048660e636f70bf4a8e033a7a93cd"
+    },
+    {
+      "bytes": 955,
+      "path": "source_maps/20260711T064705_SOURCE_MAP.md",
+      "sha256": "a682d7ebbe4565ae609cb48c68caebe2a378a6acc2a3ce02ef78b8a731c6b4c2"
+    },
+    {
+      "bytes": 1150,
+      "path": "trace/20260711T064705_audit_trace.jsonl",
+      "sha256": "a310271227142141ada58ae29319762dc982662aa983fa038d54968314af09f3"
+    }
+  ],
+  "subject_zip_sha256": "906787a686458477fefc8e042832682aa3f3ba8c232667d235a15512c3273e75",
+  "timestamp": "20260711T064705"
+}

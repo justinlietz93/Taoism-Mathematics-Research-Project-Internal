@@ -1,0 +1,232 @@
+{
+  "status": "INTEGRITY_PASS_REPRODUCIBILITY_REVISE",
+  "experiment_package": {
+    "archive": "experiment_package_20260710_234301.zip",
+    "manifest": {
+      "listed_count": 26,
+      "declared_count": 26,
+      "all_hashes_pass": true,
+      "listed_set_matches_archive_except_manifest": true,
+      "checks": [
+        {
+          "path": "FINDINGS.md",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "README.md",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "docs/20260710T234301_RESULTS.md",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "figures/20260710T234301_b_prime_events.png",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "figures/20260710T234301_carry_histogram.png",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "figures/20260710T234301_carry_transition_matrix.png",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "figures/20260710T234301_defect_frequency_benchmark.png",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "figures/20260710T234301_defect_histogram.png",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "figures/20260710T234301_dyadic_ceiling_orbit.png",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "figures/20260710T234301_tripling_negative_control.png",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "inputs/20260710T234301_ASSUMPTION_LOCK.md",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "inputs/QBL_PRIME_PATTERN_WATCH_v1.md",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "inputs/p5-orthad-PHASE5_CANONICAL_LEDGER_v3.md",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "lab-journal.md",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "lean/20260710T234301_QBLBDefect.lean",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "notebooks/20260710T234301_QBL_B_Defect_Investigation.ipynb",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "output_data/20260710T234301_carry_defect_A0_A10000.csv",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "output_data/20260710T234301_exact_counts_A0_A1000.csv",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "output_data/20260710T234301_qbl_b_defect.db",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "output_data/20260710T234301_qbl_b_defect.h5",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "output_data/20260710T234301_summary.json",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "requirements.txt",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "scripts/20260710T234301_qbl_b_defect_investigation.py",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "source_maps/20260710T234301_SOURCE_MAP.md",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "trace_logs/20260710T234301_carry_trace.jsonl",
+          "bytes_pass": true,
+          "sha256_pass": true
+        },
+        {
+          "path": "trace_logs/20260710T234301_transition_trace.jsonl",
+          "bytes_pass": true,
+          "sha256_pass": true
+        }
+      ]
+    },
+    "reproducibility": {
+      "notebooks": [
+        "notebooks/20260710T234301_QBL_B_Defect_Investigation.ipynb"
+      ],
+      "source_and_executed_notebook_pair_present": false,
+      "requirements": [
+        "mpmath",
+        "sympy",
+        "matplotlib",
+        "h5py",
+        "nbformat",
+        "nbclient"
+      ],
+      "requirements_exactly_pinned": false,
+      "builder_script_present": false,
+      "analysis_scripts": [
+        "scripts/20260710T234301_qbl_b_defect_investigation.py"
+      ],
+      "generated_artifact_names_referenced_by_scripts": [
+        "scan.csv",
+        "summary.json"
+      ],
+      "readme_run_command_has_output_argument": false,
+      "current_required_dirs_present": {
+        "outputs": false,
+        "proofs": false,
+        "trace": false
+      },
+      "legacy_dirs_present": {
+        "output_data": true,
+        "lean": true,
+        "trace_logs": true
+      },
+      "lean_compiler_log_present": false
+    },
+    "authority": {
+      "current_orthad_law_present": false,
+      "older_canonical_ledger_present": true,
+      "source_map_names_old_ledger_as_active": true
+    }
+  },
+  "prime_watch_package": {
+    "archive": "qbl_prime_pattern_watch_v1.zip",
+    "sha_manifest": {
+      "all_hashes_pass": true,
+      "checks": [
+        {
+          "path": "QBL_PRIME_PATTERN_WATCH_v1.md",
+          "sha256_pass": true
+        },
+        {
+          "path": "qbl_prime_watch.py",
+          "sha256_pass": true
+        },
+        {
+          "path": "QBL_Prime_Pattern_Watch_v1.ipynb",
+          "sha256_pass": true
+        },
+        {
+          "path": "QBLPrimePatternWatch.lean",
+          "sha256_pass": true
+        },
+        {
+          "path": "README.md",
+          "sha256_pass": true
+        }
+      ]
+    },
+    "current_experiment_components_present": {
+      "MANIFEST.json": false,
+      "FINDINGS.md": false,
+      "inputs/": false,
+      "trace/": false,
+      "source_maps/": false
+    },
+    "classification": "PROVENANCE_PACKAGE_NOT_CURRENT_EXPERIMENT_PACKAGE"
+  },
+  "audit_findings": [
+    "All 26 experiment-package manifest entries match their byte counts and SHA-256 values.",
+    "All five qbl-prime-watch SHA-256 entries match.",
+    "The experiment package has one notebook rather than separate source and executed notebooks.",
+    "Dependencies are named but not exactly pinned.",
+    "No package builder is included, and the README run command omits the script's optional --out argument.",
+    "The included analysis script references only summary.json and scan.csv, so it cannot regenerate the complete archived artifact set.",
+    "The package uses legacy output_data/lean/trace_logs names rather than outputs/proofs/trace.",
+    "No Lean compiler log is present; Lean compilation is not certified.",
+    "The source map names an older Phase 5 ledger as active and omits the current primitive-custody and Orthad law.",
+    "The prime-watch zip is integrity-valid provenance, not a package in the current experiment format."
+  ]
+}

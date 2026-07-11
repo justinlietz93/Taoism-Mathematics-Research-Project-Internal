@@ -1,0 +1,27 @@
+{
+  "step_id": "p5-b1-v4",
+  "artifact_type": "audit-package",
+  "verdict": "REVISE",
+  "adopted": [
+    "affine ceiling bridge",
+    "endpoint partition",
+    "one-step J law",
+    "finite edge metrics"
+  ],
+  "rejected_or_relabelled": {
+    "M": "pairwise edge-shift envelope, not full carry language",
+    "log(1+sqrt(2))": "entropy of edge-shift envelope only",
+    "K": "Parry joint edge measure of edge-shift envelope only"
+  },
+  "key_counterexample": "989 is admitted by M but has empty interval cylinder",
+  "source_package_integrity": "PASS",
+  "symbolic_language_audit": "PASS",
+  "open": [
+    "actual carry language presentation",
+    "actual carry entropy",
+    "actual maximal-entropy measure",
+    "specific-orbit equidistribution",
+    "global threshold bridge",
+    "gauge/FQM map from d_A=\u00b11"
+  ]
+}

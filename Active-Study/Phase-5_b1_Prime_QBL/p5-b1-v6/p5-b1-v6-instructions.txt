@@ -1,0 +1,43 @@
+## Audit verdict
+
+```text
+REVISE
+
+ADOPT_AFFINE_CEILING_AND_J_CORE
+ADOPT_FORBIDDEN_989
+ADOPT_LENGTH3_COUNT_15
+ADOPT_COMPLEXITY_AND_ENTROPY_RESULT_AFTER_PROOF_EXPANSION
+ADOPT_FINITE_BOUNDARY_CERTIFICATE
+
+WITHHOLD_EXACT_MARKOV_WITNESS_STATUS
+WITHHOLD_COMPLETE_LEAN_CERTIFICATE_STATUS
+```
+
+The central result survives:
+
+[
+p(n)=2^{n+1}-1,\qquad h_{\mathrm{affine}}=\log 2.
+]
+
+The archive hash, document hash, 50-file manifest, clean rebuild, outputs, and all 13 notebook cells verify.
+
+The remaining defects are specific:
+
+1. The proof counts refinement boundaries but skips the explicit lemma showing that every complementary arc is one nonempty cylinder and that adjacent arcs carry distinct words.
+2. The Markov-order witnesses use a 95-digit truncated `Decimal` value of (\gamma). They reproduce, but are high-precision numerical witnesses rather than exact certificates.
+3. `ACTUAL CARRY LANGUAGE PRESENTATION: NOT YET DERIVED` is too broad. The interval presentation is already derived. The open item is the **finite-state/sofic presentation**.
+4. The Lean `989` file proves the final conditional inequality only. It does not formalize the carry intervals, the `98` prefix cylinder, or the complete forbidden-word theorem.
+5. Clean rebuilds are semantically reproducible but not byte-identical because notebook cell IDs are regenerated.
+
+The `p5-b1-v6` instructions target the remaining structural fork: determine whether the language is non-sofic and whether expansion of its cylinder intervals proves topological mixing.
+
+* [Download `p5-b1-v5_audit-package_20260711T031229.zip`](sandbox:/mnt/data/p5-b1-v5_audit-package_20260711T031229.zip)
+* [Read the audit results](sandbox:/mnt/data/p5-b1-v5_audit-package_20260711T031229/AUDIT_RESULTS.md)
+* [Read the `p5-b1-v6` agent instructions](sandbox:/mnt/data/p5-b1-v5_audit-package_20260711T031229/OUTGOING_INSTRUCTIONS.md)
+* [Download the SHA-256 file](sandbox:/mnt/data/p5-b1-v5_audit-package_20260711T031229.zip.sha256)
+
+```text
+SHA-256:
+6a113cb9bf4643fbb39f8428e9e645b31067bd63665da0485c1eba41d49749df
+```
+

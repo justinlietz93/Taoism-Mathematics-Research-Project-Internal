@@ -1,0 +1,74 @@
+{
+  "timestamp": "20260711T031229",
+  "package": "p5-b1-v5_audit-package_20260711T031229",
+  "manifest_excludes": [
+    "MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": "AUDIT_RESULTS.md",
+      "bytes": 5214,
+      "sha256": "6e7e8b63deeea53022d5e129de957a8012b54bc89f46892e50d28f12cc0355a7"
+    },
+    {
+      "path": "OUTGOING_INSTRUCTIONS.md",
+      "bytes": 4706,
+      "sha256": "40ff8c821878da404c457a3ca072a45c8648782fae8c7b40be8f900c1162df0b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 699,
+      "sha256": "3ff7ad7aa6d85087849238abd06003e1aa877bf3e2217c84647d4407ef500a1d"
+    },
+    {
+      "path": "SOURCE_MAP.md",
+      "bytes": 564,
+      "sha256": "6f337fb02161636f473276e3359423d18e7c59ab572d34c3e10fcedb38e6a487"
+    },
+    {
+      "path": "outputs/p5-b1-v5_clean-rebuild.log",
+      "bytes": 115,
+      "sha256": "2c9529fad4b898fd1af2c7c21cf7fa332f195ad7d7ffe61efd1f48a53a76e312"
+    },
+    {
+      "path": "outputs/p5-b1-v5_package-verification.json",
+      "bytes": 1563,
+      "sha256": "425825dedb8b4f130a9958ebe444918c889dcb349bad1ffe90eb5a1bc5e81ca2"
+    },
+    {
+      "path": "outputs/p5-b1-v5_package-verification.log",
+      "bytes": 1563,
+      "sha256": "425825dedb8b4f130a9958ebe444918c889dcb349bad1ffe90eb5a1bc5e81ca2"
+    },
+    {
+      "path": "outputs/p5-b1-v5_symbolic-language-audit.json",
+      "bytes": 3193,
+      "sha256": "792687be2f6c97b64cce36be9c16e60009acd9e2b01ad9c96b45ad589f601d58"
+    },
+    {
+      "path": "outputs/p5-b1-v5_symbolic-language-audit.log",
+      "bytes": 3193,
+      "sha256": "792687be2f6c97b64cce36be9c16e60009acd9e2b01ad9c96b45ad589f601d58"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 58,
+      "sha256": "ec6ec55cb3a7d6d4715850472cd873be75650d44ec5d4813159267e7d90d2ec9"
+    },
+    {
+      "path": "scripts/p5-b1-v5_symbolic_language_audit.py",
+      "bytes": 3225,
+      "sha256": "3b1484b299f5253a83d7f5433813e968e975d167d9470492a7fcab168cd07708"
+    },
+    {
+      "path": "scripts/p5-b1-v5_verify_agent_package.py",
+      "bytes": 3125,
+      "sha256": "8dc4bb492a584ffb1915540d1dcf42cd1cde4cebd0af4765a9a63dec54946d43"
+    },
+    {
+      "path": "source-references/p5-b1-v5_audited-artifacts.json",
+      "bytes": 465,
+      "sha256": "354f841a1f75a63ccb477b1bf6c305f8c42d761dcc7b2b32833c4eecd7b59f8b"
+    }
+  ]
+}

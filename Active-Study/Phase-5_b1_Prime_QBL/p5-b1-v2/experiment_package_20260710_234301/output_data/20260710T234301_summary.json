@@ -1,0 +1,182 @@
+{
+  "timestamp": "20260710T234301",
+  "status": "DYADIC_CARRY_EXPLANATION_FOUND_FINITE_THRESHOLD_BRIDGE_CERTIFIED",
+  "authority_boundary": [
+    "primitive Q/B/L custody only",
+    "no R/S/T scheduler",
+    "no terminal projection"
+  ],
+  "scan": {
+    "max_A": 10000,
+    "prime_max_A": 1000,
+    "mp_dps": 3500
+  },
+  "constants": {
+    "phi": "1.6180339887498948482045868343656381177203091798057628621354486227052604628189024",
+    "lambda": "8.6425205424753388741053089975271828147516248561043364898726503773990797061179422",
+    "gamma": "8.4702446042907841279349898711327462608231254359622484836432771029207563998264467",
+    "partition_a": "0.23512230214539206396749493556637313041156271798112424182163855146037819991322335"
+  },
+  "exact_threshold_bridge_scan": {
+    "pass": true,
+    "min_r": "0.0001945773156530118927227675018252321187946",
+    "min_r_A": 1417,
+    "min_one_minus_r": "0.0003478207810847098521247177227533873201485",
+    "min_one_minus_r_A": 1868,
+    "right_leading_margin": "0.0001872658103611687969232126531175109818829",
+    "candidate_binet_bound": "0.00004085885296126587165939682438308756130107",
+    "right_certified_margin": "0.0001464069573999029252638158287344234205818",
+    "left_leading_margin": "0.0003347509457188600504008550864332705615103",
+    "predecessor_binet_bound": "0.0001069461502671804728096286858076429681104",
+    "left_certified_margin": "0.0002278047954516795775912264006256275934"
+  },
+  "carry": {
+    "alphabet": [
+      7,
+      8,
+      9
+    ],
+    "counts": {
+      "7": 2637,
+      "8": 5042,
+      "9": 2321
+    },
+    "forbidden_transitions_observed": [
+      [
+        7,
+        7
+      ],
+      [
+        9,
+        9
+      ]
+    ],
+    "transition_counts": {
+      "7->8": 1475,
+      "7->9": 1162,
+      "8->7": 1316,
+      "8->8": 2568,
+      "8->9": 1158,
+      "9->7": 1321,
+      "9->8": 999
+    },
+    "transition_domain": "A=2..10000; carry is defined from T_A-2T_(A-1) for A>=1"
+  },
+  "defect": {
+    "alphabet": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "counts": {
+      "-2": 1321,
+      "-1": 2315,
+      "0": 2568,
+      "1": 2633,
+      "2": 1162
+    },
+    "identity": "d_A = carry_A - carry_(A-1)",
+    "parity_gate_pass": true,
+    "benchmark": {
+      "-2": "0.132438848927303968016252532217",
+      "-1": "0.235122302145392063967494935566",
+      "0": "0.25",
+      "1": "0.264877697854607936032505064434",
+      "2": "0.117561151072696031983747467783"
+    },
+    "empirical": {
+      "-2": "0.132113211321132113211321132113",
+      "-1": "0.231523152315231523152315231523",
+      "0": "0.256825682568256825682568256826",
+      "1": "0.263326332633263326332633263326",
+      "2": "0.116211621162116211621162116212"
+    },
+    "max_abs_benchmark_deviation": "0.00682568256825682568256825682568",
+    "statistics_domain": "A=2..10000; d_1 is an initial-boundary value and is excluded from carry-transition statistics"
+  },
+  "prime_watch": {
+    "q_prime_domains": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      10,
+      17,
+      33,
+      37,
+      42,
+      54,
+      63,
+      75,
+      93,
+      102,
+      142,
+      205,
+      215,
+      305,
+      323,
+      390,
+      457,
+      469,
+      826
+    ],
+    "b_prime_domains": [
+      4,
+      17,
+      56,
+      72,
+      147,
+      177,
+      200,
+      294,
+      367,
+      878
+    ],
+    "both_prime_domains": [
+      17
+    ],
+    "b_prime_gate_pass": true
+  },
+  "negative_control": {
+    "tripling_d2_values": [
+      16,
+      51,
+      157,
+      466,
+      1400,
+      4201,
+      12601,
+      37801,
+      113407,
+      340223,
+      1020663,
+      3061993,
+      9185981,
+      27557938,
+      82673815
+    ],
+    "pass": true
+  },
+  "claim_boundary": {
+    "proved_abstractly": [
+      "affine dyadic ceiling law gives carry alphabet {7,8,9}",
+      "d_A is adjacent carry difference and lies in {-2,-1,0,1,2}",
+      "B_A is odd iff d_A is odd, hence iff d_A is +/-1",
+      "carry transition graph forbids 7->7 and 9->9"
+    ],
+    "certified_finitely": [
+      "exact Fibonacci threshold agrees with affine ceiling law for A=0..10000",
+      "all B-primes through A=1000 satisfy d_A=+/-1",
+      "only simultaneous Q/B prime through A=1000 is A=17"
+    ],
+    "open": [
+      "global exact Fibonacci-threshold equals affine ceiling law for every A",
+      "equidistribution/normality of the specific dyadic orbit",
+      "any coupling between prime events and Orthad gauge/FQM invariants"
+    ]
+  }
+}

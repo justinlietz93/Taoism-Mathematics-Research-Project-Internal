@@ -1,0 +1,293 @@
+{
+  "constants": {
+    "phi": "1.618033988749894848204586834365638117720309179805762862135448622705260462818902449707207204189391137",
+    "lambda": "8.64252054247533887410530899752718281475162485610433648987265037739907970611794220367716932298414555",
+    "gamma": "8.470244604290784127934989871132746260823125435962248483643277102920756399826446691919982989571372254",
+    "a": "0.2351223021453920639674949355663731304115627179811242418216385514603781999132233459599914947856861271",
+    "p": "0.4702446042907841279349898711327462608231254359622484836432771029207563998264466919199829895713722542",
+    "y0": "8.814796480659893620275628123921619368680124276246424496102023651877403012409437715434355656396918845"
+  },
+  "state_counts": [
+    2637,
+    5042,
+    2321
+  ],
+  "state_frequencies": [
+    0.2637,
+    0.5042,
+    0.2321
+  ],
+  "defect_counts": [
+    1321,
+    2315,
+    2568,
+    2633,
+    1162
+  ],
+  "defect_frequencies": [
+    0.1321132113211321,
+    0.23152315231523152,
+    0.25682568256825683,
+    0.2633263326332633,
+    0.11621162116211621
+  ],
+  "transition_counts": [
+    [
+      0,
+      1475,
+      1162
+    ],
+    [
+      1316,
+      2568,
+      1158
+    ],
+    [
+      1321,
+      999,
+      0
+    ]
+  ],
+  "empirical_joint": [
+    [
+      0.0,
+      0.1475147514751475,
+      0.11621162116211621
+    ],
+    [
+      0.1316131613161316,
+      0.25682568256825683,
+      0.11581158115811581
+    ],
+    [
+      0.1321132113211321,
+      0.0999099909990999,
+      0.0
+    ]
+  ],
+  "metrics_J": {
+    "max_absolute_error": "0.0068256825682568256825682568256825682568256825682568256825682568256825682568256826",
+    "L1_error": "0.014047774522984872770571615379987478043369022030181406333002463062002686548350906",
+    "total_variation": "0.007023887261492436385285807689993739021684511015090703166501231531001343274175453"
+  },
+  "metrics_K_edge_envelope": {
+    "max_absolute_error": "0.049718901381709301281723894720833528971989744879782789094228387830316329025772163",
+    "L1_error": "0.18401018949366275733052021901598593545082271998788322076803369834443433561216997",
+    "total_variation": "0.092005094746831378665260109507992967725411359993941610384016849172217167806084987"
+  },
+  "length3_actual_count": 15,
+  "length3_edge_envelope_count": 17,
+  "word_complexity_1_20": [
+    {
+      "length": 1,
+      "actual_affine_cylinders_exact": 3,
+      "direct_interval_enumeration": 3,
+      "pairwise_edge_envelope_paths": 3,
+      "envelope_excess": 0,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 2,
+      "actual_affine_cylinders_exact": 7,
+      "direct_interval_enumeration": 7,
+      "pairwise_edge_envelope_paths": 7,
+      "envelope_excess": 0,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 3,
+      "actual_affine_cylinders_exact": 15,
+      "direct_interval_enumeration": 15,
+      "pairwise_edge_envelope_paths": 17,
+      "envelope_excess": 2,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 4,
+      "actual_affine_cylinders_exact": 31,
+      "direct_interval_enumeration": 31,
+      "pairwise_edge_envelope_paths": 41,
+      "envelope_excess": 10,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 5,
+      "actual_affine_cylinders_exact": 63,
+      "direct_interval_enumeration": 63,
+      "pairwise_edge_envelope_paths": 99,
+      "envelope_excess": 36,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 6,
+      "actual_affine_cylinders_exact": 127,
+      "direct_interval_enumeration": 127,
+      "pairwise_edge_envelope_paths": 239,
+      "envelope_excess": 112,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 7,
+      "actual_affine_cylinders_exact": 255,
+      "direct_interval_enumeration": 255,
+      "pairwise_edge_envelope_paths": 577,
+      "envelope_excess": 322,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 8,
+      "actual_affine_cylinders_exact": 511,
+      "direct_interval_enumeration": 511,
+      "pairwise_edge_envelope_paths": 1393,
+      "envelope_excess": 882,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 9,
+      "actual_affine_cylinders_exact": 1023,
+      "direct_interval_enumeration": 1023,
+      "pairwise_edge_envelope_paths": 3363,
+      "envelope_excess": 2340,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 10,
+      "actual_affine_cylinders_exact": 2047,
+      "direct_interval_enumeration": 2047,
+      "pairwise_edge_envelope_paths": 8119,
+      "envelope_excess": 6072,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 11,
+      "actual_affine_cylinders_exact": 4095,
+      "direct_interval_enumeration": 4095,
+      "pairwise_edge_envelope_paths": 19601,
+      "envelope_excess": 15506,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 12,
+      "actual_affine_cylinders_exact": 8191,
+      "direct_interval_enumeration": 8191,
+      "pairwise_edge_envelope_paths": 47321,
+      "envelope_excess": 39130,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 13,
+      "actual_affine_cylinders_exact": 16383,
+      "direct_interval_enumeration": "",
+      "pairwise_edge_envelope_paths": 114243,
+      "envelope_excess": 97860,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 14,
+      "actual_affine_cylinders_exact": 32767,
+      "direct_interval_enumeration": "",
+      "pairwise_edge_envelope_paths": 275807,
+      "envelope_excess": 243040,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 15,
+      "actual_affine_cylinders_exact": 65535,
+      "direct_interval_enumeration": "",
+      "pairwise_edge_envelope_paths": 665857,
+      "envelope_excess": 600322,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 16,
+      "actual_affine_cylinders_exact": 131071,
+      "direct_interval_enumeration": "",
+      "pairwise_edge_envelope_paths": 1607521,
+      "envelope_excess": 1476450,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 17,
+      "actual_affine_cylinders_exact": 262143,
+      "direct_interval_enumeration": "",
+      "pairwise_edge_envelope_paths": 3880899,
+      "envelope_excess": 3618756,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 18,
+      "actual_affine_cylinders_exact": 524287,
+      "direct_interval_enumeration": "",
+      "pairwise_edge_envelope_paths": 9369319,
+      "envelope_excess": 8845032,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 19,
+      "actual_affine_cylinders_exact": 1048575,
+      "direct_interval_enumeration": "",
+      "pairwise_edge_envelope_paths": 22619537,
+      "envelope_excess": 21570962,
+      "exact_method": "boundary-preimage theorem"
+    },
+    {
+      "length": 20,
+      "actual_affine_cylinders_exact": 2097151,
+      "direct_interval_enumeration": "",
+      "pairwise_edge_envelope_paths": 54608393,
+      "envelope_excess": 52511242,
+      "exact_method": "boundary-preimage theorem"
+    }
+  ],
+  "finite_boundary_certificate": {
+    "method": "mpmath.iv outward-rounded interval arithmetic",
+    "mpmath_version": "1.3.0",
+    "decimal_digits": 3300,
+    "gamma_interval": {
+      "lower": "8.4702446042907841279349898711327462608231254359622484836432771029207563998264466919199829895713722542088597783547727034",
+      "upper": "8.4702446042907841279349898711327462608231254359622484836432771029207563998264466919199829895713722542088597783547727034",
+      "width": "7.71505065410362454999420828193120360014681728784218722863417950629767959500907464446257615571418458736217188045052827481e-3300"
+    },
+    "a_interval": {
+      "lower": "0.235122302145392063967494935566373130411562717981124241821638551460378199913223345959991494785686127104429889177386351701",
+      "upper": "0.235122302145392063967494935566373130411562717981124241821638551460378199913223345959991494785686127104429889177386351701",
+      "width": "3.8575253270518122749971041409656018000734086439210936143170897531488397975045373222312880778570922936810859402252641374e-3300"
+    },
+    "y0_interval": {
+      "lower": "8.81479648065989362027562812392161936868012427624642449610202365187740301240943771543435565639691884536646739892973888373",
+      "upper": "8.81479648065989362027562812392161936868012427624642449610202365187740301240943771543435565639691884536646739892973888373",
+      "width": "2.05734684109429987999845554184832096003915127675791659430244786834604789200241990519002030819044922329657916812014087328e-3299"
+    },
+    "E0_interval": {
+      "lower": "-0.18520351934010637972437187607838063131987572375357550389797634812259698759056228456564434360308115463353260107026111627",
+      "upper": "-0.18520351934010637972437187607838063131987572375357550389797634812259698759056228456564434360308115463353260107026111627",
+      "width": "2.05734684109429987999845554184832096003915127675791659430244786834604789200241990519002030819044922329657916812014087328e-3299"
+    },
+    "all_imported_carries_certified": true,
+    "certified_carry_steps": 10000,
+    "all_E_A_boundary_disjoint_for_A_0_10000": true,
+    "minimum_boundary_distance_lower_bound": {
+      "A": 1416,
+      "boundary": "b7",
+      "distance_lower_bound": "0.0000972886578265059463613837509126160593972980625695725222419052083488155622623262037317601713999371329179548992365886789964",
+      "E_interval": {
+        "lower": "-0.73521959080321856991385631931728574647096001604369381434388045666872701547548567216372325495708606423734784407662294038",
+        "upper": "-0.73521959080321856991385631931728574647096001604369381434388045666872701547548567216372325495708606423734784407662294038",
+        "width": "5.12960675353601237125039652483373220795007368150430890564541228187468119150865633290026748975921347827379035449152029421e-2873"
+      },
+      "boundary_interval": {
+        "lower": "-0.735122302145392063967494935566373130411562717981124241821638551460378199913223345959991494785686127104429889177386351701",
+        "upper": "-0.735122302145392063967494935566373130411562717981124241821638551460378199913223345959991494785686127104429889177386351701",
+        "width": "3.8575253270518122749971041409656018000734086439210936143170897531488397975045373222312880778570922936810859402252641374e-3300"
+      }
+    },
+    "maximum_orbit_interval_width": "5.64373810178526734283704027260205632687047918756941594617872441211609614703745251588738458567147023114749159028711825257e-289",
+    "final_E10000_interval": {
+      "lower": "-0.861566934659181302461285316221061535678796237013690523943578768348861740441284181625024430843393343211249340670496953188",
+      "upper": "-0.861566934659181302461285316221061535678796237013690523943578768348861740441284181625024430843393343211249340670496953188",
+      "width": "5.64373810178526734283704027260205632687047918756941594617872441211609614703745251588738458567147023114749159028711825257e-289"
+    },
+    "scope": "finite affine orbit A=0..10000 only; global nonintegrality is not proved"
+  },
+  "finite_threshold_status": "IMPORTED PRIOR FINITE CERTIFICATE; this package validates its row/carry/transition integrity but does not rerun the Fibonacci-threshold verifier"
+}

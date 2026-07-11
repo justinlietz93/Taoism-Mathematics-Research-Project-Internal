@@ -1,0 +1,138 @@
+{
+  "timestamp": "20260710T234301",
+  "package": "experiment_package_20260710_234301",
+  "status": "DYADIC_CARRY_EXPLANATION_FOUND_FINITE_THRESHOLD_BRIDGE_CERTIFIED",
+  "file_count": 26,
+  "files": [
+    {
+      "path": "FINDINGS.md",
+      "bytes": 3672,
+      "sha256": "31e3a3cb5f53402119f76fb9282b8140b58b4c2419a95bb0b1cfceb46ebfd995"
+    },
+    {
+      "path": "README.md",
+      "bytes": 856,
+      "sha256": "5394c548bb0656f098cf78dc07437aba9ba07423c7d01285ffe1255e1d3b4d51"
+    },
+    {
+      "path": "docs/20260710T234301_RESULTS.md",
+      "bytes": 1554,
+      "sha256": "3a0da267fbfbef291657eb3b622b096228004faaf770d6e2d333ff27d1d9760a"
+    },
+    {
+      "path": "figures/20260710T234301_b_prime_events.png",
+      "bytes": 38080,
+      "sha256": "bf3954693871e552de19968fa6b6f72813027a123733065b5095610cd106d0c3"
+    },
+    {
+      "path": "figures/20260710T234301_carry_histogram.png",
+      "bytes": 37627,
+      "sha256": "cfa65bb7cbadd4e7a156c74d2420d1f77187140408e99e87c20fd3f93f67db74"
+    },
+    {
+      "path": "figures/20260710T234301_carry_transition_matrix.png",
+      "bytes": 47588,
+      "sha256": "e0ea47e6b64706f41654abbc28f3add30e0445ab82324f9bb81072f4a12976a0"
+    },
+    {
+      "path": "figures/20260710T234301_defect_frequency_benchmark.png",
+      "bytes": 47498,
+      "sha256": "75cf3dbc328bb70b868e91b73273b905f9b9ecf4936da0207370b654a9fc3ceb"
+    },
+    {
+      "path": "figures/20260710T234301_defect_histogram.png",
+      "bytes": 38535,
+      "sha256": "a0731f3812d22d01bb7cd251b97882ee319aaf46fc550afa141c58b49dd419cb"
+    },
+    {
+      "path": "figures/20260710T234301_dyadic_ceiling_orbit.png",
+      "bytes": 273409,
+      "sha256": "08ba10f3ede3e99de2f8d6bae374cdc82f33ff5c227905a6156cf480ed5d2f5b"
+    },
+    {
+      "path": "figures/20260710T234301_tripling_negative_control.png",
+      "bytes": 70781,
+      "sha256": "e4bf7e5eaf3e3ecf25240df0e2247eb0d248b9527ca4612f48e19ba35dcb38a1"
+    },
+    {
+      "path": "inputs/20260710T234301_ASSUMPTION_LOCK.md",
+      "bytes": 509,
+      "sha256": "44d39f181549f09ca60390f011439d868be8fb92b3cc1ce3350a6e6a5f88e805"
+    },
+    {
+      "path": "inputs/QBL_PRIME_PATTERN_WATCH_v1.md",
+      "bytes": 9215,
+      "sha256": "7a65ee17c70f7fa18f2b3adc939289998121ddcdeb32d4c1177959ae89e6958e"
+    },
+    {
+      "path": "inputs/p5-orthad-PHASE5_CANONICAL_LEDGER_v3.md",
+      "bytes": 38763,
+      "sha256": "49e87de491fdeb57c1017eb62260fbe4493b031663d9734a089c0d42a9179c14"
+    },
+    {
+      "path": "lab-journal.md",
+      "bytes": 1717,
+      "sha256": "f246029d9739a04ff684d83959d67302eedab2ee1d1de8368664ccd39eaa0fe3"
+    },
+    {
+      "path": "lean/20260710T234301_QBLBDefect.lean",
+      "bytes": 979,
+      "sha256": "e7469c51ce1dc09e76b9e89a266b7b08f24a442b52d9ec287531a75013ad32c9"
+    },
+    {
+      "path": "notebooks/20260710T234301_QBL_B_Defect_Investigation.ipynb",
+      "bytes": 270624,
+      "sha256": "afe900bf312d959f9918653451e627dabf16f79212aacf3be5ca159f7830ee14"
+    },
+    {
+      "path": "output_data/20260710T234301_carry_defect_A0_A10000.csv",
+      "bytes": 492542,
+      "sha256": "259959f6048a881325c72dad6f4e4455bb9a408e4a3e689b59db13a2f6b33b24"
+    },
+    {
+      "path": "output_data/20260710T234301_exact_counts_A0_A1000.csv",
+      "bytes": 474786,
+      "sha256": "d9f4124e1bf0e0b992107698bbc002d201734a8c624b61980d9cb86c50fc4bed"
+    },
+    {
+      "path": "output_data/20260710T234301_qbl_b_defect.db",
+      "bytes": 1089536,
+      "sha256": "9560af79c9b405431099cfa3b5d4d74d7ee8b2d84ce911a0f2b0b188201a8a7b"
+    },
+    {
+      "path": "output_data/20260710T234301_qbl_b_defect.h5",
+      "bytes": 1223608,
+      "sha256": "7320c258d364e0ef111419510d366663a8eed08a64b3fc4c8d1bcbbf419b601b"
+    },
+    {
+      "path": "output_data/20260710T234301_summary.json",
+      "bytes": 4500,
+      "sha256": "96070c6f8b0f900ec6288a0154c3ea7d73d6e646eda2cf78cabcc3c5bfd63593"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 47,
+      "sha256": "934a3e7f393362e2c557a5bb33a4982566b72bc9d8d10ed445c0a126f5ced1b4"
+    },
+    {
+      "path": "scripts/20260710T234301_qbl_b_defect_investigation.py",
+      "bytes": 3309,
+      "sha256": "24235da9fd9fd19ac1639a99b33f030759a5a28fcb26a5987875a945e7360daf"
+    },
+    {
+      "path": "source_maps/20260710T234301_SOURCE_MAP.md",
+      "bytes": 904,
+      "sha256": "78d25f636303bec4845e931e6f64021a027165dedda50aa8d4e6e40702c4a233"
+    },
+    {
+      "path": "trace_logs/20260710T234301_carry_trace.jsonl",
+      "bytes": 1392716,
+      "sha256": "1bc3310df4209df047c1dc0643fa359e0f11e98f4d75d0ab18795d808473537e"
+    },
+    {
+      "path": "trace_logs/20260710T234301_transition_trace.jsonl",
+      "bytes": 345,
+      "sha256": "4bde60fd8803a6be70e2c459d4285cbd30715540378997a1c719a6310c729151"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+[Download the completed J derivation and research-boundary document](sandbox:/mnt/data/QBL_CARRY_J_DERIVATION_AND_RESEARCH_BOUNDARY_v1.md)
+
+```text
+SHA256:
+0509505200e2d3289363934103570b3cc36833aeda6be3e9d27ced3bc0835bc8
+```
+
+The document closes the short track:
+
+[
+J=
+\begin{pmatrix}
+0 & \dfrac{1-3a}{2} & \dfrac a2[2mm]
+\dfrac{1-2a}{4} & \dfrac14 & \dfrac a2[2mm]
+\dfrac{1-2a}{4} & \dfrac{3a}{2}-\dfrac14 & 0
+\end{pmatrix}.
+]
+
+One correction emerged: there are **seven** nonzero entries, not six. There are six nonzero off-diagonal transitions plus
+
+[
+J_{88}=\frac14.
+]
+
+It includes:
+
+* the interval-by-interval derivation of every entry;
+* the geometric proofs that (7\to7) and (9\to9) have zero measure;
+* exact recovery of the five benchmark defect frequencies;
+* the Perron root (1+\sqrt2), entropy (\log(1+\sqrt2)), and Parry measure;
+* the requested Parry/Lebesgue/empirical comparison table;
+* an explicit evidence-only boundary for equidistribution;
+* the arithmetic-only status of (d_A=\pm1);
+* the separate Binet versus linear-forms-in-logarithms route for the global threshold theorem.
+
+The strategic conclusion is **yes, derive (J) first**. It is closed from the interval coding and clarifies that the observed orbit follows the Lebesgue geometry much more closely than the Parry maximal-entropy measure. It does not prove that the specific orbit is equidistributed; the package itself correctly keeps that as evidence and leaves the all-(A) threshold bridge open.  
+
+The two hard holds are stated explicitly:
+
+```text
+A gauge/FQM transformation attached specifically to d_A = +/-1
+is NOT YET DERIVED.
+
+The global all-A identity T_A = ceil(y_A)
+is NOT YET PROVED.
+```
+
+That FQM hold is required because the exact all-depth pairing recurrence, chart maps, bidirectional transfers, and multi-axis FQM construction remain open. The Orthad law also states that operation counts are not substitutes for the complete word-built construction. 
+

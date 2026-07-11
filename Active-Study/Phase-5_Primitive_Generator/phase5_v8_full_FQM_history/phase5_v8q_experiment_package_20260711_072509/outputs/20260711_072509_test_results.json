@@ -1,0 +1,6 @@
+{
+  "command": "python -m pytest -q tests",
+  "exit_code": 0,
+  "failed": 0,
+  "passed": 8
+}

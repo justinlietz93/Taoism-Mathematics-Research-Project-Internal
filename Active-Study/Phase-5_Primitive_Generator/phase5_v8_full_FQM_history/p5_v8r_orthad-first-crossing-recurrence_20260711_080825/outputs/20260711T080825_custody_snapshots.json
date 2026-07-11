@@ -1,0 +1,50 @@
+{
+  "before_first_L": {
+    "A": 0,
+    "j": 6,
+    "k": 5,
+    "pair": [
+      55,
+      89
+    ],
+    "pair_product": 4895,
+    "phase_label": "i",
+    "phase_mod4": 1,
+    "phase_quarters": 5,
+    "u": 55,
+    "v": 89,
+    "word": "BQQBBBQBQBBQBB"
+  },
+  "immediately_after_first_L": {
+    "A": 1,
+    "j": 7,
+    "k": 0,
+    "pair": [
+      55,
+      89
+    ],
+    "pair_product": 4895,
+    "phase_label": "i",
+    "phase_mod4": 1,
+    "phase_quarters": 5,
+    "u": 55,
+    "v": 89,
+    "word": "BQQBBBQBQBBQBBL"
+  },
+  "immediately_after_first_next_domain_B": {
+    "A": 1,
+    "j": 7,
+    "k": 0,
+    "pair": [
+      89,
+      144
+    ],
+    "pair_product": 12816,
+    "phase_label": "i",
+    "phase_mod4": 1,
+    "phase_quarters": 5,
+    "u": 89,
+    "v": 144,
+    "word": "BQQBBBQBQBBQBBLB"
+  }
+}

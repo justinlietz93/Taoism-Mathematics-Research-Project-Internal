@@ -1,0 +1,41 @@
+The `J` track remains closed **on the affine ceiling model** after adding the missing bridge, endpoint law, conditional dynamics, Parry edge law, and direct empirical comparison.
+
+[Corrected Markdown document](sandbox:/mnt/data/QBL_CARRY_J_DERIVATION_AND_RESEARCH_BOUNDARY_v2.md)
+
+[Complete experiment package](sandbox:/mnt/data/experiment_package_20260711_064604.zip)
+
+```text
+Document SHA-256:
+87bb9fc406613784f9524464c175b4d42e3fa6fc2d789ba83a17bcab59723ed5
+
+Package SHA-256:
+39b8ffb62d90afc09169ea4a863ce3661fae36d89063eb1121ba0438cf0ccbe2
+```
+
+The package reproduces the audit values:
+
+```text
+Empirical versus J
+max error: 0.006825682568256826
+L1 error:  0.014047774522984873
+TV:        0.007023887261492436
+
+Empirical versus Parry K
+max error: 0.049718901381709301
+L1 error:  0.184010189493662757
+TV:        0.092005094746831379
+```
+
+It contains separate source and executed notebooks, ten PASS claim cells with one inline figure each, extracted figures, symbolic and numerical outputs, full transition traces, the current Orthad law as primary authority, a reproducible builder, and a verified manifest covering every package file except `MANIFEST.json`.
+
+No boundary hit was found through `A=10000`; the smallest computed separation was approximately (9.7289\times10^{-5}) at `A=1416`. This remains a finite high-precision result, not a global nonintegrality theorem.
+
+The two required holds remain:
+
+```text
+GAUGE/FQM MAP FROM d_A=±1: NOT YET DERIVED
+GLOBAL T_A=ceil(y_A) BRIDGE: NOT YET PROVED
+```
+
+Lean was unavailable in the container. The theorem surface and compiler-attempt log are included, but Lean compilation is not claimed.
+

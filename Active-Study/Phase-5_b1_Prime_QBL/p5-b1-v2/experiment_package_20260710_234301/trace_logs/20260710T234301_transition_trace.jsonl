@@ -1,0 +1,7 @@
+{"from": 7, "to": 8, "count": 1475, "defect": 1}
+{"from": 7, "to": 9, "count": 1162, "defect": 2}
+{"from": 8, "to": 7, "count": 1316, "defect": -1}
+{"from": 8, "to": 8, "count": 2568, "defect": 0}
+{"from": 8, "to": 9, "count": 1158, "defect": 1}
+{"from": 9, "to": 7, "count": 1321, "defect": -2}
+{"from": 9, "to": 8, "count": 999, "defect": -1}

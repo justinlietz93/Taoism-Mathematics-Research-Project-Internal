@@ -1,0 +1,55 @@
+The bounded correction is not accidental. It comes from a **three-symbol dyadic carry process**:
+
+[
+c_A=T_A-2T_{A-1}\in{7,8,9},
+]
+
+and, for (A\ge 2),
+
+[
+d_A=B_A-2B_{A-1}=c_A-c_{A-1}.
+]
+
+Therefore,
+
+[
+\boxed{d_A\in{-2,-1,0,1,2}}.
+]
+
+The exact Fibonacci threshold agrees with this affine-ceiling model for every domain tested through (A=10{,}000), with positive Binet-corrected margins. The carry word is a symbolic coding of a translated doubling orbit, with the transition restrictions:
+
+```text
+7 -> 8 or 9
+8 -> 7, 8, or 9
+9 -> 7 or 8
+```
+
+So `7→7` and `9→9` are impossible after the initial boundary.
+
+The prime gate is also exact within this structure:
+
+[
+B_A=2B_{A-1}+d_A,
+]
+
+so (B_A) is odd exactly when
+
+[
+d_A=\pm1.
+]
+
+Every B-prime through (A=1000) passes that nearest-neighbor carry gate. The tripling-growth negative control destroys the five-symbol bound, confirming that the structure is specifically tied to dyadic dimensional expansion.
+
+[Download the completed experiment package](sandbox:/mnt/data/experiment_package_20260710_234301.zip)
+
+[Open the primary findings](sandbox:/mnt/data/experiment_package_20260710_234301/FINDINGS.md)
+
+```text
+SHA256:
+2d4d5851c45f21a7c210c13ad60d69089edb15b3d07d1e338bdd221604a982f2
+```
+
+The package follows the supplied format and contains the executed no-I/O notebook, deterministic script, CSV/JSON/SQLite/HDF5 outputs, trace logs, static figures, source map, lab journal, Lean theorem surface, and verified manifest. Lean was unavailable in the container, so Lean compilation is not claimed.
+
+The remaining serious questions are the global all-(A) threshold/ceiling theorem, equidistribution of this particular logarithmic dyadic orbit, and whether prime carry events coincide with changes in full Orthad gauge/FQM invariants.
+

@@ -1,0 +1,61 @@
+[Corrected Markdown document](sandbox:/mnt/data/QBL_CARRY_J_DERIVATION_AND_SYMBOLIC_BOUNDARY_v3.md)
+
+[Complete p5-b1-v5 experiment package](sandbox:/mnt/data/p5-b1-v5_symbolic-carry-language_20260711T074914.zip)
+
+```text
+Document SHA-256:
+c1e7c50beff37b7186e07f67a6c84ead07a3e5839de9652414e13cea0fca91f6
+
+Package SHA-256:
+94fe453557d0185418cfcd8a67d20646e4fe4754f3a6be0466b1a75517236577
+```
+
+The pass establishes for the **affine carry coding**:
+
+[
+989\notin\mathcal L,
+\qquad
+#\mathcal L_3=15,
+\qquad
+p(n)=2^{n+1}-1,
+\qquad
+h_{\mathrm{affine}}=\log 2.
+]
+
+Thus the actual affine entropy is proved, while
+
+[
+\log(1+\sqrt2)
+]
+
+is retained only as the entropy of the pairwise edge-shift envelope defined by (M). The envelope has 17 length-three paths, including the impossible words `787` and `989`.
+
+The package also includes:
+
+* exact length-three cylinders;
+* complexity data through length 20;
+* direct interval enumeration through length 12;
+* finite counterexamples to Markov orders 1 through 10;
+* corrected (M/K) labeling and empirical comparisons;
+* an outward-rounded interval certificate for (A=0\ldots10000);
+* source and executed no-I/O notebooks with 13 PASS cells and one figure per cell;
+* strengthened derivation and rebuild scripts;
+* Lean theorem surfaces for (J) and forbidden `989`;
+* a verified manifest and successful clean extraction/rebuild.
+
+Lean was unavailable, so:
+
+```text
+LEAN SOURCE PRESENT; COMPILATION NOT VERIFIED
+```
+
+The remaining boundaries are unchanged:
+
+```text
+ACTUAL CARRY LANGUAGE PRESENTATION: NOT YET DERIVED
+ACTUAL CARRY LANGUAGE MIXING: NOT YET DERIVED
+SPECIFIC-ORBIT EQUIDISTRIBUTION: NOT PROVED
+GLOBAL T_A=ceil(y_A) BRIDGE: NOT YET PROVED
+GAUGE/FQM MAP FROM d_A=±1: NOT YET DERIVED
+```
+

@@ -1,0 +1,9 @@
+{
+  "step_id": "p5-b1-v5",
+  "agent_package": "p5-b1-v5_symbolic-carry-language_20260711T074914.zip",
+  "agent_package_sha256": "94fe453557d0185418cfcd8a67d20646e4fe4754f3a6be0466b1a75517236577",
+  "corrected_document": "QBL_CARRY_J_DERIVATION_AND_SYMBOLIC_BOUNDARY_v3.md",
+  "corrected_document_sha256": "c1e7c50beff37b7186e07f67a6c84ead07a3e5839de9652414e13cea0fca91f6",
+  "next_step_id": "p5-b1-v6",
+  "audit_package": "p5-b1-v5_audit-package_20260711T031229"
+}

@@ -1,0 +1,17 @@
+{
+  "source_archive": {
+    "name": "experiment_package_20260711_064604.zip",
+    "sha256": "39b8ffb62d90afc09169ea4a863ce3661fae36d89063eb1121ba0438cf0ccbe2"
+  },
+  "corrected_document": {
+    "path_inside_archive": "experiment_package_20260711_064604/docs/QBL_CARRY_J_DERIVATION_AND_RESEARCH_BOUNDARY_v2.md",
+    "sha256": "87bb9fc406613784f9524464c175b4d42e3fa6fc2d789ba83a17bcab59723ed5"
+  },
+  "audit_focus": [
+    "pairwise support matrix M was treated as the full symbolic language",
+    "edge-shift entropy was assigned to the actual carry coding",
+    "Parry edge measure K was assigned to the actual carry coding",
+    "notebook empirical arrays were hardcoded",
+    "finite boundary scan lacked outward-rounded certification"
+  ]
+}

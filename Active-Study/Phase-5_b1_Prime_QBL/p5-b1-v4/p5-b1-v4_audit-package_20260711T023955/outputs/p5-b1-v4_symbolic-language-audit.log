@@ -1,0 +1,10 @@
+PASS
+{
+  "length1_count_is_3": true,
+  "length2_count_is_7": true,
+  "length3_actual_count_is_15": true,
+  "length3_envelope_count_is_17": true,
+  "forbidden_989": true,
+  "actual_missing_envelope_words_match": true,
+  "edge_envelope_entropy_exceeds_degree2_bound": true
+}

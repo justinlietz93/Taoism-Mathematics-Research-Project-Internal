@@ -1,0 +1,11 @@
+{"check": "subject_zip_sha256", "detail": "906787a686458477fefc8e042832682aa3f3ba8c232667d235a15512c3273e75", "result": true}
+{"check": "expected_first_crossing_word", "detail": "BQQBBBQBQBBQBBL", "result": true}
+{"check": "package_baseline_word_is_BL", "detail": "BL", "result": true}
+{"check": "package_executes_zero_Q_in_baseline", "detail": 0, "result": true}
+{"check": "canonical_word_replay_survival_gate", "detail": "8/12", "result": false}
+{"check": "pair_carried_after_L", "detail": [1, 1], "result": false}
+{"check": "next_B_pair_correct", "detail": {"actual": [1, 2], "expected": [89, 144]}, "result": false}
+{"check": "pre_L_omega_causal", "detail": true, "result": false}
+{"check": "post_L_lens_causal", "detail": true, "result": false}
+{"check": "verifier_rejects_destroyed_evidence", "detail": {"exit_code": 0, "payload": {"ablation_gate_failures": [], "evidence_failures": [], "global_pass": true, "lexeme_hits": []}}, "result": false}
+{"check": "verifier_rejects_duplicate_rows", "detail": {"exit_code": 0, "payload": {"ablation_gate_failures": [], "evidence_failures": [], "global_pass": true, "lexeme_hits": []}}, "result": false}

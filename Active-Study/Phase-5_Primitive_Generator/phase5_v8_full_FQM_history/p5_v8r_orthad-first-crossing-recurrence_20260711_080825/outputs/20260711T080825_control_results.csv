@@ -1,0 +1,17 @@
+control,target_gate,target_gate_fired,observed_detail
+missing_snapshots,REQUIRED_FILES,True,present=10/11
+duplicate_trace_step,TRACE_UNIQUE_STEPS,True,step indices 1..16
+mutate_word,EXACT_WORD,True,word=QQQBBBQBQBBQBBL
+reset_pair_at_l,FIRST_L_CARRY,True,"{'A': 1, 'j': 7, 'k': 0, 'pair': [1, 1], 'pair_product': 4895, 'phase_label': 'i', 'phase_mod4': 1, 'phase_quarters': 5, 'u': 55, 'v': 89, 'word': 'BQQBBBQBQBBQBBL'}"
+reset_phase_at_l,FIRST_L_CARRY,True,"{'A': 1, 'j': 7, 'k': 0, 'pair': [55, 89], 'pair_product': 4895, 'phase_label': 'i', 'phase_mod4': 1, 'phase_quarters': 0, 'u': 55, 'v': 89, 'word': 'BQQBBBQBQBBQBBL'}"
+wrong_next_pair,FIRST_NEXT_DOMAIN_B,True,"{'A': 1, 'j': 7, 'k': 0, 'pair': [1, 2], 'pair_product': 12816, 'phase_label': 'i', 'phase_mod4': 1, 'phase_quarters': 5, 'u': 89, 'v': 144, 'word': 'BQQBBBQBQBBQBBLB'}"
+hardcoded_i,ACTIVE_AXIS_RECURRENCE,True,Domain-0 shorthand and L mutation recomputed
+fixed_12_pre_l,ENGINE_EVIDENCE_RECOMPUTED,True,trace equals fresh engine run
+inject_lap_sign,TRACE_SCHEMA,True,rows=16
+underived_matrix_file,OUTPUT_SCHEMA_ALLOWLIST,True,"outputs=['active_axis_trace.csv', 'active_axis_trace.json', 'boundary_results.json', 'build_environment.json', 'control_results.csv', 'control_results.json', 'custody_snapshots.json', 'gate_results.csv', 'gate_results.json', 'lean_compile_status.json', 'notebook_execution.json', 'overset_consistency.json', 'primary_pairing.json', 'recurrence_assessment.json', 'reproducibility_comparison.json', 'source_constraint_table.csv', 'source_provenance.csv', 'statuses.json', 'test_results.json']"
+projection_file,OUTPUT_SCHEMA_ALLOWLIST,True,"outputs=['active_axis_trace.csv', 'active_axis_trace.json', 'boundary_results.json', 'build_environment.json', 'control_results.csv', 'control_results.json', 'custody_snapshots.json', 'gate_results.csv', 'gate_results.json', 'lean_compile_status.json', 'notebook_execution.json', 'overset_consistency.json', 'projection.json', 'recurrence_assessment.json', 'reproducibility_comparison.json', 'source_constraint_table.csv', 'source_provenance.csv', 'statuses.json', 'test_results.json']"
+false_pytest_summary,PYTEST_RESULT_VALID,True,"{'collected': 9, 'errors': 0, 'exit_status': 0, 'failed': 1, 'passed': 9, 'skipped': 0}"
+false_notebook_summary,EXECUTED_NOTEBOOK_COMPLETE,True,"{'all_code_cells_executed': False, 'code_cells': 4, 'pass_outputs': 4, 'stable_cell_ids': True}"
+false_reproducibility_summary,REPRODUCIBILITY_COMPARISON,True,"{'byte_compared': [], 'clean_rebuild_status': 'FAIL', 'contract': 'NORMALIZED_SEMANTIC_REPRODUCIBILITY', 'files_compared': 0, 'mismatches': ['control'], 'normalized_exclusions': [], 'stable_notebook_cell_ids': True, 'temporary_paths_in_sealed_evidence': False}"
+remove_missing_equation,RECURRENCE_HARD_STOP,True,
+forbidden_live_lexeme,LIVE_SOURCE_LEXEME_BOUNDARIES,True,['assessment.py:45:# candidate ranking']

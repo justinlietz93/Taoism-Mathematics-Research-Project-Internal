@@ -1,0 +1,298 @@
+{
+  "recurrence": {
+    "B": "after (u,v)->(v,u+v), denominator:=u*v and phase is retained",
+    "L": "latch a; append a new active axis 1; global pair and phase carry",
+    "Q": "local_phase:=local_phase+1; a:=i*a; denominator retained",
+    "seed": "a=1, local_phase=0, denominator=1"
+  },
+  "rows": [
+    {
+      "A": 0,
+      "active_axis": "1/2",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 0,
+      "active_phase_quarters": 0,
+      "denominator": 2,
+      "global_phase_quarters": 0,
+      "latched_axis": null,
+      "pair": [
+        1,
+        2
+      ],
+      "phase_factor": "1",
+      "primitive": "B",
+      "step_index": 1,
+      "word_prefix": "B"
+    },
+    {
+      "A": 0,
+      "active_axis": "i/2",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 1,
+      "active_phase_quarters": 1,
+      "denominator": 2,
+      "global_phase_quarters": 1,
+      "latched_axis": null,
+      "pair": [
+        1,
+        2
+      ],
+      "phase_factor": "i",
+      "primitive": "Q",
+      "step_index": 2,
+      "word_prefix": "BQ"
+    },
+    {
+      "A": 0,
+      "active_axis": "-1/2",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 2,
+      "active_phase_quarters": 2,
+      "denominator": 2,
+      "global_phase_quarters": 2,
+      "latched_axis": null,
+      "pair": [
+        1,
+        2
+      ],
+      "phase_factor": "-1",
+      "primitive": "Q",
+      "step_index": 3,
+      "word_prefix": "BQQ"
+    },
+    {
+      "A": 0,
+      "active_axis": "-1/6",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 2,
+      "active_phase_quarters": 2,
+      "denominator": 6,
+      "global_phase_quarters": 2,
+      "latched_axis": null,
+      "pair": [
+        2,
+        3
+      ],
+      "phase_factor": "-1",
+      "primitive": "B",
+      "step_index": 4,
+      "word_prefix": "BQQB"
+    },
+    {
+      "A": 0,
+      "active_axis": "-1/15",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 2,
+      "active_phase_quarters": 2,
+      "denominator": 15,
+      "global_phase_quarters": 2,
+      "latched_axis": null,
+      "pair": [
+        3,
+        5
+      ],
+      "phase_factor": "-1",
+      "primitive": "B",
+      "step_index": 5,
+      "word_prefix": "BQQBB"
+    },
+    {
+      "A": 0,
+      "active_axis": "-1/40",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 2,
+      "active_phase_quarters": 2,
+      "denominator": 40,
+      "global_phase_quarters": 2,
+      "latched_axis": null,
+      "pair": [
+        5,
+        8
+      ],
+      "phase_factor": "-1",
+      "primitive": "B",
+      "step_index": 6,
+      "word_prefix": "BQQBBB"
+    },
+    {
+      "A": 0,
+      "active_axis": "-i/40",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 3,
+      "active_phase_quarters": 3,
+      "denominator": 40,
+      "global_phase_quarters": 3,
+      "latched_axis": null,
+      "pair": [
+        5,
+        8
+      ],
+      "phase_factor": "-i",
+      "primitive": "Q",
+      "step_index": 7,
+      "word_prefix": "BQQBBBQ"
+    },
+    {
+      "A": 0,
+      "active_axis": "-i/104",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 3,
+      "active_phase_quarters": 3,
+      "denominator": 104,
+      "global_phase_quarters": 3,
+      "latched_axis": null,
+      "pair": [
+        8,
+        13
+      ],
+      "phase_factor": "-i",
+      "primitive": "B",
+      "step_index": 8,
+      "word_prefix": "BQQBBBQB"
+    },
+    {
+      "A": 0,
+      "active_axis": "1/104",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 0,
+      "active_phase_quarters": 4,
+      "denominator": 104,
+      "global_phase_quarters": 4,
+      "latched_axis": null,
+      "pair": [
+        8,
+        13
+      ],
+      "phase_factor": "1",
+      "primitive": "Q",
+      "step_index": 9,
+      "word_prefix": "BQQBBBQBQ"
+    },
+    {
+      "A": 0,
+      "active_axis": "1/273",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 0,
+      "active_phase_quarters": 4,
+      "denominator": 273,
+      "global_phase_quarters": 4,
+      "latched_axis": null,
+      "pair": [
+        13,
+        21
+      ],
+      "phase_factor": "1",
+      "primitive": "B",
+      "step_index": 10,
+      "word_prefix": "BQQBBBQBQB"
+    },
+    {
+      "A": 0,
+      "active_axis": "1/714",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 0,
+      "active_phase_quarters": 4,
+      "denominator": 714,
+      "global_phase_quarters": 4,
+      "latched_axis": null,
+      "pair": [
+        21,
+        34
+      ],
+      "phase_factor": "1",
+      "primitive": "B",
+      "step_index": 11,
+      "word_prefix": "BQQBBBQBQBB"
+    },
+    {
+      "A": 0,
+      "active_axis": "i/714",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 1,
+      "active_phase_quarters": 5,
+      "denominator": 714,
+      "global_phase_quarters": 5,
+      "latched_axis": null,
+      "pair": [
+        21,
+        34
+      ],
+      "phase_factor": "i",
+      "primitive": "Q",
+      "step_index": 12,
+      "word_prefix": "BQQBBBQBQBBQ"
+    },
+    {
+      "A": 0,
+      "active_axis": "i/1870",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 1,
+      "active_phase_quarters": 5,
+      "denominator": 1870,
+      "global_phase_quarters": 5,
+      "latched_axis": null,
+      "pair": [
+        34,
+        55
+      ],
+      "phase_factor": "i",
+      "primitive": "B",
+      "step_index": 13,
+      "word_prefix": "BQQBBBQBQBBQB"
+    },
+    {
+      "A": 0,
+      "active_axis": "i/4895",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 1,
+      "active_phase_quarters": 5,
+      "denominator": 4895,
+      "global_phase_quarters": 5,
+      "latched_axis": null,
+      "pair": [
+        55,
+        89
+      ],
+      "phase_factor": "i",
+      "primitive": "B",
+      "step_index": 14,
+      "word_prefix": "BQQBBBQBQBBQBB"
+    },
+    {
+      "A": 1,
+      "active_axis": "1",
+      "active_axis_after_l": "1",
+      "active_phase_mod4": 0,
+      "active_phase_quarters": 0,
+      "denominator": 1,
+      "global_phase_quarters": 5,
+      "latched_axis": "i/4895",
+      "pair": [
+        55,
+        89
+      ],
+      "phase_factor": "1",
+      "primitive": "L",
+      "step_index": 15,
+      "word_prefix": "BQQBBBQBQBBQBBL"
+    },
+    {
+      "A": 1,
+      "active_axis": "1/12816",
+      "active_axis_after_l": null,
+      "active_phase_mod4": 0,
+      "active_phase_quarters": 0,
+      "denominator": 12816,
+      "global_phase_quarters": 5,
+      "latched_axis": null,
+      "pair": [
+        89,
+        144
+      ],
+      "phase_factor": "1",
+      "primitive": "B",
+      "step_index": 16,
+      "word_prefix": "BQQBBBQBQBBQBBLB"
+    }
+  ]
+}

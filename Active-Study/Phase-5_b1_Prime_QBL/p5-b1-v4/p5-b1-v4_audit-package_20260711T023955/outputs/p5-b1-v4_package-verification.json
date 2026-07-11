@@ -1,0 +1,69 @@
+{
+  "archive": "/mnt/data/experiment_package_20260711_064604.zip",
+  "archive_sha256": "39b8ffb62d90afc09169ea4a863ce3661fae36d89063eb1121ba0438cf0ccbe2",
+  "expected_archive_sha256": "39b8ffb62d90afc09169ea4a863ce3661fae36d89063eb1121ba0438cf0ccbe2",
+  "archive_hash_pass": true,
+  "document_sha256": "87bb9fc406613784f9524464c175b4d42e3fa6fc2d789ba83a17bcab59723ed5",
+  "expected_document_sha256": "87bb9fc406613784f9524464c175b4d42e3fa6fc2d789ba83a17bcab59723ed5",
+  "document_hash_pass": true,
+  "manifest": {
+    "recorded_files": 38,
+    "actual_nonmanifest_files": 38,
+    "missing": [],
+    "unrecorded": [],
+    "mismatches": [],
+    "pass": true
+  },
+  "notebooks": {
+    "source_code_cells": 10,
+    "executed_code_cells": 10,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "all_cells_print_pass": true,
+    "png_counts_per_code_cell": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "one_png_per_code_cell": true,
+    "pass": true
+  },
+  "rebuild": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "scripts/20260711T064604_build_package.py",
+      "--package-root",
+      "."
+    ],
+    "returncode": 0,
+    "stdout": "PASS: package rebuilt\n",
+    "stderr": "",
+    "pass": true
+  },
+  "manifest_after_rebuild": {
+    "recorded_files": 38,
+    "actual_nonmanifest_files": 38,
+    "missing": [],
+    "unrecorded": [],
+    "mismatches": [],
+    "pass": true
+  },
+  "status": "PASS"
+}

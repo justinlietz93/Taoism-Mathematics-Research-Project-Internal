@@ -1,0 +1,6 @@
+mpmath
+sympy
+matplotlib
+h5py
+nbformat
+nbclient

@@ -1,0 +1,112 @@
+{
+  "canonical_primitive_law": {
+    "expected_first_crossing_word": "BQQBBBQBQBBQBBL",
+    "expected_floor_pair": [
+      55,
+      89
+    ],
+    "expected_next_B_pair": [
+      89,
+      144
+    ],
+    "expected_pair_after_L": [
+      55,
+      89
+    ]
+  },
+  "canonical_word_replayed_through_package": {
+    "active_pair_immediately_after_L": [
+      1,
+      1
+    ],
+    "character_match_before_extra_B": "8/12",
+    "expected_next_B_pair": [
+      89,
+      144
+    ],
+    "frozen_pair_before_new_domain_step": [
+      55,
+      89
+    ],
+    "frozen_phase_mod4": 1,
+    "package_next_B_pair": [
+      1,
+      2
+    ],
+    "reported_axis": "i/4895",
+    "survival_gate": false,
+    "word": "BQQBBBQBQBBQBBL"
+  },
+  "disposition": "REJECT_CANON_FIRST_CLAIM_RETAIN_NONCANONICAL_TABLE_REPRODUCTION_ONLY",
+  "new_decisive_findings": {
+    "FLOOR_is_synthetic_event": true,
+    "L_does_not_grow_matrix_rank": true,
+    "L_resets_active_pair_to_1_1": true,
+    "axis_label_hardcodes_i_independent_of_phase": true,
+    "carrier_12_exists_before_L": true,
+    "correct_word_breaks_12_of_12_claim": true,
+    "lap_relation_is_logged_string": true,
+    "no_dimension_counter_or_local_Q_capacity_in_state": true,
+    "run_once_never_calls_Q": true,
+    "run_once_starts_at_34_55_not_1_1": true
+  },
+  "package_baseline": {
+    "active_pair_after_L": [
+      1,
+      1
+    ],
+    "character_match": "12/12",
+    "event_sequence": [
+      "B",
+      "FLOOR",
+      "L"
+    ],
+    "frozen_pair": [
+      55,
+      89
+    ],
+    "frozen_phase_mod4": 0,
+    "matrix_shape_after_L": [
+      12,
+      12
+    ],
+    "matrix_shape_before_L": [
+      12,
+      12
+    ],
+    "reported_axis": "i/4895",
+    "word": "BL"
+  },
+  "prior_findings_reproduced": {
+    "omega_minus_mismatches_vs_pairing": 94,
+    "omega_minus_supported_entries": 121,
+    "verifier_accepts_destroyed_matrix_ablation_provenance_evidence": {
+      "exit_code": 0,
+      "payload": {
+        "ablation_gate_failures": [],
+        "evidence_failures": [],
+        "global_pass": true,
+        "lexeme_hits": []
+      }
+    },
+    "verifier_accepts_twelve_duplicate_far_rows": {
+      "exit_code": 0,
+      "payload": {
+        "ablation_gate_failures": [],
+        "evidence_failures": [],
+        "global_pass": true,
+        "lexeme_hits": []
+      }
+    },
+    "zero_entire_post_L_lens_still_survives": true,
+    "zero_pre_L_omega_matrices_still_survives": true
+  },
+  "retained_facts": {
+    "local_B_arithmetic_34_55_to_55_89": true,
+    "meta_reference_separation_present": true,
+    "nonclaims_present": true,
+    "package_is_reproducible_on_its_own_noncanonical_model": true
+  },
+  "subject": "/mnt/data/phase5_v8p_canon_first_dual_chart_corrected_rerun_package.zip",
+  "zip_sha256": "906787a686458477fefc8e042832682aa3f3ba8c232667d235a15512c3273e75"
+}

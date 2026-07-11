@@ -1,0 +1,38 @@
+The previous package used the wrong generic name. This is the correctly scoped **audit package** for `p5-b1-v4`; it does not contain or replace the agent’s experiment package.
+
+* [Download `p5-b1-v4_audit-package_20260711T023955.zip`](sandbox:/mnt/data/p5-b1-v4_audit-package_20260711T023955.zip)
+* [SHA-256 file](sandbox:/mnt/data/p5-b1-v4_audit-package_20260711T023955.zip.sha256)
+* [Audit results](sandbox:/mnt/data/p5-b1-v4_audit-package_20260711T023955/AUDIT_RESULTS.md)
+* [Outgoing agent instructions](sandbox:/mnt/data/p5-b1-v4_audit-package_20260711T023955/OUTGOING_INSTRUCTIONS.md)
+
+```text
+SHA-256:
+369bd8b6b86f3b0135b2191c8f298dd79e5e57cb0a40eff674f9745edc930987
+```
+
+It contains:
+
+```text
+p5-b1-v4_audit-package_20260711T023955/
+  README.md
+  AUDIT_RESULTS.md
+  OUTGOING_INSTRUCTIONS.md
+  SOURCE_MAP.md
+  MANIFEST.json
+  requirements.txt
+  scripts/
+    p5-b1-v4_symbolic_language_audit.py
+    p5-b1-v4_verify_agent_package.py
+  outputs/
+    p5-b1-v4_audit-summary.json
+    p5-b1-v4_package-verification.json
+    p5-b1-v4_symbolic-language-audit.json
+    p5-b1-v4_length3-language.csv
+    p5-b1-v4_word-complexity.csv
+    audit execution logs
+  source-references/
+    p5-b1-v4_audited-artifacts.json
+```
+
+The archive was verified by clean extraction, rerunning both audit scripts, and validating every manifest entry. The outgoing instructions specify `p5-b1-v5` for the agent’s next response.
+

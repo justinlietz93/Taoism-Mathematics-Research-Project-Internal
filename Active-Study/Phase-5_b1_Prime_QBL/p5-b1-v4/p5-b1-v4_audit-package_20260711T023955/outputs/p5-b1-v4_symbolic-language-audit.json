@@ -1,0 +1,309 @@
+{
+  "status": "PASS",
+  "parameter": {
+    "gamma": "8.4702446042907841279349898711327462608",
+    "a": "0.2351223021453920639674949355663731304"
+  },
+  "checks": {
+    "length1_count_is_3": true,
+    "length2_count_is_7": true,
+    "length3_actual_count_is_15": true,
+    "length3_envelope_count_is_17": true,
+    "forbidden_989": true,
+    "actual_missing_envelope_words_match": true,
+    "edge_envelope_entropy_exceeds_degree2_bound": true
+  },
+  "forbidden_989": {
+    "prefix_98_current_interval": {
+      "nonempty": true,
+      "lo": "-0.7351223021453920639674949355663731304",
+      "hi": "-0.5297553957092158720650101288672537392"
+    },
+    "next_image_under_F8": {
+      "nonempty": true,
+      "lo": "-1.0000000000000000000000000000000000000",
+      "hi": "-0.5892661871276476161950303866017612176"
+    },
+    "I9": {
+      "nonempty": true,
+      "lo": "-0.2351223021453920639674949355663731304",
+      "hi": "0"
+    },
+    "intersection_nonempty": false,
+    "symbolic_reason": "For a<1/4, -2+6a<-a, so the entire image lies left of I9."
+  },
+  "length3_missing_from_actual_but_admitted_by_envelope": [
+    "787",
+    "989"
+  ],
+  "entropy": {
+    "edge_shift_log_1_plus_sqrt2": 0.8813735870195429,
+    "degree_two_upper_bound_log2": 0.6931471805599453,
+    "difference": 0.18822640645959765
+  },
+  "complexity": [
+    {
+      "length": 1,
+      "actual_nonempty_cylinders": 3,
+      "edge_shift_paths": 3,
+      "difference": 0
+    },
+    {
+      "length": 2,
+      "actual_nonempty_cylinders": 7,
+      "edge_shift_paths": 7,
+      "difference": 0
+    },
+    {
+      "length": 3,
+      "actual_nonempty_cylinders": 15,
+      "edge_shift_paths": 17,
+      "difference": 2
+    },
+    {
+      "length": 4,
+      "actual_nonempty_cylinders": 31,
+      "edge_shift_paths": 41,
+      "difference": 10
+    },
+    {
+      "length": 5,
+      "actual_nonempty_cylinders": 63,
+      "edge_shift_paths": 99,
+      "difference": 36
+    },
+    {
+      "length": 6,
+      "actual_nonempty_cylinders": 127,
+      "edge_shift_paths": 239,
+      "difference": 112
+    },
+    {
+      "length": 7,
+      "actual_nonempty_cylinders": 255,
+      "edge_shift_paths": 577,
+      "difference": 322
+    },
+    {
+      "length": 8,
+      "actual_nonempty_cylinders": 511,
+      "edge_shift_paths": 1393,
+      "difference": 882
+    },
+    {
+      "length": 9,
+      "actual_nonempty_cylinders": 1023,
+      "edge_shift_paths": 3363,
+      "difference": 2340
+    },
+    {
+      "length": 10,
+      "actual_nonempty_cylinders": 2047,
+      "edge_shift_paths": 8119,
+      "difference": 6072
+    },
+    {
+      "length": 11,
+      "actual_nonempty_cylinders": 4095,
+      "edge_shift_paths": 19601,
+      "difference": 15506
+    },
+    {
+      "length": 12,
+      "actual_nonempty_cylinders": 8191,
+      "edge_shift_paths": 47321,
+      "difference": 39130
+    }
+  ],
+  "length3_rows": [
+    {
+      "word": "777",
+      "pairwise_envelope": false,
+      "nonempty": false,
+      "lo": "",
+      "hi": ""
+    },
+    {
+      "word": "778",
+      "pairwise_envelope": false,
+      "nonempty": false,
+      "lo": "",
+      "hi": ""
+    },
+    {
+      "word": "779",
+      "pairwise_envelope": false,
+      "nonempty": false,
+      "lo": "",
+      "hi": ""
+    },
+    {
+      "word": "787",
+      "pairwise_envelope": true,
+      "nonempty": false,
+      "lo": "",
+      "hi": ""
+    },
+    {
+      "word": "788",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-0.5892661871276476161950303866017612176",
+      "hi": "-0.2351223021453920639674949355663731304"
+    },
+    {
+      "word": "789",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-0.2351223021453920639674949355663731304",
+      "hi": "0E-37"
+    },
+    {
+      "word": "797",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-1.0000000000000000000000000000000000000",
+      "hi": "-0.7351223021453920639674949355663731304"
+    },
+    {
+      "word": "798",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-0.7351223021453920639674949355663731304",
+      "hi": "-0.5297553957092158720650101288672537392"
+    },
+    {
+      "word": "799",
+      "pairwise_envelope": false,
+      "nonempty": false,
+      "lo": "",
+      "hi": ""
+    },
+    {
+      "word": "877",
+      "pairwise_envelope": false,
+      "nonempty": false,
+      "lo": "",
+      "hi": ""
+    },
+    {
+      "word": "878",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-0.5297553957092158720650101288672537392",
+      "hi": "-0.2351223021453920639674949355663731304"
+    },
+    {
+      "word": "879",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-0.2351223021453920639674949355663731304",
+      "hi": "0E-37"
+    },
+    {
+      "word": "887",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-1.0000000000000000000000000000000000000",
+      "hi": "-0.7351223021453920639674949355663731304"
+    },
+    {
+      "word": "888",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-0.7351223021453920639674949355663731304",
+      "hi": "-0.2351223021453920639674949355663731304"
+    },
+    {
+      "word": "889",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-0.2351223021453920639674949355663731304",
+      "hi": "0E-37"
+    },
+    {
+      "word": "897",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-1.0000000000000000000000000000000000000",
+      "hi": "-0.7351223021453920639674949355663731304"
+    },
+    {
+      "word": "898",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-0.7351223021453920639674949355663731304",
+      "hi": "-0.5297553957092158720650101288672537392"
+    },
+    {
+      "word": "899",
+      "pairwise_envelope": false,
+      "nonempty": false,
+      "lo": "",
+      "hi": ""
+    },
+    {
+      "word": "977",
+      "pairwise_envelope": false,
+      "nonempty": false,
+      "lo": "",
+      "hi": ""
+    },
+    {
+      "word": "978",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-0.5297553957092158720650101288672537392",
+      "hi": "-0.2351223021453920639674949355663731304"
+    },
+    {
+      "word": "979",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-0.2351223021453920639674949355663731304",
+      "hi": "0E-37"
+    },
+    {
+      "word": "987",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-1.0000000000000000000000000000000000000",
+      "hi": "-0.7351223021453920639674949355663731304"
+    },
+    {
+      "word": "988",
+      "pairwise_envelope": true,
+      "nonempty": true,
+      "lo": "-0.7351223021453920639674949355663731304",
+      "hi": "-0.5892661871276476161950303866017612176"
+    },
+    {
+      "word": "989",
+      "pairwise_envelope": true,
+      "nonempty": false,
+      "lo": "",
+      "hi": ""
+    },
+    {
+      "word": "997",
+      "pairwise_envelope": false,
+      "nonempty": false,
+      "lo": "",
+      "hi": ""
+    },
+    {
+      "word": "998",
+      "pairwise_envelope": false,
+      "nonempty": false,
+      "lo": "",
+      "hi": ""
+    },
+    {
+      "word": "999",
+      "pairwise_envelope": false,
+      "nonempty": false,
+      "lo": "",
+      "hi": ""
+    }
+  ]
+}

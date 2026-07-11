@@ -1,0 +1,7 @@
+{
+  "matplotlib": "3.10.8",
+  "pytest": "9.0.2",
+  "python": "3.13.5",
+  "sympy": "1.14.0",
+  "temporary_paths_embedded": false
+}

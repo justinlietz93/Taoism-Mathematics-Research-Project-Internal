@@ -1,0 +1,249 @@
+{
+  "algorithm": "sha256",
+  "excludes": [
+    "MANIFEST.json"
+  ],
+  "files": [
+    {
+      "bytes": 2196,
+      "path": "FINDINGS.md",
+      "sha256": "32b23834069f3462573dca0c17c9c9051492f4ddce2e524f0e8ecaf46d941866"
+    },
+    {
+      "bytes": 981,
+      "path": "README.md",
+      "sha256": "4f70eb9da359af4f6130f1b05078fe7792d92fa51df3e8ddd6273d620810c780"
+    },
+    {
+      "bytes": 1377,
+      "path": "docs/20260711_072509_RESULTS.md",
+      "sha256": "0891d94043396ff51812feb9216e5fccf5df18b66b283e9d4a192cadfaca292e"
+    },
+    {
+      "bytes": 38157,
+      "path": "figures/20260711_072509_primitive_trace.svg",
+      "sha256": "602ff9c327245f7c45dce261c5acdaee199d18e8c3810e7c83a47bf45f5ff72e"
+    },
+    {
+      "bytes": 1933,
+      "path": "inputs/20260711_072509_ASSUMPTION_LOCK.md",
+      "sha256": "ee8fd7c28878d5e7c94c18d6afb8a42a2414257bb51d08dd5d4806ba0942de5f"
+    },
+    {
+      "bytes": 29584,
+      "path": "inputs/20260711_072509_QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+      "sha256": "3dc57669c4e251098180c07ec4e406f4057088a64c49c94537b7add7dd189386"
+    },
+    {
+      "bytes": 1377,
+      "path": "inputs/20260711_072509_UPSTREAM_ASSUMPTION_LOCK.md",
+      "sha256": "72c1fb1e4ed13fe86d81865168bb034b76182ecb245d537faa74f9934fdeeffd"
+    },
+    {
+      "bytes": 13806,
+      "path": "inputs/20260711_072509_V8P_REAUDIT_REPORT_v2.md",
+      "sha256": "38ef1f6def132586eeeaa40bdbd8eb7223c84611e85837a7bfbff677cf6d95ac"
+    },
+    {
+      "bytes": 2821,
+      "path": "inputs/20260711_072509_V8P_REAUDIT_RESULTS_v2.json",
+      "sha256": "440155553b5035b80b08a0a241b0d15e0de27e960d7c526fd193f536f4b38b88"
+    },
+    {
+      "bytes": 31105,
+      "path": "inputs/20260711_072509_orthad_v8p_audit_relay.zip",
+      "sha256": "08eb418bceed83767a948fe11ba89bb744fbddb87561100c1f822cd80b9beff3"
+    },
+    {
+      "bytes": 8812,
+      "path": "inputs/20260711_072509_reaudit_v8p_against_clean_qbl.py",
+      "sha256": "f9cd7b1300b489c2e9431a12c8b6f4f9da0048660e636f70bf4a8e033a7a93cd"
+    },
+    {
+      "bytes": 919,
+      "path": "lab-journal.md",
+      "sha256": "575a38d6b28d536a1129da1fbc8a4416b4b6227f6e6fecb67e04abe3635299fb"
+    },
+    {
+      "bytes": 3470,
+      "path": "notebooks/20260711_072509_primitive_custody.ipynb",
+      "sha256": "11788a9b2ed3e606f9f7968caccc8fae1cf240b3c1493d5eeda75571ebb649d3"
+    },
+    {
+      "bytes": 86060,
+      "path": "notebooks/20260711_072509_primitive_custody_executed.ipynb",
+      "sha256": "126a4ef796f31f7ffa04ac0d6963dcc4169a020016d4d846305485a79e20230b"
+    },
+    {
+      "bytes": 282,
+      "path": "outputs/20260711_072509_ablation_status.json",
+      "sha256": "932d52864b1e72e27b84b20af72e1c135bb53c52e04d2963eccaafece3dfc3a7"
+    },
+    {
+      "bytes": 503,
+      "path": "outputs/20260711_072509_boundary_results.json",
+      "sha256": "41306417100a73f0fc8c8659e8b14c138388fd38726d7d985dd1e97a8abb6a9c"
+    },
+    {
+      "bytes": 3020,
+      "path": "outputs/20260711_072509_control_results.csv",
+      "sha256": "f7a5c7dd216a517c5fd366bc5391f532ef2ab34717f508f7b9a615d62330c16c"
+    },
+    {
+      "bytes": 4496,
+      "path": "outputs/20260711_072509_control_results.json",
+      "sha256": "55accf332dce23f67e3f31967ccff5b1c4f8da0ab7027e8c2864d8141675db4d"
+    },
+    {
+      "bytes": 5074,
+      "path": "outputs/20260711_072509_gate_results.json",
+      "sha256": "9bdb9c3ceea3c2ae9ce2a29140043b13373df95718eb0ee8cfe09f2b7129c21e"
+    },
+    {
+      "bytes": 182,
+      "path": "outputs/20260711_072509_initial_state.json",
+      "sha256": "7f74489d768db874efb28be47eaabb9c9396c9e97da12e581f7f911f4f1d29ea"
+    },
+    {
+      "bytes": 468,
+      "path": "outputs/20260711_072509_orthad_derivation_boundary.json",
+      "sha256": "5d084e4c062f51de79e27661489aa7e8b95e2573b1bfbfe1e16944a3a6dff194"
+    },
+    {
+      "bytes": 108,
+      "path": "outputs/20260711_072509_projection_guard.json",
+      "sha256": "ceae7319032890e1d51235628fdf258ac4d6e836714f13fd3272857680b89948"
+    },
+    {
+      "bytes": 998,
+      "path": "outputs/20260711_072509_provenance_diff.csv",
+      "sha256": "14a91162a498b847af4ce8c526c7ace2ed4eee12f50a135f5bc8443e8af47518"
+    },
+    {
+      "bytes": 124,
+      "path": "outputs/20260711_072509_run_metadata.json",
+      "sha256": "0564c0aebf88a6f800fec199725d655e9e5bf3ecca8bdf477bddfff00fd3447b"
+    },
+    {
+      "bytes": 195,
+      "path": "outputs/20260711_072509_statuses.json",
+      "sha256": "4653949e776b29a536e4eb7882dfe383fa457ddfab89c921be8a47992f07593a"
+    },
+    {
+      "bytes": 93,
+      "path": "outputs/20260711_072509_test_results.json",
+      "sha256": "306525b955461da860280542c7b701585422130ac109bd840fed98f4740baeca"
+    },
+    {
+      "bytes": 1369,
+      "path": "proofs/20260711_072509_PrimitiveFirstCrossing.lean",
+      "sha256": "9633a0d445ba572d72bd38dfd291991b7d4e7ef4bdcae5d0d2e8d54d3908fe96"
+    },
+    {
+      "bytes": 104,
+      "path": "proofs/20260711_072509_lean_compiler.log",
+      "sha256": "face0493c5bf1f8f8a8117b6c1a11d55798da90ac1901da003c512f97a29142c"
+    },
+    {
+      "bytes": 118,
+      "path": "requirements.txt",
+      "sha256": "3bdfcd3d80f2db1eabde163cfd79f16314ec8e36c97e19bdda4d047ad846a3b1"
+    },
+    {
+      "bytes": 13943,
+      "path": "scripts/20260711_072509_rebuild.py",
+      "sha256": "f8cc17d82439cb2113c662c68dea5b82189f94c6c8633e412b5e0ede8ff1c3ff"
+    },
+    {
+      "bytes": 457,
+      "path": "scripts/20260711_072509_verify.py",
+      "sha256": "d311269bab54f6f6e056e8141d53d78cdc4a9436638a8c8334d6854bdef3ed91"
+    },
+    {
+      "bytes": 1127,
+      "path": "source_maps/20260711_072509_SOURCE_MAP.md",
+      "sha256": "c48829c8f86a92c777b9cc99d8f0b7bc9ef1b51a74f58b2b7a14bb21b81ea104"
+    },
+    {
+      "bytes": 116,
+      "path": "src/primitive_custody/__init__.py",
+      "sha256": "32dc5d506517f6de14a8ff9f6d5bbeb43b1840a07414ca785ac30983cb398a34"
+    },
+    {
+      "bytes": 0,
+      "path": "src/primitive_custody/application/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 3624,
+      "path": "src/primitive_custody/application/engine.py",
+      "sha256": "d0bd89372d487401bd0e3eee81a9ee8df77bc4fb74551d35f3532dc010eed9cd"
+    },
+    {
+      "bytes": 1530,
+      "path": "src/primitive_custody/application/evidence.py",
+      "sha256": "511c30fc86ea8c4cb8390e5b30a1f5f320dcdda33a1cbf301a8693472a8c4358"
+    },
+    {
+      "bytes": 947,
+      "path": "src/primitive_custody/cli.py",
+      "sha256": "6c02c76bbaaabaf0c0cdcc8df2ca455edbc5dd042b78266af4174d350deb38e9"
+    },
+    {
+      "bytes": 0,
+      "path": "src/primitive_custody/domain/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1738,
+      "path": "src/primitive_custody/domain/law.py",
+      "sha256": "41f3080cf347b18165deb27a205c921b4cb685029a66c51dd742282141cfbe71"
+    },
+    {
+      "bytes": 1015,
+      "path": "src/primitive_custody/domain/state.py",
+      "sha256": "44234d453b25d993275eb9b2321eeda2a957444531b85f4137d0d1f69a65c830"
+    },
+    {
+      "bytes": 0,
+      "path": "src/primitive_custody/orthad/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1474,
+      "path": "src/primitive_custody/orthad/boundary.py",
+      "sha256": "dbbc4292a4567dd5acbcf3e4c8a46ca1d8699875ec99007c6df1acfc99b1560a"
+    },
+    {
+      "bytes": 0,
+      "path": "src/primitive_custody/verification/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5174,
+      "path": "src/primitive_custody/verification/controls.py",
+      "sha256": "c01f3b18c14a8a345f7053d25885de6da532e3fe9afb587267fe33ab4ef60f80"
+    },
+    {
+      "bytes": 11895,
+      "path": "src/primitive_custody/verification/verifier.py",
+      "sha256": "9278b3f0d03f126a5df1c9dfc1a771ae8178c753832a85a08b616d5257295be6"
+    },
+    {
+      "bytes": 1994,
+      "path": "tests/test_engine.py",
+      "sha256": "2a8a6e550859331668f9f5e0e0a309b853aa2d5c73674b6110c36a6750a1a97a"
+    },
+    {
+      "bytes": 371,
+      "path": "tests/test_law.py",
+      "sha256": "50e6f521148ecfdd75bc9e545d9751e45cfc333c7c29fed7ef8c347c9ec32f2e"
+    },
+    {
+      "bytes": 16848,
+      "path": "trace/20260711_072509_primitive_first_crossing_trace.jsonl",
+      "sha256": "efea5e2c28e265e8eca43b43db986429e14a47ef5c33612388186ea6a028877e"
+    }
+  ],
+  "run_stamp": "20260711_072509"
+}

@@ -1,0 +1,102 @@
+{
+  "fired": 16,
+  "rows": [
+    {
+      "control": "missing_snapshots",
+      "observed_detail": "present=10/11",
+      "target_gate": "REQUIRED_FILES",
+      "target_gate_fired": true
+    },
+    {
+      "control": "duplicate_trace_step",
+      "observed_detail": "step indices 1..16",
+      "target_gate": "TRACE_UNIQUE_STEPS",
+      "target_gate_fired": true
+    },
+    {
+      "control": "mutate_word",
+      "observed_detail": "word=QQQBBBQBQBBQBBL",
+      "target_gate": "EXACT_WORD",
+      "target_gate_fired": true
+    },
+    {
+      "control": "reset_pair_at_l",
+      "observed_detail": "{'A': 1, 'j': 7, 'k': 0, 'pair': [1, 1], 'pair_product': 4895, 'phase_label': 'i', 'phase_mod4': 1, 'phase_quarters': 5, 'u': 55, 'v': 89, 'word': 'BQQBBBQBQBBQBBL'}",
+      "target_gate": "FIRST_L_CARRY",
+      "target_gate_fired": true
+    },
+    {
+      "control": "reset_phase_at_l",
+      "observed_detail": "{'A': 1, 'j': 7, 'k': 0, 'pair': [55, 89], 'pair_product': 4895, 'phase_label': 'i', 'phase_mod4': 1, 'phase_quarters': 0, 'u': 55, 'v': 89, 'word': 'BQQBBBQBQBBQBBL'}",
+      "target_gate": "FIRST_L_CARRY",
+      "target_gate_fired": true
+    },
+    {
+      "control": "wrong_next_pair",
+      "observed_detail": "{'A': 1, 'j': 7, 'k': 0, 'pair': [1, 2], 'pair_product': 12816, 'phase_label': 'i', 'phase_mod4': 1, 'phase_quarters': 5, 'u': 89, 'v': 144, 'word': 'BQQBBBQBQBBQBBLB'}",
+      "target_gate": "FIRST_NEXT_DOMAIN_B",
+      "target_gate_fired": true
+    },
+    {
+      "control": "hardcoded_i",
+      "observed_detail": "Domain-0 shorthand and L mutation recomputed",
+      "target_gate": "ACTIVE_AXIS_RECURRENCE",
+      "target_gate_fired": true
+    },
+    {
+      "control": "fixed_12_pre_l",
+      "observed_detail": "trace equals fresh engine run",
+      "target_gate": "ENGINE_EVIDENCE_RECOMPUTED",
+      "target_gate_fired": true
+    },
+    {
+      "control": "inject_lap_sign",
+      "observed_detail": "rows=16",
+      "target_gate": "TRACE_SCHEMA",
+      "target_gate_fired": true
+    },
+    {
+      "control": "underived_matrix_file",
+      "observed_detail": "outputs=['active_axis_trace.csv', 'active_axis_trace.json', 'boundary_results.json', 'build_environment.json', 'control_results.csv', 'control_results.json', 'custody_snapshots.json', 'gate_results.csv', 'gate_results.json', 'lean_compile_status.json', 'notebook_execution.json', 'overset_consistency.json', 'primary_pairing.json', 'recurrence_assessment.json', 'reproducibility_comparison.json', 'source_constraint_table.csv', 'source_provenance.csv', 'statuses.json', 'test_results.json']",
+      "target_gate": "OUTPUT_SCHEMA_ALLOWLIST",
+      "target_gate_fired": true
+    },
+    {
+      "control": "projection_file",
+      "observed_detail": "outputs=['active_axis_trace.csv', 'active_axis_trace.json', 'boundary_results.json', 'build_environment.json', 'control_results.csv', 'control_results.json', 'custody_snapshots.json', 'gate_results.csv', 'gate_results.json', 'lean_compile_status.json', 'notebook_execution.json', 'overset_consistency.json', 'projection.json', 'recurrence_assessment.json', 'reproducibility_comparison.json', 'source_constraint_table.csv', 'source_provenance.csv', 'statuses.json', 'test_results.json']",
+      "target_gate": "OUTPUT_SCHEMA_ALLOWLIST",
+      "target_gate_fired": true
+    },
+    {
+      "control": "false_pytest_summary",
+      "observed_detail": "{'collected': 9, 'errors': 0, 'exit_status': 0, 'failed': 1, 'passed': 9, 'skipped': 0}",
+      "target_gate": "PYTEST_RESULT_VALID",
+      "target_gate_fired": true
+    },
+    {
+      "control": "false_notebook_summary",
+      "observed_detail": "{'all_code_cells_executed': False, 'code_cells': 4, 'pass_outputs': 4, 'stable_cell_ids': True}",
+      "target_gate": "EXECUTED_NOTEBOOK_COMPLETE",
+      "target_gate_fired": true
+    },
+    {
+      "control": "false_reproducibility_summary",
+      "observed_detail": "{'byte_compared': [], 'clean_rebuild_status': 'FAIL', 'contract': 'NORMALIZED_SEMANTIC_REPRODUCIBILITY', 'files_compared': 0, 'mismatches': ['control'], 'normalized_exclusions': [], 'stable_notebook_cell_ids': True, 'temporary_paths_in_sealed_evidence': False}",
+      "target_gate": "REPRODUCIBILITY_COMPARISON",
+      "target_gate_fired": true
+    },
+    {
+      "control": "remove_missing_equation",
+      "observed_detail": "",
+      "target_gate": "RECURRENCE_HARD_STOP",
+      "target_gate_fired": true
+    },
+    {
+      "control": "forbidden_live_lexeme",
+      "observed_detail": "['assessment.py:45:# candidate ranking']",
+      "target_gate": "LIVE_SOURCE_LEXEME_BOUNDARIES",
+      "target_gate_fired": true
+    }
+  ],
+  "total": 16
+}
