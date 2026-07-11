@@ -1,0 +1,87 @@
+{
+  "chart_values_emitted": false,
+  "first_true_gap": "PRIMARY_PAIRING_TYPE_SEED_AND_MUTATION",
+  "pairing_values_emitted": false,
+  "primitive_boundary": {
+    "after_L": {
+      "A": 1,
+      "j": 7,
+      "k": 0,
+      "pair": [
+        55,
+        89
+      ],
+      "pair_product": 4895,
+      "phase_label": "i",
+      "phase_mod4": 1,
+      "phase_quarters": 5,
+      "theta_exact": "5*pi/2",
+      "u": 55,
+      "v": 89,
+      "word": "BQQBBBQBQBBQBBL"
+    },
+    "after_next_B": {
+      "A": 1,
+      "j": 7,
+      "k": 0,
+      "pair": [
+        89,
+        144
+      ],
+      "pair_product": 12816,
+      "phase_label": "i",
+      "phase_mod4": 1,
+      "phase_quarters": 5,
+      "theta_exact": "5*pi/2",
+      "u": 89,
+      "v": 144,
+      "word": "BQQBBBQBQBBQBBLB"
+    },
+    "before_L": {
+      "A": 0,
+      "j": 6,
+      "k": 5,
+      "pair": [
+        55,
+        89
+      ],
+      "pair_product": 4895,
+      "phase_label": "i",
+      "phase_mod4": 1,
+      "phase_quarters": 5,
+      "theta_exact": "5*pi/2",
+      "u": 55,
+      "v": 89,
+      "word": "BQQBBBQBQBBQBB"
+    },
+    "word": "BQQBBBQBQBBQBBL",
+    "word_with_next_b": "BQQBBBQBQBBQBBLB"
+  },
+  "projection_rows_emitted": false,
+  "statuses": {
+    "ACTIVE_AXIS_LOCAL_SHORTHAND": "PASS",
+    "B_PAIRING_MUTATION": "NOT_YET_DERIVED",
+    "COCYCLE": "NOT_RUN",
+    "EXACT_CHART_MAPS": "NOT_YET_DERIVED",
+    "EXACT_DIRECTED_TRANSFERS": "NOT_YET_DERIVED",
+    "EXACT_PRIMARY_PAIRING_RECURRENCE": "NOT_YET_DERIVED",
+    "EXACT_PRIMARY_PAIRING_SEED": "NOT_YET_DERIVED",
+    "EXACT_PRIMARY_PAIRING_TYPE": "NOT_YET_DERIVED",
+    "FIRST_L_CARRY": "PASS",
+    "FIRST_NEXT_DOMAIN_B": "PASS",
+    "FIRST_TRUE_GAP": "PRIMARY_PAIRING_TYPE_SEED_AND_MUTATION",
+    "GAUGE_FQM_WEIL_DESCENT": "NOT_RUN",
+    "INTERNAL_ORTHAD_SEED_FROM_AFFINE_MAP": "NOT_LICENSED",
+    "L_PAIRING_EXTENSION": "NOT_YET_DERIVED",
+    "MHD_ORTHAD_READINESS": "NOT_READY",
+    "NATIVE_SUCCESSOR_ON_Z12": "DOWNSTREAM_COORDINATE_QUESTION",
+    "ORTHAD_EXISTS_FROM_FIRST_PRIMITIVE_TICK": "ARCHITECTURAL_LAW",
+    "OVERLAP_DOMAIN": "NOT_YET_DERIVED",
+    "PRIMITIVE_CUSTODY": "PASS",
+    "PRIMITIVE_FIRST_CROSSING": "PASS",
+    "QBL_TO_AFFINE_FACTOR_MAP": "NOT_YET_DERIVED",
+    "Q_PAIRING_MUTATION": "NOT_YET_DERIVED",
+    "TERMINAL_PROJECTION": "NOT_RUN"
+  },
+  "transfer_values_emitted": false
+}

@@ -1,0 +1,10 @@
+rows: 229 Counter({'v8e_size2': 193, 'v8g_rank3_equalD': 22, 'v8h_rank4': 14})
+Counter({'NONDEGENERATE_CERTIFIED_AS_SINGLE_GRAM_BLOCK': 138, 'RADICAL_DIRECT_SUMMAND_DECOMPOSED_CERTIFIED': 65, 'CERTIFIED_UNSPLIT_GRAM_BLOCK_RADICAL_SPLIT_BLOCKING_OPEN': 26})
+certificate failures: 0 | radical data mismatches: 0 | split-claim failures: 0
+26-row diagnosis: non-summand proven 26 | pure (bug) 0
+purity consistency on 10 split rows (must all be pure): True
+failure CSV rows: 26 ids match main CSV: True
+F2 rows: 14 cols: ['published_class_id', 'canonical_representative', 'order_q_multiset_fingerprint', 'orbit_size', 'radical_size', 'q_values_on_radical_xM']
+F2 keys all match auditor recomputation: True
+archival class 5 canonical rep: {"c01":1,"c02":0,"c03":0,"c12":0,"c13":4,"c23":0}
+=== done ===

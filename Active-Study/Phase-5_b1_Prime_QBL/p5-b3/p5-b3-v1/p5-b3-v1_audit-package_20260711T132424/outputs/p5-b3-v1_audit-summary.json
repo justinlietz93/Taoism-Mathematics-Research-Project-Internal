@@ -1,0 +1,20 @@
+{
+  "step_id": "p5-b3-v1",
+  "verdict": "REVISE",
+  "adopt": [
+    "state-internal affine error coordinate on canonical pre-L boundary states",
+    "canonical boundary-orbit semiconjugacy",
+    "boundary carry cocycle",
+    "five-valued defect as first-difference factor",
+    "J_A = 6 p(A) as count alignment only"
+  ],
+  "revise": [
+    "full affine grammar factor claim",
+    "transfer of non-soficity and mixing to the canonical QBL carry itinerary",
+    "higher-order L identity declared false",
+    "hard-coded structural PASS in notebook",
+    "experiment reproducibility claim"
+  ],
+  "branch_status": "NOT YET CLOSED",
+  "next_step": "p5-b3-v2"
+}

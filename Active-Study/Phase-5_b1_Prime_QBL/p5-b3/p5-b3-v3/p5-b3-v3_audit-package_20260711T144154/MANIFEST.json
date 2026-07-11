@@ -1,0 +1,65 @@
+{
+  "excluded": [
+    "MANIFEST.json"
+  ],
+  "files": [
+    {
+      "bytes": 7169,
+      "path": "AUDIT_RESULTS.md",
+      "sha256": "7b043fb8d690d6ad6af88f947591b2449de045f3d8de10a3abdc82a6687d3cb1"
+    },
+    {
+      "bytes": 5792,
+      "path": "OUTGOING_INSTRUCTIONS.md",
+      "sha256": "374731bc15e6a562d9d8ff50b27ccd95a13564c2de9379d0fde659ef61314926"
+    },
+    {
+      "bytes": 736,
+      "path": "README.md",
+      "sha256": "ce6d7d459bf4443ee3b2badaf987d614d67f2513c8f6379c31e6caa9b79b4535"
+    },
+    {
+      "bytes": 892,
+      "path": "SOURCE_MAP.md",
+      "sha256": "1bf023574ab3079c3cc917903662cce3e0b2c3e2c272f6b331a155edd9e4cf4e"
+    },
+    {
+      "bytes": 611,
+      "path": "outputs/p5-b3-v3_audit-summary.json",
+      "sha256": "e41bf36442084798042a9a7202768bce257a6f122c61660cee7552dffc3f41e1"
+    },
+    {
+      "bytes": 824,
+      "path": "outputs/p5-b3-v3_package-verification.json",
+      "sha256": "ba2b32e7a4ad5d09ddb02cb602894466480300612dbd2b7ec25f30f2bd454f20"
+    },
+    {
+      "bytes": 824,
+      "path": "outputs/p5-b3-v3_package-verification.log",
+      "sha256": "ba2b32e7a4ad5d09ddb02cb602894466480300612dbd2b7ec25f30f2bd454f20"
+    },
+    {
+      "bytes": 1252,
+      "path": "outputs/p5-b3-v3_pairing-scope-audit.json",
+      "sha256": "a9b63eacdce29fffc935f8d3a8a021468a8ca301d819e681bd01db69c5586fd0"
+    },
+    {
+      "bytes": 2165,
+      "path": "scripts/p5-b3-v3_pairing_scope_audit.py",
+      "sha256": "841badbd2e1cdd5cf66f3a16a3e4cff415e02722a21732f0e7482822d16cd2b1"
+    },
+    {
+      "bytes": 4269,
+      "path": "scripts/p5-b3-v3_verify_agent_package.py",
+      "sha256": "10139502f20cc4b0320c742d7a5460db7802ab2691eaf0b265c0cc14d7fff597"
+    },
+    {
+      "bytes": 396,
+      "path": "source-references/p5-b3-v3_audited-artifacts.json",
+      "sha256": "fc061631bd6416c840fd228c95ac2d2b9773ec5276cc3d775a364698e80cda11"
+    }
+  ],
+  "hash_algorithm": "sha256",
+  "package": "p5-b3-v3_audit-package_20260711T144154",
+  "timestamp": "20260711T144154"
+}

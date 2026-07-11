@@ -1,0 +1,35 @@
+{
+  "step_id": "p5_v8v",
+  "audit_timestamp": "20260711T135856",
+  "supplied_zip": "p5_v8v_pairing-first-orthad-realignment_20260711_133900.zip",
+  "supplied_zip_sha256": "ae97c9ec1e1cac24ed1a55beacb8267b54ae18a94b4240b6fecd45e8f195a1a8",
+  "declared_zip_sha256": "ae97c9ec1e1cac24ed1a55beacb8267b54ae18a94b4240b6fecd45e8f195a1a8",
+  "zip_hash_match": true,
+  "research_document_sha256": "a0420819e30600f931aa97a635bf19055f7ff9dd458ff0ea66d5ddaec2e8a1be",
+  "declared_document_sha256": "a0420819e30600f931aa97a635bf19055f7ff9dd458ff0ea66d5ddaec2e8a1be",
+  "document_hash_match": true,
+  "verifier": {
+    "passed_gates": 11,
+    "total_gates": 11,
+    "pytest_passed": 16,
+    "manifest_entries": 79,
+    "archive_files_including_manifest": 80
+  },
+  "control_disconnect_attack": {
+    "mutation": "change first custody-trace prefix_after to X",
+    "run_controls_exit_code": 0,
+    "run_controls_reported": "12/12 fired",
+    "real_verifier_exit_code": 1,
+    "conclusion": "run_controls.py does not execute the mutations or verifier"
+  },
+  "corrected_statuses": {
+    "pairing_first_branch_realignment": "ADOPT",
+    "pairing_type_datum_D_P": "CANDIDATE_DECOMPOSITION",
+    "earliest_typed_subgap": "NOT_YET_ISOLATED",
+    "raw_pairing_presentation_nonuniqueness": "PROVED",
+    "retained_gauge_class_seed_nonuniqueness": "NOT_YET_DERIVED",
+    "one_tick_causal_order": "ARCHITECTURAL_SCHEMA_CONFIRMED",
+    "one_tick_orthad_coevolution": "NOT_YET_INSTANTIATED",
+    "corruption_controls_executed": "FAIL"
+  }
+}

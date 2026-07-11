@@ -1,0 +1,2 @@
+# Audit scripts use only the Python standard library.
+# Rebuilding the audited agent package requires the dependencies pinned in that package.

@@ -1,0 +1,25 @@
+{
+  "B": {
+    "licensed_local_trace": "phase retained; denominator changes from u*v to v*(u+v)",
+    "missing_map": "B_pairing : (P_t,Xi_t,Xi_{t+1},W_{t+1}) -> P_{t+1}",
+    "status": "NOT_YET_DERIVED"
+  },
+  "L": {
+    "architectural_obligations": [
+      "retain the complete old pairing block",
+      "latch the completed active axis",
+      "append one new orthogonal active axis",
+      "architectural rank changes 1->2 at the first L"
+    ],
+    "conditional_block_consequence": "if P is a scalar-valued form and orthogonal means P(old,new)=0, the mixed birth block is zero in a compatible basis",
+    "missing_map": "L_pairing : (P_t,Xi_t,Xi_{t+1},W_{t+1}) -> P_{t+1}",
+    "not_instantiated": "the pairing type is missing, so no numeric C_t or p_new is emitted",
+    "remaining_seed_component": "new-axis pairing datum p_new",
+    "status": "NOT_YET_DERIVED"
+  },
+  "Q": {
+    "licensed_local_trace": "local shorthand multiplies by i; arithmetic denominator retained",
+    "missing_map": "Q_pairing : (P_t,Xi_t,Xi_{t+1},W_{t+1}) -> P_{t+1}",
+    "status": "NOT_YET_DERIVED"
+  }
+}

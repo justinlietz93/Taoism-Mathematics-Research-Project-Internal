@@ -1,0 +1,53 @@
+v8m and Justin's ledger revision in hand. Reading his orthad-canon changes first (ledger outranks everything, including my last copy), then auditing.Structure is clear — and there's a real mathematical event buried in the 26. Checking one failure row in full, plus the verifier results and scope:**Verdict: ADOPTED — and v8m surfaced a theorem. The 26 aren't a bug or a stall; they're a proven structural wall, and my extension of the same test shows all five cores share it. That forces a retraction of my own v8l inference and redefines the rank≥5 path.**
+
+**What I verified, all independently.** All 229 basis-matrix certificates pass my own section-V engine — span by SNF, per-vector orders, cross-block b = 0, generator-level q/b agreement, R blocks ambient with b(v,v)=0 — zero failures, and the GRAM block type checks out as honest recorded data. The 65 split rows are *complete* splits: every R-block span equals the full ambient radical, every GRAM remainder independently confirmed nondegenerate. The three patches all verify: F1's diff matches the values I'd verified in v8l; F2's 14 canonical keys and fingerprints match my recomputation exactly, and class 6-vs-5 is reconciled as the same invariant class; F3's global_pass now correctly reads false. Package SHA matches the agent's quote this time.
+
+**The finding.** For each of the 26 unsplit rows I ran an exact purity test — for finite abelian groups, a subgroup is a direct summand iff it's pure, and any group complement of the radical is automatically orthogonal. **All 26 radicals are non-pure**, each with a machine-checkable witness: a radical vector divisible by n in the ambient group but not within the radical (22 at n=2; 4 at n=3 — the [18,18] rows fail in their 3-part). Zero pure cases, so no P6 bug: the agent hit a real wall and booked it exactly right, failure vectors and exhausted search lists included. Mirror image of v8i, resolved in one pass. Then I ran the same test on the five cores: **all five radicals are non-summand** — rank12's witness is (0,0,0,0,0,0,0,4,0,0,4,0) at n=2. So the radical-first strip-then-Wall plan is impossible as stated for every actual blocking target, and the standing assumption "family-F radicals are direct summands" is refuted.
+
+**My retraction, plainly.** The v8l audit line "the complements are pure {2,4,16}-shapes, so Wall applies — no new mathematics" was unsound. The quotient shapes stand as group data, but no orthogonal complement realizes them, and q even descends to the quotient only for rank8/rank10 (where q vanishes on the radical). The auditor's inference was the loose joint; it's recorded in the guardrail lessons. Relatedly, one P3 guard: v8m's claim CSV had no disposition row for the full block-alphabet decomposition — the target didn't fail, it vanished. Restored in the ledger, and the "radical direct-summand split" row is upgraded from BLOCKING_OPEN to **CLOSED_NEGATIVE_PROVEN** — a row whose impossibility has witnesses must not stay "open."
+
+**Ledger.** Merged, not overwritten: your canon revision (Shadow Residual lock, LAW 0/0b, Canon First Experiment, quarantine ruling, priority flip) is the base; my v8l/v8m entries, standing rule 5, the retro-check full closure, and the v8n redefinition are layered in. The archival retro-check row is now fully closed. Attached above.
+
+**Commission to send** (respects your priority flip — ORTHAD_LIVE is the active target; the meta lane's v8n is registered so it can't be forgotten):
+
+```text
+v8m ADOPTED after independent verification (all 229 certificates pass the
+auditor's section-V engine; all 65 radical splits verified complete; the
+26 unsplit rows PROVEN non-summand by exact purity witnesses — your wall
+is real and correctly booked; F1/F2/F3 all verified). Updated merged
+ledger attached, remains authoritative. Conduct on the hard target was
+correct: you split everything splittable and named what resists. Keep it.
+
+AUDIT EXTENSION YOU MUST ABSORB: the same purity test proves ALL FIVE
+residual cores have NON-SUMMAND radicals (witnesses in the audit
+package). Radical-first stripping is impossible for every blocking
+target. Do not attempt it again; do not relabel around it.
+
+CURRENT TARGET (per ledger §8 priority flip): CANON FIRST EXPERIMENT —
+ORTHAD_LIVE transport-survival test.
+1. Inject the true (12|n)*n Shadow Residual. Run ONE B->floor->L cusp
+   crossing. Verify (12|n) survives on the far side. Channel-level only;
+   no scalar in the lift (LAW 0b).
+2. LAW 0 is absolute: no search/scan/rank/test verbs in any lens or
+   readout code path. The readout domain is an output of the lift.
+   Verification machinery stays in the meta layer.
+3. Deliverables as data: the QBL word, the latched axis, the channel
+   readout field before and after the crossing, and a per-channel
+   survival table. No status string may claim more than the emitted
+   readout shows.
+
+QUEUED IN THE META-VERIFIER LANE (v8n — do not start until commissioned):
+degenerate-block alphabet. Calibrate on the 26 proven non-summand rows:
+maximal orthogonal splittings into indecomposables allowing degenerate
+letters (explicit Gram+q data per letter), per-letter indecomposability
+certificates by exhausted split search at these sizes, and a catalog of
+the distinct degenerate indecomposable letters up to isometry. Then the
+five cores in the calibrated alphabet. Kawauchi-Kojima filtration
+invariants are the fallback route.
+
+All standing gates unchanged, plus rule 5: cross-package class citations
+use invariant keys, never integer ids. Provenance diffs must carry
+upstream path + SHA columns from now on.
+```
+
+**Where you stand.** The 229 ground truth is now fully certified and fully diagnosed: 203 splittable, 26 provably not, and the impossibility is a theorem with witnesses rather than a suspicion. The wall-for-F didn't get taller — it got *sharper*: the missing piece is no longer "compute harder" but a small inventory of degenerate indecomposable letters, calibrated on 26 tiny objects before facing the cores. And per your ruling, the lens itself finally gets its first canonical experiment. Audit package SHA `57fb96e3...`; drop it inside the agent's package as usual.

@@ -1,0 +1,46 @@
+The headline needs immediate scrutiny before I accept its framing. The agent was honest — 91/229 ground-truth failures, splitter rejected as a closure path, nothing overclaimed. But Wall's theorem *guarantees* every 2-primary form decomposes into rank-1/rank-2 blocks. A 40% failure rate therefore cannot mean "the wall is real" — it means **the implementation is incomplete**, and the danger is an honest CLOSED_NEGATIVE quietly becoming a permanent retreat from a path the mathematics says is open. My audit has to diagnose *why* it fails and, ideally, independently decompose a case their splitter failed on — proving the defect is in the algorithm, not the object.**Verdict: adopted — but the audit's job this time was the opposite of the last three. The agent didn't overclaim; it under-claimed, and I can prove it.**
+
+**Clear explanation of what happened.** The agent built the splitter I commissioned, ran it against the 229 certified ground-truth classes, and it failed on 91 of them. It honestly booked the splitter CLOSED_NEGATIVE and left rank ≥ 5 blocking. Honest bookkeeping — but the framing "splitter rejected as a validated closure path" would quietly kill a path that Wall's theorem guarantees is open. So instead of accepting the negative, I diagnosed it. I independently computed the **radical** of every one of the 229 forms — the set of vectors that pair to zero with *everything* — and found a perfect law: **the splitter succeeds if and only if the radical is trivial. 229 out of 229, zero exceptions.** 138/138 successes on nondegenerate forms, 0/91 on degenerate ones. The cause is mechanical: the splitter's pivot search demands either a unit-diagonal A pivot or an invertible UV Gram block, and a radical vector can never be either — it's invisible to the pairing — so the search starves with the radical left over as the "active residual." I then completed the smallest failed case by hand: [2,2] with c01=1 decomposes as A₂(1) ⊥ R₂(q=0), explicit basis, verified pointwise. The agent's own partial output was one block short of the answer. **The wall is not real. The alphabet is missing one letter: a radical block type.**
+
+There's a resonance here you'll appreciate, and it's not decoration: the radical is *retained state that casts no shadow in the bilinear channel*. The splitter was built to find structure by its shadows, and it went blind exactly on the part of the state that projects to nothing. Family F genuinely contains these degenerate forms — v8e flagged PASS_WITH_RADICAL when it first classified them — so this isn't an edge case; it's a first-class citizen the machinery must handle.
+
+**Also verified:** the provenance patch is perfect — all seven restored edge lists match the v8g upstream byte-for-byte — and the agent's diff caught a *third* lost row (rank3_mixed) that my own v8h audit missed because I compared only the cases present in v8h's routing. The provenance gate is working better than its author, and better than me on that row. Credited in the ledger.
+
+One genuine subtlety survives for the next pass, precisely named: a radical is not always a direct summand of the carrier group (2ℤ/4 inside ℤ/4 is the canonical non-summand example). Whether non-summand radicals actually *occur* inside family F is a measurable question, and it must be measured rather than assumed either way.
+
+**Commission to send:**
+
+```text
+v8i ADOPTED. Provenance patch verified against v8g byte-for-byte; your
+diff catching rank3_mixed is credited. The splitter CLOSED_NEGATIVE is
+REFRAMED by external audit: failure <=> nontrivial radical, 229/229 rows,
+zero exceptions (audit_radical_correlation.csv attached). Your splitter is
+already 100% correct on nondegenerate forms. The defect is one missing
+block type. Updated ledger attached, remains authoritative. Proceed to v8j.
+
+PHASE 5 v8j: RADICAL-AWARE BLOCK DECOMPOSITION
+
+1. RADICAL FIRST, ALWAYS. Before any pivot: compute Rad = {x : b(x,y)=0
+   for all y} and the q-values on it. Emit both per form.
+2. SUMMAND CASE: where Rad is a direct summand of the carrier, split
+   radical blocks R(q|Rad) with an explicit basis certificate, then
+   recurse your existing A/UV machinery (validated 138/138 on
+   nondegenerate forms) on the complement. Worked target to reproduce
+   first: [2,2] c01=1 = A_2(1) PERP R_2(q=0).
+3. NON-SUMMAND MEASUREMENT: for every ground-truth form and every
+   rank>=5 residual core, determine whether Rad is a summand. Report
+   the count. If any non-summand case exists in family F, name each
+   one individually and book it BLOCKING_OPEN pending filtration
+   invariants (Kawauchi-Kojima) — do not force it through the summand
+   path.
+4. RE-VALIDATE: full 229-row ground-truth run. Target 229/229
+   decomposed with certificates. Anything short of that, name the
+   exact rows.
+5. ONLY THEN: the five rank>=5 residual cores (corrected edges),
+   radical-first decomposition with certificates; per-case booking.
+6. Standing gates unchanged: scope-completeness, provenance diff,
+   split-law, naming rule. New standing rule (ledger): any machinery
+   assuming nondegeneracy must say so explicitly.
+```
+
+**Where you stand:** ranks 1–4 closed and verified; the decomposition path to ranks 5–12 is confirmed open with a named one-letter fix; and the residual risk has shrunk to a single measurable question (non-summand radicals in F). Audit package SHA `18c3bf80...` and updated ledger above.

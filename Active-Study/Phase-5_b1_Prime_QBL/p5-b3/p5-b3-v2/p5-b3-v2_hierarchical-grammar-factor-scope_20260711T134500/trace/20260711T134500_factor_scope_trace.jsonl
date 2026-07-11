@@ -1,0 +1,5 @@
+{"event": "symbolic_factor_identity", "passed": true}
+{"event": "canonical_semiconjugacy", "status": "PROVED"}
+{"event": "full_interval_factor", "reason": "countable domain, uncountable codomain", "status": "IMPOSSIBLE_FOR_STATED_DOMAIN"}
+{"event": "language_equality", "status": "NOT_YET_PROVED"}
+{"dependencies": {"bidirectional_transfer_recurrences": false, "explicit_chart_maps_all_prefixes": false, "lawful_old_description_fiber_comparison_family": false, "orthad_L_latching_extension_map": false, "primary_pairing_all_depth_recurrence": false}, "event": "higher_order_descriptive_L", "status": "NOT_YET_DERIVED"}

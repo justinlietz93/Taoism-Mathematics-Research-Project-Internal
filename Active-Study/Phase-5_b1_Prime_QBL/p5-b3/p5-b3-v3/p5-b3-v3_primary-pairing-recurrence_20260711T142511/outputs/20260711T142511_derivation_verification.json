@@ -1,0 +1,24 @@
+{
+  "carry_rows_verified": 9,
+  "conditional_L_old_block_embedding": true,
+  "diagram_sha256": "2880cd7c9d228a2739637990e8c7ff2322bb840f3da14f51f472d2689d6ed2e6",
+  "first_domain_local_result": "i/4895",
+  "negative_control_nonorthogonal_L_rejected": true,
+  "primary_law_sha256": "f0f66790bf6da0b3fca9a400da36ff5879db4b3e861703ef3a309829a2af9962",
+  "statuses": {
+    "B_value_recurrence": "NOT_YET_DERIVED",
+    "L_value_recurrence": "NOT_YET_DERIVED",
+    "Q_value_recurrence": "NOT_YET_DERIVED",
+    "branch_status": "OPEN",
+    "exact_pairing_type": "NOT_YET_DERIVED",
+    "exact_seed": "NOT_YET_DERIVED",
+    "future_carry_appended_by_instantaneous_L": "FAIL",
+    "higher_order_descriptive_L": "NOT_YET_DERIVED",
+    "just_completed_carry_recoverable": "PASS",
+    "minimal_pairing_interface": "DERIVED"
+  },
+  "symbolic_B_local_recurrence": true,
+  "symbolic_Q_local_recurrence": true,
+  "universal_pairing_recurrence_claimed": false,
+  "word_verified": true
+}

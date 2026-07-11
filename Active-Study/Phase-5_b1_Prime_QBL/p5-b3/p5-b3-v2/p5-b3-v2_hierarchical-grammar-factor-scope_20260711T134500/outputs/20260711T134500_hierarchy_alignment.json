@@ -1,0 +1,6 @@
+{
+  "active_depth_status": "COUNT_ALIGNMENT_ONLY",
+  "identity": "J_A=6*p(A)",
+  "p_A": "2^(A+1)-1",
+  "refinement_preserving_map_present": false
+}

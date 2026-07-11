@@ -1,0 +1,6 @@
+case,claimed,claimed_shape,enum_matches_snf,enum_radical,expected_anchor,gen_span_equals_enum_radical,gen_span_size,gens_ambient_radical,q_on_radical_match,quotient_shape_mine,shape_match,snf_radical,span_matches_radical
+rank5_prime,4,"[2, 2, 4, 16]",True,4,4,True,4,True,True,"[2, 2, 4, 16]",True,4,True
+rank6_large,8,"[2, 4, 4, 4, 16]",True,8,8,True,8,True,True,"[2, 4, 4, 4, 16]",True,8,True
+rank8_large,64,"[2, 2, 2, 2, 4, 4, 4, 16]",,,64,,64,True,True,"[2, 2, 2, 2, 4, 4, 4, 16]",True,64,True
+rank10_large,256,"[2, 2, 2, 2, 2, 4, 4, 4, 16]",,,256,,256,True,True,"[2, 2, 2, 2, 2, 4, 4, 4, 16]",True,256,True
+rank12_large,2048,"[2, 2, 2, 4, 4, 4, 4, 4, 16]",,,2048,,2048,True,True,"[2, 2, 2, 4, 4, 4, 4, 4, 16]",True,2048,True

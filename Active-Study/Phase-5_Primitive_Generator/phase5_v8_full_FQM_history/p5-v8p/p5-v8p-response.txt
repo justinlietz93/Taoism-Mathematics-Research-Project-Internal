@@ -1,0 +1,112 @@
+```text
+DISPOSITION:
+REJECT_CANON_FIRST_CLAIM
+REVOKE_GLOBAL_PASS
+REVOKE_FINITE_BL_TRANSPORT_STATUS
+RETAIN_NONCANONICAL_TABLE_REPRODUCTION_ONLY
+```
+
+## Canonical correction
+
+```text
+Initial state:
+A=0
+q=(1,1)
+k=0
+j=1
+W=""
+
+First crossing word:
+BQQBBBQBQBBQBBL
+
+Floor anchor:
+q=(55,89)
+uv=4895
+
+Q count:
+5
+
+Phase at floor:
+5π/2 ≡ π/2 mod 2π
+
+State after L:
+A=1
+q=(55,89)
+θ carried unchanged
+k=0
+W=BQQBBBQBQBBQBBL
+
+Next B:
+(55,89) -> (89,144)
+```
+
+`FLOOR` is not an operator. It is the state condition:
+
+```text
+B blocked
+AND
+k = N_A - 1
+```
+
+## Revoked package claims
+
+```text
+QBL word = BL
+B -> FLOOR -> L as a lawful crossing
+derived axis i/4895
+word-built retained Orthad
+rank growth from 6 to 12
+canonical dual-chart transport
+7/7 canonical ablation controls
+Lean formalization of the crossing
+```
+
+## Retained package facts
+
+```text
+(34,55) -> (55,89) local B arithmetic
+finite χ12 lookup identity
+meta-layer Shadow Residual reference separation
+deterministic reproduction of its own noncanonical table
+honest final-completion nonclaims
+package SHA verification
+passing local pytest suite
+```
+
+## Required replacement boundary
+
+The current package must not be repaired by reconnecting its existing matrices. The primitive custody engine beneath them must be replaced.
+
+The replacement must carry:
+
+```text
+X = (A, q, θ, k, j, W)
+```
+
+and execute the deterministic priority:
+
+```text
+B > Q > L
+```
+
+after every primitive step.
+
+Only after the complete word prefix has been generated may the Orthad:
+
+```text
+mutate both charts tick-by-tick
+retain the complete ordered history
+derive cross-chart coupling from the pairing
+freeze the floor entry at forced L
+grow the retained carrier from 6 to 12
+verify lap2 = -lap1 from carried phase
+project the transported channel field
+```
+
+No fixed twelve-address carrier may exist before `L`. No pair reset occurs at `L`. No channel label may reconstruct its own destination. No `ORTHAD_LIVE` status is available until the complete primitive crossing and retained dual-chart structure are both present and load-bearing.
+
+```text
+CURRENT CANON-FIRST STATUS:
+OPEN
+```
+

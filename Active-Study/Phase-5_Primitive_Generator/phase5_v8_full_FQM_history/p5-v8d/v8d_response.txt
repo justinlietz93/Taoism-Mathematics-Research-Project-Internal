@@ -1,0 +1,190 @@
+Completed **Phase 5 v8d: Orthad-Generated FQM Subclass Derivation and SymPy Classifier**.
+
+Ledger authority was applied first: `PHASE5_CANONICAL_LEDGER.md` outranks package headlines, makes v8d the single active target, and says v8c is suspended pending the cross-coupled reachability premise. 
+
+[Download the Phase 5 v8d package](sandbox:/mnt/data/phase5_v8d_orthad_generated_fqm_subclass_package.zip)
+
+```text
+SHA256:
+8aba228e69a523e62689858a56e066aeeedc99cd4715cf706b915d51d3378d98
+```
+
+## Result
+
+```text
+PHASE 5 v8d:
+Orthad-Generated FQM Subclass Derivation and SymPy Classifier
+
+STATUS:
+V8D_ORTHAD_GENERATED_FQM_SUBCLASS_CLOSED_POSITIVE_WITH_2_PRIMARY_CLASSIFIER_WALL_BLOCKING_OPEN
+
+GLOBAL_PASS:
+true
+
+PHASE5_CLOSED:
+false
+
+v8c:
+SUSPENDED_REMAINS_SUSPENDED
+```
+
+## Decisive outcome
+
+```text
+Outcome b:
+
+bilinear-decomposable but hits full 2-adic taxonomy
+  -> wall is real
+  -> BLOCKING_OPEN stands
+```
+
+So v8c does **not** become sound retroactively.
+
+## Family F derived
+
+For defined Orthad T-record semantics, the generated FQM presentations land in:
+
+```text
+A = Π_i Z/D_iZ, with D_i even doubled carriers
+
+b(x,y) =
+  Σ_i x_i y_i / D_i
+  +
+  Σ_{i<j} c_ij (x_i y_j + x_j y_i) / lcm(D_i,D_j)
+
+q(x) = 1/2 b(x,x)
+```
+
+Representative invariance gate:
+
+```text
+lcm(D_i,D_j) | c_ij D_i
+lcm(D_i,D_j) | c_ij D_j
+```
+
+Equivalently:
+
+```text
+c_ij is a multiple of lcm(D_i,D_j) / gcd(D_i,D_j)
+```
+
+## Hard counts
+
+```text
+presentations_tested:
+  68
+
+reachability_rows:
+  36
+
+representative_gate_rows:
+  64
+
+trilinearity_controls:
+  4 / 4 passed
+
+negative_controls:
+  5 / 5 passed
+
+skeleton_fourier_residual:
+  5.126297777653476e-15
+```
+
+## Required gates
+
+```text
+Z/12Z χ12 skeleton:
+  REACHABLE
+  contradiction-grade failure not triggered
+
+trilinearity gate:
+  PASSED
+  nondecomposable triple incidence rejected
+  decomposable triple boundary incidence projects to pairwise bilinear
+
+cross-coupled reachability:
+  POSITIVE
+  representative-invariant pairwise O_ij records reach cross-coupled presentations
+
+2-primary wall:
+  REAL
+  generated even/mixed cross-coupled witnesses require full 2-adic classification
+```
+
+## Blocking open after v8d
+
+```text
+full 2-adic Nikulin / Conway-Sloane classification
+
+full p^k mixed cyclic Jordan decomposition for generated even/mixed cross-coupled witnesses
+
+Lean-verified executable classifier
+```
+
+## Package contents
+
+```text
+phase5_v8d_orthad_generated_fqm_subclass/
+├── README.md
+├── MANIFEST_SHA256SUMS.txt
+├── docs/
+│   ├── generated_family_F_proof.md
+│   ├── phase5_v8d_frontier_note.md
+│   ├── phase5_v8d_orthad_generated_fqm_subclass.md
+│   ├── phase5_v8d_protocol_definitions.md
+│   ├── phase5_v8d_result_card.md
+│   └── v8c_suspension_decision.md
+├── outputs/
+│   ├── phase5_v8d_verification_summary.json
+│   ├── phase5_v8d_result_card.json
+│   ├── phase5_v8d_T_record_to_family_gates.csv
+│   ├── phase5_v8d_reachability_witnesses.csv
+│   ├── phase5_v8d_generated_presentations.csv
+│   ├── phase5_v8d_representative_invariance_gates.csv
+│   ├── phase5_v8d_classifier_routing_results.csv
+│   ├── phase5_v8d_trilinearity_gate_controls.csv
+│   ├── phase5_v8d_shadow_skeleton_reachability.csv
+│   ├── phase5_v8d_chi12_support_phase_checks.csv
+│   ├── phase5_v8d_2primary_wall_witnesses.csv
+│   ├── phase5_v8d_negative_controls.csv
+│   ├── phase5_v8d_claim_disposition.csv
+│   ├── phase5_v8d_ledger_reconciliation.csv
+│   ├── phase5_v8d_naming_registry_delta.csv
+│   └── phase5_v8d_falsification_targets.csv
+├── sealed/
+│   ├── DO_NOT_CLOSE_PHASE5_GATE.json
+│   └── SEALED_V8D_GENERATED_SUBCLASS_BEFORE_2PRIMARY_CLASSIFIER.json
+├── scripts/
+│   └── phase5_v8d_orthad_generated_fqm_subclass.py
+├── notebooks/
+│   └── phase5_v8d_orthad_generated_fqm_subclass.ipynb
+├── proofs/
+│   └── Phase5V8DOrthadGeneratedFQM.lean
+├── lean/
+│   ├── lakefile.lean
+│   ├── lean-toolchain
+│   ├── Phase5V8D.lean
+│   └── Phase5V8D/
+│       └── OrthadGeneratedFQM.lean
+├── source_notes/
+│   └── PHASE5_CANONICAL_LEDGER.md
+├── snapshots/
+│   └── example_generated_fqm_snapshot.json
+└── patches/
+    └── phase5_v8d_generated_subclass_patch.md
+```
+
+## Current state
+
+```text
+Phase 5:
+  OPEN
+
+v8c:
+  SUSPENDED
+
+Reason:
+  cross-coupled Orthad-generated presentations are reachable,
+  and they hit the 2-primary classifier wall.
+```
+

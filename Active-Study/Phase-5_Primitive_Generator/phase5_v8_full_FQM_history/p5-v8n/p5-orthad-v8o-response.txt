@@ -1,0 +1,129 @@
+## Corrected Canon First rerun
+
+[Download the corrected dual-chart package](sandbox:/mnt/data/canon_first_dual_chart_corrected_rerun_package.zip)
+
+```text
+SHA256:
+906787a686458477fefc8e042832682aa3f3ba8c232667d235a15512c3273e75
+```
+
+```text
+STATUS:
+CANON_FIRST_DUAL_CHART_ONE_CROSSING_CHARACTER_MATCH_OBSERVED
+
+global_pass:
+true
+
+completion_claim:
+false
+```
+
+### Emitted evidence
+
+```text
+QBL word:
+BL
+
+crossing:
+B -> FLOOR -> L
+
+pair:
+(34,55) -> (55,89)
+
+latched axis:
+i/4895
+
+new active axis:
+1
+
+far-side character match:
+12/12
+```
+
+Both word-built matrices and directed transfer blocks are emitted:
+
+```text
+OmegaPlus
+OmegaMinus
+TransferPlusToMinus
+TransferMinusToPlus
+PrimaryPairing
+```
+
+The channel domain is empty before the word and is generated only after `B`. The Shadow Residual reference exists only in the meta layer.
+
+### Load-bearing controls
+
+Every required ablation fails the evidence-recomputed survival gate:
+
+```text
+delete B:                 FAILS
+delete L:                 FAILS
+pair (1,1):               FAILS
+pair (100,101):           FAILS
+corrupt floor bit:        FAILS
+corrupt latched axis:     FAILS
+sever cross transfer:     FAILS
+```
+
+```text
+required ablations failed:
+7/7
+```
+
+Per-ablation matrix differences and per-channel evidence are included. The floor-bit corruption correctly has zero Omega difference while still corrupting field custody; severing transfer changes only the off-diagonal transfer block.
+
+### Verifier teeth
+
+The verifier recomputes transport and character agreement directly from the before/after CSV fields.
+
+```text
+baseline evidence:
+PASS
+
+mutated far-side character:
+FAIL
+
+injected forbidden LAW 0 lexeme:
+FAIL
+```
+
+All 12 declared gates and all 12 corresponding firing controls pass.
+
+### Packaging
+
+```text
+manifest:
+verified
+
+__pycache__ / .pyc entries:
+0
+
+pytest:
+6 passed
+
+notebook:
+executed
+
+prior audit archives:
+embedded whole
+
+canon ledger and diagram:
+embedded
+
+upstream paths and SHA-256:
+emitted in provenance_diff.csv
+```
+
+The Lean source states the actual finite B/L transport relation and causal pair/transfer controls. Lean was unavailable in the build container, so local Lean compilation is not claimed.
+
+```text
+NOT CLAIMED:
+arbitrary cusp paths
+multi-crossing stability
+analytic q-series completion
+mock-theta closure
+general field-valued MHD transport
+final Canon completion
+```
+

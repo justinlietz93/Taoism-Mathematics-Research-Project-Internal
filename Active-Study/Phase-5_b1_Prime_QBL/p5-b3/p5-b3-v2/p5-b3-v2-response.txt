@@ -1,0 +1,100 @@
+Completed `p5-b3-v2`.
+
+[Full corrected research document](sandbox:/mnt/data/QBL_HIERARCHICAL_GRAMMAR_FACTOR_SCOPE_v2.md)
+
+[Reproducible experiment package](sandbox:/mnt/data/p5-b3-v2_hierarchical-grammar-factor-scope_20260711T134500.zip)
+
+[Archive SHA-256 file](sandbox:/mnt/data/p5-b3-v2_hierarchical-grammar-factor-scope_20260711T134500.zip.sha256)
+
+```text
+Document SHA-256:
+63a522df4882409f7147ea96db128554b9a87530d880780cb8ffbda8025f31fd
+
+ZIP SHA-256:
+aaf8690e8a64ac531dce4be785b37139a0551be59bebf8279142a10953b311ec
+```
+
+## Exact scope
+
+The canonical systems are
+
+[
+\mathcal O_{\mathrm{QBL}}={S_A^-:A\ge0},
+\qquad
+\mathcal O_E={E_A:A\ge0},
+]
+
+with boundary return (\mathcal R(S_A^-)=S_{A+1}^-) and restricted affine evolution (F(E_A)=E_{A+1}). The state-internal map
+
+[
+\pi(S_A^-)
+==========
+
+\frac{\log2}{\log\varphi}j_A
++
+\left(
+\frac{\log5}{2\log\varphi}-\frac32
+\right)
+-\nu(q_A)
+]
+
+is surjective onto (\mathcal O_E) by construction and satisfies
+
+[
+\pi\circ\mathcal R=F\circ\pi.
+]
+
+```text
+CANONICAL QBL-TO-AFFINE BOUNDARY-ORBIT SEMICONJUGACY: PROVED
+```
+
+The canonical QBL boundary orbit is countable, while the complete affine interval is uncountable. Therefore:
+
+```text
+FULL AFFINE INTERVAL FACTOR: IMPOSSIBLE FOR THE STATED DOMAIN
+ENLARGED LAWFUL QBL-TO-FULL-INTERVAL FACTOR: NOT YET DERIVED
+```
+
+The canonical itinerary language is a subset of the full affine cylinder language, but equality would require at least a density theorem for the specific orbit. That remains open:
+
+```text
+CANONICAL ORBIT LANGUAGE = FULL AFFINE LANGUAGE: NOT YET PROVED
+SPECIFIC-ORBIT EQUIDISTRIBUTION: NOT PROVED
+```
+
+## Higher-order `L` boundary
+
+```text
+A. CARRY APPENDED AT INSTANTANEOUS PRIMITIVE L: FAIL
+B. EXACT BOUNDARY-RETURN COCYCLE: PASS
+C. HIGHER-ORDER DESCRIPTIVE L: NOT YET DERIVED
+```
+
+Claim C is not rejected. Its independence test requires a lawful comparison family whose old-description fibers can be split by a new retained coordinate. The present canonical orbit does not supply that family.
+
+The written Orthad authority places the actual `L` rank extension in the primary pairing, both chart restrictions, and both directed transfers. Their exact all-depth recurrences and the corresponding `L` extension map remain open, so the scalar cocycle cannot settle the Orthad-level conjecture. 
+
+```text
+DESCRIPTIVE-LAYER INDEPENDENT AXIS TEST: NOT YET DERIVED
+ORTHAD-LEVEL HIGHER-ORDER L RECURRENCE: NOT YET DERIVED
+GAUGE/FQM MAP FROM d_A=±1: NOT YET DERIVED
+HIERARCHICAL DEPTH RECURRENCE: COUNT ALIGNMENT ONLY
+p5-b3 BRANCH STATUS: OPEN
+```
+
+## Package verification
+
+```text
+Manifest entries:             48
+Notebook cells:               13/13 executed successfully
+Figures regenerated:          13
+Custody simulation:           PASS, A=0..8
+Symbolic factor algebra:      PASS
+Manifest verification:        PASS
+Clean archive rebuild:        PASS
+Byte-identical ZIP rebuild:   PASS
+
+LEAN THEOREM SURFACE PRESENT;
+PROOF AND COMPILATION NOT VERIFIED
+```
+

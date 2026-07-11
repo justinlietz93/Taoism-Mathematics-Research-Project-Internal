@@ -1,0 +1,7 @@
+metric,value
+positive_certificates,498
+witnesses_failed_reverification,0
+classes,14
+classes_with_nonconstant_fingerprint,0
+cross_class_fingerprint_collisions,1
+independent_nonisometry_samples_separated,1

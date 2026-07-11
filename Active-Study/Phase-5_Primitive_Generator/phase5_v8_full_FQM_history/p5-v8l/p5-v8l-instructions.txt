@@ -1,0 +1,43 @@
+**Verdict: adopted. This is what recovery from a reject is supposed to look like — the agent claimed less than commissioned and everything it did claim survives independent verification.**
+
+**Clear explanation of what I verified.** Four things, each independently. First, the worked certificate is finally *data* and it's correct: basis [[1,0],[1,1]] on the [2,2] c01=1 form checks out completely — q(v₀) = 1/4 giving A₂(1), v₁ pairs to zero with every *ambient* generator (the v8j relative-radical bug is genuinely fixed, not just renamed), q(v₁) = 0, orthogonal, spanning. The gates I imposed after the reject — CERTIFICATE_IS_DATA and RADICAL_BII_ZERO — are being enforced in substance, and my scan found zero string-certificates anywhere in the outputs. Second, the completed form specs are mathematically right: I re-derived the diagonal units by hand from the odd cofactors ([1,3,15,5] mod 2D → [1,3,3,5], exact match). Third, the radical sizes of all five cores under the corrected diagonals — 4, 8, 64, 256, 2048 — I confirmed independently. The rank-12 group has 2.7×10⁸ elements, far beyond enumeration, so I counted the radical exactly as the kernel of the Gram system via Smith normal form, and validated that method against brute enumeration on the two smallest cores before trusting it on the big ones. All five match. Fourth, the v8h retro-check *premise* is substantiated: I computed the q-value histograms of the pinned-diagonal and true-diagonal archival forms and they differ — these are genuinely different mathematical objects, which proves v8h had classified the wrong one and the retro-check was necessary, not bookkeeping theater.
+
+**One obligation, not a reject.** The retro-check books CLOSED_POSITIVE citing a *new* true-diagonal orbit table — 512 forms, 14 classes, archival case landing in class 6 — that isn't in the package. No class table, no representatives, no decision certificates. The premise is verified; the conclusion rests on unpublished ground truth. Under the gates we just wrote, that table must be published before the row counts as fully closed. Note the asymmetry with v8j: there, vocabulary substituted for substance; here, the substance likely exists and simply wasn't shipped. Different severity, same rule.
+
+Also worth naming: the radical sizes *changed* under the corrected diagonals (rank12 went from the v8i-era measurement to 2048). That's not an inconsistency — it's direct evidence the FORM_SPEC_COMPLETE fix mattered: the pinned-diagonal objects everyone was measuring before v8k were literally different forms. And the large radicals are good news for tractability: stripping a 2048-element radical off the rank-12 core leaves a much smaller nondegenerate part for the validated A/UV machinery.
+
+**Commission to send:**
+
+```text
+v8k ADOPTED after independent verification (worked certificate verified
+as data; all five core radical sizes confirmed by SNF kernel counting,
+method validated against enumeration; form-spec derivation checked by
+hand; retro-check premise substantiated — pinned and true-diagonal
+archival forms are provably different objects). Updated ledger attached,
+remains authoritative. Correct post-reject conduct is noted: you claimed
+less and verified everything you claimed. Keep that discipline.
+Proceed to v8l.
+
+PHASE 5 v8l: FULL DECOMPOSITION UNDER DATA GATES
+
+1. PUBLISH THE TRUE-DIAGONAL RANK-4 ORBIT TABLE. 512 forms, class table
+   with representatives and per-decision certificates, same standard as
+   the (externally verified) v8h pinned table. This closes the
+   retro-check row; until published it stays provisional.
+2. GROUND TRUTH 229/229. Radical-first decomposition of every v8e/v8g/
+   v8h class representative with a per-row explicit basis-matrix
+   certificate. Ambient radical test. Any row that fails: name the
+   exact vector where splitting fails; never relabel.
+3. FIVE CORES. Same standard, using the completed form specs (diag
+   units + corrected edges). For each core, report the nondegenerate
+   complement's shape after radical stripping — the rank-12 core sheds
+   a 2048-element radical, so state what remains and decompose it.
+4. Certificates must pass the verification standard in the attached
+   audit packages (SNF span, per-vector order, cross-block
+   orthogonality, generator-level q/b agreement). Run that check
+   yourself as a gate before sealing; emit the gate results.
+5. All standing gates unchanged. No status string may claim more than
+   its certificate proves.
+```
+
+**Where you stand.** The v8j reject cost one package and bought three permanent gates plus a chain-wide spec fix that was silently corrupting the objects since v8g. Nothing verified earlier is lost: ranks 1–4 pinned tables stand, the radical diagnosis stands, and the decomposition path remains open with the machinery now provably honest at small scale. v8l is the convergence test: if the certificates come back and verify, the wall-for-F is one relation-catalog away from closed, and after that it's the rigidity lemma, Lean, the v8c re-audit, and Phase 5 ends. Audit package SHA `a680248c...` and updated ledger above.

@@ -1,0 +1,31 @@
+Send the agent **these two ZIPs**:
+
+1. [The accepted `p5_v8r` experiment package](sandbox:/mnt/data/p5_v8r_orthad-first-crossing-recurrence_20260711_080825.zip)
+2. [The `p5_v8r` audit package containing the `p5_v8s` instructions](sandbox:/mnt/data/p5_v8r_audit-package_20260711_083041.zip)
+
+Then send this exact message:
+
+```text
+Execute the attached p5_v8s instructions now.
+
+Use `p5_v8r_orthad-first-crossing-recurrence_20260711_080825.zip`
+as the accepted baseline.
+
+Use
+`p5_v8r_audit-package_20260711_083041/p5_v8s_AGENT_INSTRUCTIONS_20260711T083041.md`
+as the task specification.
+
+Do not only acknowledge or summarize the audit. Perform the research task and
+return the required experiment package:
+
+p5_v8s_orthad-atlas-and-transfer-gap_<YYYYMMDD_HHMMSS>.zip
+
+Include the exact ZIP SHA-256 and the requested status lines.
+```
+
+For maximum clarity, you can also attach the instruction file separately:
+
+[Direct `p5_v8s` agent instructions](sandbox:/mnt/data/p5_v8r_audit-package_20260711_083041/p5_v8s_AGENT_INSTRUCTIONS_20260711T083041.md)
+
+The response you received was only an acknowledgment. I had expected the instruction document inside the audit package to be treated as executable, but the handoff should have explicitly said **“execute this now and return the package.”**
+

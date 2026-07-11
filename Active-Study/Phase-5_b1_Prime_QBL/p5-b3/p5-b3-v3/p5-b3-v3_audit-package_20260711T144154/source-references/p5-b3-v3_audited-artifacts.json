@@ -1,0 +1,12 @@
+{
+  "agent_archive": {
+    "name": "p5-b3-v3_primary-pairing-recurrence_20260711T142511.zip",
+    "sha256": "ee18e5d288231722a164843f96f772bb4288e103d1cd5a72ac5526f989fc35b5"
+  },
+  "agent_document": {
+    "name": "QBL_PRIMARY_PAIRING_RECURRENCE_v1.md",
+    "sha256": "588f8e1627feda109773610a0854ce49c48052fc85367315bdd60df86ba7814d"
+  },
+  "audit_step": "p5-b3-v3",
+  "next_step": "p5-b3-v4"
+}

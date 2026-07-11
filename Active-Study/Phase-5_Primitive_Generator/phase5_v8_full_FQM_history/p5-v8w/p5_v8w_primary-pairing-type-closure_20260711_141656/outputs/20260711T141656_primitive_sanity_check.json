@@ -1,0 +1,30 @@
+{
+  "Q_steps": 5,
+  "after_L": {
+    "A": 1,
+    "j": 7,
+    "k": 0,
+    "pair": [
+      55,
+      89
+    ],
+    "phase_quarters": 5
+  },
+  "after_next_B": {
+    "pair": [
+      89,
+      144
+    ]
+  },
+  "floor_pair": [
+    55,
+    89
+  ],
+  "floor_product": 4895,
+  "independent_oracle_word": "BQQBBBQBQBBQBBL",
+  "local_shorthand": "i/4895",
+  "pass": true,
+  "phase_witness": "i",
+  "word": "BQQBBBQBQBBQBBL",
+  "word_with_next_B": "BQQBBBQBQBBQBBLB"
+}

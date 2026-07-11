@@ -1,0 +1,892 @@
+This is a ratified branch realignment.
+
+Audit the current parallel-branch state against the attached architecture diagram and QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md.
+
+Then issue the enclosed instructions to the downstream agent as the p5_v8v task.
+
+The written notation and custody law control wherever the diagram contains an imperfect glyph or abbreviated label.
+
+The main correction is dependency order:
+
+primitive custody
+-> primary pairing
+-> chart restrictions
+-> directed transfers
+-> fully retained lifted state
+-> terminal projection
+
+The Z/12Z successor search is no longer the first research gap.
+The first gap is the primary pairing type, seed, and per-letter mutation.
+
+
+
+[CURRENT STATE]
+
+Use QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md as the primary authority.
+
+The primitive custody state is
+
+Xi_t =
+(
+    A_t,
+    q_t,
+    theta_t,
+    k_t,
+    j_t,
+    W_t
+),
+
+with
+
+q_t = (u_t, v_t).
+
+A is the domain counter.
+
+q is the carried balanced-refinement pair.
+
+theta is the carried phase.
+
+k is the local phase-position index inside the current domain.
+
+j is the global phase-position index across all domains.
+
+W is the exact ordered primitive word already executed.
+
+The exact relation between the local and global position indices is
+
+j_t = j_start(A_t) + k_t,
+
+where
+
+j_start(A) = 1 + 6(2^A - 1).
+
+The state self-selects the next primitive through the strict priority law
+
+B > Q > L.
+
+The Orthad does not select, schedule, permit, or veto the primitive letter.
+
+It mutates with every selected primitive letter.
+
+The fully retained lifted state is
+
+Xi_hat_t =
+(
+    Xi_t,
+    P_t,
+    Omega_t_plus,
+    Omega_t_minus,
+    T_t_plus_to_minus,
+    T_t_minus_to_plus
+).
+
+P_t is the generative primary pairing.
+
+Omega_t_plus and Omega_t_minus are the two chart restrictions intended to be derived from P_t.
+
+T_t_plus_to_minus and T_t_minus_to_plus are the two directed transfers intended to be derived from P_t.
+
+The Orthad is written
+
+⌞Xi_hat_t⌝.
+
+Xi_hat_t is the fully retained lifted state.
+
+⌞Xi_hat_t⌝ is the Orthad wrapping and reading that state.
+
+They are not identical objects.
+
+The exact pairing type, pairing seed, pairing recurrence, chart maps, and transfer recurrences remain NOT YET DERIVED.
+
+The recent successor search on Z/12Z did not derive those objects.
+
+Treat Z/12Z as a finite doubled carrier, finite shadow skeleton, or local coordinate surface until a stronger type is proved.
+
+Treat the supplied architecture diagram as conceptual orientation only.
+
+Where an image glyph and this written notation disagree, the written notation controls.
+
+Use these exact written symbols:
+
+Primitive custody state:
+    Xi_t
+
+Fully retained lifted state:
+    Xi_hat_t
+
+Orthad:
+    ⌞Xi_hat_t⌝
+
+Apply these primitive mutations.
+
+B custody:
+
+    q_t = (u_t, v_t)
+        ->
+    q_{t+1} = (v_t, u_t + v_t)
+
+    A, theta, k, and j are unchanged.
+
+Q custody:
+
+    theta_{t+1} = theta_t + pi/2
+    k_{t+1} = k_t + 1
+    j_{t+1} = j_t + 1
+
+    q and A are unchanged.
+
+L custody:
+
+    A_{t+1} = A_t + 1
+    k_{t+1} = 0
+    j_{t+1} = j_start(A_t + 1)
+
+    q and theta are carried unchanged.
+
+    W appends L.
+
+L Orthad:
+
+    the completed active axis is latched
+    the complete old pairing block is retained
+    one new orthogonal active axis is appended
+    pairing rank increases by one
+    both chart restrictions extend
+    both directed transfers extend
+
+The complete retained object is Xi_hat_t, not P_t alone.
+
+The clean custody and Orthad law is the active authority for this pass. :contentReference[oaicite:0]{index=0}
+
+[STRATEGIC QUESTION]
+
+Determine the earliest internally generated Orthad object.
+
+Assess whether the primary pairing seed and its B/Q/L mutation law can be derived directly from the primitive custody state and exact word prefix.
+
+Do not begin from a successor on Z/12Z.
+
+If a finite successor survives, determine its exact downstream role after the pairing-first construction is established.
+
+Consider whether the strongest path is to derive the pairing type first, then the seed, then the three primitive mutations, then the chart restrictions and transfers.
+
+Propose a stronger dependency order if the evidence forces one.
+
+[REASONING TASK]
+
+1. Establish the corrected type ledger.
+
+   Define the types of:
+
+   A
+   q = (u,v)
+   theta
+   k
+   j
+   W
+   Xi_t
+   P_t
+   Omega_t_plus
+   Omega_t_minus
+   T_t_plus_to_minus
+   T_t_minus_to_plus
+   Xi_hat_t
+   ⌞Xi_hat_t⌝
+
+   Distinguish:
+
+   domain counter A
+   local phase-position index k
+   global phase-position index j
+   pairing rank
+   active-axis index
+   chart coordinate
+   retained lifted state
+   Orthad wrapper
+
+   Confirm that Xi_t is the custody state.
+
+   Confirm that Xi_hat_t is the fully retained lifted state.
+
+   Confirm that ⌞Xi_hat_t⌝ is the Orthad wrapping and reading Xi_hat_t.
+
+   Report:
+   typed_state_ledger.md
+
+2. Reproduce the canonical primitive trace.
+
+   Start from:
+
+   A = 0
+   q = (1,1)
+   theta = 0
+   k = 0
+   j = 1
+   W = empty
+
+   Derive the exact word:
+
+   BQQBBBQBQBBQBBL
+
+   Record every prefix.
+
+   Record after every primitive step:
+
+   A
+   q
+   theta
+   k
+   j
+   W
+   capacity
+   CanB
+   CanQ
+   selected primitive
+
+   Confirm:
+
+   floor pair = (55,89)
+   product = 4895
+   Q count = 5
+   phase at first L = 5*pi/2
+   phase witness modulo 2*pi = pi/2
+   complex phase witness = i
+   pair and phase carry through L
+   k resets to 0 at L
+   j becomes 7 after the first L
+   first next-domain primitive = B
+   next pair = (89,144)
+
+   Report:
+   custody_trace.jsonl
+   custody_snapshots.json
+   custody_trace_summary.md
+
+3. Retire the successor-first dependency.
+
+   Examine the p5_v8u claims about alpha_empty and S_empty.
+
+   Determine which claims remain useful as local-carrier observations.
+
+   Determine which claims were placed too early in the dependency chain.
+
+   Remove alpha_empty and S_empty from the first-gap position unless the current derivation forces them back there.
+
+   Report:
+
+   FIRST_TRUE_GAP:
+       PRIMARY_PAIRING_TYPE_SEED_AND_MUTATION
+
+   Z12_SUCCESSOR_STATUS:
+       DOWNSTREAM_COORDINATE_QUESTION
+
+   Include the exact dependency argument for this retyping.
+
+   Report:
+   successor_path_reassessment.md
+
+4. Determine the primary pairing type.
+
+   Work out the domain and codomain of P_t.
+
+   Determine what mathematical objects P_t pairs.
+
+   Determine whether P_t is:
+
+   a bilinear form
+   a sesquilinear form
+   a quadratic refinement
+   an operator-valued pairing
+   a block pairing
+   or another exact object
+
+   Determine its dimension before the first L.
+
+   Determine how its rank relates to latched axes.
+
+   Determine how the active axis is represented.
+
+   Confirm that P_t is not a chart-local matrix.
+
+   Confirm that P_t is not the Bloch sphere.
+
+   Confirm that P_t is not Z/12Z itself.
+
+   Report:
+   primary_pairing_type.md
+
+   End with one status:
+
+   PRIMARY_PAIRING_TYPE: DERIVED
+
+   or
+
+   PRIMARY_PAIRING_TYPE: NOT_YET_DERIVED
+   MISSING_OBJECT: <one exact object>
+
+5. Determine the primary pairing seed.
+
+   Use only:
+
+   Xi_0
+   W_0
+   the primitive custody law
+   previously licensed retained geometry
+
+   Determine whether P_0 is forced.
+
+   Check whether any proposed P_0 depends on an imported structure.
+
+   Confirm whether each ingredient is licensed at this layer.
+
+   Leave any unlicensed ingredient out.
+
+   Do not use as the seed:
+
+   a constant chart matrix
+   an imported Weil matrix
+   a finished FQM form
+   a Bloch coordinate
+   a terminal character
+   the affine 7/8/9 coordinate
+   the Z/12Z shadow skeleton
+
+   Report:
+   primary_pairing_seed.md
+
+   End with one status:
+
+   PRIMARY_PAIRING_SEED: DERIVED
+
+   or
+
+   PRIMARY_PAIRING_SEED: NOT_YET_DERIVED
+   MISSING_MAP: <one exact map>
+
+6. Determine the B pairing mutation.
+
+   Work from:
+
+   q_t = (u_t,v_t)
+
+   q_{t+1} = (v_t,u_t+v_t)
+
+   A, theta, k, and j are unchanged.
+
+   Determine how the new arithmetic anchor mutates P_t.
+
+   Determine how the new germ width mutates P_t.
+
+   Preserve pairing rank.
+
+   Preserve all previously latched axes.
+
+   Preserve theta.
+
+   Determine whether the active local shorthand
+
+   a_t = exp(i*theta_t)/(u_t*v_t)
+
+   is a lawful trace of the larger pairing mutation.
+
+   Do not replace the full pairing with that shorthand.
+
+   Target:
+
+   P_{t+1}
+       =
+   B_pairing(P_t, Xi_t, Xi_{t+1})
+
+   Report:
+   B_pairing_mutation.md
+   B_pairing_trace.jsonl
+
+   End with one status:
+
+   B_PAIRING_MUTATION: DERIVED
+
+   or
+
+   B_PAIRING_MUTATION: NOT_YET_DERIVED
+   MISSING_MAP: <one exact map>
+
+7. Determine the Q pairing mutation.
+
+   Work from:
+
+   theta_{t+1} = theta_t + pi/2
+   k_{t+1} = k_t + 1
+   j_{t+1} = j_t + 1
+
+   q and A are unchanged.
+
+   Determine how the quarter-turn witness mutates P_t.
+
+   Preserve pairing rank.
+
+   Preserve the arithmetic anchor.
+
+   Preserve all previously latched axes.
+
+   Determine whether the active local shorthand rotates by multiplication with i.
+
+   Do not replace the full pairing with that shorthand.
+
+   Target:
+
+   P_{t+1}
+       =
+   Q_pairing(P_t, Xi_t, Xi_{t+1})
+
+   Report:
+   Q_pairing_mutation.md
+   Q_pairing_trace.jsonl
+
+   End with one status:
+
+   Q_PAIRING_MUTATION: DERIVED
+
+   or
+
+   Q_PAIRING_MUTATION: NOT_YET_DERIVED
+   MISSING_MAP: <one exact map>
+
+8. Determine the L pairing mutation.
+
+   Separate custody mutation from Orthad mutation.
+
+   Custody:
+
+   A_{t+1} = A_t + 1
+   k_{t+1} = 0
+   j_{t+1} = j_start(A_t + 1)
+   q_{t+1} = q_t
+   theta_{t+1} = theta_t
+   W_{t+1} = W_t L
+
+   Orthad:
+
+   retain the complete old pairing block
+   latch the completed active axis
+   append exactly one new orthogonal active axis
+   increase pairing rank by one
+   extend both chart restrictions
+   extend both directed transfers
+
+   Introduce a pairing-rank symbol separate from k.
+
+   Use:
+
+   r_t = rank(P_t).
+
+   Determine whether:
+
+   r_{t+1} = r_t + 1
+
+   at L.
+
+   Target the block form:
+
+   P_{t+1}
+   =
+   [ P_t    C_t   ]
+   [ C_t*   p_new ]
+
+   Determine C_t from retained state.
+
+   Determine p_new from retained state.
+
+   If either is not forced, name the exact missing map.
+
+   Report:
+   L_pairing_extension.md
+   before_first_L.json
+   immediately_after_first_L.json
+
+   End with one status:
+
+   L_PAIRING_EXTENSION: DERIVED
+
+   or
+
+   L_PAIRING_EXTENSION: NOT_YET_DERIVED
+   MISSING_MAP: <one exact map>
+
+9. Derive both charts from one pairing.
+
+   Determine explicit chart maps:
+
+   iota_plus
+   iota_minus
+
+   Target:
+
+   Omega_t_plus
+       =
+   iota_plus* P_t iota_plus
+
+   Omega_t_minus
+       =
+   iota_minus* P_t iota_minus
+
+   T_t_plus_to_minus
+       =
+   iota_minus* P_t iota_plus
+
+   T_t_minus_to_plus
+       =
+   iota_plus* P_t iota_minus
+
+   Determine the domain and codomain of each iota map.
+
+   Determine the overlap domain.
+
+   Determine whether both chart restrictions cover one retained object.
+
+   Determine whether both directed transfers arise from the same pairing.
+
+   Confirm that no chart or transfer is independently seeded.
+
+   Stop this layer if P_t is still underived.
+
+   Report:
+   chart_maps.md
+   overlap_domain.md
+   chart_restriction_trace.jsonl
+   transfer_trace.jsonl
+
+   End with separate statuses:
+
+   CHART_MAPS: DERIVED or NOT_YET_DERIVED
+
+   DIRECTED_TRANSFERS: DERIVED or NOT_YET_DERIVED
+
+10. Check the one-tick causal order.
+
+    For every prefix of
+
+    BQQBBBQBQBBQBBL
+
+    record:
+
+    Xi_t
+    CanB
+    CanQ
+    selected primitive U_t
+    Xi_{t+1}
+    P_t
+    P_{t+1}
+    Omega_t_plus
+    Omega_{t+1}_plus
+    Omega_t_minus
+    Omega_{t+1}_minus
+    T_t_plus_to_minus
+    T_{t+1}_plus_to_minus
+    T_t_minus_to_plus
+    T_{t+1}_minus_to_plus
+    Xi_hat_t
+    Xi_hat_{t+1}
+
+    Confirm this order:
+
+    Xi_hat_t
+    -> state selects U_t
+    -> Xi_t advances to Xi_{t+1}
+    -> P_t mutates to P_{t+1}
+    -> chart restrictions derive from P_{t+1}
+    -> directed transfers derive from P_{t+1}
+    -> Xi_hat_{t+1} is retained
+
+    Confirm that this is one coupled lifted transition.
+
+    Confirm that the Orthad is not a post-process.
+
+    Confirm that no projection occurs during this transition.
+
+    Report:
+    full_prefix_causal_trace.jsonl
+    causal_order_certificate.md
+
+11. Reassess Z/12Z.
+
+    Determine whether Z/12Z is:
+
+    a local doubled phase/orientation carrier
+    a finite shadow skeleton
+    a chart coordinate surface
+    a finite quotient of a larger retained object
+    or something stronger
+
+    Test each proposed type against the pairing-first architecture.
+
+    Determine what information Z/12Z retains.
+
+    Determine what information it discards.
+
+    Confirm whether it can or cannot carry the full exact word history.
+
+    Do not call it the full retained carrier unless the proof forces that result.
+
+    Report:
+    z12_type_assessment.md
+
+    End with one status:
+
+    Z12_TYPE: <exact derived type>
+
+    or
+
+    Z12_TYPE: NOT_YET_DERIVED
+
+12. Keep the affine Prime result downstream.
+
+    Treat the proved affine 7/8/9 grammar and exact threshold bridge as a candidate domain-boundary factor.
+
+    Do not use the affine circle coordinate as P_0.
+
+    Do not use affine doubling as the internal Orthad mutation.
+
+    Determine whether a future factor map could have the shape:
+
+    Xi_hat_A
+        ->
+    (E_A, c_A)
+
+    or
+
+    ⌞Xi_hat_A⌝
+        ->
+    (E_A, c_A).
+
+    Do not choose between those maps without deriving the source object and quotient.
+
+    Record:
+
+    AFFINE_GLOBAL_THRESHOLD_BRIDGE:
+        PROVED
+
+    QBL_TO_AFFINE_FACTOR_MAP:
+        NOT_YET_DERIVED
+
+    INTERNAL_ORTHAD_SEED_FROM_AFFINE_MAP:
+        NOT_LICENSED
+
+    Report:
+    affine_factor_boundary.md
+
+13. Define MHD readiness.
+
+    Determine the minimum internal Orthad machinery required before applying it to the Liu 2022 yin-yang overset-grid data.
+
+    Require at least:
+
+    primary pairing recurrence
+    two chart maps
+    two directed transfer laws
+    overlap-domain definition
+    cocycle or route-consistency test
+    vector component transformation law
+    tensor component transformation law
+    units and grid-geometry verification
+    field-valued channel definition
+
+    Separate:
+
+    data-reader readiness
+    geometric readiness
+    Orthad readiness
+    projection readiness
+
+    Report:
+    mhd_readiness_checklist.md
+
+    End with one status:
+
+    MHD_ORTHAD_READINESS:
+        READY
+
+    or
+
+    MHD_ORTHAD_READINESS:
+        NOT_READY
+        MISSING: <exact objects>
+
+14. Keep projection downstream.
+
+    Determine whether every proposed projection input is generated from the exact QBL prefix.
+
+    Confirm for yourself why terminal projection is licensed only after the complete lifted evolution.
+
+    Leave projection closed if any required pairing, chart, or transfer object remains missing.
+
+    Do not infer:
+
+    gauge class
+    FQM
+    Weil structure
+    character
+    Bloch state
+    MHD field result
+
+    from placeholder matrices.
+
+    Report separate statuses for:
+
+    primitive custody
+    primary pairing type
+    primary pairing seed
+    B mutation
+    Q mutation
+    L extension
+    chart maps
+    directed transfers
+    overlap domain
+    cocycle
+    terminal projection
+    gauge/FQM/Weil descent
+    affine factor
+    MHD readiness
+
+    Report:
+    status_boundary.md
+
+15. Package the work.
+
+    Use step ID:
+
+    p5_v8v
+
+    Name the package:
+
+    p5_v8v_pairing-first-orthad-realignment_<YYYYMMDD_HHMMSS>.zip
+
+    Include:
+
+    README.md
+    FINDINGS.md
+    MANIFEST.json
+    lab-journal.md
+    requirements.txt
+    docs/
+    inputs/
+    scripts/
+    notebooks/
+    outputs/
+    proofs/
+    figures/
+    trace/
+    source_maps/
+
+    Include the supplied architecture diagram in inputs/.
+
+    Treat the supplied diagram as the prior layout master.
+
+    Include a diagram correction sheet.
+
+    State:
+
+    Where the image glyph and written notation disagree, the written notation controls.
+
+    Primitive custody state:
+        Xi_t
+
+    Fully retained lifted state:
+        Xi_hat_t
+
+    Orthad:
+        ⌞Xi_hat_t⌝
+
+    Include QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md in inputs/ as the primary authority.
+
+    Include p5_v8u only as prior negative context.
+
+    Include an ASSUMPTION_LOCK.md.
+
+    List every forbidden import used in this pass.
+
+    Include a source notebook and separately executed notebook.
+
+    Use one code cell per claim.
+
+    Use no notebook file I/O.
+
+    Every claim cell must print:
+
+    PASS or FAIL
+    exact values
+    the claim boundary
+
+    Every claim cell must emit one figure with one axes.
+
+    Include a negative control that shows one successor-first construction failing to derive the pairing-first objects.
+
+    Include a Lean theorem surface for:
+
+    primitive custody transition typing
+    Q index updates
+    L custody carry
+    pairing-rank separation from k
+    one-tick causal ordering
+
+    Compile Lean if available.
+
+    If Lean is unavailable, report:
+
+    LEAN SOURCE PRESENT; COMPILATION NOT VERIFIED
+
+    FINDINGS.md must separate:
+
+    Proved abstractly
+    Certified finitely
+    Observed
+    Open
+    Retired path
+
+    The package must state:
+
+    FIRST TRUE GAP:
+        PRIMARY PAIRING TYPE, SEED, AND PER-LETTER MUTATION
+
+    NATIVE SUCCESSOR ON Z/12Z:
+        DOWNSTREAM COORDINATE QUESTION
+
+    ORTHAD EXISTS FROM FIRST PRIMITIVE TICK:
+        ARCHITECTURAL LAW
+
+    PRIMITIVE CUSTODY STATE:
+        Xi_t
+
+    FULLY RETAINED LIFTED STATE:
+        Xi_hat_t
+
+    ORTHAD:
+        ⌞Xi_hat_t⌝
+
+    EXACT PRIMARY PAIRING TYPE:
+        DERIVED or NOT_YET_DERIVED
+
+    EXACT PRIMARY PAIRING SEED:
+        DERIVED or NOT_YET_DERIVED
+
+    EXACT PRIMARY PAIRING RECURRENCE:
+        DERIVED or NOT_YET_DERIVED
+
+    EXACT CHART MAPS:
+        DERIVED or NOT_YET_DERIVED
+
+    EXACT DIRECTED TRANSFERS:
+        DERIVED or NOT_YET_DERIVED
+
+    QBL_TO_AFFINE FACTOR MAP:
+        NOT_YET_DERIVED
+
+    MHD_ORTHAD_READINESS:
+        READY or NOT_READY
+
+    Return:
+
+    corrected research document
+    experiment-package ZIP
+    package SHA-256
+    document SHA-256
+    brief chat summary bounded by the packaged evidence

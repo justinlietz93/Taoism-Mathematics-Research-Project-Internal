@@ -1,0 +1,6 @@
+case,provenance_match_v8g,certificate_verified,detail,block_symbol
+rank5_prime,True,False,rows: radical membership idx 2 | cols: radical q idx 2: got 16/32,A_2(1) + A_4(3) + A_16(9) + R_4(q=0) + R_2(q=0)
+rank6_large,True,False,rows: radical membership idx 2 | cols: radical membership idx 2,A_2(1) + A_4(3) + A_16(13) + R_4(q=0) + R_2(q=0) + R_16(q=3/8)
+rank8_large,True,False,rows: radical membership idx 2 | cols: radical membership idx 2,A_2(1) + A_4(3) + A_16(13) + R_4(q=0) + R_2(q=0) + R_16(q=3/8) + R_4(q=0) + R_16(q=1/4)
+rank10_large,True,False,rows: radical membership idx 2 | cols: radical membership idx 2,"A_2(1) + A_4(3) + A_16(13) + UV_2([[0, 1], [1, 0]]) + R_4(q=0) + R_16(q=3/8) + R_4(q=0) + R_16(q=1/4) + R_4(q=0)"
+rank12_large,True,False,rows: radical membership idx 2 | cols: radical membership idx 2,"A_2(1) + A_4(3) + A_16(13) + UV_2([[0, 1], [1, 0]]) + R_4(q=0) + R_16(q=3/8) + R_4(q=0) + R_16(q=1/4) + R_4(q=0) + R_16(q=3/8) + R_2(q=0)"

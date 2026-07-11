@@ -1,0 +1,19 @@
+{
+  "step_id": "p5-b3-v1",
+  "agent_archive": {
+    "name": "p5-b3-v1_hierarchical-grammar-lift_20260711T120831.zip",
+    "sha256": "02b31cd1c48fdfd018bf93c9024ab2256db6e2bcfacde4a8035a13eb81d2e880"
+  },
+  "research_document": {
+    "name": "QBL_HIERARCHICAL_GRAMMAR_LIFT_v1.md",
+    "sha256": "8e87b2b0dd6c991bc0d66b2eee51f6f8a4b6c736b96b268e0f51ce50f0dd0fab"
+  },
+  "diagram": {
+    "name": "orthad-diagram-v5.png",
+    "sha256": "4efd1c96de6166fa9ba1a726b96f516a327b579d88f584dd71c204af1dde624a"
+  },
+  "custody_law": {
+    "name": "QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+    "sha256": "f0f66790bf6da0b3fca9a400da36ff5879db4b3e861703ef3a309829a2af9962"
+  }
+}

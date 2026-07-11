@@ -1,0 +1,195 @@
+Completed **Phase 5 v8g: Triangles + Mixed/High-Rank 2-Primary Components**.
+
+Ledger authority applied first. The attached `PHASE5_CANONICAL_LEDGER.md` remains controlling, with v8g as the single active target and v8c still suspended. 
+
+[Download the Phase 5 v8g package](sandbox:/mnt/data/phase5_v8g_triangles_mixed_highrank_2primary_components_package.zip)
+
+```text
+SHA256:
+60980acd9c34d9b231ac8c5068a15788b156a81eed5aba550ced0cf153e0cab4
+```
+
+## Result
+
+```text
+PHASE 5 v8g:
+Triangles + Mixed/High-Rank 2-Primary Components
+
+STATUS:
+V8G_TRIANGLES_AND_MIXED_RANK3_CLASSIFIER_CLOSED_MIXED_HIGH_RANK_COMPONENTS_BLOCKING_OPEN
+
+GLOBAL_PASS:
+true
+
+PHASE5_CLOSED:
+false
+
+v8c:
+SUSPENDED_REMAINS_SUSPENDED
+```
+
+## Main closures
+
+```text
+CLOSED_POSITIVE:
+  equal-D triangle disposition coverage for D=4 and D=8
+
+CLOSED_POSITIVE:
+  scope-completeness gate for full D=4 and D=8 rank-3 equal-D parameter spaces
+
+CLOSED_POSITIVE_ON_TESTED_RANGE:
+  mixed rank-3 2-primary core [2,4,2] exact same-shape classifier
+
+CLOSED_NEGATIVE:
+  connected coupling graph implies indecomposable
+```
+
+## Triangle result
+
+Full parameter spaces were enumerated:
+
+```text
+D=4:
+  total forms = 64
+
+D=8:
+  total forms = 512
+
+missing disposition rows:
+  0
+```
+
+Triangle dispositions:
+
+```text
+TRIANGLE_CORE_CLASSIFIED_BY_EXACT_ORBIT_TABLE:
+  126
+
+TRIANGLE_SPLITS_TO_CHAIN:
+  204
+
+TRIANGLE_SPLITS_TO_SIZE2:
+  27
+
+TRIANGLE_SPLITS_ENTIRELY:
+  13
+```
+
+This closes the v8f audit hole. Equal-D triangles no longer vanish from the disposition table.
+
+## Mixed/high-rank routing
+
+```text
+v7u cases routed:
+  7
+
+closed:
+  rank3_mixed -> [2,4,2] exact same-shape classifier
+
+still blocking:
+  rank4_mixed
+  rank5_prime
+  rank6_large
+  rank8_large
+  rank10_large
+  rank12_large
+```
+
+The rank-4 mixed core received an exhaustive same-shape lower-split test:
+
+```text
+rank4_mixed core:
+  D2 = [4,4,2,16]
+
+result:
+  no same-shape graph-disconnected split found
+
+status:
+  BLOCKING_OPEN
+```
+
+I did not claim a full classifier for it.
+
+## Cross-shape rigidity
+
+```text
+pure 2-primary shape type:
+  resolved by finite abelian 2-group cyclic-power multiset uniqueness
+
+mixed original shapes:
+  still only empirically gated from the v8e audit
+  not a general theorem
+```
+
+So the general cross-shape rigidity lemma remains open.
+
+## Package contents
+
+```text
+phase5_v8g_triangles_mixed_highrank_2primary_components/
+├── README.md
+├── MANIFEST_SHA256SUMS.txt
+├── docs/
+│   ├── mixed_highrank_residual_cores.md
+│   ├── phase5_v8g_frontier_note.md
+│   ├── phase5_v8g_protocol_definitions.md
+│   ├── phase5_v8g_result_card.md
+│   ├── phase5_v8g_triangles_mixed_highrank_2primary_components.md
+│   └── triangle_scope_completeness.md
+├── outputs/
+│   ├── phase5_v8g_verification_summary.json
+│   ├── phase5_v8g_result_card.json
+│   ├── phase5_v8g_equalD_rank3_exact_orbit_classes.csv
+│   ├── phase5_v8g_equalD_rank3_full_scope_disposition.csv
+│   ├── phase5_v8g_triangle_dispositions.csv
+│   ├── phase5_v8g_scope_completeness_gates.csv
+│   ├── phase5_v8g_mixed_rank3_core_orbit_classes.csv
+│   ├── phase5_v8g_v7u_mixed_highrank_reduction_routing.csv
+│   ├── phase5_v8g_cross_shape_rigidity_gate.csv
+│   ├── phase5_v8g_claim_disposition.csv
+│   ├── phase5_v8g_ledger_reconciliation.csv
+│   └── phase5_v8g_falsification_targets.csv
+├── sealed/
+│   ├── DO_NOT_CLOSE_PHASE5_GATE.json
+│   └── SEALED_V8G_BEFORE_MIXED_HIGH_RANK_CLASSIFIER.json
+├── scripts/
+│   └── phase5_v8g_triangles_mixed_highrank_2primary_components.py
+├── notebooks/
+│   └── phase5_v8g_triangles_mixed_highrank_2primary_components.ipynb
+├── proofs/
+│   └── Phase5V8GTrianglesMixedHighRank.lean
+├── lean/
+│   ├── lakefile.lean
+│   ├── lean-toolchain
+│   ├── Phase5V8G.lean
+│   └── Phase5V8G/
+│       └── TrianglesMixedHighRank.lean
+├── source_notes/
+│   └── PHASE5_CANONICAL_LEDGER.md
+├── snapshots/
+│   └── example_v8g_triangle_snapshot.json
+└── patches/
+    └── phase5_v8g_triangle_mixed_highrank_patch.md
+```
+
+## Current state
+
+```text
+Phase 5:
+  OPEN
+
+v8c:
+  SUSPENDED
+
+v8g closed:
+  equal-D triangles D=4/D=8
+  full scope-completeness gate for stated range
+  mixed rank-3 [2,4,2] classifier
+
+still blocking:
+  rank4 mixed 2-primary core full classifier
+  rank>=5 high-rank 2-primary components
+  mixed cross-shape rigidity general proof
+  Lean executable classifier
+```
+

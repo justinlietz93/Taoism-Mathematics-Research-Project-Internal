@@ -1,0 +1,66 @@
+## Audit verdict
+
+```text
+REVISE_NARROW_SCOPE
+
+CANONICAL QBL-TO-AFFINE BOUNDARY-ORBIT SEMICONJUGACY: ADOPT
+FULL AFFINE INTERVAL FACTOR FROM CANONICAL ORBIT: IMPOSSIBLE, ADOPT
+CANONICAL ORBIT LANGUAGE = FULL AFFINE LANGUAGE: OPEN, ADOPT
+EXACT BOUNDARY-RETURN COCYCLE: ADOPT
+HIGHER-ORDER DESCRIPTIVE L: NOT YET DERIVED, ADOPT
+
+p5-b3 BRANCH STATUS: OPEN
+NEXT INTERACTION: p5-b3-v3
+```
+
+The mathematical scope correction is sound, and the package fully verifies:
+
+```text
+ZIP SHA-256:                       PASS
+Document SHA-256:                  PASS
+Manifest entries:                  48
+Manifest coverage and hashes:      PASS
+Notebook cells passing:            13/13
+Figures:                           13
+Clean rebuild:                     PASS
+Byte-identical ZIP rebuild:        PASS
+```
+
+The one required correction is the indexing of the instantaneous carry claim.
+
+At the completed boundary (S_A^-),
+
+[
+c_A=T_A-2T_{A-1}
+]
+
+is already recoverable as a derived label of the return that just finished. It is not a new custody coordinate. The future carry
+
+[
+c_{A+1}=T_{A+1}-2T_A
+]
+
+is unavailable until the next domain completes.
+
+So the correct split is:
+
+```text
+JUST-COMPLETED CARRY c_A RECOVERABLE AT S_A^-: PASS
+FUTURE CARRY c_{A+1} APPENDED BY THE INSTANTANEOUS L STEP: FAIL
+```
+
+This preserves the higher-order `L` conjecture. The scalar cocycle still cannot settle it because the actual retained extension occurs in the primary pairing, both chart restrictions, and both directed transfers. The governing law explicitly places the primary pairing before those downstream structures and lists its all-depth recurrence as open. 
+
+The `p5-b3-v3` instructions therefore target the first missing dependency: the primary pairing’s algebraic type, seed, and exact `B/Q/L` recurrence.
+
+* [Download `p5-b3-v2_audit-package_20260711T135517.zip`](sandbox:/mnt/data/p5-b3-v2_audit-package_20260711T135517.zip)
+* [Audit results](sandbox:/mnt/data/p5-b3-v2_audit-package_20260711T135517/AUDIT_RESULTS.md)
+* [`p5-b3-v3` instructions](sandbox:/mnt/data/p5-b3-v2_audit-package_20260711T135517/OUTGOING_INSTRUCTIONS.md)
+* [Diagram and dependency note](sandbox:/mnt/data/p5-b3-v2_audit-package_20260711T135517/DIAGRAM_AND_DEPENDENCY_NOTE.md)
+* [SHA-256 file](sandbox:/mnt/data/p5-b3-v2_audit-package_20260711T135517.zip.sha256)
+
+```text
+SHA-256:
+ed6ecebe3b1df75b71e93f9125403a87efd6c38c791983639e373d39898919f0
+```
+

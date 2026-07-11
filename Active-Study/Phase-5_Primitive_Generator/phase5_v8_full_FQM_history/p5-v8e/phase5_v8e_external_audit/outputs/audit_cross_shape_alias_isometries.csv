@@ -1,0 +1,5 @@
+shape_A,shape_B,same_group,c_pairs_tested,cross_shape_isometries_found,witness_if_any,verdict
+"(4,6)","(2,12)",True,4,0,,RIGID
+"(6,8)","(2,24)",True,4,0,,RIGID
+"(4,10)","(2,20)",True,4,0,,RIGID
+"(8,12)","(4,24)",True,16,0,,RIGID

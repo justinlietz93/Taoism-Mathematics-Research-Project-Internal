@@ -1,0 +1,12 @@
+{
+  "agent_package": {
+    "filename": "p5-b3-v2_hierarchical-grammar-factor-scope_20260711T134500.zip",
+    "sha256": "aaf8690e8a64ac531dce4be785b37139a0551be59bebf8279142a10953b311ec"
+  },
+  "research_document": {
+    "path_inside_package": "docs/QBL_HIERARCHICAL_GRAMMAR_FACTOR_SCOPE_v2.md",
+    "sha256": "63a522df4882409f7147ea96db128554b9a87530d880780cb8ffbda8025f31fd"
+  },
+  "primary_authority": "QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+  "contextual_diagram": "orthad-diagram-v5.png"
+}

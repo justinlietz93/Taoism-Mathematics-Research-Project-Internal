@@ -1,0 +1,6 @@
+object,source,disposition,reason
+H=M+iJ,historical v7n,DOWNSTREAM_RECONSTRUCTION_CLUE,constructed from sealed overlap histories; not clean P_0 or per-tick recurrence
+T_ab=lens(b)/lens(a),historical v7q/v7u,CONDITIONALLY_LICENSED_SCALAR_COCHAIN,not the mixed block induced from one primary pairing
+"pair_c(ai,aj)",historical v7u,REJECTED_AS_PRIMARY_PAIRING_LAW,"post-hoc, asymmetric, and unratified"
+finished FQM q/b,v7/v8 meta layer,DOWNSTREAM_ONLY,requires prior overlap/gauge descent
+fixed shift on Z/12Z,p5_v8u,DOWNSTREAM_COORDINATE_RESULT,does not generate P_0 or chart maps

@@ -1,0 +1,47 @@
+{
+  "category_level_interface": {
+    "L_extension": "H_{t+1}=H_t direct_sum A_new, old restriction P_t retained, both mixed birth maps zero by two-sided orthogonality",
+    "ambient": "additive category C with finite biproducts",
+    "charts": [
+      "C_t_plus",
+      "C_t_minus"
+    ],
+    "duality": "contravariant duality D:C^op->C",
+    "embeddings": [
+      "iota_t_plus:C_t_plus->H_t",
+      "iota_t_minus:C_t_minus->H_t"
+    ],
+    "gauge": "P_t ~ D(U) o P_t o U for U in Aut(H_t)",
+    "pairing": "P_t:H_t->D(H_t)",
+    "quarter_turn": "an active-subobject automorphism J_t with J_t^2=-id, or a concrete scalar i realizing it",
+    "rank": "requires a concrete finite-rank realization; architecture fixes relative +1 at L, not absolute rank at seed",
+    "restrictions": "D(iota_a) o P_t o iota_b",
+    "retained_argument": "H_t in C"
+  },
+  "earliest_missing_object": null,
+  "evidence_claim_ids": [
+    "SC_PRIMARY",
+    "SC_PULLBACKS",
+    "SC_Q_QUARTER",
+    "SC_L_EXTENSION",
+    "SC_GAUGE"
+  ],
+  "forced_vs_chosen": {
+    "chosen_formalization": [
+      "coefficient ring or field",
+      "ordinary versus conjugate dual",
+      "module dimension and basis",
+      "self-adjoint or Hermitian law",
+      "normalization and seed gauge group"
+    ],
+    "forced": [
+      "one primary duality morphism",
+      "two chart embeddings",
+      "four induced blocks",
+      "congruence gauge action",
+      "quarter-turn-capable realization",
+      "orthogonal direct-sum extension interface"
+    ]
+  },
+  "status": "DERIVED"
+}

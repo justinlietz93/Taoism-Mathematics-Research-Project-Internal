@@ -1,0 +1,116 @@
+{
+  "branch_status": "NOT YET CLOSED",
+  "factor_scope_reason": "The packaged map is defined and proved on the canonical countable boundary orbit S_A^- and lands on the corresponding countable affine orbit E_A. It is not a surjective map onto the full interval coding system, and no equality between the canonical carry-word language and the full affine language is proved.",
+  "finite_custody_simulation": [
+    {
+      "A": 0,
+      "b_count": 9,
+      "expected_J": 6,
+      "expected_T": 9,
+      "expected_prefix_length": 14,
+      "j": 6,
+      "pair_u": "55",
+      "pair_v": "89",
+      "prefix_length": 14,
+      "product_ge_capacity": true,
+      "theta_quarters": 5
+    },
+    {
+      "A": 1,
+      "b_count": 27,
+      "expected_J": 18,
+      "expected_T": 27,
+      "expected_prefix_length": 44,
+      "j": 18,
+      "pair_u": "317811",
+      "pair_v": "514229",
+      "prefix_length": 44,
+      "product_ge_capacity": true,
+      "theta_quarters": 16
+    },
+    {
+      "A": 2,
+      "b_count": 61,
+      "expected_J": 42,
+      "expected_T": 61,
+      "expected_prefix_length": 102,
+      "j": 42,
+      "pair_u": "4052739537881",
+      "pair_v": "6557470319842",
+      "prefix_length": 102,
+      "product_ge_capacity": true,
+      "theta_quarters": 39
+    },
+    {
+      "A": 3,
+      "b_count": 130,
+      "expected_J": 90,
+      "expected_T": 130,
+      "expected_prefix_length": 219,
+      "j": 90,
+      "pair_u": "1066340417491710595814572169",
+      "pair_v": "1725375039079340637797070384",
+      "prefix_length": 219,
+      "product_ge_capacity": true,
+      "theta_quarters": 86
+    },
+    {
+      "A": 4,
+      "b_count": 269,
+      "expected_J": 186,
+      "expected_T": 269,
+      "expected_prefix_length": 454,
+      "j": 186,
+      "pair_u": "119447720249892581203851665820676436622934188700177088360",
+      "pair_v": "193270471243015279782059101964580241188515112465021394429",
+      "prefix_length": 454,
+      "product_ge_capacity": true,
+      "theta_quarters": 181
+    },
+    {
+      "A": 5,
+      "b_count": 545,
+      "expected_J": 378,
+      "expected_T": 545,
+      "expected_prefix_length": 922,
+      "j": 378,
+      "pair_u": "572488245870673344662194682459267086009989015536025670856161416248139175446894290669084306226748539738437927821528",
+      "pair_v": "926305439978556110345168148279287821152865667970711489644302195807201560695593260839033495142464219140896452459573",
+      "prefix_length": 922,
+      "product_ge_capacity": true,
+      "theta_quarters": 372
+    },
+    {
+      "A": 6,
+      "b_count": 1098,
+      "expected_J": 762,
+      "expected_T": 1098,
+      "expected_prefix_length": 1859,
+      "j": 762,
+      "pair_u": "21278040567621240190250096573155104972042275846793500076213962089840238578679717839125802288137532091430266033909453459192344331814384442833488318831899600435373589206725797621603635102375685791787722756398203081436561096758124901",
+      "pair_v": "34428592852410271940083613070919630635781894724017874396545964292826864597491403229723364359749415183436491553996529359881593653825629442519718308678951540824183325844045884746598230684751416672062124540392876245684047939604503325",
+      "prefix_length": 1859,
+      "product_ge_capacity": true,
+      "theta_quarters": 755
+    }
+  ],
+  "finite_custody_simulation_pass": true,
+  "hierarchy_count_alignment": "J_A = 6 p(A) is exact; active-depth recurrence remains count alignment only.",
+  "higher_order_L_audit": {
+    "agent_independent_extension_verdict": "UNSUPPORTED_FAIL",
+    "boundary_return_arithmetic_cocycle": "PROVED",
+    "higher_order_descriptive_L_identity": "NOT YET DERIVED",
+    "literal_carry_coordinate_appended_at_instantaneous_L": "FALSE",
+    "reason": "The carry needs two boundary states and is not appended at S_A^+. But algebraic derivability is not the same as absence of a new independent retained distinction. The open primary-pairing/chart/transfer recurrence is exactly where such a distinction would have to be tested."
+  },
+  "proved_strength": {
+    "canonical_boundary_state_internal_coordinate": true,
+    "canonical_orbit_semiconjugacy": true,
+    "carry_cocycle_from_successive_boundary_states": true,
+    "full_affine_interval_factor": false,
+    "full_affine_language_factor": false
+  },
+  "recommended_next_step": "p5-b3-v2",
+  "symbolic_commutation_pass": true,
+  "symbolic_factor_residual": "0"
+}

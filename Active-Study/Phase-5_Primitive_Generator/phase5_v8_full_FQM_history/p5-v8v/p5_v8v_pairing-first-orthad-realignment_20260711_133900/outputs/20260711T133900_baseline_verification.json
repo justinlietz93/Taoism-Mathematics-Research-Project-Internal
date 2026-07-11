@@ -1,0 +1,73 @@
+{
+  "checks": {
+    "L_j": true,
+    "L_k_reset": true,
+    "L_pair_carry": true,
+    "L_phase_carry": true,
+    "floor_pair": true,
+    "floor_product": true,
+    "local_axis": true,
+    "next_pair": true,
+    "oracle_word": true,
+    "phase_witness": true,
+    "q_count": true,
+    "word": true,
+    "word_with_next_b": true
+  },
+  "pass": true,
+  "values": {
+    "after_L": {
+      "A": 1,
+      "j": 7,
+      "k": 0,
+      "pair": [
+        55,
+        89
+      ],
+      "pair_product": 4895,
+      "phase_label": "i",
+      "phase_mod4": 1,
+      "phase_quarters": 5,
+      "theta_exact": "5*pi/2",
+      "u": 55,
+      "v": 89,
+      "word": "BQQBBBQBQBBQBBL"
+    },
+    "after_next_B": {
+      "A": 1,
+      "j": 7,
+      "k": 0,
+      "pair": [
+        89,
+        144
+      ],
+      "pair_product": 12816,
+      "phase_label": "i",
+      "phase_mod4": 1,
+      "phase_quarters": 5,
+      "theta_exact": "5*pi/2",
+      "u": 89,
+      "v": 144,
+      "word": "BQQBBBQBQBBQBBLB"
+    },
+    "before_L": {
+      "A": 0,
+      "j": 6,
+      "k": 5,
+      "pair": [
+        55,
+        89
+      ],
+      "pair_product": 4895,
+      "phase_label": "i",
+      "phase_mod4": 1,
+      "phase_quarters": 5,
+      "theta_exact": "5*pi/2",
+      "u": 55,
+      "v": 89,
+      "word": "BQQBBBQBQBBQBB"
+    },
+    "word": "BQQBBBQBQBBQBBL",
+    "word_with_next_b": "BQQBBBQBQBBQBBLB"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "step_id": "p5_v8w",
+  "next_step_id": "p5_v8x",
+  "audit_timestamp": "20260711T143956",
+  "zip_sha256": "73ffcb90075eac0b257f975c9fe4858a36658bd34737f7b96b7970739ceaa251",
+  "declared_zip_sha256": "73ffcb90075eac0b257f975c9fe4858a36658bd34737f7b96b7970739ceaa251",
+  "zip_hash_match": true,
+  "document_sha256": "3c7e7deb5723ba17cdd1a7aa8e529f4e169101bb60c11f2acaf1dd878bb9cc01",
+  "declared_document_sha256": "3c7e7deb5723ba17cdd1a7aa8e529f4e169101bb60c11f2acaf1dd878bb9cc01",
+  "document_hash_match": true,
+  "verifier": {
+    "failed": [],
+    "failed_count": 0,
+    "pass": true,
+    "passed": [
+      {
+        "detail": "ids=['SC_FIRST_L_BLOCK_TARGET', 'SC_FQM_POLARIZATION', 'SC_GAUGE', 'SC_HIST_FQM_BILINEAR', 'SC_HIST_HERMITIAN', 'SC_LOCAL_AXIS', 'SC_L_EXTENSION', 'SC_PRIMARY', 'SC_PULLBACKS', 'SC_Q_QUARTER']",
+        "gate": "SOURCE_MATRIX_REQUIRED_ROWS"
+      },
+      {
+        "detail": "path/SHA/line anchors",
+        "gate": "SOURCE_MATRIX_ANCHORED"
+      },
+      {
+        "detail": "every SOURCE_DERIVED gate cites anchored rows",
+        "gate": "SOURCE_GATE_CITATIONS"
+      },
+      {
+        "detail": "",
+        "gate": "PAIRING_FIRST_REALIGNMENT"
+      },
+      {
+        "detail": "",
+        "gate": "MINIMAL_PAIRING_INTERFACE"
+      },
+      {
+        "detail": "",
+        "gate": "NO_DIRECT_QUADRATIC_PROMOTION"
+      },
+      {
+        "detail": "",
+        "gate": "HISTORICAL_H_NOT_SEED"
+      },
+      {
+        "detail": "",
+        "gate": "AXIS_COUNT_NOT_MODULE_DIMENSION"
+      },
+      {
+        "detail": "",
+        "gate": "NO_HARDCODED_SOURCE_GATE"
+      },
+      {
+        "detail": "",
+        "gate": "XI_HAT_NULL_BOUNDARY"
+      },
+      {
+        "detail": "",
+        "gate": "AXIS_OBJECT_BOUNDARY"
+      },
+      {
+        "detail": "verdicts recomputed from capability rows",
+        "gate": "PAIRING_TYPE_ELIMINATION"
+      },
+      {
+        "detail": "",
+        "gate": "EXACT_TYPE_OPEN"
+      },
+      {
+        "detail": "",
+        "gate": "RAW_NONUNIQUENESS_WITNESS"
+      },
+      {
+        "detail": "",
+        "gate": "GAUGE_WITNESS_NOT_PROMOTED"
+      },
+      {
+        "detail": "",
+        "gate": "PRIMITIVE_BASELINE"
+      },
+      {
+        "detail": "cells=5",
+        "gate": "EXECUTED_NOTEBOOK_COMPLETE"
+      },
+      {
+        "detail": "[]",
+        "gate": "DOWNSTREAM_VALUES_CLOSED"
+      },
+      {
+        "detail": "",
+        "gate": "BASELINE_PROVENANCE"
+      },
+      {
+        "detail": "manifest=63 actual=63",
+        "gate": "MANIFEST_INTEGRITY"
+      },
+      {
+        "detail": "",
+        "gate": "NO_CACHE_BYTECODE"
+      },
+      {
+        "detail": "exit=0 output=.......                                                                  [100%]\n7 passed in 0.09s",
+        "gate": "PYTEST"
+      }
+    ],
+    "passed_count": 22
+  },
+  "controls_runner_exit_code": 0,
+  "manifest_entries": 63,
+  "archive_files_including_manifest": 64,
+  "cache_created_by_verifier": [
+    "tests/.pytest_cache/README.md",
+    "tests/.pytest_cache/.gitignore",
+    "tests/.pytest_cache/CACHEDIR.TAG",
+    "tests/.pytest_cache/v/cache/nodeids"
+  ],
+  "audit_statuses": {
+    "minimal_pairing_interface": "NOT_YET_DERIVED",
+    "duality_morphism_model": "ADMISSIBLE_CANDIDATE_FORMALIZATION",
+    "pairing_representability": "NOT_YET_DERIVED",
+    "scalar_variance_as_earliest_axiom": "REJECT",
+    "first_L_mixed_blocks_zero": "NOT_YET_DERIVED",
+    "first_L_pairing_rank_plus_one": "NOT_YET_TYPED",
+    "real_corruption_controls": "PASS"
+  }
+}

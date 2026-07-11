@@ -1,0 +1,12 @@
+{
+  "B_value_recurrence": "NOT_YET_DERIVED",
+  "L_value_recurrence": "NOT_YET_DERIVED",
+  "Q_value_recurrence": "NOT_YET_DERIVED",
+  "branch_status": "OPEN",
+  "exact_pairing_type": "NOT_YET_DERIVED",
+  "exact_seed": "NOT_YET_DERIVED",
+  "future_carry_appended_by_instantaneous_L": "FAIL",
+  "higher_order_descriptive_L": "NOT_YET_DERIVED",
+  "just_completed_carry_recoverable": "PASS",
+  "minimal_pairing_interface": "DERIVED"
+}

@@ -1,0 +1,77 @@
+{
+  "files": [
+    {
+      "bytes": 5253,
+      "path": "AUDIT_RESULTS.md",
+      "sha256": "a76e434e0087ea8d1ba7a7017a36bba673ad2940c6bf42d380a114a24711a7ac"
+    },
+    {
+      "bytes": 1091,
+      "path": "DIAGRAM_AND_DEPENDENCY_NOTE.md",
+      "sha256": "88e9249d126b88aaa22889e51ec7d16e20708b005a728aaabae0e68362ca3ac7"
+    },
+    {
+      "bytes": 7016,
+      "path": "OUTGOING_INSTRUCTIONS.md",
+      "sha256": "6ea6e17584f72611ba93dc817a48ea6eead2b734a67d974a51a05dda624de447"
+    },
+    {
+      "bytes": 767,
+      "path": "README.md",
+      "sha256": "1f76ad75f878622aa1b630c1d501b2889f7f5dabaa1c28a282545bb958bb5008"
+    },
+    {
+      "bytes": 884,
+      "path": "SOURCE_MAP.md",
+      "sha256": "cd64278c4d8e7e899f2d7b72e1e41eb4a15f6aa4eeeee6fd95967095564bad42"
+    },
+    {
+      "bytes": 664,
+      "path": "outputs/p5-b3-v2_audit-summary.json",
+      "sha256": "478e01c79b8760b4016a1789c65a484eb61ebdffb56fd13feb31ab200be735a8"
+    },
+    {
+      "bytes": 1482,
+      "path": "outputs/p5-b3-v2_factor-scope-audit.json",
+      "sha256": "1cccb3679667b27d05f55c93918d8c88c202e3c86bca8deca5de2674c5aae2e1"
+    },
+    {
+      "bytes": 1482,
+      "path": "outputs/p5-b3-v2_factor-scope-audit.log",
+      "sha256": "1cccb3679667b27d05f55c93918d8c88c202e3c86bca8deca5de2674c5aae2e1"
+    },
+    {
+      "bytes": 1062,
+      "path": "outputs/p5-b3-v2_package-verification.json",
+      "sha256": "2e08b45f61908f75949c918b93c41db23b944c33b93790a2c856ffc0847be0fe"
+    },
+    {
+      "bytes": 1062,
+      "path": "outputs/p5-b3-v2_package-verification.log",
+      "sha256": "2e08b45f61908f75949c918b93c41db23b944c33b93790a2c856ffc0847be0fe"
+    },
+    {
+      "bytes": 143,
+      "path": "requirements.txt",
+      "sha256": "09efb02b05d1d5958749344591c800b0dfbe194f4409162e894ae0b3a7074f66"
+    },
+    {
+      "bytes": 5731,
+      "path": "scripts/p5-b3-v2_verify_agent_package.py",
+      "sha256": "59bd446cd9613c4bd2a52c4ccdbaed352ee3b7ac6c82890b378f4367682a00f9"
+    },
+    {
+      "bytes": 2530,
+      "path": "scripts/p5-b3-v2_verify_factor_scope.py",
+      "sha256": "c4d422c32e591fe8bbe52e98d9de2141e6eb4b9fc05dedf32f04da7f3b73edbc"
+    },
+    {
+      "bytes": 500,
+      "path": "source-references/p5-b3-v2_audited-artifacts.json",
+      "sha256": "90e420e82d9a0b7cefad3ad5d214b94d520e1ec6c238539ed61941f0f4295ad2"
+    }
+  ],
+  "package_type": "audit-package",
+  "step_id": "p5-b3-v2",
+  "timestamp": "20260711T135517"
+}

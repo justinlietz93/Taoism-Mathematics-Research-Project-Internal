@@ -1,0 +1,176 @@
+Completed **Phase 5 v8e: Family-F Isometry Classifier**.
+
+Ledger authority was applied first: `PHASE5_CANONICAL_LEDGER.md` remains the source of truth over package headlines and status strings. 
+
+[Download the Phase 5 v8e package](sandbox:/mnt/data/phase5_v8e_family_f_isometry_classifier_package.zip)
+
+## Result
+
+```text
+PHASE 5 v8e:
+Family-F Isometry Classifier
+
+STATUS:
+V8E_FAMILY_F_SIZE2_ISOMETRY_CLASSIFIER_CLOSED_ON_TESTED_RANGE_RANK3_COMPONENTS_BLOCKING_OPEN
+
+GLOBAL_PASS:
+true
+
+PHASE5_CLOSED:
+false
+
+v8c:
+SUSPENDED_REMAINS_SUSPENDED
+```
+
+## Decisive findings
+
+```text
+Size-2 Family-F classifier:
+  CLOSED_POSITIVE on tested range
+
+Tested D range:
+  [2,4,6,8,10,12,14,16,18,20,24,32]
+
+Pair rows:
+  78
+
+Method:
+  exact Aut-orbit enumeration over Z/D1Z × Z/D2Z
+
+Completeness:
+  all representative-invariant c residues assigned exact orbit class
+```
+
+The word **classifier** is used only in this bounded sense: exact orbit ground truth proved isometry completeness on the stated size-2 range.
+
+## Invariant audit
+
+The requested compact invariant set is **not complete** on the tested range.
+
+```text
+CLOSED_NEGATIVE_ON_TESTED_RANGE:
+  compact invariant set separates all size-2 classes
+```
+
+Residual pairs:
+
+```text
+(8,8)
+(8,24)
+(8,32)
+(24,24)
+(24,32)
+(32,32)
+```
+
+Meaning:
+
+```text
+Exact orbit table:
+  still classifies
+
+Compact invariant key:
+  not enough
+```
+
+## Milgram gate
+
+```text
+nondegenerate forms tested:
+  271
+
+Milgram magnitude gate:
+  passed
+
+max residual:
+  5.684341886080802e-14
+```
+
+## Component decomposition
+
+Graph decomposition was closed conditionally:
+
+```text
+disconnected coupling graph
+  -> orthogonal direct sum of component FQMs
+  -> whole class is multiset of component classes
+```
+
+Measured generated component distribution includes rank ≥ 3 components:
+
+```text
+v7t:
+  size 2: 7
+  size 3: 3
+
+v7u:
+  size 3,4,5,6,8,10,12 components present
+
+v8d generated:
+  size 1: 9
+  size 2: 55
+  size 3: 4
+```
+
+So:
+
+```text
+rank >= 3 Family-F component classifier:
+  BLOCKING_OPEN
+```
+
+## Required v8d patches
+
+```text
+Z/12Z chi12 skeleton:
+  routed through current classifier path
+  K12 residual = 5.126297777653476e-15
+
+v7t/v7u archival presentations:
+  routed through v8e
+  size-2 cases classified
+  rank>=3 cases blocked
+```
+
+## Package highlights
+
+```text
+outputs/
+  phase5_v8e_size2_ground_truth_orbit_summary.csv
+  phase5_v8e_size2_exact_orbit_classes.csv
+  phase5_v8e_size2_c_residue_classification.csv
+  phase5_v8e_invariant_separation_residual_walls.csv
+  phase5_v8e_milgram_magnitude_gates.csv
+  phase5_v8e_component_size_distribution.csv
+  phase5_v8e_archival_v7t_v7u_routing.csv
+  phase5_v8e_chi12_T_record_trace.csv
+  phase5_v8e_claim_disposition.csv
+  phase5_v8e_ledger_reconciliation.csv
+```
+
+## Current state
+
+```text
+Phase 5:
+  OPEN
+
+v8c:
+  SUSPENDED
+
+Closed by v8e:
+  size-2 Family-F isometry classifier on tested range
+
+Still blocking:
+  rank >= 3 Family-F connected component classifier
+  Lean-verified executable classifier
+  final proof pass
+```
+
+Standing condition preserved:
+
+```text
+Family F containment is relative to the current T alphabet.
+Any alphabet growth reopens the Family F derivation.
+```
+

@@ -1,0 +1,16 @@
+symbol,type,role,status
+A_t,Nat,domain counter,DERIVED
+"q_t=(u_t,v_t)","ordered positive integer pair, 1<=u<=v",carried balanced-refinement pair,DERIVED
+theta_t,"(pi/2)*Int, represented exactly by phase_quarters",carried global phase,DERIVED
+k_t,"Fin(N_A), N_A=6*2^A",domain-local phase-position index,DERIVED
+j_t,positive Nat with j=j_start(A)+k,global phase-position index,DERIVED
+W_t,"free monoid {B,Q,L}*",exact ordered executed primitive word,DERIVED
+Xi_t,dependent custody-state sum over A,primitive custody state,DERIVED
+r_t,"Nat, separate from k_t",architectural pairing-rank counter,ARCHITECTURAL_CONSTRAINT
+P_t,unknown pairing object on an unknown retained axis object,generative primary pairing,NOT_YET_DERIVED
+Omega_t_plus,pullback/restriction of P_t along unknown iota_plus,plus chart restriction,NOT_YET_DERIVED
+Omega_t_minus,pullback/restriction of P_t along unknown iota_minus,minus chart restriction,NOT_YET_DERIVED
+T_t_plus_to_minus,mixed block induced by P_t and chart maps,directed plus-to-minus transfer,NOT_YET_DERIVED
+T_t_minus_to_plus,mixed block induced by P_t and chart maps,directed minus-to-plus transfer,NOT_YET_DERIVED
+Xi_hat_t,"dependent lifted record (Xi_t,P_t,Omega+/-,T+-,T-+)",fully retained lifted state,SCHEMA_DERIVED_VALUES_OPEN
+⌞Xi_hat_t⌝,wrapper/reader over Xi_hat_t,Orthad,ARCHITECTURAL_LAW

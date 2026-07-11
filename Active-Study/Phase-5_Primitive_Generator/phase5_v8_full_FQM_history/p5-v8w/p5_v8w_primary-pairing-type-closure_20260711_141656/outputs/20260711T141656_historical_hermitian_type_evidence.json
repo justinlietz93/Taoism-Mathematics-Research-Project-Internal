@@ -1,0 +1,15 @@
+{
+  "disposition": "DOWNSTREAM_HERMITIAN_TYPE_EVIDENCE_ONLY",
+  "formula": "H=M+iJ",
+  "source_claim_id": "SC_HIST_HERMITIAN",
+  "supplies_downstream_overlap_reconstruction": true,
+  "supplies_per_tick_recurrence": false,
+  "supplies_seed": false,
+  "supplies_type_constraint": true,
+  "why_not_P0": [
+    "constructed from historical shared-boundary/latch incidence",
+    "requires post-hoc c_ij and gluing metric",
+    "not generated from clean Xi_0 and W_0",
+    "does not derive modern chart embeddings or per-letter mutations"
+  ]
+}

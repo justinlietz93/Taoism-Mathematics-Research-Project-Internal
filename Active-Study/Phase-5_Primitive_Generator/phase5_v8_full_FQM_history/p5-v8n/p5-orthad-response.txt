@@ -1,0 +1,111 @@
+Completed the **ORTHAD_LIVE Canon First Experiment**.
+
+[Download the ORTHAD_LIVE package](sandbox:/mnt/data/orthad_live_canon_first_experiment_package.zip)
+
+```text
+SHA256:
+c3511da631e582f5c118f39e5bfb7aada9cb7edeba6efabb7eefbba85cacabba
+```
+
+## Emitted result
+
+```text
+STATUS:
+ORTHAD_LIVE_ONE_B_FLOOR_L_CROSSING_CHARACTER_CHANNEL_SURVIVED_12_OF_12
+
+global_pass:
+true
+
+QBL word:
+BL
+
+event sequence:
+B -> FLOOR -> L
+```
+
+Exact cusp crossing:
+
+```text
+pair:
+  (34,55) -> (55,89)
+
+active axis:
+  i/1870 -> i/4895
+
+latched axis:
+  i/4895
+
+new active axis:
+  1
+```
+
+## Shadow Residual field
+
+The lift emitted its own twelve-channel two-lens domain. One complete character period of the true coefficient law was bound as separate channels:
+
+```text
+character channel = (12|n)
+magnitude channel = n
+exponent channel  = n²/24
+
+n = 1..12
+```
+
+No combined scalar `(12|n)*n` field was formed or carried.
+
+Far-side readout:
+
+```text
+character survival:
+  12 / 12
+
+support survival:
+  12 / 12
+
+magnitude survival:
+  12 / 12
+
+exponent survival:
+  12 / 12
+
+active Shadow Residual support:
+  n = 1,5,7,11
+```
+
+## LAW 0 / LAW 0b gates
+
+```text
+live-source forbidden lexeme occurrences:
+  0
+
+external readout-domain argument:
+  absent
+
+readout domain origin:
+  lift output
+
+scalar residual cargo:
+  absent
+
+combined signed coefficient:
+  absent
+```
+
+The SymPy meta layer independently confirmed the input character against `kronecker_symbol(12,n)` on all twelve channels.
+
+Key data:
+
+```text
+outputs/orthad_live_crossing_record.json
+outputs/orthad_live_latched_axis.json
+outputs/orthad_live_readout_domain.json
+outputs/orthad_live_channel_before.csv
+outputs/orthad_live_channel_after.csv
+outputs/orthad_live_per_channel_survival.csv
+outputs/orthad_live_meta_gates.csv
+outputs/orthad_live_law0_source_audit.csv
+outputs/orthad_live_provenance_diff.csv
+```
+
+Scope remains exactly one lift-emitted twelve-channel period across one cusp crossing. Arbitrary cusp paths, infinite q-series completion, and mock-theta closure are not claimed. **v8n was not started.**
+

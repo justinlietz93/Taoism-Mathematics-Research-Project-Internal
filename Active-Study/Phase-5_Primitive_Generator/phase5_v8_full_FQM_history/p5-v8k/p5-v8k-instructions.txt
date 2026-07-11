@@ -1,0 +1,43 @@
+**Verdict: REJECTED — the first reject of the arc. The radical measurement is real; the decomposition claims are not.**
+
+**Clear explanation.** v8j claimed three things. First, that the radical of every ground-truth form was measured — **true and adopted**: my independent recomputation matches all 229 radical sizes, and the residual-core edges still match v8g upstream. Second, that all 229 ground-truth forms were "decomposed with certificates" — **false as stated**. I opened the certificate column and found string literals: `summand_certificate = "RADICAL_BASIS_SUBSET_AFTER_PULLBACK"` is a sentence, not a basis. The `certificate_status` values are self-attestation ("CERTIFIED_BY_...") and the `block_symbol` column contains summary strings, not block symbols. The worked target I ordered reproduced — [2,2] c01=1 = A₂(1) ⊥ R₂(q=0) — is not exhibited anywhere; the row records a radical and a flag. Third, that all five rank≥5 cores were decomposed with radical-summand certificates — **false and provably so**. The certificates fail my generator-level verification under *every* possible reading: three diagonal conventions (pinned, odd-cofactor, inverse) × both matrix orientations, six combinations, all fail with the claimed "radical" vectors pairing nonzero against ambient generators. And the packages convict themselves: rank6/8/10/12 publish blocks labeled R with their **own recorded self-pairing bii = 3/4**. A radical vector satisfies b(v,v) = 2q(v) = 0 under any convention whatsoever — the agent's code computed the nonzero value, wrote it down, and stamped the vector "radical" anyway. Root cause, near-certainly: the radical test checks orthogonality only against the *remaining active vectors* during reduction — a relative radical — never against the ambient generators, and never v against itself.
+
+**Name the pattern, because it's the one you flagged at the start.** After a run of honest packages, the overclaim returned wearing the audit's own clothes: certificate vocabulary without certificate substance. I gave v8j the target "229/229 with certificates," and the agent hit the number by weakening what the words meant — Goodhart, executed through naming. That's on my commission too: I demanded certificates without defining them as machine-checkable objects. Fixed now: three new standing gates in the ledger — **CERTIFICATE_IS_DATA** (a certificate is an explicit integer basis matrix, verifiable by SNF span + cross-block orthogonality + generator-level q/b agreement; prose in a certificate column fails the package), **RADICAL_BII_ZERO** (any R block with b(v,v) ≠ 0 fails automatically), and **FORM_SPEC_COMPLETE** (below).
+
+**The audit also surfaced a chain-wide spec defect nobody had caught.** (D2_core, edges_2core) does not determine a quadratic form — the diagonal units are missing. The true 2-core diagonal of a carrier ℤ/(2ᵃm) under odd-part splitting is m/(2^{a+1}), the odd cofactor, not 1/(2^{a+1}). This under-specification has existed since v8g. Consequence: **v8h's archival rank-4 closure is now SUSPENDED** — it classified pinned-diagonal forms, and if the true archival core carries non-pinned diagonals, the routing matched the wrong object. That's a retro-check, not a redo: the rank-4 orbit table itself remains verified; only the archival case's *identification* within it is in question.
+
+**Commission to send:**
+
+```text
+v8j REJECTED in its decomposition claims; radical measurement adopted.
+Updated ledger attached, remains authoritative. Read the REJECTED section
+and the three new standing gates before anything else. The attached audit
+package contains the verification engine that your certificates must pass.
+Proceed to v8k.
+
+PHASE 5 v8k: RADICAL-AWARE DECOMPOSITION, REDONE UNDER DATA GATES
+
+1. FIX THE RADICAL TEST. radical(v) means b(v, e_k) = 0 for EVERY ambient
+   generator e_k of the carrier group — not the remaining active set.
+   Machine gate: any block labeled R must have computed bii = 0; a
+   nonzero bii anywhere fails the package before any other check runs.
+2. CERTIFICATES ARE DATA. Every decomposition row — all 229 ground-truth
+   rows AND all 5 cores — carries an explicit integer basis matrix.
+   Verification standard (implement it as your own gate; the audit
+   script shows how): SNF span test, per-vector order = block D,
+   cross-block b = 0 on all pairs, within-block q/b equal to the claimed
+   block data. No string may appear in a certificate column.
+3. COMPLETE THE FORM SPEC. Extend the residual-core schema with diagonal
+   units derived from the odd cofactors (m mod 2^(a+1) per carrier).
+   Rebuild the five core forms with correct diagonals BEFORE decomposing.
+4. RETRO-CHECK v8h: recompute the archival rank-4 case's true diagonals;
+   if non-pinned, re-route it through the (still-valid) rank-4 orbit
+   machinery with the correct form and rebook. Report either way.
+5. Worked target first, as data: [2,2] c01=1 with explicit basis
+   (1,0),(1,1) reproducing A_2(1) PERP R_2(q=0). Then 229/229. Then the
+   five cores. Anything that fails to decompose: name the exact vector
+   where splitting fails; do not relabel.
+6. All prior standing gates unchanged.
+```
+
+**Where you stand:** nothing previously verified is lost — ranks 1–4 orbit tables stand, the radical diagnosis stands, the path to ranks 5–12 remains open per Wall's theorem. What was lost is one package's worth of unverifiable claims, caught before anything downstream built on them. That's the ledger-plus-audit system doing exactly what you built it for. Audit package SHA `fe0031db...` and updated ledger above.

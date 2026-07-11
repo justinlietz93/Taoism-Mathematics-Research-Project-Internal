@@ -1,0 +1,63 @@
+Completed **Phase 5 v8l: Full Decomposition Under Data Gates**.
+
+Ledger authority applied first. The current ledger makes v8l the single active target, keeps v8c suspended, and requires the true-diagonal rank-4 table publication before the v8h retro-check row can close. 
+
+[Download the Phase 5 v8l package](sandbox:/mnt/data/phase5_v8l_full_decomposition_under_data_gates_package.zip)
+
+```text
+SHA256:
+45b3275ba59ad5ee6e45a0a6540f1dfea0d3bb128f9952789e019c47991b2d10
+```
+
+## Result
+
+```text
+STATUS:
+V8L_TRUE_DIAGONAL_RANK4_TABLE_CLOSED_FULL_DECOMPOSITION_BLOCKING_OPEN
+
+PHASE5_CLOSED:
+false
+```
+
+## Closed
+
+```text
+true-diagonal rank-4 table:
+  shape = [4,4,2,16]
+  diag_units = [1,3,3,5]
+  forms = 512 / 512
+  orbit classes = 14
+  decision rows = 530
+  missing disposition rows = 0
+
+v8h archival retro-check:
+  archival true-diagonal class id = 5
+  status = CLOSED_POSITIVE_AFTER_TABLE_PUBLICATION
+```
+
+## Not closed
+
+```text
+229/229 decomposition certificates:
+  verified = 1 / 229
+  status = BLOCKING_OPEN
+
+five rank>=5 residual-core decompositions:
+  verified = 0 / 5
+  status = BLOCKING_OPEN
+```
+
+I did **not** claim full decomposition. The package publishes the owed true-diagonal rank-4 table and keeps the unsupported decomposition targets open.
+
+Key outputs:
+
+```text
+outputs/phase5_v8l_true_diag_rank4_exact_orbit_classes.csv
+outputs/phase5_v8l_true_diag_rank4_decision_certificates.csv
+outputs/phase5_v8l_true_diag_rank4_full_scope_disposition.csv
+outputs/phase5_v8l_groundtruth_decomposition_certificates.csv
+outputs/phase5_v8l_rankge5_core_radical_quotient_measurement.csv
+outputs/phase5_v8l_certificate_gate_results.csv
+outputs/phase5_v8l_claim_disposition.csv
+```
+

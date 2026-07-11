@@ -1,0 +1,47 @@
+## Audit verdict
+
+```text
+REJECT_CURRENT_CANON_FIRST_CLAIM
+REBUILD_PRIMITIVE_ENGINE_BEFORE_ORTHAD_CLAIMS
+RETAIN_LOCAL_ARITHMETIC_AND_PACKAGE_SCAFFOLD_ONLY
+```
+
+The decisive result remains:
+
+```text
+canonical word:  BQQBBBQBQBBQBBL
+package result:  8/12
+survival gate:   false
+```
+
+The package’s `12/12` result depends on replacing the actual first crossing with `B -> FLOOR -> L` from `(34,55)`. The audit also confirms that:
+
+* no primitive self-selection exists;
+* the baseline executes no `Q`;
+* `i/4895` is hard-coded independently of phase;
+* `L` resets the active pair to `(1,1)`;
+* the 12-seat carrier and opposite lap sign are inserted;
+* zeroing the pre-(L) Omega matrices still passes;
+* zeroing the entire post-(L) lens still passes;
+* the verifier accepts missing evidence and duplicate rows;
+* the Lean artifact proves a fixed table identity, not the complete crossing.
+
+The outgoing instructions ask the agent to rebuild the state-driven primitive engine first, derive the exact trace from `(1,1)`, verify post-(L) carry, and attach the Orthad only where the exact chart recurrence can be derived. The agent must report `NOT_YET_DERIVED` rather than fill any remaining Orthad gap with constants or labels.
+
+The required downstream package format includes the manifest, assumption lock, source map, source and executed notebooks, complete tick trace, exact scope split, and evidence-recomputing verifier described by the project protocol. 
+
+### Files
+
+[Agent instructions](sandbox:/mnt/data/ORTHAD_V8P_AGENT_INSTRUCTIONS_20260711T064705.md)
+
+[Standalone audit results](sandbox:/mnt/data/ORTHAD_V8P_AUDIT_RESULTS_20260711T064705.md)
+
+[Minimal audit relay package](sandbox:/mnt/data/orthad_v8p_audit_relay_20260711T064705.zip)
+
+```text
+Audit ZIP SHA-256:
+08eb418bceed83767a948fe11ba89bb744fbddb87561100c1f822cd80b9beff3
+```
+
+The ZIP contains the audit, instructions, governing v2 law, assumption lock, extracted claims, full machine-readable results, reproduction script, source map, stepwise audit trace, and verified `MANIFEST.json`.
+

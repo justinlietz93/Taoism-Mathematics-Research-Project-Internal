@@ -1,0 +1,18 @@
+{
+  "DATA_READER_READINESS": "EXTERNAL_INTAKE_EXISTS; NOT TESTED IN THIS PASS",
+  "GEOMETRIC_READINESS": "NOT_READY",
+  "MHD_ORTHAD_READINESS": "NOT_READY",
+  "ORTHAD_READINESS": "NOT_READY",
+  "PROJECTION_READINESS": "NOT_READY",
+  "missing": [
+    "primary pairing recurrence",
+    "two chart maps",
+    "two directed transfer laws",
+    "overlap-domain definition",
+    "cocycle or route-consistency test bound to the clean recurrence",
+    "vector component transformation law",
+    "tensor component transformation law",
+    "units and grid-geometry verification",
+    "field-valued channel definition"
+  ]
+}

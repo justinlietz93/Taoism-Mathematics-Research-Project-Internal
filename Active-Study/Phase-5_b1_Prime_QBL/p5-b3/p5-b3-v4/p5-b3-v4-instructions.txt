@@ -1,0 +1,51 @@
+## Audit verdict
+
+```text
+REVISE_SCOPE
+
+EXACT PRIMARY PAIRING TYPE: NOT YET DERIVED          ADOPT
+EXACT PRIMARY PAIRING SEED: NOT YET DERIVED          ADOPT
+EXACT PRIMARY PAIRING RECURRENCE: NOT YET DERIVED    ADOPT
+LOCAL B/Q ACTIVE-AXIS RECURRENCES: PROVED            ADOPT
+FIRST-DOMAIN WITNESS i/4895: PROVED                  ADOPT
+
+MINIMAL P:H->D(H) INTERFACE: CANDIDATE, NOT FORCED
+SCALAR_VARIANCE_AXIOM AS EARLIEST LAW: REJECT
+SAME-TYPE SEED NONUNIQUENESS: NOT PROVED
+TWO ZERO L MIXED BLOCKS: CONDITIONAL
+
+p5-b3 BRANCH STATUS: OPEN
+NEXT INTERACTION: p5-b3-v4
+```
+
+The agent correctly stopped before inventing a complete pairing. The governing law explicitly leaves the all-depth pairing recurrence, chart maps, and directed transfers open. 
+
+The main corrections are:
+
+* (P_t:H_t\to D(H_t)) is a clean common realization for bilinear and sesquilinear forms, but the current authority does not force scalar linearity, a dual carrier, or a categorical biproduct.
+* Scalar variance cannot be the earliest missing law because it presupposes a scalar carrier, codomain, duality, linearity, and involution. The first missing datum is a broader `PRIMARY_PAIRING_REALIZATION_AXIOM`.
+* The bilinear and sesquilinear examples prove **type ambiguity**, not two distinct seeds inside one fixed type.
+* Both old/new mixed blocks vanish only after two-sided (P)-orthogonality or a sufficient symmetry/Hermitian law is declared. Those laws remain open.
+
+Package integrity passes:
+
+```text
+Archive SHA-256:           PASS
+Document SHA-256:          PASS
+Manifest entries:          49/49
+Notebook cells:            14/14 PASS
+Figures:                   14
+Clean rebuild:             PASS
+Byte-identical ZIP:        PASS
+```
+
+* [Download `p5-b3-v3_audit-package_20260711T144154.zip`](sandbox:/mnt/data/p5-b3-v3_audit-package_20260711T144154.zip)
+* [Audit results](sandbox:/mnt/data/p5-b3-v3_audit-package_20260711T144154/AUDIT_RESULTS.md)
+* [`p5-b3-v4` instructions](sandbox:/mnt/data/p5-b3-v3_audit-package_20260711T144154/OUTGOING_INSTRUCTIONS.md)
+* [SHA-256 file](sandbox:/mnt/data/p5-b3-v3_audit-package_20260711T144154.zip.sha256)
+
+```text
+SHA-256:
+1ee82e3998a5da3c861a3c322479fcfe3840e673b2f236956ef0eaf9cf1d2169
+```
+

@@ -1,0 +1,47 @@
+**Verdict: adopted — the math survives independent attack — but the audit caught one real hole, and it's a five-disposition-law violation, not a nitpick.**
+
+What I verified from scratch, not from their tables: I wrote my own rank-3 decider (generator-image search, exact integers, pointwise confirmation) and re-classified *all sixteen* D=4 chain forms independently — my five classes match theirs class-by-class, member-by-member. The flagship splitter control is genuinely true: (1,0,4) ≅ (0,0,1) at D=8, confirmed with an explicit witness basis and full form equality over all 512 group elements. My own run even rediscovered one of their 38 secret splits unprompted — (2,0,2) ≅ (0,0,0) at D=4, a connected chain isometric to the fully diagonal form. The det-odd invertibility test is valid for 2-power D, the splitter runs *before* rank-3 booking as commissioned, cross-shape rigidity is used only as an empirical gate, and the archival routing is honest: v7t 3/3 closed, v7u 7/7 correctly left blocking. The naming discipline held — "chain classifier" is exactly what it is.
+
+**The hole: equal-D triangles vanished from the disposition set.** v8f classifies chains — c02 = 0, two edges. Forms with all three edges nonzero (triangles) are reachable in family F by three O_ij events, so they exist in the generated image. But they're neither "chains" (closed) nor "mixed/high-rank" (blocking) — they're equal-D, rank-3, and carry *no disposition row anywhere in the package*. I grepped every doc and CSV: zero mentions. That's precisely the failure mode your closure law exists to prevent — a target didn't get mislabeled, it silently ceased to exist between two adjacent scope labels. Honest naming, incomplete bookkeeping. It's now a BLOCKING_OPEN row in the ledger, audit-attributed. Note this is the third distinct leak class we've caught: v7z was name-over-reach, v8c was a hidden premise, v8f is a gap between scopes — and none of the three is catchable by gates that only check whether listed targets pass.
+
+**Where the wall stands:** size 1 closed, size 2 closed and verified, rank-3 equal-D chains closed and verified. Remaining: equal-D triangles (new), mixed/high-rank components (v7u's seven cases, up to rank 12), rigidity lemma, Lean.
+
+**Commission to send:**
+
+```text
+v8f ADOPTED after independent verification (D=4 full re-classification
+match; flagship split confirmed pointwise over 512 elements). Updated
+ledger attached, remains authoritative. One audit finding is now ledger
+law: EQUAL-D TRIANGLES (all three edges nonzero) had no disposition row
+— reachable by three O_ij events, neither chain nor mixed/high-rank.
+Target-vanishing violation; booked BLOCKING_OPEN. Proceed to v8g.
+
+PHASE 5 v8g: TRIANGLES + MIXED/HIGH-RANK 2-PRIMARY COMPONENTS
+
+1. TRIANGLES FIRST (closes the audit hole). Equal-D rank-3 forms with
+   all three edges nonzero, D=4 complete and D=8 complete. Run the
+   splitter on every triangle BEFORE classifying: determine which
+   triangles reduce to chains or split entirely. Extend the exact
+   orbit tables to whatever remains. Same decider standard as v8f.
+   Every triangle gets a disposition row.
+2. SCOPE-COMPLETENESS GATE (new standing control): for each pass,
+   enumerate the FULL parameter space of the stated rank/shape range
+   and prove the union of scoped subsets covers it. A form with no
+   disposition row fails the package. This prevents the v8f leak
+   class permanently.
+3. MIXED/HIGH-RANK: attack the 7 v7u blockers by reduction, not
+   enumeration: (a) p-primary split (odd parts done); (b) 2-primary
+   Jordan block decomposition per component (v7s normal forms);
+   (c) orthogonal splitter at each stage; (d) exact orbit
+   classification only on irreducible cores small enough to bound.
+   Book anything that survives all reductions with its exact
+   irreducible core named — that residue is the true wall.
+4. RIGIDITY LEMMA: attempt the proof (family diagonals 1/(2D_i)
+   rigidify shape). If proven, cite; if not, extend the exhaustive
+   alias gate to every same-group pair in the v8g range.
+5. Acceptance unchanged: "classifier" only with orbit ground truth
+   on the stated range; splitting-failure claims need exhaustive
+   certificates.
+```
+
+Step 2 is the structural fix — it converts this audit catch into a permanent gate, the same way v7z became the naming registry and v8c became the deferral-premise rule. Ledger updated and attached above.

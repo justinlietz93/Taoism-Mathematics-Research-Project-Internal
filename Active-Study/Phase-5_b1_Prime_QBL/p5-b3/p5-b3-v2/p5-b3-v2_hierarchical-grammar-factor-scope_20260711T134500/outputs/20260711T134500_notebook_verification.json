@@ -1,0 +1,113 @@
+{
+  "cells": [
+    {
+      "cell": 1,
+      "has_pass": true,
+      "status_lines": [
+        "PASS: exact boundary and capacity identities"
+      ]
+    },
+    {
+      "cell": 2,
+      "has_pass": true,
+      "status_lines": [
+        "PASS: exact semiconjugacy algebra"
+      ]
+    },
+    {
+      "cell": 3,
+      "has_pass": true,
+      "status_lines": [
+        "PASS: finite exact boundary regression A=0..8"
+      ]
+    },
+    {
+      "cell": 4,
+      "has_pass": true,
+      "status_lines": [
+        "PASS: canonical orbit commuting regression"
+      ]
+    },
+    {
+      "cell": 5,
+      "has_pass": true,
+      "status_lines": [
+        "PASS: cardinality obstruction evaluated from explicit premises",
+        "FULL AFFINE INTERVAL FACTOR: IMPOSSIBLE FOR THE STATED DOMAIN"
+      ]
+    },
+    {
+      "cell": 6,
+      "has_pass": true,
+      "status_lines": [
+        "PASS: finite canonical blocks do not exceed full-language count",
+        "CANONICAL ORBIT LANGUAGE = FULL AFFINE LANGUAGE: NOT YET PROVED"
+      ]
+    },
+    {
+      "cell": 7,
+      "has_pass": true,
+      "status_lines": [
+        "PASS: property scopes separated",
+        "full affine non-sofic : PROVED",
+        "full affine mixing : PROVED",
+        "canonical itinerary non-sofic : NOT TRANSFERRED",
+        "canonical itinerary mixing : NOT TRANSFERRED"
+      ]
+    },
+    {
+      "cell": 8,
+      "has_pass": true,
+      "status_lines": [
+        "PASS: instantaneous-L mutation checked from explicit state law",
+        "A. CARRY APPENDED AT INSTANTANEOUS PRIMITIVE L: FAIL"
+      ]
+    },
+    {
+      "cell": 9,
+      "has_pass": true,
+      "status_lines": [
+        "PASS: exact-form boundary cocycle numeric witness",
+        "B. EXACT BOUNDARY-RETURN COCYCLE: PASS; c= 8 residual= 1.81735e-98"
+      ]
+    },
+    {
+      "cell": 10,
+      "has_pass": true,
+      "status_lines": [
+        "PASS: structural status derived from explicit dependency table",
+        "C. HIGHER-ORDER DESCRIPTIVE L: NOT YET DERIVED"
+      ]
+    },
+    {
+      "cell": 11,
+      "has_pass": true,
+      "status_lines": [
+        "PASS: fiber criterion applied without inventing comparison states",
+        "DESCRIPTIVE-LAYER INDEPENDENT AXIS TEST: NOT YET DERIVED"
+      ]
+    },
+    {
+      "cell": 12,
+      "has_pass": true,
+      "status_lines": [
+        "PASS: exact count identity J_A=6p(A)",
+        "HIERARCHICAL DEPTH RECURRENCE: COUNT ALIGNMENT ONLY"
+      ]
+    },
+    {
+      "cell": 13,
+      "has_pass": true,
+      "status_lines": [
+        "PASS: Orthad boundary retained",
+        "primary pairing recurrence : NOT YET DERIVED",
+        "chart restriction maps : NOT YET DERIVED",
+        "directed transfer recurrences : NOT YET DERIVED",
+        "Orthad L extension proof : NOT YET DERIVED",
+        "gauge/FQM carry map : NOT YET DERIVED"
+      ]
+    }
+  ],
+  "code_cells": 13,
+  "figures": 13
+}

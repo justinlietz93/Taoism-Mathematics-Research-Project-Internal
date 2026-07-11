@@ -1,0 +1,192 @@
+Completed **Phase 5 v8h: Rank-4 Exact Closure + Rank>=5 Reduction Attack**.
+
+Ledger authority was applied first. The attached canonical ledger remains controlling, with v8h as the single active target and the new split-law enforced: same-shape split search cannot support an indecomposable claim. 
+
+[Download the Phase 5 v8h package](sandbox:/mnt/data/phase5_v8h_rank4_exact_closure_rankge5_reduction_attack_package.zip)
+
+```text
+SHA256:
+c9c241dc0561f1f614fb074439cdc5e694824e3081cd81419aae8f7b1a104c1d
+```
+
+## Result
+
+```text
+PHASE 5 v8h:
+Rank-4 Exact Closure + Rank>=5 Reduction Attack
+
+STATUS:
+V8H_RANK4_MIXED_SAME_SHAPE_CLASSIFIER_CLOSED_ON_FULL_RANGE_RANK_GE5_REDUCTION_RESIDUALS_BLOCKING_OPEN
+
+GLOBAL_PASS:
+true
+
+PHASE5_CLOSED:
+false
+```
+
+## Main closure
+
+```text
+CLOSED_POSITIVE:
+  rank-4 mixed same-shape Family-F classifier
+  shape [4,4,2,16]
+  full representative-invariant range
+```
+
+Hard counts:
+
+```text
+rank4 shape:
+  [4,4,2,16]
+
+rank4 forms:
+  512 / 512 disposition rows
+
+missing disposition rows:
+  0
+
+exact orbit classes:
+  14
+
+decision certificates:
+  530
+
+archival rank4 case:
+  closed
+```
+
+The classifier uses exact pullback-form equality, not keys.
+
+## Certificate method
+
+```text
+candidate generator images:
+  filtered by order + q-value
+
+search ordering:
+  smallest candidate set first
+
+propagation:
+  pairwise b constraints
+
+bijection:
+  accepted only when generator images span all 512 elements
+
+witness verification:
+  pointwise q-pullback over all 512 elements
+```
+
+Non-isometry rows carry exhausted-search certificates.
+
+## Rank>=5 result
+
+```text
+rank>=5 archival residuals routed:
+  5
+
+closed:
+  0
+
+blocking open:
+  5
+```
+
+Blocked residuals:
+
+```text
+rank5_prime:
+  D2 core [2,4,4,2,16]
+
+rank6_large:
+  D2 core [2,4,4,2,16,16]
+
+rank8_large:
+  D2 core [2,4,4,2,16,16,4,16]
+
+rank10_large:
+  D2 core [2,4,4,2,16,16,4,16,2,4]
+
+rank12_large:
+  D2 core [2,4,4,2,16,16,4,16,2,4,16,2]
+```
+
+No classifier claim is made above rank 4.
+
+## Split-law compliance
+
+```text
+same-shape split search:
+  used only as a reduction/disposition signal
+
+not claimed:
+  indecomposable proof
+  cross-shape rigidity theorem
+  rank>=5 classifier closure
+```
+
+## Package contents
+
+```text
+phase5_v8h_rank4_exact_closure_rankge5_reduction_attack/
+├── README.md
+├── MANIFEST_SHA256SUMS.txt
+├── docs/
+│   ├── phase5_v8h_result_card.md
+│   ├── phase5_v8h_rank4_exact_closure_rankge5_reduction_attack.md
+│   ├── phase5_v8h_protocol_definitions.md
+│   ├── phase5_v8h_frontier_note.md
+│   ├── rank4_certificate_method.md
+│   └── rankge5_residual_cores.md
+├── outputs/
+│   ├── phase5_v8h_verification_summary.json
+│   ├── phase5_v8h_result_card.json
+│   ├── phase5_v8h_rank4_exact_orbit_classes.csv
+│   ├── phase5_v8h_rank4_full_scope_disposition.csv
+│   ├── phase5_v8h_rank4_decision_certificates.csv
+│   ├── phase5_v8h_rank4_invariant_harvest.csv
+│   ├── phase5_v8h_compact_invariant_collision_audit.csv
+│   ├── phase5_v8h_rankge5_reduction_routing.csv
+│   ├── phase5_v8h_scope_completeness_gates.csv
+│   ├── phase5_v8h_claim_disposition.csv
+│   ├── phase5_v8h_ledger_reconciliation.csv
+│   └── phase5_v8h_falsification_targets.csv
+├── sealed/
+│   ├── DO_NOT_CLOSE_PHASE5_GATE.json
+│   └── SEALED_V8H_BEFORE_RANKGE5_CLASSIFIER.json
+├── scripts/
+│   └── phase5_v8h_rank4_exact_closure_rankge5_reduction_attack.py
+├── notebooks/
+│   └── phase5_v8h_rank4_exact_closure_rankge5_reduction_attack.ipynb
+├── proofs/
+│   └── Phase5V8HRank4Reduction.lean
+├── lean/
+│   ├── lakefile.lean
+│   ├── lean-toolchain
+│   ├── Phase5V8H.lean
+│   └── Phase5V8H/
+│       └── Rank4Reduction.lean
+├── source_notes/
+│   └── PHASE5_CANONICAL_LEDGER.md
+└── snapshots/
+    └── example_v8h_rank4_snapshot.json
+```
+
+## Current state
+
+```text
+Phase 5:
+  OPEN
+
+v8c:
+  SUSPENDED
+
+v8h closed:
+  rank-4 [4,4,2,16] same-shape exact classifier on full stated range
+
+still blocking:
+  rank>=5 mixed/high-rank Family-F classifier
+  cross-shape rigidity beyond resolved pure 2-primary shape uniqueness
+  Lean executable classifier / final proof pass
+```
+

@@ -1,0 +1,21 @@
+{
+  "independence_definition": "xi independent of D iff xi does not factor through D, equivalently some D-fiber is split",
+  "open_dependencies": {
+    "bidirectional_transfer_recurrences": false,
+    "explicit_chart_maps_all_prefixes": false,
+    "lawful_old_description_fiber_comparison_family": false,
+    "orthad_L_latching_extension_map": false,
+    "primary_pairing_all_depth_recurrence": false
+  },
+  "statuses": {
+    "branch_status": "OPEN",
+    "canonical_boundary_orbit_semiconjugacy": "PROVED",
+    "canonical_language_equals_full_affine_language": "NOT_YET_PROVED",
+    "claim_A_instantaneous_L_append": "FAIL",
+    "claim_B_boundary_return_cocycle": "PASS",
+    "claim_C_higher_order_descriptive_L": "NOT_YET_DERIVED",
+    "enlarged_lawful_qbl_full_interval_factor": "NOT_YET_DERIVED",
+    "full_affine_interval_factor_stated_domain": "IMPOSSIBLE_COUNTABLE_TO_UNCOUNTABLE",
+    "hierarchical_depth_recurrence": "COUNT_ALIGNMENT_ONLY"
+  }
+}

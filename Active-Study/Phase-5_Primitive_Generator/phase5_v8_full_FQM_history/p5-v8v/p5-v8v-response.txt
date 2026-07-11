@@ -1,0 +1,134 @@
+Executed `p5_v8v`.
+
+[Download `p5_v8v_pairing-first-orthad-realignment_20260711_133900.zip`](sandbox:/mnt/data/p5_v8v_pairing-first-orthad-realignment_20260711_133900.zip)
+
+```text
+ZIP SHA-256:
+ae97c9ec1e1cac24ed1a55beacb8267b54ae18a94b4240b6fecd45e8f195a1a8
+```
+
+First audit entry:
+
+[FINDINGS.md](sandbox:/mnt/data/p5_v8v_pairing-first-orthad-realignment_20260711_133900/FINDINGS.md)
+
+Corrected research document:
+
+[20260711T133900_PAIRING_FIRST_ORTHAD_REALIGNMENT.md](sandbox:/mnt/data/p5_v8v_pairing-first-orthad-realignment_20260711_133900/docs/20260711T133900_PAIRING_FIRST_ORTHAD_REALIGNMENT.md)
+
+```text
+Document SHA-256:
+a0420819e30600f931aa97a635bf19055f7ff9dd458ff0ea66d5ddaec2e8a1be
+```
+
+## Status
+
+```text
+PRIMITIVE_CUSTODY: PASS
+PRIMITIVE_FIRST_CROSSING: PASS
+FIRST_L_CARRY: PASS
+FIRST_NEXT_DOMAIN_B: PASS
+ACTIVE_AXIS_LOCAL_SHORTHAND: PASS
+
+FIRST TRUE GAP:
+    PRIMARY PAIRING TYPE, SEED, AND PER-LETTER MUTATION
+
+NATIVE SUCCESSOR ON Z/12Z:
+    DOWNSTREAM COORDINATE QUESTION
+
+ORTHAD EXISTS FROM FIRST PRIMITIVE TICK:
+    ARCHITECTURAL LAW
+
+PRIMITIVE CUSTODY STATE:
+    Xi_t
+
+FULLY RETAINED LIFTED STATE:
+    Xi_hat_t
+
+ORTHAD:
+    ⌞Xi_hat_t⌝
+
+EXACT PRIMARY PAIRING TYPE:
+    NOT_YET_DERIVED
+
+EXACT PRIMARY PAIRING SEED:
+    NOT_YET_DERIVED
+
+EXACT PRIMARY PAIRING RECURRENCE:
+    NOT_YET_DERIVED
+
+EXACT CHART MAPS:
+    NOT_YET_DERIVED
+
+EXACT DIRECTED TRANSFERS:
+    NOT_YET_DERIVED
+
+QBL_TO_AFFINE FACTOR MAP:
+    NOT_YET_DERIVED
+
+MHD_ORTHAD_READINESS:
+    NOT_READY
+```
+
+## Research result
+
+The first exact missing object is the pairing-type datum:
+
+```text
+D_P =
+(
+    coefficient object K,
+    retained axis object H_0,
+    duality or involution,
+    argument variance,
+    symmetry or adjoint law
+)
+```
+
+Until `D_P` is fixed, the sources do not distinguish a bilinear, sesquilinear, quadratic/polarized, operator-valued, or more general duality-valued pairing.
+
+The next missing map is:
+
+```text
+eta_P : (Xi_0, W_0, D_P) -> P_0
+```
+
+A custody-only nonuniqueness proof is included: the distinct forms
+
+```text
+P_1(x,y) = xy
+P_2(x,y) = 2xy
+```
+
+share the same initial custody state when no seed map is supplied.
+
+The package preserves the exact primitive evidence:
+
+```text
+word:                    BQQBBBQBQBBQBBL
+floor pair:              (55,89)
+floor product:           4895
+Q steps:                 5
+phase witness:           i
+after L:                 A=1, pair=(55,89), k=0, j=7
+first next-domain pair:  (89,144)
+local shorthand:         i/4895
+```
+
+No pairing, chart, transfer, cocycle, or projection matrices were emitted. The first-`L` change `1 -> 2` is retained only as an architectural axis/rank obligation. The possible zero mixed birth block remains explicitly classified as a **candidate formalization**, not a derived theorem.
+
+## Verification
+
+```text
+exact-ZIP verifier gates:       11/11 passed
+pytest:                         16/16 passed
+corruption controls:            12/12 fired
+executed notebook claim cells:  6/6 complete
+semantic rebuild comparison:   26/26 byte-identical artifacts
+manifest entries:               79
+archive files:                  80 including MANIFEST.json
+manifest/archive path sets:     exact match
+cache or bytecode entries:      0
+```
+
+Lean source is present. Lean was unavailable in the build environment, so compilation is not claimed.
+

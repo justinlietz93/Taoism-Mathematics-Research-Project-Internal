@@ -1,0 +1,13 @@
+gate,evidence_class,pass,boundary
+CANONICAL_WORD,MECHANICALLY_RECOMPUTED,True,custody only
+FIRST_L_CARRY,MECHANICALLY_RECOMPUTED,True,custody only
+NEXT_DOMAIN_B,MECHANICALLY_RECOMPUTED,True,custody only
+ACTIVE_AXIS_LOCAL_SHORTHAND,MECHANICALLY_RECOMPUTED,True,"local descendant, not pairing entry"
+PAIRING_FIRST_DEPENDENCY,SOURCE_DERIVED,True,architecture only; no values emitted
+PAIRING_TYPE_HARD_STOP,SOURCE_DERIVED,True,exact type remains open
+SUCCESSOR_FIRST_RETIRED,SOURCE_DERIVED,True,Z12 successor is downstream
+Z12_LOCAL_TYPE,SOURCE_DERIVED,True,"finite doubled carrier/skeleton, not Xi_hat"
+CONDITIONAL_L_ZERO_MIXED_BIRTH_BLOCK,CANDIDATE_FORMALIZATION,False,not a derived theorem until pairing type and orthogonality semantics are fixed
+NO_CHART_OR_TRANSFER_VALUES,MECHANICALLY_RECOMPUTED,True,missing layer emits null values only
+NO_PROJECTION,MECHANICALLY_RECOMPUTED,True,projection closed
+MHD_READINESS_BOUNDARY,SOURCE_DERIVED,True,not ready

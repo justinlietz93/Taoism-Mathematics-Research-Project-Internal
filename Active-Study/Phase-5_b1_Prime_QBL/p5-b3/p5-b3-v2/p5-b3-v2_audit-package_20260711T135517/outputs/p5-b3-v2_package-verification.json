@@ -1,0 +1,29 @@
+{
+  "archive": "/mnt/data/p5-b3-v2_hierarchical-grammar-factor-scope_20260711T134500.zip",
+  "archive_sha256": "aaf8690e8a64ac531dce4be785b37139a0551be59bebf8279142a10953b311ec",
+  "checks": {
+    "archive_sha256": true,
+    "document_sha256": true,
+    "figures": true,
+    "manifest": true,
+    "notebook": true,
+    "rebuild": true
+  },
+  "document_sha256": "63a522df4882409f7147ea96db128554b9a87530d880780cb8ffbda8025f31fd",
+  "errors": [],
+  "figures": 13,
+  "manifest_entries": 48,
+  "manifest_errors": [],
+  "manifest_extra": [],
+  "manifest_unlisted": [],
+  "notebook": {
+    "code_cells": 13,
+    "inline_png_outputs": 13,
+    "pass_cells": 13
+  },
+  "rebuild_returncode": 0,
+  "rebuild_stderr": "",
+  "rebuild_stdout": "{\"full_interval_factor\": \"IMPOSSIBLE_FOR_STATED_DOMAIN\", \"higher_order_descriptive_L\": \"NOT_YET_DERIVED\", \"semiconjugacy\": \"PROVED\"}\naaf8690e8a64ac531dce4be785b37139a0551be59bebf8279142a10953b311ec\n",
+  "rebuilt_archive_sha256": "aaf8690e8a64ac531dce4be785b37139a0551be59bebf8279142a10953b311ec",
+  "status": "PASS"
+}

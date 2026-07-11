@@ -1,0 +1,9 @@
+form,label,split_target,verified,detail
+"[6, 2, 3]",TRIANGLE_CORE_CLASSIFIED_BY_EXACT_ORBIT_TABLE,,True,"""same_class=True, cross_class_distinct=True"""
+"[2, 6, 5]",TRIANGLE_CORE_CLASSIFIED_BY_EXACT_ORBIT_TABLE,,True,"""same_class=True, cross_class_distinct=True"""
+"[6, 4, 6]",TRIANGLE_SPLITS_ENTIRELY,"[0, 0, 0]",True,"""((0, 0, 1), (2, 3, 6), (1, 4, 4))"""
+"[4, 2, 6]",TRIANGLE_SPLITS_ENTIRELY,"[0, 0, 0]",True,"""((0, 0, 1), (0, 1, 4), (3, 6, 2))"""
+"[7, 4, 2]",TRIANGLE_SPLITS_TO_CHAIN,"[0, 1, 2]",True,"""((0, 0, 1), (1, 0, 6), (1, 5, 1))"""
+"[7, 7, 2]",TRIANGLE_SPLITS_TO_CHAIN,"[0, 1, 1]",True,"""((0, 0, 1), (0, 1, 6), (7, 0, 0))"""
+"[6, 2, 2]",TRIANGLE_SPLITS_TO_SIZE2,"[0, 0, 2]",True,"""((0, 0, 1), (0, 1, 4), (3, 6, 6))"""
+"[4, 5, 4]",TRIANGLE_SPLITS_TO_SIZE2,"[0, 0, 3]",True,"""((0, 0, 1), (1, 0, 4), (0, 1, 2))"""

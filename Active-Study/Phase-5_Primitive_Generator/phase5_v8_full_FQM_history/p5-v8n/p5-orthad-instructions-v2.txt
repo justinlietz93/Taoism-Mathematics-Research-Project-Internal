@@ -1,0 +1,68 @@
+ORTHAD_LIVE: REJECT_COMPLETION / RETAIN_SCAFFOLD (cross-audit by two
+independent auditors; all findings replicated). Retained: the
+chi12=(12|n) identity, the (34,55)->(55,89) cusp arithmetic, LAW 0b
+channel separation, deterministic outputs, honest not-claimed lists.
+Rejected: the completion claim, the ORTHAD_LIVE name, and global_pass.
+
+Proven defects to absorb before writing code:
+D1 The Orthad was absent — no lens matrices, no word-forced structure;
+   "two_lens_domain" was a constant 12-address index set.
+D2 Survival was not load-bearing: pairs (1,1),(2,3),(100,101) all
+   passed 12/12; floor field identical without B; corrupted retained
+   bit silently repaired from term_n. You proved
+   n%6 + 6*((n%12)//6) = n%12.
+D3 The verifier did not bind to evidence: a falsified far-side
+   character still produced global_pass=true; the LAW 0 lexeme regex
+   (literal backslash-b) can never fire.
+D4 TransportSurvival.lean proves a 12-value table lookup; the notebook
+   prints crossing artifacts as literals.
+
+CANON FIRST EXPERIMENT — CORRECTED RE-RUN
+
+THE OBJECT (per CANON ANCHORS, ledger 2b, canonized 2026-06-25 — not
+open for reduction or redesign):
+The Orthad is the overset DUAL-CHART reader. Two lens matrices, both
+built tick-by-tick from the word (Q rotates the active phase, B
+refines the active anchor, L freezes the active entry and grows rank
+by one; every entry is the forced consequence of the word). Each chart
+covers the pole the other cannot. The off-diagonal coupling IS the
+transfer between the charts — it never lives inside one lens. The
+pairing is the primary forced object; each diagonal lens is its
+restriction. Carrier is Z/(2N), both orientation hands. The pair
+relation is checked against the proven lap2 = -lap1 latch at every L.
+The Orthad wraps the carried channel field and never becomes it.
+
+REQUIREMENTS:
+1. Implement BOTH charts AND the cross-chart transfer, word-built.
+   No constant domains. No origin labels — derivation, not assertion.
+   No single-chart reduction, no "pair now, overset later": that split
+   does not exist in canon.
+2. FOLLOW DISCIPLINE: generate the channel field solely from carried
+   Orthad state and word inside the lift. The true Shadow Residual law
+   ((12|n), n, n^2/24) appears ONLY in the meta layer as the external
+   comparison reference. (The earlier "inject" wording is superseded.)
+3. Far-side readout is projection through the compiled dual-chart lens
+   system after one B->FLOOR->L crossing. All far-side addressing from
+   retained state actually transported through B and L — never from
+   term_n or any function of a channel's own label.
+4. ABLATION CONTROLS (standing rule 7 — EVERY one must FAIL the
+   survival gate; emit per-ablation results and per-ablation Omega
+   diffs): (a) delete B; (b) delete L; (c) replace the pair with (1,1)
+   and (100,101); (d) corrupt the retained floor bit; (e) corrupt the
+   latched axis; (f) sever the cross-chart transfer.
+5. EVIDENCE-BOUND VERIFIER: every survival boolean recomputed from
+   before/after evidence; no gate may read a precomputed pass column.
+   Fix the lexeme regex. Per standing rule 6, every declared gate
+   ships with a control that makes THAT gate fire.
+6. Lean/notebook state the transport relation over the lifted state or
+   are renamed to what they prove.
+7. The earned Weil-generation anchors (overset Fourier transfer, Gauss
+   self-twist, character/shadow re-entry; N=8,12 + general-N,
+   re-verified on the doubled carrier) are what this experiment builds
+   on — cite them, do not regenerate or contradict them.
+8. Packaging: no __pycache__ in manifests; dependency spec; embed the
+   prior audit zips whole; embed the canon text you implement against.
+   No ORTHAD_LIVE status string until both lens matrices exist in the
+   code. Your "canon v1.0" draft remains a non-citable proposal.
+   All standing gates and ledger rules 1-7 unchanged. No status string
+   may claim more than its certificate proves.

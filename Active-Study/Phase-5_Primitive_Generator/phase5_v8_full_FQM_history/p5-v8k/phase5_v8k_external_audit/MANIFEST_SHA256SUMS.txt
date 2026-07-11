@@ -1,0 +1,3 @@
+97fe62a2035e0c67591d50a3907ebfb0e1894853eeccdd7ce646ecffee71a2e6  scripts/v8k_checks.py
+4f2f5710953b03255201c01cd1690c521057abf68d27c78e59bf985d1987efcc  docs/AUDIT_NOTE.md
+c2ef398e020a28ba7f76c5a8d99e5eec6b61abeb02e5e03cd8711c82a8402475  outputs/audit_run_log.txt

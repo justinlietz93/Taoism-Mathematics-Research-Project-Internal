@@ -1,0 +1,74 @@
+v8m package built.
+
+Ledger authority applied first; v8m was scoped to **the 229 only**, with the five cores deferred to v8n. 
+
+[Download the Phase 5 v8m package](sandbox:/mnt/data/phase5_v8m_the_229_data_gated_decomposition_package.zip)
+
+```text
+SHA256:
+9e5b3b4e8fc58bf8e2097d4cde2334df97287843416a7996a88abbf28e462107
+```
+
+## Result
+
+```text
+STATUS:
+V8M_229_CERTIFICATE_GATE_CLOSED_RADICAL_DIRECT_SUMMAND_SPLIT_BLOCKING_OPEN
+
+global_pass:
+false
+
+phase5_closed:
+false
+```
+
+## Closed
+
+```text
+F1 provenance diff:
+  CLOSED_POSITIVE
+
+F2 stable class keys:
+  CLOSED_POSITIVE
+
+F3 global_pass semantics:
+  CLOSED_POSITIVE
+
+229 explicit basis-matrix certificates:
+  229 / 229 verified
+  CLOSED_POSITIVE_ON_CERTIFICATE_GATE
+```
+
+## Not closed
+
+```text
+229 radical direct-summand decomposition:
+  203 / 229 split directly
+  26 / 229 require unsplit degenerate GRAM block
+  BLOCKING_OPEN
+```
+
+Those 26 rows are not relabeled as decomposed radical summands. Each has:
+
+```text
+failure_vector
+exhausted_split_target_list
+verified fallback basis certificate
+```
+
+Key outputs:
+
+```text
+outputs/phase5_v8m_groundtruth_229_decomposition_certificates.csv
+outputs/phase5_v8m_sectionV_verifier_results.csv
+outputs/phase5_v8m_radical_split_failure_rows.csv
+outputs/phase5_v8m_f1_archival_edge_diag_provenance_diff.csv
+outputs/phase5_v8m_f2_stable_class_keys_true_diag_rank4.csv
+outputs/phase5_v8m_f2_class_id_reconciliation.csv
+outputs/phase5_v8m_f3_global_pass_patch.csv
+outputs/phase5_v8m_certificate_gate_results.csv
+outputs/phase5_v8m_claim_disposition.csv
+```
+
+The five rank≥5 cores were not touched.
+

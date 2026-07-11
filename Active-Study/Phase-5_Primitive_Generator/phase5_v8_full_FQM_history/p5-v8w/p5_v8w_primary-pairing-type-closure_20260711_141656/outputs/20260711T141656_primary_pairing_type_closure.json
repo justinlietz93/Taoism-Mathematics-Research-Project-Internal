@@ -1,0 +1,10 @@
+{
+  "derived_abstract_type": "P_t:H_t->D(H_t) in an additive category with contravariant duality",
+  "earliest_missing_axiom": "SCALAR_VARIANCE_AXIOM: specify whether D(lambda*id_H)=lambda*id_DH or D(lambda*id_H)=lambda^**id_DH; equivalently whether P(lambda*x,y)=lambda*P(x,y) or lambda^**P(x,y).",
+  "hermitian_boundary": "Hermitianity is a further self-adjointness axiom inside the conjugate-dual branch; historical H=M+iJ does not ratify it for P_t.",
+  "status": "NOT_YET_DERIVED",
+  "surviving_type_fork": [
+    "ordinary-dual realization (bilinear over a coefficient object with trivial scalar duality)",
+    "conjugate-dual realization (sesquilinear over a star-coefficient object)"
+  ]
+}

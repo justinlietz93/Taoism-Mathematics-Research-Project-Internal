@@ -1,0 +1,17 @@
+{
+  "verdict": "REVISE_SCOPE",
+  "branch_status": "OPEN",
+  "next_step": "p5-b3-v4",
+  "accepted": [
+    "carry indexing correction",
+    "local B/Q active-axis recurrences",
+    "first-domain i/4895 witness",
+    "hard stop on exact pairing type, seed, and value recurrence"
+  ],
+  "required_corrections": [
+    "reclassify P:H->D(H) as candidate unless necessity is proved",
+    "replace scalar-variance-first claim with a complete pairing realization axiom",
+    "separate type ambiguity from same-type seed nonuniqueness",
+    "make two-sided zero L mixed blocks conditional on pairing orthogonality"
+  ]
+}

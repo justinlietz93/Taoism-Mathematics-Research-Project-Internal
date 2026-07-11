@@ -1,0 +1,15 @@
+{
+  "architectural_rank": "A+1",
+  "canonical_local_sufficient_ring": "Q(i)",
+  "carrier_category": "additive category with contravariant duality and finite biproducts",
+  "coefficient_ring_status": "NOT_UNIQUELY_FORCED",
+  "earliest_missing_axiom": "SCALAR_VARIANCE_AXIOM",
+  "hermitian_status": "ADMISSIBLE_NOT_FORCED",
+  "minimal_interface": "P_t : H_t -> D(H_t)",
+  "module_dimension_identification": "NOT_YET_DERIVED",
+  "quadratic_direct_status": "NOT_LICENSED_WITHOUT_POLARIZATION",
+  "surviving_type_fork": [
+    "ordinary-dual bilinear",
+    "conjugate-dual sesquilinear"
+  ]
+}

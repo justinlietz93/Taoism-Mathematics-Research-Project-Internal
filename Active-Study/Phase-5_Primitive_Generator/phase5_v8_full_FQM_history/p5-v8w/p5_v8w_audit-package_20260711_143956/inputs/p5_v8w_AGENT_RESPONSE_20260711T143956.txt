@@ -1,0 +1,13 @@
+Executed p5_v8w.
+
+Package: p5_v8w_primary-pairing-type-closure_20260711_141656.zip
+ZIP SHA-256: 73ffcb90075eac0b257f975c9fe4858a36658bd34737f7b96b7970739ceaa251
+Document SHA-256: 3c7e7deb5723ba17cdd1a7aa8e529f4e169101bb60c11f2acaf1dd878bb9cc01
+
+Main claims:
+- Minimal pairing interface derived as P_t:H_t->D(H_t).
+- Exact type remains ordinary-dual bilinear versus conjugate-dual sesquilinear.
+- Earliest missing axiom is scalar variance.
+- First-L mixed birth blocks vanish by two-sided orthogonality.
+- Pairing mutation type signatures are derived.
+- Pairing, charts, transfers, and projection remain uninstantiated.

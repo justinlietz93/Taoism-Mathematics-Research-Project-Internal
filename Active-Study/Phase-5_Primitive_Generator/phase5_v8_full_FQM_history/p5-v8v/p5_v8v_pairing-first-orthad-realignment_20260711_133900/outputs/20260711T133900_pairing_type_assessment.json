@@ -1,0 +1,32 @@
+{
+  "local_shorthand_boundary": "exp(i*theta_t)/(u_t*v_t) is a licensed local descendant and does not type P_t",
+  "missing_object": {
+    "meaning": "coefficient object, retained axis object, duality/involution, argument variance, and symmetry/adjoint law",
+    "name": "PAIRING_TYPE_DATUM",
+    "notation": "D_P=(K,H_0,D_or_sigma,variance,symmetry_law)"
+  },
+  "rejected_identifications": [
+    "Bloch sphere",
+    "Z/12Z carrier",
+    "one chart matrix",
+    "terminal character",
+    "finished FQM quadratic form",
+    "imported Weil operator",
+    "affine 7/8/9 coordinate"
+  ],
+  "status": "NOT_YET_DERIVED",
+  "structural_constraints": [
+    "P_t is primary and not chart-local",
+    "both chart restrictions and both mixed transfers must be induced from P_t",
+    "P_t exists from the first primitive tick",
+    "B and Q preserve architectural rank",
+    "L retains the old block, appends one orthogonal axis, and raises architectural rank by one"
+  ],
+  "type_alternatives_not_separated_by_sources": [
+    "bilinear form",
+    "sesquilinear form",
+    "quadratic refinement with polarized pairing",
+    "operator-valued pairing",
+    "general morphism H_t -> D(H_t) in a category with duality"
+  ]
+}

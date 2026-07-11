@@ -1,0 +1,39 @@
+v8d ADOPTED. Outcome (b) recorded. Updated PHASE5_CANONICAL_LEDGER.md
+attached; it remains authoritative. Proceed to v8e.
+
+PHASE 5 v8e: FAMILY-F ISOMETRY CLASSIFIER (WALL RESTRICTED TO F)
+
+Strategy: never attack arbitrary FQMs. F members are coupling graphs
+(vertices = doubled-cyclic carriers, edges = c_ij). Classify per
+connected component:
+
+1. GRAPH DECOMPOSITION. Prove isometry class of an F-presentation =
+   multiset of component classes (orthogonal sum over components).
+   Then measure: what component sizes do Orthad T records actually
+   generate? Report the distribution. If bounded, say so with witness;
+   if unbounded, mark rank>=3 components BLOCKING_OPEN.
+
+2. SIZE-1 COMPONENTS: already closed (v8b doubled-cyclic, N<=96).
+   Import, do not redo.
+
+3. SIZE-2 COMPONENTS (the v8d wall witnesses): close exactly.
+   a. Ground truth: exact Aut-orbit enumeration over Z for bounded
+      D_i (all v8d witness pairs plus margin). Feasible: groups are
+      order D_i*D_j <= ~10^3.
+   b. Invariant set: |A|, p-excesses, oddity, Gauss-Milgram signature
+      mod 8 computed as Sum exp(2*pi*i*q(x)) = sqrt|A| exp(2*pi*i*sig/8).
+      Milgram sum must match sqrt|A| in magnitude — use as a
+      correctness gate on every presentation, not just a label.
+   c. Completeness claim: invariants separate classes iff orbit ground
+      truth says so ON THE TESTED RANGE. If they fail to separate a
+      pair, that pair is the exact residual wall — name it, do not
+      widen the claim.
+4. v8d PATCHES (mandatory rows):
+   a. executable T-record trace constructing the Z/12Z chi12 skeleton
+   b. route archival v7t and v7u presentation artifacts through the
+      classifier (v8d commission step 4, unmet)
+5. Acceptance gate: "classifier" may appear in STATUS only if isometry
+   completeness is proven on the stated range (ground truth
+   agreement). Otherwise book as invariant separation + keys.
+6. Standing condition: containment proof is relative to the current
+   T alphabet. Any alphabet growth reopens family F derivation.

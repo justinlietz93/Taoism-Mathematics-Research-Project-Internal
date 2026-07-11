@@ -1,0 +1,95 @@
+{
+  "excluded": [
+    "MANIFEST.json"
+  ],
+  "files": [
+    {
+      "bytes": 6816,
+      "path": "AUDIT_RESULTS.md",
+      "sha256": "1fed22675b313fd2a04739516a1964c3f9fb9d12eeb88ccd069fe0e40893e531"
+    },
+    {
+      "bytes": 1592,
+      "path": "DIAGRAM_REVIEW.md",
+      "sha256": "3cc9bc3470eb1153a794d89e3d72a58c1bc37a6a512af710569e0de0fb99f82a"
+    },
+    {
+      "bytes": 6922,
+      "path": "OUTGOING_INSTRUCTIONS.md",
+      "sha256": "9e0c954ce3dd472474986208d278698b9af741d8d8506c3fd513c34185836bfc"
+    },
+    {
+      "bytes": 1073,
+      "path": "README.md",
+      "sha256": "4f3b2cc59583f0680b1560eed5af3057e07c033ddfd5d507531b1ed165058464"
+    },
+    {
+      "bytes": 1007,
+      "path": "SOURCE_MAP.md",
+      "sha256": "00d19a3f8cf8e98f1732536cdd43171595bdb8f99541c4997260dfc07ecd2d9b"
+    },
+    {
+      "bytes": 16791,
+      "path": "inputs/QBL_HIERARCHICAL_GRAMMAR_LIFT_v1.md",
+      "sha256": "8e87b2b0dd6c991bc0d66b2eee51f6f8a4b6c736b96b268e0f51ce50f0dd0fab"
+    },
+    {
+      "bytes": 29584,
+      "path": "inputs/QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+      "sha256": "f0f66790bf6da0b3fca9a400da36ff5879db4b3e861703ef3a309829a2af9962"
+    },
+    {
+      "bytes": 2915028,
+      "path": "inputs/orthad-diagram-v5.png",
+      "sha256": "4efd1c96de6166fa9ba1a726b96f516a327b579d88f584dd71c204af1dde624a"
+    },
+    {
+      "bytes": 656,
+      "path": "outputs/p5-b3-v1_audit-summary.json",
+      "sha256": "220a56a4bac9512472061b9f97a1da21596eb36771000a2811129aebcbeea1bf"
+    },
+    {
+      "bytes": 4377,
+      "path": "outputs/p5-b3-v1_factor-scope-audit.json",
+      "sha256": "4c4e4314f90d381fedc11bff32e50bec1fb9ee6077b2131399d53d7edd721260"
+    },
+    {
+      "bytes": 4377,
+      "path": "outputs/p5-b3-v1_factor-scope-audit.log",
+      "sha256": "4c4e4314f90d381fedc11bff32e50bec1fb9ee6077b2131399d53d7edd721260"
+    },
+    {
+      "bytes": 1552,
+      "path": "outputs/p5-b3-v1_package-verification.json",
+      "sha256": "34cd2fca7b88bef668ac29849a18d46c8eab75e7c63cba3a04d956c497e3cd8d"
+    },
+    {
+      "bytes": 1552,
+      "path": "outputs/p5-b3-v1_package-verification.log",
+      "sha256": "34cd2fca7b88bef668ac29849a18d46c8eab75e7c63cba3a04d956c497e3cd8d"
+    },
+    {
+      "bytes": 45,
+      "path": "requirements.txt",
+      "sha256": "d442fe1d91af448546c5ecec165fea5addc2be0cc9b3583c789abd6ea6922e84"
+    },
+    {
+      "bytes": 4614,
+      "path": "scripts/p5-b3-v1_factor_scope_audit.py",
+      "sha256": "d9272d52841ddbfa7d5d7f6bdeac487885cdd3859e2138a821f6de7423347099"
+    },
+    {
+      "bytes": 7027,
+      "path": "scripts/p5-b3-v1_verify_agent_package.py",
+      "sha256": "657ff1ed3fe3d3c7703a1b0637b4b54542fab6fcc87b03d22ba9a0cfcaad05cb"
+    },
+    {
+      "bytes": 668,
+      "path": "source-references/p5-b3-v1_audited-artifacts.json",
+      "sha256": "10d21c296d81af3b4aacad0f40d8c503bf45b2be937cd45e5303af5bd229164e"
+    }
+  ],
+  "hash_algorithm": "sha256",
+  "package": "p5-b3-v1_audit-package_20260711T132424",
+  "timestamp": "20260711T132424"
+}

@@ -1,0 +1,6 @@
+{
+  "AFFINE_GLOBAL_THRESHOLD_BRIDGE": "PROVED",
+  "INTERNAL_ORTHAD_SEED_FROM_AFFINE_MAP": "NOT_LICENSED",
+  "QBL_TO_AFFINE_FACTOR_MAP": "NOT_YET_DERIVED",
+  "possible_future_factor_shapes": "Xi_hat_A -> (E_A,c_A) OR \u231eXi_hat_A\u231d -> (E_A,c_A); source object not selected"
+}

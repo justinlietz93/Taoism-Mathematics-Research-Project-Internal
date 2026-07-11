@@ -1,0 +1,17 @@
+{
+  "step_id": "p5-b3-v2",
+  "verdict": "REVISE_NARROW_SCOPE",
+  "adopted": [
+    "canonical QBL-to-affine boundary-orbit semiconjugacy",
+    "countability obstruction to a full interval factor from the canonical orbit",
+    "canonical-language inclusion with equality open",
+    "exact boundary-return cocycle",
+    "higher-order descriptive L remains not yet derived"
+  ],
+  "required_correction": {
+    "A1": "just-completed carry c_A is recoverable at S_A^-",
+    "A2": "future carry c_{A+1} is not appended by the instantaneous primitive L step"
+  },
+  "next_step": "p5-b3-v3",
+  "next_target": "primary pairing type, seed, and exact per-letter recurrence"
+}

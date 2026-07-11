@@ -1,0 +1,8 @@
+candidate,pullbacks,mixed_blocks,adjoint_symbol,gauge_action,quarter_turn,pairing_rank,old_block_L,orthogonal_axis_L,later_FQM_polarization,extra_map_required,source_forced,verdict,reason
+bilinear form,True,True,True,True,True,True,True,True,True,False,False,ADMISSIBLE_BUT_NOT_FORCED,ordinary dual with trivial scalar involution realizes the derived interface
+sesquilinear form,True,True,True,True,True,True,True,True,True,False,False,ADMISSIBLE_BUT_NOT_FORCED,conjugate dual over a star-ring realizes the derived interface
+Hermitian form,True,True,True,True,True,True,True,True,True,False,False,ADMISSIBLE_BUT_NOT_FORCED,adds self-adjoint symmetry not ratified by the clean law; v7n is downstream evidence only
+quadratic refinement,False,False,False,False,True,False,False,False,True,True,False,RULED_OUT,q alone cannot be P_t in iota^* P iota or supply mixed blocks; polarization is mandatory
+polarized quadratic object,True,True,True,True,True,True,True,True,True,True,False,REQUIRES_EXTRA_MAP,must select the polarized bilinear morphism as P_t and keep q as additional downstream structure
+operator-valued pairing,True,True,True,True,True,False,True,True,False,True,False,REQUIRES_EXTRA_MAP,"needs a representation/evaluation to define scalar rank, orthogonality, chart matrices, and FQM descent"
+general morphism H_t -> D(H_t),True,True,True,True,True,True,True,True,True,False,True,DERIVED,weakest interface that types every ratified pairing-first expression without choosing scalar variance or symmetry

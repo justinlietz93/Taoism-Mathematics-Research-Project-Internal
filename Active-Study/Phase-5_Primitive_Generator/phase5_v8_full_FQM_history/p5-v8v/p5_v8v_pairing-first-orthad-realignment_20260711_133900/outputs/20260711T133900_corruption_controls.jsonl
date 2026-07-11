@@ -1,0 +1,12 @@
+{"control":"wrong_word","mutation":"BQQBBBQBQBBQBL","pass":true,"target_gate":"CANONICAL_WORD","target_gate_fired":true}
+{"control":"pair_reset_at_L","mutation":[1,1],"pass":true,"target_gate":"FIRST_L_CARRY","target_gate_fired":true}
+{"control":"phase_reset_at_L","mutation":0,"pass":true,"target_gate":"FIRST_L_CARRY","target_gate_fired":true}
+{"control":"wrong_next_pair","mutation":[1,2],"pass":true,"target_gate":"NEXT_DOMAIN_B","target_gate_fired":true}
+{"control":"promote_local_axis_to_chart_entry","mutation":"OmegaPlus[0,0]=i/4895","pass":true,"target_gate":"ACTIVE_AXIS_LOCAL_SHORTHAND","target_gate_fired":true}
+{"control":"promote_Z12_shift_to_pairing_seed","mutation":"S_empty generates P_0","pass":true,"target_gate":"SUCCESSOR_FIRST_RETIRED","target_gate_fired":true}
+{"control":"promote_Z12_product_to_full_carrier","mutation":"Z12xZ24 is Xi_hat","pass":true,"target_gate":"Z12_LOCAL_TYPE","target_gate_fired":true}
+{"control":"seed_pairing_from_affine_789","mutation":"P_0=(E,c)","pass":true,"target_gate":"PAIRING_TYPE_HARD_STOP","target_gate_fired":true}
+{"control":"emit_constant_Omega","mutation":[[1,0],[0,1]],"pass":true,"target_gate":"NO_CHART_OR_TRANSFER_VALUES","target_gate_fired":true}
+{"control":"emit_projection_before_pairing","mutation":[{"channel":0}],"pass":true,"target_gate":"NO_PROJECTION","target_gate_fired":true}
+{"control":"claim_candidate_L_block_as_derived","mutation":"C_t=0","pass":true,"target_gate":"CONDITIONAL_L_ZERO_MIXED_BIRTH_BLOCK","target_gate_fired":true}
+{"control":"claim_MHD_ready","mutation":true,"pass":true,"target_gate":"MHD_READINESS_BOUNDARY","target_gate_fired":true}

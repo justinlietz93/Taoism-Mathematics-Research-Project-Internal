@@ -1,0 +1,40 @@
+{
+  "accepted_local_checks": {
+    "B_local_ratio": "u/(u+v)",
+    "Q_count": 5,
+    "Q_local_ratio": "i",
+    "active_witness": "i/4895",
+    "local_trace_pass": true,
+    "pre_L_pair": [
+      55,
+      89
+    ],
+    "word": "BQQBBBQBQBBQBBL"
+  },
+  "adopt": [
+    "exact pairing type not yet derived",
+    "exact seed not yet derived",
+    "exact B/Q/L value recurrence not yet derived",
+    "local B and Q active-axis recurrences",
+    "first-domain active witness i/4895",
+    "branch remains open"
+  ],
+  "logical_dependencies": [
+    "carrier/coefficient/codomain",
+    "duality or adjoint operation",
+    "linearity/additivity",
+    "scalar variance",
+    "symmetry/adjoint law",
+    "rank and orthogonality",
+    "seed",
+    "B/Q/L value laws"
+  ],
+  "revise": {
+    "L_mixed_blocks": "both zero only under two-sided P-orthogonality or sufficient symmetry/adjoint assumptions",
+    "duality_morphism": "candidate realization, not necessity theorem",
+    "earliest_missing_law": "PRIMARY_PAIRING_REALIZATION_AXIOM, not scalar variance alone",
+    "lean_scope": "declarations and conditional lemmas, not derivation from authority",
+    "seed_witness": "proves type ambiguity, not same-type seed nonuniqueness"
+  },
+  "verdict": "REVISE_SCOPE"
+}

@@ -1,0 +1,44 @@
+Yes. Include **three inputs**, not only the audit package and instructions:
+
+1. `p5_v8s_orthad-atlas-and-transfer-gap_20260711_085540.zip` as the accepted baseline.
+2. `p5_v8s_audit-package_20260711_102931.zip`, containing the `p5_v8t` instructions.
+3. `phase5-research.txt`, because it adds the concrete v7 lineage that was unavailable when the audit package was built, including the historical `v7q` transition ratios and `v7e` shared-(L) coupling work. 
+
+Send this message:
+
+```text
+Execute the attached p5_v8t instructions now.
+
+Use `p5_v8s_orthad-atlas-and-transfer-gap_20260711_085540.zip`
+as the accepted baseline.
+
+Use
+`p5_v8s_audit-package_20260711_102931/p5_v8t_AGENT_INSTRUCTIONS_20260711T102931.md`
+as the task specification.
+
+Also inspect `phase5-research.txt`. It contains additional v7 repository
+sources that were not available when the instructions were written.
+
+Treat older v7 results as historically contaminated unless each result is
+rederived or narrowly licensed under the recovered architecture:
+
+- self-selecting B > Q > L custody;
+- Orthad present and mutating on every primitive tick;
+- one primary pairing;
+- two overset chart restrictions;
+- two directed transfers;
+- no search, candidate selection, or post-hoc analytical Orthad;
+- no projection before halt.
+
+In particular, assess the v7q scalar transition ratios and v7e shared-L
+coupling extractor as possible constrained descendants or reconstruction
+clues. Do not assume they are the modern primary pairing or cross-chart
+transfer law.
+
+Perform the research task now and return:
+
+p5_v8t_<experiment-name>_<YYYYMMDD_HHMMSS>.zip
+
+Include the exact ZIP SHA-256 and all requested status lines.
+```
+

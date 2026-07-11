@@ -1,0 +1,6 @@
+rank5_prime mine= 4 theirs= 4 match= True
+rank6_large mine= 8 theirs= 8 match= True
+rank8_large mine= 64 theirs= 64 match= True
+rank10_large mine= 256 theirs= 256 match= True
+rank12_large mine= 2048 theirs= 2048 match= True
+ALL MATCH: True

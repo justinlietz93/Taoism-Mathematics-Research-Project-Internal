@@ -1,0 +1,29 @@
+v8e ADOPTED after independent verification. Updated ledger attached,
+remains authoritative. Two audit findings are now ledger law:
+(1) cross-shape rigidity is an UNPROVEN assumption your completeness
+claim depends on — empirically gated by external audit on 4 alias
+pairs, 0 hits; (2) connected coupling graph does NOT imply
+indecomposable. Proceed to v8f.
+
+PHASE 5 v8f: RANK>=3 FAMILY-F COMPONENTS
+
+1. SPLIT FIRST, CLASSIFY SECOND. For every rank>=3 connected
+   component: (a) split off p-primary parts (odd p parts diagonalize,
+   2 is invertible mod odd — reuse v7s/v8b, do not re-derive);
+   (b) attempt orthogonal splitting of the 2-primary core by basis
+   change BEFORE brute force. A component is booked rank>=3 only if
+   splitting provably fails. Negative control: a secretly-split
+   rank-3 presentation must be caught by the splitter.
+2. GROUND TRUTH for what remains: exact Aut-orbit enumeration on
+   the 2-primary rank-3 cores, bounded to the measured demand
+   (v7t witnesses first: (8,8,8) two-edge chains), plus margin.
+   Same standard as v8e: pullback form equality, not keys.
+3. CROSS-SHAPE RIGIDITY LEMMA: prove same-group different-shape
+   Family-F presentations are never isometric, or extend the
+   empirical gate to every alias in the v8f range. Completeness
+   claims must cite whichever you achieve.
+4. Route ALL archival rank>=3 blocked cases (v7t 3, v7u 7) through
+   the splitter + classifier. Report per-case disposition.
+5. Acceptance: "classifier" in STATUS only with orbit ground-truth
+   agreement on the stated range. Splitting failure claims need a
+   proof or exhaustive certificate, not a heuristic timeout.

@@ -1,0 +1,17 @@
+{
+  "A": 0,
+  "j": 6,
+  "k": 5,
+  "pair": [
+    55,
+    89
+  ],
+  "pair_product": 4895,
+  "phase_label": "i",
+  "phase_mod4": 1,
+  "phase_quarters": 5,
+  "theta_exact": "5*pi/2",
+  "u": 55,
+  "v": 89,
+  "word": "BQQBBBQBQBBQBB"
+}

@@ -1,0 +1,98 @@
+COMMAND: /opt/pyvenv/bin/python3 /tmp/p5v8w_promote_quadratic_refinement_directly_to_P_evgx_eej/p5_v8w_primary-pairing-type-closure_20260711_141656/scripts/20260711T141656_verify.py /tmp/p5v8w_promote_quadratic_refinement_directly_to_P_evgx_eej/p5_v8w_primary-pairing-type-closure_20260711_141656 --json-out /tmp/p5v8w_promote_quadratic_refinement_directly_to_P_evgx_eej/verify.json --skip-pytest
+EXIT: 1
+STDOUT:
+{
+  "failed": [
+    {
+      "detail": "",
+      "gate": "NO_DIRECT_QUADRATIC_PROMOTION"
+    }
+  ],
+  "failed_count": 1,
+  "pass": false,
+  "passed": [
+    {
+      "detail": "ids=['SC_FIRST_L_BLOCK_TARGET', 'SC_FQM_POLARIZATION', 'SC_GAUGE', 'SC_HIST_FQM_BILINEAR', 'SC_HIST_HERMITIAN', 'SC_LOCAL_AXIS', 'SC_L_EXTENSION', 'SC_PRIMARY', 'SC_PULLBACKS', 'SC_Q_QUARTER']",
+      "gate": "SOURCE_MATRIX_REQUIRED_ROWS"
+    },
+    {
+      "detail": "path/SHA/line anchors",
+      "gate": "SOURCE_MATRIX_ANCHORED"
+    },
+    {
+      "detail": "every SOURCE_DERIVED gate cites anchored rows",
+      "gate": "SOURCE_GATE_CITATIONS"
+    },
+    {
+      "detail": "",
+      "gate": "PAIRING_FIRST_REALIGNMENT"
+    },
+    {
+      "detail": "",
+      "gate": "MINIMAL_PAIRING_INTERFACE"
+    },
+    {
+      "detail": "",
+      "gate": "HISTORICAL_H_NOT_SEED"
+    },
+    {
+      "detail": "",
+      "gate": "AXIS_COUNT_NOT_MODULE_DIMENSION"
+    },
+    {
+      "detail": "",
+      "gate": "NO_HARDCODED_SOURCE_GATE"
+    },
+    {
+      "detail": "",
+      "gate": "XI_HAT_NULL_BOUNDARY"
+    },
+    {
+      "detail": "",
+      "gate": "AXIS_OBJECT_BOUNDARY"
+    },
+    {
+      "detail": "verdicts recomputed from capability rows",
+      "gate": "PAIRING_TYPE_ELIMINATION"
+    },
+    {
+      "detail": "",
+      "gate": "EXACT_TYPE_OPEN"
+    },
+    {
+      "detail": "",
+      "gate": "RAW_NONUNIQUENESS_WITNESS"
+    },
+    {
+      "detail": "",
+      "gate": "GAUGE_WITNESS_NOT_PROMOTED"
+    },
+    {
+      "detail": "",
+      "gate": "PRIMITIVE_BASELINE"
+    },
+    {
+      "detail": "cells=5",
+      "gate": "EXECUTED_NOTEBOOK_COMPLETE"
+    },
+    {
+      "detail": "[]",
+      "gate": "DOWNSTREAM_VALUES_CLOSED"
+    },
+    {
+      "detail": "",
+      "gate": "BASELINE_PROVENANCE"
+    },
+    {
+      "detail": "manifest=59 actual=59",
+      "gate": "MANIFEST_INTEGRITY"
+    },
+    {
+      "detail": "",
+      "gate": "NO_CACHE_BYTECODE"
+    }
+  ],
+  "passed_count": 20
+}
+
+STDERR:

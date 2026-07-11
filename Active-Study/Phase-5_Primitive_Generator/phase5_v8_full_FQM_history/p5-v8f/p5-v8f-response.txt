@@ -1,0 +1,170 @@
+Completed **Phase 5 v8f: Rank>=3 Family-F Components**.
+
+Ledger authority applied first; v8f was the single active target, with v8e adopted and cross-shape rigidity marked as empirical but unproven. 
+
+[Download the Phase 5 v8f package](sandbox:/mnt/data/phase5_v8f_rank_ge3_family_f_components_package.zip)
+
+```text
+SHA256:
+47a4bd947bbe653238a5151ec917e5594bb0c9e877888dbb36fd343c11b8028a
+```
+
+## Result
+
+```text
+PHASE 5 v8f:
+Rank>=3 Family-F Components
+
+STATUS:
+V8F_RANK3_EQUAL_2PRIMARY_CHAIN_CLASSIFIER_CLOSED_ON_TESTED_RANGE_MIXED_HIGH_RANK_COMPONENTS_BLOCKING_OPEN
+
+GLOBAL_PASS:
+true
+
+PHASE5_CLOSED:
+false
+```
+
+## Main findings
+
+```text
+Closed:
+  rank-3 equal 2-primary chain classifier on tested range
+
+Still blocking:
+  mixed/high-rank 2-primary Family-F component classifier
+  cross-shape rigidity proof
+  Lean-verified executable classifier
+```
+
+## Tested classifier range
+
+```text
+D=4:
+  forms: 16
+  pair tests: 136
+  orbit classes: 5
+
+D=8:
+  forms: 64
+  pair tests: 2080
+  orbit classes: 7
+
+D=16 margin:
+  forms: 64
+  pair tests: 2080
+  orbit classes: 2
+```
+
+The word **classifier** is used only for this exact bounded scope: pullback-form equality on the stated equal 2-primary rank-3 chain range.
+
+## Split-first result
+
+```text
+secretly split connected controls caught:
+  38
+```
+
+Critical example:
+
+```text
+D=8 connected form:
+  [1, 0, 4]
+
+split target:
+  [0, 0, 1]
+```
+
+So this is now enforced:
+
+```text
+connected coupling graph does NOT imply indecomposable
+```
+
+## Archival routing
+
+```text
+archival rank>=3 cases routed:
+  10
+
+v7t:
+  3 / 3 classified in equal D=8 rank-3 range
+
+v7u:
+  7 / 7 routed
+  7 remain BLOCKING_OPEN as mixed/high-rank 2-primary components
+```
+
+## Cross-shape rigidity
+
+```text
+Status:
+  CONJECTURED_LEMMA_EMPIRICALLY_GATED_NOT_PROVEN
+```
+
+v8f does **not** use cross-shape rigidity as a theorem.
+
+## Package contents
+
+```text
+phase5_v8f_rank_ge3_family_f_components/
+├── README.md
+├── MANIFEST_SHA256SUMS.txt
+├── docs/
+│   ├── cross_shape_rigidity_status.md
+│   ├── phase5_v8f_frontier_note.md
+│   ├── phase5_v8f_protocol_definitions.md
+│   ├── phase5_v8f_rank_ge3_family_f_components.md
+│   └── phase5_v8f_result_card.md
+├── outputs/
+│   ├── phase5_v8f_archival_rank_ge3_routing.csv
+│   ├── phase5_v8f_claim_disposition.csv
+│   ├── phase5_v8f_cross_shape_rigidity_empirical_gate.csv
+│   ├── phase5_v8f_falsification_targets.csv
+│   ├── phase5_v8f_ledger_reconciliation.csv
+│   ├── phase5_v8f_orthogonal_splitter_results.csv
+│   ├── phase5_v8f_p_primary_split_routing.csv
+│   ├── phase5_v8f_rank3_equal_core_classifier_summary.csv
+│   ├── phase5_v8f_rank3_equal_core_orbit_classes.csv
+│   ├── phase5_v8f_result_card.json
+│   ├── phase5_v8f_secretly_split_negative_controls.csv
+│   └── phase5_v8f_verification_summary.json
+├── sealed/
+│   ├── DO_NOT_CLOSE_PHASE5_GATE.json
+│   └── SEALED_V8F_BEFORE_MIXED_HIGH_RANK_2PRIMARY_CLASSIFIER.json
+├── scripts/
+│   └── phase5_v8f_rank_ge3_family_f_components.py
+├── notebooks/
+│   └── phase5_v8f_rank_ge3_family_f_components.ipynb
+├── proofs/
+│   └── Phase5V8FRankGe3FamilyF.lean
+├── lean/
+│   ├── lakefile.lean
+│   ├── lean-toolchain
+│   ├── Phase5V8F.lean
+│   └── Phase5V8F/
+│       └── RankGe3FamilyF.lean
+├── source_notes/
+│   └── PHASE5_CANONICAL_LEDGER.md
+├── snapshots/
+│   └── example_v8f_rank3_snapshot.json
+└── patches/
+    └── phase5_v8f_rank3_component_patch.md
+```
+
+## Current state
+
+```text
+Phase 5:
+  OPEN
+
+v8c:
+  SUSPENDED
+
+v8f closed:
+  equal-core rank-3 tested range
+
+v8f did not close:
+  mixed/high-rank 2-primary Family-F components
+```
+

@@ -1,0 +1,12 @@
+{
+  "abstract_counterexample": {
+    "P1": "P1(x,y)=x*y",
+    "P2": "P2(x,y)=2*x*y",
+    "carrier": "one-dimensional Q-module",
+    "distinct_witness": "P1(1,1)=1 != 2=P2(1,1)",
+    "same_custody": "both may be paired with the same Xi_0 when no seed map is supplied"
+  },
+  "missing_map": "eta_P : (Xi_0,W_0,D_P) -> P_0",
+  "reason": "Xi_0 and the custody law contain no equation selecting one element of a pairing space",
+  "status": "NOT_YET_DERIVED"
+}

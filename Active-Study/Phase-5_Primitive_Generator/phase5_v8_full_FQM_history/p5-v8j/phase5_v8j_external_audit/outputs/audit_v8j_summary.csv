@@ -1,0 +1,6 @@
+metric,value
+rankge5_certificates_verified,False
+groundtruth_rows,229
+groundtruth_decomposed,229
+independent_radical_size_matches,229/229
+worked_target_reproduced,False

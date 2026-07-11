@@ -1,0 +1,64 @@
+{
+  "boundary_rows_checked": 9,
+  "carry_indexing": {
+    "A1_just_completed_c_A_recoverable_at_S_A_minus": "PASS",
+    "A2_future_c_A_plus_1_appended_by_instantaneous_L": "FAIL",
+    "explanation": "c_A uses current and previous completed boundary counts; c_{A+1} requires the future completed boundary."
+  },
+  "checks": {
+    "carries_in_789": true,
+    "count_alignment": true,
+    "j_recurrence_all_rows": true,
+    "just_completed_carry_recoverable": true,
+    "semiconjugacy_symbolic_coefficients": true
+  },
+  "just_completed_carries": [
+    {
+      "A": 1,
+      "available_at_S_A_minus": true,
+      "c_A": 9
+    },
+    {
+      "A": 2,
+      "available_at_S_A_minus": true,
+      "c_A": 7
+    },
+    {
+      "A": 3,
+      "available_at_S_A_minus": true,
+      "c_A": 8
+    },
+    {
+      "A": 4,
+      "available_at_S_A_minus": true,
+      "c_A": 9
+    },
+    {
+      "A": 5,
+      "available_at_S_A_minus": true,
+      "c_A": 7
+    },
+    {
+      "A": 6,
+      "available_at_S_A_minus": true,
+      "c_A": 8
+    },
+    {
+      "A": 7,
+      "available_at_S_A_minus": true,
+      "c_A": 9
+    },
+    {
+      "A": 8,
+      "available_at_S_A_minus": true,
+      "c_A": 7
+    }
+  ],
+  "scope": {
+    "canonical_language_equals_full_affine_language": "NOT_YET_PROVED",
+    "canonical_orbit_semiconjugacy": "SUPPORTED",
+    "full_interval_factor_from_countable_domain": "IMPOSSIBLE_BY_CARDINALITY",
+    "higher_order_descriptive_L": "NOT_YET_DERIVED"
+  },
+  "status": "PASS"
+}

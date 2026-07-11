@@ -1,0 +1,34 @@
+{
+  "classification": "CONDITIONAL_MODEL_GAUGE_CLASS_WITNESS",
+  "equivalence_relation": "P ~ P_prime iff exists U in Aut(H): P_prime = D(U) o P o U",
+  "gauge_inequivalence_argument": "rank is preserved by invertible congruence; rank 0 != rank 1",
+  "missing_axiom": "SEED_ADMISSIBILITY_AXIOM: specify the allowed rank/nondegeneracy and normalization class of P_0.",
+  "model": {
+    "H": "one-dimensional C-module",
+    "L_extension": "P maps to block_diag(P,1) on H direct_sum C",
+    "coefficient": "C",
+    "quarter_turn": "J(x)=i*x"
+  },
+  "raw_presentations": [
+    {
+      "matrix": [
+        [
+          0
+        ]
+      ],
+      "name": "P_zero",
+      "rank": 0
+    },
+    {
+      "matrix": [
+        [
+          1
+        ]
+      ],
+      "name": "P_unit",
+      "rank": 1
+    }
+  ],
+  "retained_seed_claim": false,
+  "why_not_retained": "the clean seed-admissibility axiom does not state whether degenerate rank-zero seeds are allowed, nor fix normalization"
+}

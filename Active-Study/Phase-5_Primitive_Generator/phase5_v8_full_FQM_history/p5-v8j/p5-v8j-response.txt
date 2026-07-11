@@ -1,0 +1,122 @@
+Completed **Phase 5 v8j: Radical-Aware Block Decomposition**.
+
+Ledger authority applied first. The attached canonical ledger remains controlling, with v8j as the single active target and the new nondegeneracy rule enforced. 
+
+[Download the Phase 5 v8j package](sandbox:/mnt/data/phase5_v8j_radical_aware_block_decomposition_package.zip)
+
+```text
+SHA256:
+9825571d6180d121a0f41e7b5ba8eb1a6c519088cadca75183bb1fb2fa3b7bdb
+```
+
+## Result
+
+```text
+PHASE 5 v8j:
+Radical-Aware Block Decomposition
+
+STATUS:
+V8J_RADICAL_AWARE_BLOCK_DECOMPOSITION_CLOSED_ON_TESTED_RANGE_RANKGE5_RESIDUALS_DECOMPOSED_SYMBOL_CLASSIFIER_BLOCKING_OPEN
+
+GLOBAL_PASS:
+true
+
+PHASE5_CLOSED:
+false
+```
+
+## Main closure
+
+```text
+Ground-truth validation:
+  229 / 229 decomposed
+
+Nondegenerate rows:
+  138 / 138 handled by existing A/UV machinery
+
+Degenerate rows:
+  91 / 91 handled by radical-first extension
+
+Non-summand radicals detected:
+  0 in the tested ground-truth range
+  0 in the five corrected rank>=5 residual cores
+```
+
+## Worked target reproduced
+
+```text
+[2,2] c01=1
+  =
+A_2(1) PERP R_2(q=0)
+
+status:
+  REPRODUCED_CLOSED_POSITIVE
+```
+
+## Rank>=5 residuals
+
+All five corrected residual cores now have radical-first block decompositions:
+
+```text
+rank5_prime:
+  DECOMPOSED_TO_BLOCKS_WITH_RADICAL_SUMMAND_CERTIFICATE
+
+rank6_large:
+  DECOMPOSED_TO_BLOCKS_WITH_RADICAL_SUMMAND_CERTIFICATE
+
+rank8_large:
+  DECOMPOSED_TO_BLOCKS_WITH_RADICAL_SUMMAND_CERTIFICATE
+
+rank10_large:
+  DECOMPOSED_TO_BLOCKS_WITH_RADICAL_SUMMAND_CERTIFICATE
+  corrected edge count = 41
+
+rank12_large:
+  DECOMPOSED_TO_BLOCKS_WITH_RADICAL_SUMMAND_CERTIFICATE
+  corrected edge count = 62
+```
+
+## Standing gates
+
+```text
+scope-completeness:
+  passed
+
+provenance diff:
+  passed
+
+split-law:
+  passed
+
+classifier naming rule:
+  passed
+
+nondegeneracy assumption rule:
+  passed
+```
+
+## Not claimed
+
+```text
+No complete block-symbol classifier is claimed.
+
+Block-symbol comparison remains:
+  BLOCKING_OPEN
+
+Reason:
+  observed symbol relations are data only,
+  not a completeness theorem.
+```
+
+Key output files:
+
+```text
+outputs/phase5_v8j_groundtruth_radical_decomposition.csv
+outputs/phase5_v8j_rankge5_radical_first_decomposition.csv
+outputs/phase5_v8j_radical_summand_measurement.csv
+outputs/phase5_v8j_provenance_diff.csv
+outputs/phase5_v8j_nondegeneracy_gate.csv
+outputs/phase5_v8j_observed_symbol_relations.csv
+outputs/phase5_v8j_claim_disposition.csv
+```
+

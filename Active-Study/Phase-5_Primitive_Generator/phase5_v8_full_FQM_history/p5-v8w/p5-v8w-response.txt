@@ -1,0 +1,145 @@
+Executed `p5_v8w`.
+
+[Download `p5_v8w_primary-pairing-type-closure_20260711_141656.zip`](sandbox:/mnt/data/p5_v8w_primary-pairing-type-closure_20260711_141656.zip)
+
+```text
+ZIP SHA-256:
+73ffcb90075eac0b257f975c9fe4858a36658bd34737f7b96b7970739ceaa251
+```
+
+First audit entry:
+
+[FINDINGS.md](sandbox:/mnt/data/p5_v8w_primary-pairing-type-closure_20260711_141656/FINDINGS.md)
+
+Corrected research document:
+
+[20260711T141656_PRIMARY_PAIRING_TYPE_CLOSURE.md](sandbox:/mnt/data/p5_v8w_primary-pairing-type-closure_20260711_141656/docs/20260711T141656_PRIMARY_PAIRING_TYPE_CLOSURE.md)
+
+```text
+Document SHA-256:
+3c7e7deb5723ba17cdd1a7aa8e529f4e169101bb60c11f2acaf1dd878bb9cc01
+```
+
+## Status
+
+```text
+PAIRING_FIRST_REALIGNMENT:
+    PASS
+
+MINIMAL_PAIRING_INTERFACE:
+    DERIVED
+
+EXACT_PRIMARY_PAIRING_TYPE:
+    NOT_YET_DERIVED
+
+SURVIVING_TYPE_FORK:
+    ordinary-dual bilinear
+    conjugate-dual sesquilinear
+
+EARLIEST_MISSING_AXIOM:
+    SCALAR_VARIANCE_AXIOM
+
+RAW_PAIRING_PRESENTATION_NONUNIQUENESS:
+    PROVED
+
+RETAINED_GAUGE_CLASS_SEED_NONUNIQUENESS:
+    NOT_YET_DERIVED
+
+EXACT_PRIMARY_PAIRING_SEED:
+    NOT_YET_DERIVED
+
+B_PAIRING_TYPE_SIGNATURE:
+    DERIVED
+
+Q_PAIRING_TYPE_SIGNATURE:
+    DERIVED
+
+L_PAIRING_TYPE_SIGNATURE:
+    DERIVED
+
+Xi_hat_t VALUES:
+    NOT_INSTANTIATED
+
+REAL_CORRUPTION_CONTROLS:
+    PASS
+
+TERMINAL_PROJECTION:
+    NOT_RUN
+```
+
+## Research result
+
+The weakest exact interface forced by the pairing-first architecture is:
+
+[
+P_t:H_t\rightarrow D(H_t),
+]
+
+where (D) is a contravariant duality. Every chart or transfer block has the common form
+
+[
+D(\iota_a)\circ P_t\circ\iota_b.
+]
+
+This types both chart restrictions, both directed transfers, and the gauge action
+
+[
+P_t\mapsto D(U)\circ P_t\circ U
+]
+
+without prematurely selecting a bilinear, sesquilinear, or Hermitian realization.
+
+The concrete type remains open because the sources do not determine whether scalar action obeys
+
+[
+P_t(\lambda x,y)=\lambda P_t(x,y)
+]
+
+or
+
+[
+P_t(\lambda x,y)=\lambda^{*}P_t(x,y).
+]
+
+Hermitianity is a further self-adjointness condition inside the conjugate-dual branch. Historical (H=M+iJ) supplies downstream Hermitian type evidence, but not the clean seed or recurrence.
+
+At the first `L`, old-block retention plus the stated two-sided orthogonality forces the mixed birth blocks to vanish:
+
+[
+P_{t+1}=
+\begin{pmatrix}
+P_t&0\
+0&p_{\mathrm{new}}
+\end{pmatrix}.
+]
+
+The new-axis value (p_{\mathrm{new}}) remains underived.
+
+## Seed boundary
+
+A rank-separated model witness proves raw and conditional interface-level gauge-class nonuniqueness. It does **not** prove retained-seed nonuniqueness because the canon has not specified the admissible rank, nondegeneracy, or normalization of (P_0).
+
+The missing retained-seed map remains:
+
+[
+\eta_P:(\Xi_0,W_0)\rightarrow
+\operatorname{Pair}(H_0,D(H_0))/\operatorname{Aut}(H_0).
+]
+
+## Verification
+
+```text
+full verifier gates:             22/22 passed
+post-clean archive gates:        21/21 passed
+pytest:                           7 passed
+real corruption controls:        6/6 fired
+manifest entries:                63
+ZIP files:                        64 including MANIFEST.json
+manifest/archive path sets:      exact match
+cache or bytecode entries:       0
+```
+
+Each corruption control copied the package, mutated the target artifact, regenerated its manifest, ran the actual verifier, and produced a nonzero exit at the intended gate.
+
+Lean source is included. Lean was unavailable in the build environment, so compilation is not claimed.
+

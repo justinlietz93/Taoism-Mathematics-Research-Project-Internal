@@ -1,0 +1,11 @@
+{
+  "local_seed_witness": "1",
+  "raw_seed_presentations_unique": false,
+  "retained_gauge_class_uniqueness": "NOT_YET_DERIVED",
+  "seed_map": "eta_P(X_0,W_0,D_P)->P_0",
+  "status": "EXACT_PRIMARY_PAIRING_SEED_NOT_YET_DERIVED",
+  "witnesses": [
+    "P_bil(x,y)=x*y",
+    "P_sesq(x,y)=conjugate(x)*y"
+  ]
+}

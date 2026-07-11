@@ -1,0 +1,4 @@
+E1 pair ablation -> {'(1, 1)': 12, '(2, 3)': 12, '(34, 55)': 12, '(100, 101)': 12} | crossing pair is load-bearing: False
+E2 floor field identical with/without B: True
+E3 survival after corrupting retained orientation bit for n=7: 12 /12 (repair-from-term_n if 12)
+E4 verifier rc: 0 | global_pass with falsified after-CSV character: True | declared_gate_failures: 0

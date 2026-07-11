@@ -1,0 +1,139 @@
+[Full research document](sandbox:/mnt/data/QBL_PRIMARY_PAIRING_RECURRENCE_v1.md)
+
+[Reproducible experiment package](sandbox:/mnt/data/p5-b3-v3_primary-pairing-recurrence_20260711T142511.zip)
+
+[Archive SHA-256 file](sandbox:/mnt/data/p5-b3-v3_primary-pairing-recurrence_20260711T142511.zip.sha256)
+
+```text
+Document SHA-256:
+588f8e1627feda109773610a0854ce49c48052fc85367315bdd60df86ba7814d
+
+ZIP SHA-256:
+ee18e5d288231722a164843f96f772bb4288e103d1cd5a72ac5526f989fc35b5
+```
+
+## Decisive result
+
+The current authority does **not** uniquely force a complete primary-pairing recurrence.
+
+It does force the minimal generative interface
+
+[
+P_t:H_t\longrightarrow D(H_t),
+]
+
+where (D) is a contravariant duality and the carrier admits the finite biproduct required by `L`. This single object can later generate both chart restrictions and both directed mixed blocks through
+
+[
+D(\iota_a)P_t\iota_b.
+]
+
+The first exact type fork is scalar variance:
+
+```text
+ordinary-dual bilinear
+versus
+conjugate-dual sesquilinear
+```
+
+The smallest missing law is therefore:
+
+```text
+SCALAR_VARIANCE_AXIOM
+```
+
+Hermitian symmetry, the exact coefficient ring, seed admissibility, normalization, and gauge class are additional obligations. The primary authority itself explicitly leaves the all-depth pairing recurrence, chart maps, and directed transfer recurrences open.  The abstract duality interface and surviving variance fork agree with the pairing-first contextual analysis, but that analysis does not supply the missing value laws. 
+
+## Exact boundaries established
+
+```text
+JUST-COMPLETED CARRY c_A RECOVERABLE AT S_A^-: PASS
+FUTURE CARRY c_{A+1} APPENDED BY THE INSTANTANEOUS L STEP: FAIL
+```
+
+For (A\ge1),
+
+[
+c_A=\nu(q_A)-2\nu(q_{A-1})
+]
+
+is recoverable from the current boundary pair and retained previous-boundary history. It is a derived boundary label, not a primitive custody coordinate. The future (c_{A+1}) requires completion of the next domain.
+
+The exact local active-axis consequences are:
+
+[
+B:\quad a_{t+1}=a_t\frac{u}{u+v},
+\qquad
+Q:\quad a_{t+1}=ia_t.
+]
+
+Replaying
+
+```text
+B Q Q B B B Q B Q B B Q B B L
+```
+
+recovers
+
+[
+a_{\mathrm{completed},0}=\frac{i}{4895}.
+]
+
+This remains a local active-axis descendant, not the complete (P_t).
+
+At `L`, the strongest licensed type-level extension is
+
+[
+H_{t+1}\cong H_t\oplus A_{\mathrm{new}},
+\qquad
+P_{t+1}\sim
+\begin{pmatrix}
+P_t&0\
+0&\sigma_{\mathrm{new}}
+\end{pmatrix}.
+]
+
+The old block is retained and the old/new mixed birth blocks vanish by orthogonality. The rank-one value (\sigma_{\mathrm{new}}) is not determined by the current law.
+
+```text
+B PAIRING TYPE SIGNATURE: DERIVED
+B PAIRING VALUE RECURRENCE: NOT YET DERIVED
+
+Q PAIRING TYPE SIGNATURE: DERIVED
+Q PAIRING VALUE RECURRENCE: NOT YET DERIVED
+
+L PAIRING TYPE SIGNATURE: DERIVED
+L PAIRING VALUE RECURRENCE: NOT YET DERIVED
+```
+
+Raw seed presentations are nonunique: bilinear and sesquilinear seeds can share the same local normalization while differing elsewhere. Whether they represent distinct retained gauge classes remains open.
+
+## Package verification
+
+```text
+Manifest entries:             49
+Notebook cells passing:       14/14
+Figures regenerated:          14
+Custody trace:                PASS
+Local B/Q recurrences:        PASS
+Conditional L embedding:      PASS
+Nonorthogonal L control:      REJECTED
+Manifest verification:        PASS
+Two clean rebuilds:           BYTE-IDENTICAL
+Release versus rebuild:       BYTE-IDENTICAL
+
+LEAN SOURCE PRESENT;
+PROOF AND COMPILATION NOT VERIFIED
+```
+
+```text
+EXACT PRIMARY PAIRING TYPE: NOT YET DERIVED
+EXACT PRIMARY PAIRING SEED: NOT YET DERIVED
+EXACT PRIMARY PAIRING RECURRENCE: NOT YET DERIVED
+EXACT CHART MAPS: NOT YET DERIVED
+EXACT DIRECTED TRANSFERS: NOT YET DERIVED
+HIGHER-ORDER DESCRIPTIVE L: NOT YET DERIVED
+GAUGE/FQM MAP FROM d_A=±1: NOT YET DERIVED
+p5-b3 BRANCH STATUS: OPEN
+```
+

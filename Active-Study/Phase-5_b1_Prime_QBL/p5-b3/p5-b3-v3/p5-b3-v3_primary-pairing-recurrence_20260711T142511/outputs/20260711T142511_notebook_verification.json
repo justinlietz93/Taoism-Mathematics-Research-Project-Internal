@@ -1,0 +1,104 @@
+{
+  "cells": [
+    {
+      "cell": 1,
+      "pass": true,
+      "status_lines": [
+        "PASS: c_A=T_A-2T_{A-1} is recoverable for A>=1"
+      ]
+    },
+    {
+      "cell": 2,
+      "pass": true,
+      "status_lines": [
+        "PASS: instantaneous L carries current data but does not supply future c_1"
+      ]
+    },
+    {
+      "cell": 3,
+      "pass": true,
+      "status_lines": [
+        "PASS: minimal duality-morphism interface supports all four derived blocks"
+      ]
+    },
+    {
+      "cell": 4,
+      "pass": true,
+      "status_lines": [
+        "PASS: ordinary and conjugate scalar variance share the seed witness but differ elsewhere"
+      ]
+    },
+    {
+      "cell": 5,
+      "pass": true,
+      "status_lines": [
+        "PASS: seed is not unique at raw presentation level under current authority"
+      ]
+    },
+    {
+      "cell": 6,
+      "pass": true,
+      "status_lines": [
+        "PASS: B local active recurrence a -> a*u/(u+v)"
+      ]
+    },
+    {
+      "cell": 7,
+      "pass": true,
+      "status_lines": [
+        "PASS: Q local active recurrence a -> i*a"
+      ]
+    },
+    {
+      "cell": 8,
+      "pass": true,
+      "status_lines": [
+        "PASS: conditional orthogonal L block retains old block and has zero mixed birth blocks"
+      ]
+    },
+    {
+      "cell": 9,
+      "pass": true,
+      "status_lines": [
+        "PASS: first-domain local active axis reaches i/4895"
+      ]
+    },
+    {
+      "cell": 10,
+      "pass": true,
+      "status_lines": [
+        "PASS: full pairing is underdetermined after L even when local diagonals agree"
+      ]
+    },
+    {
+      "cell": 11,
+      "pass": true,
+      "status_lines": [
+        "PASS: current signatures admit both count-only and order-sensitive candidate laws"
+      ]
+    },
+    {
+      "cell": 12,
+      "pass": true,
+      "status_lines": [
+        "PASS: one P generates two restrictions and two directed mixed blocks"
+      ]
+    },
+    {
+      "cell": 13,
+      "pass": true,
+      "status_lines": [
+        "PASS: higher-order descriptive L status follows from explicit missing premises"
+      ]
+    },
+    {
+      "cell": 14,
+      "pass": true,
+      "status_lines": [
+        "PASS: negative control with nonzero old/new birth block is rejected"
+      ]
+    }
+  ],
+  "code_cells": 14,
+  "figures": 14
+}

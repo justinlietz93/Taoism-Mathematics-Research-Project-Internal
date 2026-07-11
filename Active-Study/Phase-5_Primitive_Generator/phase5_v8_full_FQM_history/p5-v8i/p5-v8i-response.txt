@@ -1,0 +1,174 @@
+Completed **Phase 5 v8i: Extended-Diagonal Block Decomposition**.
+
+Ledger authority was applied first. The attached canonical ledger remains controlling, with v8i as the single active target and the provenance gate now standing law. 
+
+[Download the Phase 5 v8i package](sandbox:/mnt/data/phase5_v8i_extended_diagonal_block_decomposition_package.zip)
+
+```text id="bjzmq2"
+SHA256:
+2cc821d2182c0f9eb5dcc52e768abc0ada4edda8f29feb50a7977d447535e615
+```
+
+## Result
+
+```text id="yqoozy"
+PHASE 5 v8i:
+Extended-Diagonal Block Decomposition
+
+STATUS:
+V8I_PROVENANCE_PATCH_CLOSED_EXTENDED_DIAGONAL_SPLITTER_FAILED_GROUND_TRUTH_VALIDATION_RANKGE5_BLOCKING_OPEN
+
+GLOBAL_PASS:
+true
+
+PHASE5_CLOSED:
+false
+```
+
+## Main result
+
+```text id="nknl76"
+CLOSED_POSITIVE:
+  provenance patch
+
+CLOSED_NEGATIVE_ON_TESTED_RANGE:
+  current extended-diagonal splitter validates against all ground-truth orbit tables
+
+BLOCKING_OPEN:
+  rank>=5 residual block decomposition
+```
+
+No classifier claim is made.
+
+## Provenance patch
+
+The v8h edge-loss finding is fixed.
+
+```text id="em5r25"
+rank10_large:
+  restored edge count = 41
+
+rank12_large:
+  restored edge count = 62
+```
+
+The package emits the required programmatic diff:
+
+```text id="o0gypm"
+outputs/phase5_v8i_provenance_diff.csv
+outputs/phase5_v8i_corrected_rankge5_routing.csv
+```
+
+## Splitter validation
+
+The constructive splitter was run against the available ground-truth tables:
+
+```text id="e3gv43"
+ground-truth validation rows:
+  229
+
+split successes:
+  138
+
+split failures:
+  91
+```
+
+That means the splitter is not valid as a closure mechanism.
+
+It is kept only as an attack harness.
+
+## Rank>=5 result
+
+All five corrected rank>=5 residuals remain open:
+
+```text id="avvwej"
+rank5_prime:
+  BLOCKING_OPEN_SPLITTER_CERTIFICATE_INCOMPLETE
+
+rank6_large:
+  BLOCKING_OPEN_SPLITTER_CERTIFICATE_INCOMPLETE
+
+rank8_large:
+  BLOCKING_OPEN_SPLITTER_CERTIFICATE_INCOMPLETE
+
+rank10_large:
+  BLOCKING_OPEN_SPLITTER_CERTIFICATE_INCOMPLETE
+
+rank12_large:
+  BLOCKING_OPEN_SPLITTER_CERTIFICATE_INCOMPLETE
+```
+
+The corrected edge lists are now preserved in the package.
+
+## Package contents
+
+```text id="mbccqu"
+phase5_v8i_extended_diagonal_block_decomposition/
+├── README.md
+├── MANIFEST_SHA256SUMS.txt
+├── docs/
+│   ├── phase5_v8i_extended_diagonal_block_decomposition.md
+│   ├── phase5_v8i_frontier_note.md
+│   ├── phase5_v8i_protocol_definitions.md
+│   ├── phase5_v8i_result_card.md
+│   ├── provenance_patch.md
+│   ├── rankge5_residuals_after_v8i.md
+│   └── splitter_failure_note.md
+├── outputs/
+│   ├── phase5_v8i_verification_summary.json
+│   ├── phase5_v8i_result_card.json
+│   ├── phase5_v8i_provenance_diff.csv
+│   ├── phase5_v8i_corrected_rankge5_routing.csv
+│   ├── phase5_v8i_splitter_groundtruth_validation.csv
+│   ├── phase5_v8i_splitter_validation_summary.csv
+│   ├── phase5_v8i_observed_block_symbol_relations.csv
+│   ├── phase5_v8i_rankge5_decomposition_attempts.csv
+│   ├── phase5_v8i_scope_completeness_gates.csv
+│   ├── phase5_v8i_claim_disposition.csv
+│   ├── phase5_v8i_ledger_reconciliation.csv
+│   └── phase5_v8i_falsification_targets.csv
+├── sealed/
+│   ├── DO_NOT_CLOSE_PHASE5_GATE.json
+│   └── SEALED_V8I_BEFORE_VALIDATED_2PRIMARY_BLOCK_SOLVER.json
+├── scripts/
+│   └── phase5_v8i_extended_diagonal_block_decomposition.py
+├── notebooks/
+│   └── phase5_v8i_extended_diagonal_block_decomposition.ipynb
+├── proofs/
+│   └── Phase5V8IExtendedDiagonalBlockDecomposition.lean
+├── lean/
+│   ├── lakefile.lean
+│   ├── lean-toolchain
+│   ├── Phase5V8I.lean
+│   └── Phase5V8I/
+│       └── ExtendedDiagonalBlockDecomposition.lean
+├── source_notes/
+│   └── PHASE5_CANONICAL_LEDGER.md
+├── snapshots/
+│   └── example_v8i_split_failure_snapshot.json
+└── patches/
+    └── phase5_v8i_provenance_and_splitter_patch.md
+```
+
+## Current state
+
+```text id="yk84yy"
+Phase 5:
+  OPEN
+
+v8c:
+  SUSPENDED
+
+v8i closed:
+  provenance patch
+
+v8i rejected:
+  current extended-diagonal splitter as a validated closure path
+
+still blocking:
+  validated 2-primary block solver
+  rank>=5 Family-F residual decomposition/classification
+  Lean executable classifier / final proof pass
+```
+

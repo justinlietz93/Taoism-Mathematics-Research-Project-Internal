@@ -1,0 +1,18 @@
+{
+  "cannot_be_full_retained_state": "the infinite exact-word set cannot inject into a twelve-element set",
+  "discards": [
+    "exact pair (u,v)",
+    "unbounded exact word W",
+    "domain counter beyond chosen quotient",
+    "full phase-quarter count",
+    "primary pairing",
+    "chart and transfer data"
+  ],
+  "retains": [
+    "six local phase positions",
+    "two orientation hands",
+    "finite chi12 shadow support when the downstream FQM layer is supplied"
+  ],
+  "status": "FINITE_DOUBLED_PHASE_ORIENTATION_CARRIER_AND_SHADOW_SKELETON",
+  "successor_status": "DOWNSTREAM_COORDINATE_QUESTION"
+}

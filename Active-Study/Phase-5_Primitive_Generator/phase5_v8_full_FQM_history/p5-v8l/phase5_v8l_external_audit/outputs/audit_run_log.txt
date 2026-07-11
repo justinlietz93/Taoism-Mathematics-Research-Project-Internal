@@ -1,0 +1,28 @@
+=== A. independent classification of 512 true-diagonal forms ===
+fingerprint groups: 13 sizes: [16, 16, 16, 16, 32, 32, 32, 32, 64, 64, 64, 64, 64]
+MY class count: 14
+archival form (3, 2, 4, 2, 12, 0) -> my class 5
+=== package table comparison ===
+pkg classes: 14 total members: 512 distinct: 512
+partition identical: True
+disposition rows: 512 unique+complete: True class ids consistent with class table: True
+archival class per pkg disposition: [5] | pkg claims 5 | my class: 5 -> pkg class [5]
+fingerprint violations within classes: 0 | cross-class fingerprint collisions: {(11, 12)}
+  collision pair pkg(11,12) exhaustive non-isometry confirmed: True
+class-rep radical sizes + q-on-radical all match: True
+=== B. decision certificate rows ===
+decisions: 530 | positives 498 (bad 0) | negatives 32 (bad 0) | non-data witnesses 0
+members lacking a positive decision to their class rep: 0
+=== E. ground-truth 229 rows ===
+rows: 229 by source: Counter({'v8e_size2': 193, 'v8g_rank3_equalD': 22, 'v8h_rank4': 14})
+certified rows: 1
+ground-truth radical data mismatches: 0
+worked [2,2] certificate full verification: True {'span': True, 'orders': True, 'cross_b_zero': True, 'A_block_q': True, 'R_ambient': True, 'R_q': True, 'R_bii_zero': True}
+prose/string certificates among certified rows: 0
+=== F. five rank>=5 cores ===
+{"case": "rank5_prime", "snf_radical": 4, "claimed": 4, "expected_anchor": 4, "gens_ambient_radical": true, "gen_span_size": 4, "span_matches_radical": true, "q_on_radical_match": true, "quotient_shape_mine": [2, 2, 4, 16], "claimed_shape": [2, 2, 4, 16], "shape_match": true, "enum_radical": 4, "enum_matches_snf": true, "gen_span_equals_enum_radical": true}
+{"case": "rank6_large", "snf_radical": 8, "claimed": 8, "expected_anchor": 8, "gens_ambient_radical": true, "gen_span_size": 8, "span_matches_radical": true, "q_on_radical_match": true, "quotient_shape_mine": [2, 4, 4, 4, 16], "claimed_shape": [2, 4, 4, 4, 16], "shape_match": true, "enum_radical": 8, "enum_matches_snf": true, "gen_span_equals_enum_radical": true}
+{"case": "rank8_large", "snf_radical": 64, "claimed": 64, "expected_anchor": 64, "gens_ambient_radical": true, "gen_span_size": 64, "span_matches_radical": true, "q_on_radical_match": true, "quotient_shape_mine": [2, 2, 2, 2, 4, 4, 4, 16], "claimed_shape": [2, 2, 2, 2, 4, 4, 4, 16], "shape_match": true}
+{"case": "rank10_large", "snf_radical": 256, "claimed": 256, "expected_anchor": 256, "gens_ambient_radical": true, "gen_span_size": 256, "span_matches_radical": true, "q_on_radical_match": true, "quotient_shape_mine": [2, 2, 2, 2, 2, 4, 4, 4, 16], "claimed_shape": [2, 2, 2, 2, 2, 4, 4, 4, 16], "shape_match": true}
+{"case": "rank12_large", "snf_radical": 2048, "claimed": 2048, "expected_anchor": 2048, "gens_ambient_radical": true, "gen_span_size": 2048, "span_matches_radical": true, "q_on_radical_match": true, "quotient_shape_mine": [2, 2, 2, 4, 4, 4, 4, 4, 16], "claimed_shape": [2, 2, 2, 4, 4, 4, 4, 4, 16], "shape_match": true}
+=== done ===

@@ -1,0 +1,15 @@
+pkg_class_id,auditor_class_id,size,canonical_rep_lexmin,fingerprint_hash,partition_match,radical_size_verified,contains_archival
+1,0,16,"[1, 0, 0, 2, 4, 0]",7d76cca92b03900,True,True,False
+2,3,16,"[1, 2, 4, 0, 4, 0]",6745af608b866b58,True,True,False
+3,2,16,"[1, 2, 0, 0, 0, 0]",52eb616523ba8ae2,True,True,False
+4,1,16,"[1, 0, 4, 2, 0, 0]",19c2d7abb1ff633a,True,True,False
+5,5,32,"[1, 0, 0, 0, 4, 0]",43f64f0750b87b02,True,True,True
+6,4,32,"[1, 0, 0, 0, 0, 0]",329c7a9b9ce92243,True,True,False
+7,7,32,"[1, 0, 4, 0, 4, 0]",111a8b01c8ca636b,True,True,False
+8,6,32,"[1, 0, 4, 0, 0, 0]",1d74b675da5776e0,True,True,False
+9,11,64,"[0, 0, 0, 2, 4, 0]",1e5b142d8e6ca75a,True,True,False
+10,9,64,"[0, 0, 0, 0, 4, 0]",1c401cf2cf11aee,True,True,False
+11,12,32,"[1, 0, 0, 2, 0, 0]",7122d630d404442e,True,True,False
+12,13,32,"[1, 2, 0, 0, 4, 0]",7122d630d404442e,True,True,False
+13,8,64,"[0, 0, 0, 0, 0, 0]",3ecb468ac2668c92,True,True,False
+14,10,64,"[0, 0, 0, 2, 0, 0]",69e298e57341a0e6,True,True,False

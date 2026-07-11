@@ -1,0 +1,8 @@
+{
+  "codomain": "countable canonical affine orbit",
+  "domain": "countable canonical pre-L orbit",
+  "full_interval_factor": "IMPOSSIBLE_COUNTABLE_TO_UNCOUNTABLE",
+  "injectivity_required": false,
+  "map": "pi(S)=lambda*j+beta-nu(q)",
+  "surjective_onto_O_E": true
+}

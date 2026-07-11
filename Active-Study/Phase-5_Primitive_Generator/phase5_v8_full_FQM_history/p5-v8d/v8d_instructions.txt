@@ -1,0 +1,97 @@
+Confirmed. Adopt this state with corrections and proceed to v8d.
+
+AUTHORITY
+
+PHASE5_CANONICAL_LEDGER.md is now the source of truth over any package
+
+headline. Read it before the pass. Reconcile your claim_disposition rows
+
+against its status board before writing outputs.
+
+REFRAME ONE ITEM
+
+v8c is SUSPENDED, not wrong. Its closure rests on one unproven premise:
+
+that cross-coupled presentations are outside the Orthad-generated image.
+
+v8d decides that premise. If unreachable, v8c becomes sound retroactively.
+
+Record it that way.
+
+v8d COMMISSION — amendments to your plan:
+
+1. Step 2 is the load-bearing step. Reachability must include the
+
+   trilinearity gate as an explicit negative control: every Orthad-generated
+
+   coupling either projects to pairwise bilinear (b(r,s) is the only slot an
+
+   FQM has) or fails the FQM gate. Three possible outcomes, book whichever
+
+   occurs:
+
+   a. all generated couplings decompose orthogonal + pairwise bilinear
+
+      -> narrow subclass, 2-adic wall avoided, v8c unsuspended
+
+   b. bilinear-decomposable but hits full 2-adic taxonomy
+
+      -> wall is real, BLOCKING_OPEN stands
+
+   c. genuine non-decomposable triple incidence generated
+
+      -> FQM carrier too small: CONTRADICTION-GRADE, report plainly
+
+2. Step 4 skeleton run is decisive, not a regression test. If the Z/12Z
+
+   chi12 skeleton is NOT reachable from Orthad T records, that is a
+
+   contradiction-grade finding against the correspondence bridge. Do not
+
+   soften it into a scoping note.
+
+3. Naming rule: no new term in a STATUS string unless registered in the
+
+   ledger naming registry first. "Structural key" is not "classifier."
+
+4. Deferral rule: every DEFERRED row states the premise that makes it
+
+   out-of-scope, and that premise gets its own target row.
+
+LIU2022 — separate pass, do not interleave with v8d. When intake starts:
+
+hardware is 8GB RAM. Constraints are mandatory:
+
+- np.memmap only, never full fromfile loads; one variable, one timestep
+
+  in memory at a time (each cube is 375MB; B or v vector triple = ~1.1GB,
+
+  that is the ceiling)
+
+- first deliverable is a reader probe: parse grid.dat + physparams.dat,
+
+  verify layout/units/endianness against pyMFE.py and
+
+  rdallfields_example.ipynb before touching field data
+
+- derived products (slices, downsampled cubes, diagnostics) written to
+
+  disk incrementally, never accumulated in memory
+
+- identify the pre-eruption / tether-cutting / ejection frame indices
+
+  from a coarse single-variable sweep before any full-resolution work
+
+5. Acceptance gate for step 1: "derived form" means a closure claim —
+
+   a stated family F of FQM presentations with (i) a proof that every
+
+   Orthad T record lands in F, and (ii) generators/witnesses showing
+
+   which parts of F are actually hit. An enumerated list of reached
+
+   presentations without the containment proof is CLOSED_POSITIVE_FOR_
+
+   EXAMPLES only, not subclass derivation. Book it at the weaker label
+
+   if that is what exists.

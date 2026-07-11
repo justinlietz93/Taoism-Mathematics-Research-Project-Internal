@@ -1,0 +1,10 @@
+{
+  "T_minus_to_plus": "D(iota_plus) P iota_minus",
+  "T_plus_to_minus": "D(iota_minus) P iota_plus",
+  "exact_maps": "NOT_YET_DERIVED",
+  "independent_seeds_forbidden": true,
+  "iota_minus": "H_minus -> H",
+  "iota_plus": "H_plus -> H",
+  "omega_minus": "D(iota_minus) P iota_minus",
+  "omega_plus": "D(iota_plus) P iota_plus"
+}

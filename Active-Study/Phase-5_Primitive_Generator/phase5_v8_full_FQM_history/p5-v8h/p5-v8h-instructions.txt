@@ -1,0 +1,30 @@
+v8g ADOPTED after full independent replication (entire D=4 space, all 27
+triangle dispositions, complete [2,4,2] re-derivation, 8/8 D=8 stratified
+verifications). Updated ledger attached, remains authoritative. New ledger
+law: same-shape split search cannot support an "indecomposable" claim —
+extended split-target space (arbitrary unit diagonals) or genus argument
+required if you ever make one. Proceed to v8h.
+
+PHASE 5 v8h: RANK-4 EXACT CLOSURE + RANK>=5 REDUCTION ATTACK
+
+1. RANK-4 CORE [4,4,2,16] (order 512): exact same-shape orbit
+   classification by pruned generator-image search — candidate lists
+   per generator filtered by order + q-value, pairwise-b propagation,
+   smallest-candidate-first ordering, bijectivity by image cardinality.
+   Emit per-decision certificates (witness basis for isometric;
+   exhausted-search flag for non-isometric). If the search is
+   infeasible, report the measured candidate-set sizes and where it
+   blows up — a named cost wall, not a silent retreat.
+2. RANK>=5 (v7u: 5,6,8,10,12): reduction ONLY at this pass —
+   p-primary split, Jordan-block normalization (v7s), splitter at
+   every stage — and book each case by its surviving irreducible
+   core, exactly named (shape vector + edges). No orbit enumeration
+   above rank 4 unless a core lands at or below it.
+3. SCOPE GATE (standing): enumerate the full stated parameter space
+   per shape; zero missing disposition rows.
+4. INVARIANT HARVEST (cheap, do alongside): compute Gauss-Milgram
+   signature + oddity/p-excess per rank-4 orbit class once ground
+   truth exists — a second data point on where compact invariants
+   fail, feeding the eventual genus-symbol layer.
+5. Acceptance unchanged: "classifier" only with orbit ground truth on
+   the stated range; all split language subject to the new ledger law.

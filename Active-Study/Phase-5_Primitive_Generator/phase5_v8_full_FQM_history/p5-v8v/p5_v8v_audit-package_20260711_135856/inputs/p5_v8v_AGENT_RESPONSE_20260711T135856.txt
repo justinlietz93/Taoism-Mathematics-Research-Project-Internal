@@ -1,0 +1,18 @@
+Executed `p5_v8v`.
+
+Package: p5_v8v_pairing-first-orthad-realignment_20260711_133900.zip
+
+Reported ZIP SHA-256:
+ae97c9ec1e1cac24ed1a55beacb8267b54ae18a94b4240b6fecd45e8f195a1a8
+
+Reported document SHA-256:
+a0420819e30600f931aa97a635bf19055f7ff9dd458ff0ea66d5ddaec2e8a1be
+
+Reported main result:
+The first exact missing object is the pairing-type datum
+D_P=(coefficient object K, retained axis object H_0, duality or involution,
+argument variance, symmetry or adjoint law).
+
+Reported verification:
+11/11 verifier gates, 16/16 pytest, 12/12 corruption controls,
+26/26 semantic rebuild artifacts, 79 manifest entries, 80 archive files.

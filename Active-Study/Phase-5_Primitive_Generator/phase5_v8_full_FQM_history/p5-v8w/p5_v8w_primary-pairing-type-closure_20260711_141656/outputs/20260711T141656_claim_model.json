@@ -1,0 +1,39 @@
+{
+  "B_PAIRING_TYPE_SIGNATURE": "DERIVED",
+  "EARLIEST_MISSING_AXIOM": "SCALAR_VARIANCE_AXIOM: specify whether D(lambda*id_H)=lambda*id_DH or D(lambda*id_H)=lambda^**id_DH; equivalently whether P(lambda*x,y)=lambda*P(x,y) or lambda^**P(x,y).",
+  "EXACT_PRIMARY_PAIRING_SEED": "NOT_YET_DERIVED",
+  "EXACT_PRIMARY_PAIRING_SEED_MISSING_MAP": "eta_P:(Xi_0,W_0)->Pair(H_0,D(H_0))/Aut(H_0), after seed admissibility is fixed",
+  "EXACT_PRIMARY_PAIRING_TYPE": "NOT_YET_DERIVED",
+  "GAUGE_FQM_WEIL_DESCENT": "NOT_RUN",
+  "L_PAIRING_TYPE_SIGNATURE": "DERIVED",
+  "MINIMAL_PAIRING_INTERFACE": "DERIVED",
+  "PAIRING_FIRST_REALIGNMENT": "PASS",
+  "Q_PAIRING_TYPE_SIGNATURE": "DERIVED",
+  "RAW_PAIRING_PRESENTATION_NONUNIQUENESS": "PROVED",
+  "REAL_CORRUPTION_CONTROLS": "PASS",
+  "RETAINED_GAUGE_CLASS_MISSING_AXIOM": "SEED_ADMISSIBILITY_AXIOM: specify allowed rank/nondegeneracy and normalization class of P_0.",
+  "RETAINED_GAUGE_CLASS_SEED_NONUNIQUENESS": "NOT_YET_DERIVED",
+  "SURVIVING_TYPE_FORK": [
+    "ordinary-dual realization (bilinear over a coefficient object with trivial scalar duality)",
+    "conjugate-dual realization (sesquilinear over a star-coefficient object)"
+  ],
+  "TERMINAL_PROJECTION": "NOT_RUN",
+  "Xi_hat_t_VALUES": "NOT_INSTANTIATED",
+  "candidate_promotions": {
+    "Xi_hat_t_with_null_pairing_chart_transfer": false,
+    "axis_count_as_module_dimension": false,
+    "gauge_equivalent_raw_seeds_as_nonuniqueness_witness": false,
+    "hard_coded_source_gate_without_citation": false,
+    "historical_H_M_plus_iJ_as_P_0": false,
+    "quadratic_refinement_directly_as_P_t": false
+  },
+  "lifted_state_schema": {
+    "Omega_minus": null,
+    "Omega_plus": null,
+    "T_minus_to_plus": null,
+    "T_plus_to_minus": null,
+    "instantiated": false,
+    "name": "lifted_state_schema",
+    "pairing": null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "B": {
+    "full_value_law": "NOT_YET_DERIVED",
+    "local_active": "a*u/(u+v)",
+    "old_latched_block": "preserved",
+    "rank": "preserved"
+  },
+  "L": {
+    "carrier_signature": "H_old direct_sum A_new",
+    "mixed_birth_blocks": "zero",
+    "new_local_active": "1",
+    "new_rank_one_block": "NOT_YET_DERIVED",
+    "old_block": "preserved",
+    "rank": "r->r+1"
+  },
+  "Q": {
+    "full_value_law": "NOT_YET_DERIVED",
+    "local_active": "i*a",
+    "old_latched_block": "preserved",
+    "rank": "preserved"
+  }
+}

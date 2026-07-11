@@ -1,0 +1,7 @@
+{"dependency": "scalar_variance_axiom", "status": "MISSING"}
+{"dependency": "seed_map_eta_P", "status": "MISSING"}
+{"dependency": "Phi_B_value_law", "status": "MISSING"}
+{"dependency": "Phi_Q_value_law", "status": "MISSING"}
+{"dependency": "Phi_L_value_law", "status": "MISSING"}
+{"dependency": "chart_maps_iota_plus_minus", "status": "DOWNSTREAM_MISSING"}
+{"dependency": "descriptive_L_comparison_family", "status": "DOWNSTREAM_MISSING"}

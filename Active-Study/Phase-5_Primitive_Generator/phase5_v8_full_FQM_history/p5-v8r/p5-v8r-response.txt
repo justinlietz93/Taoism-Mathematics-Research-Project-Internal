@@ -1,0 +1,152 @@
+A clean primitive engine remains the safer base. The rejected Orthad implementation encoded incompatible custody semantics, so only the accepted `p5_v8q` engine was retained. The older Orthad sources were used to attack the recurrence opening, not to import their extra event or ad hoc coupling rule.
+
+[Download `p5_v8r_orthad-first-crossing-recurrence_20260711_080825.zip`](sandbox:/mnt/data/p5_v8r_orthad-first-crossing-recurrence_20260711_080825.zip)
+
+```text
+SHA256:
+5456edffbdc482564904e37aac6565ab39a11036be9959a20935982dc5184556
+```
+
+First audit entry: [FINDINGS.md](sandbox:/mnt/data/p5_v8r_orthad-first-crossing-recurrence_20260711_080825/FINDINGS.md)
+
+Timestamped report: [20260711T080825_RESULTS.md](sandbox:/mnt/data/p5_v8r_orthad-first-crossing-recurrence_20260711_080825/docs/20260711T080825_RESULTS.md)
+
+## Status
+
+```text
+PRIMITIVE_FIRST_CROSSING: PASS
+FIRST_L_CARRY: PASS
+ACTIVE_AXIS_RECURRENCE: PASS
+PRIMARY_PAIRING_RECURRENCE: NOT_YET_DERIVED
+ORTHAD_CHART_RECURRENCE: NOT_YET_DERIVED
+ORTHAD_RANK_EXTENSION: NOT_YET_DERIVED
+ORTHAD_CAUSAL_PROJECTION: NOT_RUN
+GAUGE_FQM_WEIL_DESCENT: NOT_RUN
+```
+
+## Certified custody boundary
+
+```text
+derived word:
+BQQBBBQBQBBQBBL
+
+before_first_L:
+A=0
+pair=(55,89)
+phase_quarters=5
+k=5
+j=6
+word=BQQBBBQBQBBQBB
+
+immediately_after_first_L:
+A=1
+pair=(55,89)
+phase_quarters=5
+k=0
+j=7
+word=BQQBBBQBQBBQBBL
+
+immediately_after_first_next_domain_B:
+A=1
+pair=(89,144)
+phase_quarters=5
+k=0
+j=7
+word=BQQBBBQBQBBQBBLB
+```
+
+[Three custody snapshots](sandbox:/mnt/data/p5_v8r_orthad-first-crossing-recurrence_20260711_080825/outputs/20260711T080825_custody_snapshots.json)
+
+[Full primitive trace](sandbox:/mnt/data/p5_v8r_orthad-first-crossing-recurrence_20260711_080825/trace/20260711T080825_primitive_trace.jsonl)
+
+## Active-axis recurrence
+
+```text
+seed:
+a=1, local_phase=0, denominator=1
+
+B:
+(u,v) -> (v,u+v)
+denominator := new u*v
+phase retained
+
+Q:
+local_phase := local_phase+1
+a := i*a
+denominator retained
+
+L:
+latch current a
+append new active axis 1
+global pair and phase carry
+```
+
+The per-prefix trace reaches:
+
+```text
+BQQBBBQBQBBQBB:
+active axis = i/4895
+
+BQQBBBQBQBBQBBL:
+latched axis = i/4895
+new active axis = 1
+```
+
+[Per-prefix active-axis trace](sandbox:/mnt/data/p5_v8r_orthad-first-crossing-recurrence_20260711_080825/outputs/20260711T080825_active_axis_trace.csv)
+
+## Exact hard stop
+
+The source set fixes the pairing-first direction:
+
+```text
+OmegaPlus           = iota_plus*  P iota_plus
+OmegaMinus          = iota_minus* P iota_minus
+TransferPlusToMinus = iota_minus* P iota_plus
+TransferMinusToPlus = iota_plus*  P iota_minus
+```
+
+It does not fix the mixed cross-chart pairing recurrence. The smallest missing bridge is:
+
+```text
+tau_0
+
+tau_(t+1) =
+Phi_(U_t)(X_(t+1), W_(t+1), tau_t)
+
+tau_t =
+P_t(iota_plus(e_t), iota_minus(e_t))
+```
+
+No source supplies `tau_0` or the exact `Phi_B`, `Phi_Q`, and `Phi_L`. The diagonal active-axis trace cannot determine these mixed terms: two bilinear pairings may agree on both chart restrictions while differing on cross-chart arguments.
+
+Therefore no pairing matrix, chart matrix, transfer matrix, rank extension, overlap residual, or projection row was emitted.
+
+[Recurrence assessment](sandbox:/mnt/data/p5_v8r_orthad-first-crossing-recurrence_20260711_080825/outputs/20260711T080825_recurrence_assessment.json)
+
+## Verification
+
+```text
+pytest:
+9 passed
+
+corruption controls:
+16/16 fired their target gates
+
+internal gates:
+22/22 passed
+
+post-seal gates:
+23/23 passed
+
+manifest:
+60/60 files verified
+
+normalized clean rebuild:
+19/19 scientific artifacts byte-identical
+
+exact response ZIP hash:
+verified
+```
+
+The independent oracle reproduces all 16 primitive selections without importing the implementation’s selector. Lean contains an underdetermination attack, but Lean was unavailable, so no compiled formal-proof claim is made.
+

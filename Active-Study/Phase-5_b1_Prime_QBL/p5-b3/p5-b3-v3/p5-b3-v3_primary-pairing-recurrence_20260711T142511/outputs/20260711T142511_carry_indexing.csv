@@ -1,0 +1,10 @@
+A,T_A,T_prev,c_A,recoverable_at_S_A_minus,future_available_at_previous_L
+1,27,9,9,True,False
+2,61,27,7,True,False
+3,130,61,8,True,False
+4,269,130,9,True,False
+5,545,269,7,True,False
+6,1098,545,8,True,False
+7,2205,1098,9,True,False
+8,4417,2205,7,True,False
+9,8842,4417,8,True,False
