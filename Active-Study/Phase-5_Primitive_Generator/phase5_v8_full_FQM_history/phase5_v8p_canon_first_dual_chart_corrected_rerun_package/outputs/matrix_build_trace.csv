@@ -1,0 +1,4 @@
+event,active_axis,u,v,uv,shift_mod6,floor_bit,channel_count,floor_bit_used,frozen_axis,frozen_axis_value,frozen_shift_mod6,new_active_axis,lap_relation
+B,0,55,89,4895,0,1,,,,,,,
+FLOOR,,,,,,,6,1,,,,,
+L,,,,,,,,,0,i/4895,0,1,lap2=-lap1

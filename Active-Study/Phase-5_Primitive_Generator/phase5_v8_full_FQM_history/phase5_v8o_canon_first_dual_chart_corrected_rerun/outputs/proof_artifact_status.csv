@@ -1,0 +1,3 @@
+artifact,path,relation_named,executed_in_build_environment,status
+Lean transport relation,lean/CanonFirst/TransportRelation.lean,True,False,SOURCE_EMITTED_LOCAL_LEAN_UNAVAILABLE
+Jupyter claim notebook,notebooks/canon_first_corrected_rerun.ipynb,True,True,EXECUTED

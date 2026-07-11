@@ -1,0 +1,13 @@
+{
+  "input_pair": [
+    34,
+    55
+  ],
+  "latched_axis": "i/4895",
+  "new_active_axis": 1,
+  "pair_relation": "lap2=-lap1",
+  "refined_pair": [
+    55,
+    89
+  ]
+}

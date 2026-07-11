@@ -1,0 +1,52 @@
+[
+  {
+    "package_path": "source_notes/p5-orthad-PHASE5_CANONICAL_LEDGER_v3.md",
+    "upstream_path": "/mnt/data/p5-orthad-PHASE5_CANONICAL_LEDGER_v3.md",
+    "expected_sha256": "49e87de491fdeb57c1017eb62260fbe4493b031663d9734a089c0d42a9179c14"
+  },
+  {
+    "package_path": "source_notes/orthad.drawio.png",
+    "upstream_path": "/mnt/data/orthad.drawio.png",
+    "expected_sha256": "bd596d99d97e2d179027dc7285489aaf10eea9c65e9fbc320d36c0c3484bc57d"
+  },
+  {
+    "package_path": "audits/phase5_v8k_external_audit.zip",
+    "upstream_path": "/mnt/data/phase5_v8k_external_audit.zip",
+    "expected_sha256": "a680248ccd730734669e8f298cb2b3fd0e9e721e1ab7b51279b965cf5790f262"
+  },
+  {
+    "package_path": "audits/phase5_v8l_external_audit.zip",
+    "upstream_path": "/mnt/data/phase5_v8l_external_audit.zip",
+    "expected_sha256": "dded590161669417787fa3f90f2469fc246330f3e64c0314316fc102e65934cd"
+  },
+  {
+    "package_path": "audits/phase5_v8m_external_audit.zip",
+    "upstream_path": "/mnt/data/phase5_v8m_external_audit.zip",
+    "expected_sha256": "57fb96e3544ac15e5540cf46f156822964f4a729f95fb934e8b8d5606342c0bf"
+  },
+  {
+    "package_path": "audits/rejected_prior_scaffold.zip",
+    "upstream_path": "/mnt/data/orthad_live_canon_first_experiment_package.zip",
+    "expected_sha256": "c3511da631e582f5c118f39e5bfb7aada9cb7edeba6efabb7eefbba85cacabba"
+  },
+  {
+    "package_path": "source_notes/earned_anchors/phase5_v7u_full_orthad_lens_compiler_binding.py",
+    "upstream_path": "Phase-5_v7-v8_Primitive_Generator.zip::phase5_v7_closure_and_orientation/phase5_v7u_full_orthad_lens_compiler_binding/scripts/phase5_v7u_full_orthad_lens_compiler_binding.py",
+    "expected_sha256": "7eb3ebf40ef5ae7f604f9572911539691c08a219fbd5e309c47ed0bbfc80a87f"
+  },
+  {
+    "package_path": "source_notes/earned_anchors/phase5_v7c_doubled_carrier_reverification.py",
+    "upstream_path": "Phase-5_v7-v8_Primitive_Generator.zip::phase5_v7_closure_and_orientation/phase5_v7c_doubled_carrier_reverification/scripts/phase5_v7c_doubled_carrier_reverification.py",
+    "expected_sha256": "55bd8938c4df27f150431b316dd8aaa4f140d8c6306e78c3f823ea32259dc39b"
+  },
+  {
+    "package_path": "source_notes/earned_anchors/phase5_v7z_mock_theta_fqm_shadow_channel.py",
+    "upstream_path": "Phase-5_v7-v8_Primitive_Generator.zip::phase5_v7_closure_and_orientation/phase5_v7z_mock_theta_fqm_shadow_channel/scripts/phase5_v7z_mock_theta_fqm_shadow_channel.py",
+    "expected_sha256": "f557d715086cc9a8f2c046231260d9f5034bf742d680bb70bbced06c7e6651b7"
+  },
+  {
+    "package_path": "source_notes/earned_anchors/phase5_v7w_parity_seating_post_l_mod12.md",
+    "upstream_path": "Phase-5_v7-v8_Primitive_Generator.zip::phase5_v7_closure_and_orientation/phase5_v7w_parity_seating_post_l_mod12/docs/phase5_v7w_parity_seating_post_l_mod12.md",
+    "expected_sha256": "260b5f90bb79179efb85cdff9ae41b24581d13403ac4a125586ee16f888a3ce1"
+  }
+]

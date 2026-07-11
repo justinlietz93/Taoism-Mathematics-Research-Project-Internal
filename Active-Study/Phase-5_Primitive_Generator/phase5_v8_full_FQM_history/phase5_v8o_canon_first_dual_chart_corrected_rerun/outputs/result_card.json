@@ -1,0 +1,30 @@
+{
+  "character_survival": "12/12",
+  "completion_claim": false,
+  "cross_chart_transfer_exists": true,
+  "event_sequence": [
+    "B",
+    "FLOOR",
+    "L"
+  ],
+  "global_pass": true,
+  "latched_axis": "i/4895",
+  "new_active_axis": 1,
+  "not_claimed": [
+    "arbitrary cusp paths",
+    "multi-crossing stability",
+    "analytic q-series completion",
+    "mock-theta closure",
+    "general field-valued MHD transport",
+    "final canon completion"
+  ],
+  "omega_minus_exists": true,
+  "omega_plus_exists": true,
+  "qbl_word": "BL",
+  "refined_pair": [
+    55,
+    89
+  ],
+  "required_ablations_failed": "7/7",
+  "status": "CANON_FIRST_DUAL_CHART_ONE_CROSSING_CHARACTER_MATCH_OBSERVED"
+}

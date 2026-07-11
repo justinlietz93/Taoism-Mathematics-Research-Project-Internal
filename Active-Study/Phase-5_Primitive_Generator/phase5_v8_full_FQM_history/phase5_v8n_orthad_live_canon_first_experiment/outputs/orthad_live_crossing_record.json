@@ -1,0 +1,139 @@
+{
+  "qbl_word": "BL",
+  "event_sequence": [
+    "B",
+    "FLOOR",
+    "L"
+  ],
+  "before": {
+    "host_class": 0,
+    "pair": [
+      34,
+      55
+    ],
+    "phase_quarters": 5,
+    "active_axis": {
+      "real_num": 0,
+      "imag_num": 1,
+      "den": 1870,
+      "exact": "(0+1i)/1870"
+    },
+    "domain_cardinality": 12
+  },
+  "after_B": {
+    "host_class": 0,
+    "pair": [
+      55,
+      89
+    ],
+    "phase_quarters": 5,
+    "active_axis": {
+      "real_num": 0,
+      "imag_num": 1,
+      "den": 4895,
+      "exact": "(0+1i)/4895"
+    }
+  },
+  "floor": {
+    "rule": "orientation_bit=(n mod 12)//6; post_l_seat=pre_l_seat+6*orientation_bit",
+    "rows": [
+      {
+        "term_n": 12,
+        "pre_l_seat_mod6": 0,
+        "orientation_bit": 0,
+        "post_l_seat_mod12": 0
+      },
+      {
+        "term_n": 1,
+        "pre_l_seat_mod6": 1,
+        "orientation_bit": 0,
+        "post_l_seat_mod12": 1
+      },
+      {
+        "term_n": 2,
+        "pre_l_seat_mod6": 2,
+        "orientation_bit": 0,
+        "post_l_seat_mod12": 2
+      },
+      {
+        "term_n": 3,
+        "pre_l_seat_mod6": 3,
+        "orientation_bit": 0,
+        "post_l_seat_mod12": 3
+      },
+      {
+        "term_n": 4,
+        "pre_l_seat_mod6": 4,
+        "orientation_bit": 0,
+        "post_l_seat_mod12": 4
+      },
+      {
+        "term_n": 5,
+        "pre_l_seat_mod6": 5,
+        "orientation_bit": 0,
+        "post_l_seat_mod12": 5
+      },
+      {
+        "term_n": 6,
+        "pre_l_seat_mod6": 0,
+        "orientation_bit": 1,
+        "post_l_seat_mod12": 6
+      },
+      {
+        "term_n": 7,
+        "pre_l_seat_mod6": 1,
+        "orientation_bit": 1,
+        "post_l_seat_mod12": 7
+      },
+      {
+        "term_n": 8,
+        "pre_l_seat_mod6": 2,
+        "orientation_bit": 1,
+        "post_l_seat_mod12": 8
+      },
+      {
+        "term_n": 9,
+        "pre_l_seat_mod6": 3,
+        "orientation_bit": 1,
+        "post_l_seat_mod12": 9
+      },
+      {
+        "term_n": 10,
+        "pre_l_seat_mod6": 4,
+        "orientation_bit": 1,
+        "post_l_seat_mod12": 10
+      },
+      {
+        "term_n": 11,
+        "pre_l_seat_mod6": 5,
+        "orientation_bit": 1,
+        "post_l_seat_mod12": 11
+      }
+    ]
+  },
+  "after_L": {
+    "host_class": 1,
+    "pair": [
+      55,
+      89
+    ],
+    "phase_quarters": 6,
+    "latched_axes": [
+      {
+        "real_num": 0,
+        "imag_num": 1,
+        "den": 4895,
+        "exact": "(0+1i)/4895"
+      }
+    ],
+    "new_active_axis": {
+      "real_num": 1,
+      "imag_num": 0,
+      "den": 1,
+      "exact": "(1+0i)/1"
+    },
+    "domain_cardinality": 12
+  },
+  "scalar_residual_field_present": false,
+  "combined_signed_coefficient_field_present": false
+}

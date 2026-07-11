@@ -1,6 +1,0 @@
-case,radical_size,q_on_radical_xM,M,radical_pure,nonsummand_witness_vector,nonsummand_witness_n,verdict
-rank5_prime,4,"[0, 16]",32,False,"[0, 2, 2, 0, 8]",2,NON-SUMMAND RADICAL (filtration route required)
-rank6_large,8,"[0, 16]",32,False,"[0, 0, 0, 0, 4, 4]",2,NON-SUMMAND RADICAL (filtration route required)
-rank8_large,64,[0],32,False,"[0, 0, 0, 0, 0, 4, 0, 4]",2,NON-SUMMAND RADICAL (filtration route required)
-rank10_large,256,[0],32,False,"[0, 0, 0, 0, 0, 4, 0, 4, 0, 0]",2,NON-SUMMAND RADICAL (filtration route required)
-rank12_large,2048,"[0, 16]",32,False,"[0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 4, 0]",2,NON-SUMMAND RADICAL (filtration route required)

@@ -1,0 +1,8 @@
+{
+  "python": "3.13",
+  "sympy": "1.14.0",
+  "pytest": "9.0.2",
+  "matplotlib": "3.10.8",
+  "lean_available": false,
+  "package_status": "CANON_FIRST_DUAL_CHART_ONE_CROSSING_CHARACTER_MATCH_OBSERVED"
+}

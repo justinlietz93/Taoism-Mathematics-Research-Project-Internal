@@ -1,0 +1,8 @@
+ablation,qbl_word,before_channels,after_channels,mismatch_count,survival_gate,required_failure_observed
+delete_B,L,0,0,0,False,True
+delete_L,B,6,0,0,False,True
+pair_1_1,BL,6,12,2,False,True
+pair_100_101,BL,6,12,2,False,True
+corrupt_floor_bit,BL,6,12,8,False,True
+corrupt_latched_axis,BL,6,12,8,False,True
+sever_cross_transfer,BL,6,12,4,False,True

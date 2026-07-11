@@ -1,0 +1,8 @@
+ablation,omega_plus_changed,omega_minus_changed,transfer_changed
+delete_B,144,144,144
+delete_L,132,132,132
+pair_1_1,144,144,144
+pair_100_101,120,120,120
+corrupt_floor_bit,0,0,0
+corrupt_latched_axis,144,144,144
+sever_cross_transfer,0,0,10

@@ -1,0 +1,3 @@
+control,pass,detail
+mod6_without_orientation_bit,True,n=1 and n=7 collide before L
+combined_scalar_field_absent,True,no combined coefficient column

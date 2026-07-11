@@ -1,0 +1,13 @@
+gate,pass
+evidence_bound_character_survival,True
+law0_live_source,True
+law0b_no_scalar_in_lift,True
+dual_chart_presence,True
+cross_chart_transfer_presence,True
+word_forced_domain,True
+lap2_negative_lap1,True
+matrix_tick_trace,True
+all_required_ablations_fail,True
+external_reference_meta_only_match,True
+provenance_sha,True
+manifest_excludes_cache,True

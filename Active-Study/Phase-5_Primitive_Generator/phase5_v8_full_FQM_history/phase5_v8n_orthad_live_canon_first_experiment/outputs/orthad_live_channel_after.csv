@@ -1,0 +1,13 @@
+channel_id,term_n,pre_l_seat_mod6,orientation_bit,post_l_seat_mod12,support,character_channel,magnitude_channel_n,exponent_num,exponent_den,latched_axis_real_num,latched_axis_imag_num,latched_axis_den,latched_axis_exact
+0,12,0,0,0,False,0,12,144,24,0,1,4895,(0+1i)/4895
+1,1,1,0,1,True,1,1,1,24,0,1,4895,(0+1i)/4895
+2,2,2,0,2,False,0,2,4,24,0,1,4895,(0+1i)/4895
+3,3,3,0,3,False,0,3,9,24,0,1,4895,(0+1i)/4895
+4,4,4,0,4,False,0,4,16,24,0,1,4895,(0+1i)/4895
+5,5,5,0,5,True,-1,5,25,24,0,1,4895,(0+1i)/4895
+6,6,0,1,6,False,0,6,36,24,0,1,4895,(0+1i)/4895
+7,7,1,1,7,True,-1,7,49,24,0,1,4895,(0+1i)/4895
+8,8,2,1,8,False,0,8,64,24,0,1,4895,(0+1i)/4895
+9,9,3,1,9,False,0,9,81,24,0,1,4895,(0+1i)/4895
+10,10,4,1,10,False,0,10,100,24,0,1,4895,(0+1i)/4895
+11,11,5,1,11,True,1,11,121,24,0,1,4895,(0+1i)/4895
