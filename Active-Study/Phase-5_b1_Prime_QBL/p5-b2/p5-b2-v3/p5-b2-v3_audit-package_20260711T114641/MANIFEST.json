@@ -1,0 +1,93 @@
+{
+  "file_count": 17,
+  "files": [
+    {
+      "bytes": 4399,
+      "path": "AUDIT_RESULTS.md",
+      "sha256": "75e0ce27541c044943f396ece7cd9569b3adbb5d4c0eaf5c1baf78eae6a7b8ea"
+    },
+    {
+      "bytes": 962,
+      "path": "BRANCH_HANDOFF.md",
+      "sha256": "a35a355abcb23e00d9e060e6d9bce1842bcd3cb169acfd597c9b2eb08317c2d1"
+    },
+    {
+      "bytes": 7157,
+      "path": "OUTGOING_INSTRUCTIONS.md",
+      "sha256": "a8fc00df0dcac7c0d9ce0be12448549466052562b84dbfb2661245d433ad2e08"
+    },
+    {
+      "bytes": 685,
+      "path": "README.md",
+      "sha256": "958304eb1c0dd3700fb467512962493faaa816ed498d3e865662a0b2db3bf7f0"
+    },
+    {
+      "bytes": 769,
+      "path": "SOURCE_MAP.md",
+      "sha256": "87cc7804c5b8e5a8141b0d0b34cb42a0dcd09e6891f242254ccc535f460b9880"
+    },
+    {
+      "bytes": 365,
+      "path": "outputs/p5-b2-v3_audit-summary.json",
+      "sha256": "4aa56fa3664d1880bf6cc1276473adaff2a95abc65f0f1426310252825e504fe"
+    },
+    {
+      "bytes": 809,
+      "path": "outputs/p5-b2-v3_package-verification.json",
+      "sha256": "538ea7627e0f4dae23daa494b1eb7baa169a9b5fe62215a518a2f9b5b330fa86"
+    },
+    {
+      "bytes": 387,
+      "path": "outputs/p5-b2-v3_rebuild-verification.json",
+      "sha256": "c70876a8836e554992f8e09d9686194e5868187db1d4964e23585b7f03fec5c7"
+    },
+    {
+      "bytes": 2283,
+      "path": "outputs/p5-b2-v3_threshold-audit.json",
+      "sha256": "3bd7c7593aa1580b9df26f16a4a36c47c01ed7633804d9a9eb00c36f5b5a7beb"
+    },
+    {
+      "bytes": 14,
+      "path": "requirements.txt",
+      "sha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc"
+    },
+    {
+      "bytes": 4231,
+      "path": "scripts/p5-b2-v3_verify_agent_package.py",
+      "sha256": "116d1440ae407274a85e3d93d7b7a086587cde21b16d65f3d66c4420853c0fc6"
+    },
+    {
+      "bytes": 2704,
+      "path": "scripts/p5-b2-v3_verify_threshold_math.py",
+      "sha256": "5ccc93a66eb6e84419722c36506c38e4df71b0ac01c3bd8c5ca608020bf55b35"
+    },
+    {
+      "bytes": 3297,
+      "path": "source-extracts/20260711T113107_QBLGlobalThreshold.lean",
+      "sha256": "3ac4f057c688df9fdb3887bf0bcb54bd626733da93463cfda058c28645e97dea"
+    },
+    {
+      "bytes": 8055,
+      "path": "source-extracts/QBL_GLOBAL_EXACT_THRESHOLD_BRIDGE_v2.md",
+      "sha256": "04eb66a2fe85b1b5cbdd3bfe8cd6cf426123124d51582b6f17bfb93f8b2603b9"
+    },
+    {
+      "bytes": 490,
+      "path": "source-references/p5-b2-v3_audited-artifacts.json",
+      "sha256": "57d59627385722e1fb1b0c7fb55e0e1a8d21eca32a72ead6e11a7771cfcfb49d"
+    },
+    {
+      "bytes": 809,
+      "path": "trace/p5-b2-v3_package-verification.log",
+      "sha256": "538ea7627e0f4dae23daa494b1eb7baa169a9b5fe62215a518a2f9b5b330fa86"
+    },
+    {
+      "bytes": 2283,
+      "path": "trace/p5-b2-v3_threshold-audit.log",
+      "sha256": "3bd7c7593aa1580b9df26f16a4a36c47c01ed7633804d9a9eb00c36f5b5a7beb"
+    }
+  ],
+  "package_type": "audit-package",
+  "step_id": "p5-b2-v3",
+  "timestamp": "20260711T114641"
+}

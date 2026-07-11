@@ -1,0 +1,59 @@
+{
+  "mutation": "corrupt_selected_source_artifact",
+  "target_gate": "SELECTED_SOURCE_ARTIFACT_HASHES",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "SELECTED_SOURCE_ARTIFACT_HASHES",
+    "pass": false,
+    "detail": [
+      {
+        "path": "phase5_v7_closure_and_orientation/phase5_v7a_lean_sympy_jupyter_closure_attack/outputs/phase5_v7_falsification_targets.csv",
+        "expected_sha256": "bfe02a3b03e7278543f777ad5e16157a09db69c5260361fcc66cef3d892c50a9",
+        "actual_sha256": "bfe02a3b03e7278543f777ad5e16157a09db69c5260361fcc66cef3d892c50a9"
+      },
+      {
+        "path": "phase5_v7_closure_and_orientation/phase5_v7p_native_qbl_event_alphabet/docs/phase5_v7p_protocol_definitions.md",
+        "expected_sha256": "5458339157a1159c679c277d599f9130f1a5c0fad6a9debe8f86cf5762567f68",
+        "actual_sha256": "5458339157a1159c679c277d599f9130f1a5c0fad6a9debe8f86cf5762567f68"
+      },
+      {
+        "path": "phase5_v7_closure_and_orientation/phase5_v7c_doubled_carrier_reverification/outputs/phase5_v7c_primitive_origin_rerun.csv",
+        "expected_sha256": "4367b86bbae231e43ffd99dd71a760b0049db1722101f62971b11ddec17ff106",
+        "actual_sha256": "4367b86bbae231e43ffd99dd71a760b0049db1722101f62971b11ddec17ff106"
+      },
+      {
+        "path": "phase5_v7_closure_and_orientation/phase5_v7d_multi_axis_finite_quadratic_module_test/outputs/phase5_v7d_origin_audit.csv",
+        "expected_sha256": "bde654380bc57cbd8cb3bf5fed21192cc33b80eb005118a4b5c77166228671d2",
+        "actual_sha256": "bde654380bc57cbd8cb3bf5fed21192cc33b80eb005118a4b5c77166228671d2"
+      },
+      {
+        "path": "phase5_v7_closure_and_orientation/phase5_v7q_native_transition_assignment/docs/phase5_v7q_protocol_definitions.md",
+        "expected_sha256": "ae2d77534427c7e03fe40a3e3d270251b25fb66e9e9ddc8b0eff48de31abefd6",
+        "actual_sha256": "dca3a0d9ab1aab6cef0f380ca6ab334fe8dec44209a8bf5736a11a3ac2865998"
+      },
+      {
+        "path": "phase5_v7_closure_and_orientation/phase5_v7e_native_inter_axis_coupling_derivation/docs/phase5_v7e_coupling_candidate_definitions.md",
+        "expected_sha256": "df3280e21fb3daa13eddb40ed1f90fa3fe085f72e8f77e5a96b7ba082d9737fa",
+        "actual_sha256": "df3280e21fb3daa13eddb40ed1f90fa3fe085f72e8f77e5a96b7ba082d9737fa"
+      },
+      {
+        "path": "phase5_v7_closure_and_orientation/phase5_v7m_trace_cocycle_normal_form/source_notes/orthad_overset_grids_manifest.csv",
+        "expected_sha256": "de9412c94c5740c839b66824b7f69dd835421fde56f900a3ad3bf8b05866615d",
+        "actual_sha256": "de9412c94c5740c839b66824b7f69dd835421fde56f900a3ad3bf8b05866615d"
+      },
+      {
+        "path": "phase5_v7_closure_and_orientation/phase5_v7u_full_orthad_lens_compiler_binding/scripts/phase5_v7u_full_orthad_lens_compiler_binding.py",
+        "expected_sha256": "9dc25123bbf8b5e77f4ef65a93ce42c1e1580b6dfcdecb2ab32e79bfe4ef5c41",
+        "actual_sha256": "9dc25123bbf8b5e77f4ef65a93ce42c1e1580b6dfcdecb2ab32e79bfe4ef5c41"
+      },
+      {
+        "path": "phase5_v8_full_FQM_history/phase5_v8a_all_history_confluence_cocycle/docs/phase5_v8a_all_history_confluence_cocycle.md",
+        "expected_sha256": "b673fb41c9a7902f9cccdc31ac8ed6e9389318497ec9347f2720cb48cf577d91",
+        "actual_sha256": "b673fb41c9a7902f9cccdc31ac8ed6e9389318497ec9347f2720cb48cf577d91"
+      }
+    ]
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

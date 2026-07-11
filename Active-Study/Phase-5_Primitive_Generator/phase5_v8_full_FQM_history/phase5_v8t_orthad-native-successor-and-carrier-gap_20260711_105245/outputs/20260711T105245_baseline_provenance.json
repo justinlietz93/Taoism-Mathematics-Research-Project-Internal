@@ -1,0 +1,11 @@
+{
+  "baseline_zip": "20260711T105245_p5_v8s_ACCEPTED_BASELINE.zip",
+  "baseline_zip_sha256": "947211aa29891e0f454aac78478fb4e0567301f46e3b2909edfa8ba3e206c502",
+  "reused_evidence_paths": [
+    "inputs/reused_p5_v8r/20260711T085540_active_axis_trace.csv",
+    "inputs/reused_p5_v8r/20260711T085540_boundary_results.json",
+    "inputs/reused_p5_v8r/20260711T085540_custody_snapshots.json",
+    "trace/20260711T085540_reused_p5_v8r_primitive_trace.jsonl",
+    "outputs/20260711T085540_baseline_reused_evidence.csv"
+  ]
+}

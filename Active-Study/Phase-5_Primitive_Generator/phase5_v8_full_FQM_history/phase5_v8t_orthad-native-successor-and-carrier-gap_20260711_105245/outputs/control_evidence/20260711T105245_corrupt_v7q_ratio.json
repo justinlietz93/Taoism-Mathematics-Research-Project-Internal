@@ -1,0 +1,16 @@
+{
+  "mutation": "corrupt_v7q_ratio",
+  "target_gate": "V7Q_LOCAL_DESCENDANT_RECOMPUTED",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "V7Q_LOCAL_DESCENDANT_RECOMPUTED",
+    "pass": false,
+    "detail": {
+      "rows": 16,
+      "match": false
+    }
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

@@ -1,0 +1,28 @@
+{
+  "mutation": "wrong_next_pair",
+  "target_gate": "FIRST_NEXT_DOMAIN_B",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "FIRST_NEXT_DOMAIN_B",
+    "pass": false,
+    "detail": {
+      "A": 1,
+      "j": 7,
+      "k": 0,
+      "pair": [
+        1,
+        2
+      ],
+      "pair_product": 12816,
+      "phase_label": "i",
+      "phase_mod4": 1,
+      "phase_quarters": 5,
+      "u": 89,
+      "v": 144,
+      "word": "BQQBBBQBQBBQBBLB"
+    }
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

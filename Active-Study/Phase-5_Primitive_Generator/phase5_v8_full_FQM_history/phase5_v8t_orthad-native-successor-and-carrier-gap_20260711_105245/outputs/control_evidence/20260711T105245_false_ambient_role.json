@@ -1,0 +1,18 @@
+{
+  "mutation": "false_ambient_role",
+  "target_gate": "AMBIENT_ROLE",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "AMBIENT_ROLE",
+    "pass": false,
+    "detail": {
+      "coefficient_field": "NOT_CANONICALLY_FIXED",
+      "earliest_gap": "successor update/intertwining on the concrete product carrier",
+      "reason": "The clean law plus narrowly licensed v7c/v7d results fix a finite product carrier and point-index basis. Linearizing it as K[C_A] is useful for eigenvectors and bilinear forms, but K and the linearization are not new custody primitives and are not the earliest operational gap.",
+      "status": "DERIVED"
+    }
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

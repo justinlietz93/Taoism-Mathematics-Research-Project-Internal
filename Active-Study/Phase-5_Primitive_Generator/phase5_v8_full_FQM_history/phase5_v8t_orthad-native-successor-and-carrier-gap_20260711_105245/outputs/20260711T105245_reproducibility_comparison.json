@@ -1,0 +1,119 @@
+{
+  "contract": "NORMALIZED_SEMANTIC_REPRODUCIBILITY",
+  "compared_count": 17,
+  "matched_count": 17,
+  "all_match": true,
+  "normalized_exclusions": [
+    "MANIFEST.json",
+    "pytest and JUnit execution records",
+    "corruption-control evidence",
+    "Lean compiler availability record",
+    "executed-notebook kernel metadata and execution timing",
+    "preseal verification report",
+    "ZIP container timestamps and compression bytes"
+  ],
+  "rows": [
+    {
+      "path": "outputs/20260711T105245_baseline_sanity.json",
+      "sealed_sha256": "714f509b3dbdb1a9f5331111e477e6a6532af7a2ea11c8860f04911171d78a02",
+      "rebuild_sha256": "714f509b3dbdb1a9f5331111e477e6a6532af7a2ea11c8860f04911171d78a02",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_baseline_reuse_inventory.csv",
+      "sealed_sha256": "8088c7e76a17e95fec8615f318a2f02482d889c0439de78537b9f16ed6f3f661",
+      "rebuild_sha256": "8088c7e76a17e95fec8615f318a2f02482d889c0439de78537b9f16ed6f3f661",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_baseline_provenance.json",
+      "sealed_sha256": "6e7218db3ba0ac75f4cc008e35ea5a1bfb2ebae7abfd797336e12b32eee0d934",
+      "rebuild_sha256": "6e7218db3ba0ac75f4cc008e35ea5a1bfb2ebae7abfd797336e12b32eee0d934",
+      "match": true
+    },
+    {
+      "path": "trace/20260711T105245_primitive_trace.jsonl",
+      "sealed_sha256": "ba2d65f4194f17b1e710e728b5ca2467ccd6a589a1e211cfd81977246772041d",
+      "rebuild_sha256": "ba2d65f4194f17b1e710e728b5ca2467ccd6a589a1e211cfd81977246772041d",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_retained_carrier_prefix_table.csv",
+      "sealed_sha256": "e25135b4d91998dc39962f5748c5b3335ae7ee4ff552fa1d5f6b278000cc4341",
+      "rebuild_sha256": "e25135b4d91998dc39962f5748c5b3335ae7ee4ff552fa1d5f6b278000cc4341",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_native_successor_source_inventory.csv",
+      "sealed_sha256": "32b0bb6e8c013aa2ad2ea6382d476adfa1a9a2f3200b6b8aa872b64bf03ee0e7",
+      "rebuild_sha256": "32b0bb6e8c013aa2ad2ea6382d476adfa1a9a2f3200b6b8aa872b64bf03ee0e7",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_fixed_cyclic_successor_witness_D12.json",
+      "sealed_sha256": "0f295102ccc7a35f1089954944def05512479b7ce3d484e3f020d4a97b4f3da8",
+      "rebuild_sha256": "0f295102ccc7a35f1089954944def05512479b7ce3d484e3f020d4a97b4f3da8",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_fixed_cyclic_successor_witness_D24.json",
+      "sealed_sha256": "5f8d356abf1b86a43145ae899726ac5b5b2161eb5592ce091d90e330832915ce",
+      "rebuild_sha256": "5f8d356abf1b86a43145ae899726ac5b5b2161eb5592ce091d90e330832915ce",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_native_successor_recurrence_assessment.json",
+      "sealed_sha256": "5a74f75278e97ff4527541216bbccaa93949ab4caef49a29ef12a6aa1b6f9624",
+      "rebuild_sha256": "5a74f75278e97ff4527541216bbccaa93949ab4caef49a29ef12a6aa1b6f9624",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_ambient_module_role.json",
+      "sealed_sha256": "939c4360af02a2d69da7e2778ba3cd70b729e4522874de8e242c11198e19d353",
+      "rebuild_sha256": "939c4360af02a2d69da7e2778ba3cd70b729e4522874de8e242c11198e19d353",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_successor_to_pairing_bridge.json",
+      "sealed_sha256": "99fa5f42b0f3a9fc4eb54f1fe52b8766ff94dbd64f72992bc96e95a0011abba1",
+      "rebuild_sha256": "99fa5f42b0f3a9fc4eb54f1fe52b8766ff94dbd64f72992bc96e95a0011abba1",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_v7q_local_scalar_transition_ratios.csv",
+      "sealed_sha256": "3476502f2d2eb382004b1b7de0ab8501fb7bff76cf7c9e7e023624a2d5eabba1",
+      "rebuild_sha256": "3476502f2d2eb382004b1b7de0ab8501fb7bff76cf7c9e7e023624a2d5eabba1",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_v7e_shared_L_coupling_assessment.json",
+      "sealed_sha256": "f9d1a2aaed6e6a572f76f3c710690a7c490f9bb050602cc8614e0215bb15469f",
+      "rebuild_sha256": "f9d1a2aaed6e6a572f76f3c710690a7c490f9bb050602cc8614e0215bb15469f",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_historical_L_transition_reassessment.json",
+      "sealed_sha256": "24a666ff7941cd7ae9713adf6e345a8be205993189cd83dd749ec434a174f693",
+      "rebuild_sha256": "24a666ff7941cd7ae9713adf6e345a8be205993189cd83dd749ec434a174f693",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_bilinear_underdetermination_witness.json",
+      "sealed_sha256": "7d644fd359d151d3ba741c0a67f3b788d34a0bbb68d4dc984d4868ed81132bd4",
+      "rebuild_sha256": "7d644fd359d151d3ba741c0a67f3b788d34a0bbb68d4dc984d4868ed81132bd4",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_statuses.json",
+      "sealed_sha256": "9f8010d315a3994596fb502d3fdb7daf0466edfc611bca77c77926a017dacefc",
+      "rebuild_sha256": "9f8010d315a3994596fb502d3fdb7daf0466edfc611bca77c77926a017dacefc",
+      "match": true
+    },
+    {
+      "path": "outputs/20260711T105245_lineage_status.csv",
+      "sealed_sha256": "249e1af69006d9eea3937c9f884d498460bd1e4bab47976ceb4632460916be40",
+      "rebuild_sha256": "249e1af69006d9eea3937c9f884d498460bd1e4bab47976ceb4632460916be40",
+      "match": true
+    }
+  ]
+}

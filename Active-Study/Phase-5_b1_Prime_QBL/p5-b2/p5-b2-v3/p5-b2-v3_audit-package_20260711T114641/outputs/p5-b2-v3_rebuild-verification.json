@@ -1,0 +1,7 @@
+{
+  "builder_command": "python scripts/20260711T113107_build_package.py --package-root . --archive-dir <out> --verify --double-build",
+  "clean_rebuild_status": "PASS",
+  "returned_archive_sha256": "4c76d4aaa8c20eb36bb3d7cb8ad2a0d95705c1307ddea1bef02a69bbcc02a7f8",
+  "clean_rebuild_sha256": "4c76d4aaa8c20eb36bb3d7cb8ad2a0d95705c1307ddea1bef02a69bbcc02a7f8",
+  "byte_identical": true
+}

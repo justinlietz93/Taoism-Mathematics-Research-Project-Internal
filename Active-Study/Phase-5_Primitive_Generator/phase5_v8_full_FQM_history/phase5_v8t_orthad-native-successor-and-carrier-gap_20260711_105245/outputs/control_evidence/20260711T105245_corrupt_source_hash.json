@@ -1,0 +1,16 @@
+{
+  "mutation": "corrupt_source_hash",
+  "target_gate": "SOURCE_INVENTORY_RECOMPUTED",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "SOURCE_INVENTORY_RECOMPUTED",
+    "pass": false,
+    "detail": {
+      "actual_rows": 13,
+      "expected_rows": 13
+    }
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

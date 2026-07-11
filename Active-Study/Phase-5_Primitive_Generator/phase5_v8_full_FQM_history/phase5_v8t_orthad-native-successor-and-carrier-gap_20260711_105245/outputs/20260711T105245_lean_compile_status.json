@@ -1,0 +1,5 @@
+{
+  "status": "NOT_RUN_TOOL_UNAVAILABLE",
+  "tool": "lean",
+  "detail": "lean executable not found"
+}

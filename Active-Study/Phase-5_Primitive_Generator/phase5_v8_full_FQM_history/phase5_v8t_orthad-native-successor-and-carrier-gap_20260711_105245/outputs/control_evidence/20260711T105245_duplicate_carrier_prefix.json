@@ -1,0 +1,37 @@
+{
+  "mutation": "duplicate_carrier_prefix",
+  "target_gate": "CONCRETE_CARRIER_PREFIX_TABLE",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "CONCRETE_CARRIER_PREFIX_TABLE",
+    "pass": false,
+    "detail": {
+      "rows": 18,
+      "unique": 17,
+      "recomputed_match": false,
+      "last": {
+        "prefix_index": "16",
+        "primitive": "B",
+        "word_prefix": "BQQBBBQBQBBQBBLB",
+        "A": "1",
+        "u": "89",
+        "v": "144",
+        "phase_quarters": "5",
+        "k": "0",
+        "j": "7",
+        "N_A": "12",
+        "doubled_modulus_active_axis": "24",
+        "axis_block_count": "2",
+        "axis_moduli": "[12,24]",
+        "carrier_product_order": "288",
+        "point_basis": "delta_(r0,r1), r_i in Z/D_iZ",
+        "active_axis": "1",
+        "active_local_residue": "0",
+        "orientation_hand": "lap1; hand-transition action not yet derived"
+      }
+    }
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

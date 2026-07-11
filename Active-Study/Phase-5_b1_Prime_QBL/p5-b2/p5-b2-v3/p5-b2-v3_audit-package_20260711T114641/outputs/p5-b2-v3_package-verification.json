@@ -1,0 +1,28 @@
+{
+  "archive": "/mnt/data/p5-b2-v3_global-threshold-bridge_20260711T113107.zip",
+  "archive_sha256": "4c76d4aaa8c20eb36bb3d7cb8ad2a0d95705c1307ddea1bef02a69bbcc02a7f8",
+  "checks": {
+    "archive_sha256": true,
+    "document_sha256": true,
+    "extracted_figures": true,
+    "fixed_timestamps": true,
+    "lean_boundary_honest": true,
+    "manifest_count": true,
+    "manifest_coverage": true,
+    "manifest_hashes": true,
+    "notebook": true,
+    "single_expected_root": true,
+    "stable_ordering": true
+  },
+  "document_sha256": "04eb66a2fe85b1b5cbdd3bfe8cd6cf426123124d51582b6f17bfb93f8b2603b9",
+  "lean_sorry_count": 7,
+  "manifest_entries": 44,
+  "manifest_errors": [],
+  "notebook": {
+    "code_cells": 12,
+    "fail_cells": 0,
+    "inline_figures": 12,
+    "pass_cells": 12
+  },
+  "status": "PASS"
+}

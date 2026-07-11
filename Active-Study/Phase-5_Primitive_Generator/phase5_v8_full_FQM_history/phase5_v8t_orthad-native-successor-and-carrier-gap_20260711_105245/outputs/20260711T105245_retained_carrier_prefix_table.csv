@@ -1,0 +1,18 @@
+prefix_index,primitive,word_prefix,A,u,v,phase_quarters,k,j,N_A,doubled_modulus_active_axis,axis_block_count,axis_moduli,carrier_product_order,point_basis,active_axis,active_local_residue,orientation_hand
+0,SEED,,0,1,1,0,0,1,6,12,1,[12],12,"delta_r, r in Z/12Z",0,0,lap1; doubled partner retained but not yet traversed
+1,B,B,0,1,2,0,0,1,6,12,1,[12],12,"delta_(r0), r_i in Z/D_iZ",0,0,lap1; hand-transition action not yet derived
+2,Q,BQ,0,1,2,1,1,2,6,12,1,[12],12,"delta_(r0), r_i in Z/D_iZ",0,1,lap1; hand-transition action not yet derived
+3,Q,BQQ,0,1,2,2,2,3,6,12,1,[12],12,"delta_(r0), r_i in Z/D_iZ",0,2,lap1; hand-transition action not yet derived
+4,B,BQQB,0,2,3,2,2,3,6,12,1,[12],12,"delta_(r0), r_i in Z/D_iZ",0,2,lap1; hand-transition action not yet derived
+5,B,BQQBB,0,3,5,2,2,3,6,12,1,[12],12,"delta_(r0), r_i in Z/D_iZ",0,2,lap1; hand-transition action not yet derived
+6,B,BQQBBB,0,5,8,2,2,3,6,12,1,[12],12,"delta_(r0), r_i in Z/D_iZ",0,2,lap1; hand-transition action not yet derived
+7,Q,BQQBBBQ,0,5,8,3,3,4,6,12,1,[12],12,"delta_(r0), r_i in Z/D_iZ",0,3,lap1; hand-transition action not yet derived
+8,B,BQQBBBQB,0,8,13,3,3,4,6,12,1,[12],12,"delta_(r0), r_i in Z/D_iZ",0,3,lap1; hand-transition action not yet derived
+9,Q,BQQBBBQBQ,0,8,13,4,4,5,6,12,1,[12],12,"delta_(r0), r_i in Z/D_iZ",0,4,lap1; hand-transition action not yet derived
+10,B,BQQBBBQBQB,0,13,21,4,4,5,6,12,1,[12],12,"delta_(r0), r_i in Z/D_iZ",0,4,lap1; hand-transition action not yet derived
+11,B,BQQBBBQBQBB,0,21,34,4,4,5,6,12,1,[12],12,"delta_(r0), r_i in Z/D_iZ",0,4,lap1; hand-transition action not yet derived
+12,Q,BQQBBBQBQBBQ,0,21,34,5,5,6,6,12,1,[12],12,"delta_(r0), r_i in Z/D_iZ",0,5,lap1; hand-transition action not yet derived
+13,B,BQQBBBQBQBBQB,0,34,55,5,5,6,6,12,1,[12],12,"delta_(r0), r_i in Z/D_iZ",0,5,lap1; hand-transition action not yet derived
+14,B,BQQBBBQBQBBQBB,0,55,89,5,5,6,6,12,1,[12],12,"delta_(r0), r_i in Z/D_iZ",0,5,lap1; hand-transition action not yet derived
+15,L,BQQBBBQBQBBQBBL,1,55,89,5,0,7,12,24,2,"[12,24]",288,"delta_(r0,r1), r_i in Z/D_iZ",1,0,lap1; hand-transition action not yet derived
+16,B,BQQBBBQBQBBQBBLB,1,89,144,5,0,7,12,24,2,"[12,24]",288,"delta_(r0,r1), r_i in Z/D_iZ",1,0,lap1; hand-transition action not yet derived

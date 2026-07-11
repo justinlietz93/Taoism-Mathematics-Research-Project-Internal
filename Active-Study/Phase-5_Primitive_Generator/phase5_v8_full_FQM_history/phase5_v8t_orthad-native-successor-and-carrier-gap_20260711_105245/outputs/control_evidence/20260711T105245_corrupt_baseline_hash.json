@@ -1,0 +1,27 @@
+{
+  "mutation": "corrupt_baseline_hash",
+  "target_gate": "BASELINE_REUSE_PROVENANCE",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "BASELINE_REUSE_PROVENANCE",
+    "pass": false,
+    "detail": {
+      "provenance": {
+        "baseline_zip": "20260711T105245_p5_v8s_ACCEPTED_BASELINE.zip",
+        "baseline_zip_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "reused_evidence_paths": [
+          "inputs/reused_p5_v8r/20260711T085540_active_axis_trace.csv",
+          "inputs/reused_p5_v8r/20260711T085540_boundary_results.json",
+          "inputs/reused_p5_v8r/20260711T085540_custody_snapshots.json",
+          "trace/20260711T085540_reused_p5_v8r_primitive_trace.jsonl",
+          "outputs/20260711T085540_baseline_reused_evidence.csv"
+        ]
+      },
+      "rows": 5,
+      "recomputed_rows": 5
+    }
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

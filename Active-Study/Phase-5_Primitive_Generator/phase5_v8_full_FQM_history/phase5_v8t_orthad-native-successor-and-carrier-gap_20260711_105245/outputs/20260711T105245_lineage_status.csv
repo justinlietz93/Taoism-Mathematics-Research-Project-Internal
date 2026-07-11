@@ -1,0 +1,4 @@
+lineage,status,detail
+SPECIFIED_PHASE5_ARTIFACT_LINEAGE,PASS,"The specified v7p, v7q, v7m, v7u, and v8a artifacts are present, hashed, and inventoried; this is not a full external-corpus claim."
+EXTERNAL_OVERSET_SOURCE_CORPUS,INCOMPLETE,orthad_overset_grids.zip unavailable; v7m manifest and recorded SHA only.
+PRE_LEDGER_PRIMITIVE_ORIGIN_ARCHIVE,INCOMPLETE,phase5_v5_orthad_primitive_origin_audit_package.zip unavailable; v7c rerun evidence only.

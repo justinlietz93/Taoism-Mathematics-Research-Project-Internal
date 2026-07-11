@@ -1,0 +1,21 @@
+{
+  "mutation": "corrupt_successor_witness",
+  "target_gate": "FIXED_SUCCESSOR_D12_RECOMPUTED",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "FIXED_SUCCESSOR_D12_RECOMPUTED",
+    "pass": false,
+    "detail": {
+      "D": 12,
+      "all_checks_pass": false,
+      "dual_character": "chi_b(x)=exp(2*pi*i*b*x/D)",
+      "eigen_equation": "chi_b(s_D(x))=exp(2*pi*i*b/D)*chi_b(x)",
+      "exact_modular_checks": 144,
+      "single_cycle": true,
+      "successor": "s_D(x)=x+1 mod D"
+    }
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

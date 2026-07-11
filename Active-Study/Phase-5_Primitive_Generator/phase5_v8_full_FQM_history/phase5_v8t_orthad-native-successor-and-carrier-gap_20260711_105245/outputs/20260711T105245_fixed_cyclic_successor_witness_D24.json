@@ -1,0 +1,9 @@
+{
+  "D": 24,
+  "all_checks_pass": true,
+  "dual_character": "chi_b(x)=exp(2*pi*i*b*x/D)",
+  "eigen_equation": "chi_b(s_D(x))=exp(2*pi*i*b/D)*chi_b(x)",
+  "exact_modular_checks": 576,
+  "single_cycle": true,
+  "successor": "s_D(x)=x+1 mod D"
+}

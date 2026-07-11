@@ -1,0 +1,40 @@
+{
+  "interaction_id": "p5_v8t",
+  "verdict": "REVISE",
+  "adopt": [
+    "PRIMITIVE_BASELINE",
+    "DOMAIN0_DOUBLED_CYCLIC_SURFACE",
+    "RETAINED_AXIS_BLOCK_COUNT_AT_FIRST_L",
+    "FIXED_CYCLIC_SHIFT_IDENTITY_AS_HISTORICAL_DESCENDANT",
+    "NATIVE_SUCCESSOR_RECURRENCE_HARD_STOP",
+    "HISTORICAL_V7Q_LOCAL_COCHAIN",
+    "HISTORICAL_L_LOCAL_RATIO_NARROW_SCOPE",
+    "BILINEAR_NONUNIQUENESS_WITNESS",
+    "PACKAGE_VERIFIER_AND_CONTROLS"
+  ],
+  "revise_or_reject": {
+    "FIRST_L_PRODUCT_CARRIER": "NOT_YET_DERIVED",
+    "CANDIDATE_FIRST_L_PRODUCT_INDEX_SET": "Z/12Z x Z/24Z",
+    "NATIVE_SUCCESSOR_SEED": "NOT_YET_DERIVED",
+    "PRE_L_BQ_SUCCESSOR_RECURRENCE": "NOT_YET_DERIVED",
+    "FIRST_L_SUCCESSOR_EXTENSION": "BLOCKED",
+    "AMBIENT_SPECTRAL_MODULE_ROLE": "REQUIRED_DOWNSTREAM_NOT_EARLIEST_OPERATIONAL_GAP",
+    "V7E_FIRST_AXIS_BIRTH": "INPUT_TYPING_NOT_ESTABLISHED",
+    "RESPONSE_ZIP_INTEGRITY": "FAIL",
+    "PACKAGE_NAMING": "FAIL"
+  },
+  "actual_supplied_zip_sha256": "804411ba67fe95974d167177bc46173ff83fd3be36ef59d9c13b7c7fa68fd351",
+  "declared_zip_sha256": "02d43afacf23381020ef8aca42737d37aa1e10ac25d83480b3126b70be1d2d57",
+  "reproduction": {
+    "verifier_passed": 30,
+    "verifier_total": 30,
+    "pytest_passed": 14,
+    "pytest_total": 14,
+    "corruption_controls_fired": 21,
+    "corruption_controls_total": 21,
+    "manifest_archive_path_match": true,
+    "cache_or_bytecode_entries": 0
+  },
+  "next_interaction_id": "p5_v8u",
+  "next_experiment_name": "orthad-successor-seed-and-prefix-covariance"
+}

@@ -1,0 +1,10 @@
+{
+  "A_range": [
+    0,
+    12
+  ],
+  "row_count": 13,
+  "scope": "FINITE REGRESSION ONLY",
+  "status": "PASS",
+  "universal_theorem_source": "document and Lean theorem surface"
+}

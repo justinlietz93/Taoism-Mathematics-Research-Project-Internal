@@ -1,0 +1,7 @@
+{"claim": "exact Binet identity", "kind": "universal", "status": "PROVED IN DOCUMENT", "step": 1}
+{"claim": "uniform correction bound", "kind": "universal", "status": "PROVED IN DOCUMENT", "step": 2}
+{"claim": "power-of-two obstruction", "kind": "universal", "status": "PROVED IN DOCUMENT", "step": 3}
+{"claim": "integer-gap sign transfer", "kind": "universal", "status": "PROVED IN DOCUMENT", "step": 4}
+{"claim": "nonintegrality", "kind": "universal", "status": "PROVED IN DOCUMENT", "step": 5}
+{"claim": "global ceiling bridge", "kind": "universal", "status": "PROVED", "step": 6}
+{"claim": "threshold brackets A=0..12", "kind": "finite", "status": "PASS REGRESSION", "step": 7}

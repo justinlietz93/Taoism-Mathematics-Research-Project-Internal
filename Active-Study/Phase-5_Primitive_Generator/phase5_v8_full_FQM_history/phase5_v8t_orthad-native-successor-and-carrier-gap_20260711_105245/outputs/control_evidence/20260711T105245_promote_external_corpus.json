@@ -1,0 +1,13 @@
+{
+  "mutation": "promote_external_corpus",
+  "target_gate": "EXTERNAL_CORPUS_INCOMPLETE",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "EXTERNAL_CORPUS_INCOMPLETE",
+    "pass": false,
+    "detail": "AVAILABLE"
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

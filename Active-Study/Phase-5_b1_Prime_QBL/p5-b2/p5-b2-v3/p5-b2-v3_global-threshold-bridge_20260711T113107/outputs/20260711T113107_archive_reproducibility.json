@@ -1,0 +1,20 @@
+{
+  "final_archive_hash_recorded_externally": true,
+  "final_clean_copy_comparison_required_and_enforced": true,
+  "fixed_permissions": "0644 regular files",
+  "fixed_zip_timestamp": [
+    2020,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "method": "two clean package copies regenerated and deterministically archived",
+  "probe_archive_a_sha256": "962aa20584747a487e726b313c8e1f2b62761556970a7d35ce40f9eec7719356",
+  "probe_archive_b_sha256": "962aa20584747a487e726b313c8e1f2b62761556970a7d35ce40f9eec7719356",
+  "probe_byte_identical": true,
+  "stable_notebook_ids_and_metadata": true,
+  "stable_ordering": true,
+  "status": "PASS"
+}

@@ -1,0 +1,13 @@
+{
+  "mutation": "unexecute_notebook",
+  "target_gate": "EXECUTED_NOTEBOOK_COMPLETE",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "EXECUTED_NOTEBOOK_COMPLETE",
+    "pass": false,
+    "detail": 3
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

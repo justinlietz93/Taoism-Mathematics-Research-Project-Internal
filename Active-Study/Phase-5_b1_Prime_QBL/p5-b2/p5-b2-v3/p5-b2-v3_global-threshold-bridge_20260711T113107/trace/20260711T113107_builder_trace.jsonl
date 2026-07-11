@@ -1,0 +1,3 @@
+{"stage": "derivation", "status": "PASS"}
+{"cells": 12, "stage": "notebook", "status": "PASS"}
+{"stage": "lean", "status": "LEAN SOURCE PRESENT; COMPILATION NOT VERIFIED"}

@@ -1,0 +1,190 @@
+{
+  "finite_regressions": {
+    "binet_max_error": "6.30929039987815790183112518665e-98",
+    "correction_max": "0.218033988749894848204586834366",
+    "pass": true,
+    "power_two_hits": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "scope": "FINITE REGRESSION ONLY",
+    "threshold_rows": [
+      {
+        "A": 0,
+        "T": 9,
+        "X_lt_hi": true,
+        "lo_lt_X": true
+      },
+      {
+        "A": 1,
+        "T": 27,
+        "X_lt_hi": true,
+        "lo_lt_X": true
+      },
+      {
+        "A": 2,
+        "T": 61,
+        "X_lt_hi": true,
+        "lo_lt_X": true
+      },
+      {
+        "A": 3,
+        "T": 130,
+        "X_lt_hi": true,
+        "lo_lt_X": true
+      },
+      {
+        "A": 4,
+        "T": 269,
+        "X_lt_hi": true,
+        "lo_lt_X": true
+      },
+      {
+        "A": 5,
+        "T": 545,
+        "X_lt_hi": true,
+        "lo_lt_X": true
+      },
+      {
+        "A": 6,
+        "T": 1098,
+        "X_lt_hi": true,
+        "lo_lt_X": true
+      },
+      {
+        "A": 7,
+        "T": 2205,
+        "X_lt_hi": true,
+        "lo_lt_X": true
+      },
+      {
+        "A": 8,
+        "T": 4417,
+        "X_lt_hi": true,
+        "lo_lt_X": true
+      },
+      {
+        "A": 9,
+        "T": 8842,
+        "X_lt_hi": true,
+        "lo_lt_X": true
+      },
+      {
+        "A": 10,
+        "T": 17692,
+        "X_lt_hi": true,
+        "lo_lt_X": true
+      },
+      {
+        "A": 11,
+        "T": 35392,
+        "X_lt_hi": true,
+        "lo_lt_X": true
+      },
+      {
+        "A": 12,
+        "T": 70792,
+        "X_lt_hi": true,
+        "lo_lt_X": true
+      }
+    ]
+  },
+  "global_bridge": "PROVED",
+  "universal_proof_obligations": {
+    "dependency_graph": {
+      "document_markers": {
+        "binet": true,
+        "correction": true,
+        "global": true,
+        "integer_gap": true,
+        "nonintegrality": true,
+        "power_two": true
+      },
+      "lean_theorem_markers": {
+        "correction_abs_lt_quarter": true,
+        "correction_sign": true,
+        "exact_binet_product_identity": true,
+        "fibonacci_product_power_two_only": true,
+        "global_threshold_bridge": true,
+        "integer_gap_sign_transfer": true,
+        "leading_term_separation": true,
+        "threshold_equality_obstruction": true,
+        "y_nonintegral": true
+      },
+      "obligations": {
+        "U1_exact_binet_identity": {
+          "depends_on": [],
+          "mode": "exact_symbolic_algebra_plus_document_theorem",
+          "present": true,
+          "resolved": true
+        },
+        "U2_uniform_correction_bound": {
+          "depends_on": [
+            "U1_exact_binet_identity"
+          ],
+          "mode": "exact_parity_worst_case_inequalities_plus_document_theorem",
+          "present": true,
+          "resolved": true
+        },
+        "U3_power_of_two_obstruction": {
+          "depends_on": [],
+          "mode": "abstract_coprimality_argument_in_document_and_lean_surface",
+          "present": true,
+          "resolved": true
+        },
+        "U4_integer_gap_sign_transfer": {
+          "depends_on": [
+            "U1_exact_binet_identity",
+            "U2_uniform_correction_bound",
+            "U3_power_of_two_obstruction"
+          ],
+          "mode": "generic_integer_lemma",
+          "present": true,
+          "resolved": true
+        },
+        "U5_nonintegrality": {
+          "depends_on": [
+            "U2_uniform_correction_bound",
+            "U3_power_of_two_obstruction"
+          ],
+          "mode": "contradiction_from_U2_U3",
+          "present": true,
+          "resolved": true
+        },
+        "U6_global_ceiling_bridge": {
+          "depends_on": [
+            "U4_integer_gap_sign_transfer",
+            "U5_nonintegrality"
+          ],
+          "mode": "monotone_log_reduction_plus_U4_U5",
+          "present": true,
+          "resolved": true
+        }
+      },
+      "pass": true
+    },
+    "note": "Universal status is supplied by exact algebra plus the document/Lean theorem surface, not by finite sampling.",
+    "status": "PROVED",
+    "symbolic": {
+      "checks": {
+        "binet_cross_term_reduction": true,
+        "even_correction_margin_positive": true,
+        "odd_correction_margin_positive": true,
+        "phi_fifth_gt_four": true,
+        "phi_minus_inverse_equals_one": true
+      },
+      "exact_values": {
+        "even_margin": "1/20",
+        "odd_margin": "23/20 - sqrt(5)/2",
+        "phi5_minus4": "3/2 + 5*sqrt(5)/2"
+      },
+      "pass": true
+    }
+  }
+}

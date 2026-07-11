@@ -1,0 +1,11 @@
+{
+  "step_id": "p5-b2-v3",
+  "verdict": "ADOPT",
+  "branch_status": "CLOSED",
+  "global_threshold_bridge": "PROVED",
+  "archive_integrity": "PASS",
+  "clean_rebuild": "BYTE-IDENTICAL",
+  "lean_status": "SOURCE PRESENT; COMPILATION NOT VERIFIED",
+  "next_step": "p5-b3-v1",
+  "next_branch_target": "hierarchical grammar-lift and internal QBL-to-affine factor map"
+}

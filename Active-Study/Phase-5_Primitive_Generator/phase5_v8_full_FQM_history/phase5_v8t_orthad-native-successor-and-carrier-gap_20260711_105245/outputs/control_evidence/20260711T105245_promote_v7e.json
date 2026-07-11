@@ -1,0 +1,20 @@
+{
+  "mutation": "promote_v7e",
+  "target_gate": "V7E_SCOPE",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "V7E_SCOPE",
+    "pass": false,
+    "detail": {
+      "disposition": "MODERN_PRIMARY_TRANSFER",
+      "first_L_input": "one completed axis and one newborn axis with no pre-latch history",
+      "formula": "c_boundary=sum sign*(q_i+1)*(q_j+1) mod lcm(D_i,D_j)",
+      "modern_primary_pairing_or_transfer": "NOT_LICENSED",
+      "reason": "Supplying q_j=0 for the unborn axis would be an invented datum; the extractor was tested on constructed two-axis shared-latch histories.",
+      "required_input": "two preexisting axes with retained Q-depths before one shared L-boundary"
+    }
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

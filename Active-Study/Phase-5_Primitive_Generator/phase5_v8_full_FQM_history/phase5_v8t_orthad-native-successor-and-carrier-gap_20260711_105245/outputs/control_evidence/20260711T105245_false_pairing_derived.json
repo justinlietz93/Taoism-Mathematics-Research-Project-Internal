@@ -1,0 +1,20 @@
+{
+  "mutation": "false_pairing_derived",
+  "target_gate": "PAIRING_BRIDGE_OPEN",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "PAIRING_BRIDGE_OPEN",
+    "pass": false,
+    "detail": {
+      "canon_phrase": "pairing is the eigenbasis/eigenform of the native successor",
+      "first_missing_equation": "P_t(delta_x,delta_y) or P_t(delta_x,chi_b) as an explicit function of the successor spectral data, with B/Q/L covariance and L block extension.",
+      "fixed_factor_clue": "For s_D on Z/DZ, characters chi_b are forced eigenvectors and the normalized Fourier kernel is a constrained descendant after choosing C and normalization.",
+      "status": "DERIVED",
+      "status_line": "PRIMARY_PAIRING_RECURRENCE: NOT_YET_DERIVED",
+      "type_problem": "A pairing is a bilinear or sesquilinear map; an eigenbasis is a basis. The source does not state whether P is evaluation in the eigencharacter basis, a Gram form diagonalized by that basis, or the Fourier transition kernel."
+    }
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+  "mutation": "inject_withdrawn_test",
+  "target_gate": "NO_WITHDRAWN_CURRENT_TESTS",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "NO_WITHDRAWN_CURRENT_TESTS",
+    "pass": false,
+    "detail": [
+      "tau_0 is the smallest gap"
+    ]
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

@@ -1,0 +1,28 @@
+{
+  "mutation": "reset_pair_at_L",
+  "target_gate": "POST_L_CARRY",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "POST_L_CARRY",
+    "pass": false,
+    "detail": {
+      "A": 1,
+      "j": 7,
+      "k": 0,
+      "pair": [
+        1,
+        1
+      ],
+      "pair_product": 4895,
+      "phase_label": "i",
+      "phase_mod4": 1,
+      "phase_quarters": 5,
+      "u": 55,
+      "v": 89,
+      "word": "BQQBBBQBQBBQBBL"
+    }
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+  "mutation": "remove_source_inventory",
+  "target_gate": "REQUIRED_FILES",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "REQUIRED_FILES",
+    "pass": false,
+    "detail": [
+      "outputs/20260711T105245_native_successor_source_inventory.csv"
+    ]
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

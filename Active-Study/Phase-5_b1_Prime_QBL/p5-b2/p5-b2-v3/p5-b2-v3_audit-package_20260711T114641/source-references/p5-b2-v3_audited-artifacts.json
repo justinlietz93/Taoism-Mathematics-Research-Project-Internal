@@ -1,0 +1,14 @@
+{
+  "agent_archive": {
+    "name": "p5-b2-v3_global-threshold-bridge_20260711T113107.zip",
+    "sha256": "4c76d4aaa8c20eb36bb3d7cb8ad2a0d95705c1307ddea1bef02a69bbcc02a7f8"
+  },
+  "primary_document": {
+    "name": "QBL_GLOBAL_EXACT_THRESHOLD_BRIDGE_v2.md",
+    "sha256": "04eb66a2fe85b1b5cbdd3bfe8cd6cf426123124d51582b6f17bfb93f8b2603b9"
+  },
+  "clean_rebuild": {
+    "sha256": "4c76d4aaa8c20eb36bb3d7cb8ad2a0d95705c1307ddea1bef02a69bbcc02a7f8",
+    "byte_identical_to_uploaded": true
+  }
+}

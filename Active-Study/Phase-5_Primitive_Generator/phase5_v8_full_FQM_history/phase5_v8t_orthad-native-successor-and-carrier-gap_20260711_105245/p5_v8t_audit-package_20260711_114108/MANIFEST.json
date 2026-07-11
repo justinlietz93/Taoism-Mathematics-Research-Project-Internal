@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "bytes": 381,
+      "path": "README.md",
+      "sha256": "84c21b9aee64fbdc0157263d2d2dd5fb2dfc4add801d176b59b601e212dbaa7f"
+    },
+    {
+      "bytes": 472,
+      "path": "inputs/p5_v8t_AGENT_RESPONSE_20260711T114108.txt",
+      "sha256": "2ec2a2036d2202e6fa5c118ea2aaff41d40b47e882244d15244ccc5e992c18a3"
+    },
+    {
+      "bytes": 1524,
+      "path": "outputs/p5_v8t_AUDIT_RESULTS_20260711T114108.json",
+      "sha256": "ae34dc8b943359bac413c3559bf0269cf9c66e0d7d45ec1d54925819a2e053d1"
+    },
+    {
+      "bytes": 677,
+      "path": "outputs/p5_v8t_REPRODUCTION_20260711T114108.json",
+      "sha256": "d9fdd9cca2a459a8a080326bed6e4f79ed050545350539324d715fb2572f4246"
+    },
+    {
+      "bytes": 9510,
+      "path": "p5_v8t_AUDIT_REPORT_20260711T114108.md",
+      "sha256": "f1dd8c04228666fd50d0def21b231b06847f068dd9a5a7d253a4b0a35ee39a32"
+    },
+    {
+      "bytes": 6088,
+      "path": "p5_v8u_AGENT_INSTRUCTIONS_20260711T114108.md",
+      "sha256": "80607eb8836f569cebb2b785faf966dc8ab3d24e20439463fa8fb40b6e5fdde1"
+    },
+    {
+      "bytes": 899,
+      "path": "source_maps/p5_v8t_SOURCE_MAP_20260711T114108.md",
+      "sha256": "a1b2f8465bcc4d6671919ff39dac07e9310d2f488c4cf0e05ad4a6b15ee13b18"
+    }
+  ],
+  "root": "p5_v8t_audit-package_20260711_114108",
+  "schema": "audit-package-manifest-v1"
+}

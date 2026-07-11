@@ -1,0 +1,8 @@
+{
+  "disposition": "RECONSTRUCTION_CLUE_NOT_APPLICABLE_TO_FIRST_AXIS_BIRTH",
+  "first_L_input": "one completed axis and one newborn axis with no pre-latch history",
+  "formula": "c_boundary=sum sign*(q_i+1)*(q_j+1) mod lcm(D_i,D_j)",
+  "modern_primary_pairing_or_transfer": "NOT_LICENSED",
+  "reason": "Supplying q_j=0 for the unborn axis would be an invented datum; the extractor was tested on constructed two-axis shared-latch histories.",
+  "required_input": "two preexisting axes with retained Q-depths before one shared L-boundary"
+}

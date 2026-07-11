@@ -1,0 +1,8 @@
+{
+  "global_pair_and_phase_carry": true,
+  "historical_ratio": "T(L)=lens_newborn/lens_latched = 1/(i/4895) = 4895*i^3",
+  "historical_role": "CONDITIONALLY_LICENSED_LOCAL_SCALAR_COCHAIN",
+  "modern_role": "NOT_A_PRIMARY_PAIRING_OR_CROSS_CHART_TRANSFER_LAW",
+  "new_local_active_axis_identity": true,
+  "reason": "The ratio compares two local scalar slots. It does not specify the successor extension, mixed pairing block, chart embeddings, or directed transfer."
+}

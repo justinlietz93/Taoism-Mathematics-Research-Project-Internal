@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "total": 14,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "stdout": "14 passed in 0.12s",
+  "stderr": ""
+}

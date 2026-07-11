@@ -1,0 +1,15 @@
+{
+  "mutation": "emit_projection",
+  "target_gate": "DOWNSTREAM_CLOSED",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "DOWNSTREAM_CLOSED",
+    "pass": false,
+    "detail": [
+      "outputs/20260711T105245_projection_rows.csv"
+    ]
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}

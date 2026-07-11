@@ -1,0 +1,11 @@
+Executed `p5_v8t`.
+
+Declared package: `p5_v8t_orthad-native-successor-and-carrier-gap_20260711_105245.zip`
+Declared SHA-256: `02d43afacf23381020ef8aca42737d37aa1e10ac25d83480b3126b70be1d2d57`
+
+Headline result:
+- concrete retained carrier claimed as Z/12Z before first L and Z/12Z x Z/24Z after L;
+- fixed cyclic successors verified for D=12 and D=24;
+- native successor recurrence reported open;
+- first missing map claimed as Phi_L^S;
+- downstream Orthad layers not run.

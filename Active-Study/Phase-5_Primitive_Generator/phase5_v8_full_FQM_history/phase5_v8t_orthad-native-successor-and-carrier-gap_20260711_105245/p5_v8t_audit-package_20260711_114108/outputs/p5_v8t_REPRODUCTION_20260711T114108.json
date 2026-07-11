@@ -1,0 +1,12 @@
+{
+  "source_zip": "phase5_v8t_orthad-native-successor-and-carrier-gap_20260711_105245.zip",
+  "source_zip_sha256": "804411ba67fe95974d167177bc46173ff83fd3be36ef59d9c13b7c7fa68fd351",
+  "declared_response_sha256": "02d43afacf23381020ef8aca42737d37aa1e10ac25d83480b3126b70be1d2d57",
+  "verifier_command": "PYTHONDONTWRITEBYTECODE=1 python scripts/20260711T105245_verify.py <source-zip>",
+  "verifier_exit_code": 0,
+  "verifier_gates": "30/30",
+  "pytest": "14/14",
+  "corruption_controls": "21/21",
+  "internal_manifest_path_set": "exact",
+  "audit_note": "Mechanical verification confirms internal consistency. It does not prove the package's product-carrier licensing step."
+}

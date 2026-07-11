@@ -1,0 +1,51 @@
+{
+  "P0": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "P2": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "admissible_class": "nondegenerate symmetric bilinear forms on Q^2 with fixed restrictions on coordinate lines",
+  "determinants": [
+    1,
+    -3
+  ],
+  "different_mixed_terms": true,
+  "field": "Q",
+  "mixed_terms": [
+    0,
+    2
+  ],
+  "nondegenerate": [
+    true,
+    true
+  ],
+  "pass": true,
+  "restriction_to_span_e1": [
+    1,
+    1
+  ],
+  "restriction_to_span_e2": [
+    1,
+    1
+  ],
+  "same_diagonal_restrictions": true,
+  "symmetric": [
+    true,
+    true
+  ]
+}

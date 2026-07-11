@@ -1,0 +1,46 @@
+Completed `p5-b2-v3`. The accepted mathematical proof is unchanged; the delivery and proof-companion layers are repaired.
+
+[Corrected research document](sandbox:/mnt/data/QBL_GLOBAL_EXACT_THRESHOLD_BRIDGE_v2.md)
+
+[Final deterministic experiment package](sandbox:/mnt/data/p5-b2-v3_global-threshold-bridge_20260711T113107.zip)
+
+[Archive SHA-256 file](sandbox:/mnt/data/p5-b2-v3_global-threshold-bridge_20260711T113107.zip.sha256)
+
+```text
+Document SHA-256:
+04eb66a2fe85b1b5cbdd3bfe8cd6cf426123124d51582b6f17bfb93f8b2603b9
+
+Returned ZIP SHA-256:
+4c76d4aaa8c20eb36bb3d7cb8ad2a0d95705c1307ddea1bef02a69bbcc02a7f8
+```
+
+Verification completed against the exact returned archive:
+
+```text
+Manifest entries:                  44
+Notebook cells passing:            12/12
+Figures:                           12
+Manifest verification:             PASS
+Archive hash verification:         PASS
+Stable ZIP ordering:               PASS
+Two clean-copy archive builds:     BYTE-IDENTICAL
+Final release vs clean-copy ZIP:   BYTE-IDENTICAL
+```
+
+The derivation script now separates universal proof dependencies from finite regression checks and refuses to emit `PROVED` unless the symbolic obligations, document theorem markers, and Lean theorem-surface markers are all present and consistent.
+
+The notebook labels sampled computations only as finite regressions. Exact symbolic cells cover the Binet reduction and correction-bound margins.
+
+The Lean source now states the complete theorem surface, but Lean was unavailable:
+
+```text
+LEAN SOURCE PRESENT; COMPILATION NOT VERIFIED
+```
+
+```text
+GLOBAL T_A=ceil(y_A) BRIDGE: PROVED
+SPECIFIC-ORBIT EQUIDISTRIBUTION: NOT PROVED
+GAUGE/FQM MAP FROM d_A=±1: NOT YET DERIVED
+p5-b2 BRANCH STATUS: CLOSED
+```
+

@@ -1,0 +1,21 @@
+{
+  "mutation": "false_successor_derived",
+  "target_gate": "SUCCESSOR_HARD_STOP",
+  "verifier_exit_code": 1,
+  "observed_failure": {
+    "gate": "SUCCESSOR_HARD_STOP",
+    "pass": false,
+    "detail": {
+      "also_missing": "Phi_B^S and Phi_Q^S tying the clean primitive updates to the successor rather than merely leaving a historical fixed shift unchanged",
+      "carrier_formula": "C_A = product_{r=0..A} Z/(2 N_r)Z, N_r=6*2^r",
+      "case_selected": "CASE_2_RETAINED_CARRIER_DEFINED_NATIVE_SUCCESSOR_UPDATE_MISSING",
+      "first_exact_missing_map": "Phi_L^S: (S_0 on Z/12Z, X_before_L, W_before_L) -> S_1 on Z/12Z x Z/24Z, including whether S_1 is one global cycle or a family of commuting factor successors and the inherited/newborn intertwining equations",
+      "fixed_factor_descendant": "s_D(x)=x+1 mod D is rederived on D=12 and D=24",
+      "not_enough": "The v7c fixed cyclic successor does not state a word-dependent B/Q/L recurrence or first-L extension.",
+      "status": "DERIVED"
+    }
+  },
+  "fired": true,
+  "timed_out": false,
+  "stderr": ""
+}
