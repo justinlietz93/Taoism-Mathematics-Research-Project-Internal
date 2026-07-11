@@ -1,0 +1,240 @@
+{
+  "excluded": [
+    "MANIFEST.json"
+  ],
+  "files": [
+    {
+      "bytes": 1114,
+      "path": "FINDINGS.md",
+      "sha256": "62ec0bc284d219e22540568507b27d02ef6bad52b6720a154f316f00546cbf8b"
+    },
+    {
+      "bytes": 1042,
+      "path": "README.md",
+      "sha256": "2c2ee1f7e8a2a937df4eb772d74480cf20c44ef151da5ed37c19152f3cb2d1a3"
+    },
+    {
+      "bytes": 625,
+      "path": "docs/20260711T120831_RESULTS.md",
+      "sha256": "05be9696a3ff11c2b420985ffd740b27753690d7e1eabb26e7414b62880b2083"
+    },
+    {
+      "bytes": 16791,
+      "path": "docs/QBL_HIERARCHICAL_GRAMMAR_LIFT_v1.md",
+      "sha256": "8e87b2b0dd6c991bc0d66b2eee51f6f8a4b6c736b96b268e0f51ce50f0dd0fab"
+    },
+    {
+      "bytes": 21521,
+      "path": "figures/20260711T120831_claim_01.png",
+      "sha256": "2ddca5268211138179f15c8b524cc9ef29513b3f424a7789d2535c7c2bec7e4c"
+    },
+    {
+      "bytes": 24118,
+      "path": "figures/20260711T120831_claim_02.png",
+      "sha256": "45521ad86300e3f68cf9b61f9ef8f0bd855a1a769eff99903910a69e1aece784"
+    },
+    {
+      "bytes": 19288,
+      "path": "figures/20260711T120831_claim_03.png",
+      "sha256": "85c85b9421dff220cafebf5decdb70ba18d651e378c8a2bdb2c3f5c996b6c6a2"
+    },
+    {
+      "bytes": 32434,
+      "path": "figures/20260711T120831_claim_04.png",
+      "sha256": "d50caa0045fd5de9c07e45cd6d89aed06d912fdb0cf52235e690d364fb1c450e"
+    },
+    {
+      "bytes": 29161,
+      "path": "figures/20260711T120831_claim_05.png",
+      "sha256": "669d182949f3cbd5e1ed46767bc06bfa62f9f46f5431d1d0db00f4ef24774942"
+    },
+    {
+      "bytes": 15822,
+      "path": "figures/20260711T120831_claim_06.png",
+      "sha256": "3723cfd87c8f6a2d0eaef6bd21808f47c691ef8f0882cf2861dc6ffd6c6cbee2"
+    },
+    {
+      "bytes": 10178,
+      "path": "figures/20260711T120831_claim_07.png",
+      "sha256": "a96ad8e8796011fda473bc17103011ae2c9bfb7b26a3c30d1f69b7c14706402b"
+    },
+    {
+      "bytes": 19184,
+      "path": "figures/20260711T120831_claim_08.png",
+      "sha256": "8cc7411a094a02910b61e4c258c3810c9144979e9d86616ff04b9b08dc5149c9"
+    },
+    {
+      "bytes": 14381,
+      "path": "figures/20260711T120831_claim_09.png",
+      "sha256": "c79a6abdd76b7b8233430b0c6d12a5df135d72a76573546cc8ccd5e78456e1e9"
+    },
+    {
+      "bytes": 24179,
+      "path": "figures/20260711T120831_claim_10.png",
+      "sha256": "6783f13ed408e80a07af8886637715c22334429f612f31aff528829762084ef3"
+    },
+    {
+      "bytes": 27958,
+      "path": "figures/20260711T120831_claim_11.png",
+      "sha256": "4c57f0f047c4d2d6170bb0660f583425b1e35472fc414c80105f316fd3922984"
+    },
+    {
+      "bytes": 30113,
+      "path": "figures/20260711T120831_claim_12.png",
+      "sha256": "d29f4a7759d5dc069997c5a655f5b57dd3408b7b105e65d6d7142bb03c855adf"
+    },
+    {
+      "bytes": 916,
+      "path": "inputs/20260711T120831_ASSUMPTION_LOCK.md",
+      "sha256": "0ab8bb9d45e5760f03c8e3a1bcdc7709746c9aa7cf295fa61fc4b04f42bb6c1f"
+    },
+    {
+      "bytes": 951,
+      "path": "inputs/20260711T120831_CF03_ACTIVE_DEPTH_EXTRACT.md",
+      "sha256": "3bbbeffb097d223be0c538286fb785a2ab3fcc354e1a36314a2202f0cfb323cd"
+    },
+    {
+      "bytes": 21667,
+      "path": "inputs/20260711T120831_QBL_CARRY_AFFINE_FOLLOWER_STRUCTURE_v5.md",
+      "sha256": "46996ac568f205d6a7cbb200a2c4108e77cec2b3e3b8e13a8aa5ffb854cba8ed"
+    },
+    {
+      "bytes": 8055,
+      "path": "inputs/20260711T120831_QBL_GLOBAL_EXACT_THRESHOLD_BRIDGE_v2.md",
+      "sha256": "04eb66a2fe85b1b5cbdd3bfe8cd6cf426123124d51582b6f17bfb93f8b2603b9"
+    },
+    {
+      "bytes": 29584,
+      "path": "inputs/20260711T120831_QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+      "sha256": "f0f66790bf6da0b3fca9a400da36ff5879db4b3e861703ef3a309829a2af9962"
+    },
+    {
+      "bytes": 679,
+      "path": "inputs/20260711T120831_SOURCE_HASHES.json",
+      "sha256": "ffd4ba1ac57759b162d94e83690343746d70dd0c56e406f8a28981574f4416b3"
+    },
+    {
+      "bytes": 676,
+      "path": "inputs/20260711T120831_STRONG_EXPLICIT_NOTE_EXTRACT.md",
+      "sha256": "b8f2c8d85b822be87007efbd0bee82857048aa1e6f7128e3d0887047e26f4ca0"
+    },
+    {
+      "bytes": 4399,
+      "path": "inputs/20260711T120831_p5-b2-v3_AUDIT_RESULTS.md",
+      "sha256": "75e0ce27541c044943f396ece7cd9569b3adbb5d4c0eaf5c1baf78eae6a7b8ea"
+    },
+    {
+      "bytes": 962,
+      "path": "inputs/20260711T120831_p5-b2-v3_BRANCH_HANDOFF.md",
+      "sha256": "a35a355abcb23e00d9e060e6d9bce1842bcd3cb169acfd597c9b2eb08317c2d1"
+    },
+    {
+      "bytes": 894,
+      "path": "lab-journal.md",
+      "sha256": "086724aa683c61bcb41534f62654076594b7ae5c428a84ea48656a3154a72761"
+    },
+    {
+      "bytes": 99746,
+      "path": "notebooks/20260711T120831_Hierarchical_Grammar_Lift.ipynb",
+      "sha256": "b0e0a03978a16f06abaff8a3a65356e0122634034dcc71a9148a3f07195d35c4"
+    },
+    {
+      "bytes": 464135,
+      "path": "notebooks/20260711T120831_Hierarchical_Grammar_Lift_executed.ipynb",
+      "sha256": "f399cf685b2636526eb28657c9dc44e90c78853be2dd0a5a26d13d7279942f14"
+    },
+    {
+      "bytes": 152,
+      "path": "outputs/20260711T120831_alphabet_role_comparison.csv",
+      "sha256": "e24050caec2cff6680f081b783847376b4c0aa75773c4c200eeb76a78f129c22"
+    },
+    {
+      "bytes": 61451,
+      "path": "outputs/20260711T120831_boundary_states.csv",
+      "sha256": "f84e261fed209d69a8af5785cd0f4557f72829548af6746902cf881aacf9511b"
+    },
+    {
+      "bytes": 235,
+      "path": "outputs/20260711T120831_build_summary.json",
+      "sha256": "036fbd1cfd06334ca6db00833a84c4ae94728a25bf2efa6ac66615077d2efdc8"
+    },
+    {
+      "bytes": 1208,
+      "path": "outputs/20260711T120831_derivation_verification.json",
+      "sha256": "806381e08023a8bd6f9d62ee8f833e51d3ee46940aa0a93959c8c8f39f379968"
+    },
+    {
+      "bytes": 588,
+      "path": "outputs/20260711T120831_factor_map.json",
+      "sha256": "1efc6dc29427349211f7f5401143d02260af075beceff324673248cf2dd61922"
+    },
+    {
+      "bytes": 322,
+      "path": "outputs/20260711T120831_hierarchy_alignment.json",
+      "sha256": "f7e698ebfb338a6d0ef59170df42966f0d0bde410ddb604f5d9b87b8663c6b77"
+    },
+    {
+      "bytes": 380,
+      "path": "outputs/20260711T120831_higher_order_L_criteria.csv",
+      "sha256": "eb44be5cab41d474e9539b57228bfbd26f19acfb49cff99eb4becd2e309f3bd7"
+    },
+    {
+      "bytes": 385,
+      "path": "outputs/20260711T120831_negative_controls.json",
+      "sha256": "210364709c3041e0bacc4831989dbff0693e6a8019a5101eb5bab0e717c31b6b"
+    },
+    {
+      "bytes": 831,
+      "path": "outputs/20260711T120831_status.json",
+      "sha256": "a2afa1de61896ac800c9983a4a550934d158ab4387c12c4689e0199b1b82cd28"
+    },
+    {
+      "bytes": 2533,
+      "path": "proofs/20260711T120831_QBLHierarchicalGrammarLift.lean",
+      "sha256": "dac7f0dd5d920ef4f2574de9a1f40505fc4be15d8fa750c1d82698b65d09809e"
+    },
+    {
+      "bytes": 98,
+      "path": "proofs/20260711T120831_lean_compiler.log",
+      "sha256": "e4990d10309cbb7ea66198fbc7fdece3b4e216122e9ba5353ca3169d6567a77f"
+    },
+    {
+      "bytes": 81,
+      "path": "requirements.txt",
+      "sha256": "495334dca650e1c49a55e07543d7e777327fe65e7af45b1828d00089c8babdaa"
+    },
+    {
+      "bytes": 2731,
+      "path": "scripts/20260711T120831_build_package.py",
+      "sha256": "2a653720cd99a95a1b56481682c80c7667f321a03d7c7f139a1adbdfd885ee52"
+    },
+    {
+      "bytes": 3779,
+      "path": "scripts/20260711T120831_derive_factor.py",
+      "sha256": "ba8dd25b3671f9ae062880fa59f950ebb776b30a811f4495c680bd9fc5422878"
+    },
+    {
+      "bytes": 1113,
+      "path": "source_maps/20260711T120831_SOURCE_MAP.md",
+      "sha256": "522c24adce088e8b14e0e429c30d02b26cbeb51fe490098357daf77064c083d1"
+    },
+    {
+      "bytes": 61390,
+      "path": "trace/20260711T120831_boundary_transition_trace.jsonl",
+      "sha256": "da4b4d86a8e1f998a2c2f6fca6d2682b89882d81e2f2610a13282661ef0d0d42"
+    },
+    {
+      "bytes": 7,
+      "path": "trace/20260711T120831_derive_factor.log",
+      "sha256": "8e0002a418a827279a6306aa065d525f22ff451364cfe8974679e00ccc246502"
+    },
+    {
+      "bytes": 574,
+      "path": "trace/20260711T120831_factor_derivation_trace.jsonl",
+      "sha256": "444bc7ce74b7f393afc070c928f7f87a9203c7b81f1ba72236194f266c44aa5c"
+    }
+  ],
+  "hash_algorithm": "sha256",
+  "package": "p5-b3-v1_hierarchical-grammar-lift_20260711T120831",
+  "timestamp": "20260711T120831"
+}

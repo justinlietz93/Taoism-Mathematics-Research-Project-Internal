@@ -1,0 +1,7 @@
+{"claim": "q_b=(F_(b+1),F_(b+2))", "kind": "proved by induction", "step": 1}
+{"claim": "b_A=T_A", "kind": "floor crossing plus Fibonacci corridor", "step": 2}
+{"claim": "m_A=2J_A", "kind": "geometric sum identity", "step": 3}
+{"claim": "pi=lambda*j+beta-nu(q)", "kind": "state-internal definition", "step": 4}
+{"claim": "pi_next=2*pi+gamma-c", "kind": "exact commuting algebra", "step": 5}
+{"claim": "higher-order L criterion 3 fails", "kind": "independence test", "step": 6}
+{"claim": "hierarchy is count alignment only", "kind": "no refinement-preserving map", "step": 7}

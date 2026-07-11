@@ -1,0 +1,9 @@
+{
+  "D": 12,
+  "clean_QBL_seed_status": "HISTORICAL_DESCENDANT_ONLY",
+  "eigencharacter_identity": "chi_b(T_1 x)=zeta_D^b chi_b(x)",
+  "exact_checks": 144,
+  "operator": "T_1(x)=x+1 mod D",
+  "pass": true,
+  "single_cycle": true
+}

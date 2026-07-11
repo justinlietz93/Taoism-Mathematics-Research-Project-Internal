@@ -1,0 +1,79 @@
+{
+  "finite_regression_range": "A=0..12",
+  "finite_rows": [
+    {
+      "A": 0,
+      "T_A": 9,
+      "c_A": null
+    },
+    {
+      "A": 1,
+      "T_A": 27,
+      "c_A": 9
+    },
+    {
+      "A": 2,
+      "T_A": 61,
+      "c_A": 7
+    },
+    {
+      "A": 3,
+      "T_A": 130,
+      "c_A": 8
+    },
+    {
+      "A": 4,
+      "T_A": 269,
+      "c_A": 9
+    },
+    {
+      "A": 5,
+      "T_A": 545,
+      "c_A": 7
+    },
+    {
+      "A": 6,
+      "T_A": 1098,
+      "c_A": 8
+    },
+    {
+      "A": 7,
+      "T_A": 2205,
+      "c_A": 9
+    },
+    {
+      "A": 8,
+      "T_A": 4417,
+      "c_A": 7
+    },
+    {
+      "A": 9,
+      "T_A": 8842,
+      "c_A": 8
+    },
+    {
+      "A": 10,
+      "T_A": 17692,
+      "c_A": 8
+    },
+    {
+      "A": 11,
+      "T_A": 35392,
+      "c_A": 8
+    },
+    {
+      "A": 12,
+      "T_A": 70792,
+      "c_A": 8
+    }
+  ],
+  "scope": "induced pre-L domain-boundary custody factor",
+  "status": "PROVED",
+  "universal_symbolic_dependencies": {
+    "J_next_equals_2J_plus_6": true,
+    "factor_commutation_identity": true,
+    "fibonacci_pair_induction_surface_present": true,
+    "global_threshold_theorem_imported_as_accepted_input": true,
+    "m_A_equals_2J_A": true
+  }
+}

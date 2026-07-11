@@ -1,0 +1,10 @@
+{
+  "change_only_eigencharacters": "POSSIBLE_NOT_FORCED",
+  "change_successor": "POSSIBLE_NOT_FORCED",
+  "conjugate_successor": "POSSIBLE_NOT_FORCED",
+  "first_chronological_gap": "first B equivariance square alpha_B o F_B = S_B o alpha_empty",
+  "fixed_successor_other_object_changes": "HISTORICAL_V7C_NORMAL_FORM_ONLY",
+  "selected_clean_case": "NONE_DERIVED",
+  "status_line": "PRE_L_BQ_SUCCESSOR_RECURRENCE: NOT_YET_DERIVED",
+  "stronger_interpretation": "The native successor is best typed as a word-covariant successor system (C_t,S_t,alpha_t), whose coordinate normal form may be cyclic shift after a carrier chart is fixed. The historical fixed shift is not itself the clean custody recurrence."
+}

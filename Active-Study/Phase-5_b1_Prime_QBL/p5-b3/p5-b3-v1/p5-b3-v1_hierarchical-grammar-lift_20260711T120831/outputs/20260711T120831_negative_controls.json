@@ -1,0 +1,18 @@
+{
+  "alphabet_cardinality": {
+    "role_preserving_morphism": false,
+    "same_size": true
+  },
+  "altered_refinement_B2": {
+    "definition": "(u,v)->(v,u+2v)",
+    "fibonacci_corridor_preserved": false
+  },
+  "j_only_projection": {
+    "passes_commutation": false,
+    "residual": "c"
+  },
+  "raw_count_to_depth": {
+    "J_A_equals_6pA": true,
+    "active_depth_proved": false
+  }
+}

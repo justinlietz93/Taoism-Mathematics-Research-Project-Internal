@@ -1,0 +1,8 @@
+claim,evidence_class,status,reason
+Domain-0 doubled surface Z/12Z,SOURCE_DERIVED,SUPPORTED,N_0=6 and the clean doubled-orientation carrier rule gives local surface Z/(2N_0)=Z/12Z.
+first-L structural axis-block count 1 -> 2,SOURCE_DERIVED,SUPPORTED,Clean L freezes the completed axis and appends exactly one new active axis.
+newborn Domain-1 local doubled surface Z/24Z,SOURCE_DERIVED,SUPPORTED_AS_LOCAL_SURFACE_ONLY,N_1=12 and the doubled-orientation rule gives the newborn local surface Z/24Z; no integration law with the inherited surface is implied.
+first-L retained carrier Z/12Z x Z/24Z,CANDIDATE_FORMALIZATION,NOT_YET_DERIVED,Independence/direct-product structure is not stated by the clean L law.
+prefix-by-prefix doubled carrier address,SOURCE_DERIVED,NOT_YET_DERIVED,The clean source gives k and retained two-hand opposition but no address map alpha_t into Z/12Z.
+single retained carrier with two-block presentation,CANDIDATE_FORMALIZATION,POSSIBLE_NOT_SELECTED,Compatible with 1->2 structural blocks but not uniquely forced.
+coupled group extension at first L,CANDIDATE_FORMALIZATION,POSSIBLE_NOT_SELECTED,No extension class or incidence map is supplied.

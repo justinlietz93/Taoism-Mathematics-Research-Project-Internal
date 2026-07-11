@@ -1,0 +1,13 @@
+{
+  "candidate_constructions": [
+    "one global cycle",
+    "commuting factor successors",
+    "coupled group extension",
+    "block successor on one retained carrier"
+  ],
+  "first_missing_map": "pre-L address/successor covariance beginning at the first B, not Phi_L^S",
+  "reason": "The seed and every pre-L B/Q update remain untyped; no lawful S_before_L exists to extend.",
+  "selected": "NONE",
+  "status": "BLOCKED",
+  "status_line": "FIRST_L_SUCCESSOR_EXTENSION: BLOCKED"
+}

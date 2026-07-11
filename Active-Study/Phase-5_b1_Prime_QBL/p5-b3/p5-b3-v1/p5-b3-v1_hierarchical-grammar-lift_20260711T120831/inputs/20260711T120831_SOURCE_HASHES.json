@@ -1,0 +1,18 @@
+{
+  "audit_zip": {
+    "path": "/mnt/data/p5-b2-v3_audit-package_20260711T114641.zip",
+    "sha256": "88fb12dc8f2290a637a26e45c70da4aa2f4432d202117131a169d5c2cc102be9"
+  },
+  "branch1": {
+    "path": "/mnt/data/QBL_CARRY_AFFINE_FOLLOWER_STRUCTURE_v5.md",
+    "sha256": "46996ac568f205d6a7cbb200a2c4108e77cec2b3e3b8e13a8aa5ffb854cba8ed"
+  },
+  "branch2": {
+    "path": "/mnt/data/QBL_GLOBAL_EXACT_THRESHOLD_BRIDGE_v2.md",
+    "sha256": "04eb66a2fe85b1b5cbdd3bfe8cd6cf426123124d51582b6f17bfb93f8b2603b9"
+  },
+  "orthad": {
+    "path": "/mnt/data/QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2(1).md",
+    "sha256": "f0f66790bf6da0b3fca9a400da36ff5879db4b3e861703ef3a309829a2af9962"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "affine_complexity": "p(n)=2^(n+1)-1",
+  "cf03_boundary": "active depth counts scales with new structure, not raw multiplicity",
+  "exact_alignment": "J_A=6*p(A)",
+  "qbl_boundary_positions": "J_A=6*(2^(A+1)-1)",
+  "refinement_preserving_map": null,
+  "status": "HIERARCHICAL DEPTH RECURRENCE: COUNT ALIGNMENT ONLY"
+}

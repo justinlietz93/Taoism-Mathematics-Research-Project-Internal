@@ -1,0 +1,135 @@
+Completed `p5-b3-v1`.
+
+[Full research document](sandbox:/mnt/data/QBL_HIERARCHICAL_GRAMMAR_LIFT_v1.md)
+
+[Reproducible experiment package](sandbox:/mnt/data/p5-b3-v1_hierarchical-grammar-lift_20260711T120831.zip)
+
+[Archive SHA-256 file](sandbox:/mnt/data/p5-b3-v1_hierarchical-grammar-lift_20260711T120831.zip.sha256)
+
+```text
+Document SHA-256:
+8e87b2b0dd6c991bc0d66b2eee51f6f8a4b6c736b96b268e0f51ce50f0dd0fab
+
+ZIP SHA-256:
+02b31cd1c48fdfd018bf93c9024ab2256db6e2bcfacde4a8035a13eb81d2e880
+```
+
+## Decisive result
+
+The affine grammar is an exact internal arithmetic factor of the induced pre-`L` QBL boundary-return dynamics:
+
+[
+\pi(S_A^-)
+==========
+
+\frac{\log 2}{\log\varphi},j_A
++
+\left(
+\frac{\log5}{2\log\varphi}-\frac32
+\right)
+-\nu(q_A)
+=========
+
+E_A.
+]
+
+Here (j_A) is the retained global phase-position index and (\nu(q_A)) is the cumulative primitive `B` count recovered from the retained Fibonacci pair. The map therefore does not merely read `A` and import the affine formula. The primitive law explicitly retains the pair, global position, and exact word history across `L`. 
+
+The boundary coordinates obey
+
+[
+j_{A+1}=2j_A+6,
+\qquad
+\nu(q_{A+1})=2\nu(q_A)+c_{A+1},
+]
+
+which gives
+
+[
+\pi(S_{A+1}^-)
+==============
+
+2\pi(S_A^-)+\gamma-c_{A+1},
+\qquad
+c_{A+1}\in{7,8,9}.
+]
+
+The global identification of the floor count with (T_A=\lceil y_A\rceil) supplies the exact all-domain bridge. 
+
+```text
+QBL-TO-AFFINE INTERNAL FACTOR MAP: PROVED
+FACTOR SCOPE: INDUCED PRE-L DOMAIN-BOUNDARY CUSTODY DYNAMICS
+EXACT ARITHMETIC FACTOR: PROVED
+```
+
+## Structural boundary
+
+There is no symbolwise map between `{B,Q,L}` and `{7,8,9}`. The first alphabet acts at each primitive tick; the second labels the excess refinement count across a complete domain-boundary return.
+
+The four-part higher-order `L` test gives:
+
+```text
+lower-layer saturation:       PASS
+completed-state retention:    PASS
+new independent extension:    FAIL
+same law resumes:             PASS
+```
+
+The carry is derived from two retained boundary states. It does not append a new independent coordinate or axis. Therefore:
+
+```text
+HIGHER-ORDER L IDENTITY: FALSE UNDER THE FOUR-PART CRITERION
+STRUCTURAL RECURRENCE WITHOUT IDENTITY: PROVED
+EXACT INTERNAL SELF-RECURRENCE: NOT PROVED
+```
+
+The stronger invariant is the boundary renormalization cocycle
+
+[
+(j,b,E)\longmapsto
+(2j+6,;2b+c,;2E+\gamma-c),
+]
+
+not the shared cardinality of the alphabets.
+
+## Hierarchy result
+
+The exact count alignment is
+
+[
+J_A=6(2^{A+1}-1)=6p(A).
+]
+
+But (p(A)) counts affine cylinders while (J_A) counts cumulative QBL phase positions. No canonical refinement-preserving map between those objects is currently derived. CF03 explicitly distinguishes active depth from raw multiplicity by counting scales at which genuinely new boundaries remain after coarser structure is removed.
+
+```text
+HIERARCHICAL DEPTH RECURRENCE: COUNT ALIGNMENT ONLY
+```
+
+The five-valued defect remains exactly a first-difference factor:
+
+[
+d_A=c_A-c_{A-1}\in{-2,-1,0,1,2},
+]
+
+not a five-coordinate retained object.
+
+## Package verification
+
+```text
+Manifest entries:              46
+Notebook cells passing:        12/12
+Figures emitted:               12
+Derivation script:             PASS
+Manifest verification:         PASS
+Clean archive rebuild:         PASS
+Byte-identical ZIP rebuild:    PASS
+LEAN SOURCE PRESENT; COMPILATION NOT VERIFIED
+```
+
+```text
+SPECIFIC-ORBIT EQUIDISTRIBUTION: NOT PROVED
+GAUGE/FQM MAP FROM d_A=±1: NOT YET DERIVED
+p5-b3 BRANCH STATUS: CLOSED
+```
+

@@ -1,0 +1,8 @@
+{
+  "NEWBORN_PRE_LATCH_AXIS_HISTORY": "ABSENT",
+  "Q_DEPTH_ZERO": "LAWFUL_VALUE_IN_V7E",
+  "V7E_AT_FIRST_AXIS_BIRTH": "INPUT_TYPING_NOT_ESTABLISHED",
+  "boundary_incidence_analogue": "POSSIBLE_RECONSTRUCTION_CLUE_REQUIRES_NEW_BIRTH_INCIDENCE_MAP",
+  "modern_pairing_or_transfer_authority": "NOT_LICENSED",
+  "reason": "The extractor accepts q=0, but its input is two axis histories that both preexist a shared latch. At the first clean L the newborn axis has no pre-latch history."
+}

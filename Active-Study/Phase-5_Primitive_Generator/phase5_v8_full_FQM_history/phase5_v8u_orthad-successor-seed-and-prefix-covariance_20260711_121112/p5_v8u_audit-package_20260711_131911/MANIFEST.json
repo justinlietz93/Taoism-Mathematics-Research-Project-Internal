@@ -1,0 +1,57 @@
+{
+  "timestamp": "20260711T131911",
+  "step_id": "p5_v8u",
+  "type": "audit-package",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 461,
+      "sha256": "df43fc6e56785e902575610222111089dd4e4406a3bbfb82564ab01ea42359a1"
+    },
+    {
+      "path": "inputs/ARCHITECTURE_DIAGRAM_CORRECTION_SHEET.md",
+      "bytes": 1515,
+      "sha256": "c97f4f050dfada0f97b3f401bff4d12dc5a00cb8c073fee2c5cc0117b70ff183"
+    },
+    {
+      "path": "inputs/ARCHITECTURE_DIAGRAM_REFERENCE.md",
+      "bytes": 1073,
+      "sha256": "ad7bfd66b0550fafeef1d31af09deb4ea5b8182b589ceeb6deba45266b215300"
+    },
+    {
+      "path": "inputs/QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md",
+      "bytes": 29584,
+      "sha256": "f0f66790bf6da0b3fca9a400da36ff5879db4b3e861703ef3a309829a2af9962"
+    },
+    {
+      "path": "outputs/p5_v8u_REALIGNMENT_REPRODUCTION_20260711T131911.json",
+      "bytes": 1338,
+      "sha256": "da8c7137ef758f46b4ef69676fbe510b72821f645037accfff5bcf1d5867727b"
+    },
+    {
+      "path": "p5_v8u_AUDIT_REPORT_20260711T131911.md",
+      "bytes": 9190,
+      "sha256": "4b5a897cb1814c9eccddfc47d6bfdb7a7fa1d742a633518887930f7674b9ff79"
+    },
+    {
+      "path": "p5_v8u_AUDIT_RESULTS_20260711T131911.json",
+      "bytes": 1382,
+      "sha256": "260b31670bfca5916bd65a3bd03e81c4242926abda6a0e3f4d7dbd744936bd0a"
+    },
+    {
+      "path": "p5_v8v_AGENT_INSTRUCTIONS_20260711T131911.md",
+      "bytes": 18103,
+      "sha256": "fad320188b4ea17cf17e0dd64a515476153a551ced983a78925d52d0d3ae4ebb"
+    },
+    {
+      "path": "scripts/20260711T131911_audit_v8u_realignment.py",
+      "bytes": 3273,
+      "sha256": "d698cd9e7a5b3e49492094bdfbf14a8ba9e9bdfa49c75aac00767a39716e9ee9"
+    },
+    {
+      "path": "source_maps/20260711T131911_SOURCE_MAP.md",
+      "bytes": 636,
+      "sha256": "220fb663d5d452ac68f90ab6998581b80064bf7fe3e33e7b75b4eb38d0ec9e65"
+    }
+  ]
+}

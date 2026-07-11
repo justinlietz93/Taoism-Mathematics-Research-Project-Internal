@@ -1,0 +1,10 @@
+{
+  "custody_role": "NOT_A_PRIMITIVE_AND_NOT_THE_EARLIEST_OPERATIONAL_GAP",
+  "first_L_local_surface_if_used": "Q(zeta_24) suffices for the newborn Z/24Z local cycle; integration remains open",
+  "minimum_splitting_field_for_a_12_cycle": "Q(zeta_12)",
+  "pre_L_carrier": "C_0=Z/12Z",
+  "representation_space": "K[C_0] with point basis delta_x or function space Fun(C_0,K)",
+  "status_line": "AMBIENT_SPECTRAL_MODULE_ROLE: REQUIRED_FOR_EIGENBASIS_AND_PAIRING_FORMALIZATION",
+  "successor_to_pairing_bridge": "requires a typed S_t action and a declared bilinear/sesquilinear eigenform; neither is clean-derived",
+  "unitary_fourier_normalization": "requires adjoining 1/sqrt(12), or using C"
+}

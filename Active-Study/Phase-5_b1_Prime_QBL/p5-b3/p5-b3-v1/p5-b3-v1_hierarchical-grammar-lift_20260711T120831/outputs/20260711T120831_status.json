@@ -1,0 +1,27 @@
+{
+  "certified_finitely": [
+    "boundary regressions A=0..12",
+    "notebook 12/12 PASS"
+  ],
+  "observed": [],
+  "open": [
+    "specific-orbit equidistribution",
+    "Orthad all-depth chart and transfer recurrence",
+    "gauge/FQM map from d_A=±1",
+    "canonical affine-cylinder to QBL-distinction refinement map"
+  ],
+  "proved_abstractly": [
+    "Fibonacci pair after b primitive refinements",
+    "cumulative floor B count equals T_A",
+    "m_A=2J_A",
+    "state-internal boundary factor map",
+    "commuting affine recurrence",
+    "defect is a five-valued first-difference factor"
+  ],
+  "status_lines": [
+    "QBL-TO-AFFINE INTERNAL FACTOR MAP: PROVED",
+    "HIGHER-ORDER L IDENTITY: FALSE UNDER THE FOUR-PART CRITERION",
+    "HIERARCHICAL DEPTH RECURRENCE: COUNT ALIGNMENT ONLY",
+    "p5-b3 BRANCH STATUS: CLOSED"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "step_id": "p5_v8u",
+  "verdict": "REVISE_BY_BRANCH_REALIGNMENT",
+  "adopt": {
+    "PRIMITIVE_FIRST_CROSSING": "PASS",
+    "FIRST_L_CARRY": "PASS",
+    "FIRST_NEXT_DOMAIN_B": "PASS",
+    "ACTIVE_AXIS_LOCAL_SHORTHAND": "PASS",
+    "DOMAIN0_Z12_LOCAL_SURFACE": "SUPPORTED",
+    "DOMAIN1_Z24_LOCAL_SURFACE": "SUPPORTED_LOCALLY_ONLY",
+    "FIRST_L_STRUCTURAL_AXIS_BIRTH": "1_TO_2"
+  },
+  "retain_downstream": [
+    "FIXED_Z12_SHIFT_IDENTITIES",
+    "Z12_TRANSLATION_GENERATOR_NONUNIQUENESS",
+    "SUCCESSOR_FIRST_FAILURE_AS_NEGATIVE_CONTROL"
+  ],
+  "retire_as_first_gap": [
+    "alpha_empty",
+    "S_empty",
+    "pre_L_successor_covariance",
+    "spectral_module_before_pairing_type",
+    "Phi_L_S_as_next_generative_target"
+  ],
+  "first_true_gap": "PRIMARY_PAIRING_TYPE_SEED_AND_PER_LETTER_MUTATION",
+  "dependency_order": [
+    "primitive_custody",
+    "primary_pairing",
+    "chart_restrictions",
+    "directed_transfers",
+    "fully_retained_lifted_state",
+    "terminal_projection"
+  ],
+  "z12_successor_status": "DOWNSTREAM_COORDINATE_QUESTION",
+  "p5_v8u_archive_sha256": "308270f7761d99e46ea32a44b29f7cf821f6fa74aacad5feb893a62ab9a21bc9",
+  "package_verification": {
+    "fresh_zip_verifier": "19_OF_20",
+    "failed_gate": "NO_CACHE_BYTECODE",
+    "archive_initial_cache_entries": 0,
+    "direct_pytest": "COLLECTION_FAILS_WITHOUT_SRC_PATH"
+  },
+  "next_step": "p5_v8v"
+}

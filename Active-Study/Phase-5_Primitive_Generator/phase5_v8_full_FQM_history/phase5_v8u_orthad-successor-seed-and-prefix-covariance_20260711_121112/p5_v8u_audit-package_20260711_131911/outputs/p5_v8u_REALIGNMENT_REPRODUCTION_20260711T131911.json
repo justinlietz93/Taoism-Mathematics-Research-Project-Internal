@@ -1,0 +1,41 @@
+{
+  "archive_sha256": "308270f7761d99e46ea32a44b29f7cf821f6fa74aacad5feb893a62ab9a21bc9",
+  "first_L_j": 7,
+  "first_L_k": 0,
+  "first_L_pair": [
+    55,
+    89
+  ],
+  "first_L_phase_quarters": 5,
+  "first_next_domain_pair": [
+    89,
+    144
+  ],
+  "first_true_gap": "PRIMARY_PAIRING_TYPE_SEED_AND_PER_LETTER_MUTATION",
+  "package_verification": {
+    "archive_initial_cache_entries": 0,
+    "direct_pytest": "COLLECTION_FAILS_MODULE_NOT_FOUND_WITHOUT_SRC_PATH",
+    "fresh_zip_verifier_failed_gate": "NO_CACHE_BYTECODE",
+    "fresh_zip_verifier_passed": 19,
+    "fresh_zip_verifier_total": 20
+  },
+  "pairing_first_artifacts_present": {
+    "B_pairing_mutation_doc": false,
+    "L_pairing_extension_doc": false,
+    "Q_pairing_mutation_doc": false,
+    "full_prefix_causal_trace": false,
+    "primary_pairing_seed_doc": false,
+    "primary_pairing_type_doc": false
+  },
+  "primitive_word": "BQQBBBQBQBBQBBL",
+  "primitive_word_pass": true,
+  "realignment_verdict": "RETYPE_P5_V8U_AS_PRIOR_NEGATIVE_CONTEXT",
+  "successor_first_markers": {
+    "findings_alpha_empty_open": true,
+    "results_first_gap_carrier_equivariance": true,
+    "status_native_successor_seed_open": true,
+    "status_primary_pairing_only_broad": true,
+    "successor_doc_first_missing_alpha": true
+  },
+  "z12_successor_status": "DOWNSTREAM_COORDINATE_QUESTION"
+}

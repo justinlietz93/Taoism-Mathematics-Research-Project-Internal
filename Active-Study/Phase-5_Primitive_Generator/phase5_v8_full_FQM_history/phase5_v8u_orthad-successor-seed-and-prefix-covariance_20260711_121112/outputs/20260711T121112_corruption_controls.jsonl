@@ -1,0 +1,10 @@
+{"control": "corrupt primitive word", "fired": true, "target_gate": "PRIMITIVE_BASELINE"}
+{"control": "promote product carrier to source derived", "fired": true, "target_gate": "CARRIER_CLAIM_DISPOSITIONS"}
+{"control": "promote historical shift to clean seed", "fired": true, "target_gate": "NATIVE_SUCCESSOR_SEED_HARD_STOP"}
+{"control": "mark first prefix successor derived", "fired": true, "target_gate": "PRE_L_PREFIX_COMPLETENESS"}
+{"control": "select fixed BQ law", "fired": true, "target_gate": "BQ_COVARIANCE_HARD_STOP"}
+{"control": "derive first L before pre-L closes", "fired": true, "target_gate": "FIRST_L_EXTENSION_BLOCKED"}
+{"control": "reject v7e because q zero", "fired": true, "target_gate": "V7E_FIRST_BIRTH_TYPING"}
+{"control": "make spectral module optional", "fired": true, "target_gate": "SPECTRAL_MODULE_ROLE"}
+{"control": "emit forbidden projection rows", "fired": true, "target_gate": "DOWNSTREAM_OUTPUTS_ABSENT"}
+{"control": "alter translation generator count", "fired": true, "target_gate": "D12_TRANSLATION_NONUNIQUENESS"}

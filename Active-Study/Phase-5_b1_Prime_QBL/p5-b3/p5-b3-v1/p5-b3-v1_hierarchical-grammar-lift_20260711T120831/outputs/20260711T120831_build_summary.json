@@ -1,0 +1,8 @@
+{
+  "derivation_script": "PASS",
+  "figures": 12,
+  "lean": "LEAN SOURCE PRESENT; COMPILATION NOT VERIFIED",
+  "notebook_code_cells": 12,
+  "notebook_pass_cells": 12,
+  "package": "p5-b3-v1_hierarchical-grammar-lift_20260711T120831"
+}

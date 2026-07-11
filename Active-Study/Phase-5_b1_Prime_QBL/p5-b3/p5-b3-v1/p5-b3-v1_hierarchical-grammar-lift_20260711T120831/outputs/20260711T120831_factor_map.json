@@ -1,0 +1,11 @@
+{
+  "beta": "0.17227593818455474617031912639443655392849942014208800622937327447832330629149551",
+  "boundary_position_recurrence": "j_next=2*j+6",
+  "commuting_law": "pi_next=2*pi+gamma-c",
+  "corridor_index_recurrence": "b_next=2*b+c",
+  "gamma": "8.4702446042907841279349898711327462608231254359622484836432771029207563998264467",
+  "lambda": "1.4404200904125564790175514995878638024586041426840560816454417295665132843529904",
+  "map": "pi(S)=lambda*j+beta-nu(q)",
+  "scope": "induced pre-L domain-boundary custody dynamics",
+  "status": "QBL-TO-AFFINE INTERNAL FACTOR MAP: PROVED"
+}

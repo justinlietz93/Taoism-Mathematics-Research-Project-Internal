@@ -1,0 +1,5 @@
+requirement,verdict,certificate
+lower descriptive layer saturates,PASS,B and Q blocked at S_A^-; L forced
+completed structure retained,PASS,"q, theta, W, b and Orthad state carried through L"
+new independent distinction/axis in affine grammar,FAIL,c is derived from two boundary counts/pairs; no coordinate appended
+same law resumes,PASS,same boundary recurrence for every A

@@ -1,0 +1,15 @@
+{
+  "audit_package_path": "/mnt/data/p5_v8t_audit-package_20260711_114108.zip",
+  "audit_package_sha256": "9bf7f9e55054627ec7615d38e9e105ebd926dcf5052fb2626aa9690a18ccf3e9",
+  "audit_reported_alternate_supplied_baseline_sha256": "804411ba67fe95974d167177bc46173ff83fd3be36ef59d9c13b7c7fa68fd351",
+  "disposition": "The exact local accepted baseline used here hashes to 02d43a...; the audit records a different supplied copy. Both values are preserved rather than conflated.",
+  "reused_paths": [
+    "outputs/20260711T105245_baseline_sanity.json",
+    "trace/20260711T105245_primitive_trace.jsonl",
+    "outputs/20260711T105245_fixed_cyclic_successor_witness_D12.json",
+    "outputs/20260711T105245_native_successor_source_inventory.csv",
+    "inputs/20260711T105245_QBL_PRIMITIVE_CUSTODY_AND_ORTHAD_LAW_v2.md"
+  ],
+  "used_baseline_path": "/mnt/data/p5_v8t_orthad-native-successor-and-carrier-gap_20260711_105245.zip",
+  "used_baseline_sha256": "02d43afacf23381020ef8aca42737d37aa1e10ac25d83480b3126b70be1d2d57"
+}
