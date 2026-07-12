@@ -1,0 +1,15 @@
+{
+  "phase": "Phase 5 v8a",
+  "sealed_before": "Phase 5 v8b Full FQM Classification Boundary Attack",
+  "phase5_can_close": false,
+  "reason": "Complete FQM classifier and Lean executable proof remain blocking.",
+  "closed_this_pass": [
+    "all-history confluence under explicit admissibility",
+    "cocycle compatibility for exact lens cochain T"
+  ],
+  "remaining_blockers": [
+    "complete FQM classifier boundary attack",
+    "Lean-verified executable all-history proof",
+    "analytic completion beyond finite carrier skeleton"
+  ]
+}

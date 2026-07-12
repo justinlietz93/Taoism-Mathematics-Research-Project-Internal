@@ -1,0 +1,12 @@
+{
+  "derivation_gap": "The primary source fixes pairing-first direction and per-primitive duties, but explicitly leaves exact chart-map recurrence as a formalization obligation.",
+  "observed_ticks": 16,
+  "observed_word_prefix": "BQQBBBQBQBBQBBLB",
+  "omega_minus": null,
+  "omega_plus": null,
+  "primary_pairing": null,
+  "retained_axes": 2,
+  "status": "ORTHAD_CHART_RECURRENCE_NOT_YET_DERIVED",
+  "transfer_minus_to_plus": null,
+  "transfer_plus_to_minus": null
+}

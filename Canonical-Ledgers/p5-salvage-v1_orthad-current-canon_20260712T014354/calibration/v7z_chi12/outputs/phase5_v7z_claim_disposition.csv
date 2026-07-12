@@ -1,0 +1,6 @@
+claim,status,basis
+concrete_mock_theta_fqm_matching,CLOSED_POSITIVE,"A=Z/12Z, q(r)=r^2/24, v_chi=chi12; normalized Fourier fixes v_chi and T phase is constant on support."
+shadow_residual_channel_field_comparison,CLOSED_POSITIVE,"Depth 3-6 channel fields match support, chi12 sign, fractional exponent, magnitude cursor, spacing, and lap antisymmetry without scalar cargo."
+scalar_shadow_residual_carried_by_state,CLOSED_NEGATIVE,"Retained state carries cursor, seat, latch, lap orientation, and channel fields only."
+mod6_carrier_sufficient,CLOSED_NEGATIVE,n=1 and n=7 collide mod6 but require opposite chi12 signs.
+analytic_completion_beyond_finite_skeleton,DEFERRED_OUT_OF_PHASE,Finite FQM skeleton is closed here; analytic q-series completion remains later theorem surface.

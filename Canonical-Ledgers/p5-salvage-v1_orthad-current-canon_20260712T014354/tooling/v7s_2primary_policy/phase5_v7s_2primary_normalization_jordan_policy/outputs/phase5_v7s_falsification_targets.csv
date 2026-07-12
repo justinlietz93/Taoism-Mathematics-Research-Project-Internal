@@ -1,0 +1,6 @@
+target,falsifier
+gauge_invariance,Find legal generator/basis change with different normalized key.
+U_V_separation,Find isometry between policy U_k and V_k with same admitted invariants.
+oddity_policy,"Find A(2^k,t) and A(2^k,t_prime) with same t mod 8 but provably nonisometric under accepted gauge law."
+radical_gate,A nontrivial radical form passes as nondegenerate.
+Orthad_handoff,A T-derived module changes symbol under legal trace rewrite.

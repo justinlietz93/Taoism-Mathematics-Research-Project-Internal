@@ -1,0 +1,2 @@
+old_v8l_global_pass,old_v8l_failed_declared_gates,v8m_global_pass_rule,v8m_global_pass
+true,2,AND(declared gates),False

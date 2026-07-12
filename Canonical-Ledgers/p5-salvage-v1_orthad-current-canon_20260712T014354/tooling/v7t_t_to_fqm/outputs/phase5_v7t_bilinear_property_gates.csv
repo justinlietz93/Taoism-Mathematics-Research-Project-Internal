@@ -1,0 +1,41 @@
+case,gate,measured,threshold,pass
+axis_BQ_latch,C symmetric,True,True,True
+axis_BQ_latch,radical gate executed,2,flag or zero,True
+axis_BQ_latch,2-primary policy applied,True,True,True
+axis_BQ_latch,canonical gauge key exists,109,>0,True
+axis_QB_latch,C symmetric,True,True,True
+axis_QB_latch,radical gate executed,2,flag or zero,True
+axis_QB_latch,2-primary policy applied,True,True,True
+axis_QB_latch,canonical gauge key exists,109,>0,True
+birth_then_cross_overlap_A,C symmetric,True,True,True
+birth_then_cross_overlap_A,radical gate executed,0,flag or zero,True
+birth_then_cross_overlap_A,2-primary policy applied,True,True,True
+birth_then_cross_overlap_A,canonical gauge key exists,109,>0,True
+birth_then_cross_overlap_B,C symmetric,True,True,True
+birth_then_cross_overlap_B,radical gate executed,0,flag or zero,True
+birth_then_cross_overlap_B,2-primary policy applied,True,True,True
+birth_then_cross_overlap_B,canonical gauge key exists,109,>0,True
+contact_two_latches,C symmetric,True,True,True
+contact_two_latches,radical gate executed,5,flag or zero,True
+contact_two_latches,2-primary policy applied,True,True,True
+contact_two_latches,canonical gauge key exists,168,>0,True
+edge_birth_causality,C symmetric,True,True,True
+edge_birth_causality,radical gate executed,0,flag or zero,True
+edge_birth_causality,2-primary policy applied,True,True,True
+edge_birth_causality,canonical gauge key exists,109,>0,True
+overlap_after_phase_shift,C symmetric,True,True,True
+overlap_after_phase_shift,radical gate executed,0,flag or zero,True
+overlap_after_phase_shift,2-primary policy applied,True,True,True
+overlap_after_phase_shift,canonical gauge key exists,109,>0,True
+readout_terminal,C symmetric,True,True,True
+readout_terminal,radical gate executed,2,flag or zero,True
+readout_terminal,2-primary policy applied,True,True,True
+readout_terminal,canonical gauge key exists,109,>0,True
+three_axis_alt_chain,C symmetric,True,True,True
+three_axis_alt_chain,radical gate executed,3,flag or zero,True
+three_axis_alt_chain,2-primary policy applied,True,True,True
+three_axis_alt_chain,canonical gauge key exists,168,>0,True
+three_axis_chain,C symmetric,True,True,True
+three_axis_chain,radical gate executed,3,flag or zero,True
+three_axis_chain,2-primary policy applied,True,True,True
+three_axis_chain,canonical gauge key exists,168,>0,True

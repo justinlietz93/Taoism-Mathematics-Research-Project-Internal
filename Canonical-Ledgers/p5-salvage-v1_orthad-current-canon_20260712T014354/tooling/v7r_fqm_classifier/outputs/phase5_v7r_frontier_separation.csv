@@ -1,0 +1,5 @@
+frontier,status,kill_gate
+2-primary normalization,OPEN,two isometric even-primary presentations classified apart
+finite quadratic module extraction from full T,OPEN,transition cocycle fails to produce nondegenerate q
+higher rank and mixed cyclic modules,OPEN,canonical classifier explodes or gives unstable keys
+Lean-verified automorphism orbit classifier,OPEN,Lean cannot prove canonical key invariant under basis change

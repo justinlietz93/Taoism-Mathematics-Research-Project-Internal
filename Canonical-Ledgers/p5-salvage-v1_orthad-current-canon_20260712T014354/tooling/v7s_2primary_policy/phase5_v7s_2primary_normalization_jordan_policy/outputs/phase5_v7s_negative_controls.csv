@@ -1,0 +1,22 @@
+control,k,input,expected,observed,pass
+even_t_cyclic_rejected,1,"A(2^1,2)",reject,reject,True
+even_t_cyclic_rejected,2,"A(2^2,2)",reject,reject,True
+even_t_cyclic_rejected,3,"A(2^3,2)",reject,reject,True
+even_t_cyclic_rejected,4,"A(2^4,2)",reject,reject,True
+even_t_cyclic_rejected,5,"A(2^5,2)",reject,reject,True
+even_t_cyclic_rejected,6,"A(2^6,2)",reject,reject,True
+U_V_not_collapsed,1,2^1_U^+ vs 2^1_V^-[Br=4],separate,separate,True
+U_V_not_collapsed,2,2^2_U^+ vs 2^2_V^+[Br=0],separate,separate,True
+U_V_not_collapsed,3,2^3_U^+ vs 2^3_V^-[Br=4],separate,separate,True
+U_V_not_collapsed,4,2^4_U^+ vs 2^4_V^+[Br=0],separate,separate,True
+U_V_not_collapsed,5,2^5_U^+ vs 2^5_V^-[Br=4],separate,separate,True
+U_V_not_collapsed,6,2^6_U^+ vs 2^6_V^+[Br=0],separate,separate,True
+raw_coefficient_not_invariant,4,t=1 vs t=9,same_normal_key,same_normal_key,True
+raw_coefficient_not_invariant,5,t=1 vs t=9,same_normal_key,same_normal_key,True
+raw_coefficient_not_invariant,6,t=1 vs t=9,same_normal_key,same_normal_key,True
+zero_bilinear_rejected,1,zero form on Z/2,reject_radical_nontrivial,reject_radical_nontrivial,True
+zero_bilinear_rejected,2,zero form on Z/4,reject_radical_nontrivial,reject_radical_nontrivial,True
+zero_bilinear_rejected,3,zero form on Z/8,reject_radical_nontrivial,reject_radical_nontrivial,True
+zero_bilinear_rejected,4,zero form on Z/16,reject_radical_nontrivial,reject_radical_nontrivial,True
+zero_bilinear_rejected,5,zero form on Z/32,reject_radical_nontrivial,reject_radical_nontrivial,True
+zero_bilinear_rejected,6,zero form on Z/64,reject_radical_nontrivial,reject_radical_nontrivial,True

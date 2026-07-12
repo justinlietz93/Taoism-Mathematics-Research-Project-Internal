@@ -1,0 +1,8 @@
+control_id,name,mutation,expected_failure,observed,pass
+N01,mutate_single_overlap_delta,Change one overlap transition delta after cocycle admission,canonical key changes or cocycle gate fails,rejected,True
+N02,collapse_basis_before_classifier,Compare raw C matrices without gauge normalization,coordinate-demotion gate rejects invariant claim,rejected,True
+N03,remove_latch_birth,Delete L record before O transition,birth/support admissibility fails,rejected,True
+N04,force_radical_zero_matrix,Set all pair couplings to zero in rank > 1,radical gate rejects,rejected,True
+N05,skip_2primary_policy,Classify even carrier without A/U/V policy,2-primary gate rejects,rejected,True
+N06,illegal_axis_swap,Swap dependent same-edge transition records,trace rewrite gate rejects,rejected,True
+N07,terminal_R_mutates_module,Let terminal readout alter D or C,projection gate rejects,rejected,True

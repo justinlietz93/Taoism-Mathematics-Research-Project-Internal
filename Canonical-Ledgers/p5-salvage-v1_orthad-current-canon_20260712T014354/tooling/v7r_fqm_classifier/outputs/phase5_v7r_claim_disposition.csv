@@ -1,0 +1,6 @@
+claim,status,evidence
+"raw tensor C is coordinate presentation, not invariant",SUPPORTED,gauge transforms change matrix while canonical key is stable
+small rank-2 finite quadratic/bilinear modules can be classified up to isometry by canonical orbit key,SUPPORTED_ON_SWEEP,all gauge-pair checks passed
+degenerate forms must be rejected before classifier admission,SUPPORTED,radical-size negatives rejected
+2-primary sector needs explicit normalization policy,NEEDS_POLICY,"even N classes tagged, not canonically decomposed into Jordan symbols"
+complete arbitrary QBL history classification is closed,NOT_CLOSED,classifier target exists but full T->FQM extraction still pending

@@ -1,0 +1,7 @@
+claim,status,note
+all_history_confluence_defined_admissible_system,CLOSED_POSITIVE_CONDITIONAL,"Under the explicit support-derived independence axioms, every finite admissible history has a unique Foata/trace normal form."
+cocycle_compatibility_all_compiled_histories,CLOSED_POSITIVE_CONDITIONAL,"When T is exact lens cochain T_ab=lambda_b-lambda_a, all chart triangles satisfy cocycle identity."
+legal_rewrite_preserves_transition_signature,CLOSED_POSITIVE,All tested critical pairs and random legal rewrites preserve retained signature and cocycle class.
+illegal_rewrite_rejection,CLOSED_POSITIVE,"Same-support, birth-edge, and mutated-cocycle negatives are rejected."
+full_lean_verified_all_history_proof,BLOCKING_OPEN,Lean theorem surface included; local executable Lean proof remains final closure work.
+full_physical_orthad_completeness,BLOCKING_OPEN,"The proof is for the defined admissible retained-history system, not yet every possible physical implementation."

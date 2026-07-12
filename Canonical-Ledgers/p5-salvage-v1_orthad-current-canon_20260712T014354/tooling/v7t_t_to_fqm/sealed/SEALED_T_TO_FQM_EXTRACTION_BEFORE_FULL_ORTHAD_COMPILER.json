@@ -1,0 +1,6 @@
+{
+  "sealed_before": "full_arbitrary_qbl_history_classification",
+  "allowed_claim": "tested native T records extract into FQM presentations with gauge keys",
+  "forbidden_claim": "full Phase 5 closure or full arbitrary history classification",
+  "summary_sha256": "595b651a597937b31521ce9b0886d05dca881d263b1994c622796577dc5cddf7"
+}

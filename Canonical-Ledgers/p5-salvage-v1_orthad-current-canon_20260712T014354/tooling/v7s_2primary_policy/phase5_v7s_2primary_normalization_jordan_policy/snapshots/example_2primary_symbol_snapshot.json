@@ -1,0 +1,25 @@
+{
+  "example": "A(2^4,1) raw coefficient compared to A(2^4,9)",
+  "raw_coefficients": [
+    1,
+    9
+  ],
+  "normalized_keys": [
+    [
+      "2-primary",
+      "odd-cyclic",
+      4,
+      1,
+      1
+    ],
+    [
+      "2-primary",
+      "odd-cyclic",
+      4,
+      1,
+      1
+    ]
+  ],
+  "same_normal_key": true,
+  "meaning": "Raw coefficient differs; normalized 2-primary oddity key agrees."
+}

@@ -1,0 +1,13 @@
+{
+  "phase": "Phase 5 v7s",
+  "sealed_before": "T_to_FQM_full_extraction_and_complete_Jordan_classifier",
+  "policy_locked": [
+    "coordinate demotion",
+    "2-primary split",
+    "odd cyclic t mod 8 oddity",
+    "U/V separation",
+    "Brown invariant",
+    "radical rejection"
+  ],
+  "timestamp_utc": "2026-06-25T20:49:46.960721+00:00"
+}

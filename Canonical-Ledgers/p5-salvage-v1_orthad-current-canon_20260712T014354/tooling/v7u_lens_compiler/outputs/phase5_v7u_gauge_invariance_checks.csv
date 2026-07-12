@@ -1,0 +1,8 @@
+case,check,pass
+rank3_mixed,axis_permutation,True
+rank4_mixed,axis_permutation,True
+rank5_prime,axis_permutation,True
+rank6_large,axis_permutation,True
+rank8_large,axis_permutation,True
+rank10_large,axis_permutation,True
+rank12_large,axis_permutation,True

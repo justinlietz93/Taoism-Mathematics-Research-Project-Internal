@@ -1,0 +1,29 @@
+{
+  "timestamp": "20260712T014354",
+  "package_rows": 65,
+  "primary_class_counts": {
+    "E": 4,
+    "D": 6,
+    "B": 20,
+    "C": 23,
+    "A": 11,
+    "F": 1
+  },
+  "source_archives": [
+    {
+      "name": "Phase-5_v1-v6.zip",
+      "sha256": "5e2deb0f2483f1c254806040167fb323e5f70d329c465efaceaa7b1c5fa731ab",
+      "entries": 670
+    },
+    {
+      "name": "phase5_v7_closure_and_orientation.zip",
+      "sha256": "619caacba9a1193a16745e8f28b3b44818d764d5421d1ed3215779619b5ed81e",
+      "entries": 1394
+    },
+    {
+      "name": "phase5_v8_full_FQM_history.zip",
+      "sha256": "de2e8ecad65886c1e18fe5455313f66657716b1d97766475ea2581db69c1077c",
+      "entries": 2138
+    }
+  ]
+}

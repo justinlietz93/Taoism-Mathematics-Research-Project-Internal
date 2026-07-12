@@ -1,0 +1,6 @@
+item,status,next_gate
+full_Nikulin_Conway_Sloane_2_adic_classification,open,implement full oddity fusion and sign walking for arbitrary 2-primary symbols
+mixed_prime_decomposition,open,factor arbitrary finite module into p-primary components before symbol comparison
+T_to_FQM_extraction,open,convert native transition records to FQM presentations and feed classifier
+Lean_verified_classifier,open,prove generator-orbit preservation and radical rejection in Lean
+large_rank_orbit_scaling,open,replace brute force with canonical invariants and Smith normal form

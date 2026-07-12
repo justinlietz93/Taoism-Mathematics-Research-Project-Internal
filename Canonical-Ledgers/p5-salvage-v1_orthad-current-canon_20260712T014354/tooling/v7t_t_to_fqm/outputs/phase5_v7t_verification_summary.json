@@ -1,0 +1,19 @@
+{
+  "phase": "Phase 5 v7t",
+  "title": "T-to-FQM Extraction from Native Orthad Transition Records",
+  "status": "T_TO_FQM_EXTRACTION_SUPPORTED_ON_NATIVE_TRANSITION_RECORD_FIXTURE",
+  "global_pass": true,
+  "phase5_closed": false,
+  "transition_cases": 10,
+  "transition_records_processed": 24,
+  "module_presentations": 10,
+  "property_gates": 40,
+  "property_gates_passed": 40,
+  "gauge_checks": 10,
+  "gauge_checks_passed": 10,
+  "negative_controls": 7,
+  "negative_controls_passed": 7,
+  "unique_fqm_keys": 5,
+  "nondegenerate_cases": 4,
+  "main_verdict": "Native transition records now feed a finite quadratic module presentation and 2-primary-normalized gauge key; raw C remains coordinate projection."
+}

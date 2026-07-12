@@ -1,0 +1,185 @@
+{
+  "fresh_boundary": {
+    "crossing_word": "BQQBBBQBQBBQBBL",
+    "first_next_domain_pair": [
+      89,
+      144
+    ],
+    "first_next_domain_primitive": "B",
+    "first_next_domain_word": "BQQBBBQBQBBQBBLB",
+    "floor_pair": [
+      55,
+      89
+    ],
+    "floor_product": 4895,
+    "floor_reached_before_l": true,
+    "phase_at_boundary": "i",
+    "phase_quarters_at_boundary": 5,
+    "post_l_A": 1,
+    "post_l_j": 7,
+    "post_l_k": 0,
+    "post_l_pair": [
+      55,
+      89
+    ],
+    "post_l_phase_label": "i",
+    "post_l_phase_quarters": 5,
+    "q_steps": 5
+  },
+  "gates": [
+    {
+      "declared_status": "PASS",
+      "detail": "final seal is verified after MANIFEST.json regeneration",
+      "gate": "MANIFEST_INTEGRITY",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "ok",
+      "gate": "REQUIRED_EVIDENCE_FILES",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "observed=16 expected=16",
+      "gate": "TRACE_ROW_COUNT",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "step_ids=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+      "gate": "TRACE_UNIQUE_STEP_INDEX",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "prefixes must be unique and equal executed primitive prefixes",
+      "gate": "TRACE_UNIQUE_COMPLETE_PREFIXES",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "ok",
+      "gate": "NO_INJECTED_FLOOR_OR_LAP_FIELDS",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "trace equals a fresh source execution",
+      "gate": "TRACE_RECOMPUTES_FROM_SOURCE",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "capacity and available positions recomputed from A,j",
+      "gate": "CAPACITY_AND_DOMAIN_SIZE_DERIVED",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "phase labels match phase_quarters modulo four",
+      "gate": "PHASE_LABEL_DERIVED_FROM_Q_COUNT",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "boundary JSON equals fresh source summary",
+      "gate": "BOUNDARY_EVIDENCE_RECOMPUTED",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "observed=BQQBBBQBQBBQBBL",
+      "gate": "EXACT_FIRST_CROSSING_WORD",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "L occurs only from floor_reached predicate; FLOOR is absent from word",
+      "gate": "FLOOR_IS_PREDICATE_ONLY",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "pair=[55, 89] q_steps=5 phase=i",
+      "gate": "FLOOR_PAIR_AND_Q_PHASE",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "post_l_pair=[55, 89]",
+      "gate": "POST_L_PAIR_CARRY",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "post_l_phase_quarters=5",
+      "gate": "POST_L_PHASE_CARRY",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "A=1 k=0 j=7",
+      "gate": "POST_L_LOCAL_POSITION_RESET_ONLY",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "primitive=B pair=[89, 144]",
+      "gate": "FIRST_NEXT_DOMAIN_B",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "statuses={'GAUGE_FQM_WEIL_DESCENT': 'NOT_RUN', 'ORTHAD_CAUSAL_PROJECTION': 'NOT_RUN', 'ORTHAD_CHART_RECURRENCE': 'NOT_YET_DERIVED', 'POST_L_CARRY': 'PASS', 'PRIMITIVE_FIRST_CROSSING': 'PASS'}",
+      "gate": "STATUS_LINES_SEPARATE",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "all chart objects remain absent under explicit NOT_YET_DERIVED status",
+      "gate": "ORTHAD_RECURRENCE_HARD_STOP",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "ok",
+      "gate": "NO_UNDERIVED_MATRIX_EVIDENCE",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "no projection evidence exists and guard is NOT_RUN",
+      "gate": "PROJECTION_REFUSES_UNDERIVED_ORTHAD",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "projection is NOT_RUN; any channel evidence is forbidden until recurrence is derived",
+      "gate": "UNIQUE_CHANNEL_ADDRESS_GUARD",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "ok",
+      "gate": "LIVE_SOURCE_LEXEME_BOUNDARIES",
+      "passed": true
+    },
+    {
+      "declared_status": "PASS",
+      "detail": "word=BQQBBBQBQBBQBBL",
+      "gate": "PRIMITIVE_ALPHABET_ONLY",
+      "passed": true
+    }
+  ],
+  "orthad_boundary_status": "ORTHAD_CHART_RECURRENCE_NOT_YET_DERIVED",
+  "run_stamp": "20260711_072509",
+  "statuses": {
+    "GAUGE_FQM_WEIL_DESCENT": "NOT_RUN",
+    "ORTHAD_CAUSAL_PROJECTION": "NOT_RUN",
+    "ORTHAD_CHART_RECURRENCE": "NOT_YET_DERIVED",
+    "POST_L_CARRY": "PASS",
+    "PRIMITIVE_FIRST_CROSSING": "PASS"
+  },
+  "verified": true
+}

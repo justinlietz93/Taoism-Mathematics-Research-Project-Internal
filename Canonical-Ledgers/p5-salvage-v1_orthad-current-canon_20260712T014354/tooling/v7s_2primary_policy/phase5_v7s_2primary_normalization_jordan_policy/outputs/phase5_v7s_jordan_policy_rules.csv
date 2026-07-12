@@ -1,0 +1,9 @@
+rule_id,name,statement
+R1,Coordinate demotion,Raw matrices and raw c_ij entries are coordinate presentations only; compare normalized Jordan-symbol/gauge keys.
+R2,2-primary split,Separate 2-primary components before odd-prime or mixed-module comparison.
+R3,Odd cyclic 2-block,"For A(2^k,t), require t odd and normalize by t mod 8 plus Brown invariant."
+R4,Even rank-2 2-block,Use explicit U/V block tags with exponent 2^k and Brown invariant; do not collapse U and V by rank/order alone.
+R5,Direct sum symbol,Sort block symbols by exponent/type/oddity and record additive Brown invariant mod 8.
+R6,Radical rejection,Reject forms with nontrivial radical before gauge classification.
+R7,Gauge invariance,Generator changes and basis permutations must preserve normalized symbol key.
+R8,Orthad handoff,T-derived finite modules enter classifier only after transition/cocycle admissibility gates pass.

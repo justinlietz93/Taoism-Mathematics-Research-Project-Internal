@@ -1,0 +1,6 @@
+claim_id,claim,status,gate
+C1,2-primary classification requires a separate normalization policy.,SUPPORTED,2-primary blocks normalized with odd/even tags and Brown invariant.
+C2,Raw coefficient or matrix equality is not a valid invariant criterion.,SUPPORTED,t=1 and t=9 raw-different blocks normalize together when gauge-equivalent.
+C3,Odd cyclic blocks require oddity/t mod 8 handling.,SUPPORTED,generator-orbit sweep preserves normalized key.
+C4,Even U/V rank-2 blocks must remain separated.,SUPPORTED,U/V non-collapse negative controls.
+C5,The policy closes complete finite quadratic module classification.,NOT_CLAIMED,mixed cyclic and full Jordan classification still frontier.

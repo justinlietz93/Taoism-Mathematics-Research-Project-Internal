@@ -1,0 +1,11 @@
+{
+  "sealed_before": "Phase 5 v7z",
+  "closed_in_v7y": [
+    "asymmetric corridor / arbitrary start ladder",
+    "arbitrary 1/n and asymmetric coprime starts"
+  ],
+  "not_closed": [
+    "mock-theta FQM matching",
+    "all-history confluence + cocycle proof"
+  ]
+}

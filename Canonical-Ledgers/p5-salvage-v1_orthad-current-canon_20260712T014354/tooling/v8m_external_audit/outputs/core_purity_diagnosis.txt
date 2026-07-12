@@ -1,0 +1,5 @@
+{"case": "rank5_prime", "radical_size": 4, "q_on_radical_xM": [0, 16], "M": 32, "radical_pure": false, "nonsummand_witness": {"vector": [0, 2, 2, 0, 8], "n": 2}, "verdict": "NON-SUMMAND RADICAL (filtration route required)"}
+{"case": "rank6_large", "radical_size": 8, "q_on_radical_xM": [0, 16], "M": 32, "radical_pure": false, "nonsummand_witness": {"vector": [0, 0, 0, 0, 4, 4], "n": 2}, "verdict": "NON-SUMMAND RADICAL (filtration route required)"}
+{"case": "rank8_large", "radical_size": 64, "q_on_radical_xM": [0], "M": 32, "radical_pure": false, "nonsummand_witness": {"vector": [0, 0, 0, 0, 0, 4, 0, 4], "n": 2}, "verdict": "NON-SUMMAND RADICAL (filtration route required)"}
+{"case": "rank10_large", "radical_size": 256, "q_on_radical_xM": [0], "M": 32, "radical_pure": false, "nonsummand_witness": {"vector": [0, 0, 0, 0, 0, 4, 0, 4, 0, 0], "n": 2}, "verdict": "NON-SUMMAND RADICAL (filtration route required)"}
+{"case": "rank12_large", "radical_size": 2048, "q_on_radical_xM": [0, 16], "M": 32, "radical_pure": false, "nonsummand_witness": {"vector": [0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 4, 0], "n": 2}, "verdict": "NON-SUMMAND RADICAL (filtration route required)"}

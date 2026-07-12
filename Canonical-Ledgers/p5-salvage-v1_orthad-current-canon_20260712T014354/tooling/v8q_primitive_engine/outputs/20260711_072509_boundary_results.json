@@ -1,0 +1,27 @@
+{
+  "crossing_word": "BQQBBBQBQBBQBBL",
+  "first_next_domain_pair": [
+    89,
+    144
+  ],
+  "first_next_domain_primitive": "B",
+  "first_next_domain_word": "BQQBBBQBQBBQBBLB",
+  "floor_pair": [
+    55,
+    89
+  ],
+  "floor_product": 4895,
+  "floor_reached_before_l": true,
+  "phase_at_boundary": "i",
+  "phase_quarters_at_boundary": 5,
+  "post_l_A": 1,
+  "post_l_j": 7,
+  "post_l_k": 0,
+  "post_l_pair": [
+    55,
+    89
+  ],
+  "post_l_phase_label": "i",
+  "post_l_phase_quarters": 5,
+  "q_steps": 5
+}

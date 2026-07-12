@@ -1,0 +1,6 @@
+id,falsifier,impact
+F1,Find legal support-derived adjacent swap that changes retained compiler signature.,Would reopen confluence.
+F2,Find admitted compiler transition T where a chart triangle has nonzero residual.,Would reopen cocycle compatibility.
+F3,Find two legal rewrite paths with different Foata normal forms.,Would break trace normal form.
+F4,Find terminal R mutating retained state.,Would break projection discipline.
+F5,Find all-history case outside support axioms admitted by QBL semantics.,Would force admissibility expansion.
